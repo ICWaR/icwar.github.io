@@ -1,0 +1,32 @@
+.card{
+  // box-shadow: 2px 2px 10px black;
+}
+.card-hover-shadow{
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.694);
+    transition: box-shadow .5s;
+}
+.card-hover-shadow:hover{
+ box-shadow: 20px 20px 20px black;
+}
+li{
+  position: relative;
+}
+li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-in;
+  // cursor:wait
+}
+li:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+

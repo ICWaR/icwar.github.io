@@ -1,0 +1,62 @@
+.scroll-container {
+  white-space: nowrap;
+  animation: my-animation 5s linear infinite;
+  font-size: large;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  transition: all 2s ease;
+  transform: scale(2);
+}
+.card-hover:hover{
+  box-shadow: -1px -1px 10px 1px black;
+}
+.card-hover{
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.421);
+}
+
+
+@keyframes my-animation {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.overlay-dark {
+  background-color: rgba(black, 0.4);
+}
+
+::ng-deep .p-carousel .p-carousel-content .p-carousel-prev,
+::ng-deep .p-carousel .p-carousel-content .p-carousel-next {
+
+
+}
+
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 212, 255, 0) 100%
+  );
+}
+.youtube-link-dynamic{
+  width:500px;
+   height:300px
+}
+
+@media(max-width: 768px) {
+  .youtube-link-dynamic{
+    width:250px;
+     height:150px
+  }
+}

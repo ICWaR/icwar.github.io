@@ -1,0 +1,159 @@
+<div id="carouselInterval" class="carousel slide h-75" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <ng-container *ngFor="let row of slides;index as i">
+      <button type="button" data-bs-target="#carouselIndicators" attr.data-bs-slide-to={{i}} [class]="i==0?'active':null" [attr.aria-current]='i==0?"current":null' [attr.aria-label]='"Slide "+(i+1)' ></button>
+    </ng-container>
+  </div>
+  <div class="carousel-inner">
+    <ng-container *ngFor="let row of slides;index as i">
+      <div [ngClass]="i==0?'carousel-item active':'carousel-item'" class="carousel-item" data-bs-interval="3000">
+        <img class="d-block w-100" [src]=row >
+        <!-- <div class="card-img-overlay overlay-dark"></div> -->
+      </div>
+    </ng-container>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- <div class="container-fluid m-1 bg-light py-5"> -->
+  <div class="d-flex justify-content-center bg-light row m-1 p-5 w-100" >
+    <p-carousel [value]="newsJsonProcessed"
+      [numVisible]="screenWidth<768?1:3"
+      [numScroll]="1"
+      [autoplayInterval]="screenWidth<768?2500:3000"
+      [circular]="true"
+      [showIndicators]="false"
+      [showNavigators]="true" >
+      <ng-template pTemplate="header">
+        <h3 class="text-center pb-3" >
+          <h1>Latest News</h1>
+        </h3>
+    </ng-template>
+    <ng-template let-News pTemplate="item">
+        <div class="card mx-4 card-hover my-2 btn border mx-1 text-capitalize text-success" type="button" data-bs-toggle="modal"   [attr.data-bs-target]='"#"+removeSpaceFromString(News.title)' style="background-color:#659DBD;border-color: #659DBD;">
+          <div class="card-body  text-white row" >
+            <h6 class="col-12 text-white" style="color: #659DBD;">{{News.date}}</h6>
+            <img style="width: 200px;height: 200px;" class="col  text-white m-1" src={{News.imgSrc}}  >
+            <div class="col-md-7 text-white col-sm-12" style="height: 200px;overflow-y: hidden;">{{News.title}}</div>
+            <button type="button" class="col btn  text-dark btn-light" >Click to Enlarge</button>
+          </div>
+        </div>
+      </ng-template>
+    </p-carousel>
+  </div>
+<!-- </div> -->
+
+<!-- <div class="d-flex flex-row flex-nowrap overflow-auto justify-content-center"> -->
+  <!-- <h3 style="text-align: center;">Highlights</h3> -->
+    <!-- <ng-container *ngFor="let slide of newsJson; let index=index" >
+      <div *ngIf="index<4" class="card-hover border border-1 border-dark border border-1 m-4"  >
+        <div class="card-body" style="height:150px;width:250px;">
+          <span class="card-title" style="-webkit-box-orient: vertical;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        ">{{slide.title}}</span>
+        </div>
+      </div>
+    </ng-container>
+  </div> -->
+  <!-- Chairman message -->
+<section class="container-fluid p-md-5 mt-sm-2 ">
+  <div class="row p-md-5">
+      <h1 class="col-12">Chairman's Message</h1>
+      <img src="../../../assets/images/Faculty/PRamamurthy.png" class=" float-end imgshadow col-md-3 col-sm-12" alt="">
+      <h5 class="col-md-9 col-sm-12 " style="white-space: pre-line;">
+        {{data.chairmanMsg}}
+      </h5>
+  </div>
+</section>
+    <!----------  ---------------------------- News Component ---------------------------  --------->
+<div class="container-fluid px-md-3 justify-content-center text-center p-md-5 bg-light" >
+  <h1 class="p-5">Upcoming Seminars</h1>
+  <div class="m-2 card-deck">
+    <p-carousel [value]="seminarsForDisplay"
+      [numVisible]="screenWidth<768?1:screenWidth<1200?2:4"
+      [numScroll]="1"
+      [autoplayInterval]="2500"
+      [circular]="true"
+      [showIndicators]="false"
+      [showNavigators]="true">
+      <ng-template let-Seminars pTemplate="item">
+        <div class="card mx-5">
+          <img [src] = "Seminars['imgSrc']" class="card-img-top hover-zoom " alt="...">
+          <div class="card-body row">
+            <div class="card-title"  style="vertical-align: middle;">
+                <h6 style="border:3px solid rgb(216, 193, 61);max-height: 80px;" class="col-12">{{Seminars['Date and Time']}}</h6>
+              <h6 class="col-12" style="-webkit-box-orient: vertical;
+              display: -webkit-box;
+              -webkit-line-clamp: 4;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            ">{{Seminars.title}}</h6>
+            </div>
+            <!-- <p class="card-text">{{News.abstract}}</p> -->
+          </div>
+        </div>
+      </ng-template>
+    </p-carousel>
+  </div>
+</div>
+    <!-- Vision and Mission Tab  -->
+<div class="p-5">
+  <h3 class="p-4">Vision and Mission</h3>
+  <h4 class="text-body line" style="line-height:40px">
+    The mission of ICWaR, is to be a global leader in providing integrated solutions for Water Hazard and Risk Management/ Risk Reduction to improve the quality of life of the Communities.
+    <br>
+    Our vision is to provide advanced science and technology solutions to the critical issues related to urban floods, riverine floods, water pollution, climate change impacts, and integrated water resources management at different levels with a multi-disciplinary approach, through;<br>
+    <ol>
+      <br>
+      <li>Assisting government organizations, the public sector and communities in battling the climate change impact on water resources.</li>
+      <li>Developing efficient and affordable water remediation techniques to ensure adequate clean drinking water.</li>
+      <li>Becoming a global leader in water research, by creating an interdisciplinary research environment and training next-generation water scientists.</li>
+      <li>Providing state of the art solutions to complex problems in water research such as urban floods, contamination due to heavy metals and watershed management by developing science-based technological solutions.</li>
+    </ol>
+  </h4>
+</div>
+<!-- OutReach -->
+<div class="row m-1 text-center d-flex p-5 justify-content-center align-items-center" style="background-color: rgba(168, 168, 164, 0.279);">
+  <h1 class="text-center p-5">Outreach</h1>
+  <div class="col-md-6  col-sm-12 " >
+  <h3>Floods in a changing climate</h3>
+  <div class="embed-responsive embed-responsive-4by3">
+    <iframe class="youtube-link-dynamic" src="https://www.youtube.com/embed/yTR90oWjb5M?si=MctWx8lFxxH-2u5L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="col-md-6 col-sm-12" >
+<h3>Vulnerability of Water Resources to Climate Change</h3>
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe class="youtube-link-dynamic" src="https://www.youtube.com/embed/2-tiGpm4Pao?si=2kycxSImpqsFujXt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
+</div>
+
+<ng-container *ngFor="let News of newsJsonProcessed">
+  <div class="modal" id={{removeSpaceFromString(News.title)}}>
+    <div class="modal-dialog modal-lg modal-fullscreen-md-down modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content p-4">
+      <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title">{{News.title}}</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <img style="max-height: 80vh;" src={{News.imgSrc}} >
+        <a class=" p-3" *ngIf="News.redirectTo!=''" href={{News.redirectTo}}><h5>{{News.redirectTo}}</h5></a>
+      <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>

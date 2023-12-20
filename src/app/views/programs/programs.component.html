@@ -1,0 +1,9 @@
+<div class="d-flex justify-content-center align-items-center bg-light " style="height: 80vh;">
+  <div class="gallery">
+    <ng-container *ngFor="let imgSrc of imgArr;index as index">
+      <span [ngStyle] = "{'--i':index}">
+        <img src={{imgSrc}} [alt]=index />
+      </span>
+    </ng-container>
+  </div>
+</div>

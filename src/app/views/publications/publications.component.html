@@ -1,0 +1,42 @@
+<div id="Main" class="row justify-content-center d-flex bg-light align-items-center w-100" style="max-width: 100vw;">
+
+  <div class="d-flex mt-5 " style="margin-left: 25vw;width: 100vw;">
+    <h1 class="float-start" >Publications</h1>
+  </div>
+  <hr>
+  <div  class="row d-flex mx-5 p-5">
+
+    <!-- Main Body Start 3 col division -->
+    <div class="col-md-3 card shadow d-none d-md-table-row py-5  mt-5" style="max-width: 20vw;max-height: fit-content;position: sticky;top:0">
+      <h3 class="text-center">Navigate</h3>
+      <div class="proffesorsSideNavHighlight ps-3" style="line-height: 3em;">
+        <ng-container *ngFor="let item of publications;index as facultyIndex">
+          <a (click)="updateHighlghtedProffName(facultyIndex)" [ngClass]="facultyIndex==0?'font-highlight':null" class="dropdown-item" [href]="'/publications#'+facultyIndex">{{item.name}}</a>
+        </ng-container>
+        <hr>
+    </div>
+    </div>
+
+
+
+    <table id='Publications' class="justify-content-center p-0 col-md-9 row col-sm-12 d-flex card shadow ms-2 border border-5" style="border-image: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%) 1;">
+      <div class="text-center row col-12 text-capitalize pt-3" style="height: 50px;background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%)">
+        <th class="col-3">Name</th>
+        <th class="col-4">Title</th>
+        <th class="col-4">Link</th>
+      </div>
+      <tbody>
+      <ng-container *ngFor="let item of publications;index as facultyIndex">
+        <ng-container *ngFor="let row of item.publicationsList;index as i">
+        <tr [id]="i==0?facultyIndex:null"  class="row" style="border: #414c8d solid 1px;border-image: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%) 1;">
+          <div class="border col-4" >{{item.name}}</div>
+            <div class="border col-4 " style="border-image: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%) 1;" >{{row.text}}</div>
+            <div class="border col-4" style="border-image: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%) 1;"><a [href]="row.links">{{row.links}}</a></div>
+          </tr>
+          </ng-container>
+        </ng-container>
+      </tbody>
+    </table>
+
+  </div>
+</div>
