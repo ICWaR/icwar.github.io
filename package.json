@@ -10,10 +10,10 @@
     "ng": "ng",
     "start": "ng serve --port 4200 --ssl true",
     "liveOnIntraNet": "ng serve --host 0.0.0.0",
-    "build": "ng build --configuration production --base-href \"/IISC-ICWaR/\" && cp 404.html dist/.",
+    "build": "ng build --configuration production --base-href \"/IISC-ICWaR/\" && cp 404.html docs/.",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "prodBuild":"npm run build && rm -r ../IISC-ICWaR-Prod/* && cp -r dist/* ../IISC-ICWaR-Prod/."
+    "prodBuild":"npm run build && rm -r ../IISC-ICWaR-Prod/* && cp -r docs/* ../IISC-ICWaR-Prod/."
   },
   "private": true,
   "dependencies": {
