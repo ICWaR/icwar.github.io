@@ -8,7 +8,7 @@ export const faculty = [
         phoneNo: "+91 080 2293 2627",
         email: "praveen@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/PRamamurthy.png",
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details: "He is the Chairperson at the Interdisciplinary Centre for Water Research (ICWaR) and Professor at the Department of Materials Engineering, Indian Institute of Science, Bengaluru. He obtained PhD from the University of Clemson. Prof. Praveen has been awarded with PROF SATISH DHAWAN AWARD FOR YOUNG ENGINEER. His research interests include Electroactive polymers, Nanocomposite, Organic nanoelectronics, and sensors. Area of polymer electronics like Schott key diode, FET, OPVD, and sensors, with a current focus on the elucidation of the structure-property relationship of polymers to the performance of the devices and functionalization of nanocomposites."
       },
     ],
   },
@@ -70,7 +70,7 @@ export const faculty = [
         phoneNo: "+ 91 80 2293 2641",
         email: "vvs@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/VVS.jpg",
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Technology Madras, Chennai. My research interests include Stochastic Surface Water Hydrology, Impact Assessment of Climate and Land-use/Land-cover Change on Hydrology of River Basins, Regionalization of Watersheds, and Hydrometeorological Monitoring Networks (to Predict Hydrological and meteorological Processes in Ungauged Basins), Regional Frequency analysis of Extreme Rainfall, Floods, and Droughts, Statistical Modelling of Hydroclimate Variables, Forecasting Streamflow and Floods in River Basins, Urban Stormwater Drains and Water Distribution Networks, Performance Evaluation and Breach Analysis of Dams."
       },
       {
         name: "Prof. Prosenjit Ghosh",
@@ -79,7 +79,7 @@ export const faculty = [
         phoneNo: "+91 80 2293 2599",
         email: "pghosh@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/pgosh.jpg",
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from Devi Ahiliya Vishwa Vidhyalaya, Indore. My research interests include CO2 evolution in the paleo-atmosphere; probing the soil carbonate archives, Reconstruction of the paleo-diet using the stable isotopes method, Understanding the extinction event in geological time, Carbon cycle in hydrosphere-atmosphere (Ocean, estuary, lakes, etc.), Stable isotope chemistry of atmospheric CO2 and carbon cycle, Application of doubly substituted CO2 isotopologues in carbonate Paleo-thermometry, Development of new isotopic standard for analyses of stable isotopes in air and solid samples."
       },
       {
         name: "Dr. Ramananda Chakrabarti",
@@ -88,7 +88,7 @@ export const faculty = [
         phoneNo: "+91 80 2293 3003",
         email: "ramananda@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/ramananda.jpg",
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from University of Rochester, USA. My research interests include Radiogenic and Non-Traditional Stable Isotopes, Proxy Development, Igneous, Sedimentary And Aqueous Geochemistry, Impact Cratering, and Cosmochemistry."
       },
       {
         name: "Dr Lakshminarayana Rao",
@@ -97,7 +97,7 @@ export const faculty = [
         phoneNo: "080 2293 2051",
         email: "narayana@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/lakshminarayanarao.jpg",
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from McGill University. My research interests include Plasma Technology, Plasma Gasification, Syngas Cleaning, and Enrichment."
       },
       {
         name: "Dr.Sanjeev Sambandan",
@@ -106,7 +106,7 @@ export const faculty = [
         phoneNo: "Tel: 080 2293  3196",
         email: "sanjiv@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/sanjeevs.jpg",
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Waterloo. My research interests include semiconductor physics, flexible electronics, Device Physics, and Integrated Circuits."
       },
       {
         name: "Dr. Thejna Tharammal",
@@ -115,7 +115,7 @@ export const faculty = [
         phoneNo: "",
         email: "thejnat@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/ThejnaT.jpg",
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details: "I am a DST Inspire Faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Bremen, Germany. My research interests include Past and Future Climate Changes, Climate Modelling, and Isotope Hydrology."
       },
       {
         name: "Dr. Soumita Boral ",
@@ -124,7 +124,7 @@ export const faculty = [
         phoneNo: "",
         email: "soumitab@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/SoumitaB.jpg",
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details: "I am a DST Inspire Faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Technology Kanpur, India. My research interests include Isotope Geochemistry, Critical zone biogeochemistry, Glacier-river-continent processes, Hydro-geochemical modelling."
       },
     ],
   },
@@ -138,7 +138,7 @@ export const faculty = [
         phoneNo: "+91 80 2293 3073",
         email: "venu@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/venugopal.jpg",
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Minnesota. My research interests include  Stochastic Hydrology, Space-time Structure and Scale-invariance of Precipitation, Precipitation Downscaling, Retrieval and Validation of remotely sensed Precipitation, and Cloud-resolving Models."
       },
       {
         name: "Nagesh Kumar D",
@@ -147,7 +147,7 @@ export const faculty = [
         phoneNo: "+91 80 2293 2666",
         email: "nagesh@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/DNageshKumar.jpg",
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Science, Bengaluru. My research interests include  Climate Hydrology, Optimization in Water Resource Systems, Multicriteria Decision Making (MCDM) in Water Resources, and Remote Sensing for Irrigation Management."
       },
       {
         name: "Prof. Mohan Kumar M. S.",
@@ -156,7 +156,7 @@ export const faculty = [
         phoneNo: "",
         email: "",
         imgSrc: "../../assets/images/Faculty/Mohan Kumar S.jpg",
-        details: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        details: "Retired"
       },
     ],
   }
@@ -655,14 +655,14 @@ export const officeStaff = [
         designation: "Administrative Assistant",
         phoneNo: "080-22932740",
         email: "akshathag@iisc.ac.in",
-        imgSrc: "../../assets/images/Office Staff/Akshatha.jpg",
+        imgSrc: "../../assets/images/Office Staff/Akshatha_GB.jpg",
       },
       {
         name: "Ashwini.N",
         designation: "Administrative Assistant",
         phoneNo: "080-22932740",
         email: "ashwinin@iisc.ac.in",
-        imgSrc: "../../assets/images/Office Staff/ashwini.jpg",
+        imgSrc: "../../assets/images/Office Staff/Ashwini_N.jpg",
       },
       {
         name: "Krishna Kumar Pandey",
@@ -673,12 +673,12 @@ export const officeStaff = [
       {
         name: "S Jayasheela",
         designation: "Office Helper",
-        imgSrc: "../../assets/images/Office Staff/JayasheelaS.jpg",
+        imgSrc: "../../assets/images/Office Staff/Jayasheela_S.jpg",
       },
       {
         name: "D Darshan",
         designation: "Office Boy",
-        imgSrc: "../../assets/images/Office Staff/DarshanD.jpg",
+        imgSrc: "../../assets/images/Office Staff/Darshan_D.jpg",
       },
     ],
   },
