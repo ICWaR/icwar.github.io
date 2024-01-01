@@ -1,6 +1,6 @@
 {
   "name": "ICWaR",
-  "version": "2.0.0",
+  "version": "(beta)1.0.0",
   "description": "WebApp for ICWaR IISC",
   "author": "Archit Bubber",
   "homepage": "http://www.icwar.iisc.ac.in",
@@ -10,11 +10,10 @@
     "ng": "ng",
     "start": "ng serve --port 4200 --ssl true",
     "liveOnIntraNet": "ng serve --host 0.0.0.0",
-    "build": "ng build --configuration production --base-href \"/IISC-ICWaR/\" && cp 404.html docs/.",
+    "build": "ng build --configuration production && cp 404.html docs/.",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "prodBuild":"npm run build && rm -r ../IISC-ICWaR-Prod/* && cp -r docs/* ../IISC-ICWaR-Prod/."
-  },
+    "test": "ng test"
+    },
   "private": true,
   "dependencies": {
     "@angular/animations": "^15.2.0",
