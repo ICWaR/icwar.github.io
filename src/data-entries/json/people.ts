@@ -1,6 +1,6 @@
 export const faculty = [
   {
-    Chairman: [
+    Chairperson: [
       {
         name: "Dr. Praveen C Ramamurthy",
         designation: "chairman",
@@ -13,7 +13,7 @@ export const faculty = [
     ],
   },
   {
-    Core: [
+    'Primary Faculty': [
       {
         name: "Dr. Rajarshi Das Bhowmik",
         designation: "Assistant Professor",
@@ -27,7 +27,7 @@ export const faculty = [
         name: "Dr. Bramha Dutt Vishwakarma",
         designation: "Assistant Professor",
         department: "ICWaR",
-        phoneNo: "",
+        phoneNo: "+91 80 2293 2870",
         email: "bramha@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/BDV.jpg",
         details: "I am a researcher with expertise in processing and interpreting Geodetic Earth observation data (such as GRACE satellite gravity fields, GNSS time-series, and so on). Interested in Signal processing, Geodesy, time-series analysis, and hydrology. My passion is to develop novel algorithms and provide solutions to complicated inter-disciplinary problems. I am excited by opportunities to learn new data-processing tools and to understand the Earth-system response to climate change."
@@ -35,7 +35,7 @@ export const faculty = [
     ],
   },
   {
-    'Associate and DST': [
+    'Associate Faculty': [
       {
         name: "Prof. P. P. Mujumdar",
         designation: "Associate Faculty",
@@ -108,6 +108,10 @@ export const faculty = [
         imgSrc: "../../assets/images/Faculty/sanjeevs.jpg",
         details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Waterloo. My research interests include semiconductor physics, flexible electronics, Device Physics, and Integrated Circuits."
       },
+    ],
+  },
+  {
+    'DST Inspire Faculty': [
       {
         name: "Dr. Thejna Tharammal",
         designation: "DST Insprire Faculty",
@@ -128,9 +132,8 @@ export const faculty = [
       },
     ],
   },
-
   {
-    Past: [
+    'Former Faculty': [
       {
         name: "Prof. Venugopal V.",
         designation: "Associate Faculty",
@@ -156,7 +159,7 @@ export const faculty = [
         phoneNo: "",
         email: "",
         imgSrc: "../../assets/images/Faculty/Mohan Kumar S.jpg",
-        details: "Retired"
+        details: ""
       },
     ],
   }
