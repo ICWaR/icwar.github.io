@@ -1,0 +1,116 @@
+<html>
+  <body>
+    <div id="notfound" class="bg-light">
+      <div class="notfound">
+      <div class="notfound-404">
+      <h1>Oops!</h1>
+      </div>
+      <h2>404 - Page not found</h2>
+      <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
+      <a href="/">Go To Homepage</a>
+      </div>
+      </div>
+
+      <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+      </script>
+      <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v2cb3a2ab87c5498db5ce7e6608cf55231689030342039" integrity="sha512-DI3rPuZDcpH/mSGyN22erN5QFnhl760f50/te7FTIYxodEF8jJnSFnfnmG/c+osmIQemvUrnBtxnMpNdzvx1/g==" data-cf-beacon="{&quot;rayId&quot;:&quot;7e7cb6180d199368&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2023.4.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+  </body>
+</html>
+<style>
+  #notfound {
+  position: relative;
+  height:100vh;
+  // background :url('https://img.freepik.com/premium-photo/blue-breaking-wave-with-funnel-bubbling-clear-water_124507-22421.jpg') no-repeat;
+  // background-size: cover;
+
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform:translate(-50%, -50%)
+}
+
+.notfound {
+  max-width: 410px;
+  width: 100%;
+  text-align:center
+}
+
+.notfound .notfound-404 {
+  height: 280px;
+  position: relative;
+  z-index:-1
+}
+
+.notfound .notfound-404 h1 {
+  font-family: montserrat, sans-serif;
+  font-size: 230px;
+  margin: 0;
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  // background: url('../../../assets/images/404_bg.jpg') no-repeat;
+  background: url('https://img.freepik.com/premium-photo/blue-breaking-wave-with-funnel-bubbling-clear-water_124507-22421.jpg') no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position:center;
+}
+
+.notfound h2 {
+  font-family: montserrat, sans-serif;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top:0
+}
+
+.notfound p {
+  font-family: montserrat, sans-serif;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top:0
+}
+
+.notfound a {
+  font-family: montserrat, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #0046d5;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 700;
+  -webkit-box-shadow: 0 4px 15px -5px #0046d5;
+  box-shadow:0 4px 15px -5px #0046d5
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 {
+      height:142px
+  }
+
+  .notfound .notfound-404 h1 {
+      font-size: 112px
+  }
+}
+
+</style>
