@@ -68,6 +68,34 @@ export const configurations = {
         "link":"/"
       },
       {
+        "name":"About",
+        "hasDropdown":true,
+        "dropdownStyle":constants['dropdown-style'],
+        "dropdownItems":[
+          {
+            "name":"History",
+            "link":"/about-us",
+            "hasSubDropdown":false
+          },
+          {
+            "name":"Program",
+            "link":"/program"
+          },
+          {
+            "name":"Infrastructure",
+            "link":"/centres-and-facilities"
+          },
+          {
+            'name':'Admissions',
+            'link':'/redirect_initiated',
+            'redirect':'https://iisc.ac.in/admissions/'
+          },{
+            'name':"Contact Us",
+            'link':'/contact-us'
+          }
+        ],
+      },
+      {
         "name":"People",
         "hasDropdown":true,
         "dropdownStyle":constants['dropdown-style'],
@@ -119,6 +147,14 @@ export const configurations = {
             "dropdownStyle":constants['dropdown-style'],
             "subDropdownItems":[
               {
+                "name":"Workshops",
+                "link":"/events/workshop-and-meetings"
+              },
+              {
+                "name":"Monsoon School",
+                "link":"/events/monsoon-school"
+              },
+              {
                 "name":"Seminars",
                 "link":"/events/workshop-and-meetings",
               },
@@ -126,14 +162,7 @@ export const configurations = {
                 "name":"Meetings",
                 "link":"/events/workshop-and-meetings"
               },
-              {
-                "name":"Outreach",
-                "link":"/event"
-              }]
-          },
-          {
-            "name":"Monsoon School",
-            "link":"/events/monsoon-school"
+              ]
           },
           {
             "name":"Student Seminar Series",
@@ -165,33 +194,6 @@ export const configurations = {
             "name":"Outreach",
             "link":"none"
           },
-        ],
-      },
-      {
-        "name":"About",
-        "hasDropdown":true,
-        "dropdownStyle":constants['dropdown-style'],
-        "dropdownItems":[
-          {
-            "name":"History",
-            "link":"/about-us"
-          },
-          {
-            "name":"Program",
-            "link":"/program"
-          },
-          {
-            "name":"Infrastructure",
-            "link":"/centres-and-facilities"
-          },
-          {
-            'name':'Admissions',
-            'link':'/redirect_initiated',
-            'redirect':'https://iisc.ac.in/admissions/'
-          },{
-            'name':"Contact Us",
-            'link':'/contact-us'
-          }
         ],
       },
       {
