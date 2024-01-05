@@ -119,10 +119,6 @@ export const configurations = {
             "dropdownStyle":constants['dropdown-style'],
             "subDropdownItems":[
               {
-                "name":"Workshops",
-                "link":"/event"
-              },
-              {
                 "name":"Seminars",
                 "link":"/events/workshop-and-meetings",
               },
@@ -130,7 +126,10 @@ export const configurations = {
                 "name":"Meetings",
                 "link":"/events/workshop-and-meetings"
               },
-             ]
+              {
+                "name":"Outreach",
+                "link":"/event"
+              }]
           },
           {
             "name":"Monsoon School",
