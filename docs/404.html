@@ -1,7 +1,8 @@
 <script type="text/javascript">
-  const params = new URLSearchParams(window.location.search);
-  const redirectTo = params.get("route");
-     window.location = '/?route='+redirectTo;
+  // const params = new URLSearchParams(window.location.search);
+  // const redirectTo = params.get("route");
+  console.log(window.location.pathname)
+     window.location = '/?route='+window.location.pathname;
 </script>
 <html>
   <body>
