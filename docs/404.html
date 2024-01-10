@@ -1,3 +1,8 @@
+<script type="text/javascript">
+  const params = new URLSearchParams(window.location.search);
+  const redirectTo = params.get("route");
+     window.location = '/?route='+redirectTo;
+</script>
 <html>
   <body>
     <div id="notfound" class="bg-light">
@@ -62,7 +67,7 @@
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  // background: url('../../../assets/images/404_bg.jpg') no-repeat;
+   /* background: url('../../../assets/images/404_bg.jpg') no-repeat; */
   background: url('https://img.freepik.com/premium-photo/blue-breaking-wave-with-funnel-bubbling-clear-water_124507-22421.jpg') no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
