@@ -298,11 +298,56 @@ export const researchStudents = [
         name: "Balaram Shaw" ,
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "MTech: NIT Calicut (Water Resources Engineering)" ,
-        'Name of Supervisors': "",
+        'Name of Supervisors': "Dr. Bramha Dutta Vishwakarma",
         'Research Topic': "",
         email: "balaramshaw@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/balaram.jpg",
       },
+      {
+        name: "Vemuri Harini" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "MTech (Civil Engineering), Indian Institute of Science, Bengaluru" ,
+        'Name of Supervisors': "Dr. Rajarshi Das Bhowmik",
+        'Research Topic': "",
+        email: "vemuriharini@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/Vemuri_Harini.jpg",
+      },
+      {
+        name: "Chethan V A" ,
+        'Degree Registered': "Ph.D in Engineering" ,
+        'Degree and Affiliation': "MTech in Remote Sensing and GIS with Water Resources Specialization, IIRS-ISRO, Dehradun" ,
+        'Name of Supervisors': "Dr. Bramha Dutta Vishwakarma",
+        'Research Topic': "",
+        email: "chethanv@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/Chetan_VA.jpg",
+      },
+      {
+        name: "Yuji Shigefuji" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "M. Engg.: University of Tsukuba, Watershed Conservation Engg. (2008)" ,
+        'Name of Supervisors': "Prof. M Sekhar",
+        'Research Topic': "",
+        email: "yujis@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/Yuji_Shigefuji.jpg",
+      },
+      {
+        name: "Vandana S" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "M.Sc. in Geoinformatics, TERI School of Advanced Studies (2022)" ,
+        'Name of Supervisors': "Dr. Bramha Dutta Vishwakarma",
+        'Research Topic': "",
+        email: "svandana@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/Vandana_S.jpg",
+      },
+      {
+        name: "Endurance Orobosa Eguavoen" ,
+        'Degree Registered': "Ph.D (Engg.) in Water Research" ,
+        'Degree and Affiliation': "M.Sc. Polymer Science and Engineering, Federal University of Technology Owerri Conservation Engg. (2008)" ,
+        'Name of Supervisors': "Prof. Praveen Ramamurthy and Prof. Krishna Sanjeev",
+        'Research Topic': "",
+        email: "enduranceo@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/Endurance_OE.jpg",
+      }
     ],
   },
 
@@ -325,7 +370,7 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "M.Tech: Government Engg. College, Thrissur, Water Resources and Hydroinformatics (2017)" ,
         imgSrc: "../../assets/images/Research/Reshma Mohan.jpg",
-      },
+      }
     ],
   }
 ];
@@ -414,14 +459,6 @@ export const postDoctoralScholars = [
   {
     Current: [
       {
-        name: "Dr. Gowri R" ,
-        designation: "Research Associate" ,
-        'Degree and Affiliation': "PhD, Department of Civil Engineering, IISc Bangalore (2022)" ,
-        project: "Advanced Research in Hydrology and Knowledge Dissemination",
-        email: "gowrir@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Post Doc/gowri-r.jpg",
-      },
-      {
         name: "Dr. Simranjeet Singh" ,
         designation: "DBT Fellow" ,
         'Degree and Affiliation': "Ph.D. Biotechnology" ,
@@ -430,28 +467,12 @@ export const postDoctoralScholars = [
         imgSrc: "../../assets/images/Post Doc/Simranjeet.jpg",
       },
       {
-        name: "Dr. Rajesh. R" ,
-        designation: "Research Associate III" ,
-        'Degree and Affiliation': "Ph.D. Department of Geology, Anna University (2012)" ,
-        project: "Advanced Research in Hydrology and Knowledge Dissemination",
-        email: "rajeshrajendran@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Post Doc/RajeshR.jpg",
-      },
-      {
         name: "Tabasum Rasool" ,
         designation: "Research Associate" ,
         'Degree and Affiliation': "Ph.D. (NIT, Srinagar)" ,
         project: "Development and application of a stochastic rainfall generator (SRG) to account for unprecedented rainfall events",
         email: "tabasumr@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/tabasumrasool.jpg",
-      },
-      {
-        name: "Dr. Abhinav Wadhwa" ,
-        designation: "Research Associate" ,
-        'Degree and Affiliation': "PhD, Centre for Disaster Mitigation and Management, VIT Vellore (2021)" ,
-        project: "National Supercomputing Mission",
-        email: "abhinavw@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Post Doc/AbhinavWadhwa.jpg",
       },
       {
         name: "Dr. Arindan Mandal" ,
@@ -470,14 +491,6 @@ export const postDoctoralScholars = [
         imgSrc: "../../assets/images/Post Doc/VenkateshB.jpg",
       },
       {
-        name: "Dr. Pushkar Sharma" ,
-        designation: "Post Doctoral Fellow" ,
-        'Degree and Affiliation': "PhD (IIT Bombay)" ,
-        project: "Understanding changes in water cycle at catchment scale due to human intervention and climate change",
-        email: "pushkars@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Post Doc/PushkarS.jpg",
-      },
-      {
         name: "Dr. Retinder Kour" ,
         designation: "Research Associate III" ,
         'Degree and Affiliation': "Ph.D. Department of Remote Sensing, BIT Mesra" ,
@@ -489,6 +502,26 @@ export const postDoctoralScholars = [
   },
   {
     Past: [
+      {
+        name: "Dr. Pushkar Sharma" ,
+        designation: "Post Doctoral Fellow" ,
+        imgSrc: "../../assets/images/Post Doc/PushkarS.jpg",
+      },
+      {
+        name: "Dr. Abhinav Wadhwa" ,
+        designation: "Research Associate" ,
+        imgSrc: "../../assets/images/Post Doc/AbhinavWadhwa.jpg",
+      },
+      {
+        name: "Dr. Rajesh. R" ,
+        designation: "Research Associate III" ,
+        imgSrc: "../../assets/images/Post Doc/RajeshR.jpg",
+      },
+      {
+        name: "Dr. Gowri R" ,
+        designation: "Research Associate" ,
+        imgSrc: "../../assets/images/Post Doc/gowri-r.jpg",
+      },
       {
         name: "Subir Paul" ,
         designation: "Research Associate" ,
@@ -575,15 +608,6 @@ export const projectStaff = [
         imgSrc: "../../assets/images/Project Staff/LikhithaP.jpg",
       },
       {
-        name: "Ms. Anu S Patil" ,
-        designation: "Project Associate II" ,
-        'Degree and Affiliation': "M.Tech by Research, Department of Water Resources and Ocean Engineering, NIT Surathkal (2019)" ,
-        project: "SERB-CRG Project",
-        email: "anupatil@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/Anu-S-Patil.jpg",
-      },
-
-      {
         name: "Gaddam Nagaraju" ,
         designation: "Project Associate" ,
         'Degree and Affiliation': "M.Sc. Ocean and Atmospheric Sciences, University of Hyderabad (2021)" ,
@@ -591,7 +615,6 @@ export const projectStaff = [
         email: "gaddamn@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Gaddam-Nagaraju.jpg",
       },
-
       {
         name: "Ms. P. N. Chandi Priya" ,
         designation: " Junior Research Fellow" ,
@@ -600,7 +623,6 @@ export const projectStaff = [
         email: "chandip@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/ChandiPriya.jpg",
       },
-
       {
         name: "Maya Raghunath Suryawanshi" ,
         designation: "Project Associate II" ,
@@ -609,16 +631,6 @@ export const projectStaff = [
         email: "mayas@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/MayaR.jpg",
       },
-
-      {
-        name: "Vandana S" ,
-        designation: "Project Associate 1" ,
-        'Degree and Affiliation': "M.Sc. in Geoinformatics, TERI School of Advanced Studies (2022)" ,
-        project: "Mapping Terrestrial Water Resources from Space (MATRA)",
-        email: "svandana@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/vandana.jpg",
-      },
-
       {
         name: "Nruthya K" ,
         designation: "Senior Project Associate" ,
@@ -627,10 +639,56 @@ export const projectStaff = [
         email: "nruthyak@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/nruthya-k.jpg",
       },
+      {
+        name: "Karthika K" ,
+        designation: "Project Associate" ,
+        'Degree and Affiliation': "M.Tech in Remote Sensing and GIS (Specialization: Marine and Atmospheric Science), IIRS Dehradun" ,
+        project: "National Supercomputing Mission",
+        email: "karthikak@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Karthika_K.jpg",
+      },
+      {
+        name: "Ananthula Rishika" ,
+        designation: "Project Associate" ,
+        'Degree and Affiliation': "M.Tech in Civil Engineering (Specialization: Water Resources and Environmental Engineering), IISc Bangalore (2023)" ,
+        project: "National Supercomputing Mission",
+        email: "ananthular@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Ananthula_Rishika.png",
+      },
+      {
+        name: "Ashlin Ann Alexander" ,
+        designation: "Research Associate" ,
+        'Degree and Affiliation': "Ph.D. in Water Resources Engineering (Thesis submitted), Indian Institute of Science, Bangalore" ,
+        project: "SERB-CRG project",
+        email: "ashlina@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Ashlin_Ann_Alexander.jpg",
+      },
+      {
+        name: "Ms. Preethi Alle" ,
+        designation: "Junior Research Fellow" ,
+        'Degree and Affiliation': "M.Tech in Water Resources Engineering, IIT Bhubaneswar (2021)" ,
+        project: "MHRD-STAR",
+        email: "preethialle@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Preethi_Alle.jpg",
+      },
     ],
   },
   {
     Past: [
+      {
+        name: "Ms. Anu S Patil" ,
+        designation: "Project Associate II" ,
+        'Degree and Affiliation': "M.Tech by Research, Department of Water Resources and Ocean Engineering, NIT Surathkal (2019)" ,
+        project: "SERB-CRG Project",
+        imgSrc: "../../assets/images/Project Staff/Anu-S-Patil.jpg",
+      },
+      {
+        name: "Vandana S" ,
+        designation: "Project Associate I" ,
+        'Degree and Affiliation': "M.Sc. in Geoinformatics, TERI School of Advanced Studies (2022)" ,
+        project: "Mapping Terrestrial Water Resources from Space (MATRA)",
+        imgSrc: "../../assets/images/Project Staff/vandana.jpg",
+      },
       {
         name: "Chandan Kumar" ,
         designation: "Project Associate" ,

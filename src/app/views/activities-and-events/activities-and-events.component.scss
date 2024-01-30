@@ -1,7 +1,29 @@
 .carousel-inner{
-  max-height: 60vh
+  max-height: 100vh
 }
 .bg-light{
   background-color: rgb(50, 48, 48);
   color: rgb(50, 48, 48);
 }
+.nav-link {
+  // display: inline-block;
+  position: relative;
+  // color: #0087ca;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #030303;
+  transform-origin: bottom left;
+  transition: transform 0.5s;
+}
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
