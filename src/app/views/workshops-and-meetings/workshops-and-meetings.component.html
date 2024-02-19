@@ -32,6 +32,7 @@
                 </ng-container>
               </div>
             </div>
+            <a href= {{item.link[0]}}>click here</a>
               <div class="w-50 my-5" style="height: 1px;background-color: black;"></div>
             </div>
       </ng-container>
@@ -41,15 +42,23 @@
       <ng-container *ngFor="let item of seminars.ICWaR_Guest_Seminar_Series;index as index">
           <div class="row card-bg shadow border border-1 mb-2 card col-12 border-bottom-3 border-1 border-dark d-flex justify-content-center p-5" >
             <div class="card-text">
-            <h4 class="col-4">{{item.DateTime}}</h4>
+            <h4 class="col-8"><b>{{item.DateTime}}</b></h4>
+            <br>
               <img class="col-4" style="float: right;" src={{item.imgSrc}}/>
-              <h5 class="col-8"><b>{{item.Title}}</b></h5>
-              <p class="col-12">{{item.speakerName}}</p>
+              <h3 class="col-7"><b>{{item.Title}}</b></h3>
+              <br>
+              <p class="col-8">Speaker: {{item.speakerName}}</p>
+              <p class="col-8">Platform: {{item.Platform}}</p>
+              <p><a href= {{item.link}}>To Join/Watch</a><br></p>
+
               <button class="col-md-2 col-sm-3 offset-10 m-1 align-self-end btn btn-primary" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index">
                 Read more
               </button>
-              <div id={{index}} class="row py-4 col-md-7 col-12 collapse">
-              <h6 class="col-12">{{item.Abstract}}</h6>
+              <div id={{index}} class="row py-4 col-md-12 col-12 collapse">
+                <h4>Abstract:</h4>
+              <h6 class="col-12">{{item.Abstract}}</h6> <br>
+              <h4>About the Speaker:</h4>
+              <h6 class="col-12">{{item.AboutSpeaker}}</h6>
             </div>
               <hr style="height: 1px;background-color: black;"/>
             </div>

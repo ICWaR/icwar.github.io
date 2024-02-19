@@ -158,10 +158,6 @@ export const configurations = {
                 "name":"Seminars",
                 "link":"/events/workshop-and-meetings",
               },
-              {
-                "name":"Meetings",
-                "link":"/events/workshop-and-meetings"
-              },
               ]
           },
           {
