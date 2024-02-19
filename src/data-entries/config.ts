@@ -14,7 +14,7 @@
 //                                                                                                                             //
 /*******************************************************************************************************************************/
 var constants = {
-  'font-size':'1.5rem',
+  'font-size':'1.5rem !important',
   "font-family":'Sabon-next-lt',
   "dropdown-color":"#d4ac92",
   "dropdown-style":{
@@ -211,8 +211,9 @@ export const configurations = {
   },
   //Page specific Settings
   "publications":{
-    "font-size":"",
+    // "font-size":constants['font-size']
   },
+
 
   "footer":{
     "style":{
