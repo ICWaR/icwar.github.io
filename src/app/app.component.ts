@@ -45,7 +45,7 @@ export class AppComponent {
       $(document).on('click',function (event) {
         var $target = $(event.target);
         if(!$target.closest('#nav').length )
-          (<any>$('.-collapse')).collapse('hide');
+          (<any>$('.navbar-collapse')).collapse('hide');
       });
 
       if(window.innerWidth<768){
