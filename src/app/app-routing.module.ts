@@ -16,6 +16,10 @@ import { ProgramsComponent } from './views/programs/programs.component';
 import { PeopleComponent } from './views/people/people.component';
 import { StudentsCornerComponent } from './views/students-corner/students-corner.component';
 import { TimelineComponent } from './views/timeline/timeline.component';
+import { TestimonialsComponent } from './views/testimonials/testimonials.component';
+import { OutreachComponent } from './views/outreach/outreach.component';
+import { StudentsSeminarComponent } from './views/students-seminar/students-seminar.component';
+
 
 const routes: Routes = [
   {path: '', component: HomepageComponent},
@@ -40,6 +44,9 @@ const routes: Routes = [
   {path: 'gallery', component: GalleryComponent},
   {path: 'program', component:ProgramsComponent},
   {path: 'students-blogs', component:StudentsCornerComponent},
+  {path: 'testimonials', component:TestimonialsComponent},
+  {path: 'outreach', component:OutreachComponent},
+  {path: 'students-seminar', component:StudentsSeminarComponent},
   {path:'**',component:PageNotFoundComponent}
 
 ];
