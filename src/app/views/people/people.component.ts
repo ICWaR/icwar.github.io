@@ -16,7 +16,7 @@ export class PeopleComponent {
   dataType: string ='';
 
   constructor(private route: ActivatedRoute,private router: Router){
-    console.log("Now")
+
   }
 
   designationNames: string[]=[];
