@@ -162,7 +162,7 @@ export const configurations = {
           },
           {
             "name":"Student Seminar Series",
-            "link":"/students-corner"
+            "link":"/students-seminar"
           },
           {
             'name':'Gallery',
@@ -188,7 +188,7 @@ export const configurations = {
           },
           {
             "name":"Outreach",
-            "link":"none"
+            "link":"/outreach"
           },
         ],
       },
@@ -203,7 +203,7 @@ export const configurations = {
           },
           {
             "name":"Testimonials",
-            "link":"/null"
+            "link":"/testimonials"
           }
         ],
       }

@@ -25,6 +25,9 @@ import { ActivitiesAndEventsComponent } from './views/activities-and-events/acti
 import { ProgramsComponent } from './views/programs/programs.component';
 import { StudentsCornerComponent } from './views/students-corner/students-corner.component';
 import { TimelineComponent } from './views/timeline/timeline.component';
+import { TestimonialsComponent } from './views/testimonials/testimonials.component';
+import { OutreachComponent } from './views/outreach/outreach.component';
+import { StudentsSeminarComponent } from './views/students-seminar/students-seminar.component';
 
 @NgModule({
   imports: [
@@ -51,7 +54,10 @@ import { TimelineComponent } from './views/timeline/timeline.component';
     ActivitiesAndEventsComponent,
     ProgramsComponent,
     StudentsCornerComponent,
-    TimelineComponent
+    TimelineComponent,
+    TestimonialsComponent,
+    OutreachComponent,
+    StudentsSeminarComponent
   ],
   bootstrap: [AppComponent],
 })

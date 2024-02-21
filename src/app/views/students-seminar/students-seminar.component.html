@@ -1,0 +1,26 @@
+<div class="row justify-content-center d-flex align-items-center bg-white w-100" style="max-width: 100vw;">
+
+  <div class="d-flex mt-5" style="margin-left: 25vw;width: 100vw;">
+    <h1 class="float-start">ICWaR Community Seminar Series</h1>
+  </div>
+  <hr>
+  <div id="Seminars" class="p-5 d-flex row justify-content-center col-md-9 pt-0" style="max-height: 70vh;overflow-y: scroll;">
+    <ng-container *ngFor="let item of seminars.ICWaR_Community_Seminar_Series;index as index">
+        <div class="row card-bg shadow border border-1 mb-2 card col-12 border-bottom-3 border-1 border-dark d-flex justify-content-center p-5" >
+          <div class="card-text">
+          <h4 class="col-8"><b>{{item.DateTime}}</b></h4>
+          <br>
+            <h3 class="col-md-12"><b>{{item.Title}}</b></h3>
+            <br>
+            <p class="col-8">Speaker: {{item.speakerName}}</p>
+            <button class="col-md-2 col-sm-3 offset-10 m-1 align-self-end btn btn-primary" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index">
+              Read more
+            </button>
+            <div id={{index}} class="row py-4 col-md-12 col-12 collapse">
+              <h4>Abstract:</h4>
+            <h6 class="col-12">{{item.Abstract}}</h6> <br>
+          </div>
+            <hr style="height: 1px;background-color: black;"/>
+          </div>
+        </div>
+    </ng-container>
