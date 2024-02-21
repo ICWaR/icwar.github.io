@@ -57,7 +57,7 @@ import { StudentsSeminarComponent } from './views/students-seminar/students-semi
     TimelineComponent,
     TestimonialsComponent,
     OutreachComponent,
-    StudentsSeminarComponent,
+    StudentsSeminarComponent
   ],
   bootstrap: [AppComponent],
 })
