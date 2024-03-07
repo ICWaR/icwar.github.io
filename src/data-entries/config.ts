@@ -190,6 +190,10 @@ export const configurations = {
             "name":"Outreach",
             "link":"/outreach"
           },
+          {
+            "name":"Media Coverage",
+            "link":"/media-coverage"
+          }
         ],
       },
       {

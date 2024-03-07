@@ -19,6 +19,7 @@ import { TimelineComponent } from './views/timeline/timeline.component';
 import { TestimonialsComponent } from './views/testimonials/testimonials.component';
 import { OutreachComponent } from './views/outreach/outreach.component';
 import { StudentsSeminarComponent } from './views/students-seminar/students-seminar.component';
+import { MediaCoverageComponent } from './views/media-coverage/media-coverage.component';
 
 
 const routes: Routes = [
@@ -47,6 +48,7 @@ const routes: Routes = [
   {path: 'testimonials', component:TestimonialsComponent},
   {path: 'outreach', component:OutreachComponent},
   {path: 'students-seminar', component:StudentsSeminarComponent},
+  {path: 'media-coverage', component:MediaCoverageComponent},
   {path:'**',component:PageNotFoundComponent}
 
 ];
