@@ -13,8 +13,7 @@
             <h3 class="col-md-12"><b>{{item.Title}}</b></h3>
             <br>
             <p class="col-8">Speaker: {{item.speakerName}}</p>
-            <button class="col-md-2 col-sm-3 offset-10 m-1 align-self-end btn btn-primary" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index">
-              Read more
+            <button class="col-md-2 col-sm-3 offset-10 m-1 align-self-end btn btn-primary btn-text-expand collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index">
             </button>
             <div id={{index}} class="row py-4 col-md-12 col-12 collapse">
               <h4>Abstract:</h4>

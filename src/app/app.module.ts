@@ -28,6 +28,7 @@ import { TimelineComponent } from './views/timeline/timeline.component';
 import { TestimonialsComponent } from './views/testimonials/testimonials.component';
 import { OutreachComponent } from './views/outreach/outreach.component';
 import { StudentsSeminarComponent } from './views/students-seminar/students-seminar.component';
+import { MediaCoverageComponent } from './views/media-coverage/media-coverage.component';
 
 @NgModule({
   imports: [
@@ -57,7 +58,8 @@ import { StudentsSeminarComponent } from './views/students-seminar/students-semi
     TimelineComponent,
     TestimonialsComponent,
     OutreachComponent,
-    StudentsSeminarComponent
+    StudentsSeminarComponent,
+    MediaCoverageComponent
   ],
   bootstrap: [AppComponent],
 })

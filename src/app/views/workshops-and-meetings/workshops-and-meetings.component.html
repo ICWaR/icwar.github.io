@@ -10,7 +10,7 @@
       <h2 class=" my-4 ">Contents</h2>
       <ol class="facultySideNavHighlight card-body">
         <button id="WorkshopsBtn" class="font-highlight btn nav-link" (click)="updateData('Workshops')">Workshops</button><br>
-        <button id="MeetingsBtn" class="nav-link btn" (click)="updateData('Meetings')">Meetings</button><br>
+        <!-- <button id="MeetingsBtn" class="nav-link btn" (click)="updateData('Meetings')">Meetings</button><br> -->
         <button id="SeminarsBtn" class="nav-link btn" (click)="updateData('Seminars')" >Seminars</button><br>
         <hr>
       </ol>
@@ -21,8 +21,7 @@
           <div class="row shadow border border-1 mb-2 card col-12 border-bottom-3 border-1 border-dark d-flex justify-content-center p-5" >
             <h4 class="col-4" >{{item.Date}}</h4>
               <h5 class="col-8"><b>{{item.Title}}</b></h5>
-              <button class="col-md-2 col-sm-3 offset-10 m-1 align-self-end btn btn-primary" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index">
-                Read more
+              <button class="col-md-2 col-sm-3 offset-10 m-1 align-self-end btn btn-primary btn-text-expand collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index">
               </button>
               <div id={{index}} class="row py-4 col-md-7 col-12 collapse">
               <h6 class="col-12">{{item.Details}}</h6>
@@ -51,8 +50,7 @@
               <p class="col-8">Platform: {{item.Platform}}</p>
               <p><a href= {{item.link}}>To Join/Watch</a><br></p>
 
-              <button class="col-md-2 col-sm-3 offset-10 m-1 align-self-end btn btn-primary" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index">
-                Read more
+              <button class="col-md-2 col-sm-3 offset-10 m-1 align-self-end btn btn-primary btn-text-expand collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index">
               </button>
               <div id={{index}} class="row py-4 col-md-12 col-12 collapse">
                 <h4>Abstract:</h4>
