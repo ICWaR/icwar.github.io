@@ -14,7 +14,7 @@
     </h2>
     <a class="d-none d-lg-block col-3" href="#"><img width="200px" src="../assets/images/logo-icwar.png" class="shadow border border-2 border-light " style="border-radius: 5px;"></a>
 
-    <ul class="navbar-nav justify-content-center justify-content-lg-evenly border border-4 border-dark" [style]="configurations.navbar.navLinksStyle">
+    <ul class="navbar-nav justify-content-center justify-content-lg-evenly" [style]="configurations.navbar.navLinksStyle">
 
       <ng-container *ngFor="let row of configurations.navbar.navMenu">
         <li class="nav-item" [ngClass]="row.hasDropdown?'dropdown':null" >
@@ -23,7 +23,7 @@
           <ng-container *ngIf="row.hasDropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               {{row.name}}</a>
-              <ul class="dropdown-menu pb-0 border border-light" [ngClass]="screenWidth>768?'dropend':null" aria-labelledby="navbarDropdown" [ngStyle]="row.dropdownStyle">
+              <ul class="dropdown-menu pb-0" [ngClass]="screenWidth>768?'dropend':null" aria-labelledby="navbarDropdown" [ngStyle]="row.dropdownStyle">
                 <ng-container *ngFor="let item of row.dropdownItems;index as index">
 
                   <a *ngIf="!item.hasSubDropdown" class="dropdown-item p-2 nav-link" routerLink={{item.link}} (click)="getRedirectLink(item)!=null?goToUrl(getRedirectLink(item)):null">{{item.name}}</a>
