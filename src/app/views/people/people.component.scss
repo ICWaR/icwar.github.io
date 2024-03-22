@@ -31,9 +31,9 @@ div.d-flex{
 .fa-phone,.fa-envelope{
   color: #0949ca;
 }
-*{
-  overflow-x: hidden;
-}
+// *{
+//   overflow-x: hidden;
+// }
 
 
 // html{
@@ -50,6 +50,7 @@ div.d-flex{
   // display: inline-block;
   position: relative;
   // color: #0087ca;
+  font-size: larger;
 }
 .nav-link::after {
   content: '';

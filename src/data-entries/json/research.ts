@@ -35,7 +35,7 @@ export const research_vignettes=[
     imgSrc: "../../assets/images/Vignettes and Theme/res-vignette-2.png"
   },
   {
-    'details': 'Integrated urban water management systems with sensor technologies.    ',
+    'details': 'Integrated urban water management systems with sensor technologies.',
     imgSrc: "../../assets/images/Vignettes and Theme/res-vignette-1.png"
   }
 
@@ -58,7 +58,7 @@ export const collaborations=[
   }
 ]
 
-export const research_projects =
+export const research_projects=
   {
     "Ongoing":[
       {

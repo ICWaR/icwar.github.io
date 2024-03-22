@@ -1,84 +1,74 @@
 <div class="row justify-content-center d-flex align-items-center bg-white w-100" style="max-width: 100vw;">
 
-  <div class="d-flex mt-5" style="margin-left: 25vw;width: 100vw;">
-    <h1 class="float-start">Events</h1>
+  <div class="d-flex mt-5" style="width: 100vw;">
+    <h1 class="float-start" style="margin-left: 10vw;">Events</h1>
   </div>
   <hr>
-  <div class="row justify-content-center mx-5 p-5 mt-0">
+  <div class="row justify-content-center p-5 mx-5 mt-0" >
     <!-- Main Body Start 3 col division -->
-    <div class="col-md-3 card shadow d-none d-md-table-row pb-5 ps-5 " style="width: 20vw;max-height: fit-content;position: sticky; ">
-      <h2 class=" my-4 ">Contents</h2>
+    <div class="col-md-2 card shadow  d-md-table-row px-5 mb-5" style="width: fit-content; max-height: fit-content; position: sticky; ">
+      <h2 class=" my-4 "><b>Contents</b></h2>
       <ol class="facultySideNavHighlight card-body">
-        <button id="WorkshopsBtn" class="font-highlight btn nav-link" (click)="updateData('Workshops')">Workshops</button><br>
-        <!-- <button id="MeetingsBtn" class="nav-link btn" (click)="updateData('Meetings')">Meetings</button><br> -->
-        <button id="SeminarsBtn" class="nav-link btn" (click)="updateData('Seminars')" >Seminars</button><br>
+        <button id="WorkshopsBtn" class="font-highlight btn nav-link" style="font-size: larger;" (click)="showWorkshops = true; showSeminars = false;">Workshops</button><br>
+        <button id="SeminarsBtn" class="nav-link btn" style="font-size: larger;" (click)="showWorkshops = false; showSeminars = true;">Seminars</button><br>
         <hr>
       </ol>
     </div>
 
-    <div id="Workshops" class="p-5 d-flex row justify-content-center col-md-9 pt-0" style="max-height: 70vh;overflow-y: scroll;">
+    <div id="Workshops" *ngIf="showWorkshops" class=" offset-md-1 d-flex row justify-content-center col-md-9 col-12 pt-0" style="max-height: 80vh;overflow-y: scroll;">
       <ng-container *ngFor="let item of workshops;index as index">
-          <div class="row shadow border border-1 mb-2 card col-12 border-bottom-3 border-1 border-dark d-flex justify-content-center p-5" >
-            <h4 class="col-4" >{{item.Date}}</h4>
-              <h5 class="col-8"><b>{{item.Title}}</b></h5>
-              <button class="col-md-2 col-sm-3 offset-10 m-1 align-self-end btn btn-primary btn-text-expand collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index">
-              </button>
-              <div id={{index}} class="row py-4 col-md-7 col-12 collapse">
-              <h6 class="col-12">{{item.Details}}</h6>
+          <div class="row shadow border border-1 mb-2 card col-12 border-bottom-3 border-dark d-flex justify-content-center p-md-3" >
+            <h4 class="col-md-4 col-12" >{{item.Date}}</h4>
+            <div class="col-12 d-flex flex-column mb-md-0 mb-3">
+              <h5 class="col-12 col-md-9 mb-2"><b>{{ item.Title }}</b></h5>
+              <button class="col-md-2 col-sm-6 m-1 align-self-end btn btn-primary btn-text-expand collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index"></button>
+            </div>
+              <div id={{index}} class="row py-4 col-12 collapse">
+              <h6 class="col-12" style="text-align: justify;" [innerHTML]="getSanitizedDetails(item.Details)"></h6>
               <div class="col-12 row">
                 <ng-container *ngFor="let row of item.imgsArray">
-                  <img class="col mb-2 col-md-6" src={{row}}/>
+                  <img class="col my-2 col-md-6 col-12 " src={{row}}/>
                 </ng-container>
               </div>
             </div>
-            <a href= {{item.link[0]}}>click here</a>
-              <div class="w-50 my-5" style="height: 1px;background-color: black;"></div>
+            <!-- <a href= {{item.link[0]}}>click here</a> -->
+            <div class="w-100 my-1" style="height: 1px;background-color: black;"></div>
             </div>
       </ng-container>
     </div>
 
-    <div id="Seminars" class="p-5 d-flex row justify-content-center col-md-9 pt-0" style="max-height: 70vh;overflow-y: scroll;">
-      <ng-container *ngFor="let item of seminars.ICWaR_Guest_Seminar_Series;index as index">
-          <div class="row card-bg shadow border border-1 mb-2 card col-12 border-bottom-3 border-1 border-dark d-flex justify-content-center p-5" >
+    <div id="Seminars" *ngIf="showSeminars" class=" offset-md-1 d-flex row justify-content-center col-md-9 pt-0" style="max-height: 70vh;overflow-y: scroll;">
+      <ng-container *ngFor="let item of seminars.ICWaR_Guest_Seminar_Series; index as index">
+        <div class="row card-bg shadow border border-1 mb-2 card col-12 border-bottom-3 border-1 border-dark d-flex justify-content-center pt-3">
             <div class="card-text">
-            <h4 class="col-8"><b>{{item.DateTime}}</b></h4>
-            <br>
-              <img class="col-4" style="float: right;" src={{item.imgSrc}}/>
-              <h3 class="col-7"><b>{{item.Title}}</b></h3>
-              <br>
-              <p class="col-8">Speaker: {{item.speakerName}}</p>
-              <p class="col-8">Platform: {{item.Platform}}</p>
-              <p><a href= {{item.link}}>To Join/Watch</a><br></p>
-
-              <button class="col-md-2 col-sm-3 offset-10 m-1 align-self-end btn btn-primary btn-text-expand collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index">
-              </button>
-              <div id={{index}} class="row py-4 col-md-12 col-12 collapse">
-                <h4>Abstract:</h4>
-              <h6 class="col-12">{{item.Abstract}}</h6> <br>
-              <h4>About the Speaker:</h4>
-              <h6 class="col-12">{{item.AboutSpeaker}}</h6>
+                <div class="row">
+                    <div class="col-md-8 col-12 mb-2">
+                        <h4><b>{{item.DateTime}}</b></h4>
+                        <h3 style="text-align: justify;"><b>{{item.Title}}</b></h3>
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="mb-3 d-md-none" style="width: 80%;" src="{{item.imgSrc}}" />
+                            </div>
+                        </div>
+                        <h6><b>Speaker: </b>{{item.speakerName}}</h6>
+                        <h6><b>Platform: </b>{{item.Platform}} (<a href="{{item.link}}">To Join/Watch</a>)</h6>
+                        <br>
+                        <button class="col-md-2 col-sm-3 offset-10 m-1 p-1 align-self-end btn btn-primary btn-text-expand collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index"></button>
+                    </div>
+                    <div class="col-md-4 col-12 d-none d-md-block">
+                        <img class="my-5" style="float: right;" src="{{item.imgSrc}}" />
+                    </div>
+                    <div id="{{index}}" class="row py-4 col-md-12 col-12 collapse">
+                        <h5><b>Abstract:</b></h5>
+                        <h6 style="text-align: justify;">{{item.Abstract}}</h6>
+                        <br>
+                        <h5><b>About the Speaker:</b></h5>
+                        <h6 style="text-align: justify;">{{item.AboutSpeaker}}</h6>
+                    </div>
+                </div>
             </div>
-              <hr style="height: 1px;background-color: black;"/>
-            </div>
-          </div>
-      </ng-container>
-      <ng-container *ngFor="let item of seminars.ICWaR_Community_Seminar_Series;index as index">
-        <div class="row shadow border border-2 custom-card col-12 border-bottom-3 border-1 border-dark d-flex justify-content-center p-5" >
-          <div class="justify-content-around align-items-center " style="text-align: left;">
-          <h4>{{item.DateTime}}</h4>
-            <!-- <img width="100px" height="200px" style="float: right;" src={{item.imgSrc}}/> -->
-          </div>
-            <h5 class="col-8"><b>{{item.Title}}</b></h5>
-            <caption class="col-4">{{item.speakerName}}</caption>
-            <button class="col-md-2 col-sm-3 offset-10 m-1 align-self-end btn btn-primary" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index">
-              Read more
-            </button>
-            <div id={{index}} class="row py-4 col-md-7 col-12 collapse">
-            <h6 class="col-12">{{item.Abstract}}</h6>
-          </div>
-            <hr style="height: 1px;background-color: black;"/>
-          </div>
+            <hr style="height: 1px;background-color: black;" />
+        </div>
     </ng-container>
-    </div>
   </div>
 </div>
