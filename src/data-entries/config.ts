@@ -18,8 +18,8 @@ var constants = {
   "font-family":'Sabon-next-lt',
   "dropdown-color":"#d4ac92",
   "dropdown-style":{
-    'color':'#040303',
-    'background': 'linear-gradient(to bottom,#d05a54 0%,#d4741a 100%)',
+    'color':'#c01919',
+    'background': 'linear-gradient(to top, #b78652 100%,#dc9d6e 100%)',
     'font-size':'1.5rem',
   }
 }
@@ -28,7 +28,7 @@ export const configurations = {
 
   "global-settings":{
     "font-family":constants['font-family'],
-    "font-size":constants['font-size']
+    "font-size":constants['font-size'],
   },
 
   "spreeMailUrl":"https://formspree.io/f/xzblzjgk",
@@ -43,24 +43,11 @@ export const configurations = {
 
   "navbar":{
     "navLinksStyle":{
-      // 'color':'#c4a32e',
-      // 'background-color': ' #dac062',//#b7d8f3e8,
-      'background': 'linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%)',//'#0b8dd9b9',//#b7d8f3e8,
-        // color: #dac062;
-  // 'text-shadow': '1px 0px #d0a714',
-  // 'background': 'radial-gradient(100% 100% at 50% 50%, #545C6F 0, #3E4452 40%, #ffffff00 50%)'
-  'font-size':constants['font-size']//'25px',
-      // 'box-shadow':'-10px 0px 10px black'
+      'background':'linear-gradient(0deg, rgba(10,76,129,1) 15%, rgba(10,108,129,1) 35%, rgba(240,248,250,1) 94%)',
+      'font-size':constants['font-size'],
+      // 'box-shadow':' 1px 1px 5px black'
   },
     'style':{
-      'background-color': '#ffffff',//Color behind IISC And ICWaR Logo
-      // 'border':'solid 1px black',
-      // 'position':'fixed',
-      // 'top':'0',
-      // 'z-index':'100',
-      // 'box-shadow':'11px 2px 10px 10px black',
-      // 'min-height': '10vh',
-      //'font-size':constants['font-size']//'25px',
     },
     "navMenu":[
       {
@@ -215,13 +202,12 @@ export const configurations = {
   },
   //Page specific Settings
   "publications":{
-    // "font-size":constants['font-size']
+
   },
 
 
   "footer":{
     "style":{
-      //  "background-color": "#0e0e0e",
        "background-color": "#08394f",
        "color":"red"
     }
