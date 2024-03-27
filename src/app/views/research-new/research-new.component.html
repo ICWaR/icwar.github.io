@@ -15,7 +15,7 @@
     <button class="btn"  [class.selected]="showProjects" (click)="toggleProjects()">Projects</button>
     <button class="btn"  [class.selected]="showVignettes" (click)="toggleVignettes()">Vignettes/Gallery</button>
     <button class="btn"  [class.selected]="showCollaborations" (click)="toggleCollaborations()">Collaborations</button>
-    <button class="btn" >Facilities & Labs</button>
+    <button class="btn"  routerLink="/centres-and-facilities">Facilities & Labs</button>
   </div>
 </div>
 </div>
@@ -24,12 +24,12 @@
 <!-- About Section -->
 
 <div class="col-md-10 offset-md-1 align-middle align-items-center card p-md-5" *ngIf="showAboutSection">
-  <h1 class="align-self-start pb-2 p-3"><b>About</b></h1>
-  <p style="font-size: 20px; padding: 5%; text-align: justify;">
+  <h1 class="align-self-start p-1"><b>About</b></h1>
+  <p style="font-size: 18px; padding: 2%; text-align: justify;">
     The Interdisciplinary Centre for Water Research (ICWaR) at the Institute is set up with an aim to address water-related issues that have formidable scientific challenges and more importantly, considerable practical relevance.  A major objective of this centre is to develop tools and templates using state-of–the-art sensor-communication, satellite information- and nano- technologies to provide implementable solutions to the water problems faced by the society with respect to climate change, water demand, water quality, extremes of floods and droughts, and salinity intrusion in coastal aquifers. Within a short period of time, the centre has made high-impact research contributions in the area of water resources at regional and global levels.
     <!-- <a href="#">Download it here</a> -->
   </p>
-  <img class="img-thumbnail" src="../../../assets/images/Vignettes and Theme/research_theme_with_background.png" alt="">
+  <img class="img-thumbnail" style="max-height: 500px; width: 800px;" src="../../../assets/images/Vignettes and Theme/research_theme_with_background.png" alt="">
 </div>
 
 
@@ -126,13 +126,13 @@
   <div class="col-12 p-3 ">
     <div class="row">
       <div class="col-md-4 mb-3" *ngFor="let collaboration of collaborations">
-        <div class="card">
-          <img [src]="collaboration.imgSrc" class="card-img-top" alt="Collaboration Image">
+        <section class="card p-2 h-100">
+          <img [src]="collaboration.imgSrc" class="card-img-top img-thumbnail" style="max-height: 300px; max-width: 100%;" alt="Collaboration Image">
           <div class="card-body">
             <h5 class="card-title">{{ collaboration.title }}</h5>
             <p class="card-text">{{ collaboration.details }}</p>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   </div>
