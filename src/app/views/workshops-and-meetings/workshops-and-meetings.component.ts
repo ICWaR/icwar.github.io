@@ -3,6 +3,7 @@ import { workshops } from 'src/data-entries/json/workshops';
 import { seminars } from 'src/data-entries/json/Seminars';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
+import { SecurityContext } from '@angular/core';
 
 @Component({
   selector: 'app-workshops-and-meetings',
@@ -29,8 +30,11 @@ export class WorkshopsAndMeetingsComponent {
   }
 
   // Sanitize the HTML content before binding it
-  getSanitizedDetails(details: string): SafeHtml {
-    return this.sanitizer.bypassSecurityTrustHtml(details);
+  getSanitizedDetails(details: string): SafeHtml | null {
+    if (details) {
+      return this.sanitizer.sanitize(SecurityContext.HTML, details) || null;
+    }
+    return null;
   }
 
   // Function to replace spaces in string with underscores

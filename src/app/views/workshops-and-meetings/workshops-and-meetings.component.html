@@ -9,8 +9,8 @@
     <div class="col-md-2 card shadow  d-md-table-row px-5 mb-5" style="width: fit-content; max-height: fit-content; position: sticky; ">
       <h2 class=" my-4 "><b>Contents</b></h2>
       <ol class="facultySideNavHighlight card-body">
-        <button id="WorkshopsBtn" class="font-highlight btn nav-link" style="font-size: larger;" (click)="showWorkshops = true; showSeminars = false;">Workshops</button><br>
-        <button id="SeminarsBtn" class="nav-link btn" style="font-size: larger;" (click)="showWorkshops = false; showSeminars = true;">Seminars</button><br>
+        <button id="WorkshopsBtn" class="font-highlight btn nav-link" (click)="showWorkshops = true; showSeminars = false;">Workshops</button><br>
+        <button id="SeminarsBtn" class="nav-link btn" (click)="showWorkshops = false; showSeminars = true;">Seminars</button><br>
         <hr>
       </ol>
     </div>

@@ -58,7 +58,7 @@
       </ng-container>
     </div>
 
-    <div *ngIf="type!='faculty' && dataType=='nested'" class="px-md-5 pb-md-5 px-1 pb-1 row justify-content-center col-md-9 col-12" style="max-height: 80vh; overflow-y: scroll;">
+    <div *ngIf="type!='faculty' && dataType=='nested'" class="px-md-1 pb-md-5 px-1 pb-1 row justify-content-center col-md-9 col-12" style="max-height: 80vh; overflow-y: scroll;">
       <ng-container *ngFor="let parent of designationNames;index as i">
         <ng-container *ngFor="let row of staffUnderDesignation[i]" >
           <div class="card col-md-3 m-md-3 mb-2 col-12 shadow border-dark-subtle ">
@@ -71,7 +71,7 @@
                 </ng-container>
                 <h6 class="col-12">{{row.details}}</h6>
               </div>
-              <div class="card-footer ">
+              <div class="card-footer" style="overflow: hidden;">
                 <h5 *ngIf="row.phoneNo" class="col-12"><a class="fa fa-phone" [href]="'callto:'+row.phoneNo"> {{row.phoneNo }}</a></h5>
                 <h5 *ngIf="row.email" class="col-12"><a class="fa fa-envelope" [href]="'mailto:'+row.email"> {{row.email}}</a></h5>
               </div>

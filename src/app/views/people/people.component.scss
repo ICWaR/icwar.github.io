@@ -50,7 +50,6 @@ div.d-flex{
   // display: inline-block;
   position: relative;
   // color: #0087ca;
-  font-size: larger;
 }
 .nav-link::after {
   content: '';
@@ -68,3 +67,4 @@ div.d-flex{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
