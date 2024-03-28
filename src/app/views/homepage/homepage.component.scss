@@ -57,3 +57,9 @@ div.card-body > .row{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+/* Remove underline and set link color to black for all anchor tags */
+a {
+  text-decoration: none;
+  color: black;
+}
