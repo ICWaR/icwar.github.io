@@ -17,13 +17,13 @@ button.btn.btn-text-expand.collapsed:before
 {
     content:'..Read more' ;
     display: block;
-    width: 100px;
+    width: fit-content;
 }
 button.btn.btn-text-expand:before
 {
     content:'Read less' ;
     display: block;
-    width: 100px;
+    width: fit-content;
 }
 .card-bg{
 
@@ -44,9 +44,9 @@ button.btn.btn-text-expand:before
 hr{
   background: linear-gradient(to left, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
 }
-// div.d-flex{
-//   max-width: 100%;
-// }
+div.d-flex{
+  max-width: 100%;
+}
 // *{
 //   overflow-x: hidden;
 // }
@@ -63,4 +63,8 @@ hr{
 //   }
 // }
 
-
+@media only screen and (max-width: 992px){
+  .contents{
+    display: none;
+  }
+}

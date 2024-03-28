@@ -6,16 +6,16 @@
   <hr>
   <div class="row justify-content-center p-5 mx-5 mt-0" >
     <!-- Main Body Start 3 col division -->
-    <div class="col-md-2 card shadow  d-md-table-row px-5 mb-5" style="width: fit-content; max-height: fit-content; position: sticky; ">
-      <h2 class=" my-4 "><b>Contents</b></h2>
+    <div class="contents col-md-3 card shadow px-5 mb-5" style="width: fit-content; max-height: fit-content; position: sticky; margin-right: 5%; ">
+      <h2 class=" my-4 ">Contents</h2>
       <ol class="facultySideNavHighlight card-body">
-        <button id="WorkshopsBtn" class="font-highlight btn nav-link" (click)="showWorkshops = true; showSeminars = false;">Workshops</button><br>
-        <button id="SeminarsBtn" class="nav-link btn" (click)="showWorkshops = false; showSeminars = true;">Seminars</button><br>
+        <button id="WorkshopsBtn" [class.font-highlight]="showWorkshops" class="btn nav-link" (click)="showWorkshops = true; showSeminars = false;"[routerLink]="['/events/workshop-and-meetings']" [queryParams]="{ type: 'Workshops' }">Workshops</button><br>
+        <button id="SeminarsBtn" [class.font-highlight]="showSeminars" class="btn nav-link" (click)="showWorkshops = false; showSeminars = true;" [routerLink]="['/events/workshop-and-meetings']" [queryParams]="{ type: 'Seminars' }">Seminars</button><br>
         <hr>
       </ol>
     </div>
 
-    <div id="Workshops" *ngIf="showWorkshops" class=" offset-md-1 d-flex row justify-content-center col-md-9 col-12 pt-0" style="max-height: 80vh;overflow-y: scroll;">
+    <div id="Workshops" *ngIf="showWorkshops" class="d-flex row justify-content-center col-md-8 col-12 pt-0" style="max-height: 80vh;overflow-y: scroll;">
       <ng-container *ngFor="let item of workshops;index as index">
           <div class="row shadow border border-1 mb-2 card col-12 border-bottom-3 border-dark d-flex justify-content-center p-md-3" >
             <h4 class="col-md-4 col-12" >{{item.Date}}</h4>
@@ -37,7 +37,7 @@
       </ng-container>
     </div>
 
-    <div id="Seminars" *ngIf="showSeminars" class=" offset-md-1 d-flex row justify-content-center col-md-9 pt-0" style="max-height: 70vh;overflow-y: scroll;">
+    <div id="Seminars" *ngIf="showSeminars" class="d-flex row justify-content-center col-md-8 pt-0" style="max-height: 70vh;overflow-y: scroll;">
       <ng-container *ngFor="let item of seminars.ICWaR_Guest_Seminar_Series; index as index">
         <div class="row card-bg shadow border border-1 mb-2 card col-12 border-bottom-3 border-1 border-dark d-flex justify-content-center pt-3">
             <div class="card-text">
@@ -53,7 +53,7 @@
                         <h6><b>Speaker: </b>{{item.speakerName}}</h6>
                         <h6><b>Platform: </b>{{item.Platform}} (<a href="{{item.link}}">To Join/Watch</a>)</h6>
                         <br>
-                        <button class="col-md-2 col-sm-3 offset-10 m-1 p-1 align-self-end btn btn-primary btn-text-expand collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index"></button>
+                        <button class="col-md-2 col-sm-3 m-1 p-1 align-self-end btn btn-primary btn-text-expand collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index"></button>
                     </div>
                     <div class="col-md-4 col-12 d-none d-md-block">
                         <img class="my-5" style="float: right;" src="{{item.imgSrc}}" />
