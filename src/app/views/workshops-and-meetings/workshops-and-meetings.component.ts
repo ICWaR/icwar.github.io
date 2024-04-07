@@ -1,51 +1,60 @@
-import { Component, OnInit } from '@angular/core';
-import { workshops } from 'src/data-entries/json/workshops';
 import { seminars } from 'src/data-entries/json/Seminars';
-import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { Component} from '@angular/core';
+import { workshops } from 'src/data-entries/json/workshops';
 import { ActivatedRoute, Router } from '@angular/router';
-import { SecurityContext } from '@angular/core';
 
 @Component({
   selector: 'app-workshops-and-meetings',
   templateUrl: './workshops-and-meetings.component.html',
   styleUrls: ['./workshops-and-meetings.component.scss']
 })
-export class WorkshopsAndMeetingsComponent implements OnInit {
+
+export class WorkshopsAndMeetingsComponent {
+  $=$;
   workshops = workshops;
   seminars = seminars;
-  showWorkshops: boolean = true;
-  showSeminars: boolean = false;
+  type:any;
+  constructor(private route: ActivatedRoute,private router: Router){
 
-  constructor(
-    private sanitizer: DomSanitizer,
-    private router: Router,
-    private route: ActivatedRoute
-  ) {}
-
-  ngOnInit(): void {
-    // Subscribe to route parameter changes
-    this.route.queryParams.subscribe(params => {
-      const type = params['type'];
-      if (type === 'Seminars') {
-        this.showWorkshops = false;
-        this.showSeminars = true;
-      } else {
-        this.showWorkshops = true;
-        this.showSeminars = false;
-      }
-    });
   }
 
-  // Sanitize the HTML content before binding it
-  getSanitizedDetails(details: string): SafeHtml | null {
-    if (details) {
-      return this.sanitizer.sanitize(SecurityContext.HTML, details) || null;
+
+
+  ngAfterViewInit(): void {
+    //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
+    //Add 'implements AfterViewInit' to the class.
+    this.type = <string>this.router.url.split('/').pop();
+    switch(this.type){
+      case this.type != 'Workshops':
+        this.updateData('Seminars')
+        break;
+      default:
+        this.updateData('Workshops')
+        break;
     }
-    return null;
   }
 
-  // Function to replace spaces in string with underscores
-  removeSpaceFromString(str: string): string {
-    return str.replace(/ /g, '_');
+   updateData(dataType:string){
+
+      if(dataType === 'Workshops' ||  dataType === 'Meetings'){
+        $('#Workshops').removeClass('d-none')
+      $('#Seminars').addClass('d-none')
+    }
+    else{
+      $('#Workshops').addClass('d-none')
+      $('#Seminars').removeClass('d-none')
+    }
+
+    $('ol>button').each(function () {
+      if(this.innerHTML !== dataType)
+        $(this).removeClass('font-highlight')
+      else
+        $(this).addClass('font-highlight')
+    });
+
+  }
+
+  removeSpaceFromString(str:string){
+    return str.replaceAll(' ','_')
   }
 }
