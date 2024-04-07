@@ -1,6 +1,8 @@
+
 import { Component } from '@angular/core';
 import {homepageData} from '../../../data-entries/json/homepage';
 import { newsJson } from 'src/data-entries/json/news';
+import { seminars } from 'src/data-entries/json/Seminars';
 import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-homepage',
@@ -11,8 +13,9 @@ export class HomepageComponent {
 
   $=$;
   data =  homepageData;
-  slides=['https://www.gfz-potsdam.de/fileadmin/_processed_/8/8/csm_grace_sticker_01_94f4685989.jpeg','../../../assets/images/Slide/slideshow3.jpg','https://img.rasset.ie/0010713d-500.jpg']
+  slides=['../../../assets/images/Slide/slideshow1.jpg','../../../assets/images/Slide/slideshow3.jpg','../../../assets/images/Slide/slideshow2.jpg']
   news=newsJson;
+  seminars=seminars;
   constructor(
     private route: ActivatedRoute,private router: Router
   ) {}
@@ -39,4 +42,20 @@ export class HomepageComponent {
 }, 1000)​
     })
   }
+
+  getTruncatedTitle(title: string): string {
+    const maxLength = 110; // Maximum length of truncated title
+    if (title.length <= maxLength) {
+      return title; // No need for truncation
+    }
+    // Find the index of the last space within maxLength characters
+    const lastSpaceIndex = title.lastIndexOf(' ', maxLength);
+    // If no space found, return the first maxLength characters
+    if (lastSpaceIndex === -1) {
+      return title.substring(0, maxLength);
+    }
+    // Otherwise, return the substring up to the last space
+    return title.substring(0, lastSpaceIndex);
+  }
+
 }

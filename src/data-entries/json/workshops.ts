@@ -64,7 +64,7 @@ export const workshops=[
   {
     Date: '06 DEC, 2022',
     Title:'Discussion Meeting held on "Hydrology in the Anthropocene"',
-    Details: 'For a detailed report on the Discussion Meeting please click here',
+    Details: 'For a detailed report on the Discussion Meeting <a href = "../../assets/pdfs/ICWaR WebLinks/Hassan_Minutes_Report_06DEC2022.pdf">please click here</a> ',
     link:[
       '../../assets/pdfs/ICWaR WebLinks/Hassan_Minutes_Report_06DEC2022.pdf'],
     imgsArray:[
