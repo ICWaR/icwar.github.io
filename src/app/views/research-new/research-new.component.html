@@ -1,178 +1,152 @@
 <div class="container-fluid">
-<div class="align-items-center justify-content-center d-flex bg-light">
-  <video class="shadow m-2 border border-1 border-dark img-fluid" autoplay loop>
-    <source src="https://college.harvard.edu/sites/default/files/2019-07/banner_lab_research_video.mp4" >
-  </video>
-</div>
 
-          <!-- -----------Section - 2 --------------------- -->
-
-<div class="p-5 row w-100 bg-light">
-<div class="col-12 shadow px-5 p-2">
-  <h1 class="my-2 mb-5"><b>Research : </b> Contents</h1>
-  <div class="nav-list">
-    <button class="btn"  [class.selected]="!showProjects && !showVignettes && !showCollaborations" (click)="toggleAboutSection()">About</button>
-    <button class="btn"  [class.selected]="showProjects" (click)="toggleProjects()">Projects</button>
-    <button class="btn"  [class.selected]="showVignettes" (click)="toggleVignettes()">Vignettes/Gallery</button>
-    <button class="btn"  [class.selected]="showCollaborations" (click)="toggleCollaborations()">Collaborations</button>
-    <button class="btn"  routerLink="/centres-and-facilities">Facilities & Labs</button>
-  </div>
-</div>
-</div>
-
-
-<!-- About Section -->
-
-<div class="col-md-10 offset-md-1 align-middle align-items-center card p-md-5" *ngIf="showAboutSection">
-  <h1 class="align-self-start p-1"><b>About</b></h1>
-  <p style="font-size: 18px; padding: 2%; text-align: justify;">
-    The Interdisciplinary Centre for Water Research (ICWaR) at the Institute is set up with an aim to address water-related issues that have formidable scientific challenges and more importantly, considerable practical relevance.  A major objective of this centre is to develop tools and templates using state-of–the-art sensor-communication, satellite information- and nano- technologies to provide implementable solutions to the water problems faced by the society with respect to climate change, water demand, water quality, extremes of floods and droughts, and salinity intrusion in coastal aquifers. Within a short period of time, the centre has made high-impact research contributions in the area of water resources at regional and global levels.
-    <!-- <a href="#">Download it here</a> -->
-  </p>
-  <img class="img-thumbnail" style="max-height: 500px; width: 800px;" src="../../../assets/images/Vignettes and Theme/research_theme_with_background.png" alt="">
-</div>
-
-
-<!-- Projects section -->
-<div class="p-5 row w-100 bg-light" *ngIf="showProjects">
-  <div class="col-12 p-4 mb-3 bg-white">
-    <h1 class="text-center"><b>Projects</b></h1>
-  </div>
-  <div class="abbreviations col-12 shadow col-md-3 lign-middle align-items-center card p-3 pb-3" style="height:fit-content">
-    <div *ngIf="abbreviations.length > 0">
-      <h2>Abbreviations</h2>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Abbreviation</th>
-            <th>Definition</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let item of abbreviations">
-            <td>{{ getKey(item) }}</td>
-            <td>{{ item[getKey(item)] }}</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  <div class="projects col-12 col-md-8 shadow offset-md-1 align-items-center align-middle p-3">
-    <div class="row">
-      <div class="col pb-3">
-        <button class="btn m-2" [class.selected]="activeTab === 'ongoing'" (click)="setActiveTab('ongoing')">Ongoing Projects</button>
-        <button class="btn m-2" [class.selected]="activeTab === 'completed'" (click)="setActiveTab('completed')">Completed Projects</button>
-      </div>
-    </div>
-    <div class="card-body">
-      <h2 *ngIf="activeTab === 'ongoing'">Ongoing Projects</h2>
-      <h2 *ngIf="activeTab === 'completed'">Completed Projects</h2>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Investigators</th>
-            <th>Sponsor</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let project of (activeTab === 'ongoing' ? research_projects.Ongoing : research_projects.Completed)">
-            <td>{{ project.Title }}</td>
-            <td>{{ project.Investigators }}</td>
-            <td>{{ project.Sponsor }}</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
-
-
-<!-- Vignettes section -->
-
-<div class="p-5 row w-100 bg-light" *ngIf="showVignettes">
-  <div class="col-12 p-4 bg-white">
-    <h1 class="text-center"><b>Research Vignettes</b></h1>
-  </div>
-  <div class="col-12 p-md-5">
-    <div class="row" *ngFor="let vignette of research_vignettes; let i = index">
-      <div class="col-md-6 mb-3">
-        <div class="vignette-container">
-          <div class="vignette">
-            <img [src]="vignette.imgSrc" alt="Vignette Image" class="img-fluid">
+  <div class="row p-5">
+    <div class="col-md-3 col-12"  >
+      <div class="p-2 bg-light" style="background-color: rgb(236, 162, 162);" >
+        <div class="shadow px-4 py-2">
+          <h1 class="my-3"><b>Research</b></h1>
+          <div class="nav-list ps-md-5 mb-3 d-flex flex-column">
+            <button class="btn" [class.selected]="!showProjects && !showVignettes && !showCollaborations && !showGroups" (click)="toggleSection('about')">About</button>
+              <button class="btn" [class.selected]="showProjects" (click)="toggleSection('projects')">Projects</button>
+              <button class="btn" [class.selected]="showVignettes" (click)="toggleSection('vignettes')">Vignettes</button>
+              <button class="btn" [class.selected]="showCollaborations" (click)="toggleSection('collaborations')">Collaborations</button>
+              <button class="btn" routerLink="/centres-and-facilities">Facilities & Labs</button>
+              <button class="btn" [class.selected]="showGroups" (click)="toggleSection('groups')">Groups</button>
           </div>
         </div>
       </div>
-      <div class="col-md-6 mb-3">
-        <div class="vignette-details jutify" style="text-align: justify;" >
-          <div>
-            <p>{{ vignette.details }}</p>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-8 col-12 align-items-center justify-content-center d-flex bg-light">
+      <video id="research-video" class="shadow m-2 border border-1 border-dark img-fluid" autoplay loop>
+        <source src="https://college.harvard.edu/sites/default/files/2019-07/banner_lab_research_video.mp4">
+      </video>
+    </div>
+  </div>
+  <!-- About Section -------->
+  <div class="col-md-10 offset-md-1 align-middle align-items-center card p-md-5 mb-5" *ngIf="showAboutSection">
+    <h1 class="align-self-start p-1"><b>About</b></h1>
+    <p style="font-size: 18px; padding: 2%; text-align: justify;">
+      The Interdisciplinary Centre for Water Research (ICWaR) at the Institute is set up with an aim to address water-related issues that have formidable scientific challenges and more importantly, considerable practical relevance.  A major objective of this centre is to develop tools and templates using state-of–the-art sensor-communication, satellite information- and nano- technologies to provide implementable solutions to the water problems faced by the society with respect to climate change, water demand, water quality, extremes of floods and droughts, and salinity intrusion in coastal aquifers. Within a short period of time, the centre has made high-impact research contributions in the area of water resources at regional and global levels.
+    </p>
+    <img class="img-thumbnail" style="max-height: 500px; width: 800px;" src="../../../assets/images/Vignettes and Theme/research_theme_with_background.png" alt="">
+  </div>
+  <!--------- Projects section --------->
+  <div class="p-5 row w-100 bg-light" *ngIf="showProjects">
+    <div class="col-12 p-4 mb-3 bg-white">
+      <h1 class="text-center"><b>Projects</b></h1>
+    </div>
+    <div class="abbreviations col-12 shadow col-md-3 lign-middle align-items-center card p-3 pb-3" style="height:fit-content">
+      <div *ngIf="abbreviations.length > 0">
+        <h2>Abbreviations</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Abbreviation</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of abbreviations">
+              <td>{{ getKey(item) }}</td>
+              <td>{{ item[getKey(item)] }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="projects col-12 col-md-8 shadow offset-md-1 align-items-center align-middle p-3">
+      <div class="row">
+        <div class="col pb-3">
+          <button class="btn m-2" [class.selected]="activeTab === 'ongoing'" (click)="setActiveTab('ongoing')">Ongoing Projects</button>
+          <button class="btn m-2" [class.selected]="activeTab === 'completed'" (click)="setActiveTab('completed')">Completed Projects</button>
+        </div>
+      </div>
+      <div class="card-body">
+        <h2 *ngIf="activeTab === 'ongoing'">Ongoing Projects</h2>
+        <h2 *ngIf="activeTab === 'completed'">Completed Projects</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Investigators</th>
+              <th>Sponsor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let project of (activeTab === 'ongoing' ? research_projects.Ongoing : research_projects.Completed)">
+              <td>{{ project.Title }}</td>
+              <td>{{ project.Investigators }}</td>
+              <td>{{ project.Sponsor }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-------- Vignettes section -------->
+  <div class="p-5 row w-100 bg-light" *ngIf="showVignettes">
+    <div class="col-12 p-4 bg-white">
+      <h1 class="text-center"><b>Research Vignettes</b></h1>
+    </div>
+    <div class="col-12 p-md-5">
+      <div class="row" *ngFor="let vignette of research_vignettes; let i = index">
+        <div class="col-md-6 mb-3">
+          <div class="vignette-container">
+            <div class="vignette">
+              <img [src]="vignette.imgSrc" alt="Vignette Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="vignette-details jutify" style="text-align: justify;" >
+            <div>
+              <p>{{ vignette.details }}</p>
+            </div>
+          </div>
+        </div>
+        <hr class="bold-hr" *ngIf="i !== research_vignettes.length - 1">
+      </div>
+    </div>
+  </div>
+  <!--------- Collaborations section --------->
+  <div class="p-5 row w-100 bg-light" *ngIf="showCollaborations">
+    <div class="col-12 bg-white p-4">
+      <h1 class="text-center"><b>Collaborations</b></h1>
+    </div>
+    <div class="col-12 p-3 ">
+      <div class="row">
+        <div class="col-md-4 mb-3" *ngFor="let collaboration of collaborations">
+          <section class="card p-2 h-100">
+            <img [src]="collaboration.imgSrc" class="card-img-top img-thumbnail" style="height: 300px; max-width: 100%;" alt="Collaboration Image">
+            <div class="card-body">
+              <h5 class="card-title">{{ collaboration.title }}</h5>
+              <p class="card-text">{{ collaboration.details }}</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------Groups Section--------------->
+  <div *ngIf="showGroups">
+    <div class="card m-2 p-2 bg-light">
+      <h1 class="align-self-start p-5">Groups</h1>
+      <div class="card-group">
+        <div class="card m-3 card-hover-shadow" *ngFor="let group of groups">
+          <img class="card-img card-header" [src]="group.imgSrc" [alt]="group.groupName">
+          <div class="card-body bg-light">
+            The group is led by {{ group.leader }}, {{ group.text }}.
+            <h3><br><a [href]="group.websiteUrl">{{ group.groupName }}</a></h3>
           </div>
         </div>
       </div>
-      <hr class="bold-hr" *ngIf="i !== research_vignettes.length - 1">
     </div>
   </div>
+
 </div>
 
-
-
-<!-- Collaborations section -->
-
-<div class="p-5 row w-100 bg-light" *ngIf="showCollaborations">
-  <div class="col-12 bg-white p-4">
-    <h1 class="text-center"><b>Collaborations</b></h1>
-  </div>
-  <div class="col-12 p-3 ">
-    <div class="row">
-      <div class="col-md-4 mb-3" *ngFor="let collaboration of collaborations">
-        <section class="card p-2 h-100">
-          <img [src]="collaboration.imgSrc" class="card-img-top img-thumbnail" style="height: 300px; max-width: 100%;" alt="Collaboration Image">
-          <div class="card-body">
-            <h5 class="card-title">{{ collaboration.title }}</h5>
-            <p class="card-text">{{ collaboration.details }}</p>
-          </div>
-        </section>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-      <!-- -----------Section - 3 --------------------- -->
-
-<div class="card m-2 p-2 bg-light">
-  <h1 class="align-self-start p-5">Groups</h1>
-  <div class="card-group">
-    <div class="card m-3 card-hover-shadow">
-      <img class="card-img card-header" src="https://rajarshidasbhowmik.com/wp-content/uploads/2022/06/rbhowmik-research1.png">
-      <div class="card-body bg-light">
-        The group is led by Dr. Rajarshi Das Bhowmik, Assistant Professor at ICWaR, IISc Bangalore.
-        <h3><br><a href="https://rajarshidasbhowmik.com/">Hydroclim</a></h3>
-      </div>
-    </div>
-    <div class="card m-3 card-hover-shadow">
-      <img class="card-img card-header" src="https://ultra-pluto-7f6d1.netlify.app/images/SLR_illust_global_processes.png">
-      <div class="card-body bg-light card-footer p-card-footer">
-        The group is led by Dr. Bramha Dutt Vishwakarma, Assistant Professor at ICWaR, IISc Bangalore.
-        <h3><br><a href="https://ultra-pluto-7f6d1.netlify.app/">Geodesy for Earth System Science (GESS)</a></h3>
-      </div>
-    </div>
-    <div class="card m-3 card-hover-shadow">
-      <img class="card-img card-header" src="https://materials.iisc.ac.in/~praveen/images/TemplateImage.png">
-      <div class="card-body bg-light">
-        The group is led by Prof. Praveen C Ramamurthy, Chairman at ICWaR, IISc Bangalore
-        <h3><br><a href="https://materials.iisc.ac.in/~praveen/">Organic Nano electronics Group</a></h3>
-      </div>
-    </div>
-
-  </div>
-</div>
-</div>
-
-
+<button class="scroll-to-top" #scrollToTopButton (click)="scrollToTop()">↑</button>
 
 
 

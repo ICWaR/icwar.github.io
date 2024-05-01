@@ -1,12 +1,6 @@
-import { Component } from '@angular/core';
-import { research_projects } from 'src/data-entries/json/research';
-import { research_vignettes } from 'src/data-entries/json/research';
-import { collaborations } from 'src/data-entries/json/research';
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { research_projects, research_vignettes, collaborations, groups } from 'src/data-entries/json/research';
 
-interface Abbreviation {
-  abbreviation: string;
-  definition: string;
-}
 interface Vignette {
   details: string;
   imgSrc: string;
@@ -26,10 +20,15 @@ export class ResearchNewComponent {
   showVignettes: boolean = false;
   collaborations: any = collaborations;
   showCollaborations: boolean = false;
-  showAboutSection: boolean = true; // Add this property
+  showAboutSection: boolean = true;
+  showGroups: boolean = false;
+  groups: any[] = groups;
+
+  @ViewChild('scrollToTopButton') scrollToTopButton!: ElementRef;
 
   constructor() {
     this.fetchAbbreviations();
+    window.addEventListener('scroll', this.scrollFunction.bind(this));
   }
 
   setActiveTab(tab: 'ongoing' | 'completed') {
@@ -45,39 +44,33 @@ export class ResearchNewComponent {
     return Object.keys(item)[0];
   }
 
-  toggleProjects() {
-    this.showProjects = !this.showProjects;
-    if (this.showProjects) {
-      this.showAboutSection = false;
-      this.showVignettes = false;
-      this.showCollaborations = false;
+  toggleSection(section: string): void {
+    this.showProjects = section === 'projects';
+    this.showVignettes = section === 'vignettes';
+    this.showCollaborations = section === 'collaborations';
+    this.showAboutSection = section === 'about';
+    this.showGroups = section === 'groups';
+
+    this.scrollDown();
+  }
+
+  scrollFunction(): void {
+    if (this.scrollToTopButton) {
+      this.scrollToTopButton.nativeElement.style.display = window.scrollY > 300 ? 'block' : 'none';
     }
   }
 
-  toggleVignettes() {
-    this.showVignettes = !this.showVignettes;
-    if (this.showVignettes) {
-      this.showAboutSection = false;
-      this.showProjects = false;
-      this.showCollaborations = false;
-    }
+  scrollToTop(): void {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   }
 
-  toggleCollaborations() {
-    this.showCollaborations = !this.showCollaborations;
-    if (this.showCollaborations) {
-      this.showAboutSection = false;
-      this.showProjects = false;
-      this.showVignettes = false;
-    }
-  }
-
-  toggleAboutSection() { // Define toggleAboutSection method
-    this.showAboutSection = !this.showAboutSection;
-    if (this.showAboutSection) {
-      this.showProjects = false;
-      this.showVignettes = false;
-      this.showCollaborations = false;
-    }
+  scrollDown(): void {
+    window.scrollTo({
+      top: 500,
+      behavior: 'smooth'
+    });
   }
 }

@@ -1,44 +1,46 @@
-.card-hover-shadow{
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.694);
-    transition: box-shadow .5s;
-}
-.card-hover-shadow:hover{
- box-shadow: 20px 20px 20px black;
+.btn {
+  color: #080000;
+  border-radius: 5px;
+  margin: 3px;
+  transition: background-color 0.3s ease;
+  word-wrap: break-word;
+  width: calc(100% - 10px);
+  font-size: large;
+  border-color: #080000;
 }
 
-.btn {
-  background-color: #405d7c;
-  color: #fff;
-  border-radius: 5px;
-  margin: 10px;
+.btn:hover{
+  background-color: #f7e8d6;
+  transform: scale(1.05);
 }
-.btn:hover,
-.btn:active,
-.btn:focus {
-  background-color: #0056b3;
-}
+
 .container {
   margin-top: 20px;
 }
+
 .row {
   justify-content: center;
 }
+
 .table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
 }
+
 .table th,
 .table td {
   padding: 12px;
   text-align: left;
   border-bottom: 1px solid #dee2e6;
 }
+
 .table th {
-  background-color: #244280;
+  background-color: #083a41;
   color: #fff;
   font-weight: bold;
 }
+
 .table tbody tr:hover {
   background-color: #f5f5f5;
 }
@@ -46,16 +48,48 @@
 .table tbody tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
 .selected {
-  background-color: #0056b3;
-  color: #fff;
+  background-color: #721816;
+  color: #ffffff;
+  font-weight: bolder;
+  pointer-events: none;
 }
 
 .bold-hr {
   border-top: 3px solid rgb(0, 0, 0);
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: none;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
 
+.scroll-to-top:hover {
+  background-color: #004080;
+}
+
+.card-hover-shadow {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.694);
+  transition: box-shadow 0.5s;
+}
+
+.card-hover-shadow:hover {
+  box-shadow: 20px 20px 20px black;
+}
 
 @media only screen and (max-width: 767px) {
   .col-md-8 {
@@ -63,32 +97,42 @@
     margin-left: 0;
     margin-top: 20px;
   }
+
   .btn {
     display: block;
     width: 100%;
-    margin: 10px;
+    margin: 3px;
   }
+
   .table {
     width: 100%;
   }
+
   .card-body {
     padding: 0;
     overflow-y: auto;
     max-height: 600px;
   }
-
 }
 
 @media only screen and (max-width: 1150px) {
-.abbreviations {
-display: none ;
+  .abbreviations {
+    display: none;
   }
-.projects {
-  width: 100%;
-  margin: 5%;
+
+  .projects {
+    width: 100%;
+    margin: 5%;
+  }
+
+  .col-md-3 {
+    width: 100%;
+    order: 2;
+  }
+
+  .col-md-8 {
+    width: 100%;
+    order: 1;
 }
 }
-
-
-
 
