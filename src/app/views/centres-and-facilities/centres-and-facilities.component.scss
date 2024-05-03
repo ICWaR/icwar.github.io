@@ -1,11 +1,10 @@
 h1{
   font-size: 2rem;
-  color: rgba(15, 144, 209, 0.945) ;
-  text-shadow: 1px 1px 1px rgba(4, 27, 39, 0.945) ;
+  text-shadow: 1px 1px 1px rgba(15, 144, 209, 0.945) ;
   font-size: 60px;
 }
 h2{
-  color: rgba(3, 26, 37, 0.945) ;
+  color: rgba(15, 144, 209, 0.945) ;
   text-shadow: 1px 1px 1px rgba(15, 144, 209, 0.945) ;
 }
 .img-thumbnail{
@@ -17,8 +16,9 @@ h2{
 }
 
 @media (max-width: 768px){
+
   h1{
-    font-size: calc(1.0rem + 3.0vw);
+    font-size: calc(1.0rem + 2.0vw);
   }
   .h-sm-70{
     height: 15vh;

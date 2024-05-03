@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { testimonials } from 'src/data-entries/json/testimonials';
 
 @Component({
   selector: 'app-testimonials',
@@ -7,5 +6,5 @@ import { testimonials } from 'src/data-entries/json/testimonials';
   styleUrls: ['./testimonials.component.scss']
 })
 export class TestimonialsComponent {
-  testimonialsData = testimonials;
+
 }

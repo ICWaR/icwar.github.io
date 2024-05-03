@@ -1,31 +1,44 @@
 <div class="p-5 align-middle d-flex justify-content-center row w-100" style="min-height: 80vh;">
-  <h1 class="text-center">Contact Us</h1>
-  <hr>
+  <div class="text-center" >
+    <h1>Contact Us</h1>
+  </div>
   <div class="row justify-content-center">
-    <div class="col-md-4 col-sm-12 my-4 row justify-content-center" style="line-height: 2em;">
-      <div class="container col-12">
+
+    <div class="col-md-3 col-sm-2 my-4 row" style="line-height: 2em;">
+
+      <div class="container col-12 ">
         <h2>Office</h2>
-        <h6>Interdisciplinary Centre for Water Research (ICWaR),<br>
-        Indian Institute of Science,<br>
-        Bengaluru, KA – 560012, India<br>
-        </h6>
-        <a class="fa fa-envelope" style="font-size: large;" href="mailto:office.icwar@iisc.ac.in"> office.icwar@iisc.ac.in</a>
+        Interdisciplinary Centre for Water Research,
+        <br>Indian Institute of Science,
+        <br>Bangalore – 560012, India<br>
+        <a class="fa fa-envelope" href="mailto:office.icwar@iisc.ac.in"> office.icwar@iisc.ac.in</a>
         <h5 class="fa fa-phone col-12"> 080 2293 2740</h5>
+        <h5 class="fa fa-fax col-12"> +91 80 2360 0404</h5>
+      </div>
+      <div class="container my-4 col-12">
+        <h2>IISc</h2>
+        Indian Institute of Science,
+        <br>CV Raman Road,
+        <br>Bangalore – 560012, India<br>
+        <h5 class="fa fa-phone col-12"> 080 2293 2228</h5>
       </div>
     </div>
+
     <div class="col-md-1 d-md-block d-sm-none"></div>
-    <div class="col-md-3  col-sm-12 my-4">
-      <form class="container p-3 shadow" style="border-radius: 25px;border: #659DBD solid 1px;" action={{configurations.spreeMailUrl}} method="POST">
-        <label for="firstName">First Name</label>
-        <input type="text" class="form-control" name="firstName" required>
-        <label for="lastName">Last Name</label>
-        <input type="text" class="form-control" name="lastName" required>
-        <label for="email">Email</label>
-        <input type="email" class="form-control" name="email" required>
-        <label for="message">Message</label>
-        <textarea class="form-control" name="message" rows="5" placeholder="Enter your message"></textarea>
-        <button type="submit" class="btn shadow-lg my-2" style="background-color: #659DBD;">Send</button>
-      </form>
-    </div>
+
+    <div class="col-md-3 offset-1 col-sm-2 my-4">
+      <form class="container p-3 shadow " style="border-radius: 25px;border: #659DBD solid 1px;"  action={{configurations.spreeMailUrl}}
+    method="POST">
+      <label for="firstName">First Name</label>
+      <input type="text" class="form-control" name="firstName" required>
+      <label for="lastName">Last Name</label>
+      <input type="text" class="form-control" name="lastName" required>
+      <label for="email">Email</label>
+      <input type="email" class="form-control" name="email" required>
+      <label for="message">Message</label>
+      <textarea class="form-control " name="message" rows="5" placeholder="Enter your message"></textarea>
+      <button type="submit" class="btn shadow-lg my-2" style="background-color: #659DBD;">Send</button>
+    </form>
   </div>
+</div>
 </div>

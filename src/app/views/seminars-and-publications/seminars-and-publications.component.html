@@ -51,7 +51,7 @@
       <ng-container *ngFor="let item of publications">
         <ng-container *ngFor="let row of item.publicationsList;index as i">
         <tr class="border border-bottom-3 border-1 border-dark" >
-          <!-- <td class="border border-1 border-dark" *ngIf="i==0" [attr.rowspan]="item.publicationsList.length" >{{item.name}}</td> -->
+          <td class="border border-1 border-dark" *ngIf="i==0" [attr.rowspan]="item.publicationsList.length" >{{item.name}}</td>
             <td class="border border-1 border-dark" >{{row.text}}</td>
             <td class=" border border-1 border-dark" style="word-wrap: break-word;max-width: 250px;"><a [href]="row.links">{{row.links}}</a></td>
           </tr>

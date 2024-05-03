@@ -19,7 +19,7 @@ var constants = {
   "dropdown-color":"#d4ac92",
   "dropdown-style":{
     'color':'#c01919',
-    'background': '#721816',
+    'background': 'linear-gradient(to top, #b78652 100%,#dc9d6e 100%)',
     'font-size':'1.5rem',
   }
 }
@@ -43,7 +43,7 @@ export const configurations = {
 
   "navbar":{
     "navLinksStyle":{
-      'background':'#084c61',
+      'background':'linear-gradient(0deg, rgba(10,76,129,1) 15%, rgba(10,108,129,1) 35%, rgba(240,248,250,1) 94%)',
       'font-size':constants['font-size'],
       // 'box-shadow':' 1px 1px 5px black'
   },
@@ -75,9 +75,8 @@ export const configurations = {
           {
             'name':'Admissions',
             'link':'/redirect_initiated',
-            'redirect':'https://iisc.ac.in/admissions/',
-          },
-          {
+            'redirect':'https://iisc.ac.in/admissions/'
+          },{
             'name':"Contact Us",
             'link':'/contact-us'
           }
@@ -209,7 +208,7 @@ export const configurations = {
 
   "footer":{
     "style":{
-       "background-color": "#084c61",
+       "background-color": "#08394f",
        "color":"red"
     }
   }
