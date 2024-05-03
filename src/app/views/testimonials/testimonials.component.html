@@ -1,4 +1,4 @@
-<section class="title container bg-body-tertiary">
+<section class="title container bg-body-tertiary my-4 py-4">
   <div class="row">
     <div class="col-md-12">
       <h1>Testimonials</h1>
@@ -7,30 +7,30 @@
   </div>
 </section>
 
-<!-- Start Blog Layout -->
-<div class="container bg-transparent">
+<div class="container">
   <div class="row">
-
-    <div class="col-md-6 item ">
-      <div class="item-in">
-        <div class="seperator"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi expedita eveniet consectetur, voluptates voluptatum, sit excepturi earum. Veniam eius amet, accusantium, deserunt officia, quos qui debitis laboriosam velit quis autem!</p>
-        <a href="#">Read More
-          <i class="fa fa-long-arrow-right"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="col-md-6 item">
-      <div class="item-in">
-        <div class="seperator"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi expedita eveniet consectetur, voluptates voluptatum, sit excepturi earum. Veniam eius amet, accusantium, deserunt officia, quos qui debitis laboriosam velit quis autem!</p>
-        <a href="#">Read More
-          <i class="fa fa-long-arrow-right"></i>
-        </a>
+    <div class="col-md-4 col-sm-6 mb-4" *ngFor="let testimonial of testimonialsData">
+      <div class="card h-100">
+        <div class="row g-0 align-items-end"> <!-- Add align-items-end class to align items at the bottom -->
+          <div class="col-md-5 col-sm-12">
+              <img [src]="testimonial.imgSrc" class="img-fluid p-2">
+          </div>
+          <div class="col-md-7 col-sm-12">
+              <div class="card-body">
+                  <h5 class="card-title mb-0"><b>{{ testimonial.name }}</b></h5> <!-- Add mb-0 class to remove bottom margin -->
+                  <p class="card-text mb-0">{{ testimonial.currentOrganization }}</p> <!-- Add mb-0 class to remove bottom margin -->
+              </div>
+          </div>
       </div>
 
+        <div class="card-body" style="text-align: justify;">
+          <p class="card-text">{{ testimonial.testimonialText }}</p>
+        </div>
+        <div class="card-footer text-muted d-flex justify-content-between">
+          <p><b style="margin-right: auto">Worked as: </b>{{ testimonial.workedAs }}</p>
+          <span>({{ testimonial.duration }})</span>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-

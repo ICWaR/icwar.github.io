@@ -1,6 +1,6 @@
 export const faculty = [
   {
-    Chairperson: [
+    Chair: [
       {
         name: "Prof. Praveen C Ramamurthy",
         Designation: "chairman",
@@ -13,7 +13,7 @@ export const faculty = [
     ],
   },
   {
-    'Primary Faculty': [
+    'Core Faculty': [
       {
         name: "Dr. Rajarshi Das Bhowmik",
         Designation: "Assistant Professor",
@@ -82,7 +82,7 @@ export const faculty = [
         details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from Devi Ahiliya Vishwa Vidhyalaya, Indore. My research interests include CO2 evolution in the paleo-atmosphere; probing the soil carbonate archives, Reconstruction of the paleo-diet using the stable isotopes method, Understanding the extinction event in geological time, Carbon cycle in hydrosphere-atmosphere (Ocean, estuary, lakes, etc.), Stable isotope chemistry of atmospheric CO2 and carbon cycle, Application of doubly substituted CO2 isotopologues in carbonate Paleo-thermometry, Development of new isotopic standard for analyses of stable isotopes in air and solid samples."
       },
       {
-        name: "Dr. Ramananda Chakrabarti",
+        name: "Prof. Ramananda Chakrabarti",
         Designation: "",
         department: "Centre for Earth Sciences",
         phoneNo: "+91 80 2293 3003",
@@ -133,7 +133,7 @@ export const faculty = [
     ],
   },
   {
-    'Former Faculty': [
+    'Former Associate Faculty': [
       {
         name: "Prof. Venugopal V.",
         Designation: "Associate Faculty",
@@ -144,7 +144,7 @@ export const faculty = [
         details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Minnesota. My research interests include  Stochastic Hydrology, Space-time Structure and Scale-invariance of Precipitation, Precipitation Downscaling, Retrieval and Validation of remotely sensed Precipitation, and Cloud-resolving Models."
       },
       {
-        name: "Nagesh Kumar D",
+        name: "Prof. Nagesh Kumar D",
         Designation: "Associate Faculty",
         department: "Department of Civil Engineering",
         phoneNo: "+91 80 2293 2666",
@@ -155,11 +155,20 @@ export const faculty = [
       {
         name: "Prof. Mohan Kumar M. S.",
         Designation: "Retired Faculty",
-        department: "Retired",
+        department: "Department of Civil Engineering",
         phoneNo: "",
         email: "",
         imgSrc: "../../assets/images/Faculty/Mohan Kumar S.jpg",
-        details: ""
+        details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Science, Bengaluru. My research interests include Water Resources and Environmental Engineering."
+      },
+      {
+        name: "Prof. Subramanian S",
+        Designation: "Retired Faculty",
+        department: "Department of Materials Engineering",
+        phoneNo: "",
+        email: "",
+        imgSrc: "../../assets/images/Faculty/Prof.S.Subramanian.jpg",
+        details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Mysore, India. My research interests include  Surface and colloid chemistry, Mineral processing, Extractive metallurgy, Bio-processing and environmental control."
       },
     ],
   }
@@ -742,14 +751,14 @@ export const officeStaff = [
       },
     ],
   },
-  {
-    Past: [
-      {
-        name: "Abhinand B",
-        Designation: "Administrative Assistant",
-        imgSrc: "../../assets/images/Office Staff/abhinand.jpg",
-      }
-    ],
-  }
+  // {
+  //   Past: [
+  //     {
+  //       name: "Abhinand B",
+  //       Designation: "Administrative Assistant",
+  //       imgSrc: "../../assets/images/Office Staff/abhinand.jpg",
+  //     }
+  //   ],
+  // }
 ];
 
