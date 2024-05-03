@@ -58,6 +58,30 @@ export const collaborations=[
   }
 ]
 
+export const groups=[
+  {
+    groupName: 'Hydroclim',
+    leader: 'Dr. Rajarshi Das Bhowmik',
+    text: 'Assistant Professor at ICWaR, IISc Bangalore',
+    imgSrc: 'https://rajarshidasbhowmik.com/wp-content/uploads/2022/06/rbhowmik-research1.png',
+    websiteUrl: 'https://rajarshidasbhowmik.com/'
+  },
+  {
+    groupName: 'Geodesy for Earth System Science (GESS)',
+    leader: 'Dr. Bramha Dutt Vishwakarma',
+    text: 'Assistant Professor at ICWaR, IISc Bangalore',
+    imgSrc: 'https://ultra-pluto-7f6d1.netlify.app/images/SLR_illust_global_processes.png',
+    websiteUrl: 'https://ultra-pluto-7f6d1.netlify.app/'
+  },
+  {
+    groupName: 'Organic Nano electronics Group',
+    leader: 'Prof. Praveen C Ramamurthy',
+    text: 'Chairman at ICWaR, IISc Bangalore',
+    imgSrc: 'https://materials.iisc.ac.in/~praveen/images/TemplateImage.png',
+    websiteUrl: 'https://materials.iisc.ac.in/~praveen/'
+  }
+]
+
 export const research_projects=
   {
     "Ongoing":[
