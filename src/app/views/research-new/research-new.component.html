@@ -1,11 +1,17 @@
 <div class="container-fluid">
 
   <div class="row p-5">
-    <div class="col-md-3 col-12"  >
+    <div class="col-md-8 col-12 order-1 order-lg-2 align-items-center justify-content-center d-flex bg-light">
+      <video class="shadow m-2 border border-1 border-dark img-fluid" autoplay loop>
+        <source src="https://college.harvard.edu/sites/default/files/2019-07/banner_lab_research_video.mp4">
+      </video>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3 col-12 order-2 order-lg-1"  >
       <div class="p-2 bg-light" style="background-color: rgb(236, 162, 162);" >
         <div class="shadow px-4 py-2">
           <h1 class="my-3"><b>Research</b></h1>
-          <div class="nav-list ps-md-5 mb-3 d-flex flex-column">
+          <div class="ps-md-5 mb-3 d-flex flex-column">
             <button class="btn" [class.selected]="!showProjects && !showVignettes && !showCollaborations && !showGroups" (click)="toggleSection('about')">About</button>
               <button class="btn" [class.selected]="showProjects" (click)="toggleSection('projects')">Projects</button>
               <button class="btn" [class.selected]="showVignettes" (click)="toggleSection('vignettes')">Vignettes</button>
@@ -16,15 +22,9 @@
         </div>
       </div>
     </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-8 col-12 align-items-center justify-content-center d-flex bg-light">
-      <video id="research-video" class="shadow m-2 border border-1 border-dark img-fluid" autoplay loop>
-        <source src="https://college.harvard.edu/sites/default/files/2019-07/banner_lab_research_video.mp4">
-      </video>
-    </div>
   </div>
   <!-- About Section -------->
-  <div class="col-md-10 offset-md-1 align-middle align-items-center card p-md-5 mb-5" *ngIf="showAboutSection">
+  <div *ngIf="showAboutSection" class="col-md-10 offset-md-1 align-middle align-items-center card p-md-5 mb-5">
     <h1 class="align-self-start p-1"><b>About</b></h1>
     <p style="font-size: 18px; padding: 2%; text-align: justify;">
       The Interdisciplinary Centre for Water Research (ICWaR) at the Institute is set up with an aim to address water-related issues that have formidable scientific challenges and more importantly, considerable practical relevance.  A major objective of this centre is to develop tools and templates using state-of–the-art sensor-communication, satellite information- and nano- technologies to provide implementable solutions to the water problems faced by the society with respect to climate change, water demand, water quality, extremes of floods and droughts, and salinity intrusion in coastal aquifers. Within a short period of time, the centre has made high-impact research contributions in the area of water resources at regional and global levels.
@@ -32,11 +32,11 @@
     <img class="img-thumbnail" style="max-height: 500px; width: 800px;" src="../../../assets/images/Vignettes and Theme/research_theme_with_background.png" alt="">
   </div>
   <!--------- Projects section --------->
-  <div class="p-5 row w-100 bg-light" *ngIf="showProjects">
+  <div *ngIf="showProjects" class="p-5 row w-100 bg-light">
     <div class="col-12 p-4 mb-3 bg-white">
       <h1 class="text-center"><b>Projects</b></h1>
     </div>
-    <div class="abbreviations col-12 shadow col-md-3 lign-middle align-items-center card p-3 pb-3" style="height:fit-content">
+    <div class="abbreviations col-12 shadow col-md-3 align-middle align-items-center card p-3 pb-3" style="height:fit-content">
       <div *ngIf="abbreviations.length > 0">
         <h2>Abbreviations</h2>
         <table class="table">
@@ -85,32 +85,28 @@
     </div>
   </div>
   <!-------- Vignettes section -------->
-  <div class="p-5 row w-100 bg-light" *ngIf="showVignettes">
+  <div *ngIf="showVignettes" class="p-5 row w-100 bg-light">
     <div class="col-12 p-4 bg-white">
       <h1 class="text-center"><b>Research Vignettes</b></h1>
     </div>
     <div class="col-12 p-md-5">
       <div class="row" *ngFor="let vignette of research_vignettes; let i = index">
         <div class="col-md-6 mb-3">
-          <div class="vignette-container">
-            <div class="vignette">
-              <img [src]="vignette.imgSrc" alt="Vignette Image" class="img-fluid">
-            </div>
+          <div class="container">
+              <img [src]="vignette.imgSrc" alt="" class="img-fluid">
           </div>
         </div>
         <div class="col-md-6 mb-3">
-          <div class="vignette-details jutify" style="text-align: justify;" >
-            <div>
-              <p>{{ vignette.details }}</p>
-            </div>
+          <div style="text-align: justify;" >
+            <p>{{ vignette.details }}</p>
           </div>
         </div>
-        <hr class="bold-hr" *ngIf="i !== research_vignettes.length - 1">
+        <hr *ngIf="i !== research_vignettes.length - 1" class="bold-hr">
       </div>
     </div>
   </div>
   <!--------- Collaborations section --------->
-  <div class="p-5 row w-100 bg-light" *ngIf="showCollaborations">
+  <div *ngIf="showCollaborations" class="p-5 row w-100 bg-light">
     <div class="col-12 bg-white p-4">
       <h1 class="text-center"><b>Collaborations</b></h1>
     </div>
@@ -129,24 +125,23 @@
     </div>
   </div>
   <!-------------Groups Section--------------->
-  <div *ngIf="showGroups">
-    <div class="card m-2 p-2 bg-light">
-      <h1 class="align-self-start p-5">Groups</h1>
-      <div class="card-group">
-        <div class="card m-3 card-hover-shadow" *ngFor="let group of groups">
-          <img class="card-img card-header" [src]="group.imgSrc" [alt]="group.groupName">
-          <div class="card-body bg-light">
-            The group is led by {{ group.leader }}, {{ group.text }}.
-            <h3><br><a [href]="group.websiteUrl">{{ group.groupName }}</a></h3>
-          </div>
+  <div *ngIf="showGroups" class="card m-2 p-2 bg-light">
+    <h1 class="align-self-start p-5">Groups</h1>
+    <div class="card-group">
+      <div class="card m-3 card-hover-shadow" *ngFor="let group of groups">
+        <img class="card-img card-header" [src]="group.imgSrc" [alt]="group.groupName">
+        <div class="card-body bg-light">
+          The group is led by {{ group.leader }}, {{ group.text }}.
+          <h3><br><a [href]="group.websiteUrl">{{ group.groupName }}</a></h3>
         </div>
       </div>
     </div>
   </div>
 
+  <button class="scroll-to-top" #scrollToTopButton (click)="scrollToTop()">↑</button>
 </div>
 
-<button class="scroll-to-top" #scrollToTopButton (click)="scrollToTop()">↑</button>
+
 
 
 
