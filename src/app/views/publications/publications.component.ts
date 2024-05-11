@@ -1,60 +1,70 @@
-import { Component } from '@angular/core';
-import { configurations } from 'src/data-entries/config';
-import { publications } from 'src/data-entries/json/publications';
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { journal, conference, bookChapter, books } from 'src/data-entries/json/publications';
+
+interface Tab {
+  id: string;
+  data: any[];
+}
 
 @Component({
   selector: 'app-publications',
   templateUrl: './publications.component.html',
   styleUrls: ['./publications.component.scss']
 })
-export class PublicationsComponent {
-  $=$;
-  topOffSet :any;
-  publications = publications;
+export class PublicationsComponent implements OnInit {
+  activeTab: string = 'journal'; // Define activeTab property
 
-  ngOnDestroy(): void {
-    //Called once, before the instance is destroyed.
-    //Add 'implements OnDestroy' to the class.
+  tabs: Tab[] = [
+    { id: 'journal', data: journal },
+    { id: 'conference', data: conference },
+    { id: 'bookChapter', data: bookChapter },
+    { id: 'book', data: books }
+  ];
 
-    this.getKeysOfJson(configurations['publications']).forEach(key=>{
-      $('body').css(key,"unset");
-    })
+  @ViewChild('scrollToTopButton') scrollToTopButton!: ElementRef;
 
-    $('body').css('global-configurations');
+  constructor() {}
 
+  ngOnInit(): void {
+    // Default to showing the Journal tab
+    this.showTab('journal');
+    window.addEventListener('scroll', this.scrollFunction.bind(this)); // Add scroll event listener
   }
 
-  ngAfterViewInit(){
-    this.topOffSet = $('#0').offset()?.top;
-    $('body').css(configurations['publications']);
-  }
-
-  getKeysOfJson(data:any):string[]{
-    return Object.keys(data);
-  }
-  returnJsonOfKey(data:{},key:string){
-    let keySet = Object.keys(data);
-    let index = keySet.indexOf(key);
-  }
-  renderRequestedSeminarType(name:string){
-    (<any>$('#'+ name.replaceAll(' ','_') )).toggle()
-  }
-  removeSpaceFromString(str:string){
-    return str.replaceAll(' ','_')
-  }
-
-  updateHighlghtedProffName(currIndex:number){
-    console.log( $('#'+currIndex).offset());
-    // $('#'+currIndex).offset({top:this.topOffSet,left:$('#'+currIndex).offset()?.left});
-
-    $('#'+currIndex).addClass('highlightRow2s');
-
-    $('.proffesorsSideNavHighlight').children().each((index, element) => {
-      if(index==currIndex)
-        $(element).addClass('font-highlight');
-      else
-        $(element).removeClass('font-highlight');
+  showTab(tabName: string): void {
+    // Hide all tabs
+    this.tabs.forEach(tab => {
+      const tabElement = document.getElementById(tab.id);
+      if (tabElement) {
+        tabElement.style.display = 'none';
+      }
     });
 
+    // Show selected tab
+    const tab = this.tabs.find(t => t.id === tabName);
+    if (tab) {
+      const tabElement = document.getElementById(tab.id);
+      if (tabElement) {
+        tabElement.style.display = 'block';
+      }
+      this.activeTab = tabName; // Update activeTab
+    }
+  }
+
+  scrollFunction(): void {
+    if (this.scrollToTopButton) {
+      if (window.scrollY >300) {
+        this.scrollToTopButton.nativeElement.style.display = 'block';
+      } else {
+        this.scrollToTopButton.nativeElement.style.display = 'none';
+      }
+    }
+  }
+
+  scrollToTop(): void {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   }
 }

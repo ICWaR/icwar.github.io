@@ -37,7 +37,12 @@ const routes: Routes = [
   {path:'publications',component: PublicationsComponent},
   {path: 'events',children:[
     {path:'seminars-and-publications',component: SeminarsAndPublicationsComponent},
-    {path:'workshop-and-meetings',component: WorkshopsAndMeetingsComponent},
+    {path:'workshop-and-meetings',component: WorkshopsAndMeetingsComponent, children: [
+      { path: '', redirectTo: 'workshops', pathMatch: 'full' }, // Redirect to workshops by default
+      { path: 'workshops', component: WorkshopsAndMeetingsComponent, data: { selectedTab: 'Workshops' } },
+      { path: 'seminars', component: WorkshopsAndMeetingsComponent, data: { selectedTab: 'Seminars' } }
+    ]
+    },
     {path:'monsoon-school',component: ActivitiesAndEventsComponent},
     ]
   },

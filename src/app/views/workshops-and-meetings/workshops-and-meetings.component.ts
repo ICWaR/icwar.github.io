@@ -1,60 +1,60 @@
-import { seminars } from 'src/data-entries/json/Seminars';
-import { Component} from '@angular/core';
-import { workshops } from 'src/data-entries/json/workshops';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { workshops } from 'src/data-entries/json/workshops';
+import { seminars } from 'src/data-entries/json/Seminars';
 
 @Component({
   selector: 'app-workshops-and-meetings',
   templateUrl: './workshops-and-meetings.component.html',
   styleUrls: ['./workshops-and-meetings.component.scss']
 })
-
-export class WorkshopsAndMeetingsComponent {
-  $=$;
+export class WorkshopsAndMeetingsComponent implements OnInit {
   workshops = workshops;
   seminars = seminars;
-  type:any;
-  constructor(private route: ActivatedRoute,private router: Router){
+  selectedTab: string = 'Workshops';
+  @ViewChild('scrollToTopButton') scrollToTopButton!: ElementRef;
 
-  }
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router
+  ) {}
 
+  ngOnInit(): void {
+    window.addEventListener('scroll', this.scrollFunction.bind(this));
 
-
-  ngAfterViewInit(): void {
-    //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
-    //Add 'implements AfterViewInit' to the class.
-    this.type = <string>this.router.url.split('/').pop();
-    switch(this.type){
-      case this.type != 'Workshops':
-        this.updateData('Seminars')
-        break;
-      default:
-        this.updateData('Workshops')
-        break;
+    const childRoute = this.route.snapshot.firstChild?.routeConfig?.path;
+    this.workshops = workshops;
+    this.seminars = seminars;
+    if (childRoute === 'seminars') {
+      this.selectedTab = 'Seminars';
+    } else {
+      this.selectedTab = 'Workshops';
     }
   }
 
-   updateData(dataType:string){
-
-      if(dataType === 'Workshops' ||  dataType === 'Meetings'){
-        $('#Workshops').removeClass('d-none')
-      $('#Seminars').addClass('d-none')
+  updateData(dataType: string) {
+    this.selectedTab = dataType;
+    if (dataType === 'Workshops') {
+      this.router.navigate(['workshops'], { relativeTo: this.route });
+    } else {
+      this.router.navigate(['seminars'], { relativeTo: this.route });
     }
-    else{
-      $('#Workshops').addClass('d-none')
-      $('#Seminars').removeClass('d-none')
-    }
+  }
 
-    $('ol>button').each(function () {
-      if(this.innerHTML !== dataType)
-        $(this).removeClass('font-highlight')
-      else
-        $(this).addClass('font-highlight')
+  scrollFunction(): void {
+    if (this.scrollToTopButton) {
+      if (window.scrollY > 300) {
+        this.scrollToTopButton.nativeElement.style.display = 'block';
+      } else {
+        this.scrollToTopButton.nativeElement.style.display = 'none';
+      }
+    }
+  }
+
+  scrollToTop(): void {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
     });
-
-  }
-
-  removeSpaceFromString(str:string){
-    return str.replaceAll(' ','_')
   }
 }

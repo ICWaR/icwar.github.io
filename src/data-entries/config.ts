@@ -136,7 +136,7 @@ export const configurations = {
             "subDropdownItems":[
               {
                 "name":"Workshops",
-                "link":"/events/workshop-and-meetings"
+                "link":"/events/workshop-and-meetings/workshops"
               },
               {
                 "name":"Monsoon School",
@@ -144,7 +144,7 @@ export const configurations = {
               },
               {
                 "name":"Seminars",
-                "link":"/events/workshop-and-meetings",
+                "link":"/events/workshop-and-meetings/seminars",
               },
               ]
           },
