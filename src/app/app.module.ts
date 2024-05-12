@@ -30,7 +30,6 @@ import { OutreachComponent } from './views/outreach/outreach.component';
 import { StudentsSeminarComponent } from './views/students-seminar/students-seminar.component';
 import { MediaCoverageComponent } from './views/media-coverage/media-coverage.component';
 
-
 @NgModule({
   imports: [
     BrowserModule,
