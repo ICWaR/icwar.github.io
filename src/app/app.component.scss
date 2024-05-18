@@ -14,10 +14,7 @@
   width: 100%;
   height: 200px;
 }
-li>a,a>ul>a,ul>li{
-  // backdrop-filter: blur(100px);
-  // border-radius: 10px;
-}
+
 .dropdown-menu{
 
 
@@ -41,6 +38,10 @@ li>a,a>ul>a,ul>li{
 }
 .dropdown-item{
   color: white;
+  &:focus{
+    background-color: #721816 !important;
+    color: white !important;
+  }
 }
 
 .dropdown-item:hover{
