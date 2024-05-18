@@ -10,10 +10,10 @@
     "ng": "ng",
     "start": "ng serve --port 4200 --ssl true",
     "liveOnIntraNet": "ng serve --host 0.0.0.0",
-    "build": "ng build --configuration production && cp 404.html CNAME docs/.",
+    "build": "ng build --configuration production && cp docs/index.html docs/404.html && cp CNAME docs/.",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
-    },
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^15.2.0",

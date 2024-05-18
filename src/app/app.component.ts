@@ -71,7 +71,7 @@ export class AppComponent {
   getRedirectLink(item:any){
     return item['redirect'];
   }
-  goToUrl(url:string): void {
-    window.location.href = url;
-}
+  goToUrl(url: string): void {
+    window.open(url, '_blank');
+  }
 }
