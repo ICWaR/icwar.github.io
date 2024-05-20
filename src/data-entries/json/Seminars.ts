@@ -1,7 +1,7 @@
 export const seminars =
   {
     ICWaR_Guest_Seminar_Series: [
-      // {
+        // {
       //   imgSrc: "../../../assets/images/Guest Seminar Series/",
       //   Title:"",
       //   speakerName:'',
@@ -12,6 +12,28 @@ export const seminars =
       //   Abstract:'',
       //   link: ['']
       // },
+      {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Solomon_Vimal.png",
+        Title:"Curating Robert E. Horton’s Bibliography",
+        speakerName:'Dr. Solomon Vimal',
+        SeminarTitle:'Curating Robert E. Horton’s Bibliography',
+        DateTime:'13 April 2024 (Monday), 04:00 pm',
+        Platform:'MS Teams',
+        AboutSpeaker:'Dr. Solomon Vimal currently holds the dual role of CEO at Geothara and Postdoc at Jacobs-Technion Institute, Cornell-Tech, NYC through the Runway Startup Postdoc Program. His primary mission revolves around developing an enterprise data science product aimed at enhancing security in water, energy, and climate (WEC) domains, with market interests in sustainable infrastructure design and risk management. Dr. Vimal completed his Ph.D. at the Department of Geography, University of California, Los Angeles, focusing on climate change impacts on Arctic lakes. His exceptional academic achievements include numerous fellowships, awards, and prizes, notably the Norman Medal from ASCE. With over 10 published papers and pending patents, he has demonstrated a commitment to geospatial data science. Dr. Vimal’s extensive global education in hydrology, including three master’s degrees and a bachelor’s degree in civil engineering, underscores his expertise. Additionally, his contributions to hydrology, such as inventing algorithms for resilience and rediscovering a century-old evaporation estimation method, have advanced our understanding of land-atmosphere interactions.',
+        Abstract:'Robert E. Horton (1875-1945) is regarded as the father of modern Hydrology for setting the field on a strong quantitative footing. While he published well over 200 works (papers, reports, and books), only about 80 of them have been listed in bibliographies until recently. His works are found scattered in several libraries and archives throughout the US. Our bibliography curation project, which began in 2018 nearly tripled the known list of Horton’s publications from 80 to over 200. We are digitizing all of these works, as well as his unpublished works, letters and drafts, to make them openly available to hydrologists. A GenAI-enabled Horton bot will be created to seamlessly access all the material so that hydrologists can “consult” with Horton on some of his fundamental contributions to hydrology. Noteworthy findings from our work includes Horton’s correspondence with Theodore von Karman circa 1938, for a work that is part of a “bluebook” (similar to Peter Eagleson’s 1991 report) where Horton lays out a comprehensive approach for runoff processes; a 1949 Hydrology textbook where Horton is not credited as co-author even though he spent 5 years of his time developing the book; a Hydrology handbook published posthumously in 1949, presumably the first of its kind, which may have inspired the classic Handbook of Hydrology by Ven te Chow (1962).',
+        link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EcFJiP9in8hFs5VRbfCqnWwByqh_uJUOPIqayzriOranIA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BjkQNu&referrer=Outlook.Web&referrerScenario=email-linkwithembed']
+      },
+      {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Ashish_Sharma.jpg",
+        Title:"Can Spectrally Transformed CMIP6 Decadal Projections Improve Interannual Rainfall Forecasts?",
+        speakerName:'Prof. Ashish Sharma',
+        SeminarTitle:'Can Spectrally Transformed CMIP6 Decadal Projections Improve Interannual Rainfall Forecasts?',
+        DateTime:'08 April 2024 (Monday), 04:00 pm',
+        Platform:'MS Teams',
+        AboutSpeaker:'Ashish is a Professor of Civil and Environmental Engineering at the University of New South Wales, Sydney, Australia. He is an engineering hydrologist interested in problems involving hydrological uncertainty. Much of his research has focused on the impact of climate change and variability on hydrological practice, along with applications related to remote sensing, formulating stochastic approaches, developing hydrological models, and the two big hydrology bread-and-butter problems- design flood estimation + water resources management. Ashish has served as the President of the IAHS Commission on Statistical Hydrology and continued to serve as the Editor-in-Chief of the Journal of Hydrology-X, newly transformed to offer “Letter” contributions of broad international and methodological interest.',
+        Abstract:'Can CMIP6 decadal projections be effective for multi-decadal water resources planning? This is the underlying question that motivates the present research, investigating what are the key deficiencies that limit their direct use for applications, and whether cleverly formulated mathematical alternatives can be used as effective postprocessors. This study focuses on the development of a robust framework for predicting droughts over interannual to decadal scales to enhance water resource management. The proposed framework adopts the Wavelet System Prediction (WASP) methodology, which transforms the spectral attributes inherent to climate indices to improve the skill of drought forecasts. Further improvement in forecasting capability is achieved through a Hierarchical Linear Combination (HLC) logic, which incorporates forecasts from ten climate indices that are obtained from CMIP6 decadal projections. These indices, including ENSO-related sea surface temperature anomalies and other climate drivers closely linked to Australian rainfall, are derived from decadal predictions of the Decadal Climate Prediction Project (DCPP). The results of projected drought indices across various scales in Australia demonstrate the substantial potential of the integrated HLC-WASP framework to significantly improve the forecast skills of medium to long-term drought scenarios. It must be noted that the underpinning reason for the improvement here is not an enhancement of the dynamical forecasts, but a spectral modulation of their future simulations to define a new set of climate indices that are “optimal” for use in a forecasting context. In other words, wherever empirical forecasts are needed, the spectral transformation used here will redefine system predictors to maximize forecast quality to the extent that is mathematically possible.',
+        link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/krishnakp_iisc_ac_in/EWyu1EYy3KBOnSkJqVsfzSoBVWOysiChaaV9iczGsmL9UA?e=iDvqq8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D']
+      },
       {
         imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Brijesh_Yadav.png",
         Title:"Management of soil-water pollution using in-situ remediation and advanced monitoring methods",

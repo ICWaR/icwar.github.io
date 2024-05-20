@@ -10,15 +10,8 @@ button.btn.btn-text-expand:before
     display: block;
     width: 100px;
 }
-// li>a.nav-link{
-//   transition: 1s;
-// &:hover{
-//   text-decoration: underline;
-// }
-// }
 .font-highlight{
   background: linear-gradient(to left, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
-  // background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -33,25 +26,12 @@ div.d-flex{
 }
 
 .facultySideNavHighlight {
-  list-style-type: none; /* Remove bullet points */
-  padding-left: 0; /* Remove default padding */
+  list-style-type: none;
+  padding-left: 0;
 }
 
-
-// html{
-//   -ms-overflow-style: none;  /* IE and Edge */
-//   scrollbar-width: none;  /* Firefox */
-// }
-// ::-webkit-scrollbar {
-//   display: none;/* Hide scrollbar for Chrome, Safari and Opera */
-//   width: 0px;
-//   background: transparent; /* make scrollbar transparent */
-// }
-
 .nav-link {
-  // display: inline-block;
-  position: relative;
-  // color: #0087ca;
+ position: relative;
 }
 .nav-link::after {
   content: '';
@@ -68,4 +48,17 @@ div.d-flex{
 .nav-link:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+@media (max-width: 1300px) {
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 760px) {
+  .card-header {
+    flex-direction: row;
+    align-items: center;
+  }
 }

@@ -507,6 +507,14 @@ export const postDoctoralScholars = [
         email: "retinderkour@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/RetinderK.jpg",
       },
+      {
+        name: "Ashlin Ann Alexander" ,
+        Designation: "Research Associate" ,
+        'Degree and Affiliation': "Ph.D. in Water Resources Engineering, Indian Institute of Science, Bangalore" ,
+        Project: "SERB-CRG, MHRD-STARS",
+        email: "ashlina@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Post Doc/Ashlin_Ann_Alexander.png",
+      },
     ],
   },
   {
@@ -609,14 +617,6 @@ export const projectStaff = [
   {
     Current: [
       {
-        name: "Likhitha P" ,
-        Designation: "Senior Research Fellow" ,
-        'Degree and Affiliation': "M.Tech in Water Resources Engineering, NIT Kurukshetra" ,
-        Project: "National Supercomputing Mission",
-        email: "likhithap@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/LikhithaP.jpg",
-      },
-      {
         name: "Ms. P. N. Chandi Priya" ,
         Designation: " Junior Research Fellow" ,
         'Degree and Affiliation': "MS by Research in Civil Engineering, IIIT Hyderabad (2022)" ,
@@ -641,6 +641,26 @@ export const projectStaff = [
         imgSrc: "../../assets/images/Project Staff/nruthya-k.jpg",
       },
       {
+        name: "Ms. Preethi Alle" ,
+        Designation: "Junior Research Fellow" ,
+        'Degree and Affiliation': "M.Tech in Water Resources Engineering, IIT Bhubaneswar (2021)" ,
+        Project: "MHRD-STAR",
+        email: "preethialle@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Preethi_Alle.jpg",
+      },
+    ],
+  },
+  {
+    Past: [
+      {
+        name: "Likhitha P" ,
+        Designation: "Senior Research Fellow" ,
+        'Degree and Affiliation': "M.Tech in Water Resources Engineering, NIT Kurukshetra" ,
+        Project: "National Supercomputing Mission",
+        email: "likhithap@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/LikhithaP.jpg",
+      },
+      {
         name: "Karthika K" ,
         Designation: "Project Associate" ,
         'Degree and Affiliation': "M.Tech in Remote Sensing and GIS (Specialization: Marine and Atmospheric Science), IIRS Dehradun" ,
@@ -656,26 +676,6 @@ export const projectStaff = [
         email: "ananthular@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Ananthula_Rishika.png",
       },
-      {
-        name: "Ashlin Ann Alexander" ,
-        Designation: "Research Associate" ,
-        'Degree and Affiliation': "Ph.D. in Water Resources Engineering (Thesis submitted), Indian Institute of Science, Bangalore" ,
-        Project: "SERB-CRG Project",
-        email: "ashlina@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/Ashlin_Ann_Alexander.jpg",
-      },
-      {
-        name: "Ms. Preethi Alle" ,
-        Designation: "Junior Research Fellow" ,
-        'Degree and Affiliation': "M.Tech in Water Resources Engineering, IIT Bhubaneswar (2021)" ,
-        Project: "MHRD-STAR",
-        email: "preethialle@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/Preethi_Alle.jpg",
-      },
-    ],
-  },
-  {
-    Past: [
       {
         name: "Gaddam Nagaraju" ,
         Designation: "Project Associate" ,

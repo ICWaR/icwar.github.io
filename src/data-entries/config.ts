@@ -154,25 +154,7 @@ export const configurations = {
           },
           {
             'name':'Gallery',
-            'link':'/gallery',
-            "hasSubDropdown":true,
-            "subDropdownItems":[
-            {
-              "name":"Fresher’s Day 2022 – Gallery",
-              'link':'/gallery',
-            },
-            {
-              "name":"Open Day: ICWaR",
-              'link':'/gallery',
-            },
-            {
-              "name":"Open Day, 2020",
-              'link':'/gallery',
-            },
-            {
-              "name":"Open Day, 2019",
-              'link':'/gallery',
-            }],
+            'link':'/gallery'
           },
           {
             "name":"Outreach",
