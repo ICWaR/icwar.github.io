@@ -31,8 +31,10 @@ div.d-flex{
 .fa-phone,.fa-envelope{
   color: #0949ca;
 }
-*{
-  overflow-x: hidden;
+
+.facultySideNavHighlight {
+  list-style-type: none; /* Remove bullet points */
+  padding-left: 0; /* Remove default padding */
 }
 
 

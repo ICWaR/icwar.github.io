@@ -14,7 +14,9 @@ export class PeopleComponent {
   staffUnderDesignation:any;
   type : string = '';
   dataType: string ='';
-
+  getObjectKeys(obj: any): string[] {
+    return Object.keys(obj);
+  }
   constructor(private route: ActivatedRoute,private router: Router){
 
   }

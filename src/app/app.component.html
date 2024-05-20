@@ -26,7 +26,7 @@
               <ul class="dropdown-menu pb-0" [ngClass]="screenWidth>768?'dropend':null" aria-labelledby="navbarDropdown" [ngStyle]="row.dropdownStyle">
                 <ng-container *ngFor="let item of row.dropdownItems;index as index">
 
-                  <a *ngIf="!item.hasSubDropdown" class="dropdown-item p-2 nav-link" routerLink={{item.link}} (click)="getRedirectLink(item)!=null?goToUrl(getRedirectLink(item)):null">{{item.name}}</a>
+                  <a *ngIf="!item.hasSubDropdown" class="dropdown-item p-2 nav-link" [routerLink]='item.link!="/redirect"?item.link:null' (click)="getRedirectLink(item)!=null?goToUrl(getRedirectLink(item)):null">{{item.name}}</a>
 
                   <ng-container *ngIf="item.hasSubDropdown">
                     <a class="p-2 dropdown-item dropdown-submenu dropdown-toggle" routerLink={{item.link}} >{{item.name}}</a>

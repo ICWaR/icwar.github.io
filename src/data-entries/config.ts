@@ -74,7 +74,7 @@ export const configurations = {
           },
           {
             'name':'Admissions',
-            'link':'/redirect_initiated',
+            'link':'/redirect',
             'redirect':'https://iisc.ac.in/admissions/',
           },
           {
