@@ -3,12 +3,12 @@
     <tabset>
       <ng-container *ngFor="let key of getJsonKeys(gallery)">
         <tab heading='{{key}}'>
-          <tabset class="p-md-2 col-12 my-1">
+          <tabset class="p-md-5 col-12 my-1">
             <ng-container *ngFor="let years of getJsonKeys(getValueForKey(gallery,key))">
               <tab class="p-3" heading="{{years}}">
                 <div class="row col-12">
                   <ng-container *ngFor="let img of getJsonValues(getValueForKey(getValueForKey(gallery,key),years));index as index">
-                      <img height="320px" [ngClass]="myFunc() == (index%3) ? 'col-md-5' : 'col-md-3 warm'" class="col-5 m-3 img-frame p-3" src="{{getValueForKey(img,'imgSrc')}}">
+                      <img height="320px" [ngClass]="myFunc() == (index%3) ? 'col-md-4' : 'col-md-4 warm'" class="col-5 m-3 img-frame p-3" src="{{getValueForKey(img,'imgSrc')}}">
                       <br *ngIf="(index+1)%3==0">
                   </ng-container>
                 </div>

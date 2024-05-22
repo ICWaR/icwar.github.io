@@ -1,13 +1,13 @@
 <div class="container-fluid">
 
-  <div class="row p-5 my-2" style="background-image: url(https://www.pnnl.gov/sites/default/files/media/image/PNNL.SciDisc.headerhero.jpg);">
-    <div class="col-md-8 col-12 order-1 order-md-2 align-items-center justify-content-center d-flex bg-light">
-      <video class="shadow m-2 border border-1 border-dark img-fluid" autoplay loop>
+  <div class="row p-2 my-2" style="background-image: url(../../../assets/images/Research_Page_Background.jpg);">
+    <div class="col-md-8 col-12 order-1 order-md-2 align-items-center justify-content-center d-flex">
+      <video class="shadow m-2 img-fluid p-2 bg-light" style="max-height: 500px; max-width: 700px;" autoplay loop>
         <source src="../../../assets/Website_Video.mp4">
       </video>
     </div>
     <div class="col-md-3 col-12 order-2 order-md-1 m-3"  >
-      <div class="p-2 bg-light" style="background-color: rgb(236, 162, 162);" >
+      <div class="p-2 bg-light" style="background-image: url(../../../assets/images/Research_Page_Background2.jpg);" >
         <div class="shadow px-4 py-2">
           <h1 class="my-3"><b>Research</b></h1>
           <div class="ps-md-5 mb-3 d-flex flex-column">
@@ -131,7 +131,7 @@
         <img class="card-img card-header" [src]="group.imgSrc" [alt]="group.groupName">
         <div class="card-body bg-light">
           The group is led by {{ group.leader }}, {{ group.text }}.
-          <h3><br><a [href]="group.websiteUrl">{{ group.groupName }}</a></h3>
+          <h3><br><a [href]="group.websiteUrl" target="_blank">{{ group.groupName }}</a></h3>
         </div>
       </div>
     </div>

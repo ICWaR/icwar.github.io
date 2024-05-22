@@ -1,4 +1,4 @@
-<section class="title container bg-body-tertiary my-4 py-4">
+<section class="title container-fluid bg-body-tertiary my-4 py-4">
   <div class="row">
     <div class="col-md-12">
       <h1>Testimonials</h1>
@@ -7,19 +7,17 @@
   </div>
 </section>
 
-<div class="container">
+<div class="container-fluid px-5">
   <div class="row">
     <div class="col-md-4 col-sm-6 mb-4" *ngFor="let testimonial of testimonialsData">
       <div class="card h-100">
-        <div class="row g-0 align-items-end">
-          <div class="col-md-5 col-sm-12">
-            <img [src]="testimonial.imgSrc" class="img-fluid p-2" style="border-radius: 1pc;">
+        <div class="row g-0 card-header align-items-center">
+          <div class="col-md-5 col-sm-12 me-2">
+            <img [src]="testimonial.imgSrc" class="img-fluid p-2" style="border-radius: 1pc; width: 150px; height: 150px;">
           </div>
-          <div class="col-md-7 col-sm-12">
-              <div class="card-body">
-                  <h5 class="card-title mb-0"><b>{{ testimonial.name }}</b></h5>
-                  <p class="card-text mb-0">{{ testimonial.currentOrganization }}</p>
-              </div>
+          <div class="col-md-6 col-sm-12 ">
+            <h5 class="card-title"><b>{{ testimonial.name }}</b></h5>
+            <p class="card-text">{{ testimonial.currentOrganization }}</p>
           </div>
         </div>
         <div class="card-body" style="text-align: justify;">

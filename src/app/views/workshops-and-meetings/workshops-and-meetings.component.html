@@ -27,7 +27,7 @@
       </div>
       <div id="{{index}}" class="row py-4 col-12 collapse">
         <div class="col-12">
-          <h6 class="text mb-3">{{item.Details}}</h6>
+          <h6 class="text mb-3">{{item.Details}} <a *ngIf="item.link" [href]="item.link" target="_blank">Click here</a></h6>
         </div>
         <div class="row">
           <ng-container *ngFor="let row of item.imgsArray">

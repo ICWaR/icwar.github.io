@@ -1,5 +1,12 @@
 export const media_coverage =[
   {
+    Title:'IISc flood model heads to Bengaluru s rescue',
+    Details: "Deccan Herald – May 20, 2024",
+    link:[
+      '../../assets/pdfs/Media Coverage/deccanherald.com-IISc flood model heads to Bengalurus rescue.pdf'
+    ]
+  },
+  {
     Title:'Have we pushed the Earth beyond habitable conditions?',
     Details: "IISc Connect – March 22, 2024",
     link:[

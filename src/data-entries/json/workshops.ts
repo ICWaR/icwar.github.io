@@ -3,8 +3,8 @@ export const workshops=[
     Date: '11 DEC, 2023',
     Title:'Training Program on Advanced Technologies for Water Resources Management held during 11-15 December, 2023  ',
     Details: 'A training program on Advanced Technologies for Water Resources Management, sponsored by the National Water Academy (NWA) was held at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru, between 11-15 December, 2023. A total of 24 participants are practicing Chief Engineers and Executive Engineers in the Central Water Commission (CWC).  ',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20231.jpg',
       '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20232.jpg',
@@ -17,8 +17,8 @@ export const workshops=[
     Date: '09 OCT, 2023',
     Title:'Training Program on Engineering Hydrology held during 09-21 October, 2023',
     Details: 'A training program on engineering hydrology, sponsored by Advanced Centre for Integrated Water Resources Management,  was held at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru, between 09-21 October, 2023. A total of 25 participants, who are practicing engineers working in the Water Resources Department, Government of Karnataka underwent training in Engineering Hydrology.',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/Engineering_H_OCT20231.jpg',
       '../../assets/images/Workshop and Meetings/Engineering_H_OCT20232.jpg',
@@ -31,8 +31,8 @@ export const workshops=[
     Date: '07 AUG, 2023',
     Title:'Monsoon School on Urban Floods held during 07-12 August, 2023',
     Details: 'Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bangalore organized a one-week workshop titled “Monsoon School on Urban Floods” during 07 – 12 August, 2023. The Monsoon School was funded by the research project titled, “National Supercomputing Mission”, sponsored by the Department of Science & Technology (DST), Government of India.',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2023.jpg'
     ]
@@ -41,8 +41,8 @@ export const workshops=[
     Date: '06 FEB, 2023',
     Title:'Training Program on Engineering Hydrology held during 06 – 17 February, 2023',
     Details: 'A training program on engineering hydrology, sponsored by Advanced Centre for Integrated Water Resources Management, was held at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru, between 06 – 17 February, 2023. A total of 25 participants, who are practicing engineers working in Water Resources Department, Government of Karnataka underwent training in Engineering Hydrology.',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/Engineering_H1.jpg',
       '../../assets/images/Workshop and Meetings/Engineering_H2.jpg',
@@ -53,8 +53,8 @@ export const workshops=[
     Date: '02 FEB, 2023',
     Title:'14th meeting of the Project Appraisal and Monitoring Committee (PAMC) On Hydrology & Cryosphere',
     Details: 'A brainstorming session on the theme of urban flood management was held at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru, 3rd February, 2023, under the purview of the Programme Appraisal and Monitoring Committee (PAMC) on Hydrology and Cryosphere. Venue: Interdisciplinary Centre for Water Research (ICWR), Indian Institute of Science (IISc), Bengaluru DATE: 2nd and 3rd February 2023',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/Brainstorming-1.jpg',
       '../../assets/images/Workshop and Meetings/Brainstorming-2.jpg',
@@ -64,7 +64,7 @@ export const workshops=[
   {
     Date: '06 DEC, 2022',
     Title:'Discussion Meeting held on "Hydrology in the Anthropocene"',
-    Details: 'For a detailed report on the Discussion Meeting <a href = "../../assets/pdfs/ICWaR WebLinks/Hassan_Minutes_Report_06DEC2022.pdf" target = "_blank">please click here</a> ',
+    Details: 'For a detailed report on the Discussion Meeting',
     link:[
       '../../assets/pdfs/ICWaR WebLinks/Hassan_Minutes_Report_06DEC2022.pdf'],
     imgsArray:[
@@ -76,8 +76,8 @@ export const workshops=[
     Date: '09 SEP, 2022',
     Title:'Discussion meeting with Prof Andrew Western, from the University of Melbourne, Australia @ ICWaR',
     Details: 'The meeting focused on discussing various work carried out at ICWaR and the University of Melbourne.',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/9sept-2022.jpg',
       '../../assets/images/Workshop and Meetings/9sept-2022,2.jpg',
@@ -137,8 +137,8 @@ export const workshops=[
     Date: '23 SEP, 2019',
     Title:'Towards-smart and Nutrition-sensitive Food Systems in India',
     Details: 'Meeting held during 23rd to 25th September, 2019 on "Towards-smart and Nutrition-sensitive Food Systems in India"',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/23-25Sept,2019.jpg'
     ]
@@ -147,8 +147,8 @@ export const workshops=[
     Date: '05 AUG, 2019',
     Title:'Monsoon School held during 5th-10th August, 2019',
     Details: 'Interdisciplinary Center for Water Research (ICWaR), Indian Institute of Science (IISc), Bangalore organised a one-week Monsoon School on Urban Floods during 05 – 10 August, 2019. The School was sponsored by the Knowledge Societies Division of UNESCO, Paris and is partially supported by the research project entitled, “Urban Flood Model for Bangalore“, funded by Department of Science & Technology (DST), Government of India.',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2019.jpg'
     ]
@@ -167,8 +167,8 @@ export const workshops=[
     Date: '01 AUG, 2019',
     Title:'Project Steering Meeting for the project “National Supercomputing Mission Urban”',
     Details: 'Project Steering Meeting for the project “National Supercomputing Mission Urban” held in ICWaR on 1st August, 2019',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/NSM-Aug2019.1.jpg',
       '../../assets/images/Workshop and Meetings/NSM-Aug2019.2.jpg',
@@ -192,8 +192,8 @@ export const workshops=[
     Date: '12 MAR, 2019',
     Title:'Project Meet on Upscaling Catchment Processses for Sustainable Water Management in Peninsular India (UPSCAPE)',
     Details: 'A project consortium meeting for the collaborative UPSCAPE project with CEH, ATREE, BGS, University of Dundee, ICRISAT etc., was conducted on 12th, 13th and 14th March, 2019 in ICWaR, IISc.',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/UPSCAPE_Meeting_Group_photo-MAR2019.jpg'
     ]
@@ -202,8 +202,8 @@ export const workshops=[
     Date: '12 FEB, 2019',
     Title:'Advisory Committee Meeting on “Urban Floods Model for Bangalore City”',
     Details: 'The first Advisory Committee meeting on the project “Urban Flood Model for Bangalore City” was being held on 12th March, 2019, in ICWaR. The members of Advisory Committee for the project are: Sri SV Ranganath, Former Chief Secretary, GoK; Sri Manjunath Prasad, Commissioner, BBMP; Dr. RK Dave, Founder, RESPECT, Ex. Sr. Specialist (Policy and Plans), NDMA; Dr. Veena Srinivasan, Fellow convener-Centre for Environment and Development, ATREE; Prof. BS Murty, Professor, IIT Madras; Sri S Vishwanath, Water Conservation Expert, Founder and director, Biome Solutions.',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.1.jpg',
       '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.2.jpg',
@@ -214,8 +214,8 @@ export const workshops=[
     Date: '26 NOV, 2018',
     Title:'Project Meet on Accompanying The adaptation of irrigated agriculture to climate CHAnge (ATCHA)',
     Details: 'III ANR ATCHA project meeting was held in ICWaR on 26Nov-1Dec, 2018.The ATCHA project aims to accompany the adaptation of farming systems to climate change by combining an integrated biophysical model with a participatory approach in a network of experimental watersheds in the Karnataka state. The ATCHA project is based on (1) the strong partnership initiated with the International Joint Laboratory IFCWS (Indo-French Cell for Water Sciences, involving the Indian Institute of Science, Bangalore) which allowed to build an extensive database in the Berambadi experimental watershed (Critical Zone Observatory, ORE BVET) and (2) a specific Indo-French project (CEFIPRA AICHA, 2013-2016) in which an integrated model combining hydrology (AMBHAS), agronomy (STICS), economy (MoGire) and farmer decision (Namaste) models was developed.',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/ATCHA-III.jpg'
     ]
@@ -266,8 +266,8 @@ export const workshops=[
     Date: '30 MAR, 2016',
     Title:'Indo-UK Workshop on “Water Quality – Source Protection”',
     Details: 'Indo-UK Workshop on “Water Quality – Source Protection” conducted during 30 March – 1 April, 2016. The workshop is intended to develop ideas for future scientific and  technological collaborations between the UK and India which will address key knowledge gaps in our understanding of water resources management and source protection.',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/Indo-UK_WQSP2016.jpg'
     ]
@@ -276,8 +276,8 @@ export const workshops=[
     Date: '17 NOV, 2015',
     Title:'An Indo-French workshop on “Remote Sensing for Water and Agriculture: Current and Future Possibilities”',
     Details: 'An Indo-French workshop on “Remote Sensing for Water and Agriculture: Current and Future Possibilities” conducted on November 17, 2015',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/if_workshop.jpg'
     ]
@@ -286,8 +286,8 @@ export const workshops=[
     Date: '13 APR, 2015',
     Title:'An Indo-UK workshop on “Water Security”',
     Details: 'An Indo-UK workshop on “Water Security” conducted during April 13-14, 2015',
-    link:[
-      ''],
+    // link:[
+    //   ''],
     imgsArray:[
       '../../assets/images/Workshop and Meetings/WaterSecurity-2015.jpg'
     ]

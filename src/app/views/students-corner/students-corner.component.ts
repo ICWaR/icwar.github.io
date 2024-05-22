@@ -9,6 +9,7 @@ import { blogs } from 'src/data-entries/json/blogs';
 export class StudentsCornerComponent {
   blogs = blogs;
   selectedBlog: any;
+  currentSlideIndex = 0;
 
   showDetails(blog: any): void {
     this.selectedBlog = blog;
@@ -21,4 +22,13 @@ export class StudentsCornerComponent {
     }
     return slices;
   }
+
+  prevSlide(): void {
+    this.currentSlideIndex = (this.currentSlideIndex === 0) ? (this.generateBlogSlices(3).length - 1) : (this.currentSlideIndex - 1);
+  }
+
+  nextSlide(): void {
+    this.currentSlideIndex = (this.currentSlideIndex === this.generateBlogSlices(3).length - 1) ? 0 : (this.currentSlideIndex + 1);
+  }
 }
+

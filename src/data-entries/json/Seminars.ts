@@ -749,6 +749,14 @@ export const seminars =
 
     ICWaR_Community_Seminar_Series: [
       {
+        Title:"The Fatal Traps of Turbulence: An Investigation into Submerged Hydraulic Phenomena",
+        speakerName:'Sai Vikas Kona',
+        SeminarTitle:'The Fatal Traps of Turbulence: An Investigation into Submerged Hydraulic Phenomena',
+        DateTime:' 21 May 2024 (Tuesday) at 4:00 PM',
+        'Venue':'ICWaR Seminar Hall',
+        Abstract:'The talk sheds light on the critical yet often overlooked hazards posed by submerged flow regimes downstream of hydraulic structures, especially during flood events. Traditional design approaches for hydraulic structures often neglect the potential consequences of unanticipated water levels during floods. This study fills this gap by conducting experimental investigations to characterize submerged flow regimes downstream of a rectangular sharp-crested weir at varying slopes (0, 0.004, and 0.008) using a laboratory flume. The classical flow patterns of submerged regimes, namely impinging jet, surface wave, surface jump, and surface jet regime, were analyzed. The experiments meticulously examine water profiles and parameter variations representing surface jumps and waves, revealing insights into the mechanisms underlying these fatal traps. Notably, the observed range of t/h values (where t and h denote downstream and upstream depths above the crest of the weir) at which regime shifts occur varies with slope. The profiles were extracted for each submergence level to develop the correlations for various characteristics of surface jumps and waves. Captured photographs of submerged flow regime patterns at different slopes and discharge variants undergo detailed image analysis to enrich our understanding of these phenomena further and offer valuable insights into the field of submerged hydraulics.'
+      },
+      {
         Title:"Designing Organic Molecule Sensors for Water Contaminant Detection",
         speakerName:'Vishakha Chauhan',
         SeminarTitle:'Designing Organic Molecule Sensors for Water Contaminant Detection',

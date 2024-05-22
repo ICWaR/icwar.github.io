@@ -16,8 +16,8 @@
 <div *ngIf="eventData" class="container-fluid px-5">
   <div class="row justify-content-center">
     <div class="col-md-11">
-      <h2 class="text-center m-5">{{ eventData?.title }}</h2>
-      <p class="text mb-5" style="text-align: justify;">{{ eventData?.details }}</p>
+      <h2 class="text-center m-3" style="text-decoration: underline;">{{ eventData?.title }}</h2>
+      <p class="text my-5" style="text-align: justify;">{{ eventData?.details }}</p>
       <div class="row">
         <div class="col-md-6 col-12 mb-2">
           <img [src]="eventData?.imgsArray[0]" alt="" class="w-100 h-100">
