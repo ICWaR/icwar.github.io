@@ -2,14 +2,20 @@
   <div class="p-md-3">
     <tabset>
       <ng-container *ngFor="let key of getJsonKeys(gallery)">
-        <tab heading='{{key}}'>
+        <tab heading="{{key}}">
           <tabset class="p-md-5 col-12 my-1">
-            <ng-container *ngFor="let years of getJsonKeys(getValueForKey(gallery,key))">
+            <ng-container *ngFor="let years of getJsonKeys(getValueForKey(gallery, key), true)">
               <tab class="p-3" heading="{{years}}">
-                <div class="row col-12">
-                  <ng-container *ngFor="let img of getJsonValues(getValueForKey(getValueForKey(gallery,key),years));index as index">
-                      <img height="320px" [ngClass]="myFunc() == (index%3) ? 'col-md-4' : 'col-md-4 warm'" class="col-5 m-3 img-frame p-3" src="{{getValueForKey(img,'imgSrc')}}">
-                      <br *ngIf="(index+1)%3==0">
+                <div class="row">
+                  <ng-container *ngFor="let img of getJsonValues(getValueForKey(getValueForKey(gallery, key), years)); index as index">
+                    <div class="col-md-4 col-sm-12 mb-3">
+                      <img
+                        height="320px"
+                        [ngClass]="myFunc() === (index % 3) ? 'warm' : ''"
+                        class="img-fluid img-frame p-3"
+                        src="{{getValueForKey(img, 'imgSrc')}}">
+                    </div>
+                    <div *ngIf="(index + 1) % 3 === 0 && index + 1 !== getJsonValues(getValueForKey(getValueForKey(gallery, key), years)).length" class="w-100 d-none d-md-block"></div>
                   </ng-container>
                 </div>
               </tab>

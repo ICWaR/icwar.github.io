@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { timeline } from './../../../data-entries/json/timeline';
 
 @Component({
   selector: 'app-timeline',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./timeline.component.scss']
 })
 export class TimelineComponent {
-
+ timeline= timeline;
 }
+

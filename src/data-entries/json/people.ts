@@ -86,7 +86,7 @@ export const faculty = [
         phoneNo: "+91 80 2293 2599",
         email: "pghosh@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/pgosh.jpg",
-        website: " ",
+        website: "",
         details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from Devi Ahiliya Vishwa Vidhyalaya, Indore. My research interests include CO2 evolution in the paleo-atmosphere; probing the soil carbonate archives, Reconstruction of the paleo-diet using the stable isotopes method, Understanding the extinction event in geological time, Carbon cycle in hydrosphere-atmosphere (Ocean, estuary, lakes, etc.), Stable isotope chemistry of atmospheric CO2 and carbon cycle, Application of doubly substituted CO2 isotopologues in carbonate Paleo-thermometry, Development of new isotopic standard for analyses of stable isotopes in air and solid samples."
       },
       {
@@ -106,7 +106,7 @@ export const faculty = [
         phoneNo: "080 2293 2051",
         email: "narayana@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/lakshminarayanarao.jpg",
-        website: " ",
+        website: "",
         details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from McGill University. My research interests include Plasma Technology, Plasma Gasification, Syngas Cleaning, and Enrichment."
       },
       {
@@ -116,7 +116,7 @@ export const faculty = [
         phoneNo: "Tel: 080 2293  3196",
         email: "sanjiv@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/sanjeevs.jpg",
-        website: " ",
+        website: "",
         details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Waterloo. My research interests include semiconductor physics, flexible electronics, Device Physics, and Integrated Circuits."
       },
     ],
@@ -154,7 +154,7 @@ export const faculty = [
         phoneNo: "+91 80 2293 3073",
         email: "venu@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/venugopal.jpg",
-        website: " ",
+        website: "",
         details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Minnesota. My research interests include  Stochastic Hydrology, Space-time Structure and Scale-invariance of Precipitation, Precipitation Downscaling, Retrieval and Validation of remotely sensed Precipitation, and Cloud-resolving Models."
       },
       {
@@ -184,7 +184,7 @@ export const faculty = [
         phoneNo: "",
         email: "",
         imgSrc: "../../assets/images/Faculty/Prof.S.Subramanian.jpg",
-        website: " ",
+        website: "",
         details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Mysore, India. My research interests include  Surface and colloid chemistry, Mineral processing, Extractive metallurgy, Bio-processing and environmental control."
       },
     ],
@@ -403,30 +403,58 @@ export const researchStudents = [
 
 export const visitors = [
       {
+        name: "Prof. Ashish Sharma",
+        'Designation and University of Visitior': "Professor of Civil and Environmental Engineering at the University of New South Wales, Sydney, Australia",
+        Duration: "07 - 08th April, 2024",
+        website: "https://research.unsw.edu.au/people/professor-ashish-sharma",
+        imgSrc: "../../assets/images/Visitors/Prof.Ashish_Sharma.jpg",
+      },
+      {
+        name: "Dr. Chandra Rajulapati",
+        'Designation and University of Visitior': "Assistant Professor at Department of Civil Engineering, University of Manitoba",
+        Duration: "17 - 30th Dec, 2023",
+        website: "https://umanitoba.ca/engineering/civil/chandra-rajulapati",
+        imgSrc: "../../assets/images/Visitors/Chandra-Rajulapati.jpg",
+      },
+      {
+        name: "Dr. Jasmeet Judge",
+        'Designation and University of Visitior': "Professor in the Agricultural and Biological Engineering Department at the University of Florida",
+        Duration: "07 - 10th June, 2023",
+        website: "https://abe.ufl.edu/people/faculty/jasmeet-judge/",
+        imgSrc: "../../assets/images/Visitors/Jasmeet-Judge.png",
+      },
+      {
+        name: "Dr. Balaji Devaraju",
+        'Designation and University of Visitior': "Assistant Professor at Department of Civil Engineering, IIT Kanpur",
+        Duration: "28th May to 05th June, 2023",
+        website: "https://iitk.ac.in/new/balaji-devaraju",
+        imgSrc: "../../assets/images/Visitors/Balaji-Devaraju.jpg",
+      },
+      {
         name: "Prof. Ana Mijic",
         'Designation and University of Visitior': "Professor, Reader in Water Systems Integration and Director of the Centre for Systems Engineering and Innovation (CSEI) at Imperial College London",
-        Duration: "14 Nov 2022 to Dec 24, 2022",
+        Duration: "14th Nov to 24th Dec, 2022",
         website: "https://www.imperial.ac.uk/people/ana.mijic",
         imgSrc: "../../assets/images/Visitors/Mijic_Ana.jpg",
       },
       {
         name: "Prof. Walter Den",
         'Designation and University of Visitior': "Professor, Texas A&M University, San Antonio ",
-        Duration: "Dec 5, 2022",
+        Duration: "05th Dec, 2022",
         website: "https://apps.tamusa.edu/course-information/Profile/Faculty/462?=Walter-Den",
         imgSrc: "../../assets/images/Visitors/walter-den.jpg",
       },
       {
         name: "Prof. Alan Jenkins",
         'Designation and University of Visitior': "Deputy Director and Science Director, UK Centre for Ecology & Hydrology (UKCEH)",
-        Duration: "10 – 15th Aug 2022",
+        Duration: "10 – 15th Aug, 2022",
         website: "",
         imgSrc: "../../assets/images/Visitors/Alam-Jenkins.jpg",
       },
       {
         name: "Prof. Bob Ferrier",
         'Designation and University of Visitior': "Director of CREW, The James Hutton Institute",
-        duration: "10 – 15th Aug 2022",
+        duration: "10 - 15th Aug, 2022",
         website: "",
         imgSrc: "../../assets/images/Visitors/Bob-Ferrier.jpg",
       },
@@ -435,7 +463,7 @@ export const visitors = [
         Achievement: "International Student Delegation",
         Students: "Eléonore Petit, Jennifer Colombi, Roxane Borgeaud, Clément Porchet and Jacobo Vergara Restrepo",
         'Designation and University of Visitior': "Full Professor, Institute of Social Sciences & Sciences and Technologies Studies Laboratory (STSlab), University of Lausanne",
-        Duration: "8th Aug, 2022g",
+        Duration: "8th Aug, 2022",
         website: "",
         imgSrc: "../../assets/images/Visitors/Francesco-Panese.jpg",
       },

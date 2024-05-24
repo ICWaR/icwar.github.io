@@ -1,14 +1,19 @@
-<div class="ng-container text-center p-5 mb-5">
-  <h1><b>Outreach</b></h1>
+<div class="container-fluid mt-5 px-5">
+  <div class="row">
+      <h1>Outreach({{outreach.length}})</h1>
+  </div>
 </div>
-<div class="px-5 pb-5 row text-center">
-  <div class="col-md-6 col-sm-12 ">
-    <h2 >Floods in a changing climate</h2><br>
-    <iframe class="youtube-player" width="100%" height="400" src="https://www.youtube.com/embed/yTR90oWjb5M" title="Floods in a Changing Climate | Dr P P Mujumdar | October 26, 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-  <div class="col-md-6 col-sm-12 ">
-    <h2>Vulnerability of Water Resources to Climate Change</h2><br>
-    <iframe class="youtube-player" width="100%" height="400" src="https://www.youtube.com/embed/2-tiGpm4Pao" title="iSEE Congress 2015 — Session 1: &quot;Vulnerability of Water Resources to Climate Change&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
+<hr>
+<div id="media-coverage" class="p-5 row d-flex justify-content-center col-12 pt-0">
+  <ng-container *ngFor="let item of outreach">
+    <div class="row shadow border card border-1 mb-2 col-12 col-md-10 border-dark p-3 ">
+      <h4 class="text"><b>{{ item.title }}</b></h4>
+      <h5 class="text">{{ item.details }}</h5>
+      <div class="col-12 d-flex">
+        <a [href]="item.link" target="_blank" class="ms-auto">Click here to view</a>
+      </div>
+    </div>
+  </ng-container>
+</div>
+<button class="scroll-to-top" #scrollToTopButton (click)="scrollToTop()">↑</button>
 
-</div>

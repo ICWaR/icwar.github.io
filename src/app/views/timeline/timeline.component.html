@@ -1,4 +1,4 @@
-<div class="container text-center pt-5">
+<!-- <div class="container text-center pt-5">
   <h2>Inauguration of New Building for ICWaR</h2>
   <p>Inaugurated by the Director, IISc on 12-February-2018</p>
 </div>
@@ -12,4 +12,59 @@
 <img src="../../../assets/images/Centres and Facilities/New_B7.jpg" alt="" class="col-md-3 col-sm-12 m-2">
 <img src="../../../assets/images/Centres and Facilities/New_B8.jpg" alt="" class="col-md-3 col-sm-12 m-2">
 <img src="../../../assets/images/Centres and Facilities/New_B9.jpg" alt="" class="col-md-3 col-sm-12 m-2">
+</div> -->
+
+
+
+<!-- <div class="timeline">
+  <div class="timeline-item row" *ngFor="let event of timelineEvents">
+    <div class="left-section col-md-5">
+      <div class="timeline-date">
+        <h3>{{ event.date | date:'MMM' }}</h3>
+        <h3>{{ event.date | date:'yyyy' }}</h3>
+      </div>
+    </div>
+    <div class="separator me-2 d-md-block d-none"></div>
+    <div class="right-section col-md-5">
+      <div class="timeline-title">
+        <h4>{{ event.title }}</h4>
+        <div class="timeline-images">
+          <img src="image1.jpg" alt="Image 1">
+          <img src="image2.jpg" alt="Image 2">
+        </div>
+      </div>
+    </div>
+    <div class="separator me-2 d-md-block d-none"></div>
+    <div class="timeline-details col-md-4">
+      <p>{{ event.details }}</p>
+    </div>
+  </div>
+</div> -->
+
+<div class="container-fluid p-5">
+  <div *ngFor="let event of timeline">
+    <div class="row my-5">
+      <div class="col-md-2 ps-5">
+        <h4><b>{{ event.date | date:'MMM' }}, {{ event.date | date:'yyyy' }}</b></h4>
+      </div>
+      <div class="col-md-9 row border p-2">
+        <div class="col-md-5 col-12">
+          <h4><b>{{ event.title }}</b></h4>
+          <div class="row justify-content-center">
+            <div *ngFor="let img of event.imgSrc" class="col-5">
+              <img class="w-100 shadow" [src]="img" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1 separator-vertical me-5 d-none d-md-block"></div>
+        <div class="col-md-5 col-12 d-flex align-items-center justify-content-center">
+          <div class="w-100" style="text-align: justify;">
+            <p>{{ event.details }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+

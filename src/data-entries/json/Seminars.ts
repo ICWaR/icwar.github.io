@@ -1,7 +1,7 @@
 export const seminars =
   {
     ICWaR_Guest_Seminar_Series: [
-        // {
+      // {
       //   imgSrc: "../../../assets/images/Guest Seminar Series/",
       //   Title:"",
       //   speakerName:'',
@@ -13,11 +13,22 @@ export const seminars =
       //   link: ['']
       // },
       {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Brajesh_Dubey.jpg",
+        Title:"Circular Engineering Approaches in Environmental Management to Achieve UN-SDGs",
+        speakerName:'Prof. Brajesh Kr. Dubey',
+        SeminarTitle:'Circular Engineering Approaches in Environmental Management to Achieve UN-SDGs',
+        DateTime:'27 May 2024 (Monday), 04:30 pm',
+        Platform:'MS Teams',
+        AboutSpeaker:'Prof. Brajesh Kr. Dubey is a Professor of Resource Recovery and Circular Engineering in the Department of Civil Engineering and Chair of the School of Water Resources at IIT Kharagpur, India. He is a renowned expert in Circular Engineering, Waste/Resource Management, Life Cycle Analysis (LCA), and Decarbonization. His research is funded by organizations such as UNIDO, National Geographic Society, OECD, and others. Prior to his Ph.D., he worked for four years as a Civil/Environmental Engineer. Dr. Dubey has authored 185 journal papers, 4 edited books/conference proceedings, 35 book chapters, and 27 conference papers, with an H-index of 49 and over 8,900 citations on Google Scholar. He has given over 75 invited presentations worldwide. He serves on editorial boards for five journals and has participated in various professional committees, including the State Advisory Committee for Solid Waste Management in West Bengal, India, and the Organic Waste Facility Public Liaison Committee in Guelph, Ontario, Canada.',
+        Abstract:'This presentation explores how a circular engineering (CE) approach in resource management can help achieve the UN Sustainable Development Goals (UN-SDGs). The UN-SDGs’ principles—public health, environmental considerations, resource value, and economic development—align with environmental management drivers. Thus, prioritizing a circular economy, especially post-COVID, is crucial. Challenges in policy, technology, and public engagement may impede this transition. Solutions include creating green jobs, formalizing stakeholder roles, and training informal workers. recovery infrastructure can address climate change, a key UN-SDG focus. CE-based designs and business models will extend product lifespans, reduce waste, and provide long-term benefits.',
+        link: ['https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmUyNTE0YTctZDYxNS00M2I0LThhNDYtODYxMDdiYmJkMzU5%40thread.v2/0?context=%7b%22Tid%22%3a%226f15cd97-f6a7-41e3-b2c5-ad4193976476%22%2c%22Oid%22%3a%225527ebad-eb1d-46c9-a997-e411d9b2c7e4%22%7d']
+      },
+      {
         imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Solomon_Vimal.png",
         Title:"Curating Robert E. Horton’s Bibliography",
         speakerName:'Dr. Solomon Vimal',
         SeminarTitle:'Curating Robert E. Horton’s Bibliography',
-        DateTime:'13 April 2024 (Monday), 04:00 pm',
+        DateTime:'13 May 2024 (Monday), 04:00 pm',
         Platform:'MS Teams',
         AboutSpeaker:'Dr. Solomon Vimal currently holds the dual role of CEO at Geothara and Postdoc at Jacobs-Technion Institute, Cornell-Tech, NYC through the Runway Startup Postdoc Program. His primary mission revolves around developing an enterprise data science product aimed at enhancing security in water, energy, and climate (WEC) domains, with market interests in sustainable infrastructure design and risk management. Dr. Vimal completed his Ph.D. at the Department of Geography, University of California, Los Angeles, focusing on climate change impacts on Arctic lakes. His exceptional academic achievements include numerous fellowships, awards, and prizes, notably the Norman Medal from ASCE. With over 10 published papers and pending patents, he has demonstrated a commitment to geospatial data science. Dr. Vimal’s extensive global education in hydrology, including three master’s degrees and a bachelor’s degree in civil engineering, underscores his expertise. Additionally, his contributions to hydrology, such as inventing algorithms for resilience and rediscovering a century-old evaporation estimation method, have advanced our understanding of land-atmosphere interactions.',
         Abstract:'Robert E. Horton (1875-1945) is regarded as the father of modern Hydrology for setting the field on a strong quantitative footing. While he published well over 200 works (papers, reports, and books), only about 80 of them have been listed in bibliographies until recently. His works are found scattered in several libraries and archives throughout the US. Our bibliography curation project, which began in 2018 nearly tripled the known list of Horton’s publications from 80 to over 200. We are digitizing all of these works, as well as his unpublished works, letters and drafts, to make them openly available to hydrologists. A GenAI-enabled Horton bot will be created to seamlessly access all the material so that hydrologists can “consult” with Horton on some of his fundamental contributions to hydrology. Noteworthy findings from our work includes Horton’s correspondence with Theodore von Karman circa 1938, for a work that is part of a “bluebook” (similar to Peter Eagleson’s 1991 report) where Horton lays out a comprehensive approach for runoff processes; a 1949 Hydrology textbook where Horton is not credited as co-author even though he spent 5 years of his time developing the book; a Hydrology handbook published posthumously in 1949, presumably the first of its kind, which may have inspired the classic Handbook of Hydrology by Ven te Chow (1962).',
