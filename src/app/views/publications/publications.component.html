@@ -24,7 +24,7 @@
       <h4><b>{{ entry.year }} ({{ entry.publications.length }})</b></h4>
       <ul>
         <li *ngFor="let publication of entry.publications">
-          <p style="text-align: justify;">{{ publication.text }} <a href="{{ publication.links[0] }}" target="_blank">{{ publication.links }}</a></p>
+          <p class="publication-item" style="text-align: justify;">{{ publication.text }} <a href="{{ publication.links[0] }}" target="_blank">{{ publication.links }}</a></p>
         </li>
       </ul>
     </div>

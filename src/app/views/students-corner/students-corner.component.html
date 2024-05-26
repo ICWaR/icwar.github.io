@@ -6,12 +6,12 @@
     </div>
   </div>
 </section>
-<section class="container-fluid p-5 pt-0">
+<section class="container-fluid p-5 pt-0 mb-2">
   <!-- Carousel -->
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+    <div class="carousel-inner mb-2">
       <!-- Carousel items -->
-      <div class="carousel-item" *ngFor="let slice of generateBlogSlices(3); let i = index" [class.active]="i === 0">
+      <div class="carousel-item" *ngFor="let slice of generateBlogSlices(3); let i = index" [class.active]="i === currentSlideIndex">
         <div class="card-deck h-100">
           <div class="row">
             <div class="col-md-4 mb-3" *ngFor="let blog of slice">
@@ -34,24 +34,21 @@
 
     <!-- Carousel controls positioned at the bottom -->
     <div class="carousel-controls-container">
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <!-- Carousel indicators -->
-    <div class="carousel-indicators">
-      <button type="button" *ngFor="let slice of generateBlogSlices(3); let i = index" data-bs-target="#carouselExampleControls" [attr.data-bs-slide-to]="i" [class.active]="i === 0" [attr.aria-current]="i === 0" [attr.aria-label]="'Slide ' + (i + 1)"></button>
-    </div>
+      <button class="carousel-control-prev" type="button" (click)="prevSlide()"></button>
+      <div class="carousel-indicators">
+        <button type="button" *ngFor="let slice of generateBlogSlices(3); let i = index" 
+              data-bs-target="#carouselExampleControls" 
+              [attr.data-bs-slide-to]="i" 
+              [class.active]="i === currentSlideIndex" 
+              (click)="slideTo(i)"
+              [attr.aria-current]="i === currentSlideIndex ? 'true' : 'false'"
+              [attr.aria-label]="'Slide ' + (i + 1)">
+        </button>
+      </div>
+      <button class="carousel-control-next" type="button" (click)="nextSlide()"></button>
+    </div> 
+  
   </div>
-
-
-
 
   <!-- Modal -->
   <div class="modal fade" id="blogModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -61,8 +58,8 @@
           <h5 class="modal-title" id="exampleModalLabel"><b>{{ selectedBlog?.title }}</b></h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-          <img [src]="selectedBlog?.imgSrc" class="img-fluid" alt="Blog Image">
+        <div class="modal-body text-center">
+          <img [src]="selectedBlog?.imgSrc" class="img-fluid text-center" alt="Blog Image">
           <p style="text-align: justify;">{{ selectedBlog?.details }}</p>
         </div>
       </div>

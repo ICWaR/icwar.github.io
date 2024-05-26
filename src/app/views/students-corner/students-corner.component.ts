@@ -23,6 +23,11 @@ export class StudentsCornerComponent {
     return slices;
   }
 
+  slideTo(index: number): void {
+    console.log('Clicked on slide index:', index);
+    this.currentSlideIndex = index;
+  }
+  
   prevSlide(): void {
     this.currentSlideIndex = (this.currentSlideIndex === 0) ? (this.generateBlogSlices(3).length - 1) : (this.currentSlideIndex - 1);
   }
@@ -31,4 +36,3 @@ export class StudentsCornerComponent {
     this.currentSlideIndex = (this.currentSlideIndex === this.generateBlogSlices(3).length - 1) ? 0 : (this.currentSlideIndex + 1);
   }
 }
-
