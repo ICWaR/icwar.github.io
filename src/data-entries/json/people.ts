@@ -144,9 +144,11 @@ export const faculty = [
         details: "I am a DST Inspire Faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Technology Kanpur, India. My research interests include Isotope Geochemistry, Critical zone biogeochemistry, Glacier-river-continent processes, Hydro-geochemical modelling."
       },
     ],
-  },
+  }
+];
+export const formerFaculty =[
   {
-    'Former Associate Faculty': [
+    'Associate Faculty': [
       {
         name: "Prof. Venugopal V.",
         Designation: "Associate Faculty",

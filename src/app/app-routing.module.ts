@@ -26,6 +26,7 @@ const routes: Routes = [
   {path: '', component: HomepageComponent},
 
   {path: 'people/faculty',loadChildren:()=>import('./views/people/people.module').then(m=>m.PeopleModule)},
+  {path: 'people/formerFaculty',loadChildren:()=>import('./views/people/people.module').then(m=>m.PeopleModule)},
   {path: 'people/visitors',loadChildren:()=>import('./views/people/people.module').then(m=>m.PeopleModule)},
   {path: 'people/researchStudents',loadChildren:()=>import('./views/people/people.module').then(m=>m.PeopleModule)},
   {path: 'people/postDoctoralScholars',loadChildren:()=>import('./views/people/people.module').then(m=>m.PeopleModule)},

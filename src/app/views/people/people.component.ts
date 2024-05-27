@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { faculty,visitors,researchStudents,projectStaff, officeStaff, postDoctoralScholars } from 'src/data-entries/json/people';
+import { faculty,formerFaculty,visitors,researchStudents,projectStaff, officeStaff, postDoctoralScholars } from 'src/data-entries/json/people';
 import 'jquery';
 
 @Component({
@@ -38,6 +38,10 @@ export class PeopleComponent {
       case 'faculty':
         this.dataType = 'nested';
         this.processNestedDataForRendering(filterBy?.toString(),faculty);
+        break;
+      case 'formerFaculty':
+        this.dataType = 'nested';
+        this.processNestedDataForRendering(filterBy?.toString(),formerFaculty);
         break;
       case 'visitors':
         // this.dataType = 'nested';

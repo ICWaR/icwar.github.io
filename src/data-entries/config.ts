@@ -94,6 +94,10 @@ export const configurations = {
             "hasSubDropdown":false
           },
           {
+            "name":"Former Faculty",
+            "link":"/people/formerFaculty"
+          },
+          {
             "name":"Visitors",
             "link":"/people/visitors"
           },
