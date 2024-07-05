@@ -13,6 +13,17 @@ export const seminars =
       //   link: ['']
       // },
       {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Venkataraman_Lakshmi.jpg",
+        Title:"A study of hydrological extremes from space",
+        speakerName:'Prof. Venkataraman Lakshmi',
+        SeminarTitle:'A study of hydrological extremes from space',
+        DateTime:'14 June 2024 (Friday), 04:00 pm',
+        Platform:'MS Teams',
+        AboutSpeaker:'Prof. Venkataraman Lakshmi graduated from the University of Roorkee in 1987 with a bachelor’s degree in civil engineering and a Doctorate in Civil and Environmental Engineering in 1996 from Princeton. He worked at NASA Goddard Space Flight Center from 1996-1999 as a research scientist in the Laboratory for the Atmospheres. His areas of research interest are catchment hydrology, satellite data validation and assimilation, field experiments, land-atmosphere interactions, satellite data downscaling, vadose zone, and water resources. He is currently the John L Newcomb Professor of Engineering in the Department of Civil and Environmental Engineering at the University of Virginia. He has served as Cox Visiting Professor at Stanford University 2006-2007 and 2015-2016 and Program Director for Hydrologic Sciences at the National Science Foundation (2017-2018). Prof. Venkat is a fellow of the American Society of Civil Engineers (ASCE), Geological Society of America (GSA), American Society of Agronomy (ASA) and he has over 190 peer-reviewed articles and around 600 presentations and thesis supervisor for 25 graduate students. He is currently serving as editor for Vadose Zone Journal and the founding editor-in-chief of Remote Sensing in Earth System Science (Springer Journals). He has served on the National Academies Panel for the Decadal Survey of Earth Observations from Space (NASA) and as chair of the planning committee for Groundwater Recharge and Flow: Approaches and Challenges for Monitoring and Modeling Using Remotely Sensed Data (NGA). He is currently serving as a member of the Water Science and Technology Board, National Academy of Sciences and Vice-Chair of the Earth Science Advisory Committee for NASA. He is the President-Elect of the Hydrology Section of the American Geophysical Union.',
+        Abstract:'Land surface hydrology is a collection of complex processes. The spatial variability both the land surface properties (soil and vegetation) as well as the meteorological inputs (precipitation and radiation) play an important role in hydrology. Satellite remote sensing has a broad spatial and repeat temporal view of the land surface and can provide observations for use in hydrology such as soil moisture, surface temperature, and vegetation density. The variability of the water cycle causes extremes such as droughts and floods and these have an impact on society. In addition, landslides and permafrost thaw are the two other hydrological extremes that impact society. In the past two decades with the advent of improved satellite sensors, modeling, and in-situ observations, quantification of the water cycle and its extremes has become possible. These satellite sensors include – microwave observations for soil moisture and precipitation; visible/near-infrared for vegetation and evapotranspiration, gravity for groundwater/total water, and thermal observations for surface temperature. In this talk, I will focus on using models, satellites, and in-situ observations for hydrological variability specifically as they relate to hydrological extremes.',
+        link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EX3foUubQVhDgJwGok9PReEBHCMcmjZU6HMR2zcUmwlkyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=I6oz8m']
+      },
+      {
         imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Brajesh_Dubey.jpg",
         Title:"Circular Engineering Approaches in Environmental Management to Achieve UN-SDGs",
         speakerName:'Prof. Brajesh Kr. Dubey',
@@ -21,7 +32,7 @@ export const seminars =
         Platform:'MS Teams',
         AboutSpeaker:'Prof. Brajesh Kr. Dubey is a Professor of Resource Recovery and Circular Engineering in the Department of Civil Engineering and Chair of the School of Water Resources at IIT Kharagpur, India. He is a renowned expert in Circular Engineering, Waste/Resource Management, Life Cycle Analysis (LCA), and Decarbonization. His research is funded by organizations such as UNIDO, National Geographic Society, OECD, and others. Prior to his Ph.D., he worked for four years as a Civil/Environmental Engineer. Dr. Dubey has authored 185 journal papers, 4 edited books/conference proceedings, 35 book chapters, and 27 conference papers, with an H-index of 49 and over 8,900 citations on Google Scholar. He has given over 75 invited presentations worldwide. He serves on editorial boards for five journals and has participated in various professional committees, including the State Advisory Committee for Solid Waste Management in West Bengal, India, and the Organic Waste Facility Public Liaison Committee in Guelph, Ontario, Canada.',
         Abstract:'This presentation explores how a circular engineering (CE) approach in resource management can help achieve the UN Sustainable Development Goals (UN-SDGs). The UN-SDGs’ principles—public health, environmental considerations, resource value, and economic development—align with environmental management drivers. Thus, prioritizing a circular economy, especially post-COVID, is crucial. Challenges in policy, technology, and public engagement may impede this transition. Solutions include creating green jobs, formalizing stakeholder roles, and training informal workers. recovery infrastructure can address climate change, a key UN-SDG focus. CE-based designs and business models will extend product lifespans, reduce waste, and provide long-term benefits.',
-        link: ['https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmUyNTE0YTctZDYxNS00M2I0LThhNDYtODYxMDdiYmJkMzU5%40thread.v2/0?context=%7b%22Tid%22%3a%226f15cd97-f6a7-41e3-b2c5-ad4193976476%22%2c%22Oid%22%3a%225527ebad-eb1d-46c9-a997-e411d9b2c7e4%22%7d']
+        link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EaWJ3plCiphBrT-LVB5cS7cBGyEvc4MWA0lMV_PuiER0aQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zBG19S&referrer=Outlook.Web&referrerScenario=email-linkwithembed']
       },
       {
         imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Solomon_Vimal.png",
@@ -759,6 +770,14 @@ export const seminars =
 
 
     ICWaR_Community_Seminar_Series: [
+      {
+        Title:"A glimpse into the use of Machine Learning for studying alpine glaciers and a discussion on potential caveats",
+        speakerName:'Codrut-Andrei Diaconu (Visitor)',
+        SeminarTitle:'A glimpse into the use of Machine Learning for studying alpine glaciers and a discussion on potential caveats',
+        DateTime:'04 June 2024 (Tuesday) at 4:00 PM',
+        'Venue':'ICWaR Seminar Hall',
+        Abstract:'In this talk, I will briefly describe the use of Machine Learning/Deep Learning methods for studying alpine glaciers, in terms of how much their surface has changed over the last decade and in terms of understanding the drivers of the observed mass changes, these being two major topics of my research. In the second (and more extensive) part, I will share a list of resources and research papers that cover various topics in Machine Learning, trying to highlight some caveats to consider when applying Machine Learning (incl. classical statistical) methods.'
+      },
       {
         Title:"The Fatal Traps of Turbulence: An Investigation into Submerged Hydraulic Phenomena",
         speakerName:'Sai Vikas Kona',
