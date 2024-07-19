@@ -1,6 +1,5 @@
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { seminars } from 'src/data-entries/json/Seminars';
-import { Component} from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-students-seminar',
@@ -11,36 +10,33 @@ export class StudentsSeminarComponent {
   $=$;
   seminars = seminars;
   type:any;
-  constructor(private route: ActivatedRoute,private router: Router){
+  @ViewChild('scrollToTopButton') scrollToTopButton!: ElementRef;
 
-}
-ngAfterViewInit(): void {
-  //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
-  //Add 'implements AfterViewInit' to the class.
-  this.type = <string>this.router.url.split('/').pop();
-  switch(this.type){
-    case this.type != 'Workshops':
-      this.updateData('Seminars')
-      break;
+  constructor() {}
+
+  ngOnInit(): void {
+    window.addEventListener('scroll', this.scrollFunction.bind(this)); // Add scroll event listener
   }
-}
-updateData(dataType:string){
 
-  $('#Workshops').addClass('d-none')
-  $('#Seminars').removeClass('d-none')
+  removeSpaceFromString(str: string) {
+    return str.replaceAll(' ', '_');
+  }
 
+  scrollFunction(): void {
+    if (this.scrollToTopButton) {
+      if (window.scrollY > 300) {
+        this.scrollToTopButton.nativeElement.style.display = 'block';
+      } else {
+        this.scrollToTopButton.nativeElement.style.display = 'none';
+      }
+    }
+  }
 
-$('ol>button').each(function () {
-  if(this.innerHTML !== dataType)
-    $(this).removeClass('font-highlight')
-  else
-    $(this).addClass('font-highlight')
-});
-
-}
-
-removeSpaceFromString(str:string){
-return str.replaceAll(' ','_')
-}
+  scrollToTop(): void {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
 }
 

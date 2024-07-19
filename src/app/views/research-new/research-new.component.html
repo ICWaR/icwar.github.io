@@ -1,20 +1,19 @@
 <div class="container-fluid">
 
-  <div class="row p-5">
-    <div class="col-md-8 col-12 order-1 order-lg-2 align-items-center justify-content-center d-flex bg-light">
-      <video class="shadow m-2 border border-1 border-dark img-fluid" autoplay loop>
-        <source src="https://college.harvard.edu/sites/default/files/2019-07/banner_lab_research_video.mp4">
+  <div class="row p-2 my-2" style="background-image: url(../../../assets/images/Research_Page_Background.jpg);">
+    <div class="col-md-8 col-12 order-1 order-md-2 align-items-center justify-content-center d-flex">
+      <video class="shadow m-2 img-fluid p-2 bg-light" style="max-height: 500px; max-width: 700px;" autoplay loop>
+        <source src="../../../assets/Website_Video.mp4">
       </video>
     </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-3 col-12 order-2 order-lg-1"  >
-      <div class="p-2 bg-light" style="background-color: rgb(236, 162, 162);" >
+    <div class="col-md-3 col-12 order-2 order-md-1 m-3"  >
+      <div class="p-2 bg-light" style="background-image: url(../../../assets/images/Research_Page_Background2.jpg); background-repeat: no-repeat; background-size: cover;" >
         <div class="shadow px-4 py-2">
           <h1 class="my-3"><b>Research</b></h1>
           <div class="ps-md-5 mb-3 d-flex flex-column">
             <button class="btn" [class.selected]="!showProjects && !showVignettes && !showCollaborations && !showGroups" (click)="toggleSection('about')">About</button>
               <button class="btn" [class.selected]="showProjects" (click)="toggleSection('projects')">Projects</button>
-              <button class="btn" [class.selected]="showVignettes" (click)="toggleSection('vignettes')">Vignettes</button>
+              <!-- <button class="btn" [class.selected]="showVignettes" (click)="toggleSection('vignettes')">Vignettes</button> -->
               <button class="btn" [class.selected]="showCollaborations" (click)="toggleSection('collaborations')">Collaborations</button>
               <button class="btn" routerLink="/centres-and-facilities">Facilities & Labs</button>
               <button class="btn" [class.selected]="showGroups" (click)="toggleSection('groups')">Groups</button>
@@ -85,7 +84,7 @@
     </div>
   </div>
   <!-------- Vignettes section -------->
-  <div *ngIf="showVignettes" class="p-5 row w-100 bg-light">
+  <!-- <div *ngIf="showVignettes" class="p-5 row w-100 bg-light">
     <div class="col-12 p-4 bg-white">
       <h1 class="text-center"><b>Research Vignettes</b></h1>
     </div>
@@ -104,7 +103,7 @@
         <hr *ngIf="i !== research_vignettes.length - 1" class="bold-hr">
       </div>
     </div>
-  </div>
+  </div> -->
   <!--------- Collaborations section --------->
   <div *ngIf="showCollaborations" class="p-5 row w-100 bg-light">
     <div class="col-12 bg-white p-4">
@@ -132,13 +131,13 @@
         <img class="card-img card-header" [src]="group.imgSrc" [alt]="group.groupName">
         <div class="card-body bg-light">
           The group is led by {{ group.leader }}, {{ group.text }}.
-          <h3><br><a [href]="group.websiteUrl">{{ group.groupName }}</a></h3>
+          <h3><br><a [href]="group.websiteUrl" target="_blank">{{ group.groupName }}</a></h3>
         </div>
       </div>
     </div>
   </div>
 
-  <button class="scroll-to-top" #scrollToTopButton (click)="scrollToTop()">↑</button>
+  <button class="scroll-to-top d-none d-md-block" (click)="scrollToTop()">↑</button>
 </div>
 
 

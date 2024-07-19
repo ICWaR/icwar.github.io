@@ -1,6 +1,20 @@
-
-@media (max-width:768px) {
-  .youtube-player{
-    height: 30vh;
-  }
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: none;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+.scroll-to-top:hover {
+  background-color: #004080;
 }

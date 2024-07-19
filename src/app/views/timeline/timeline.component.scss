@@ -1,11 +1,30 @@
-.container-fluid{
-  display:flex;
-  justify-content: center;
+// .container-fluid{
+//   display:flex;
+//   justify-content: center;
+// }
+// @media (max-width:768px) {
+// .container-fluid{
+//   margin: 1px;
+//   display:flex;
+//   justify-content: center;
+// }
+// }
+.separator-vertical {
+  border-right: 1px dotted #000; /* Dotted border */
+  height: 80%; /* Match the height of the container */
+  align-self: center;
 }
-@media (max-width:768px) {
-.container-fluid{
-  margin: 1px;
-  display:flex;
-  justify-content: center;
+img.w-100{
+  border: 1px;
+  border-style:double;
+  border-radius: 1pc;
+  border-color: #383434;
+  margin: 5px;
 }
-}
+
+
+
+
+
+
+

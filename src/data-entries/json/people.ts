@@ -1,6 +1,6 @@
 export const faculty = [
   {
-    Chairperson: [
+    Chair: [
       {
         name: "Prof. Praveen C Ramamurthy",
         Designation: "chairman",
@@ -8,12 +8,13 @@ export const faculty = [
         phoneNo: "+91 080 2293 2627",
         email: "praveen@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/PRamamurthy.png",
+        website: "https://materials.iisc.ac.in/~praveen/",
         details: "He is the Chairperson at the Interdisciplinary Centre for Water Research (ICWaR) and Professor at the Department of Materials Engineering, Indian Institute of Science, Bengaluru. He obtained PhD from the University of Clemson. Prof. Praveen has been awarded with PROF SATISH DHAWAN AWARD FOR YOUNG ENGINEER. His research interests include Electroactive polymers, Nanocomposite, Organic nanoelectronics, and sensors. Area of polymer electronics like Schott key diode, FET, OPVD, and sensors, with a current focus on the elucidation of the structure-property relationship of polymers to the performance of the devices and functionalization of nanocomposites."
-      },
-    ],
+      }
+    ]
   },
   {
-    'Primary Faculty': [
+    'Core Faculty': [
       {
         name: "Dr. Rajarshi Das Bhowmik",
         Designation: "Assistant Professor",
@@ -21,6 +22,7 @@ export const faculty = [
         phoneNo: "+91 80 2293 3224",
         email: "rajarshidb@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/RDB.jpg",
+        website: "https://rajarshidasbhowmik.com/",
         details: "I am an Assistant Professor in the Interdisciplinary Centre for Water Research at Indian Institute of Science, Bangalore. I obtained PhD from North Carolina State University, Raleigh (USA). I am a former Post-doctoral Fellow at Hong Kong University of Science & Technology. My research interest includes hydro-climate modeling, extreme weather events and climate change Projections."
       },
       {
@@ -30,9 +32,10 @@ export const faculty = [
         phoneNo: "+91 80 2293 2870",
         email: "bramha@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/BDV.jpg",
+        website: "https://ultra-pluto-7f6d1.netlify.app/",
         details: "I am a researcher with expertise in processing and interpreting Geodetic Earth observation data (such as GRACE satellite gravity fields, GNSS time-series, and so on). Interested in Signal processing, Geodesy, time-series analysis, and hydrology. My passion is to develop novel algorithms and provide solutions to complicated inter-disciplinary problems. I am excited by opportunities to learn new data-processing tools and to understand the Earth-system response to climate change."
-      },
-    ],
+      }
+    ]
   },
   {
     'Associate Faculty': [
@@ -43,6 +46,7 @@ export const faculty = [
         phoneNo: "+91 80 2293 2669",
         email: "pradeep@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/ppm.png",
+        website: "",
         details: "Prof. P P Mujumdar is currently serving as a Professor in the Department of Civil Engineering. He has earlier served as the Chairman of the Department from November 2006 to December 2010 and as KSIIDC Chair Professor from August 2012 to July 2015. He holds Associate Faculty position in the Center for Earth Sciences at IISc Bangalore. His area of specialization is Water Resources with a focus on climate change impacts on hydrology/water resources, statistical downscaling of GCM outputs, urban flooding, planning and operation of large scale water resources systems, and uncertainty modeling. His recent research contributions include detection and attribution of hydrologic change, development of downscaling models and quantification and reduction of uncertainty in climate change impact assessment. He has served as the Chairman of the Water Resources Management section of the International Association for Hydro-Environment Engineering and Research (IAHR), and as a reviewer for the Assessment Report 5 (AR5) of the IPCC."
       },
       {
@@ -52,6 +56,7 @@ export const faculty = [
         phoneNo: "+91 80 2293 3428",
         email: "gbala@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/gbala.jpg",
+        website: "http://dccc.iisc.ac.in/web/balag_home.html",
         details: "Govindasamy Bala is based at the Centre for Atmospheric and Oceanic Sciences, at the Indian Institute of Science (IISc). His main research interests are modelling climate change, carbon and water cycles, solar geoengineering, and the global and regional monsoon systems. He has published over 110 peer-reviewed papers on climate change, carbon cycles and monsoons. Prof. Bala was the recipient of the 2008 Scopus Young Scientist Award for Earth Sciences, and together with collaborators from China and the USA, also won the prestigious World Meteorological Organization’s (WMO) Norbert Gerbier MUMM International Award for 2014, for a research paper on fast climate system adjustments. Prof. Bala has served as a Lead and Contributing Author in the AR5 and AR6 IPCC WG1 reports."
       },
       {
@@ -61,6 +66,7 @@ export const faculty = [
         phoneNo: "+91 80 2293 2245",
         email: "muddu@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/sekharm.jpg",
+        website: "http://civil.iisc.ernet.in/~muddu/",
         details: "My research interests are in the areas of groundwater hydrology, agro-hydrology, satellite hydrology using numerical methods, geospatial & geophysical methods, optimization & inverse approaches, and specifically in the following themes. Groundwater resource assessment under the influence of climatic variations and anthropogenic effects using numerical modeling, statistical tools and field studies. Modeling near surface soil moisture and evapotranspiration using remote sensing data and assimilating them into distributed hydrological models. Stochastic modeling of flow and reactive solute transport in heterogeneous porous media using theoretical studies and field scale experiments. Integrated geochemical and hydrological studies in the Kabini Critical Zone Observatory."
       },
       {
@@ -70,6 +76,7 @@ export const faculty = [
         phoneNo: "+ 91 80 2293 2641",
         email: "vvs@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/VVS.jpg",
+        website: "http://civil.iisc.ernet.in/~vvs/",
         details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Technology Madras, Chennai. My research interests include Stochastic Surface Water Hydrology, Impact Assessment of Climate and Land-use/Land-cover Change on Hydrology of River Basins, Regionalization of Watersheds, and Hydrometeorological Monitoring Networks (to Predict Hydrological and meteorological Processes in Ungauged Basins), Regional Frequency analysis of Extreme Rainfall, Floods, and Droughts, Statistical Modelling of Hydroclimate Variables, Forecasting Streamflow and Floods in River Basins, Urban Stormwater Drains and Water Distribution Networks, Performance Evaluation and Breach Analysis of Dams."
       },
       {
@@ -79,15 +86,17 @@ export const faculty = [
         phoneNo: "+91 80 2293 2599",
         email: "pghosh@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/pgosh.jpg",
+        website: "",
         details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from Devi Ahiliya Vishwa Vidhyalaya, Indore. My research interests include CO2 evolution in the paleo-atmosphere; probing the soil carbonate archives, Reconstruction of the paleo-diet using the stable isotopes method, Understanding the extinction event in geological time, Carbon cycle in hydrosphere-atmosphere (Ocean, estuary, lakes, etc.), Stable isotope chemistry of atmospheric CO2 and carbon cycle, Application of doubly substituted CO2 isotopologues in carbonate Paleo-thermometry, Development of new isotopic standard for analyses of stable isotopes in air and solid samples."
       },
       {
-        name: "Dr. Ramananda Chakrabarti",
+        name: "Prof. Ramananda Chakrabarti",
         Designation: "",
         department: "Centre for Earth Sciences",
         phoneNo: "+91 80 2293 3003",
         email: "ramananda@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/ramananda.jpg",
+        website: "https://sites.google.com/site/ramanandachakrabarti/Home",
         details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from University of Rochester, USA. My research interests include Radiogenic and Non-Traditional Stable Isotopes, Proxy Development, Igneous, Sedimentary And Aqueous Geochemistry, Impact Cratering, and Cosmochemistry."
       },
       {
@@ -97,6 +106,7 @@ export const faculty = [
         phoneNo: "080 2293 2051",
         email: "narayana@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/lakshminarayanarao.jpg",
+        website: "",
         details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from McGill University. My research interests include Plasma Technology, Plasma Gasification, Syngas Cleaning, and Enrichment."
       },
       {
@@ -106,9 +116,10 @@ export const faculty = [
         phoneNo: "Tel: 080 2293  3196",
         email: "sanjiv@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/sanjeevs.jpg",
+        website: "",
         details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Waterloo. My research interests include semiconductor physics, flexible electronics, Device Physics, and Integrated Circuits."
-      },
-    ],
+      }
+    ]
   },
   {
     'DST Inspire Faculty': [
@@ -119,6 +130,7 @@ export const faculty = [
         phoneNo: "",
         email: "thejnat@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/ThejnaT.jpg",
+        website: "https://scholar.google.com/citations?user=Yp2pA8QAAAAJ&hl=en",
         details: "I am a DST Inspire Faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Bremen, Germany. My research interests include Past and Future Climate Changes, Climate Modelling, and Isotope Hydrology."
       },
       {
@@ -128,12 +140,15 @@ export const faculty = [
         phoneNo: "",
         email: "soumitab@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/SoumitaB.jpg",
+        website: "https://scholar.google.com/citations?user=exn8ctgAAAAJ&hl=en",
         details: "I am a DST Inspire Faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Technology Kanpur, India. My research interests include Isotope Geochemistry, Critical zone biogeochemistry, Glacier-river-continent processes, Hydro-geochemical modelling."
-      },
-    ],
-  },
+      }
+    ]
+  }
+];
+export const formerFaculty =[
   {
-    'Former Faculty': [
+    'Former Associate Faculty': [
       {
         name: "Prof. Venugopal V.",
         Designation: "Associate Faculty",
@@ -141,41 +156,49 @@ export const faculty = [
         phoneNo: "+91 80 2293 3073",
         email: "venu@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/venugopal.jpg",
+        website: "",
         details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Minnesota. My research interests include  Stochastic Hydrology, Space-time Structure and Scale-invariance of Precipitation, Precipitation Downscaling, Retrieval and Validation of remotely sensed Precipitation, and Cloud-resolving Models."
       },
       {
-        name: "Nagesh Kumar D",
+        name: "Prof. Nagesh Kumar D",
         Designation: "Associate Faculty",
         department: "Department of Civil Engineering",
         phoneNo: "+91 80 2293 2666",
         email: "nagesh@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/DNageshKumar.jpg",
+        website: "http://www.civil.iisc.ac.in/people/nagesh-kumar-d/",
         details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Science, Bengaluru. My research interests include  Climate Hydrology, Optimization in Water Resource Systems, Multicriteria Decision Making (MCDM) in Water Resources, and Remote Sensing for Irrigation Management."
-      },
+      }
+    ]
+  },
+  {
+    'Retired Faculty': [
       {
         name: "Prof. Mohan Kumar M. S.",
         Designation: "Retired Faculty",
-        department: "Retired",
+        department: "Department of Civil Engineering",
         phoneNo: "",
         email: "",
         imgSrc: "../../assets/images/Faculty/Mohan Kumar S.jpg",
-        details: ""
+        website: "http://civil.iisc.ernet.in/~msmk/",
+        details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Science, Bengaluru. My research interests include Water Resources and Environmental Engineering."
       },
+      {
+        name: "Prof. Subramanian S",
+        Designation: "Retired Faculty",
+        department: "Department of Materials Engineering",
+        phoneNo: "",
+        email: "",
+        imgSrc: "../../assets/images/Faculty/Prof.S.Subramanian.jpg",
+        website: "",
+        details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Mysore, India. My research interests include  Surface and colloid chemistry, Mineral processing, Extractive metallurgy, Bio-processing and environmental control."
+      }
     ],
   }
 ];
 export const researchStudents = [
   {
     Current: [
-      {
-        name: "Siva Naga Venkat Nara" ,
-        'Degree Registered': "Ph.D" ,
-        'Degree and Affiliation': "M.Tech: IIT Bombay, Water Resources Engg. (2012)" ,
-        'Name of Supervisors': "Prof. M Sekhar and Prof. Prosenjit Ghosh",
-        'Research Topic': "Analysis and modelling of Hydrogeochemical systems",
-        email: "venkatnara@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Research/venkat.jpg",
-      },
       {
         name: "Walter Samuel" ,
         'Degree Registered': "Ph.D" ,
@@ -352,7 +375,13 @@ export const researchStudents = [
   },
 
   {
-    Past: [
+    Former: [
+      {
+        name: "Siva Naga Venkat Nara" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "M.Tech: IIT Bombay, Water Resources Engg. (2012)" ,
+        imgSrc: "../../assets/images/Research/venkat.jpg",
+      },
       {
         name: "Sneha Santy" ,
         'Degree Registered': "Ph.D" ,
@@ -377,30 +406,58 @@ export const researchStudents = [
 
 export const visitors = [
       {
+        name: "Prof. Ashish Sharma",
+        'Designation and University of Visitior': "Professor of Civil and Environmental Engineering at the University of New South Wales, Sydney, Australia",
+        Duration: "07 - 08th April, 2024",
+        website: "https://research.unsw.edu.au/people/professor-ashish-sharma",
+        imgSrc: "../../assets/images/Visitors/Prof.Ashish_Sharma.jpg",
+      },
+      {
+        name: "Dr. Chandra Rajulapati",
+        'Designation and University of Visitior': "Assistant Professor at Department of Civil Engineering, University of Manitoba",
+        Duration: "17 - 30th Dec, 2023",
+        website: "https://umanitoba.ca/engineering/civil/chandra-rajulapati",
+        imgSrc: "../../assets/images/Visitors/Chandra-Rajulapati.jpg",
+      },
+      {
+        name: "Dr. Jasmeet Judge",
+        'Designation and University of Visitior': "Professor in the Agricultural and Biological Engineering Department at the University of Florida",
+        Duration: "07 - 10th June, 2023",
+        website: "https://abe.ufl.edu/people/faculty/jasmeet-judge/",
+        imgSrc: "../../assets/images/Visitors/Jasmeet-Judge.png",
+      },
+      {
+        name: "Dr. Balaji Devaraju",
+        'Designation and University of Visitior': "Assistant Professor at Department of Civil Engineering, IIT Kanpur",
+        Duration: "28th May to 05th June, 2023",
+        website: "https://iitk.ac.in/new/balaji-devaraju",
+        imgSrc: "../../assets/images/Visitors/Balaji-Devaraju.jpg",
+      },
+      {
         name: "Prof. Ana Mijic",
         'Designation and University of Visitior': "Professor, Reader in Water Systems Integration and Director of the Centre for Systems Engineering and Innovation (CSEI) at Imperial College London",
-        Duration: "14 Nov 2022 to Dec 24, 2022",
+        Duration: "14th Nov to 24th Dec, 2022",
         website: "https://www.imperial.ac.uk/people/ana.mijic",
         imgSrc: "../../assets/images/Visitors/Mijic_Ana.jpg",
       },
       {
         name: "Prof. Walter Den",
         'Designation and University of Visitior': "Professor, Texas A&M University, San Antonio ",
-        Duration: "Dec 5, 2022",
+        Duration: "05th Dec, 2022",
         website: "https://apps.tamusa.edu/course-information/Profile/Faculty/462?=Walter-Den",
         imgSrc: "../../assets/images/Visitors/walter-den.jpg",
       },
       {
         name: "Prof. Alan Jenkins",
         'Designation and University of Visitior': "Deputy Director and Science Director, UK Centre for Ecology & Hydrology (UKCEH)",
-        Duration: "10 – 15th Aug 2022",
+        Duration: "10 – 15th Aug, 2022",
         website: "",
         imgSrc: "../../assets/images/Visitors/Alam-Jenkins.jpg",
       },
       {
         name: "Prof. Bob Ferrier",
         'Designation and University of Visitior': "Director of CREW, The James Hutton Institute",
-        duration: "10 – 15th Aug 2022",
+        duration: "10 - 15th Aug, 2022",
         website: "",
         imgSrc: "../../assets/images/Visitors/Bob-Ferrier.jpg",
       },
@@ -409,7 +466,7 @@ export const visitors = [
         Achievement: "International Student Delegation",
         Students: "Eléonore Petit, Jennifer Colombi, Roxane Borgeaud, Clément Porchet and Jacobo Vergara Restrepo",
         'Designation and University of Visitior': "Full Professor, Institute of Social Sciences & Sciences and Technologies Studies Laboratory (STSlab), University of Lausanne",
-        Duration: "8th Aug, 2022g",
+        Duration: "8th Aug, 2022",
         website: "",
         imgSrc: "../../assets/images/Visitors/Francesco-Panese.jpg",
       },
@@ -498,10 +555,42 @@ export const postDoctoralScholars = [
         email: "retinderkour@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/RetinderK.jpg",
       },
+      {
+        name: "Ashlin Ann Alexander" ,
+        Designation: "Research Associate" ,
+        'Degree and Affiliation': "Ph.D. in Water Resources Engineering, Indian Institute of Science, Bangalore" ,
+        Project: "SERB-CRG, MHRD-STARS",
+        email: "ashlina@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Post Doc/Ashlin_Ann_Alexander.png",
+      },
+      {
+        name: "Dr. K Satish Kumar " ,
+        Designation: "IoE Post-Doctoral Fellow" ,
+        'Degree and Affiliation': " PhD, Department of Civil Engineering, National Institute of Technology Warangal (2023)" ,
+        Project: "Understanding the Water Storage Components Behaviour and Interactions at the Aquifer and Catchment Scale",
+        email: "ksatishkumar@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.Satish_Kumar.png",
+      },
+      {
+        name: "Dr. Dagani Koteswara Rao" ,
+        Designation: "IoE Post-Doctoral Fellow" ,
+        'Degree and Affiliation': "PhD in Hydraulics & Water Resources from IIT Hyderabad" ,
+        Project: "Assessing the self-sufficiency and sustainability of water and food resources for consumption and production",
+        email: "daganikotes1@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.Koteswara_Rao.png",
+      },
+      {
+        name: "Dr. Suyog Gupta" ,
+        Designation: "Research Associate" ,
+        'Degree and Affiliation': "Ph.D., IIT (ISM) Dhanbad" ,
+        Project: "cCauvery",
+        email: "suyoggupta@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.Suyog_Gupta.jpg",
+      },
     ],
   },
   {
-    Past: [
+    Former: [
       {
         name: "Dr. Pushkar Sharma" ,
         Designation: "Post Doctoral Fellow" ,
@@ -543,34 +632,39 @@ export const postDoctoralScholars = [
         imgSrc: "../../assets/images/Post Doc/abhishek.jpg",
       },
       {
-        name: "Dr. Vikas Poonia (21 Mar 2022 – 23 Oct 2022)" ,
+        name: "Dr. Vikas Poonia (Mar 2022 – Oct 2022)" ,
         Designation: "IoE Post-Doctoral Fellow" ,
         imgSrc: "../../assets/images/Post Doc/Vikas-Poonia.jpg",
       },
       {
-        name: "Dr. Simranjeet Singh (08 Sept 2020 – 07 Sept 2022)" ,
+        name: "Dr. Simranjeet Singh (Sept 2020 – Sept 2022)" ,
         Designation: "Post Doctoral Fellow" ,
         imgSrc: "../../assets/images/Post Doc/Simranjeet.jpg",
       },
       {
-        name: "Dr. Jeenu Mathai (7th  Mar 2022 – 18th Nov 2022)" ,
+        name: "Dr. Jeenu Mathai (Mar 2022 – Nov 2022)" ,
         Designation: "Postdoctoral Research Associate" ,
         imgSrc: "../../assets/images/Post Doc/Jeenu_Mathai.jpg",
       },
       {
-        name: "Dr. Aafaq Nazir (Feb. 2021 – Aug. 2022)" ,
+        name: "Dr. Aafaq Nazir (Feb 2021 – Aug 2022)" ,
         Designation: "Postdoctoral Research Associate" ,
         imgSrc: "../../assets/images/Post Doc/postdoc-aafaqnazir.jpg",
       },
       {
-        name: "Dr. Shubha Avinash (Jan. 2022 – Oct. 2022)" ,
+        name: "Dr. Shubha Avinash (Jan 2022 – Oct 2022)" ,
         Designation: "Specialist Scientist" ,
         imgSrc: "../../assets/images/Post Doc/Shubha-Avinash.jpg",
       },
       {
-        name: "Dr. Somil Swarnkar (Jan. 2021 – July 2022)" ,
+        name: "Dr. Somil Swarnkar (Jan 2021 – July 2022)" ,
         Designation: "National Postdoctoral Fellow (NPDF)" ,
         imgSrc: "../../assets/images/Post Doc/Somil_Swarnkar.jpg",
+      },
+      {
+        name: "Dr. Yogaraj Banerjee (Jan 2019 – Nov 2020)" ,
+        Designation: "Postdoctoral Research Associate" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.Yogaraj_Banerjee.JPG",
       },
       {
         name: "Dr. Pankaj Dey (May 2020 – April 2022)" ,
@@ -583,7 +677,7 @@ export const postDoctoralScholars = [
         imgSrc: "../../assets/images/img_avatar3.png",
       },
       {
-        name: "Dr. Shailza Sharma (Oct. 2020 – Nov. 2021)" ,
+        name: "Dr. Shailza Sharma (Oct 2020 – Nov 2021)" ,
         Designation: "Postdoctoral Research Associate" ,
         imgSrc: "../../assets/images/img_avatar3.png",
       },
@@ -599,14 +693,6 @@ export const postDoctoralScholars = [
 export const projectStaff = [
   {
     Current: [
-      {
-        name: "Likhitha P" ,
-        Designation: "Senior Research Fellow" ,
-        'Degree and Affiliation': "M.Tech in Water Resources Engineering, NIT Kurukshetra" ,
-        Project: "National Supercomputing Mission",
-        email: "likhithap@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/LikhithaP.jpg",
-      },
       {
         name: "Ms. P. N. Chandi Priya" ,
         Designation: " Junior Research Fellow" ,
@@ -632,30 +718,6 @@ export const projectStaff = [
         imgSrc: "../../assets/images/Project Staff/nruthya-k.jpg",
       },
       {
-        name: "Karthika K" ,
-        Designation: "Project Associate" ,
-        'Degree and Affiliation': "M.Tech in Remote Sensing and GIS (Specialization: Marine and Atmospheric Science), IIRS Dehradun" ,
-        Project: "National Supercomputing Mission",
-        email: "karthikak@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/Karthika_K.jpg",
-      },
-      {
-        name: "Ananthula Rishika" ,
-        Designation: "Project Associate" ,
-        'Degree and Affiliation': "M.Tech in Civil Engineering (Specialization: Water Resources and Environmental Engineering), IISc Bangalore (2023)" ,
-        Project: "National Supercomputing Mission",
-        email: "ananthular@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/Ananthula_Rishika.png",
-      },
-      {
-        name: "Ashlin Ann Alexander" ,
-        Designation: "Research Associate" ,
-        'Degree and Affiliation': "Ph.D. in Water Resources Engineering (Thesis submitted), Indian Institute of Science, Bangalore" ,
-        Project: "SERB-CRG Project",
-        email: "ashlina@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/Ashlin_Ann_Alexander.jpg",
-      },
-      {
         name: "Ms. Preethi Alle" ,
         Designation: "Junior Research Fellow" ,
         'Degree and Affiliation': "M.Tech in Water Resources Engineering, IIT Bhubaneswar (2021)" ,
@@ -666,7 +728,28 @@ export const projectStaff = [
     ],
   },
   {
-    Past: [
+    Former: [
+      {
+        name: "Likhitha P" ,
+        Designation: "Senior Research Fellow" ,
+        'Degree and Affiliation': "M.Tech in Water Resources Engineering, NIT Kurukshetra" ,
+        Project: "National Supercomputing Mission",
+        imgSrc: "../../assets/images/Project Staff/LikhithaP.jpg",
+      },
+      {
+        name: "Karthika K" ,
+        Designation: "Project Associate" ,
+        'Degree and Affiliation': "M.Tech in Remote Sensing and GIS (Specialization: Marine and Atmospheric Science), IIRS Dehradun" ,
+        Project: "National Supercomputing Mission",
+        imgSrc: "../../assets/images/Project Staff/Karthika_K.jpg",
+      },
+      {
+        name: "Ananthula Rishika" ,
+        Designation: "Project Associate" ,
+        'Degree and Affiliation': "M.Tech in Civil Engineering (Specialization: Water Resources and Environmental Engineering), IISc Bangalore (2023)" ,
+        Project: "National Supercomputing Mission",
+        imgSrc: "../../assets/images/Project Staff/Ananthula_Rishika.png",
+      },
       {
         name: "Gaddam Nagaraju" ,
         Designation: "Project Associate" ,
@@ -737,19 +820,19 @@ export const officeStaff = [
       },
       {
         name: "D Darshan",
-        Designation: "Office Boy",
+        Designation: "Office Helper",
         imgSrc: "../../assets/images/Office Staff/Darshan_D.jpg",
       },
     ],
   },
-  {
-    Past: [
-      {
-        name: "Abhinand B",
-        Designation: "Administrative Assistant",
-        imgSrc: "../../assets/images/Office Staff/abhinand.jpg",
-      }
-    ],
-  }
+  // {
+  //   Former: [
+  //     {
+  //       name: "Abhinand B",
+  //       Designation: "Administrative Assistant",
+  //       imgSrc: "../../assets/images/Office Staff/abhinand.jpg",
+  //     }
+  //   ],
+  // }
 ];
 

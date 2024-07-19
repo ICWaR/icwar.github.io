@@ -1,15 +1,23 @@
-<div class="row justify-content-center d-flex align-items-center bg-white w-100" style="max-width: 100vw;">
-  <div class="d-flex mt-5" style="width: 100vw;">
-    <h1 class="float-start" style="margin-left: 10vw;">Media Coverage</h1>
-  </div>
-  <hr>
-  <div id="media-coverage" class="p-5 d-flex row justify-content-center col-md-9 pt-5" style="max-height: 80vh; overflow-y: scroll;">
-    <ng-container *ngFor="let item of media_coverage">
-      <div class="row shadow border card border-1 mb-2 col-12 border-bottom-3 border-dark d-flex justify-content-center p-3 ">
-        <h4 class="col" style="text-align: justify;"><b>{{ item.Title }}</b></h4>
-        <h5 class="col" style="text-align: justify;">{{ item.Details }}</h5><br>
-        <a [href]="item.link[0]" target="_blank">Click to view full article</a>
-      </div>
-    </ng-container>
+<div class="container-fluid mt-5 px-5">
+  <div class="row">
+      <h1>Media Coverage ({{media_coverage.length}})</h1>
   </div>
 </div>
+<hr>
+<div id="media-coverage" class="p-5 row d-flex justify-content-center col-12 pt-0">
+  <ng-container *ngFor="let item of media_coverage">
+    <div class="row shadow border card border-1 mb-2 col-12 col-md-10 border-dark p-3 ">
+      <h4 class="text"><b>{{ item.Title }}</b></h4>
+      <h5 class="text">{{ item.Details }}</h5>
+      <div class="col-12 d-flex">
+        <a [href]="item.link[0]" target="_blank" class="ms-auto">Click to view full article</a>
+      </div>
+    </div>
+  </ng-container>
+</div>
+<button class="scroll-to-top d-none d-md-block" (click)="scrollToTop()">↑</button>
+
+
+
+
+

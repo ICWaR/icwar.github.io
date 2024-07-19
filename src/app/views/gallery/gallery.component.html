@@ -1,25 +1,28 @@
-<div class="p-5 background-image">
-  <!-- <h1 class="text-center" style="text-shadow: 2px 1px 10px white;">Media Gallery</h1> -->
-    <div class="p-md-3" style="height: 80vh;overflow-y: scroll;" >
-      <tabset>
-        <ng-container *ngFor="let key of getJsonKeys(gallery)">
-          <tab heading='{{key}}'>
-          <!-- <h1 class="col-12 p-2">{{key}}</h1> -->
-          <tabset class="p-md-5 col-12 my-1" >
-          <ng-container *ngFor="let years of getJsonKeys(getValueForKey(gallery,key))">
-              <tab class="p-3" heading="{{years}}" >
-              <div class="row col-12 ">
-              <ng-container *ngFor="let img of getJsonValues(getValueForKey(getValueForKey(gallery,key),years));index as index">
-                  <img height="320px" [ngClass]="myFunc() == (index%3)?'col-md-5':'col-md-3 warm'" class="col-5 m-3 img-frame p-3" src="{{getValueForKey(img,'imgSrc')}}" >
-                  <br *ngIf="(index+1)%3==0">
-              </ng-container>
-            </div>
-          </tab>
-        </ng-container>
-      </tabset>
-    </tab>
-    </ng-container>
-  </tabset>
+<div class="p-5">
+  <div class="p-md-3">
+    <tabset>
+      <ng-container *ngFor="let key of getJsonKeys(gallery)">
+        <tab heading="{{key}}">
+          <tabset class="p-md-5 col-12 my-1">
+            <ng-container *ngFor="let years of getJsonKeys(getValueForKey(gallery, key), true)">
+              <tab class="p-3" heading="{{years}}">
+                <div class="row">
+                  <ng-container *ngFor="let img of getJsonValues(getValueForKey(getValueForKey(gallery, key), years)); index as index">
+                    <div class="col-md-4 col-sm-12 mb-3">
+                      <img
+                        height="320px"
+                        [ngClass]="myFunc() === (index % 3) ? 'warm' : ''"
+                        class="img-fluid img-frame p-3"
+                        src="{{getValueForKey(img, 'imgSrc')}}">
+                    </div>
+                    <div *ngIf="(index + 1) % 3 === 0 && index + 1 !== getJsonValues(getValueForKey(getValueForKey(gallery, key), years)).length" class="w-100 d-none d-md-block"></div>
+                  </ng-container>
+                </div>
+              </tab>
+            </ng-container>
+          </tabset>
+        </tab>
+      </ng-container>
+    </tabset>
   </div>
 </div>
-

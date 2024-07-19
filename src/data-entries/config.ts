@@ -94,6 +94,10 @@ export const configurations = {
             "hasSubDropdown":false
           },
           {
+            "name":"Former Faculty",
+            "link":"/people/formerFaculty"
+          },
+          {
             "name":"Visitors",
             "link":"/people/visitors"
           },
@@ -136,7 +140,7 @@ export const configurations = {
             "subDropdownItems":[
               {
                 "name":"Workshops",
-                "link":"/events/workshop-and-meetings"
+                "link":"/events/workshop-and-meetings/workshops"
               },
               {
                 "name":"Monsoon School",
@@ -144,7 +148,7 @@ export const configurations = {
               },
               {
                 "name":"Seminars",
-                "link":"/events/workshop-and-meetings",
+                "link":"/events/workshop-and-meetings/seminars",
               },
               ]
           },
@@ -154,25 +158,7 @@ export const configurations = {
           },
           {
             'name':'Gallery',
-            'link':'/gallery',
-            "hasSubDropdown":true,
-            "subDropdownItems":[
-            {
-              "name":"Fresher’s Day 2022 – Gallery",
-              'link':'/gallery',
-            },
-            {
-              "name":"Open Day: ICWaR",
-              'link':'/gallery',
-            },
-            {
-              "name":"Open Day, 2020",
-              'link':'/gallery',
-            },
-            {
-              "name":"Open Day, 2019",
-              'link':'/gallery',
-            }],
+            'link':'/gallery'
           },
           {
             "name":"Outreach",

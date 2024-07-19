@@ -55,6 +55,11 @@ export const collaborations=[
     'title': 'MoA with alfa-TKG, Japan',
     'details': 'Mr. Victor Chung, CEO, Jinpao, Thailand, Prof. P. P. Mujumdar, Chairman, ICWaR, Mr. V. Rajarajan, Registrar, Indian Institute Of Science, Bangalore, and Mr. T. Takagi, CEO, alfaTKG, Japan showing the signed MoA.',
     imgSrc: '../../assets/images/Vignettes and Theme/moa_tkg.jpg'
+  },
+  {
+    'title': 'MoU with Bihar State Disaster Management Authority (BSDMA)​',
+    'details': '',
+    imgSrc: '../../assets/images/Vignettes and Theme/Bihar_State_Disaster_Management_Authority_(BSDMA)​.png'
   }
 ]
 

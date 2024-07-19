@@ -1,7 +1,6 @@
 ::ng-deep tabset .nav-link {
   font-size: 30px;
   color: black;
-  // text-shadow: 1px 1px 1px black;
   background-color: transparent;
 }
 ::ng-deep tabset .nav-item ,a.nav-link.active{
@@ -17,18 +16,6 @@
   filter: sepia(30%) contrast(100%) saturate(100%) brightness(100%) hue-rotate(-5deg);
 }
 .img-frame{
-  background-color:#ffffff;
-  // border:rgb(10, 10, 10) solid 10px;
-  border: 5px solid rgb(59, 55, 49);
-  outline: 5px solid rgb(11, 10, 9);
-  // border-image: linear-gradient(90deg, rgba(6,193,140,1) 29%, rgba(5,12,13,1) 56%) 1;
-box-shadow: 12px 12px 5px 5px rgba(5, 5, 5, 0.622);
-}
-
-.background-image {
-  // background: url('https://static.theprint.in/wp-content/uploads/2021/06/IISc.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 100vh;
+background-color:#ffffff;
+box-shadow: 2px 2px 2px 2px rgba(5, 5, 5, 0.622);
 }

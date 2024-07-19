@@ -1,28 +1,42 @@
-.carousel-inner{
-  max-height: 100vh
+.btn {
+  color: #080000;
+  border-radius: 5px;
+  margin: 3px;
+  transition: background-color 0.3s ease;
+  word-wrap: break-word;
+  border-color: #080000;
 }
-.bg-light{
-  background-color: rgb(50, 48, 48);
-  color: rgb(50, 48, 48);
+.btn:hover{
+  background-color: #f7e8d6;
+  transform: scale(1.05);
 }
-.nav-link {
-  // display: inline-block;
-  position: relative;
-  // color: #0087ca;
+.selected {
+  background-color: #721816;
+  color: #ffffff;
+  font-weight: bolder;
+  pointer-events: none;
 }
-.nav-link::after {
-  content: '';
-  position: absolute;
-  width: 80%;
-  transform: scaleX(0);
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  background-color: #030303;
-  transform-origin: bottom left;
-  transition: transform 0.5s;
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: none;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
 }
-.nav-link:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+.scroll-to-top:hover {
+  background-color: #004080;
+}
+.w-100 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
