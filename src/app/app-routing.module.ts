@@ -20,6 +20,7 @@ import { TestimonialsComponent } from './views/testimonials/testimonials.compone
 import { OutreachComponent } from './views/outreach/outreach.component';
 import { StudentsSeminarComponent } from './views/students-seminar/students-seminar.component';
 import { MediaCoverageComponent } from './views/media-coverage/media-coverage.component';
+import { JoinIcwarComponent } from './views/join-icwar/join-icwar.component';
 
 
 const routes: Routes = [
@@ -55,6 +56,7 @@ const routes: Routes = [
   {path: 'outreach', component:OutreachComponent},
   {path: 'students-seminar', component:StudentsSeminarComponent},
   {path: 'media-coverage', component:MediaCoverageComponent},
+  {path: 'join-icwar', component:JoinIcwarComponent},
   {path:'**',component:PageNotFoundComponent}
 
 ];

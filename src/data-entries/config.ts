@@ -64,10 +64,10 @@ export const configurations = {
             "link":"/about-us",
             "hasSubDropdown":false
           },
-          {
-            "name":"Program",
-            "link":"/program"
-          },
+          // {
+          //   "name":"Program",
+          //   "link":"/program"
+          // },
           {
             "name":"Infrastructure",
             "link":"/centres-and-facilities"
@@ -167,14 +167,7 @@ export const configurations = {
           {
             "name":"Media Coverage",
             "link":"/media-coverage"
-          }
-        ],
-      },
-      {
-        "name":"Students Corner",
-        "hasDropdown":true,
-        "dropdownStyle":constants['dropdown-style'],
-        "dropdownItems":[
+          },
           {
             "name":"Blogs",
             "link":"/students-blogs"
@@ -184,6 +177,25 @@ export const configurations = {
             "link":"/testimonials"
           }
         ],
+      },
+      // {
+      //   "name":"Students Corner",
+      //   "hasDropdown":true,
+      //   "dropdownStyle":constants['dropdown-style'],
+      //   "dropdownItems":[
+      //     {
+      //       "name":"Blogs",
+      //       "link":"/students-blogs"
+      //     },
+      //     {
+      //       "name":"Testimonials",
+      //       "link":"/testimonials"
+      //     }
+      //   ],
+      // }
+      {
+        "name":"Join ICWaR",
+        "link":"/join-icwar"
       }
     ]
   },

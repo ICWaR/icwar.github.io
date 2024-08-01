@@ -1,11 +1,11 @@
-<div class="container-fluid mt-5 px-5">
+<div class="container-fluid mt-3 px-5">
   <div class="row">
-      <h1 class="float-start ps-md-5">{{getTitleFromType(type)}} Directory</h1>
+      <h2 class="float-start ps-md-5">{{getTitleFromType(type)}} Directory</h2>
   </div>
 </div>
 <hr>
 <!-- Main Display  Starts here -->
-<div class="row justify-content-center p-5 mt-0">
+<div class="row justify-content-center px-5 mt-0">
   <!-- Main Body Start 3 col division -->
   <div class="col-md-3 card shadow d-none d-md-table-row p-5 pt-0 h-100" style="max-width: fit-content; position: sticky; ">
     <h2 class=" my-4 ">Contents</h2>
@@ -21,7 +21,7 @@
     </ol>
   </div>
   <!-- Faculty -->
-  <div *ngIf="type =='faculty' || type =='formerFaculty'" class="px-md-5 pb-md-5 px-1 pb-1 row justify-content-center align-items-center col-12 col-md-9" style="max-height: 100vh;overflow-y: scroll;">
+  <!-- <div *ngIf="type =='faculty' || type =='formerFaculty'" class="px-md-5 pb-md-5 px-1 pb-1 row justify-content-center align-items-center col-12 col-md-9" style="max-height: 100vh;overflow-y: scroll;">
     <ng-container *ngFor="let parent of designationNames;index as i">
       <ng-container *ngFor="let row of staffUnderDesignation[i];index as index" >
         <div class="card shadow m-1 p-0">
@@ -48,11 +48,45 @@
         </div>
       </ng-container>
     </ng-container>
+  </div> -->
+  <div *ngIf="type =='faculty' || type =='formerFaculty'" class="px-md-5 pb-md-5 px-1 pb-1 row justify-content-center align-items-center col-12 col-md-9" style="max-height: 100vh; overflow-y: scroll;">
+    <ng-container *ngFor="let parent of designationNames;index as i">
+      <ng-container *ngFor="let row of staffUnderDesignation[i];index as index" >
+        <div class="card shadow m-1 p-0">
+          <div class="card-body row">
+            <img class="col-12 col-md-3 img-fluid" [src]="row.imgSrc" style="height: 200px ; width: 200px; border-radius: 50px" />
+            <div class="col-12 col-md-9 card-text row">
+              <h5 class="col-12 mt-2" style="font-weight: bold;"><a *ngIf="row.website; else plainName" [href]="row.website" target="_blank" style="text-decoration: none; color: rgb(43, 102, 158);">{{row.name}}</a>
+                <ng-template #plainName>{{row.name}}</ng-template></h5>
+              <h6 class="col-12" ><b>{{row.Designation}}, {{row.department}}</b></h6>
+              <p class="col-12 d-none d-md-block font-italic">{{row.details}}</p>
+              <p class="col-12 d-none d-md-block" style="text-align: justify;"><b>Research Interests: </b> {{row.researchInterest}}</p>
+              <section class="col-12 d-md-none">
+                <div class="collapse" style="text-align: justify;" id={{index}}>
+                  <p>{{row.details}}</p> <br>
+                  <p><b>Research Interests: </b>{{row.researchInterest}}</p>
+                </div>
+                <button class="btn-text-expand btn collapsed d-md-none col-sm-3 offset-10 m-1 align-self-end float-end"
+                        type="button" data-bs-toggle="collapse"
+                        [attr.data-bs-target]="'#'+index" aria-expanded="false"
+                        [attr.aria-controls]="index">
+                </button>
+              </section>
+
+            </div>
+          </div>
+          <div class="card-footer row justify-content-center">
+            <h5 *ngIf="row.phoneNo" class="col-md-6 col-12 text-md-center" style="font-size:medium"><a class="fa fa-phone" [href]="'callto:'+row.phoneNo"> {{row.phoneNo }}</a></h5>
+            <h5 *ngIf="row.email" class="col-md-6 col-12" style="font-size: medium;"><a class="fa fa-envelope" [href]="'mailto:'+row.email"> {{row.email}}</a></h5>
+          </div>
+        </div>
+      </ng-container>
+    </ng-container>
   </div>
   <!-- Non-Visitors -->
   <div *ngIf="type!='faculty' && type!='formerFaculty' && dataType=='nested'" class="px-md-5 pb-md-5 px-1 pb-1 row justify-content-center col-md-9 col-12" style="max-height: 100vh;overflow-y: scroll;">
     <ng-container *ngFor="let parent of designationNames;index as i">
-      <h4 class="text-center text-white p-2 m-3" style="background-color: rgb(10, 133, 133);"><b>{{parent}}</b></h4>
+      <h4 class="text-center text-white p-1" style="background-color: rgb(6, 68, 68);"><b>{{parent}}</b></h4>
       <ng-container *ngFor="let row of staffUnderDesignation[i]" >
         <div class="card col-md-5 m-md-3 col-12 shadow border-dark-subtle ">
           <section class="px-1">

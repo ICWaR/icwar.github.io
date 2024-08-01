@@ -3,13 +3,14 @@ export const faculty = [
     Chair: [
       {
         name: "Prof. Praveen C Ramamurthy",
-        Designation: "chairman",
-        department: "Department of Materials Engineering",
+        Designation: "Chair",
+        department: "ICWaR  &  Professor, Department of Materials Engineering",
         phoneNo: "+91 080 2293 2627",
         email: "praveen@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/PRamamurthy.png",
         website: "https://materials.iisc.ac.in/~praveen/",
-        details: "He is the Chairperson at the Interdisciplinary Centre for Water Research (ICWaR) and Professor at the Department of Materials Engineering, Indian Institute of Science, Bengaluru. He obtained PhD from the University of Clemson. Prof. Praveen has been awarded with PROF SATISH DHAWAN AWARD FOR YOUNG ENGINEER. His research interests include Electroactive polymers, Nanocomposite, Organic nanoelectronics, and sensors. Area of polymer electronics like Schott key diode, FET, OPVD, and sensors, with a current focus on the elucidation of the structure-property relationship of polymers to the performance of the devices and functionalization of nanocomposites."
+        details: "PhD, University of Clemson, USA",
+        researchInterest:"Electroactive polymers, Nanocomposite, Organic nanoelectronics, and sensors. Area of polymer electronics like Schott key diode, FET, OPVD, and sensors, with a current focus on the elucidation of the structure-property relationship of polymers to the performance of the devices and functionalization of nanocomposites."
       }
     ]
   },
@@ -23,7 +24,8 @@ export const faculty = [
         email: "rajarshidb@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/RDB.jpg",
         website: "https://rajarshidasbhowmik.com/",
-        details: "I am an Assistant Professor in the Interdisciplinary Centre for Water Research at Indian Institute of Science, Bangalore. I obtained PhD from North Carolina State University, Raleigh (USA). I am a former Post-doctoral Fellow at Hong Kong University of Science & Technology. My research interest includes hydro-climate modeling, extreme weather events and climate change Projections."
+        details: "PhD, North Carolina State University, Raleigh (USA)",
+        researchInterest:"Hydro-climate modeling, extreme weather events and climate change Projections"
       },
       {
         name: "Dr. Bramha Dutt Vishwakarma",
@@ -33,7 +35,8 @@ export const faculty = [
         email: "bramha@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/BDV.jpg",
         website: "https://ultra-pluto-7f6d1.netlify.app/",
-        details: "I am a researcher with expertise in processing and interpreting Geodetic Earth observation data (such as GRACE satellite gravity fields, GNSS time-series, and so on). Interested in Signal processing, Geodesy, time-series analysis, and hydrology. My passion is to develop novel algorithms and provide solutions to complicated inter-disciplinary problems. I am excited by opportunities to learn new data-processing tools and to understand the Earth-system response to climate change."
+        details: "PhD, University of Stuttgart, Germany",
+        researchInterest:"Signal processing, Geodesy, time-series analysis, and hydrology."
       }
     ]
   },
@@ -41,83 +44,91 @@ export const faculty = [
     'Associate Faculty': [
       {
         name: "Prof. P. P. Mujumdar",
-        Designation: "Associate Faculty",
+        Designation: "Professor",
         department: "Department of Civil Engineering",
         phoneNo: "+91 80 2293 2669",
         email: "pradeep@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/ppm.png",
         website: "",
-        details: "Prof. P P Mujumdar is currently serving as a Professor in the Department of Civil Engineering. He has earlier served as the Chairman of the Department from November 2006 to December 2010 and as KSIIDC Chair Professor from August 2012 to July 2015. He holds Associate Faculty position in the Center for Earth Sciences at IISc Bangalore. His area of specialization is Water Resources with a focus on climate change impacts on hydrology/water resources, statistical downscaling of GCM outputs, urban flooding, planning and operation of large scale water resources systems, and uncertainty modeling. His recent research contributions include detection and attribution of hydrologic change, development of downscaling models and quantification and reduction of uncertainty in climate change impact assessment. He has served as the Chairman of the Water Resources Management section of the International Association for Hydro-Environment Engineering and Research (IAHR), and as a reviewer for the Assessment Report 5 (AR5) of the IPCC."
+        details: "PhD, Indian Institute of Science, Bengaluru",
+        researchInterest:"Hydrological uncertainty, climate change, non-stationarity, land use change, urban precipitation extremes"
       },
       {
         name: "Prof. Govindasamy Bala",
-        Designation: "",
+        Designation: "Professor",
         department: "Centre for Atmospheric & Oceanic Sciences",
         phoneNo: "+91 80 2293 3428",
         email: "gbala@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/gbala.jpg",
         website: "http://dccc.iisc.ac.in/web/balag_home.html",
-        details: "Govindasamy Bala is based at the Centre for Atmospheric and Oceanic Sciences, at the Indian Institute of Science (IISc). His main research interests are modelling climate change, carbon and water cycles, solar geoengineering, and the global and regional monsoon systems. He has published over 110 peer-reviewed papers on climate change, carbon cycles and monsoons. Prof. Bala was the recipient of the 2008 Scopus Young Scientist Award for Earth Sciences, and together with collaborators from China and the USA, also won the prestigious World Meteorological Organization’s (WMO) Norbert Gerbier MUMM International Award for 2014, for a research paper on fast climate system adjustments. Prof. Bala has served as a Lead and Contributing Author in the AR5 and AR6 IPCC WG1 reports."
+        details: "PhD, McGill University, Canada",
+        researchInterest:"Modelling climate change, carbon and water cycles, solar geoengineering, and the global and regional monsoon systems"
       },
       {
         name: "Prof. Sekhar M.",
-        Designation: "",
+        Designation: "Professor",
         department: "Department of Civil Engineering",
         phoneNo: "+91 80 2293 2245",
         email: "muddu@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/sekharm.jpg",
         website: "http://civil.iisc.ernet.in/~muddu/",
-        details: "My research interests are in the areas of groundwater hydrology, agro-hydrology, satellite hydrology using numerical methods, geospatial & geophysical methods, optimization & inverse approaches, and specifically in the following themes. Groundwater resource assessment under the influence of climatic variations and anthropogenic effects using numerical modeling, statistical tools and field studies. Modeling near surface soil moisture and evapotranspiration using remote sensing data and assimilating them into distributed hydrological models. Stochastic modeling of flow and reactive solute transport in heterogeneous porous media using theoretical studies and field scale experiments. Integrated geochemical and hydrological studies in the Kabini Critical Zone Observatory."
+        details: "PhD, Indian Institute of Science, Bengaluru",
+        researchInterest:"Groundwater hydrology, agro-hydrology, satellite hydrology using numerical methods, geospatial & geophysical methods, optimization & inverse approaches."
       },
       {
         name: "Prof. Srinivas V. V.",
-        Designation: "",
+        Designation: "Professor",
         department: "Department of Civil Engineering",
         phoneNo: "+ 91 80 2293 2641",
         email: "vvs@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/VVS.jpg",
         website: "http://civil.iisc.ernet.in/~vvs/",
-        details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Technology Madras, Chennai. My research interests include Stochastic Surface Water Hydrology, Impact Assessment of Climate and Land-use/Land-cover Change on Hydrology of River Basins, Regionalization of Watersheds, and Hydrometeorological Monitoring Networks (to Predict Hydrological and meteorological Processes in Ungauged Basins), Regional Frequency analysis of Extreme Rainfall, Floods, and Droughts, Statistical Modelling of Hydroclimate Variables, Forecasting Streamflow and Floods in River Basins, Urban Stormwater Drains and Water Distribution Networks, Performance Evaluation and Breach Analysis of Dams."
+        details: "PhD, Indian Institute of Technology Madras, Chennai",
+        researchInterest:"Surface water hydrology, climate change impact, land-use/cover change, watershed regionalization, hydrometeorological monitoring, extreme event analysis, statistical hydroclimate modeling, streamflow/flood forecasting, urban drainage, dam performance/breach analysis."
       },
       {
         name: "Prof. Prosenjit Ghosh",
-        Designation: "",
+        Designation: "Professor",
         department: "Centre for Earth Sciences",
         phoneNo: "+91 80 2293 2599",
         email: "pghosh@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/pgosh.jpg",
         website: "",
-        details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from Devi Ahiliya Vishwa Vidhyalaya, Indore. My research interests include CO2 evolution in the paleo-atmosphere; probing the soil carbonate archives, Reconstruction of the paleo-diet using the stable isotopes method, Understanding the extinction event in geological time, Carbon cycle in hydrosphere-atmosphere (Ocean, estuary, lakes, etc.), Stable isotope chemistry of atmospheric CO2 and carbon cycle, Application of doubly substituted CO2 isotopologues in carbonate Paleo-thermometry, Development of new isotopic standard for analyses of stable isotopes in air and solid samples."
+        details: "PhD, Devi Ahiliya Vishwa Vidhyalaya, Indore",
+        researchInterest:"Paleo-atmosphere, stable isotopes, extinction events, carbon cycle, isotopic standards."
       },
       {
         name: "Prof. Ramananda Chakrabarti",
-        Designation: "",
+        Designation: "Professor",
         department: "Centre for Earth Sciences",
         phoneNo: "+91 80 2293 3003",
         email: "ramananda@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/ramananda.jpg",
         website: "https://sites.google.com/site/ramanandachakrabarti/Home",
-        details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from University of Rochester, USA. My research interests include Radiogenic and Non-Traditional Stable Isotopes, Proxy Development, Igneous, Sedimentary And Aqueous Geochemistry, Impact Cratering, and Cosmochemistry."
+        details: "PhD, University of Rochester, USA",
+        researchInterest:"Radiogenic and Non-Traditional Stable Isotopes, Proxy Development, Igneous, Sedimentary And Aqueous Geochemistry, Impact Cratering, and Cosmochemistry."
       },
       {
-        name: "Dr Lakshminarayana Rao",
-        Designation: "",
+        name: "Dr. Lakshminarayana Rao",
+        Designation: "Assistant Professor",
         department: "Centre for Sustainable Technologies",
         phoneNo: "080 2293 2051",
         email: "narayana@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/lakshminarayanarao.jpg",
         website: "",
-        details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from McGill University. My research interests include Plasma Technology, Plasma Gasification, Syngas Cleaning, and Enrichment."
+        details: "PhD, McGill University, Canada",
+        researchInterest:"Plasma Technology, Plasma Gasification, Syngas Cleaning, and Enrichment."
       },
       {
-        name: "Dr.Sanjeev Sambandan",
-        Designation: "",
+        name: "Dr. Sanjeev Sambandan",
+        Designation: "Assistant Professor",
         department: "Instrumentation And Applied Physics",
         phoneNo: "Tel: 080 2293  3196",
         email: "sanjiv@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/sanjeevs.jpg",
         website: "",
-        details: "I am an Associate Professor at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Waterloo. My research interests include semiconductor physics, flexible electronics, Device Physics, and Integrated Circuits."
+        details: "PhD, University of Waterloo, Canada",
+        researchInterest:"Semiconductor physics, flexible electronics, Device Physics, and Integrated Circuits."
       }
     ]
   },
@@ -131,7 +142,8 @@ export const faculty = [
         email: "thejnat@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/ThejnaT.jpg",
         website: "https://scholar.google.com/citations?user=Yp2pA8QAAAAJ&hl=en",
-        details: "I am a DST Inspire Faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Bremen, Germany. My research interests include Past and Future Climate Changes, Climate Modelling, and Isotope Hydrology."
+        details: "PhD, University of Bremen, Germany.",
+        researchInterest:"Past and Future Climate Changes, Climate Modelling, and Isotope Hydrology"
       },
       {
         name: "Dr. Soumita Boral ",
@@ -141,7 +153,8 @@ export const faculty = [
         email: "soumitab@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/SoumitaB.jpg",
         website: "https://scholar.google.com/citations?user=exn8ctgAAAAJ&hl=en",
-        details: "I am a DST Inspire Faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Technology Kanpur, India. My research interests include Isotope Geochemistry, Critical zone biogeochemistry, Glacier-river-continent processes, Hydro-geochemical modelling."
+        details: "PhD, Indian Institute of Technology Kanpur, India",
+        researchInterest:"Isotope Geochemistry, Critical zone biogeochemistry, Glacier-river-continent processes, Hydro-geochemical modelling."
       }
     ]
   }
@@ -151,23 +164,25 @@ export const formerFaculty =[
     'Former Associate Faculty': [
       {
         name: "Prof. Venugopal V.",
-        Designation: "Associate Faculty",
+        Designation: "Professor",
         department: "Centre for Atmospheric and Oceanic Sciences",
         phoneNo: "+91 80 2293 3073",
         email: "venu@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/venugopal.jpg",
         website: "",
-        details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Minnesota. My research interests include  Stochastic Hydrology, Space-time Structure and Scale-invariance of Precipitation, Precipitation Downscaling, Retrieval and Validation of remotely sensed Precipitation, and Cloud-resolving Models."
+        details: "PhD, University of Minnesota, USA",
+        researchInterest:"Stochastic Hydrology, Space-time Structure and Scale-invariance of Precipitation, Precipitation Downscaling, Retrieval and Validation of remotely sensed Precipitation, and Cloud-resolving Models."
       },
       {
         name: "Prof. Nagesh Kumar D",
-        Designation: "Associate Faculty",
+        Designation: "Professor",
         department: "Department of Civil Engineering",
         phoneNo: "+91 80 2293 2666",
         email: "nagesh@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/DNageshKumar.jpg",
         website: "http://www.civil.iisc.ac.in/people/nagesh-kumar-d/",
-        details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Science, Bengaluru. My research interests include  Climate Hydrology, Optimization in Water Resource Systems, Multicriteria Decision Making (MCDM) in Water Resources, and Remote Sensing for Irrigation Management."
+        details: "PhD, Indian Institute of Science, Bengaluru",
+        researchInterest:"Climate Hydrology, Optimization in Water Resource Systems, Multicriteria Decision Making (MCDM) in Water Resources, and Remote Sensing for Irrigation Management."
       }
     ]
   },
@@ -175,23 +190,25 @@ export const formerFaculty =[
     'Retired Faculty': [
       {
         name: "Prof. Mohan Kumar M. S.",
-        Designation: "Retired Faculty",
+        Designation: "Professor (Retd.)",
         department: "Department of Civil Engineering",
         phoneNo: "",
         email: "",
         imgSrc: "../../assets/images/Faculty/Mohan Kumar S.jpg",
         website: "http://civil.iisc.ernet.in/~msmk/",
-        details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the Indian Institute of Science, Bengaluru. My research interests include Water Resources and Environmental Engineering."
+        details: "PhD, Indian Institute of Science, Bengaluru",
+        researchInterest:"Water Resources and Environmental Engineering"
       },
       {
         name: "Prof. Subramanian S",
-        Designation: "Retired Faculty",
+        Designation: "Professor (Retd.)",
         department: "Department of Materials Engineering",
         phoneNo: "",
         email: "",
         imgSrc: "../../assets/images/Faculty/Prof.S.Subramanian.jpg",
         website: "",
-        details: "I am a former faculty at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science, Bengaluru. I obtained PhD from the University of Mysore, India. My research interests include  Surface and colloid chemistry, Mineral processing, Extractive metallurgy, Bio-processing and environmental control."
+        details: "PhD, University of Mysore, India",
+        researchInterest:"Surface and colloid chemistry, Mineral processing, Extractive metallurgy, Bio-processing and environmental control."
       }
     ],
   }
@@ -582,8 +599,8 @@ export const postDoctoralScholars = [
       {
         name: "Dr. Suyog Gupta" ,
         Designation: "Research Associate" ,
-        'Degree and Affiliation': "Ph.D., IIT (ISM) Dhanbad" ,
-        Project: "cCauvery",
+        'Degree and Affiliation': "Ph.D, Indian Institute of Technology Dhanbad" ,
+        Project: "cCauvery: Cauvery River Basin Management and Studies",
         email: "suyoggupta@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.Suyog_Gupta.jpg",
       },
