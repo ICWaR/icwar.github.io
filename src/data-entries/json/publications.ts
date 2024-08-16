@@ -1,3 +1,4 @@
+
 export const publications = [
   {
       'name':'Prof. P. P. Mujumdar',
@@ -7,1691 +8,835 @@ export const publications = [
           'text':'Pankaj Dey, Somil Swarnkar & Pradeep Mujumdar (2024) Dam operation affects the evolution and propagation of hydrological extremes, Hydrological Sciences Journal.',
           'links':[
             'https://doi.org/10.1080/02626667.2024.2311755']
-        },
-        {
-          'text':'Sharma, S., Mujumdar, P.P. Baseflow significantly contributes to river floods in Peninsular India. Sci Rep 14, 1251 (2024)',
-          'links':[
-            'https://doi.org/10.1038/s41598-024-51850-w ']
-        },
-        {
-          'text':'Dey, P., Mathai, J., Sivapalan, M., and Mujumdar, P.: On the regional-scale streamflow variability using flow duration curve, Hydrol. Earth Syst. Sci. Discuss. [preprint], 2023.',
-          'links':[
-            'https://doi.org/10.5194/hess-2022-286 ']
-        },
-        {
-          'text':'Swarnkar, S., & Mujumdar, P. (2023). Increasing flood frequencies under warming in the west-central Himalayas. Water Resources Research, 59, e2022WR032772.',
-          'links':[
-            'https://doi.org/10.1029/2022WR032772']
-        },
-        {
-          'text':'Joseph, Risma, P. P. Mujumdar, and Rajarshi Das Bhowmik. 2022. "Reconstruction of Urban Rainfall Measurements to Estimate the Spatiotemporal Variability of Extreme Rainfall" Water 14, no. 23: 3900.',
-          'links':[
-            'https://doi.org/10.3390/w14233900 ']
-        },
-        {
-          'text':'Davis Saimy, Pentakota Likhitha, Saptarishy Nikita, Mujumdar Pradeep. P. (2022) A Flood Forecasting Framework Coupling a High Resolution WRF Ensemble With an Urban Hydrologic Model, Frontiers in Earth Science 10, 2296-6463.',
-          'links':[
-            'https://doi.org/10.3389/feart.2022.883842 ']
-        },
-        {
-          'text':'Mathai, J. and Mujumdar, P. P.: Use of streamflow indices to identify the catchment drivers of hydrographs, Hydrol. Earth Syst. Sci., 26, 2019–2033, 2022.',
-          'links':[
-            'https://doi.org/10.5194/hess-26-2019-2022']
-        },
-        {
-          'text':'Sharma, S., & Mujumdar, P. P. (2022). Modeling concurrent hydroclimatic extremes with parametric multivariate extreme value models. Water Resources Research, 58, e2021WR031519.',
-          'links':[
-            'https://doi.org/10.1029/2021WR031519 ']
-        },
-        {
-          'text':'Pankaj Dey & Pradeep Mujumdar (2022) On the statistical complexity of streamflow, Hydrological Sciences Journal, 67:1, 40-53.',
-          'links':[
-            'https://doi.org/10.1080/02626667.2021.2000991']
-        },
-        {
-          'text':'Santy Sneha, Mujumdar Pradeep, Bala Govindasamy (2022). Increased risk of water quality deterioration under climate change in Ganga River, Frontiers in Water. 4, 2624-9375.',
-          'links':[
-            'https://doi.org/10.3389/frwa.2022.971623']
-        },
-        {
-          'text':'Kaginalkar, Akshara, Sachin D. Ghude, U. C. Mohanty, Pradeep Mujumdar, Sudheer Bhakare, Hemant Darbari, Arun K. Dwivedi, Pallavi Gavali, Srujan Gavhale, Sahidul Islam, Gouri Kadam, Sumita Kedia, Manoj Khare, Neelesh Kharkar, Santosh H. Kulkarni, Sri Sai Meher, A. K. Nath, Mohamed Niyaz, Sagar Pokale, Vineeth Krishnan Valappil, Sreyashi Debnath, Chinmay Jena, Raghu Nadimpalli, Madhusmita Swain, Saimy Davis, Shubha Avinash, C. Kishtawal, Prashant Gargava, S. D. Attri, and Dev Niyogi. "Integrated Urban Environmental System of Systems for Weather Ready Cities in India", Bulletin of the American Meteorological Society 103, 1 (2022): E54-E76.',
-          'links':[
-            'https://doi.org/10.1175/BAMS-D-20-0279.1']
-        },
-        {
-          'text':'R. Gowri, Pankaj Dey, P.P. Mujumdar (2021). A hydro-climatological outlook on the long-term availability of water resources in Cauvery river basin. Water Security, Volume 14, 100102, ISSN 2468-3124.',
-          'links':[
-            'https://doi.org/10.1016/j.wasec.2021.100102']
-        },
-        {
-          'text':'Swarnkar, S., Mujumdar, P. & Sinha, R. Modified hydrologic regime of upper Ganga basin induced by natural and anthropogenic stressors. Sci Rep 11, 19491 (2021).',
-          'links':[
-            'https://doi.org/10.1038/s41598-021-98827-7']
-        },
-        {
-          'text':'Horan R, Gowri R, Wable PS, Baron H, Keller VDJ, Garg KK, Mujumdar PP, Houghton-Carr H, Rees G. A Comparative Assessment of Hydrological Models in the Upper Cauvery Catchment. Water. 2021; 13(2):151',
-          'links':[
-            'https://doi.org/10.3390/w13020151']
-        },
-        {
-          'text':'Singh, P. K., Dey, P., Jain, S. K., and Mujumdar, P. P.: Hydrology and water resources management in ancient India, Hydrol. Earth Syst. Sci., 24, 4691–4707, 2020.',
-          'links':[
-            'https://doi.org/10.5194/hess-24-4691-2020']
-        },
-        {
-          'text':'Chandra Rupa Rajulapati, Harshita Gupta, P.P. Mujumdar (2020). Diurnal variability of hydrological variables in urban areas, Urban Climate. Volume 33, 100669, ISSN 2212-0955.',
-          'links':[
-            'https://doi.org/10.1016/j.uclim.2020.100669']
-        },
-        {
-          'text':'I. Chawla, P.P. Mujumdar (2020). Evaluating rainfall datasets to reconstruct floods in data-sparse Himalayan region, Journal of Hydrology. Volume 588, 125090, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2020.125090']
-        },
-        {
-          'text':'Rehana S, Rajulapati CR, Ghosh S, Karmakar S, Mujumdar P. Uncertainty Quantification in Water Resource Systems Modeling: Case Studies from India. Water. 2020; 12(6):1793.',
-          'links':[
-            'https://doi.org/10.3390/w12061793']
-        },
-        {
-          'text':'Santy, S., Mujumdar, P. & Bala, G. Potential Impacts of Climate and Land Use Change on the Water Quality of Ganga River around the Industrialized Kanpur Region. Sci Rep 10, 9107 (2020).',
-          'links':[
-            'https://doi.org/10.1038/s41598-020-66171-x']
-        },
-        {
-          'text':'Rajulapati, Chandra Rupa, and Pradeep Mujumdar. "Flood Modelling: Recent Indian Contributions." (2019): 705-722.',
-          'links':[
-            'https://doi.org/10.16943/ptinsa/2019/49648']
-        },
-        {
-          'text':'Mathai, J., & Mujumdar, P. P. (2019). Multisite daily streamflow simulation with time irreversibility. Water Resources Research, 55, 9334–9350.',
-          'links':[
-            'https://doi.org/10.1029/2019WR025058']
-        },
-        {
-          'text':'Rupa, R. Chandra, and P. P. Mujumdar. "Hydrologic impacts of climate change: Quantification of uncertainties." In Proc Indian Natn Sci Acad, vol. 85, no. 1, pp. 77-94. 2019.',
-          'links':[
-            'https://doi.org/10.16943/ptinsa/2018/49506']
         }
-      ]
-  },
-  {
-    'name':'Prof. G. Bala',
-      'websiteLink':'http://dccc.iisc.ac.in/web/balag_home.html',
-      'publicationsList':[
-        {
-          'text':'Thomas, T. M., G. Bala, S. V. Vemavarapu, and W. R. Boos, 2023: Opposite Changes in Monsoon Precipitation and Low Pressure System Frequency in Response to Orographic Forcing. J. Climate, 36, 6309–6329.',
-          'links':[
-            'https://doi.org/10.1175/JCLI-D-22-0476.1']
-        },
-        {
-          'text':'Thomas, T.M., Bala, G. & Vemavarapu, S.V. How do the characteristics of monsoon low pressure systems over India change under a warming climate? A modeling study using the NCAR CESM. Clim Dyn 61, 5017–5034 (2023).',
-          'links':[
-            'https://doi.org/10.1007/s00382-023-06837-0']
-        },
-        {
-          'text':'Rockström, J., Gupta, J., Qin, D. et al. Safe and just Earth system boundaries. Nature 619, 102–111 (2023).',
-          'links':[
-            'https://doi.org/10.1038/s41586-023-06083-8']
-        },
-        {
-          'text':'Tresa Mary Thomas, Govindasamy Bala, Srinivas Vemavarapu. Influence of Himalayan and Tibetan Orography on the Statistics of Monsoon Low Pressure Systems over the Indian Subcontinent. Authorea. February 13, 2022',
-          'links':[
-            'https://doi.org/10.1002/essoar.10510510.1']
-        },
-        {
-          'text':'Thomas, T. M., Bala, G., & Vemavarapu, S. V. (2022). CESM simulation of monsoon low pressure systems over India. International Journal of Climatology, 42(11), 5964–5984.',
-          'links':[
-            'https://doi.org/10.1002/joc.7571']
-        },
-        {
-          'text':'Santy Sneha , Mujumdar Pradeep , Bala Govindasamy (2022). Increased risk of water quality deterioration under climate change in Ganga River, Frontiers in Water. Vol.4, ISSN=2624-9375.',
-          'links':[
-            'https://doi.org/10.3389/frwa.2022.971623']
-        },
-        {
-          'text':'Thomas, T.M., Bala, G. & Srinivas, V.V. Characteristics of the monsoon low pressure systems in the Indian subcontinent and the associated extreme precipitation events. Clim Dyn 56, 1859–1878 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s00382-020-05562-2']
-        },
-        {
-          'text':'Santy, S., Mujumdar, P. & Bala, G. Potential Impacts of Climate and Land Use Change on the Water Quality of Ganga River around the Industrialized Kanpur Region. Sci Rep 10, 9107 (2020).',
-          'links':[
-            'https://doi.org/10.1038/s41598-020-66171-x']
-        },
-        {
-          'text':'Tawde SA, Kulkarni AV, Bala G. An estimate of glacier mass balance for the Chandra basin, western Himalaya, for the period 1984–2012. Annals of Glaciology. 2017;58(75pt2):99-109.',
-          'links':[
-            'https://doi.org/10.1017/aog.2017.18']
-        },
-        {
-          'text':'Tharammal, T., G. Bala, and D. Noone (2017), Impact of deep convection on the isotopic amount effect in tropical precipitation, J. Geophys. Res. Atmos., 122, 1505–1523.',
-          'links':[
-            'https://doi.org/10.1002/2016JD025555']
-        },
-        {
-          'text':'Devaraju, N., Bala, G., Caldeira, K. et al. A model based investigation of the relative importance of CO2-fertilization, climate warming, nitrogen deposition and land use change on the global terrestrial carbon uptake in the historical period. Clim Dyn 47, 173–190 (2016).',
-          'links':[
-            'https://doi.org/10.1007/s00382-015-2830-8']
-        }
-      ]
-  },
-  {
-    'name': 'Prof. M. Sekhar',
-      'websiteLink':'http://civil.iisc.ernet.in/~muddu/',
-      'publicationsList':[
-        {
-          'text':'Mariem Baccar, Hélène Raynal, Muddu Sekhar, Jacques-Eric Bergez, Magali Willaume, Pierre Casel, P. Giriraj, Sanjeeva Murthy, Laurent Ruiz, Dynamics of crop category choices reveal strategies and tactics used by smallholder farmers in India to cope with unreliable water availability, Agricultural Systems, Volume 211, 2023, 103744, ISSN 0308-521X.',
-          'links':[
-            'https://doi.org/10.1016/j.agsy.2023.103744']
-        },
-        {
-          'text':'Abhishek Chakraborty, M. Sekhar, Lakshminarayana Rao, The fate of vegetation carbon stocks of India: Insights from a remote-sensed evaluation of carbon use efficiency, Ecological Informatics, Volume 78, 2023, 102374, ISSN 1574-9541.',
-          'links':[
-            'https://doi.org/10.1016/j.ecoinf.2023.102374']
-        },
-        {
-          'text':'Kavita Verma, Manjari Manisha, R.M. Santrupt, T.P. Anirudha, Shubham Goswami, M. Sekhar, N. Ramesh, Mohan Kumar M S, H.N. Chanakya, Lakshminarayana Rao, Assessing groundwater recharge rates, water quality changes, and agricultural impacts of large-scale water recycling, Science of The Total Environment, Volume 877, 2023, 162869, ISSN 0048-9697.',
-          'links':[
-            'https://doi.org/10.1016/j.scitotenv.2023.162869']
-        },
-        {
-          'text':'Fischer, C., Aubron, C., Trouvé, A. et al. Groundwater irrigation reduces overall poverty but increases socioeconomic vulnerability in a semiarid region of southern India. Sci Rep 12, 8850 (2022).',
-          'links':[
-            'https://doi.org/10.1038/s41598-022-12814-0']
-        },
-        {
-          'text':'Bentje Brauns, Somsubhra Chattopadhyay, Dan J. Lapworth, Sian E. Loveless, Alan M. MacDonald, Andrew A. McKenzie, Muddu Sekhar, Siva Naga Venkat Nara, Veena Srinivasan, Assessing the role of groundwater recharge from tanks in crystalline bedrock aquifers in Karnataka, India, using hydrochemical tracers, Journal of Hydrology X, Volume 15, 2022, 100121, ISSN 2589-9155.',
-          'links':[
-            'https://doi.org/10.1016/j.hydroa.2022.100121']
-        },
-        {
-          'text':'Bhanja SN, Sekhar M. Short-Term and Long-Term Replenishment of Water Storage Influenced by Lockdown and Policy Measures in Drought-Prone Regions of Central India. Remote Sensing. 2022; 14(8):1768',
-          'links':[
-            'https://doi.org/10.3390/rs14081768']
-        }
-      ]
-  },
-  {
-    'name':'Dr. Prosenjit Ghosh',
-      'websiteLink':'https://ceas.iisc.ac.in/author/prosenjit-ghosh/',
-      'publicationsList':[
-        {
-          'text':'Aafaq Nazir, Prosenjit Ghosh*, Thamizharasan Sakthivel, M. Afzal Khan (2023). Stable Isotopic Analysis of Long-whiskered Catfish (Sperata aor) Otoliths for Characterization of their Habitat and Relationship with Water Temperature in the Ganges River, Current Chinese Science. Volume 3, Issue 1, Page: [57 - 66]. ',
-          'links':[
-            'http://dx.doi.org/10.2174/2210298102666220909110222']
-        },
-        {
-          'text':'Ghosh, P., Rajawat, V.S., Nazir, A. et al. Stable isotope on hilsa shad (Tenualosa ilisha) otoliths revealed migratory behavior of a population found in Hooghly River, West Bengal, India. Environ Biol Fish 105, 1909–1918 (2022).',
-          'links':[
-            'https://doi.org/10.1007/s10641-022-01215-x']
-        },
-        {
-          'text':'Surajit Mondal, Ramananda Chakrabarti, Prosenjit Ghosh, A multi-proxy (δ44/40Ca, Sr/Ca, and Δ47) study of fish otoliths for determination of seawater temperature, Chemical Geology, Volume 605, 2022, 120950, ISSN 0009-2541.',
-          'links':[
-            'https://doi.org/10.1016/j.chemgeo.2022.120950']
-        },
-        {
-          'text':'Aafaq Nazir, M. Afzal Khan, Prosenjit Ghosh, Assessment of variations in metal concentrations of the Ganges River water by using multivariate statistical techniques, Limnologica, Volume 95, 2022, 125989, ISSN 0075-9511.',
-          'links':[
-            'https://doi.org/10.1016/j.limno.2022.125989']
-        },
-        {
-          'text':'Himanshu Bhagat, Prosenjit Ghosh, D. Nagesh Kumar, Estimation of seasonal base flow contribution to a tropical river using stable isotope analysis, Journal of Hydrology, Volume 601, 2021, 126661, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2021.126661']
-        },
-        {
-          'text':'Ghosh, P., Ramdas, L., Banerjee, Y. et al. Seasonal freshwater flux estimation using mollusc from the tropical Mandovi Zuari estuary, Goa, India. J Earth Syst Sci 130, 107 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s12040-021-01611-4']
-        },
-        {
-          'text':'Dar, S. S., Ghosh, P., & Hillaire-Marcel, C. (2021). Convection, terrestrial recycling and oceanic moisture regulate the isotopic composition of precipitation at Srinagar, Kashmir. Journal of Geophysical Research: Atmospheres, 126, e2020JD032853',
-          'links':[
-            'https://doi.org/10.1029/2020JD032853']
-        },
-        {
-          'text':'Paul, V., Banerjee, Y., Ghosh, P. et al. Depthwise microbiome and isotopic profiling of a moderately saline microbial mat in a solar saltern. Sci Rep 10, 20686 (2020)',
-          'links':[
-            'https://doi.org/10.1038/s41598-020-77622-w']
-        },
-        {
-          'text':'Banerjee, Yogaraj & Sakthivel, Thamizharasan & Ghosh, Prosenjit. (2020). Orbital Forcing Controlling Dry Time Carbonate Precipitation Temperature Over Landmass in the Northern Mid-Latitude during Last 50,000 Years Revealed from Carbonate Clumped Isotope Thermometry. Current science. 119. 265 - 272.',
-          'links':[
-            'https://doi.org/10.18520/cs/v119/i2/265-272']
-        },
-        {
-          'text':'Rahul, P., P. Ghosh, S. K. Bhattacharya, and K. Yoshimura (2016), Controlling factors of rainwater and water vapor isotopes at Bangalore, India: Constraints from observations in 2013 Indian monsoon, J. Geophys. Res. Atmos., 121, 13,936–13,952.',
-          'links':[
-            'https://doi.org/10.1002/2016JD025352']
-        }
-      ]
-  },
-  {
-    'name': 'Prof. V. V. Srinivas',
-      'websiteLink':'http://civil.iisc.ernet.in/~vvs/',
-      'publicationsList':[
-        {
-          'text':'Jaya Bhatt, V.V. Srinivas (2023). Re-inventing Bethlahmy method for estimating probable maximum precipitation, Journal of Hydrology. Volume 626, Part B, 130344, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2023.130344']
-        },
-        {
-          'text':'Thomas, T. M., G. Bala, S. V. Vemavarapu, and W. R. Boos, 2023: Opposite Changes in Monsoon Precipitation and Low Pressure System Frequency in Response to Orographic Forcing. J. Climate, 36, 6309–6329',
-          'links':[
-            'https://doi.org/10.1175/JCLI-D-22-0476.1']
-        },
-        {
-          'text':'Thomas, T.M., Bala, G. & Vemavarapu, S.V. How do the characteristics of monsoon low pressure systems over India change under a warming climate? A modeling study using the NCAR CESM. Clim Dyn 61, 5017–5034 (2023).',
-          'links':[
-            'https://doi.org/10.1007/s00382-023-06837-0']
-        },
-        {
-          'text':'Sreeparvathy, V., Srinivas, V.V. Meteorological flash droughts risk projections based on CMIP6 climate change scenarios. npj Clim Atmos Sci 5, 77 (2022)',
-          'links':[
-            'https://doi.org/10.1038/s41612-022-00302-1']
-        },
-        {
-          'text':'Thomas, T. M., Bala, G., & Vemavarapu, S. V. (2022). CESM simulation of monsoon low pressure systems over India. International Journal of Climatology, 42(11), 5964–5984.',
-          'links':[
-            'https://doi.org/10.1002/joc.7571']
-        },
-        {
-          'text':'Swapan Kumar Masanta, V.V. Srinivas (2022). Proposal and evaluation of nonstationary versions of SPEI and SDDI based on climate covariates for regional drought analysis, Journal of Hydrology. Volume 610, 127808, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2022.127808']
-        },
-        {
-          'text':'Sreeparvathy, V., Srinivas, V.V. Global assessment of spatiotemporal variability of wet, normal and dry conditions using multiscale entropy-based approach. Sci Rep 12, 9767 (2022).',
-          'links':[
-            'https://doi.org/10.1038/s41598-022-13830-w']
-        },
-        {
-          'text':'Kiran, K. G., & Srinivas, V. V. (2022). Multivariate regional frequency analysis using conditional extreme values approach. Water Resources Research, 58, e2021WR031095.',
-          'links':[
-            'https://doi.org/10.1029/2021WR031095']
-        },
-        {
-          'text':'Sreeparvathy, V., & Srinivas, V. V. (2022). A Bayesian fuzzy clustering approach for design of precipitation gauge network using merged remote sensing and ground-based precipitation products. Water Resources Research, 58, e2021WR030612.',
-          'links':[
-            'https://doi.org/10.1029/2021WR030612']
-        },
-        {
-          'text':'Kiran, K. G., & Srinivas, V. V. (2021). Distributional regression forests approach to regional frequency analysis with partial duration series. Water Resources Research, 57, e2021WR029909.',
-          'links':[
-            'https://doi.org/10.1029/2021WR029909']
-        },
-        {
-          'text':'Chavan, S.R., Srinivas, V.V. Evaluation of three approaches to probable maximum precipitation estimation: a study on two Indian river basins. Theor Appl Climatol 144, 731–749 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s00704-021-03557-5']
-        },
-        {
-          'text':'Kiran, K. G., & Srinivas, V. V. (2021). Fuzzy ensemble clustering approach to address regionalization uncertainties in flood frequency analysis. Water Resources Research, 57, e2020WR028412.',
-          'links':[
-            'https://doi.org/10.1029/2020WR028412']
-        },
-        {
-          'text':'Thomas, T.M., Bala, G. & Srinivas, V.V. Characteristics of the monsoon low pressure systems in the Indian subcontinent and the associated extreme precipitation events. Clim Dyn 56, 1859–1878 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s00382-020-05562-2']
-        },
-        {
-          'text':'Kiran, K. G., & Srinivas, V. V. (2021). A Mahalanobis distance-based automatic threshold selection method for Peaks Over Threshold model. Water Resources Research, 57, e2020WR027534.',
-          'links':[
-            'https://doi.org/10.1029/2020WR027534']
-        },
-        {
-          'text':'Masanta SK, Srinivas VV. Regionalization of evapotranspiration in India using fuzzy dynamic clustering approach. Part 2: Applications of regions. Int J Climatol. 2021; 41 (Suppl. 1): E1371–E1395.',
-          'links':[
-            'https://doi.org/10.1002/joc.6773']
-        },
-        {
-          'text':'Vijay Sreeparvathy, V.V. Srinivas (2020). A fuzzy entropy approach for design of hydrometric monitoring networks, Journal of Hydrology. Volume 586, 124797, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2020.124797']
-        },
-        {
-          'text':'Masanta SK, Vemavarapu SV. Regionalization of evapotranspiration using fuzzy dynamic clustering approach. Part 1: Formation of regions in India. Int J Climatol. 2020; 40: 3514–3530.',
-          'links':[
-            'https://doi.org/10.1002/joc.6411']
-        }
-      ]
-  },
-  {
-    'name' : 'Dr. R. Chakrabarti ',
-      'websiteLink':'https://sites.google.com/site/ramanandachakrabarti/Home',
-      'publicationsList':[
-        {
-          'text':'Surajit Mondal, Ramananda Chakrabarti, Prosenjit Ghosh (2022). A multi-proxy (δ44/40Ca, Sr/Ca, and Δ47) study of fish otoliths for determination of seawater temperature, Chemical Geology. Volume 605, 120950, ISSN 0009-2541',
-          'links':[
-            'https://doi.org/10.1016/j.chemgeo.2022.120950']
-        },
-        {
-          'text':'Ganguly, Sourav; Chakrabarti, Ramananda (2022). High precision TIMS measurements of stable Sr isotopes (δ88/86Sr) of standards with different matrices and depth bound seawater samples from the Bay of Bengal using a new 87Sr–84Sr double-spike, Journal of Analytical Atomic Spectrometry. Vol.37, pp.1961-71, SN 0267-9477',
-          'links':[
-            'http://dx.doi.org/10.1039/D2JA00187J']
-        },
-        {
-          'text':'Acharya Shiba Shankar, Hishamunda Valens, Chakrabarti Ramananda (2022). Natural Sources and Anthropogenic Influences on the River Water and Groundwater Chemistry of the Lower Mahanadi Basin: Insights From Radiogenic Sr Isotopes and Major Ion Chemistry, Frontiers in Water. Vol.4, ISSN 2624-9375.',
-          'links':[
-            'https://doi.org/10.3389/frwa.2022.846438']
-        },
-        {
-          'text':'Kousik Das, Anith Kumar Mishra, Akarsh Singh, Sudha Agrahari, Ramananda Chakrabarti, Abhijit Mukherjee (2021). Solute exchanges between multi-depth groundwater and surface water of climatically vulnerable Gangetic delta front aquifers of Sundarbans, Journal of Environmental Management. Volume 284, 112026, ISSN 0301-4797.',
-          'links':[
-            'https://doi.org/10.1016/j.jenvman.2021.112026']
-        },
-        {
-          'text':'Shiba Shankar Acharya, Ramananda Chakrabarti (2019). Variations in trace metal concentrations and Sr, Nd isotopic compositions in sediments from two contrasting settings in the Eastern Arabian Shelf: Implications for provenance and paleoclimate reconstruction, Chemical Geology. Volume 509, Pages 134-151, ISSN 0009-2541.',
-          'links':[
-            'https://doi.org/10.1016/j.chemgeo.2019.01.016']
-        },
-        {
-          'text':'Chakrabarti, R., Mondal, S., Acharya, S.S. et al. Submarine groundwater discharge derived strontium from the Bengal Basin traced in Bay of Bengal water samples. Sci Rep 8, 4383 (2018).',
-          'links':[
-            'https://doi.org/10.1038/s41598-018-22299-5']
-        }
-      ]
-  },
-  {
-    'name': 'Prof. Lakshminarayana Rao ',
-      'websiteLink':'',
-      'publicationsList':[
-        {
-          'text':'Boopathy, B., Mukherjee, D., Nishanth, V. et al. Generation of Species-Specific High-Strength Plasma Activated Water at Neutral pH and its Antimicrobial Characteristics. Plasma Chem Plasma Process (2024).',
-          'links':[
-            'https://doi.org/10.1007/s11090-023-10439-3']
-        },
-        {
-          'text':'Abhishek Chakraborty, M. Sekhar, Lakshminarayana Rao,The fate of vegetation carbon stocks of India: Insights from a remote-sensed evaluation of carbon use efficiency, Ecological Informatics, Volume 78, 2023, 102374, ISSN 1574-9541.',
-          'links':[
-            'https://doi.org/10.1016/j.ecoinf.2023.102374']
-        },
-        {
-          'text':'Kavita Verma, Manjari Manisha, R.M. Santrupt, T.P. Anirudha, Shubham Goswami, M. Sekhar, N. Ramesh, Mohan Kumar M S, H.N. Chanakya, Lakshminarayana Rao, Assessing groundwater recharge rates, water quality changes, and agricultural impacts of large-scale water recycling, Science of The Total Environment, Volume 877, 2023, 162869, ISSN 0048-9697',
-          'links':[
-            'https://doi.org/10.1016/j.scitotenv.2023.162869']
-        },
-        {
-          'text':'T. Reshma Mohan, M.S Mohan Kumar, Lakshminarayana Rao, Biofouling of hollow fiber ultrafiltration membranes: A novel multiphase CFD – Porous - CES model and experimental study, Journal of Membrane Science, Volume 663, 2022, 121034, ISSN 0376-7388.',
-          'links':[
-            'https://doi.org/10.1016/j.memsci.2022.121034']
-        },
-        {
-          'text':'T. Reshma Mohan, M.S. Mohan Kumar, Lakshminarayana Rao, An integrated hydrodynamic-biokinetic model to optimize the treatment processes in a laboratory-scale, pilot-scale, and full-scale bioreactor, Journal of Water Process Engineering, Volume 49, 2022, 103108, ISSN 2214-7144.',
-          'links':[
-            'https://doi.org/10.1016/j.jwpe.2022.103108']
-        },
-        {
-          'text':'Reshma Mohan T, H.N. Chanakya, M.S. Mohan Kumar, Lakshminarayana Rao, Achieving biological nutrient removal in an old sewage treatment plant through process modifications – A simulation and experimental study, Journal of Water Process Engineering, Volume 45, 2022, 102461, ISSN 2214-7144.',
-          'links':[
-            'https://doi.org/10.1016/j.jwpe.2021.102461']
-        }
-      ]
-  },
-  {
-    'name' : 'Dr. Praveen C. Ramamurthy',
-      'websiteLink':'',
-      'publicationsList':[
-        {
-          'text':'Simranjeet Singh, Amith G. Anil, Basavaraju Uppara, Sushant K. Behera, Bidisha Nath, Pavithra, Shipra Bhati, Joginder Singh, Nadeem A. Khan, Praveen C. Ramamurthy “Adsorption and DFT investigations of Cr(VI) removal using nanocrystals decorated with graphene oxide” Nature partner journals clean water, 2024, PP.7:17.',
-          'links':[
-            'https://doi.org/%2010.1038/s41545-024-00306-9']
-        },
-        {
-          'text':'Harry Kaur, Surabhi Rode, Sapna Lonare, Pratibha Demiwal, Pavithra Narasimhappa, Etisha Arun, Rakesh Kumar, Joy Das, Praveen C Ramamurthy, Debabrata Sircar, Ashwani Kumar Sharma “Heterologous expression, biochemical characterization and prospects for insecticide biosensing potential of carboxylesterase Ha006a from Helicoverpaarmigera” Pesticide Biochemistry and Physiology 2024, 200, PP. 105844',
-          'links':[
-            'https://doi.org/%2010.1016/%20j.pestbp.%202024.105844']
-        },
-        {
-          'text':'Gaurav pant, Simranjeet Singh, Pradeep kumar Choudhary, Praveen C Ramamurthy, Himshweta Singh, Deviram Garlapati, Joginder Singh, Gaurav Kumar, Nadeem A Khan, Sasan Zahmatkesh “Nanozymes: advance enzyme‑mimicking theragnostic tool: a review” Clean Technologies and Environmental Policy, 2024, PP-1-11',
-          'links':[
-            'https://doi.org/10.1007/s10098-023-02716-8']
-        },
-        {
-          'text':'Nadeem A Khan, Simranjeet Singh, Praveen C Ramamurthy, Isam H Aljundi “Exploring Nutrient removal Mechanisms in Column-type SBR with simultaneous nitrification and denitrification” Journal of Environmental Management, 2024, 349, PP.119485',
-          'links':[
-            'https://doi.org/10.1016/j.jenvman.2023.119485']
-        },
-        {
-          'text':'Rekha Goswami, Simranjeet Singh, Pavithra N, Praveen C Ramamurthy, Abhilasha Mishra, Pawan Kumar Mishra, Harish Chandra Joshi, Gaurav Pant, Joginder Singh, Gaurav Kumar, Nadeem A Khan, Mahmood Yousefi “Nanocellulose: A Comprehensive Review Investigating its Potential as an Innovative Material for water Remediation” International Journal of Biological Macromolecules,2024, 254,3, PP.127465.',
-          'links':[
-            'https://doi.org/%2010.1016/%20j.ijbiomac.%202023.127465']
-        },
-        {
-          'text':'Simranjeet Singh, Lav Singh, Vijay Kumar, Wahid Ali, Praveen C. Ramamurthy, Daljeet Singh Dhanjal, Nikhita Sivaram, Ruby Angurana, Joginder Singh, Vimal Chandra Pandey, Nadeem A. Khan “Algae-based approaches for Holistic wastewater management: A low-cost paradigm” Chemosphere,2023, PP.140470',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.140470']
-        },
-        {
-          'text':'Shashank Garg, Simranjeet Singh, Nabila Shehata, HariBhakta Sharma, Jastin Samuel, Nadeem A Khan, Praveen C Ramamurthy, Joginder Singh, Muhammad Mubashir, Awais Bokhari, Der Jiun Ooi, Pau Loke Show,Aerogels in wastewater treatment: A review,Journal of the Taiwan Institute of Chemical Engineers,2023,105299,ISSN 1876-1070.',
-          'links':[
-            'https://doi.org/10.1016/j.jtice.2023.105299']
-        },
-        {
-          'text':'Naik, T.S.S.K., Singh, S., Narasimhappa, P. et al. Green and sustainable synthesis of CaO nanoparticles: Its solicitation as a sensor material and electrochemical detection of urea. Sci Rep 13, 19995 (2023).',
-          'links':[
-            'https://doi.org/10.1038/s41598-023-46728-2']
-        },
-        {
-          'text':'Nadeem A. Khan, Simranjeet Singh, Praveen C. Ramamurthy, Isam H. Aljundi, Exploring nutrient removal mechanisms in column-type SBR with simultaneous nitrification and denitrification, Journal of Environmental Management,Volume 349,2024,119485,ISSN 0301-4797.',
-          'links':[
-            'https://doi.org/10.1016/j.jenvman.2023.119485']
-        },
-        {
-          'text':'Rekha Goswami, Simranjeet Singh, Pavithra Narasimhappa, Praveen C. Ramamurthy, Abhilasha Mishra, Pawan Kumar Mishra, Harish Chandra Joshi, Gaurav Pant, Joginder Singh, Gaurav Kumar, Nadeem A. Khan, Mahmood Yousefi, Nanocellulose: A comprehensive review investigating its potential as an innovative material for water remediation, International Journal of Biological Macromolecules, Volume 254, Part 3,2024,127465,ISSN 0141-8130.',
-          'links':[
-            'https://doi.org/10.1016/j.ijbiomac.2023.127465']
-        },
-        {
-          'text':'Simranjeet Singh, Pavithra Narasimhappa,  Basavaraju Uppara, Sushant K. Behera, Radhika Varshney, T.S. Sunil Kumar Naik, Nadeem A. Khan, Joginder Singh, Praveen C Ramamurthy,Bio-engineered sensing of Atrazine by green CdS quantum dots: Evidence from electrochemical studies and DFT simulations, Chemosphere,Volume 345,2023,140465, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.140465']
-        },
-        {
-          'text':'Simranjeet Singh, Lav Singh, Vijay Kumar, Wahid Ali, Praveen C. Ramamurthy, Daljeet Singh Dhanjal, Nikhita Sivaram, Ruby Angurana, Joginder Singh, Vimal Chandra Pandey, Nadeem A. Khan, Algae-based approaches for Holistic wastewater management: A low-cost paradigm, Chemosphere, Volume 345, 2023, 140470, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.140470']
-        },
-        {
-          'text':'Pavithra Narasimhappa, Simranjeet Singh, Praveen C. Ramamurthy, Synthesis of water-soluble CdS quantum dots for the fluorescence detection of tetracycline, Environmental Pollution, Volume 338, 2023, 122682, ISSN 0269-7491.',
-          'links':[
-            'https://doi.org/10.1016/j.envpol.2023.122682']
-        },
-        {
-          'text':'Nadeem A. Khan, Eduardo Alberto López-Maldonado, Abhradeep Majumder, Simranjeet Singh, Radhika Varshney, J.R. López, P.F. Méndez, Praveen C. Ramamurthy, Mohammad Amir Khan, Afzal Husain Khan, Nabisab Mujawar Mubarak, Waqas Amhad, S.Z.M. Shamshuddin, Isam H. Aljundi, A state-of-art-review on emerging contaminants: Environmental chemistry, health effect, and modern treatment methods, Chemosphere, Volume 344, 2023, 140264, ISSN 0045-6535,',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.140264']
-        },
-        {
-          'text':'Pavithra Narasimhappa, Praveen C Ramamurthy, Bio-mimicking the melanogenesis pathway using tyrosinase for dopamine sensing, Electrochimica Acta, Volume 469, 2023, 143187, ISSN 0013-4686.',
-          'links':[
-            'https://doi.org/10.1016/j.electacta.2023.143187']
-        },
-        {
-          'text':'Simranjeet Singh, Pavithra Narasimhappa, Nadeem A. Khan, Vishakha Chauhan, Nabila Shehata, S.K. Behera, Joginder Singh, Praveen C. Ramamurthy, Effective voltammetric tool for Nano-detection of triazine herbicide (1-Chloro-3-        ethylamino-5-isopropylamino-2,4,6-triazine) by naphthalene derivative, Environmental Research, Volume 236, Part 2, 2023, 116808, ISSN 0013-9351.',
-          'links':[
-            'https://doi.org/10.1016/j.envres.2023.116808']
-        },
-        {
-          'text':'Vaanie Godbole, Simranjeet Singh, Praveen C. Ramamurthy, Nadeem A. Khan, Manisha Bisht, Manoj Kumar Pal, Joginder Singh, Gaurav Kumar, Ali Esrafili, Mahmood Yousefi, Electroactive microbe communication: A crucial aspect for energy generation in bio-electrochemical systems, Journal of Environmental Chemical Engineering, Volume 11, Issue 5, 2023, 110646,  ISSN 2213-3437.',
-          'links':[
-            'https://doi.org/10.1016/j.jece.2023.110646']
-        },
-        {
-          'text':'Nadeem A. Khan, Simranjeet Singh, Eduardo Alberto López-Maldonado, Pavithra N., Perla Fabiola Méndez-Herrera, Juan Ramón López-López, Umair Baig, Praveen C. Ramamurthy, Nabisab Mujawar Mubarak, Rama Rao Karri, Isam H. Aljundi, Emerging membrane technology and hybrid treatment systems for the removal of micropollutants from wastewater, Desalination, Volume 565, 2023, 116873, ISSN 0011-9164.',
-          'links':[
-            'https://doi.org/10.1016/j.desal.2023.116873']
-        },
-        {
-          'text':'Vishnu G, Simranjeet Singh, Noyonika Kaul, Praveen C. Ramamurthy, TSSK Naik, R. Viswanath, Vijay Kumar, H.S. Bhojya Naik, Prathap A, Anil Kumara H A, Joginder Singh, Nadeem A. Khan, Green synthesis of nickel-doped magnesium ferrite nanoparticles via combustion for facile microwave-assisted optical and photocatalytic applications, Environmental Research, Volume 235, 2023, 116598, ISSN 0013-9351.',
-          'links':[
-            'https://doi.org/10.1016/j.envres.2023.116598']
-        },
-        {
-          'text':'Pavithra Narasimhappa, Radhika Varshney, Simranjeet Singh, TS Sunil Kumar Naik, Praveen C. Ramamurthy, 3D rhombohedral microcrystals metal-organic frameworks for electrochemical and fluorescence sensing of tetracycline, Chemosphere, Volume 333, 2023, 138977, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.138977']
-        },
-        {
-          'text':'Bidisha Nath, Simranjeet Singh, Sushant Kumar Behera, Praveen C. Ramamurthy, Debiprosad Roy Mahapatra, Gopalkrishna Hegde, Perovskite solar cell performance analysis via interface engineering employing MOF-composite, Solar Energy, Volume 257, 2023, Pages 249-256, ISSN 0038-092X.',
-          'links':[
-            'https://doi.org/10.1016/j.solener.2023.04.035']
-        },
-        {
-          'text':'Simranjeet Singh, T.S.S.K. Naik, Basavaraju Uppara, Pavithra Narasimhappa, R. Varshney, V. Chauhan, N. Shehata, C. Thamaraiselvan, S. Subramanian, Joginder Singh, Nadeem A. Khan, Sasan Zahmatkesh, Lakhveer Singh, Praveen C. Ramamurthy, Novel and sustainable green sulfur-doped carbon nanospheres via hydrothermal process for Cd (II) ion removal, Chemosphere, Volume 328, 2023, 138533, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.138533']
-        },
-        {
-          'text':'G Vishnu, Simranjeet Singh, T.S. Sunil Kumar Naik, R Viswanath, Praveen C. Ramamurthy, Pooja Bhadrecha, HS Bhojya Naik, Joginder Singh, Nadeem A. Khan, Sasan Zahmatkesh, Photodegradation of methylene blue dye using light driven photocatalyst-green cobalt doped cadmium ferrite nanoparticles as antibacterial agents, Journal of Cleaner Production, Volume 404, 2023, 136977, ISSN 0959-6526,',
-          'links':[
-            'https://doi.org/10.1016/j.jclepro.2023.136977']
-        },
-        {
-          'text':'Simranjeet Singh, Pavithra N, T.S.S.K. Naik, Basavaraju Uppara, C. Thamaraiselvan, S.K. Behera, Retinder Kour, Padmanabh Dwivedi, S. Subramanian, Nadeem A. Khan, Joginder Singh, Praveen C. Ramamurthy, Removal of Pb ions using green Co3O4 nanoparticles: Simulation, modeling, adsorption, and biological studies, Environmental Research, Volume 222, 2023, 115335, ISSN 0013-9351.',
-          'links':[
-            'https://doi.org/10.1016/j.envres.2023.115335']
-        },
-        {
-          'text':'Amith G. Anil, Simranjeet Singh, Jinu Joji, Joginder Singh, Praveen C. Ramamurthy, Conducting Polymer Based Sensor, Editor(s): A.S.M.A. Haseeb, Encyclopedia of Materials: Electronics, Academic Press, 2023, Pages 28-35, ISBN 9780128197356.',
-          'links':[
-            'https://doi.org/10.1016/B978-0-12-819728-8.00125-X']
-        },
-        {
-          'text':'Simranjeet Singh, T.S.S.K. Naik, C. Thamaraiselvan, S.K. Behera, Pavithra. N, Bidisha Nath, P. Dwivedi, Joginder Singh, Praveen C. Ramamurthy, Applicability of new sustainable and efficient green metal-based nanoparticles for removal of Cr(VI): Adsorption anti-microbial, and DFT studies, Environmental Pollution, Volume 320, 2023, 121105, ISSN 0269-7491.',
-          'links':[
-            'https://doi.org/10.1016/j.envpol.2023.121105']
-        },
-        {
-          'text':'Retinder Kour, Simranjeet Singh, Hari Bhakta Sharma, T.S. Sunil Kumar Naik, Nabila Shehata, Pavithra N, Wahid Ali, Dhriti Kapoor, Daljeet Singh Dhanjal, Joginder Singh, Afzal Husain Khan, Nadeem A. Khan, Mahmood Yousefi, Praveen C. Ramamurthy, Persistence and remote sensing of agri-food wastes in the environment: Current state and perspectives, Chemosphere, Volume 317, 2023, 137822, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.137822']
-        },
-        {
-          'text':'Simranjeet Singh, Basavaraju U, T.S. Sunil Kumar Naik, Sushant Kumar Behera, Nadeem A. Khan, Joginder Singh, Lakhveer Singh, Praveen C. Ramamurthy, Graphene oxide-based novel MOF nanohybrid for synergic removal of Pb (II) ions from aqueous solutions: Simulation and adsorption studies, Environmental Research, Volume 216, Part 4, 2023, 114750, ISSN 0013-9351.',
-          'links':[
-            'https://doi.org/10.1016/j.envres.2022.114750']
-        },
-        {
-          'text':'Simranjeet Singh, T.S.S.K. Naik, Nabila Shehata, Liliana Aguilar-Marcelino, Kunal Dhokne, Sapna Lonare, Vishakha Chauhan, Ajay Kumar, Joginder Singh, Praveen C Ramamurthy, Afzal Husain Khan, Nadeem A Khan, Mohammad Hadi Dehghani, Novel insights into graphene oxide-based adsorbents for remediation of hazardous pollutants from aqueous solutions: A comprehensive review, Journal of Molecular Liquids, Volume 369, 2023, 120821, ISSN 0167-7322.',
-          'links':[
-            'https://doi.org/10.1016/j.molliq.2022.120821']
-        },
-        {
-          'text':'T.S. Sunil Kumar Naik, Simranjeet Singh, Pavithra N, Radhika Varshney, Basavaraju Uppara, Joginder Singh, Nadeem A. Khan, Lakhveer Singh, Muhammad Zulqarnain Arshad, Praveen C. Ramamurthy, Advanced experimental techniques for the sensitive detection of a toxic bisphenol A using UiO-66-NDC/GO-based electrochemical sensor, Chemosphere, Volume 311, Part 2, 2023, 137104, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2022.137104']
-        },
-        {
-          'text':'Singh, S., Naik, T.S.S.K., U, B. et al. A systematic study of arsenic adsorption and removal from aqueous environments using novel graphene oxide functionalized UiO-66-NDC nanocomposites. Sci Rep 12, 15802 (2022).',
-          'links':[
-            'https://doi.org/10.1038/s41598-022-18959-2']
-        },
-        {
-          'text':'Pawar, A., Singh, S., Ramamurthy, P.C. et al. Toxicity, Environmental Monitoring and Removal Strategies of Arsenic. Int J Environ Res 16, 66 (2022).',
-          'links':[
-            'https://doi.org/10.1007/s41742-022-00442-5']
-        },
-        {
-          'text':'Simranjeet Singh, T.S. Sunil Kumar Naik, Vishakha Chauhan, Nabila Shehata, Harry Kaur, Daljeet Singh Dhanjal, Liliana Aguilar Marcelino, Shipra Bhati, S. Subramanian, Joginder Singh, Praveen C. Ramamurthy, Ecological effects, remediation, distribution, and sensing techniques of chromium, Chemosphere, Volume 307, Part 2, 2022, 135804, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2022.135804']
-        },
-        {
-          'text':'M. Shah, S. Singh, P. C. Ramamurthy, D. S. Dhanjal, S. Rana, D. Bhatia, R. Kanwar, N. R. Sharma, J. Singh, Design and Development of Onsite Biofilter Unit for Effective Remediation of Contaminants from Wastewater. Clean – Soil, Air, Water 2023, 51, 2100396.',
-          'links':[
-            'https://doi.org/10.1002/clen.202100396']
-        },
-        {
-          'text':'Simranjeet Singh, T.S. Sunil Kumar Naik, Amith G. Anil, Sutripto Khasnabis, Bidisha Nath, Basavaraju U, Vineet Kumar, V.K. Garg, S. Subramanian, Joginder Singh, Praveen C. Ramamurthy, A novel CaO nanocomposite cross linked graphene oxide for Cr(VI) removal and sensing from wastewater, Chemosphere, Volume 301, 2022, 134714, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2022.134714']
-        },
-        {
-          'text':'Dhaka, V., Singh, S., Ramamurthy, P.C. et al. Biological degradation of polyethylene terephthalate by rhizobacteria. Environ Sci Pollut Res 30, 116488–116497 (2023).',
-          'links':[
-            'https://doi.org/10.1007/s11356-022-20324-9']
-        },
-        {
-          'text':'Bhardwaj, S., Sharma, D., Singh, S. et al. Physiological and molecular insights into the role of silicon in improving plant performance under abiotic stresses. Plant Soil 486, 25–43 (2023).',
-          'links':[
-            'https://doi.org/10.1007/s11104-022-05395-4']
-        },
-        {
-          'text':'Simranjeet Singh, Amith G. Anil, T.S. Sunil Kumar Naik, Basavaraju U., Sutripto Khasnabis, Bidisha Nath, Vineet Kumar, S. Subramanian, Joginder Singh, Praveen C. Ramamurthy, Mechanism and kinetics of Cr(VI) adsorption on biochar derived from Citrobacter freundii under different pyrolysis temperatures, Journal of Water Process Engineering, Volume 47, 2022, 102723, ISSN 2214-7144.',
-          'links':[
-            'https://doi.org/10.1016/j.jwpe.2022.102723']
-        },
-        {
-          'text':'Vineet Kumar, Fuad Ameen, M. Amirul Islam, Sakshi Agrawal, Ankit Motghare, Abhijit Dey, Maulin P. Shah, Juliana Heloisa Pinê Américo-Pinheiro, Simranjeet Singh, Praveen C. Ramamurthy, Evaluation of cytotoxicity and genotoxicity effects of refractory pollutants of untreated and biomethanated distillery effluent using Allium cepa, Environmental Pollution, Volume 300, 2022, 118975, ISSN 0269-7491.',
-          'links':[
-            'https://doi.org/10.1016/j.envpol.2022.118975']
-        },
-        {
-          'text':'Naik, T.S.S.K., Swamy, B.E.K., Singh, S. et al. Fabrication and theoretical analysis of sodium alpha-olefin sulfonate-anchored carbon paste electrode for the simultaneous detection of adrenaline and paracetamol. J Appl Electrochem 52, 697–708 (2022).',
-          'links':[
-            'https://doi.org/10.1007/s10800-021-01663-w']
-        },
-        {
-          'text':'Dhaka, V., Singh, S., Anil, A.G. et al. Occurrence, toxicity and remediation of polyethylene terephthalate plastics. A review. Environ Chem Lett 20, 1777–1800 (2022).',
-          'links':[
-            'https://doi.org/10.1007/s10311-021-01384-8']
-        },
-        {
-          'text':'Vineet Kumar, Sakshi Agrawal, Sushil Kumar Shahi, Ankit Motghare, Simranjeet Singh, Praveen C. Ramamurthy, Bioremediation potential of newly isolated Bacillus albus strain VKDS9 for decolourization and detoxification of biomethanated distillery effluent and its metabolites characterization for environmental sustainability, Environmental Technology & Innovation, Volume 26, 2022, 102260, ISSN 2352-1864.',
-          'links':[
-            'https://doi.org/10.1016/j.eti.2021.102260']
-        },
-        {
-          'text':'T.S. Sunil Kumar Naik, Arul Varman Kesavan, B.E. Kumara Swamy, Simranjeet Singh, Amith G. Anil, V. Madhavi, Praveen C. Ramamurthy, Low cost, trouble-free disposable pencil graphite electrode sensor for the simultaneous detection of hydroquinone and catechol, Materials Chemistry and Physics, Volume 278, 2022, 125663, ISSN 0254-0584.',
-          'links':[
-            'https://doi.org/10.1016/j.matchemphys.2021.125663']
-        },
-        {
-          'text':'Simranjeet Singh, Amith G. Anil, Vijay Kumar, Dhriti Kapoor, S. Subramanian, Joginder Singh, Praveen C. Ramamurthy, Nitrates in the environment: A critical review of their distribution, sensing techniques, ecological effects and remediation, Chemosphere, Volume 287, Part 1, 2022, 131996, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2021.131996']
-        },
-        {
-          'text':'Simranjeet Singh, Amith G. Anil, Sutripto Khasnabis, Vijay Kumar, Bidisha Nath, Varun Adiga, T.S. Sunil Kumar Naik, S. Subramanian, Vineet Kumar, Joginder Singh, Praveen C. Ramamurthy, Sustainable removal of Cr(VI) using graphene oxide-zinc oxide nanohybrid: Adsorption kinetics, isotherms and thermodynamics, Environmental Research, Volume 203, 2022, 111891, ISSN 0013-9351.',
-          'links':[
-            'https://doi.org/10.1016/j.envres.2021.111891']
-        },
-        {
-          'text':'Simranjeet Singh, T. S. Sunil Kumar Naik, Amith G. Anil, Jaskaran Dhiman, Vijay Kumar, Daljeet Singh Dhanjal, Liliana Aguilar-Marcelino, Joginder Singh, Praveen C. Ramamurthy, Micro (nano) plastics in wastewater: A critical review on toxicity risk assessment, behaviour, environmental impact and challenges, Chemosphere, Volume 290, 2022, 133169, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2021.133169']
-        },
-        {
-          'text':'Simranjeet Singh, Sutripto Khasnabis, Amith G. Anil, Vijay Kumar, TS Sunil Kumar Naik, Bidisha Nath, Vinod Kumar Garg, Joginder Singh, Praveen C. Ramamurthy, Multifunctional nanohybrid for simultaneous detection and removal of Arsenic(III) from aqueous solutions, Chemosphere, Volume 289, 2022, 133101, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2021.133101']
-        },
-        {
-          'text':'Dhriti Kapoor, Simranjeet Singh, Praveen C. Ramamurthy, Sadaf Jan, Savita Bhardwaj, Sarvajeet Singh Gill, Ram Prasad, Joginder Singh, Molecular consequences of cadmium toxicity and its regulatory networks in plants, Plant Gene, Volume 28, 2021, 100342, ISSN 2352-4073.',
-          'links':[
-            'https://doi.org/10.1016/j.plgene.2021.100342']
-        },
-        {
-          'text':'Singh S, Kumar V, Anil AG, Romero R, Ramamurthy PC, Singh J. Biodegradation of phorate by bacterial strains in the presence of humic acid and metal ions. J Basic Microbiol. 2022; 62: 498–507.',
-          'links':[
-            'https://doi.org/10.1002/jobm.202100332']
-        },
-        {
-          'text':'Simranjeet Singh, Vijay Kumar, Amith G. Anil, Dhriti Kapoor, Sutripto Khasnabis, Shweta Shekar, N. Pavithra, Jastin Samuel, S. Subramanian, Joginder Singh, Praveen C. Ramamurthy, Adsorption and detoxification of pharmaceutical compounds from wastewater using nanomaterials: A review on mechanism, kinetics, valorization and circular economy, Journal of Environmental Management, Volume 300, 2021, 113569, ISSN 0301-4797',
-          'links':[
-            'https://doi.org/10.1016/j.jenvman.2021.113569']
-        },
-        {
-          'text':'Musa Galadima, Simranjeet Singh, Akshay Pawar, Sutripto Khasnabis, Daljeet Singh Dhanjal, Amith G Anil, Pratistha Rai, Praveen C. Ramamurthy, Joginder Singh, Toxicity, microbial degradation and analytical detection of pyrethroids: A review, Environmental Advances, Volume 5, 2021, 100105, ISSN 2666-7657.',
-          'links':[
-            'https://doi.org/10.1016/j.envadv.2021.100105']
-        },
-        {
-          'text':'Shivika Datta, Praveen C. Ramamurthy, Uttpal Anand, Simranjeet Singh, Amritpal Singh, Daljeet Singh Dhanjal, Vaishali Dhaka, Sanjay Kumar, Dhriti Kapoor, Samapika Nandy, Manoj Kumar, Eapen P. Koshy, Abhijit Dey, Jarosław Proćków, Joginder Singh, Wonder or evil?: Multifaceted health hazards and health benefits of Cannabis sativa and its phytochemicals, Saudi Journal of Biological Sciences, Volume 28, Issue 12, 2021, Pages 7290-7313, ISSN 1319-562X.',
-          'links':[
-            'https://doi.org/10.1016/j.sjbs.2021.08.036']
-        },
-        {
-          'text':'Simranjeet Singh, Joginder Singh, Praveen C. Ramamurthy, Vijay Kumar, Sonali Bhardwaj, Vinod Kumar Garg, Biodegradation of monocrotophos by indigenous soil bacterial isolates in the presence of humic acid, Fe (III) and Cu (II) ions, Bioresource Technology Reports, Volume 15, 2021, 100778, ISSN 2589-014X.',
-          'links':[
-            'https://doi.org/10.1016/j.biteb.2021.100778']
-        },
-        {
-          'text':'Singh, S., Kumar, V., Parihar, P. et al. Differential regulation of drought stress by biological membrane transporters and channels. Plant Cell Rep 40, 1565–1583 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s00299-021-02730-4']
-        },
-        {
-          'text':'Simranjeet Singh, Joginder Singh, Praveen C. Ramamurthy, Vijay Kumar, Sonali Bhardwaj, Vinod Kumar Garg, Biodegradation of monocrotophos by indigenous soil bacterial isolates in the presence of humic acid, Fe (III) and Cu (II) ions, Bioresource Technology Reports, Volume 15, 2021, 100778, ISSN 2589-014X',
-          'links':[
-            'https://doi.org/10.1016/j.biteb.2021.100778']
-        },
-        {
-          'text':'Simranjeet Singh, Vijay Kumar, Ramesh Kanwar, Abdul Basit Wani, Jatinder Pal Kaur Gill, Vinod Kumar Garg, Joginder Singh, Praveen C. Ramamurthy, Toxicity and detoxification of monocrotophos from ecosystem using different approaches: A review, Chemosphere, Volume 275, 2021, 130051, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2021.130051']
-        },
-        {
-          'text':'Ramamurthy, P.C., Singh, S., Kapoor, D. et al. Microbial biotechnological approaches: renewable bioprocessing for the future energy systems. Microb Cell Fact 20, 55 (2021).',
-          'links':[
-            'https://doi.org/10.1186/s12934-021-01547-w']
-        },
-        {
-          'text':'Singh, S., Kumar, V., Kapoor, D. et al. Detection and disinfection of COVID-19 virus in wastewater. Environ Chem Lett 19, 1917–1933 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s10311-021-01202-1']
-        },
-        {
-          'text':'Singh, S., Kapoor, D., Khasnabis, S. et al. Mechanism and kinetics of adsorption and removal of heavy metals from wastewater using nanomaterials. Environ Chem Lett 19, 2351–2381 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s10311-021-01196-w']
-        }
-      ]
-  },
-  {
-    'name': 'Dr. Bramha Dutt Vishwakarma',
-      'websiteLink':'',
-      'publicationsList':[
-        {
-          'text':'Zhong, Y., Tian, B., Vishwakarma, B. D., Feng, W., Wu, Y., Bai, H., & Zhong, M. (2023). Reinterpreting global GRACE trends based on century-long GRACE-REC data. Water Resources Research, 59, e2023WR035817.',
-          'links':[
-            'https://doi.org/10.1029/2023WR035817']
-        },
-        {
-          'text':'Xiong, J., Abhishek, Xu, L., Chandanpurkar, H. A., Famiglietti, J. S., Zhang, C., Ghiggi, G., Guo, S., Pan, Y., and Vishwakarma, B. D.: ET-WB: water-balance-based estimations of terrestrial evaporation over global land and major global basins, Earth Syst. Sci. Data, 15, 4571–4597.',
-          'links':[
-            'https://doi.org/10.5194/essd-15-4571-2023']
-        },
-        {
-          'text':'F. Sabzehee, A.R. Amiri-Simkooei, S. Iran-Pour, B.D. Vishwakarma, R. Kerachian, Enhancing spatial resolution of GRACE-derived groundwater storage anomalies in Urmia catchment using machine learning downscaling methods, Journal of Environmental Management, Volume 330, 2023, 117180, ISSN 0301-4797.',
-          'links':[
-            'https://doi.org/10.1016/j.jenvman.2022.117180']
-        },
-        {
-          'text':'Bramha Dutt Vishwakarma, Yann Ziegler, Jonathan L Bamber, Sam Royston, Separating GIA signal from surface mass change using GPS and GRACE data, Geophysical Journal International, Volume 232, Issue 1, January 2023, Pages 537–547.',
-          'links':[
-            'https://doi.org/10.1093/gji/ggac336']
-        },
-        {
-          'text':'Rougier, J., Brady, A., Bamber, J., Chuter, S., Royston, S., Vishwakarma, B. D., Westaway, R., & Ziegler, Y. (2023). The scope of the Kalman filter for spatio-temporal applications in environmental science. Environmetrics, 34(1), e2773',
-          'links':[
-            'https://doi.org/10.1002/env.2773']
-        },
-        {
-          'text':'Yann Ziegler, Bramha Dutt Vishwakarma, Aoibheann Brady, Stephen Chuter, Sam Royston, Richard M Westaway, Jonathan L Bamber, Can GPS and GRACE data be used to separate past and present-day surface loading in a data-driven approach?, Geophysical Journal International, Volume 232, Issue 2, February 2023, Pages 884–901.',
-          'links':[
-            'https://doi.org/10.1093/gji/ggac365']
-        },
-        {
-          'text':'Vishwakarma Bramha Dutt , Ramsankaran RAAJ , Azam Mohd. Farooq , Bolch Tobias , Mandal Arindan , Srivastava Smriti , Kumar Pankaj , Sahu Rakesh , Navinkumar Perumal Jayaraman , Tanniru Srinivasa Rao , Javed Aaquib , Soheb Mohd , Dimri A. P. , Yadav Mohit , Devaraju Balaji , Chinnasamy Pennan , Reddy Manne Janga , Murugesan Geetha Priya , Arora Manohar , Jain Sharad K. , Ojha C. S. P. , Harrison Stephan , Bamber Jonathan  TITLE=Challenges in Understanding the Variability of the Cryosphere in the Himalaya and Its Impact on Regional Water Resources ,JOURNAL=Frontiers in Water, VOLUME=4 ,YEAR=2022, ISSN=2624-9375.',
-          'links':[
-            'https://doi.org/10.3389/frwa.2022.909246']
-        },
-        {
-          'text':'Bramha Dutt Vishwakarma, Martin Horwath, Andreas Groh, Jonathan L Bamber, Accounting for GIA signal in GRACE products, Geophysical Journal International, Volume 228, Issue 3, March 2022, Pages 2056–2060.',
-          'links':[
-            'https://doi.org/10.1093/gji/ggab464']
-        },
-        {
-          'text':'Lehmann, F., Vishwakarma, B. D., and Bamber, J.: How well are we able to close the water budget at the global scale? Hydrol. Earth Syst. Sci., 26, 35–54,',
-          'links':[
-            'https://doi.org/10.5194/hess-26-35-2022']
-        }
-      ]
-  },
-  {
-    "name": 'Dr. Rajarshi Das Bhowmik',
-      'websiteLink':'https://rajarshidasbhowmik.com/',
-      'publicationsList':[
-        {
-          'text':'Venkatesh Budamala, Abhinav Wadhwa, Rajarshi Das Bhowmik, Amit Mahindrakar, Ramji Satyaji Rao Yellamelli, Kasiapillai S. Kasiviswanathan (2023). Multi-temporal downscaling of daily to sub-daily streamflow for flash flood watersheds at ungauged stations using a hybrid framework, Journal of Hydrology. Volume 625, Part B, 130110, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2023.130110']
-        },
-        {
-          'text':'Gupta Chanchal, Bhowmik Rajarshi Das (2023). Application of a bivariate bias-correction approach to yield long-term attributes of Indian precipitation and temperature, Frontiers in Climate. Vol.5 ISSN 2624-9553.',
-          'links':[
-            'https://doi.org/10.3389/fclim.2023.1067960']
-        },
-        {
-          'text':'Basu Bidroha, Das Bhowmik Rajarshi, Sankarasubramanian A. (2023). Changing Seasonality of Annual Maximum Floods over the Conterminous US: Potential Drivers and Regional Synthesis, Journal of Hydrologic Engineering. VL 28, 04023007.',
-          'links':[
-            'https://doi.org/10.1061/JHYEFF.HEENG-5768']
-        },
-        {
-          'text':'Joseph R, Mujumdar PP, Das Bhowmik R. Reconstruction of Urban Rainfall Measurements to Estimate the Spatiotemporal Variability of Extreme Rainfall. Water. 2022; 14(23):3900.',
-          'links':[
-            'https://doi.org/10.3390/w14233900']
-        },
-        {
-          'text':'Basu, Bidroha, Rajarshi Das Bhowmik and Sankarasubramanian Arumugam. “Changing Seasonality of Annual Maximum Floods over the Conterminous US.” Journal of Hydrologic Engineering (2020).',
-          'links':[
-            'https://doi.org/10.1002/essoar.10504706.1']
-        }
-      ]
-  },
-  {
-    'Replace_With_Professor_Name':{
-      'websiteLink':'',
-      'publicationsList':[
-        {
-          'text':'',
-          'links':[
-            '',
-          ]
-        },
       ]
     }
-  },
-  {
-    'Replace_With_Professor_Name':{
-      'websiteLink':'',
-      'publicationsList':[
-        {
-          'text':'',
-          'links':[
-            '',
-          ]
-        },
-      ]
-    }
-  },
-  {
-    'name':'General Publications',
-      'websiteLink':'',
-      'publicationsList':[
-        {
-          'text':'Jatinder Pal Kaur Gill, Simranjeet Singh, Nidhi Sethi, Daljeet Singh Dhanjal, Anand Mohan, Hemen Sarma, Ram Prasad, Joginder Singh, (2021). Efficient synthesis and characterization of non-toxic glyphosate derivatives as eco-friendly herbicides, Current Research in Green and Sustainable Chemistry, 4, 100100, doi: https://doi.org/10.1016/j.crgsc.2021.100100.',
-          'links':[
-            'https://www.sciencedirect.com/science/article/pii/S2666086521000473']
-        },
-        {
-          'text':'New Book Chapter: Hydrological status and outlooks co-authored by Prof. P P Mujumdar (Chairman, ICWaR), Dr. Katie Facer-Childs (CEH, UK), and Anusree K Anju (SRF, ICWaR) in Emerging science for sustainable water resource management, edited by Dr. Sunita Sarkar and Prof. Harry Dixon.',
-          'links':[
-            'https://www.ceh.ac.uk/sites/default/files/2021-11/Emerging-Science-Sustainable-Water-Resource-Management_3.pdf']
-        },
-        {
-          'text':'Urban Water Systems: A Framework for Collaboration between ICWaR and UNESCO',
-          'links':[
-            'http://icwar.iisc.ac.in/wp-content/uploads/2018/01/UWS_print.pdf'
-          ]
-        }
-      ]
+  ];
 
-  },
-]
-
-
-
-
-export const journal = [
+  export const journal = [
   {
     year: '2024',
     publications: [
         {
-          'text':'Simranjeet Singh, Amith G. Anil, Basavaraju Uppara, Sushant K. Behera, Bidisha Nath, Pavithra, Shipra Bhati, Joginder Singh, Nadeem A. Khan, Praveen C. Ramamurthy “Adsorption and DFT investigations of Cr(VI) removal using nanocrystals decorated with graphene oxide” Nature partner journals clean water, 2024, PP.7:17.',
+          'text':'Das Bhowmik, R., Budamala, V., & Sankarasubramanian, A. (2024). Influence of long-term observed trends on the performance of seasonal hydroclimate forecasts. Advances in Water Resources, 188, 104707. ',
           'links':[
-            'https://doi.org/%2010.1038/s41545-024-00306-9']
+            'https://doi.org/10.1016/j.advwatres.2024.104707']
         },
         {
-          'text':'Harry Kaur, Surabhi Rode, Sapna Lonare, Pratibha Demiwal, Pavithra Narasimhappa, Etisha Arun, Rakesh Kumar, Joy Das, Praveen C Ramamurthy, Debabrata Sircar, Ashwani Kumar Sharma “Heterologous expression, biochemical characterization and prospects for insecticide biosensing potential of carboxylesterase Ha006a from Helicoverpaarmigera” Pesticide Biochemistry and Physiology 2024, 200, PP. 105844',
+          'text':'Posa, P. C. L., Rasool, T., Budamala, V., & Das Bhowmik, R. (2024). Influence of global teleconnections on long-term variability in flood seasonality across peninsular India. Environmental Research Letters, 19(6), 064069. ',
           'links':[
-            'https://doi.org/%2010.1016/%20j.pestbp.%202024.105844']
+            'https://doi.org/10.1088/1748-9326/ad4e4b']
         },
         {
-          'text':'Gaurav pant, Simranjeet Singh, Pradeep kumar Choudhary, Praveen C Ramamurthy, Himshweta Singh, Deviram Garlapati, Joginder Singh, Gaurav Kumar, Nadeem A Khan, Sasan Zahmatkesh “Nanozymes: advance enzyme‑mimicking theragnostic tool: a review” Clean Technologies and Environmental Policy, 2024, PP-1-11',
+          'text':'Gobi, M., Kumar, A., Singh, J., et al. (2024). Nanocellulose-Based Adsorption for the Removal of Heavy Metal from Wastewater—A Review. Water Conservation Science and Engineering, 9(24). ',
+          'links':[
+            'https://doi.org/10.1007/s41101-024-00251-1']
+        },
+        {
+          'text':'Nath, B., Uppara, B., Singh, S., Ramamurthy, P. C., Mahapatra, D. R., & Hegde, G. (2024). Exploring the potential of green synthesized ZnO-SnO2 composite as an effective electron transport layer for perovskite solar cells: A sustainable approach. Chemical Engineering Science, 296, 120249.',
+          'links':[
+            'https://doi.org/10.1016/j.ces.2024.120249']
+        },
+        {
+          'text':'Sharma, H. B., Vanapalli, K. R., Bhatia, D., et al. (2024). Engineered biochar/hydrochar derived from organic wastes for energy, environmental, and agricultural applications. Clean Technologies and Environmental Policy. ',
+          'links':[
+            'https://doi.org/10.1007/s10098-024-02863-6']
+        },
+        {
+          'text':'Garg, S., Singh, S., Khan, N. A., et al. (2024). Equilibrium and kinetic modeling of Cr(VI) removal by novel tolerant bacteria species along with zero-valent iron nanoparticles. Scientific Reports, 14(8611). ',
+          'links':[
+            'https://doi.org/10.1038/s41598-024-57835-z']
+        },
+        {
+          'text':'Gandhi, Y., Kumar, V., Singh, G., et al. (2024). Chemoprofiling and medicinal potential of underutilized leaves of Cyperus scariosus. Scientific Reports, 14(7263). ',
+          'links':[
+            'https://doi.org/10.1038/s41598-024-58041-7']
+        },
+        {
+          'text':'Kaur, H., Rode, S., Lonare, S., Demiwal, P., Narasimhappa, P., Arun, E., Kumar, R., Das, J., Ramamurthy, P. C., Sircar, D., & Sharma, A. K. (2024). Heterologous expression, biochemical characterization and prospects for insecticide biosensing potential of carboxylesterase Ha006a from Helicoverpa armigera. Pesticide Biochemistry and Physiology, 200, 105844. ',
+          'links':[
+            'https://doi.org/10.1016/j.pestbp.2024.105844']
+        },
+        {
+          'text':'Singh, S., Anil, A. G., Uppara, B., et al. (2024). Adsorption and DFT investigations of Cr(VI) removal using nanocrystals decorated with graphene oxide. npj Clean Water, 7(1), Article 17.',
+          'links':[
+            'https://doi.org/10.1038/s41545-024-00306-9']
+        },
+        {
+          'text':'Mandal, A., Vishwakarma, B. D., Angchuk, T., Azam, M. F., Garg, P. K., & Soheb, M. (2024). Glacier mass balance and its climatic and nonclimatic drivers in the Ladakh region during 2000–2021 from remote sensing data. Journal of Glaciology, 1–23. ',
+          'links':[
+            'https://doi.org/10.1017/jog.2024.19']
+        },
+        {
+          'text':'Sharma, S., & Mujumdar, P. P. (2024). Baseflow significantly contributes to river floods in Peninsular India. Scientific Reports, 14, 1251. ',
+          'links':[
+            'https://doi.org/10.1038/s41598-024-51850-w']
+        },
+        {
+          'text':'Singh, S., Khan, N. A., Ramadan, R., Shehata, N., Kapoor, D., Dhanjal, D. S., Sivaram, N., Singh, J., Barceló, D., & Ramamurthy, P. C. (2024). Environmental fate, toxicological impact, and advanced treatment approaches: Atrazine degradation and emphasis on circular economy strategy. Desalination and Water Treatment, 317, 100201. ',
+          'links':[
+            'https://doi.org/10.1016/j.dwt.2024.100201']
+        },
+        {
+          'text':'López-Maldonado, E. A., Khan, N. A., Singh, S., Ramamurthy, P. C., Kabak, B., Vega Baudrit, J. R., Alkahtani, M. Q., Álvarez-Torrellas, S., Varshney, R., Serra-Pérez, E., García, J., Gkika, D. A., Kyzas, G. Z., Kadier, A., Singh, R., Periyasamy, S., Gizaw, D. G., Hossain, N., & Zahmatkesh, S. (2024). Magnetic polymeric composites: Potential for separating and degrading micro/nano plastics. Desalination and Water Treatment, 317, 100198. ',
+          'links':[
+            'https://doi.org/10.1016/j.dwt.2024.100198']
+        },
+        {
+          'text':'Goswami, R., Singh, S., Narasimhappa, P., Ramamurthy, P. C., Mishra, A., Mishra, P. K., Joshi, H. C., Pant, G., Singh, J., Kumar, G., Khan, N. A., & Yousefi, M. (2024). Nanocellulose: A comprehensive review investigating its potential as an innovative material for water remediation. International Journal of Biological Macromolecules, 254(Part 3), 127465. ',
+          'links':[
+            'https://doi.org/10.1016/j.ijbiomac.2023.127465']
+        },
+        {
+          'text':'Khan, N. A., Singh, S., Ramamurthy, P. C., & Aljundi, I. H. (2024). Exploring nutrient removal mechanisms in column-type SBR with simultaneous nitrification and denitrification. Journal of Environmental Management, 349, 119485. ',
+          'links':[
+            'https://doi.org/10.1016/j.jenvman.2023.119485']
+        },
+        {
+          'text':'Pant, G., Singh, S., Choudhary, P. K., et al. (2024). Nanozymes: advance enzyme-mimicking theragnostic tool: A review. Clean Technologies and Environmental Policy. ',
           'links':[
             'https://doi.org/10.1007/s10098-023-02716-8']
         },
         {
-          'text':'Nadeem A Khan, Simranjeet Singh, Praveen C Ramamurthy, Isam H Aljundi “Exploring Nutrient removal Mechanisms in Column-type SBR with simultaneous nitrification and denitrification” Journal of Environmental Management, 2024, 349, PP.119485',
+          'text':'Sharma, S., & Mujumdar, P. P. (2024). Baseflow significantly contributes to river floods in Peninsular India. Scientific Reports, 14, 1251.',
           'links':[
-            'https://doi.org/10.1016/j.jenvman.2023.119485']
+            'https://doi.org/10.1038/s41598-024-51850-w']
         },
         {
-          'text':'Rekha Goswami, Simranjeet Singh, Pavithra N, Praveen C Ramamurthy, Abhilasha Mishra, Pawan Kumar Mishra, Harish Chandra Joshi, Gaurav Pant, Joginder Singh, Gaurav Kumar, Nadeem A Khan, Mahmood Yousefi “Nanocellulose: A Comprehensive Review Investigating its Potential as an Innovative Material for water Remediation” International Journal of Biological Macromolecules,2024, 254,3, PP.127465.',
-          'links':[
-            'https://doi.org/%2010.1016/%20j.ijbiomac.%202023.127465']
-        },
-  	    {
-          'text':'Pankaj Dey, Somil Swarnkar & Pradeep Mujumdar (2024) Dam operation affects the evolution and propagation of hydrological extremes, Hydrological Sciences Journal.',
-          'links':[
-            'https://doi.org/10.1080/02626667.2024.2311755']
-        },
-        {
-          'text':'Sharma, S., Mujumdar, P.P. Baseflow significantly contributes to river floods in Peninsular India. Sci Rep 14, 1251 (2024)',
-          'links':[
-            'https://doi.org/10.1038/s41598-024-51850-w ']
-        },
-  	    {
-          'text':'Boopathy, B., Mukherjee, D., Nishanth, V. et al. Generation of Species-Specific High-Strength Plasma Activated Water at Neutral pH and its Antimicrobial Characteristics. Plasma Chem Plasma Process (2024).',
+          'text':'Boopathy, B., Mukherjee, D., Nishanth, V., et al. (2024). Generation of species-specific high-strength plasma activated water at neutral pH and its antimicrobial characteristics. Plasma Chemistry and Plasma Processing, 44, 1003–1017.',
           'links':[
             'https://doi.org/10.1007/s11090-023-10439-3']
         },
         {
-          'text':'Nadeem A. Khan, Simranjeet Singh, Praveen C. Ramamurthy, Isam H. Aljundi, Exploring nutrient removal mechanisms in column-type SBR with simultaneous nitrification and denitrification, Journal of Environmental Management,Volume 349,2024,119485,ISSN 0301-4797.',
+          'text':'Khan, N. A., Singh, S., Ramamurthy, P. C., & Aljundi, I. H. (2024). Exploring nutrient removal mechanisms in column-type SBR with simultaneous nitrification and denitrification. Journal of Environmental Management, 349, 119485.',
           'links':[
             'https://doi.org/10.1016/j.jenvman.2023.119485']
         },
         {
-          'text':'Rekha Goswami, Simranjeet Singh, Pavithra Narasimhappa, Praveen C. Ramamurthy, Abhilasha Mishra, Pawan Kumar Mishra, Harish Chandra Joshi, Gaurav Pant, Joginder Singh, Gaurav Kumar, Nadeem A. Khan, Mahmood Yousefi, Nanocellulose: A comprehensive review investigating its potential as an innovative material for water remediation, International Journal of Biological Macromolecules, Volume 254, Part 3,2024,127465,ISSN 0141-8130.',
+          'text':'Goswami, R., Singh, S., Narasimhappa, P., Ramamurthy, P. C., Mishra, A., Mishra, P. K., Joshi, H. C., Pant, G., Singh, J., Kumar, G., Khan, N. A., & Yousefi, M. (2024). Nanocellulose: A comprehensive review investigating its potential as an innovative material for water remediation. International Journal of Biological Macromolecules, 254(Part 3), 127465. ',
           'links':[
             'https://doi.org/10.1016/j.ijbiomac.2023.127465']
         },
+        {
+          'text':'Sharma, S., & Mujumdar, P. P. (2024). Baseflow significantly contributes to river floods in Peninsular India. Scientific Reports, 14, 1251. ',
+          'links':[
+            'https://doi.org/10.1038/s41598-024-51850-w']
+        }
     ]
   },
 
   {
     year: '2023',
     publications: [
-    	{
-          'text':'Simranjeet Singh, Lav Singh, Vijay Kumar, Wahid Ali, Praveen C. Ramamurthy, Daljeet Singh Dhanjal, Nikhita Sivaram, Ruby Angurana, Joginder Singh, Vimal Chandra Pandey, Nadeem A. Khan “Algae-based approaches for Holistic wastewater management: A low-cost paradigm” Chemosphere,2023, PP.140470',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.140470']
-        },
-        {
-          'text':'Shashank Garg, Simranjeet Singh, Nabila Shehata, HariBhakta Sharma, Jastin Samuel, Nadeem A Khan, Praveen C Ramamurthy, Joginder Singh, Muhammad Mubashir, Awais Bokhari, Der Jiun Ooi, Pau Loke Show,Aerogels in wastewater treatment: A review,Journal of the Taiwan Institute of Chemical Engineers,2023,105299,ISSN 1876-1070.',
-          'links':[
-            'https://doi.org/10.1016/j.jtice.2023.105299']
-        },
-        {
-          'text':'Naik, T.S.S.K., Singh, S., Narasimhappa, P. et al. Green and sustainable synthesis of CaO nanoparticles: Its solicitation as a sensor material and electrochemical detection of urea. Sci Rep 13, 19995 (2023).',
-          'links':[
-            'https://doi.org/10.1038/s41598-023-46728-2']
-        },
-        {
-          'text':'Simranjeet Singh, Pavithra Narasimhappa,  Basavaraju Uppara, Sushant K. Behera, Radhika Varshney, T.S. Sunil Kumar Naik, Nadeem A. Khan, Joginder Singh, Praveen C Ramamurthy,Bio-engineered sensing of Atrazine by green CdS quantum dots: Evidence from electrochemical studies and DFT simulations, Chemosphere,Volume 345,2023,140465, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.140465']
-        },
-        {
-          'text':'Simranjeet Singh, Lav Singh, Vijay Kumar, Wahid Ali, Praveen C. Ramamurthy, Daljeet Singh Dhanjal, Nikhita Sivaram, Ruby Angurana, Joginder Singh, Vimal Chandra Pandey, Nadeem A. Khan, Algae-based approaches for Holistic wastewater management: A low-cost paradigm, Chemosphere, Volume 345, 2023, 140470, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.140470']
-        },
-        {
-          'text':'Pavithra Narasimhappa, Simranjeet Singh, Praveen C. Ramamurthy, Synthesis of water-soluble CdS quantum dots for the fluorescence detection of tetracycline, Environmental Pollution, Volume 338, 2023, 122682, ISSN 0269-7491.',
-          'links':[
-            'https://doi.org/10.1016/j.envpol.2023.122682']
-        },
-        {
-          'text':'Nadeem A. Khan, Eduardo Alberto López-Maldonado, Abhradeep Majumder, Simranjeet Singh, Radhika Varshney, J.R. López, P.F. Méndez, Praveen C. Ramamurthy, Mohammad Amir Khan, Afzal Husain Khan, Nabisab Mujawar Mubarak, Waqas Amhad, S.Z.M. Shamshuddin, Isam H. Aljundi, A state-of-art-review on emerging contaminants: Environmental chemistry, health effect, and modern treatment methods, Chemosphere, Volume 344, 2023, 140264, ISSN 0045-6535,',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.140264']
-        },
-        {
-          'text':'Pavithra Narasimhappa, Praveen C Ramamurthy, Bio-mimicking the melanogenesis pathway using tyrosinase for dopamine sensing, Electrochimica Acta, Volume 469, 2023, 143187, ISSN 0013-4686.',
-          'links':[
-            'https://doi.org/10.1016/j.electacta.2023.143187']
-        },
-        {
-          'text':'Simranjeet Singh, Pavithra Narasimhappa, Nadeem A. Khan, Vishakha Chauhan, Nabila Shehata, S.K. Behera, Joginder Singh, Praveen C. Ramamurthy, Effective voltammetric tool for Nano-detection of triazine herbicide (1-Chloro-3-        ethylamino-5-isopropylamino-2,4,6-triazine) by naphthalene derivative, Environmental Research, Volume 236, Part 2, 2023, 116808, ISSN 0013-9351.',
-          'links':[
-            'https://doi.org/10.1016/j.envres.2023.116808']
-        },
-        {
-          'text':'Vaanie Godbole, Simranjeet Singh, Praveen C. Ramamurthy, Nadeem A. Khan, Manisha Bisht, Manoj Kumar Pal, Joginder Singh, Gaurav Kumar, Ali Esrafili, Mahmood Yousefi, Electroactive microbe communication: A crucial aspect for energy generation in bio-electrochemical systems, Journal of Environmental Chemical Engineering, Volume 11, Issue 5, 2023, 110646,  ISSN 2213-3437.',
-          'links':[
-            'https://doi.org/10.1016/j.jece.2023.110646']
-        },
-        {
-          'text':'Nadeem A. Khan, Simranjeet Singh, Eduardo Alberto López-Maldonado, Pavithra N., Perla Fabiola Méndez-Herrera, Juan Ramón López-López, Umair Baig, Praveen C. Ramamurthy, Nabisab Mujawar Mubarak, Rama Rao Karri, Isam H. Aljundi, Emerging membrane technology and hybrid treatment systems for the removal of micropollutants from wastewater, Desalination, Volume 565, 2023, 116873, ISSN 0011-9164.',
-          'links':[
-            'https://doi.org/10.1016/j.desal.2023.116873']
-        },
-        {
-          'text':'Vishnu G, Simranjeet Singh, Noyonika Kaul, Praveen C. Ramamurthy, TSSK Naik, R. Viswanath, Vijay Kumar, H.S. Bhojya Naik, Prathap A, Anil Kumara H A, Joginder Singh, Nadeem A. Khan, Green synthesis of nickel-doped magnesium ferrite nanoparticles via combustion for facile microwave-assisted optical and photocatalytic applications, Environmental Research, Volume 235, 2023, 116598, ISSN 0013-9351.',
-          'links':[
-            'https://doi.org/10.1016/j.envres.2023.116598']
-        },
-        {
-          'text':'Pavithra Narasimhappa, Radhika Varshney, Simranjeet Singh, TS Sunil Kumar Naik, Praveen C. Ramamurthy, 3D rhombohedral microcrystals metal-organic frameworks for electrochemical and fluorescence sensing of tetracycline, Chemosphere, Volume 333, 2023, 138977, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.138977']
-        },
-        {
-          'text':'Bidisha Nath, Simranjeet Singh, Sushant Kumar Behera, Praveen C. Ramamurthy, Debiprosad Roy Mahapatra, Gopalkrishna Hegde, Perovskite solar cell performance analysis via interface engineering employing MOF-composite, Solar Energy, Volume 257, 2023, Pages 249-256, ISSN 0038-092X.',
-          'links':[
-            'https://doi.org/10.1016/j.solener.2023.04.035']
-        },
-        {
-          'text':'Simranjeet Singh, T.S.S.K. Naik, Basavaraju Uppara, Pavithra Narasimhappa, R. Varshney, V. Chauhan, N. Shehata, C. Thamaraiselvan, S. Subramanian, Joginder Singh, Nadeem A. Khan, Sasan Zahmatkesh, Lakhveer Singh, Praveen C. Ramamurthy, Novel and sustainable green sulfur-doped carbon nanospheres via hydrothermal process for Cd (II) ion removal, Chemosphere, Volume 328, 2023, 138533, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.138533']
-        },
-        {
-          'text':'G Vishnu, Simranjeet Singh, T.S. Sunil Kumar Naik, R Viswanath, Praveen C. Ramamurthy, Pooja Bhadrecha, HS Bhojya Naik, Joginder Singh, Nadeem A. Khan, Sasan Zahmatkesh, Photodegradation of methylene blue dye using light driven photocatalyst-green cobalt doped cadmium ferrite nanoparticles as antibacterial agents, Journal of Cleaner Production, Volume 404, 2023, 136977, ISSN 0959-6526,',
-          'links':[
-            'https://doi.org/10.1016/j.jclepro.2023.136977']
-        },
-        {
-          'text':'Simranjeet Singh, Pavithra N, T.S.S.K. Naik, Basavaraju Uppara, C. Thamaraiselvan, S.K. Behera, Retinder Kour, Padmanabh Dwivedi, S. Subramanian, Nadeem A. Khan, Joginder Singh, Praveen C. Ramamurthy, Removal of Pb ions using green Co3O4 nanoparticles: Simulation, modeling, adsorption, and biological studies, Environmental Research, Volume 222, 2023, 115335, ISSN 0013-9351.',
-          'links':[
-            'https://doi.org/10.1016/j.envres.2023.115335']
-        },
-	      {
-          'text':'Amith G. Anil, Simranjeet Singh, Jinu Joji, Joginder Singh, Praveen C. Ramamurthy, Conducting Polymer Based Sensor, Editor(s): A.S.M.A. Haseeb, Encyclopedia of Materials: Electronics, Academic Press, 2023, Pages 28-35, ISBN 9780128197356.',
-          'links':[
-            'https://doi.org/10.1016/B978-0-12-819728-8.00125-X']
-        },
-        {
-          'text':'Simranjeet Singh, T.S.S.K. Naik, C. Thamaraiselvan, S.K. Behera, Pavithra. N, Bidisha Nath, P. Dwivedi, Joginder Singh, Praveen C. Ramamurthy, Applicability of new sustainable and efficient green metal-based nanoparticles for removal of Cr(VI): Adsorption anti-microbial, and DFT studies, Environmental Pollution, Volume 320, 2023, 121105, ISSN 0269-7491.',
-          'links':[
-            'https://doi.org/10.1016/j.envpol.2023.121105']
-        },
-        {
-          'text':'Retinder Kour, Simranjeet Singh, Hari Bhakta Sharma, T.S. Sunil Kumar Naik, Nabila Shehata, Pavithra N, Wahid Ali, Dhriti Kapoor, Daljeet Singh Dhanjal, Joginder Singh, Afzal Husain Khan, Nadeem A. Khan, Mahmood Yousefi, Praveen C. Ramamurthy, Persistence and remote sensing of agri-food wastes in the environment: Current state and perspectives, Chemosphere, Volume 317, 2023, 137822, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2023.137822']
-        },
-      	{
-          'text':'Simranjeet Singh, Basavaraju U, T.S. Sunil Kumar Naik, Sushant Kumar Behera, Nadeem A. Khan, Joginder Singh, Lakhveer Singh, Praveen C. Ramamurthy, Graphene oxide-based novel MOF nanohybrid for synergic removal of Pb (II) ions from aqueous solutions: Simulation and adsorption studies, Environmental Research, Volume 216, Part 4, 2023, 114750, ISSN 0013-9351.',
-          'links':[
-            'https://doi.org/10.1016/j.envres.2022.114750']
-        },
-        {
-          'text':'Simranjeet Singh, T.S.S.K. Naik, Nabila Shehata, Liliana Aguilar-Marcelino, Kunal Dhokne, Sapna Lonare, Vishakha Chauhan, Ajay Kumar, Joginder Singh, Praveen C Ramamurthy, Afzal Husain Khan, Nadeem A Khan, Mohammad Hadi Dehghani, Novel insights into graphene oxide-based adsorbents for remediation of hazardous pollutants from aqueous solutions: A comprehensive review, Journal of Molecular Liquids, Volume 369, 2023, 120821, ISSN 0167-7322.',
-          'links':[
-            'https://doi.org/10.1016/j.molliq.2022.120821']
-        },
-        {
-          'text':'T.S. Sunil Kumar Naik, Simranjeet Singh, Pavithra N, Radhika Varshney, Basavaraju Uppara, Joginder Singh, Nadeem A. Khan, Lakhveer Singh, Muhammad Zulqarnain Arshad, Praveen C. Ramamurthy, Advanced experimental techniques for the sensitive detection of a toxic bisphenol A using UiO-66-NDC/GO-based electrochemical sensor, Chemosphere, Volume 311, Part 2, 2023, 137104, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2022.137104']
-        },
-    	  {
-          'text':'Zhong, Y., Tian, B., Vishwakarma, B. D., Feng, W., Wu, Y., Bai, H., & Zhong, M. (2023). Reinterpreting global GRACE trends based on century-long GRACE-REC data. Water Resources Research, 59, e2023WR035817.',
-          'links':[
-            'https://doi.org/10.1029/2023WR035817']
-        },
-        {
-          'text':'Xiong, J., Abhishek, Xu, L., Chandanpurkar, H. A., Famiglietti, J. S., Zhang, C., Ghiggi, G., Guo, S., Pan, Y., and Vishwakarma, B. D.: ET-WB: water-balance-based estimations of terrestrial evaporation over global land and major global basins, Earth Syst. Sci. Data, 15, 4571–4597.',
-          'links':[
-            'https://doi.org/10.5194/essd-15-4571-2023']
-        },
-        {
-          'text':'F. Sabzehee, A.R. Amiri-Simkooei, S. Iran-Pour, B.D. Vishwakarma, R. Kerachian, Enhancing spatial resolution of GRACE-derived groundwater storage anomalies in Urmia catchment using machine learning downscaling methods, Journal of Environmental Management, Volume 330, 2023, 117180, ISSN 0301-4797.',
-          'links':[
-            'https://doi.org/10.1016/j.jenvman.2022.117180']
-        },
-        {
-          'text':'Bramha Dutt Vishwakarma, Yann Ziegler, Jonathan L Bamber, Sam Royston, Separating GIA signal from surface mass change using GPS and GRACE data, Geophysical Journal International, Volume 232, Issue 1, January 2023, Pages 537–547.',
-          'links':[
-            'https://doi.org/10.1093/gji/ggac336']
-        },
-        {
-          'text':'Rougier, J., Brady, A., Bamber, J., Chuter, S., Royston, S., Vishwakarma, B. D., Westaway, R., & Ziegler, Y. (2023). The scope of the Kalman filter for spatio-temporal applications in environmental science. Environmetrics, 34(1), e2773',
-          'links':[
-            'https://doi.org/10.1002/env.2773']
-        },
-        {
-          'text':'Yann Ziegler, Bramha Dutt Vishwakarma, Aoibheann Brady, Stephen Chuter, Sam Royston, Richard M Westaway, Jonathan L Bamber, Can GPS and GRACE data be used to separate past and present-day surface loading in a data-driven approach?, Geophysical Journal International, Volume 232, Issue 2, February 2023, Pages 884–901.',
-          'links':[
-            'https://doi.org/10.1093/gji/ggac365']
-        },
-   	    {
-          'text':'Venkatesh Budamala, Abhinav Wadhwa, Rajarshi Das Bhowmik, Amit Mahindrakar, Ramji Satyaji Rao Yellamelli, Kasiapillai S. Kasiviswanathan (2023). Multi-temporal downscaling of daily to sub-daily streamflow for flash flood watersheds at ungauged stations using a hybrid framework, Journal of Hydrology. Volume 625, Part B, 130110, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2023.130110']
-        },
-        {
-          'text':'Gupta Chanchal, Bhowmik Rajarshi Das (2023). Application of a bivariate bias-correction approach to yield long-term attributes of Indian precipitation and temperature, Frontiers in Climate. Vol.5 ISSN 2624-9553.',
-          'links':[
-            'https://doi.org/10.3389/fclim.2023.1067960']
-        },
-        {
-          'text':'Basu Bidroha, Das Bhowmik Rajarshi, Sankarasubramanian A. (2023). Changing Seasonality of Annual Maximum Floods over the Conterminous US: Potential Drivers and Regional Synthesis, Journal of Hydrologic Engineering. VL 28, 04023007.',
-          'links':[
-            'https://doi.org/10.1061/JHYEFF.HEENG-5768']
-        },
-	      {
-          'text':'Dey, P., Mathai, J., Sivapalan, M., and Mujumdar, P.: On the regional-scale streamflow variability using flow duration curve, Hydrol. Earth Syst. Sci. Discuss. [preprint], 2023.',
-          'links':[
-            'https://doi.org/10.5194/hess-2022-286 ']
-        },
-        {
-          'text':'Swarnkar, S., & Mujumdar, P. (2023). Increasing flood frequencies under warming in the west-central Himalayas. Water Resources Research, 59, e2022WR032772.',
-          'links':[
-            'https://doi.org/10.1029/2022WR032772']
-        },
-	      {
-          'text':'Thomas, T. M., G. Bala, S. V. Vemavarapu, and W. R. Boos, 2023: Opposite Changes in Monsoon Precipitation and Low Pressure System Frequency in Response to Orographic Forcing. J. Climate, 36, 6309–6329.',
-          'links':[
-            'https://doi.org/10.1175/JCLI-D-22-0476.1']
-        },
-        {
-          'text':'Thomas, T.M., Bala, G. & Vemavarapu, S.V. How do the characteristics of monsoon low pressure systems over India change under a warming climate? A modeling study using the NCAR CESM. Clim Dyn 61, 5017–5034 (2023).',
-          'links':[
-            'https://doi.org/10.1007/s00382-023-06837-0']
-        },
-        {
-          'text':'Rockström, J., Gupta, J., Qin, D. et al. Safe and just Earth system boundaries. Nature 619, 102–111 (2023).',
-          'links':[
-            'https://doi.org/10.1038/s41586-023-06083-8']
-        },
-	      {
-          'text':'Mariem Baccar, Hélène Raynal, Muddu Sekhar, Jacques-Eric Bergez, Magali Willaume, Pierre Casel, P. Giriraj, Sanjeeva Murthy, Laurent Ruiz, Dynamics of crop category choices reveal strategies and tactics used by smallholder farmers in India to cope with unreliable water availability, Agricultural Systems, Volume 211, 2023, 103744, ISSN 0308-521X.',
-          'links':[
-            'https://doi.org/10.1016/j.agsy.2023.103744']
-        },
-        {
-          'text':'Abhishek Chakraborty, M. Sekhar, Lakshminarayana Rao, The fate of vegetation carbon stocks of India: Insights from a remote-sensed evaluation of carbon use efficiency, Ecological Informatics, Volume 78, 2023, 102374, ISSN 1574-9541.',
-          'links':[
-            'https://doi.org/10.1016/j.ecoinf.2023.102374']
-        },
-        {
-          'text':'Kavita Verma, Manjari Manisha, R.M. Santrupt, T.P. Anirudha, Shubham Goswami, M. Sekhar, N. Ramesh, Mohan Kumar M S, H.N. Chanakya, Lakshminarayana Rao, Assessing groundwater recharge rates, water quality changes, and agricultural impacts of large-scale water recycling, Science of The Total Environment, Volume 877, 2023, 162869, ISSN 0048-9697.',
-          'links':[
-            'https://doi.org/10.1016/j.scitotenv.2023.162869']
-        },
-	      {
-          'text':'Mariem Baccar, Hélène Raynal, Muddu Sekhar, Jacques-Eric Bergez, Magali Willaume, Pierre Casel, P. Giriraj, Sanjeeva Murthy, Laurent Ruiz, Dynamics of crop category choices reveal strategies and tactics used by smallholder farmers in India to cope with unreliable water availability, Agricultural Systems, Volume 211, 2023, 103744, ISSN 0308-521X.',
-          'links':[
-            'https://doi.org/10.1016/j.agsy.2023.103744']
-        },
-        {
-          'text':'Abhishek Chakraborty, M. Sekhar, Lakshminarayana Rao, The fate of vegetation carbon stocks of India: Insights from a remote-sensed evaluation of carbon use efficiency, Ecological Informatics, Volume 78, 2023, 102374, ISSN 1574-9541.',
-          'links':[
-            'https://doi.org/10.1016/j.ecoinf.2023.102374']
-        },
-        {
-          'text':'Kavita Verma, Manjari Manisha, R.M. Santrupt, T.P. Anirudha, Shubham Goswami, M. Sekhar, N. Ramesh, Mohan Kumar M S, H.N. Chanakya, Lakshminarayana Rao, Assessing groundwater recharge rates, water quality changes, and agricultural impacts of large-scale water recycling, Science of The Total Environment, Volume 877, 2023, 162869, ISSN 0048-9697.',
-          'links':[
-            'https://doi.org/10.1016/j.scitotenv.2023.162869']
-        },
-	      {
-          'text':'Jaya Bhatt, V.V. Srinivas (2023). Re-inventing Bethlahmy method for estimating probable maximum precipitation, Journal of Hydrology. Volume 626, Part B, 130344, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2023.130344']
-        },
-        {
-          'text':'Thomas, T. M., G. Bala, S. V. Vemavarapu, and W. R. Boos, 2023: Opposite Changes in Monsoon Precipitation and Low Pressure System Frequency in Response to Orographic Forcing. J. Climate, 36, 6309–6329',
-          'links':[
-            'https://doi.org/10.1175/JCLI-D-22-0476.1']
-        },
-        {
-          'text':'Thomas, T.M., Bala, G. & Vemavarapu, S.V. How do the characteristics of monsoon low pressure systems over India change under a warming climate? A modeling study using the NCAR CESM. Clim Dyn 61, 5017–5034 (2023).',
-          'links':[
-            'https://doi.org/10.1007/s00382-023-06837-0']
-        },
-      	{
-          'text':'Abhishek Chakraborty, M. Sekhar, Lakshminarayana Rao,The fate of vegetation carbon stocks of India: Insights from a remote-sensed evaluation of carbon use efficiency, Ecological Informatics, Volume 78, 2023, 102374, ISSN 1574-9541.',
-          'links':[
-            'https://doi.org/10.1016/j.ecoinf.2023.102374']
-        },
-        {
-          'text':'Kavita Verma, Manjari Manisha, R.M. Santrupt, T.P. Anirudha, Shubham Goswami, M. Sekhar, N. Ramesh, Mohan Kumar M S, H.N. Chanakya, Lakshminarayana Rao, Assessing groundwater recharge rates, water quality changes, and agricultural impacts of large-scale water recycling, Science of The Total Environment, Volume 877, 2023, 162869, ISSN 0048-9697',
-          'links':[
-            'https://doi.org/10.1016/j.scitotenv.2023.162869']
-        }
+      {
+        'text':'Garg, S., Singh, S., Shehata, N., Sharma, H. B., Samuel, J., Khan, N. A., Ramamurthy, P. C., Singh, J., Mubashir, M., Bokhari, A., Ooi, D. J., & Show, P. L. (2023). Aerogels in wastewater treatment: A review. Journal of the Taiwan Institute of Chemical Engineers, 105299. ',
+        'links':[
+          'https://doi.org/10.1016/j.jtice.2023.105299']
+      },
+      {
+        'text':'Zhong, Y., Tian, B., Vishwakarma, B. D., Feng, W., Wu, Y., Bai, H., & Zhong, M. (2023). Reinterpreting global GRACE trends based on century-long GRACE-REC data. Water Resources Research, 59, e2023WR035817.',
+        'links':[
+          'https://doi.org/10.1029/2023WR035817']
+      },
+      {
+        'text':'Chakraborty, A., Sekhar, M., & Rao, L. (2023). The fate of vegetation carbon stocks of India: Insights from a remote-sensed evaluation of carbon use efficiency. Ecological Informatics, 78, 102374. ',
+        'links':[
+          'https://doi.org/10.1016/j.ecoinf.2023.102374']
+      },
+      {
+        'text':'Naik, T. S. S. K., Singh, S., Narasimhappa, P., & Ramamurthy, P. C. (2023). Green and sustainable synthesis of CaO nanoparticles: Its solicitation as a sensor material and electrochemical detection of urea. Scientific Reports, 13, 19995. ',
+        'links':[
+          'https://doi.org/10.1038/s41598-023-46728-2']
+      },
+      {
+        'text':'Dhaka, V., Singh, S., Ramamurthy, P. C., et al. (2023). Biological degradation of polyethylene terephthalate by rhizobacteria. Environmental Science and Pollution Research, 30, 116488–116497. ',
+        'links':[
+          'https://doi.org/10.1007/s11356-022-20324-9']
+      },
+      {
+        'text':'Bhatt, J., & Srinivas, V. V. (2023). Re-inventing Bethlahmy method for estimating probable maximum precipitation. Journal of Hydrology, 626, 130344. ',
+        'links':[
+          'https://doi.org/10.1016/j.jhydrol.2023.130344']
+      },
+      {
+        'text':'Singh, S., Narasimhappa, P., Uppara, B., Behera, S. K., Varshney, R., Naik, T. S. S. K., Khan, N. A., Singh, J., & Ramamurthy, P. C. (2023). Bio-engineered sensing of Atrazine by green CdS quantum dots: Evidence from electrochemical studies and DFT simulations. Chemosphere, 345, 140465. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2023.140465']
+      },
+      {
+        'text':'Singh, S., Singh, L., Kumar, V., Ali, W., Ramamurthy, P. C., Dhanjal, D. S., Sivaram, N., Angurana, R., Singh, J., Pandey, V. C., & Khan, N. A. (2023). Algae-based approaches for holistic wastewater management: A low-cost paradigm. Chemosphere, 345, 140470. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2023.140470']
+      },
+      {
+        'text':'Narasimhappa, P., Singh, S., & Ramamurthy, P. C. (2023). Synthesis of water-soluble CdS quantum dots for the fluorescence detection of tetracycline. Environmental Pollution, 338, 122682. ',
+        'links':[
+          'https://doi.org/10.1016/j.envpol.2023.122682']
+      },
+      {
+        'text':'Xiong, J., Abhishek, Xu, L., Chandanpurkar, H. A., Famiglietti, J. S., Zhang, C., Ghiggi, G., Guo, S., Pan, Y., & Vishwakarma, B. D. (2023). ET-WB: Water-balance-based estimations of terrestrial evaporation over global land and major global basins. Earth System Science Data, 15(10), 4571–4597. ',
+        'links':[
+          'https://doi.org/10.5194/essd-15-4571-2023']
+      },
+      {
+        'text':'Budamala, V., Wadhwa, A., Das Bhowmik, R., Mahindrakar, A., Yellamelli, R. S. R., & Kasiviswanathan, K. S. (2023). Multi-temporal downscaling of daily to sub-daily streamflow for flash flood watersheds at ungauged stations using a hybrid framework. Journal of Hydrology, 625(Part B), 130110. ',
+        'links':[
+          'https://doi.org/10.1016/j.jhydrol.2023.130110']
+      },
+      {
+        'text':'Baccar, M., Raynal, H., Sekhar, M., Bergez, J.-E., Willaume, M., Casel, P., Giriraj, P., Murthy, S., & Ruiz, L. (2023). Dynamics of crop category choices reveal strategies and tactics used by smallholder farmers in India to cope with unreliable water availability. Agricultural Systems, 211, 103744. ',
+        'links':[
+          'https://doi.org/10.1016/j.agsy.2023.103744']
+      },
+      {
+        'text':'Khan, N. A., López-Maldonado, E. A., Majumder, A., Singh, S., Varshney, R., López, J. R., Méndez, P. F., Ramamurthy, P. C., Khan, M. A., Khan, A. H., Mubarak, N. M., Amhad, W., Shamshuddin, S. Z. M., & Aljundi, I. H. (2023). A state-of-art-review on emerging contaminants: Environmental chemistry, health effect, and modern treatment methods. Chemosphere, 344, 140264. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2023.140264']
+      },
+      {
+        'text':'Narasimhappa, P., & Ramamurthy, P. C. (2023). Bio-mimicking the melanogenesis pathway using tyrosinase for dopamine sensing. Electrochimica Acta, 469, 143187. ',
+        'links':[
+          'https://doi.org/10.1016/j.electacta.2023.143187']
+      },
+      {
+        'text':'Thomas, T. M., Bala, G., Vemavarapu, S. V., & Boos, W. R. (2023). Opposite Changes in Monsoon Precipitation and Low Pressure System Frequency in Response to Orographic Forcing. Journal of Climate, 36(18), 6309-6329. ',
+        'links':[
+          'https://doi.org/10.1175/JCLI-D-22-0476.1']
+      },
+      {
+        'text':'Singh, S., Narasimhappa, P., Khan, N. A., Chauhan, V., Shehata, N., Behera, S. K., Singh, J., & Ramamurthy, P. C. (2023). Effective voltammetric tool for nano-detection of triazine herbicide (1-Chloro-3-ethylamino-5-isopropylamino-2,4,6-triazine) by naphthalene derivative. Environmental Research, 236(Part 2), 116808. ',
+        'links':[
+          'https://doi.org/10.1016/j.envres.2023.116808']
+      },
+      {
+        'text':'Dhanjal, D. S., Singh, S., Kumar, V., Ramamurthy, P. C., Chopra, C., Wani, A. K., Singh, R., & Singh, J. (2023). Isolation and characterization of cellulase-producing myxobacterial strain from the unique niche of Mirgund Wetland from the North-Western Himalayas. Journal of Applied Biology & Biotechnology, 11(5), 119-125. ',
+        'links':[
+          'http://doi.org/10.7324/JABB.2023.11514-1']
+      },
+      {
+        'text':'Godbole, V., Singh, S., Ramamurthy, P. C., Khan, N. A., Bisht, M., Pal, M. K., Singh, J., Kumar, G., Esrafili, A., & Yousefi, M. (2023). Electroactive microbe communication: A crucial aspect for energy generation in bio-electrochemical systems. Journal of Environmental Chemical Engineering, 11(5), 110646. ',
+        'links':[
+          'https://doi.org/10.1016/j.jece.2023.110646']
+      },
+      {
+        'text':'Khan, N. A., Singh, S., López-Maldonado, E. A., Narasimhappa, P., Méndez-Herrera, P. F., López-López, J. R., Baig, U., Ramamurthy, P. C., Mubarak, N. M., Karri, R. R., & Aljundi, I. H. (2023). Emerging membrane technology and hybrid treatment systems for the removal of micropollutants from wastewater. Desalination, 565, 116873. ',
+        'links':[
+          'https://doi.org/10.1016/j.desal.2023.116873']
+      },
+      {
+        'text':'Vishnu, G., Singh, S., Kaul, N., Ramamurthy, P. C., Naik, T. S. S. K., Viswanath, R., Kumar, V., Bhojya Naik, H. S., Prathap, A., Kumara, A. H., Singh, J., & Khan, N. A. (2023). Green synthesis of nickel-doped magnesium ferrite nanoparticles via combustion for facile microwave-assisted optical and photocatalytic applications. Environmental Research, 235, 116598. ',
+        'links':[
+          'https://doi.org/10.1016/j.envres.2023.116598']
+      },
+      {
+        'text':'Verma, K., Manisha, M., Santrupt, R. M., Anirudha, T. P., Goswami, S., Sekhar, M., Ramesh, N., Kumar, M. S. M., Chanakya, H. N., & Rao, L. (2023). Assessing groundwater recharge rates, water quality changes, and agricultural impacts of large-scale water recycling. Science of The Total Environment, 877, 162869. ',
+        'links':[
+          'https://doi.org/10.1016/j.scitotenv.2023.162869']
+      },
+      {
+        'text':'Thomas, T. M., Bala, G., & Vemavarapu, S. V. (2023). How do the characteristics of monsoon low pressure systems over India change under a warming climate? A modeling study using the NCAR CESM. Climate Dynamics, 61, 5017–5034. ',
+        'links':[
+          'https://doi.org/10.1007/s00382-023-06837-0']
+      },
+      {
+        'text':'Verma, K., Manisha, M., Santrupt, R. M., Anirudha, T. P., Goswami, S., Sekhar, M., Ramesh, N., Kumar, M. S. M., Chanakya, H. N., & Rao, L. (2023). Assessing groundwater recharge rates, water quality changes, and agricultural impacts of large-scale water recycling. Science of The Total Environment, 877, 162869. ',
+        'links':[
+          'https://doi.org/10.1016/j.scitotenv.2023.162869']
+      },
+      {
+        'text':'Thomas, T. M., Bala, G., & Vemavarapu, S. V. (2023). How do the characteristics of monsoon low pressure systems over India change under a warming climate? A modeling study using the NCAR CESM. Climatic Dynamics, 61, 5017–5034. ',
+        'links':[
+          'https://doi.org/10.1007/s00382-023-06837-0']
+      },
+      {
+        'text':'Narasimhappa, P., Varshney, R., Singh, S., Naik, T. S. S. K., & Ramamurthy, P. C. (2023). 3D rhombohedral microcrystals metal-organic frameworks for electrochemical and fluorescence sensing of tetracycline. Chemosphere, 333, 138977. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2023.138977']
+      },
+      {
+        'text':'Bhardwaj, S., Sharma, D., Singh, S., et al. (2023). Physiological and molecular insights into the role of silicon in improving plant performance under abiotic stresses. Plant and Soil, 486, 25–43. ',
+        'links':[
+          'https://doi.org/10.1007/s11104-022-05395-4']
+      },
+      {
+        'text':'Rockström, J., Gupta, J., Qin, D., et al. (2023). Safe and just Earth system boundaries. Nature, 619, 102–111. ',
+        'links':[
+          'https://doi.org/10.1038/s41586-023-06083-8']
+      },
+      {
+        'text':'Nath, B., Singh, S., Behera, S. K., Ramamurthy, P. C., Mahapatra, D. R., & Hegde, G. (2023). Perovskite solar cell performance analysis via interface engineering employing MOF-composite. Solar Energy, 257, 249-256. ',
+        'links':[
+          'https://doi.org/10.1016/j.solener.2023.04.035']
+      },
+      {
+        'text':'Kumar, V., Ramamurthy, P. C., Singh, S., Dhanjal, D. S., Parihar, P., Bhatia, D., Prasad, R., & Singh, J. (2023). Phytochemistry and ethnomedicinal qualities of metabolites from Phyllanthus emblica L.: A review. BioCell, 47(5), 1159-1176. ',
+        'links':[
+          'https://doi.org/10.32604/biocell.2023.022065']
+      },
+      {
+        'text':'Anil, A. G., Singh, S., Joji, J., Singh, J., & Ramamurthy, P. C. (2023). Conducting polymer based sensor. In A. S. M. A. Haseeb (Ed.), Encyclopedia of Materials: Electronics (pp. 28-35). Academic Press',
+        'links':[
+          'https://doi.org/10.1016/B978-0-12-819728-8.00125-X']
+      },
+      {
+        'text':'Dey, P., Mathai, J., Sivapalan, M., & Mujumdar, P. (2023). On the regional-scale streamflow variability using flow duration curve. Hydrology and Earth System Sciences Discussions.',
+        'links':[
+          'https://doi.org/10.5194/hess-2022-286']
+      },
+      {
+        'text':'Singh, S., Naik, T. S. S. K., Uppara, B., Narasimhappa, P., Varshney, R., Chauhan, V., Shehata, N., Thamaraiselvan, C., Subramanian, S., Singh, J., Khan, N. A., Zahmatkesh, S., Singh, L., & Ramamurthy, P. C. (2023). Novel and sustainable green sulfur-doped carbon nanospheres via hydrothermal process for Cd (II) ion removal. Chemosphere, 328, 138533. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2023.138533']
+      },
+      {
+        'text':'Vishnu, G., Singh, S., Naik, T. S. S. K., Viswanath, R., Ramamurthy, P. C., Bhadrecha, P., Bhojya Naik, H. S., Singh, J., Khan, N. A., & Zahmatkesh, S. (2023). Photodegradation of methylene blue dye using light-driven photocatalyst-green cobalt doped cadmium ferrite nanoparticles as antibacterial agents. Journal of Cleaner Production, 404, 136977. ',
+        'links':[
+          'https://doi.org/10.1016/j.jclepro.2023.136977']
+      },
+      {
+        'text':'Sabzehee, F., Amiri-Simkooei, A. R., Iran-Pour, S., Vishwakarma, B. D., & Kerachian, R. (2023). Enhancing spatial resolution of GRACE-derived groundwater storage anomalies in Urmia catchment using machine learning downscaling methods. Journal of Environmental Management, 330, 117180. ',
+        'links':[
+          'https://doi.org/10.1016/j.jenvman.2022.117180']
+      },
+      {
+        'text':'Gupta, C., & Bhowmik, R. D. (2023). Application of a bivariate bias-correction approach to yield long-term attributes of Indian precipitation and temperature. Frontiers in Climate, 5. ',
+        'links':[
+          'https://doi.org/10.3389/fclim.2023.1067960']
+      },
+      {
+        'text':'Ziegler, Y., Vishwakarma, B. D., Brady, A., Chuter, S., Royston, S., Westaway, R. M., & Bamber, J. L. (2023). Can GPS and GRACE data be used to separate past and present-day surface loading in a data-driven approach? Geophysical Journal International, 232(2), 884–901. ',
+        'links':[
+          'https://doi.org/10.1093/gji/ggac365']
+      },
+      {
+        'text':'Rougier, J., Brady, A., Bamber, J., Chuter, S., Royston, S., Vishwakarma, B. D., Westaway, R., & Ziegler, Y. (2023). The scope of the Kalman filter for spatio-temporal applications in environmental science. Environmetrics, 34(1), e2773. ',
+        'links':[
+          'https://doi.org/10.1002/env.2773']
+      },
+      {
+        'text':'Basu, B., Bhowmik, R. D., & Sankarasubramanian, A. (2023). Changing seasonality of annual maximum floods over the conterminous US: Potential drivers and regional synthesis. Journal of Hydrologic Engineering, 28(4), 04023007. ',
+        'links':[
+          'https://doi.org/10.1061/JHYEFF.HEENG-5768']
+      },
+      {
+        'text':'Singh, S., Narasimhappa, P., Naik, T. S. S. K., Uppara, B., Thamaraiselvan, C., Behera, S. K., Kour, R., Dwivedi, P., Subramanian, S., Khan, N. A., Singh, J., & Ramamurthy, P. C. (2023). Removal of Pb ions using green Co3O4 nanoparticles: Simulation, modeling, adsorption, and biological studies. Environmental Research, 222, 115335. ',
+        'links':[
+          'https://doi.org/10.1016/j.envres.2023.115335']
+      },
+      {
+        'text':'Singh, S., Naik, T. S. S. K., Thamaraiselvan, C., Behera, S. K., Narasimhappa, P., Nath, B., Dwivedi, P., Singh, J., & Ramamurthy, P. C. (2023). Applicability of new sustainable and efficient green metal-based nanoparticles for removal of Cr(VI): Adsorption, antimicrobial, and DFT studies. Environmental Pollution, 320, 121105. ',
+        'links':[
+          'https://doi.org/10.1016/j.envpol.2023.121105']
+      },
+      {
+        'text':'Kour, R., Singh, S., Sharma, H. B., Naik, T. S. S. K., Shehata, N., Narasimhappa, P., Ali, W., Kapoor, D., Dhanjal, D. S., Singh, J., Khan, A. H., Khan, N. A., Yousefi, M., & Ramamurthy, P. C. (2023). Persistence and remote sensing of agri-food wastes in the environment: Current state and perspectives. Chemosphere, 317, 137822. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2023.137822']
+      },
+      {
+        'text':'Singh, S., Uppara, B., Naik, T. S. S. K., Behera, S. K., Khan, N. A., Singh, J., Singh, L., & Ramamurthy, P. C. (2023). Graphene oxide-based novel MOF nanohybrid for synergic removal of Pb (II) ions from aqueous solutions: Simulation and adsorption studies. Environmental Research, 216(Part 4), 114750. ',
+        'links':[
+          'https://doi.org/10.1016/j.envres.2022.114750']
+      },
+      {
+        'text':'Singh, S., Naik, T. S. S. K., Shehata, N., Aguilar-Marcelino, L., Dhokne, K., Lonare, S., Chauhan, V., Kumar, A., Singh, J., Ramamurthy, P. C., Khan, A. H., Khan, N. A., & Dehghani, M. H. (2023). Novel insights into graphene oxide-based adsorbents for remediation of hazardous pollutants from aqueous solutions: A comprehensive review. Journal of Molecular Liquids, 369, 120821. ',
+        'links':[
+          'https://doi.org/10.1016/j.molliq.2022.120821']
+      },
+      {
+        'text':'Swarnkar, S., & Mujumdar, P. (2023). Increasing flood frequencies under warming in the west-central Himalayas. Water Resources Research, 59, e2022WR032772. ',
+        'links':[
+          'https://doi.org/10.1029/2022WR032772']
+      },
+      {
+        'text':'Vishwakarma, B. D., Ziegler, Y., Bamber, J. L., & Royston, S. (2023). Separating GIA signal from surface mass change using GPS and GRACE data. Geophysical Journal International, 232(1), 537–547. ',
+        'links':[
+          ' https://doi.org/10.1093/gji/ggac336']
+      }
     ]
   },
 
 {
     year: '2022',
     publications: [
-        {
-          'text':'Simranjeet Singh, Basavaraju U, T.S. Sunil Kumar Naik, Sushant Kumar Behera, Nadeem A. Khan, Joginder Singh, Lakhveer Singh, Praveen C. Ramamurthy, Graphene oxide-based novel MOF nanohybrid for synergic removal of Pb (II) ions from aqueous solutions: Simulation and adsorption studies, Environmental Research, Volume 216, Part 4, 2023, 114750, ISSN 0013-9351.',
-          'links':[
-            'https://doi.org/10.1016/j.envres.2022.114750']
-        },
-        {
-          'text':'Simranjeet Singh, T.S.S.K. Naik, Nabila Shehata, Liliana Aguilar-Marcelino, Kunal Dhokne, Sapna Lonare, Vishakha Chauhan, Ajay Kumar, Joginder Singh, Praveen C Ramamurthy, Afzal Husain Khan, Nadeem A Khan, Mohammad Hadi Dehghani, Novel insights into graphene oxide-based adsorbents for remediation of hazardous pollutants from aqueous solutions: A comprehensive review, Journal of Molecular Liquids, Volume 369, 2023, 120821, ISSN 0167-7322.',
-          'links':[
-            'https://doi.org/10.1016/j.molliq.2022.120821']
-        },
-        {
-          'text':'T.S. Sunil Kumar Naik, Simranjeet Singh, Pavithra N, Radhika Varshney, Basavaraju Uppara, Joginder Singh, Nadeem A. Khan, Lakhveer Singh, Muhammad Zulqarnain Arshad, Praveen C. Ramamurthy, Advanced experimental techniques for the sensitive detection of a toxic bisphenol A using UiO-66-NDC/GO-based electrochemical sensor, Chemosphere, Volume 311, Part 2, 2023, 137104, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2022.137104']
-        },
-	{
-          'text':'Singh, S., Naik, T.S.S.K., U, B. et al. A systematic study of arsenic adsorption and removal from aqueous environments using novel graphene oxide functionalized UiO-66-NDC nanocomposites. Sci Rep 12, 15802 (2022).',
-          'links':[
-            'https://doi.org/10.1038/s41598-022-18959-2']
-        },
-        {
-          'text':'Pawar, A., Singh, S., Ramamurthy, P.C. et al. Toxicity, Environmental Monitoring and Removal Strategies of Arsenic. Int J Environ Res 16, 66 (2022).',
-          'links':[
-            'https://doi.org/10.1007/s41742-022-00442-5']
-        },
-        {
-          'text':'Simranjeet Singh, T.S. Sunil Kumar Naik, Vishakha Chauhan, Nabila Shehata, Harry Kaur, Daljeet Singh Dhanjal, Liliana Aguilar Marcelino, Shipra Bhati, S. Subramanian, Joginder Singh, Praveen C. Ramamurthy, Ecological effects, remediation, distribution, and sensing techniques of chromium, Chemosphere, Volume 307, Part 2, 2022, 135804, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2022.135804']
-        },
-        {
-          'text':'M. Shah, S. Singh, P. C. Ramamurthy, D. S. Dhanjal, S. Rana, D. Bhatia, R. Kanwar, N. R. Sharma, J. Singh, Design and Development of Onsite Biofilter Unit for Effective Remediation of Contaminants from Wastewater. Clean – Soil, Air, Water 2023, 51, 2100396.',
-          'links':[
-            'https://doi.org/10.1002/clen.202100396']
-        },
-        {
-          'text':'Simranjeet Singh, T.S. Sunil Kumar Naik, Amith G. Anil, Sutripto Khasnabis, Bidisha Nath, Basavaraju U, Vineet Kumar, V.K. Garg, S. Subramanian, Joginder Singh, Praveen C. Ramamurthy, A novel CaO nanocomposite cross linked graphene oxide for Cr(VI) removal and sensing from wastewater, Chemosphere, Volume 301, 2022, 134714, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2022.134714']
-        },
-        {
-          'text':'Dhaka, V., Singh, S., Ramamurthy, P.C. et al. Biological degradation of polyethylene terephthalate by rhizobacteria. Environ Sci Pollut Res 30, 116488–116497 (2023).',
-          'links':[
-            'https://doi.org/10.1007/s11356-022-20324-9']
-        },
-        {
-          'text':'Bhardwaj, S., Sharma, D., Singh, S. et al. Physiological and molecular insights into the role of silicon in improving plant performance under abiotic stresses. Plant Soil 486, 25–43 (2023).',
-          'links':[
-            'https://doi.org/10.1007/s11104-022-05395-4']
-        },
-        {
-          'text':'Simranjeet Singh, Amith G. Anil, T.S. Sunil Kumar Naik, Basavaraju U., Sutripto Khasnabis, Bidisha Nath, Vineet Kumar, S. Subramanian, Joginder Singh, Praveen C. Ramamurthy, Mechanism and kinetics of Cr(VI) adsorption on biochar derived from Citrobacter freundii under different pyrolysis temperatures, Journal of Water Process Engineering, Volume 47, 2022, 102723, ISSN 2214-7144.',
-          'links':[
-            'https://doi.org/10.1016/j.jwpe.2022.102723']
-        },
-        {
-          'text':'Vineet Kumar, Fuad Ameen, M. Amirul Islam, Sakshi Agrawal, Ankit Motghare, Abhijit Dey, Maulin P. Shah, Juliana Heloisa Pinê Américo-Pinheiro, Simranjeet Singh, Praveen C. Ramamurthy, Evaluation of cytotoxicity and genotoxicity effects of refractory pollutants of untreated and biomethanated distillery effluent using Allium cepa, Environmental Pollution, Volume 300, 2022, 118975, ISSN 0269-7491.',
-          'links':[
-            'https://doi.org/10.1016/j.envpol.2022.118975']
-        },
-        {
-          'text':'Naik, T.S.S.K., Swamy, B.E.K., Singh, S. et al. Fabrication and theoretical analysis of sodium alpha-olefin sulfonate-anchored carbon paste electrode for the simultaneous detection of adrenaline and paracetamol. J Appl Electrochem 52, 697–708 (2022).',
-          'links':[
-            'https://doi.org/10.1007/s10800-021-01663-w']
-        },
-        {
-          'text':'Dhaka, V., Singh, S., Anil, A.G. et al. Occurrence, toxicity and remediation of polyethylene terephthalate plastics. A review. Environ Chem Lett 20, 1777–1800 (2022).',
-          'links':[
-            'https://doi.org/10.1007/s10311-021-01384-8']
-        },
-        {
-          'text':'Vineet Kumar, Sakshi Agrawal, Sushil Kumar Shahi, Ankit Motghare, Simranjeet Singh, Praveen C. Ramamurthy, Bioremediation potential of newly isolated Bacillus albus strain VKDS9 for decolourization and detoxification of biomethanated distillery effluent and its metabolites characterization for environmental sustainability, Environmental Technology & Innovation, Volume 26, 2022, 102260, ISSN 2352-1864.',
-          'links':[
-            'https://doi.org/10.1016/j.eti.2021.102260']
-        },
-        {
-          'text':'T.S. Sunil Kumar Naik, Arul Varman Kesavan, B.E. Kumara Swamy, Simranjeet Singh, Amith G. Anil, V. Madhavi, Praveen C. Ramamurthy, Low cost, trouble-free disposable pencil graphite electrode sensor for the simultaneous detection of hydroquinone and catechol, Materials Chemistry and Physics, Volume 278, 2022, 125663, ISSN 0254-0584.',
-          'links':[
-            'https://doi.org/10.1016/j.matchemphys.2021.125663']
-        },
-        {
-          'text':'Simranjeet Singh, Amith G. Anil, Vijay Kumar, Dhriti Kapoor, S. Subramanian, Joginder Singh, Praveen C. Ramamurthy, Nitrates in the environment: A critical review of their distribution, sensing techniques, ecological effects and remediation, Chemosphere, Volume 287, Part 1, 2022, 131996, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2021.131996']
-        },
-        {
-          'text':'Simranjeet Singh, Amith G. Anil, Sutripto Khasnabis, Vijay Kumar, Bidisha Nath, Varun Adiga, T.S. Sunil Kumar Naik, S. Subramanian, Vineet Kumar, Joginder Singh, Praveen C. Ramamurthy, Sustainable removal of Cr(VI) using graphene oxide-zinc oxide nanohybrid: Adsorption kinetics, isotherms and thermodynamics, Environmental Research, Volume 203, 2022, 111891, ISSN 0013-9351.',
-          'links':[
-            'https://doi.org/10.1016/j.envres.2021.111891']
-        },
-        {
-          'text':'Simranjeet Singh, T. S. Sunil Kumar Naik, Amith G. Anil, Jaskaran Dhiman, Vijay Kumar, Daljeet Singh Dhanjal, Liliana Aguilar-Marcelino, Joginder Singh, Praveen C. Ramamurthy, Micro (nano) plastics in wastewater: A critical review on toxicity risk assessment, behaviour, environmental impact and challenges, Chemosphere, Volume 290, 2022, 133169, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2021.133169']
-        },
-        {
-          'text':'Simranjeet Singh, Sutripto Khasnabis, Amith G. Anil, Vijay Kumar, TS Sunil Kumar Naik, Bidisha Nath, Vinod Kumar Garg, Joginder Singh, Praveen C. Ramamurthy, Multifunctional nanohybrid for simultaneous detection and removal of Arsenic(III) from aqueous solutions, Chemosphere, Volume 289, 2022, 133101, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2021.133101']
-        },
-        {
-          'text':'Singh S, Kumar V, Anil AG, Romero R, Ramamurthy PC, Singh J. Biodegradation of phorate by bacterial strains in the presence of humic acid and metal ions. J Basic Microbiol. 2022; 62: 498–507.',
-          'links':[
-            'https://doi.org/10.1002/jobm.202100332']
-        },
-	      {
-          'text':'Vishwakarma Bramha Dutt , Ramsankaran RAAJ , Azam Mohd. Farooq , Bolch Tobias , Mandal Arindan , Srivastava Smriti , Kumar Pankaj , Sahu Rakesh , Navinkumar Perumal Jayaraman , Tanniru Srinivasa Rao , Javed Aaquib , Soheb Mohd , Dimri A. P. , Yadav Mohit , Devaraju Balaji , Chinnasamy Pennan , Reddy Manne Janga , Murugesan Geetha Priya , Arora Manohar , Jain Sharad K. , Ojha C. S. P. , Harrison Stephan , Bamber Jonathan  TITLE=Challenges in Understanding the Variability of the Cryosphere in the Himalaya and Its Impact on Regional Water Resources ,JOURNAL=Frontiers in Water, VOLUME=4 ,YEAR=2022, ISSN=2624-9375.',
-          'links':[
-            'https://doi.org/10.3389/frwa.2022.909246']
-        },
-        {
-          'text':'Bramha Dutt Vishwakarma, Martin Horwath, Andreas Groh, Jonathan L Bamber, Accounting for GIA signal in GRACE products, Geophysical Journal International, Volume 228, Issue 3, March 2022, Pages 2056–2060.',
-          'links':[
-            'https://doi.org/10.1093/gji/ggab464']
-        },
-        {
-          'text':'Lehmann, F., Vishwakarma, B. D., and Bamber, J.: How well are we able to close the water budget at the global scale? Hydrol. Earth Syst. Sci., 26, 35–54,',
-          'links':[
-            'https://doi.org/10.5194/hess-26-35-2022']
-        },
-	{
-          'text':'Joseph R, Mujumdar PP, Das Bhowmik R. Reconstruction of Urban Rainfall Measurements to Estimate the Spatiotemporal Variability of Extreme Rainfall. Water. 2022; 14(23):3900.',
-          'links':[
-            'https://doi.org/10.3390/w14233900']
-        },
-	{
-          'text':'Joseph, Risma, P. P. Mujumdar, and Rajarshi Das Bhowmik. 2022. "Reconstruction of Urban Rainfall Measurements to Estimate the Spatiotemporal Variability of Extreme Rainfall" Water 14, no. 23: 3900.',
-          'links':[
-            'https://doi.org/10.3390/w14233900 ']
-        },
-        {
-          'text':'Davis Saimy, Pentakota Likhitha, Saptarishy Nikita, Mujumdar Pradeep. P. (2022) A Flood Forecasting Framework Coupling a High Resolution WRF Ensemble With an Urban Hydrologic Model, Frontiers in Earth Science 10, 2296-6463.',
-          'links':[
-            'https://doi.org/10.3389/feart.2022.883842 ']
-        },
-        {
-          'text':'Mathai, J. and Mujumdar, P. P.: Use of streamflow indices to identify the catchment drivers of hydrographs, Hydrol. Earth Syst. Sci., 26, 2019–2033, 2022.',
-          'links':[
-            'https://doi.org/10.5194/hess-26-2019-2022']
-        },
-        {
-          'text':'Sharma, S., & Mujumdar, P. P. (2022). Modeling concurrent hydroclimatic extremes with parametric multivariate extreme value models. Water Resources Research, 58, e2021WR031519.',
-          'links':[
-            'https://doi.org/10.1029/2021WR031519 ']
-        },
-        {
-          'text':'Pankaj Dey & Pradeep Mujumdar (2022) On the statistical complexity of streamflow, Hydrological Sciences Journal, 67:1, 40-53.',
-          'links':[
-            'https://doi.org/10.1080/02626667.2021.2000991']
-        },
-        {
-          'text':'Santy Sneha, Mujumdar Pradeep, Bala Govindasamy (2022). Increased risk of water quality deterioration under climate change in Ganga River, Frontiers in Water. 4, 2624-9375.',
-          'links':[
-            'https://doi.org/10.3389/frwa.2022.971623']
-        },
-        {
-          'text':'Kaginalkar, Akshara, Sachin D. Ghude, U. C. Mohanty, Pradeep Mujumdar, Sudheer Bhakare, Hemant Darbari, Arun K. Dwivedi, Pallavi Gavali, Srujan Gavhale, Sahidul Islam, Gouri Kadam, Sumita Kedia, Manoj Khare, Neelesh Kharkar, Santosh H. Kulkarni, Sri Sai Meher, A. K. Nath, Mohamed Niyaz, Sagar Pokale, Vineeth Krishnan Valappil, Sreyashi Debnath, Chinmay Jena, Raghu Nadimpalli, Madhusmita Swain, Saimy Davis, Shubha Avinash, C. Kishtawal, Prashant Gargava, S. D. Attri, and Dev Niyogi. "Integrated Urban Environmental System of Systems for Weather Ready Cities in India", Bulletin of the American Meteorological Society 103, 1 (2022): E54-E76.',
-          'links':[
-            'https://doi.org/10.1175/BAMS-D-20-0279.1']
-        },
-	{
-          'text':'Tresa Mary Thomas, Govindasamy Bala, Srinivas Vemavarapu. Influence of Himalayan and Tibetan Orography on the Statistics of Monsoon Low Pressure Systems over the Indian Subcontinent. Authorea. February 13, 2022',
-          'links':[
-            'https://doi.org/10.1002/essoar.10510510.1']
-        },
-        {
-          'text':'Thomas, T. M., Bala, G., & Vemavarapu, S. V. (2022). CESM simulation of monsoon low pressure systems over India. International Journal of Climatology, 42(11), 5964–5984.',
-          'links':[
-            'https://doi.org/10.1002/joc.7571']
-        },
-        {
-          'text':'Santy Sneha , Mujumdar Pradeep , Bala Govindasamy (2022). Increased risk of water quality deterioration under climate change in Ganga River, Frontiers in Water. Vol.4, ISSN=2624-9375.',
-          'links':[
-            'https://doi.org/10.3389/frwa.2022.971623']
-        },
-  	{
-          'text':'Fischer, C., Aubron, C., Trouvé, A. et al. Groundwater irrigation reduces overall poverty but increases socioeconomic vulnerability in a semiarid region of southern India. Sci Rep 12, 8850 (2022).',
-          'links':[
-            'https://doi.org/10.1038/s41598-022-12814-0']
-        },
-        {
-          'text':'Bentje Brauns, Somsubhra Chattopadhyay, Dan J. Lapworth, Sian E. Loveless, Alan M. MacDonald, Andrew A. McKenzie, Muddu Sekhar, Siva Naga Venkat Nara, Veena Srinivasan, Assessing the role of groundwater recharge from tanks in crystalline bedrock aquifers in Karnataka, India, using hydrochemical tracers, Journal of Hydrology X, Volume 15, 2022, 100121, ISSN 2589-9155.',
-          'links':[
-            'https://doi.org/10.1016/j.hydroa.2022.100121']
-        },
-        {
-          'text':'Bhanja SN, Sekhar M. Short-Term and Long-Term Replenishment of Water Storage Influenced by Lockdown and Policy Measures in Drought-Prone Regions of Central India. Remote Sensing. 2022; 14(8):1768',
-          'links':[
-            'https://doi.org/10.3390/rs14081768']
-        },
-	{
-          'text':'Ghosh, P., Rajawat, V.S., Nazir, A. et al. Stable isotope on hilsa shad (Tenualosa ilisha) otoliths revealed migratory behavior of a population found in Hooghly River, West Bengal, India. Environ Biol Fish 105, 1909–1918 (2022).',
-          'links':[
-            'https://doi.org/10.1007/s10641-022-01215-x']
-        },
-        {
-          'text':'Surajit Mondal, Ramananda Chakrabarti, Prosenjit Ghosh, A multi-proxy (δ44/40Ca, Sr/Ca, and Δ47) study of fish otoliths for determination of seawater temperature, Chemical Geology, Volume 605, 2022, 120950, ISSN 0009-2541.',
-          'links':[
-            'https://doi.org/10.1016/j.chemgeo.2022.120950']
-        },
-        {
-          'text':'Aafaq Nazir, M. Afzal Khan, Prosenjit Ghosh, Assessment of variations in metal concentrations of the Ganges River water by using multivariate statistical techniques, Limnologica, Volume 95, 2022, 125989, ISSN 0075-9511.',
-          'links':[
-            'https://doi.org/10.1016/j.limno.2022.125989']
-        },
- 	{
-          'text':'Sreeparvathy, V., Srinivas, V.V. Meteorological flash droughts risk projections based on CMIP6 climate change scenarios. npj Clim Atmos Sci 5, 77 (2022)',
-          'links':[
-            'https://doi.org/10.1038/s41612-022-00302-1']
-        },
-        {
-          'text':'Thomas, T. M., Bala, G., & Vemavarapu, S. V. (2022). CESM simulation of monsoon low pressure systems over India. International Journal of Climatology, 42(11), 5964–5984.',
-          'links':[
-            'https://doi.org/10.1002/joc.7571']
-        },
-        {
-          'text':'Swapan Kumar Masanta, V.V. Srinivas (2022). Proposal and evaluation of nonstationary versions of SPEI and SDDI based on climate covariates for regional drought analysis, Journal of Hydrology. Volume 610, 127808, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2022.127808']
-        },
-        {
-          'text':'Sreeparvathy, V., Srinivas, V.V. Global assessment of spatiotemporal variability of wet, normal and dry conditions using multiscale entropy-based approach. Sci Rep 12, 9767 (2022).',
-          'links':[
-            'https://doi.org/10.1038/s41598-022-13830-w']
-        },
-        {
-          'text':'Kiran, K. G., & Srinivas, V. V. (2022). Multivariate regional frequency analysis using conditional extreme values approach. Water Resources Research, 58, e2021WR031095.',
-          'links':[
-            'https://doi.org/10.1029/2021WR031095']
-        },
-        {
-          'text':'Sreeparvathy, V., & Srinivas, V. V. (2022). A Bayesian fuzzy clustering approach for design of precipitation gauge network using merged remote sensing and ground-based precipitation products. Water Resources Research, 58, e2021WR030612.',
-          'links':[
-            'https://doi.org/10.1029/2021WR030612']
-        },
-  	{
-          'text':'Surajit Mondal, Ramananda Chakrabarti, Prosenjit Ghosh (2022). A multi-proxy (δ44/40Ca, Sr/Ca, and Δ47) study of fish otoliths for determination of seawater temperature, Chemical Geology. Volume 605, 120950, ISSN 0009-2541',
-          'links':[
-            'https://doi.org/10.1016/j.chemgeo.2022.120950']
-        },
-        {
-          'text':'Ganguly, Sourav; Chakrabarti, Ramananda (2022). High precision TIMS measurements of stable Sr isotopes (δ88/86Sr) of standards with different matrices and depth bound seawater samples from the Bay of Bengal using a new 87Sr–84Sr double-spike, Journal of Analytical Atomic Spectrometry. Vol.37, pp.1961-71, SN 0267-9477',
-          'links':[
-            'http://dx.doi.org/10.1039/D2JA00187J']
-        },
-        {
-          'text':'Acharya Shiba Shankar, Hishamunda Valens, Chakrabarti Ramananda (2022). Natural Sources and Anthropogenic Influences on the River Water and Groundwater Chemistry of the Lower Mahanadi Basin: Insights From Radiogenic Sr Isotopes and Major Ion Chemistry, Frontiers in Water. Vol.4, ISSN 2624-9375.',
-          'links':[
-            'https://doi.org/10.3389/frwa.2022.846438']
-        },
- 	{
-          'text':'T. Reshma Mohan, M.S Mohan Kumar, Lakshminarayana Rao, Biofouling of hollow fiber ultrafiltration membranes: A novel multiphase CFD – Porous - CES model and experimental study, Journal of Membrane Science, Volume 663, 2022, 121034, ISSN 0376-7388.',
-          'links':[
-            'https://doi.org/10.1016/j.memsci.2022.121034']
-        },
-        {
-          'text':'T. Reshma Mohan, M.S. Mohan Kumar, Lakshminarayana Rao, An integrated hydrodynamic-biokinetic model to optimize the treatment processes in a laboratory-scale, pilot-scale, and full-scale bioreactor, Journal of Water Process Engineering, Volume 49, 2022, 103108, ISSN 2214-7144.',
-          'links':[
-            'https://doi.org/10.1016/j.jwpe.2022.103108']
-        },
-	{
-          'text':'Reshma Mohan T, H.N. Chanakya, M.S. Mohan Kumar, Lakshminarayana Rao, Achieving biological nutrient removal in an old sewage treatment plant through process modifications – A simulation and experimental study, Journal of Water Process Engineering, Volume 45, 2022, 102461, ISSN 2214-7144.',
-          'links':[
-            'https://doi.org/10.1016/j.jwpe.2021.102461']
-        }
+      {
+        'text':'Mohan, T. R., Kumar, M. S., & Rao, L. (2022). Biofouling of hollow fiber ultrafiltration membranes: A novel multiphase CFD–porous–CES model and experimental study. Journal of Membrane Science, 663, 121034. ',
+        'links':[
+          '. https://doi.org/10.1016/j.memsci.2022.121034']
+      },
+      {
+        'text':'Joseph, R., Mujumdar, P. P., & Das Bhowmik, R. (2022). Reconstruction of urban rainfall measurements to estimate the spatiotemporal variability of extreme rainfall. Water, 14(23), 3900.',
+        'links':[
+          'https://doi.org/10.3390/w14233900']
+      },
+      {
+        'text':'Mohan, T. R., Kumar, M. S., & Rao, L. (2022). An integrated hydrodynamic-biokinetic model to optimize the treatment processes in a laboratory-scale, pilot-scale, and full-scale bioreactor. Journal of Water Process Engineering, 49, 103108. ',
+        'links':[
+          ' https://doi.org/10.1016/j.jwpe.2022.103108']
+      },
+      {
+        'text':'Sreeparvathy, V., & Srinivas, V. V. (2022). Meteorological flash droughts risk projections based on CMIP6 climate change scenarios. npj Climate and Atmospheric Science, 5, 77. ',
+        'links':[
+          ' https://doi.org/10.1038/s41612-022-00302-1']
+      },
+      {
+        'text':'Nazir, A., Ghosh, P., Sakthivel, T., & Khan, M. A. (2023). Stable isotopic analysis of long-whiskered catfish (Sperata aor) otoliths for characterization of their habitat and relationship with water temperature in the Ganges River. Journal of Environmental and Analytical Toxicology, 3(1), 57–66. ',
+        'links':[
+          'https://doi.org/10.2174/2210298102666220909110222']
+      },
+      {
+        'text':'Singh, S., Naik, T. S. S. K., Uppara, B., et al. (2022). A systematic study of arsenic adsorption and removal from aqueous environments using novel graphene oxide functionalized UiO-66-NDC nanocomposites. Scientific Reports, 12, 15802. ',
+        'links':[
+          'https://doi.org/10.1038/s41598-022-18959-2']
+      },
+      {
+        'text':'Santy, S., Mujumdar, P., & Bala, G. (2022). Increased risk of water quality deterioration under climate change in Ganga River. Frontiers in Water, 4. ',
+        'links':[
+          'https://doi.org/10.3389/frwa.2022.971623']
+      },
+      {
+        'text':'Mondal, S., Chakrabarti, R., & Ghosh, P. (2022). A multi-proxy (δ⁴⁴/⁴⁰Ca, Sr/Ca, and Δ⁴⁷) study of fish otoliths for determination of seawater temperature. Chemical Geology, 605, 120950. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemgeo.2022.120950']
+      },
+      {
+        'text':'Ganguly, S., & Chakrabarti, R. (2022). High precision TIMS measurements of stable Sr isotopes (δ⁸⁸/⁸⁶Sr) of standards with different matrices and depth-bound seawater samples from the Bay of Bengal using a new 87Sr–84Sr double-spike. Journal of Analytical Atomic Spectrometry, 37(10), 1961–1971. ',
+        'links':[
+          'https://doi.org/10.1039/D2JA00187J']
+      },
+      {
+        'text':'Mondal, S., Chakrabarti, R., & Ghosh, P. (2022). A multi-proxy (δ44/40Ca, Sr/Ca, and Δ47) study of fish otoliths for determination of seawater temperature. Chemical Geology, 605, 120950. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemgeo.2022.120950']
+      },
+      {
+        'text':'Pawar, A., Singh, S., Ramamurthy, P. C., et al. (2022). Toxicity, environmental monitoring, and removal strategies of arsenic. International Journal of Environmental Research, 16, 66. ',
+        'links':[
+          'https://doi.org/10.1007/s41742-022-00442-5']
+      },
+      {
+        'text':'Singh, S., Naik, T. S. S. K., Chauhan, V., Shehata, N., Kaur, H., Dhanjal, D. S., Aguilar Marcelino, L., Bhati, S., Subramanian, S., Singh, J., & Ramamurthy, P. C. (2022). Ecological effects, remediation, distribution, and sensing techniques of chromium. Chemosphere, 307(Part 2), 135804. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2022.135804']
+      },
+      {
+        'text':'Singh, S., Ramamurthy, P. C., Dhanjal, D. S., Rana, S., Bhatia, D., Kanwar, R., Sharma, N. R., & Singh, J. (2022). Design and development of onsite biofilter unit for effective remediation of contaminants from wastewater. CLEAN – Soil, Air, Water. ',
+        'links':[
+          'https://doi.org/10.1002/clen.202100396']
+      },
+      {
+        'text':'Vishwakarma, B. D., Ramsankaran, R. A. A. J., Azam, M. F., Bolch, T., Mandal, A., Srivastava, S., Kumar, P., Sahu, R., Navinkumar, P. J., Tanniru, S. R., Javed, A., Soheb, M., Dimri, A. P., Yadav, M., Devaraju, B., Chinnasamy, P., Reddy, M. J., Murugesan, G. P., Arora, M., Jain, S. K., Ojha, C. S. P., Harrison, S., & Bamber, J. (2022). Challenges in understanding the variability of the cryosphere in the Himalaya and its impact on regional water resources. Frontiers in Water, 4. ',
+        'links':[
+          'https://doi.org/10.3389/frwa.2022.909246']
+      },
+      {
+        'text':'Masanta, S. K., & Srinivas, V. V. (2022). Proposal and evaluation of nonstationary versions of SPEI and SDDI based on climate covariates for regional drought analysis. Journal of Hydrology, 610, 127808. ',
+        'links':[
+          'https://doi.org/10.1016/j.jhydrol.2022.127808']
+      },
+      {
+        'text':'Nazir, A., Khan, M. A., & Ghosh, P. (2022). Assessment of variations in metal concentrations of the Ganges River water by using multivariate statistical techniques. Limnologica, 95, 125989. ',
+        'links':[
+          'https://doi.org/10.1016/j.limno.2022.125989']
+      },
+      {
+        'text':'Sreeparvathy, V., & Srinivas, V. V. (2022). Global assessment of spatiotemporal variability of wet, normal and dry conditions using multiscale entropy-based approach. Scientific Reports, 12, 9767. ',
+        'links':[
+          'https://doi.org/10.1038/s41598-022-13830-w']
+      },
+      {
+        'text':'Davis, S., Pentakota, L., Saptarishy, N., & Mujumdar, P. P. (2022). A flood forecasting framework coupling a high-resolution WRF ensemble with an urban hydrologic model. Frontiers in Earth Science, 10. ',
+        'links':[
+          'https://doi.org/10.3389/feart.2022.883842']
+      },
+      {
+        'text':'Fischer, C., Aubron, C., Trouvé, A., et al. (2022). Groundwater irrigation reduces overall poverty but increases socioeconomic vulnerability in a semiarid region of southern India. Scientific Reports, 12, 8850. ',
+        'links':[
+          '. https://doi.org/10.1038/s41598-022-12814-0']
+      },
+      {
+        'text':'Brauns, B., Chattopadhyay, S., Lapworth, D. J., Loveless, S. E., MacDonald, A. M., McKenzie, A. A., Sekhar, M., Nara, S. N. V., & Srinivasan, V. (2022). Assessing the role of groundwater recharge from tanks in crystalline bedrock aquifers in Karnataka, India, using hydrochemical tracers. Journal of Hydrology X, 15, 100121. ',
+        'links':[
+          'https://doi.org/10.1016/j.hydroa.2022.100121']
+      },
+      {
+        'text':'Singh, S., Naik, T. S. S. K., Anil, A. G., Khasnabis, S., Nath, B., Uppara, B., Kumar, V., Garg, V. K., Subramanian, S., Singh, J., & Ramamurthy, P. C. (2022). A novel CaO nanocomposite cross-linked graphene oxide for Cr(VI) removal and sensing from wastewater. Chemosphere, 301, 134714. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2022.134714']
+      },
+      {
+        'text':'Mathai, J., & Mujumdar, P. P. (2022). Use of streamflow indices to identify the catchment drivers of hydrographs. Hydrology and Earth System Sciences, 26(8), 2019–2033. ',
+        'links':[
+          'https://doi.org/10.5194/hess-26-2019-2022']
+      },
+      {
+        'text':'Acharya, S. S., Hishamunda, V., & Chakrabarti, R. (2022). Natural sources and anthropogenic influences on the river water and groundwater chemistry of the lower Mahanadi basin: Insights from radiogenic Sr isotopes and major ion chemistry. Frontiers in Water, 4.',
+        'links':[
+          'https://doi.org/10.3389/frwa.2022.846438']
+      },
+      {
+        'text':'Bhanja, S. N., & Sekhar, M. (2022). Short-term and long-term replenishment of water storage influenced by lockdown and policy measures in drought-prone regions of Central India. Remote Sensing, 14(8), 1768. ',
+        'links':[
+          'https://doi.org/10.3390/rs14081768']
+      },
+      {
+        'text':'Kiran, K. G., & Srinivas, V. V. (2022). Multivariate regional frequency analysis using conditional extreme values approach. Water Resources Research, 58, e2021WR031095. ',
+        'links':[
+          'https://doi.org/10.1029/2021WR031095']
+      },
+      {
+        'text':'Singh, S., Anil, A. G., Naik, T. S. S. K., Uppara, B., Khasnabis, S., Nath, B., Kumar, V., Subramanian, S., Singh, J., & Ramamurthy, P. C. (2022). Mechanism and kinetics of Cr(VI) adsorption on biochar derived from Citrobacter freundii under different pyrolysis temperatures. Journal of Water Process Engineering, 47, 102723. ',
+        'links':[
+          ' https://doi.org/10.1016/j.jwpe.2022.102723']
+      },
+      {
+        'text':'Singh, S., Naik, T. S. S. K., Anil, A. G., Dhiman, J., Kumar, V., Dhanjal, D. S., Aguilar-Marcelino, L., Singh, J., & Ramamurthy, P. C. (2022). Micro (nano) plastics in wastewater: A critical review on toxicity risk assessment, behaviour, environmental impact, and challenges. Chemosphere, 290, 133169. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2021.133169']
+      },
+      {
+        'text':'Vishwakarma, B. D., Horwath, M., Groh, A., & Bamber, J. L. (2022). Accounting for GIA signal in GRACE products. Geophysical Journal International, 228(3), 2056–2060. ',
+        'links':[
+          'https://doi.org/10.1093/gji/ggab464']
+      },
+      {
+        'text':'Kumar, V., Ameen, F., Islam, M. A., Agrawal, S., Motghare, A., Dey, A., Shah, M. P., Américo-Pinheiro, J. H. P., Singh, S., & Ramamurthy, P. C. (2022). Evaluation of cytotoxicity and genotoxicity effects of refractory pollutants of untreated and biomethanated distillery effluent using Allium cepa. Environmental Pollution, 300, 118975. ',
+        'links':[
+          'https://doi.org/10.1016/j.envpol.2022.118975']
+      },
+      {
+        'text':'Singh, S., Khasnabis, S., Anil, A. G., Kumar, V., Naik, T. S. S. K., Nath, B., Garg, V. K., Singh, J., & Ramamurthy, P. C. (2022). Multifunctional nanohybrid for simultaneous detection and removal of Arsenic(III) from aqueous solutions. Chemosphere, 289, 133101. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2021.133101']
+      },
+      {
+        'text':'Naik, T. S. S. K., Kesavan, A. V., Kumara Swamy, B. E., Singh, S., Anil, A. G., Madhavi, V., & Ramamurthy, P. C. (2022). Low cost, trouble-free disposable pencil graphite electrode sensor for the simultaneous detection of hydroquinone and catechol. Materials Chemistry and Physics, 278, 125663. ',
+        'links':[
+          'https://doi.org/10.1016/j.matchemphys.2021.125663']
+      },
+      {
+        'text':'Sharma, S., & Mujumdar, P. P. (2022). Modeling concurrent hydroclimatic extremes with parametric multivariate extreme value models. Water Resources Research, 58, e2021WR031519. ',
+        'links':[
+          'https://doi.org/10.1029/2021WR031519']
+      },
+      {
+        'text':'Mohan, R. T., Chanakya, H. N., Kumar, M. S., & Rao, L. (2022). Achieving biological nutrient removal in an old sewage treatment plant through process modifications – A simulation and experimental study. Journal of Water Process Engineering, 45, 102461.',
+        'links':[
+          'https://doi.org/10.1016/j.jwpe.2021.102461']
+      },
+      {
+        'text':'Thomas, T. M., Bala, G., & Vemavarapu, S. V. (2022). CESM simulation of monsoon low pressure systems over India. International Journal of Climatology, 42(11), 5964–5984.',
+        'links':[
+          'https://doi.org/10.1002/joc.7571']
+      },
+      {
+        'text':'Thomas, T. M., Bala, G., & Vemavarapu, S. (2022). Influence of Himalayan and Tibetan orography on the statistics of monsoon low pressure systems over the Indian subcontinent. ESS Open Archive eprints, 105. ',
+        'links':[
+          'https://doi.org/10.1002/essoar.10510510.1 ']
+      },
+      {
+        'text':'Naik, T. S. S. K., Swamy, B. E. K., Singh, S., et al. (2022). Fabrication and theoretical analysis of sodium alpha-olefin sulfonate-anchored carbon paste electrode for the simultaneous detection of adrenaline and paracetamol. Journal of Applied Electrochemistry, 52, 697–708. ',
+        'links':[
+          'https://doi.org/10.1007/s10800-021-01663-w']
+      },
+      {
+        'text':'Dhaka, V., Singh, S., Anil, A. G., et al. (2022). Occurrence, toxicity and remediation of polyethylene terephthalate plastics: A review. Environmental Chemistry Letters, 20, 1777–1800. ',
+        'links':[
+          'https://doi.org/10.1007/s10311-021-01384-8']
+      },
+      {
+        'text':'Kumar, V., Agrawal, S., Shahi, S. K., Motghare, A., Singh, S., & Ramamurthy, P. C. (2022). Bioremediation potential of newly isolated Bacillus albus strain VKDS9 for decolourization and detoxification of biomethanated distillery effluent and its metabolites characterization for environmental sustainability. Environmental Technology & Innovation, 26, 102260. ',
+        'links':[
+          'https://doi.org/10.1016/j.eti.2021.102260']
+      },
+      {
+        'text':'Singh, S., Anil, A. G., Kumar, V., Kapoor, D., Subramanian, S., Singh, J., & Ramamurthy, P. C. (2022). Nitrates in the environment: A critical review of their distribution, sensing techniques, ecological effects, and remediation.Chemosphere, 287(1), 131996. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2021.131996']
+      },
+      {
+        'text':'Singh, S., Anil, A. G., Khasnabis, S., Kumar, V., Nath, B., Adiga, V., Naik, T. S. S. K., Subramanian, S., Kumar, V., Singh, J., & Ramamurthy, P. C. (2022). Sustainable removal of Cr(VI) using graphene oxide-zinc oxide nanohybrid: Adsorption kinetics, isotherms, and thermodynamics. Environmental Research, 203, 111891.',
+        'links':[
+          'https://doi.org/10.1016/j.envres.2021.111891']
+      },
+      {
+        'text':'Singh, S., Kumar, V., Anil, A. G., Romero, R., Ramamurthy, P. C., & Singh, J. (2022). Biodegradation of phorate by bacterial strains in the presence of humic acid and metal ions. Journal of Basic Microbiology, 62, 498–507. ',
+        'links':[
+          'https://doi.org/10.1002/jobm.202100332']
+      },
+      {
+        'text':'Kaginalkar, A., Ghude, S. D., Mohanty, U. C., Mujumdar, P., Bhakare, S., Darbari, H., Dwivedi, A. K., Gavali, P., Gavhale, S., Islam, S., Kadam, G., Kedia, S., Khare, M., Kharkar, N., Kulkarni, S. H., Meher, S. S., Nath, A. K., Niyaz, M., Pokale, S., Valappil, V. K., Debnath, S., Jena, C., Nadimpalli, R., Swain, M., Davis, S., Avinash, S., Kishtawal, C., Gargava, P., Attri, S. D., & Niyogi, D. (2022). Integrated Urban Environmental System of Systems for Weather Ready Cities in India. Bulletin of the American Meteorological Society, 103(1), E54-E76. ',
+        'links':[
+          'https://doi.org/10.1175/BAMS-D-20-0279.1']
+      },
+      {
+        'text':'Lehmann, F., Vishwakarma, B. D., & Bamber, J. (2022). How well are we able to close the water budget at the global scale? Hydrology and Earth System Sciences, 26(1), 35–54. ',
+        'links':[
+          'https://doi.org/10.5194/hess-26-35-2022']
+      },
+      {
+        'text':'Sreeparvathy, V., & Srinivas, V. V. (2022). A Bayesian fuzzy clustering approach for design of precipitation gauge network using merged remote sensing and ground-based precipitation products. Water Resources Research, 58, e2021WR030612. ',
+        'links':[
+          'https://doi.org/10.1029/2021WR030612']
+      },
+      {
+        'text':'Ghosh, P., Rajawat, V. S., Nazir, A., & others. (2022). Stable isotope on hilsa shad (Tenualosa ilisha) otoliths revealed migratory behavior of a population found in Hooghly River, West Bengal, India. Environmental Biology of Fishes, 105, 1909–1918. ',
+        'links':[
+          'https://doi.org/10.1007/s10641-022-01215-x']
+      }
     ]
 },
 
 {
     year: '2021',
     publications: [
-        {
-          'text':'Dhriti Kapoor, Simranjeet Singh, Praveen C. Ramamurthy, Sadaf Jan, Savita Bhardwaj, Sarvajeet Singh Gill, Ram Prasad, Joginder Singh, Molecular consequences of cadmium toxicity and its regulatory networks in plants, Plant Gene, Volume 28, 2021, 100342, ISSN 2352-4073.',
-          'links':[
-            'https://doi.org/10.1016/j.plgene.2021.100342']
-        },
-        {
-          'text':'Simranjeet Singh, Vijay Kumar, Amith G. Anil, Dhriti Kapoor, Sutripto Khasnabis, Shweta Shekar, N. Pavithra, Jastin Samuel, S. Subramanian, Joginder Singh, Praveen C. Ramamurthy, Adsorption and detoxification of pharmaceutical compounds from wastewater using nanomaterials: A review on mechanism, kinetics, valorization and circular economy, Journal of Environmental Management, Volume 300, 2021, 113569, ISSN 0301-4797',
-          'links':[
-            'https://doi.org/10.1016/j.jenvman.2021.113569']
-        },
-        {
-          'text':'Musa Galadima, Simranjeet Singh, Akshay Pawar, Sutripto Khasnabis, Daljeet Singh Dhanjal, Amith G Anil, Pratistha Rai, Praveen C. Ramamurthy, Joginder Singh, Toxicity, microbial degradation and analytical detection of pyrethroids: A review, Environmental Advances, Volume 5, 2021, 100105, ISSN 2666-7657.',
-          'links':[
-            'https://doi.org/10.1016/j.envadv.2021.100105']
-        },
-        {
-          'text':'Shivika Datta, Praveen C. Ramamurthy, Uttpal Anand, Simranjeet Singh, Amritpal Singh, Daljeet Singh Dhanjal, Vaishali Dhaka, Sanjay Kumar, Dhriti Kapoor, Samapika Nandy, Manoj Kumar, Eapen P. Koshy, Abhijit Dey, Jarosław Proćków, Joginder Singh, Wonder or evil?: Multifaceted health hazards and health benefits of Cannabis sativa and its phytochemicals, Saudi Journal of Biological Sciences, Volume 28, Issue 12, 2021, Pages 7290-7313, ISSN 1319-562X.',
-          'links':[
-            'https://doi.org/10.1016/j.sjbs.2021.08.036']
-        },
-        {
-          'text':'Simranjeet Singh, Joginder Singh, Praveen C. Ramamurthy, Vijay Kumar, Sonali Bhardwaj, Vinod Kumar Garg, Biodegradation of monocrotophos by indigenous soil bacterial isolates in the presence of humic acid, Fe (III) and Cu (II) ions, Bioresource Technology Reports, Volume 15, 2021, 100778, ISSN 2589-014X.',
-          'links':[
-            'https://doi.org/10.1016/j.biteb.2021.100778']
-        },
-        {
-          'text':'Singh, S., Kumar, V., Parihar, P. et al. Differential regulation of drought stress by biological membrane transporters and channels. Plant Cell Rep 40, 1565–1583 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s00299-021-02730-4']
-        },
-        {
-          'text':'Simranjeet Singh, Joginder Singh, Praveen C. Ramamurthy, Vijay Kumar, Sonali Bhardwaj, Vinod Kumar Garg, Biodegradation of monocrotophos by indigenous soil bacterial isolates in the presence of humic acid, Fe (III) and Cu (II) ions, Bioresource Technology Reports, Volume 15, 2021, 100778, ISSN 2589-014X',
-          'links':[
-            'https://doi.org/10.1016/j.biteb.2021.100778']
-        },
-        {
-          'text':'Simranjeet Singh, Vijay Kumar, Ramesh Kanwar, Abdul Basit Wani, Jatinder Pal Kaur Gill, Vinod Kumar Garg, Joginder Singh, Praveen C. Ramamurthy, Toxicity and detoxification of monocrotophos from ecosystem using different approaches: A review, Chemosphere, Volume 275, 2021, 130051, ISSN 0045-6535.',
-          'links':[
-            'https://doi.org/10.1016/j.chemosphere.2021.130051']
-        },
-        {
-          'text':'Ramamurthy, P.C., Singh, S., Kapoor, D. et al. Microbial biotechnological approaches: renewable bioprocessing for the future energy systems. Microb Cell Fact 20, 55 (2021).',
-          'links':[
-            'https://doi.org/10.1186/s12934-021-01547-w']
-        },
-        {
-          'text':'Singh, S., Kumar, V., Kapoor, D. et al. Detection and disinfection of COVID-19 virus in wastewater. Environ Chem Lett 19, 1917–1933 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s10311-021-01202-1']
-        },
-        {
-          'text':'Singh, S., Kapoor, D., Khasnabis, S. et al. Mechanism and kinetics of adsorption and removal of heavy metals from wastewater using nanomaterials. Environ Chem Lett 19, 2351–2381 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s10311-021-01196-w']
-        },
-	{
-          'text':'R. Gowri, Pankaj Dey, P.P. Mujumdar (2021). A hydro-climatological outlook on the long-term availability of water resources in Cauvery river basin. Water Security, Volume 14, 100102, ISSN 2468-3124.',
-          'links':[
-            'https://doi.org/10.1016/j.wasec.2021.100102']
-        },
-        {
-          'text':'Swarnkar, S., Mujumdar, P. & Sinha, R. Modified hydrologic regime of upper Ganga basin induced by natural and anthropogenic stressors. Sci Rep 11, 19491 (2021).',
-          'links':[
-            'https://doi.org/10.1038/s41598-021-98827-7']
-        },
-        {
-          'text':'Horan R, Gowri R, Wable PS, Baron H, Keller VDJ, Garg KK, Mujumdar PP, Houghton-Carr H, Rees G. A Comparative Assessment of Hydrological Models in the Upper Cauvery Catchment. Water. 2021; 13(2):151',
-          'links':[
-            'https://doi.org/10.3390/w13020151']
-        },
-	{
-          'text':'Thomas, T.M., Bala, G. & Srinivas, V.V. Characteristics of the monsoon low pressure systems in the Indian subcontinent and the associated extreme precipitation events. Clim Dyn 56, 1859–1878 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s00382-020-05562-2']
-        },
-	{
-          'text':'Himanshu Bhagat, Prosenjit Ghosh, D. Nagesh Kumar, Estimation of seasonal base flow contribution to a tropical river using stable isotope analysis, Journal of Hydrology, Volume 601, 2021, 126661, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2021.126661']
-        },
-        {
-          'text':'Ghosh, P., Ramdas, L., Banerjee, Y. et al. Seasonal freshwater flux estimation using mollusc from the tropical Mandovi Zuari estuary, Goa, India. J Earth Syst Sci 130, 107 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s12040-021-01611-4']
-        },
-        {
-          'text':'Dar, S. S., Ghosh, P., & Hillaire-Marcel, C. (2021). Convection, terrestrial recycling and oceanic moisture regulate the isotopic composition of precipitation at Srinagar, Kashmir. Journal of Geophysical Research: Atmospheres, 126, e2020JD032853',
-          'links':[
-            'https://doi.org/10.1029/2020JD032853']
-        },
-	{
-          'text':'Kiran, K. G., & Srinivas, V. V. (2021). Distributional regression forests approach to regional frequency analysis with partial duration series. Water Resources Research, 57, e2021WR029909.',
-          'links':[
-            'https://doi.org/10.1029/2021WR029909']
-        },
-        {
-          'text':'Chavan, S.R., Srinivas, V.V. Evaluation of three approaches to probable maximum precipitation estimation: a study on two Indian river basins. Theor Appl Climatol 144, 731–749 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s00704-021-03557-5']
-        },
-        {
-          'text':'Kiran, K. G., & Srinivas, V. V. (2021). Fuzzy ensemble clustering approach to address regionalization uncertainties in flood frequency analysis. Water Resources Research, 57, e2020WR028412.',
-          'links':[
-            'https://doi.org/10.1029/2020WR028412']
-        },
-        {
-          'text':'Thomas, T.M., Bala, G. & Srinivas, V.V. Characteristics of the monsoon low pressure systems in the Indian subcontinent and the associated extreme precipitation events. Clim Dyn 56, 1859–1878 (2021).',
-          'links':[
-            'https://doi.org/10.1007/s00382-020-05562-2']
-        },
-        {
-          'text':'Kiran, K. G., & Srinivas, V. V. (2021). A Mahalanobis distance-based automatic threshold selection method for Peaks Over Threshold model. Water Resources Research, 57, e2020WR027534.',
-          'links':[
-            'https://doi.org/10.1029/2020WR027534']
-        },
-        {
-          'text':'Masanta SK, Srinivas VV. Regionalization of evapotranspiration in India using fuzzy dynamic clustering approach. Part 2: Applications of regions. Int J Climatol. 2021; 41 (Suppl. 1): E1371–E1395.',
-          'links':[
-            'https://doi.org/10.1002/joc.6773']
-        },
- 	{
-          'text':'Kousik Das, Anith Kumar Mishra, Akarsh Singh, Sudha Agrahari, Ramananda Chakrabarti, Abhijit Mukherjee (2021). Solute exchanges between multi-depth groundwater and surface water of climatically vulnerable Gangetic delta front aquifers of Sundarbans, Journal of Environmental Management. Volume 284, 112026, ISSN 0301-4797.',
-          'links':[
-            'https://doi.org/10.1016/j.jenvman.2021.112026']
-        }
+      {
+        'text':'Kapoor, D., Singh, S., Ramamurthy, P. C., Jan, S., Bhardwaj, S., Gill, S. S., Prasad, R., & Singh, J. (2021). Molecular consequences of cadmium     toxicity and its regulatory networks in plants. Plant Gene, 28, 100342. ',
+        'links':[
+          'https://doi.org/10.1016/j.plgene.2021.100342']
+      },
+      {
+        'text':'Singh, S., Kumar, V., Anil, A. G., Kapoor, D., Khasnabis, S., Shekar, S., Pavithra, N., Samuel, J., Subramanian, S., Singh, J., & Ramamurthy, P. C. (2021). Adsorption and detoxification of pharmaceutical compounds from wastewater using nanomaterials: A review on mechanism, kinetics, valorization and circular economy. Journal of Environmental Management, 300, 113569. ',
+        'links':[
+          'https://doi.org/10.1016/j.jenvman.2021.113569']
+      },
+      {
+        'text':'Datta, S., Ramamurthy, P. C., Anand, U., Singh, S., Singh, A., Dhanjal, D. S., Dhaka, V., Kumar, S., Kapoor, D., Nandy, S., Kumar, M., Koshy, E. P., Dey, A., Proćków, J., & Singh, J. (2021). Wonder or evil?: Multifaceted health hazards and health benefits of Cannabis sativa and its phytochemicals. Saudi Journal of Biological Sciences, 28(12), 7290–7313. ',
+        'links':[
+          'https://doi.org/10.1016/j.sjbs.2021.08.036']
+      },
+      {
+        'text':'Gowri, R., Dey, P., & Mujumdar, P. P. (2021). A hydro-climatological outlook on the long-term availability of water resources in the Cauvery river basin. Water Security, 14, 100102. ',
+        'links':[
+          'https://doi.org/10.1016/j.wasec.2021.100102']
+      },
+      {
+        'text':'Galadima, M., Singh, S., Pawar, A., Khasnabis, S., Dhanjal, D. S., Anil, A. G., Rai, P., Ramamurthy, P. C., & Singh, J. (2021). Toxicity, microbial degradation and analytical detection of pyrethroids: A review. Environmental Advances, 5, 100105. ',
+        'links':[
+          'https://doi.org/10.1016/j.envadv.2021.100105']
+      },
+      {
+        'text':'Dey, P., & Mujumdar, P. (2021). On the statistical complexity of streamflow. Hydrological Sciences Journal, 67(1), 40–53. ',
+        'links':[
+          'https://doi.org/10.1080/02626667.2021.2000991']
+      },
+      {
+        'text':'Bhagat, H., Ghosh, P., & Kumar, D. N. (2021). Estimation of seasonal base flow contribution to a tropical river using stable isotope analysis. Journal of Hydrology, 601, 126661. ',
+        'links':[
+          'https://doi.org/10.1016/j.jhydrol.2021.126661']
+      },
+      {
+        'text':'Singh, S., Singh, J., Ramamurthy, P. C., Kumar, V., Bhardwaj, S., & Garg, V. K. (2021). Biodegradation of monocrotophos by indigenous soil bacterial isolates in the presence of humic acid, Fe (III) and Cu (II) ions. Bioresource Technology Reports, 15, 100778',
+        'links':[
+          'https://doi.org/10.1016/j.biteb.2021.100778']
+      },
+      {
+        'text':'Swarnkar, S., Mujumdar, P., & Sinha, R. (2021). Modified hydrologic regime of upper Ganga basin induced by natural and anthropogenic stressors. Scientific Reports, 11, 19491. ',
+        'links':[
+          'https://doi.org/10.1038/s41598-021-98827-7']
+      },
+      {
+        'text':'Kiran, K. G., & Srinivas, V. V. (2021). Distributional regression forests approach to regional frequency analysis with partial duration series. Water Resources Research, 57, e2021WR029909. '   ,
+        'links':[
+          'https://doi.org/10.1029/2021WR029909']
+      },
+      {
+        'text':'Singh, S., Kumar, V., Kanwar, R., Wani, A. B., Gill, J. P. K., Garg, V. K., Singh, J., & Ramamurthy, P. C. (2021). Toxicity and detoxification of monocrotophos from ecosystem using different approaches: A review. Chemosphere, 275, 130051. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemosphere.2021.130051']
+      },
+      {
+        'text':'Singh, S., Kumar, V., Parihar, P., Ramamurthy, P. C., & Singh, J. (2021). Differential regulation of drought stress by biological membrane transporters and channels. Plant Cell Reports, 40(11), 1565–1583. ',
+        'links':[
+          'https://doi.org/10.1007/s00299-021-02730-4']
+      },
+      {
+        'text':'Bhardwaj, S., Kapoor, D., Singh, S., & et al. (2021). Nitric oxide: A ubiquitous signal molecule for enhancing plant tolerance to salinity stress and their molecular mechanisms. Journal of Plant Growth Regulation, 40(4), 2329–2341. ',
+        'links':[
+          'https://doi.org/10.1007/s00344-021-10394-3']
+      },
+      {
+        'text':'Ghosh, P., Ramdas, L., Banerjee, Y., & others. (2021). Seasonal freshwater flux estimation using mollusc from the tropical Mandovi Zuari estuary, Goa, India. Journal of Earth System Science, 130, 107. ',
+        'links':[
+          'https://doi.org/10.1007/s12040-021-01611-4']
+      },
+      {
+        'text':'Das, K., Mishra, A. K., Singh, A., Agrahari, S., Chakrabarti, R., & Mukherjee, A. (2021). Solute exchanges between multi-depth groundwater and surface water of climatically vulnerable Gangetic delta front aquifers of Sundarbans. Journal of Environmental Management, 284, 112026. ',
+        'links':[
+          'https://doi.org/10.1016/j.jenvman.2021.112026']
+      },
+      {
+        'text':'Ramamurthy, P. C., Singh, S., Kapoor, D., et al. (2021). Microbial biotechnological approaches: Renewable bioprocessing for the future energy systems. Microbial Cell Factories, 20, 55. ',
+        'links':[
+          'https://doi.org/10.1186/s12934-021-01547-w']
+      },
+      {
+        'text':'Dar, S. S., Ghosh, P., & Hillaire-Marcel, C. (2021). Convection, terrestrial recycling, and oceanic moisture regulate the isotopic composition of precipitation at Srinagar, Kashmir. Journal of Geophysical Research: Atmospheres, 126, e2020JD032853. ',
+        'links':[
+          'https://doi.org/10.1029/2020JD032853']
+      },
+      {
+        'text':'Singh, S., Kumar, V., Kapoor, D., et al. (2021). Detection and disinfection of COVID-19 virus in wastewater. Environmental Chemistry Letters, 19, 1917–1933. ',
+        'links':[
+          'https://doi.org/10.1007/s10311-021-01202-1']
+      },
+      {
+        'text':'Singh, S., Kapoor, D., Khasnabis, S., et al. (2021). Mechanism and kinetics of adsorption and removal of heavy metals from wastewater using nanomaterials. Environmental Chemistry Letters, 19, 2351–2381. ',
+        'links':[
+          'https://doi.org/10.1007/s10311-021-01196-w']
+      },
+      {
+        'text':'Chavan, S. R., & Srinivas, V. V. (2021). Evaluation of three approaches to probable maximum precipitation estimation: A study on two Indian river basins. Theoretical and Applied Climatology, 144(3), 731–749. ',
+        'links':[
+          'https://doi.org/10.1007/s00704-021-03557-5']
+      },
+      {
+        'text':'Horan, R., Gowri, R., Wable, P. S., Baron, H., Keller, V. D. J., Garg, K. K., Mujumdar, P. P., Houghton-Carr, H., & Rees, G. (2021). A comparative assessment of hydrological models in the upper Cauvery catchment. Water, 13(2), 151. ',
+        'links':[
+          'https://doi.org/10.3390/w13020151']
+      },
+      {
+        'text':'Thomas, T. M., Bala, G., & Srinivas, V. V. (2021). Characteristics of the monsoon low pressure systems in the Indian subcontinent and the associated extreme precipitation events. Climate Dynamics, 56, 1859–1878. ',
+        'links':[
+          'https://doi.org/10.1007/s00382-020-05562-2']
+      },
+      {
+        'text':'Kiran, K. G., & Srinivas, V. V. (2021). Fuzzy ensemble clustering approach to address regionalization uncertainties in flood frequency analysis. Water Resources Research, 57, e2020WR028412. ',
+        'links':[
+          '']
+      },
+      {
+        'text':'Kiran, K. G., & Srinivas, V. V. (2021). A Mahalanobis distance-based automatic threshold selection method for Peaks Over Threshold model. Water Resources Research, 57, e2020WR027534. ',
+        'links':[
+          'https://doi.org/10.1029/2020WR027534']
+      },
+      {
+        'text':'Masanta, S. K., & Srinivas, V. V. (2021). Regionalization of evapotranspiration in India using fuzzy dynamic clustering approach. Part 2: Applications of regions. International Journal of Climatology, 41(Suppl. 1), E1371–E1395. ',
+        'links':[
+          'https://doi.org/10.1002/joc.6773']
+      }
     ]
- },
+  },
 
- {
+  {
     year: '2020',
     publications: [
-     	{
-          'text':'Basu, Bidroha, Rajarshi Das Bhowmik and Sankarasubramanian Arumugam. “Changing Seasonality of Annual Maximum Floods over the Conterminous US.” Journal of Hydrologic Engineering (2020).',
-          'links':[
-            'https://doi.org/10.1002/essoar.10504706.1']
-        },
-	{
-          'text':'Singh, P. K., Dey, P., Jain, S. K., and Mujumdar, P. P.: Hydrology and water resources management in ancient India, Hydrol. Earth Syst. Sci., 24, 4691–4707, 2020.',
-          'links':[
-            'https://doi.org/10.5194/hess-24-4691-2020']
-        },
-        {
-          'text':'Chandra Rupa Rajulapati, Harshita Gupta, P.P. Mujumdar (2020). Diurnal variability of hydrological variables in urban areas, Urban Climate. Volume 33, 100669, ISSN 2212-0955.',
-          'links':[
-            'https://doi.org/10.1016/j.uclim.2020.100669']
-        },
-        {
-          'text':'I. Chawla, P.P. Mujumdar (2020). Evaluating rainfall datasets to reconstruct floods in data-sparse Himalayan region, Journal of Hydrology. Volume 588, 125090, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2020.125090']
-        },
-        {
-          'text':'Rehana S, Rajulapati CR, Ghosh S, Karmakar S, Mujumdar P. Uncertainty Quantification in Water Resource Systems Modeling: Case Studies from India. Water. 2020; 12(6):1793.',
-          'links':[
-            'https://doi.org/10.3390/w12061793']
-        },
-        {
-          'text':'Santy, S., Mujumdar, P. & Bala, G. Potential Impacts of Climate and Land Use Change on the Water Quality of Ganga River around the Industrialized Kanpur Region. Sci Rep 10, 9107 (2020).',
-          'links':[
-            'https://doi.org/10.1038/s41598-020-66171-x']
-        },
-	      {
-          'text':'Paul, V., Banerjee, Y., Ghosh, P. et al. Depthwise microbiome and isotopic profiling of a moderately saline microbial mat in a solar saltern. Sci Rep 10, 20686 (2020)',
-          'links':[
-            'https://doi.org/10.1038/s41598-020-77622-w']
-        },
-        {
-          'text':'Banerjee, Yogaraj & Sakthivel, Thamizharasan & Ghosh, Prosenjit. (2020). Orbital Forcing Controlling Dry Time Carbonate Precipitation Temperature Over Landmass in the Northern Mid-Latitude during Last 50,000 Years Revealed from Carbonate Clumped Isotope Thermometry. Current science. 119. 265 - 272.',
-          'links':[
-            'https://doi.org/10.18520/cs/v119/i2/265-272']
-        },
-  	    {
-          'text':'Vijay Sreeparvathy, V.V. Srinivas (2020). A fuzzy entropy approach for design of hydrometric monitoring networks, Journal of Hydrology. Volume 586, 124797, ISSN 0022-1694.',
-          'links':[
-            'https://doi.org/10.1016/j.jhydrol.2020.124797']
-        },
-        {
-          'text':'Masanta SK, Vemavarapu SV. Regionalization of evapotranspiration using fuzzy dynamic clustering approach. Part 1: Formation of regions in India. Int J Climatol. 2020; 40: 3514–3530.',
-          'links':[
-            'https://doi.org/10.1002/joc.6411']
-        }
+      {
+        'text':'Singh, P. K., Dey, P., Jain, S. K., & Mujumdar, P. P. (2020). Hydrology and water resources management in ancient India. Hydrology and Earth System Sciences, 24(10), 4691–4707. ',
+        'links':[
+          'https://doi.org/10.5194/hess-24-4691-2020']
+      },
+      {
+        'text':'Paul, V., Banerjee, Y., Ghosh, P., et al. (2020). Depthwise microbiome and isotopic profiling of a moderately saline microbial mat in a solar saltern. Scientific Reports, 10, 20686. ',
+        'links':[
+          'https://doi.org/10.1038/s41598-020-77622-w']
+      },
+      {
+        'text':'Chawla, I., & Mujumdar, P. P. (2020). Evaluating rainfall datasets to reconstruct floods in data-sparse Himalayan region. Journal of Hydrology, 588, 125090. ',
+        'links':[
+          'https://doi.org/10.1016/j.jhydrol.2020.125090']
+      },
+      {
+        'text':'Rajulapati, C. R., Gupta, H., & Mujumdar, P. P. (2020). Diurnal variability of hydrological variables in urban areas. Urban Climate, 33, 100669. ',
+        'links':[
+          'https://doi.org/10.1016/j.uclim.2020.100669']
+      },
+      {
+        'text':'Sreeparvathy, V., & Srinivas, V. V. (2020). A fuzzy entropy approach for design of hydrometric monitoring networks. Journal of Hydrology, 586, 124797. ',
+        'links':[
+          'https://doi.org/10.1016/j.jhydrol.2020.124797']
+      },
+      {
+        'text':'Banerjee, Y., Sakthivel, T., & Ghosh, P. (2020). Orbital forcing controlling dry time carbonate precipitation temperature over landmass in the northern mid-latitude during last 50,000 years revealed from carbonate clumped isotope thermometry. Current Science, 119(2), 265–272. ',
+        'links':[
+          'https://doi.org/10.18520/cs/v119/i2/265-272']
+      },
+      {
+        'text':'Santy, S., Mujumdar, P., & Bala, G. (2020). Potential impacts of climate and land use change on the water quality of Ganga River around the industrialized Kanpur region. Scientific Reports, 10, 9107. ',
+        'links':[
+          'https://doi.org/10.1038/s41598-020-66171-x']
+      },
+      {
+        'text':'Rehana, S., Rajulapati, C. R., Ghosh, S., Karmakar, S., & Mujumdar, P. (2020). Uncertainty quantification in water resource systems modeling: Case studies from India. Water, 12(6), 1793. ',
+        'links':[
+          'https://doi.org/10.3390/w12061793']
+      },
+      {
+        'text':'Masanta, S. K., & Vemavarapu, S. V. (2020). Regionalization of evapotranspiration using fuzzy dynamic clustering approach. Part 1: Formation of regions in India. International Journal of Climatology, 40(7), 3514–3530. ',
+        'links':[
+          'https://doi.org/10.1002/joc.6411']
+      }
     ]
   },
 
   {
     year: '2019',
     publications: [
-        {
-          'text':'Rajulapati, Chandra Rupa, and Pradeep Mujumdar. "Flood Modelling: Recent Indian Contributions." (2019): 705-722.',
-          'links':[
-            'https://doi.org/10.16943/ptinsa/2019/49648']
-        },
-        {
-          'text':'Mathai, J., & Mujumdar, P. P. (2019). Multisite daily streamflow simulation with time irreversibility. Water Resources Research, 55, 9334–9350.',
-          'links':[
-            'https://doi.org/10.1029/2019WR025058']
-        },
-        {
-          'text':'Rupa, R. Chandra, and P. P. Mujumdar. "Hydrologic impacts of climate change: Quantification of uncertainties." In Proc Indian Natn Sci Acad, vol. 85, no. 1, pp. 77-94. 2019.',
-          'links':[
-            'https://doi.org/10.16943/ptinsa/2018/49506']
-        },
- 	{
-          'text':'Shiba Shankar Acharya, Ramananda Chakrabarti (2019). Variations in trace metal concentrations and Sr, Nd isotopic compositions in sediments from two contrasting settings in the Eastern Arabian Shelf: Implications for provenance and paleoclimate reconstruction, Chemical Geology. Volume 509, Pages 134-151, ISSN 0009-2541.',
-          'links':[
-            'https://doi.org/10.1016/j.chemgeo.2019.01.016']
-        }
+      {
+        'text':'Chandra, Rupa, Rajulapati., Pradeep, Mujumdar. (2019). Flood Modelling: Recent Indian Contributions.  85(4):705-722. ',
+        'links':[
+          'https://doi.org/10.16943/PTINSA/2019/49648']
+      },
+      {
+        'text':'Mathai, J., & Mujumdar, P. P. (2019). Multisite daily streamflow simulation with time irreversibility. Water Resources Research, 55, 9334–9350. ',
+        'links':[
+          'https://doi.org/10.1029/2019WR025058']
+      },
+      {
+        'text':'Tawde, S. A., Kulkarni, A. V., & Bala, G. (2019). An assessment of climate change impacts on glacier mass balance and geometry in the Chandra Basin, Western Himalaya for the 21st century. Environmental Research Communications, 1(4), 041003. ',
+        'links':[
+          'https://doi.org/10.1088/2515-7620/ab1d6d']
+      },
+      {
+        'text':'Chandra Rupa, R., & Mujumdar, P. P. (2019). Hydrologic impacts of climate change: Quantification of uncertainties. Proceedings of the Indian National Science Academy, 85(1), 77–94. ',
+        'links':[
+          'https://doi.org/10.16943/ptinsa/2018/49506']
+      },
+      {
+        'text':'Acharya, S. S., & Chakrabarti, R. (2019). Variations in trace metal concentrations and Sr, Nd isotopic compositions in sediments from two contrasting settings in the Eastern Arabian Shelf: Implications for provenance and paleoclimate reconstruction. Chemical Geology, 509, 134–151. ',
+        'links':[
+          'https://doi.org/10.1016/j.chemgeo.2019.01.016']
+      }
     ]
   },
   {
     year: '2018',
     publications: [
-        {
-          'text':'Chakrabarti, R., Mondal, S., Acharya, S.S. et al. Submarine groundwater discharge derived strontium from the Bengal Basin traced in Bay of Bengal water samples. Sci Rep 8, 4383 (2018).',
-          'links':[
-            'https://doi.org/10.1038/s41598-018-22299-5']
-        }
+      {
+        'text':'Chakrabarti, R., Mondal, S., Acharya, S. S., et al. (2018). Submarine groundwater discharge derived strontium from the Bengal Basin traced in Bay of Bengal water samples. Scientific Reports, 8, 4383. ',
+        'links':[
+          'https://doi.org/10.1038/s41598-018-22299-5']
+      }
     ]
   },
   {
     year: '2017',
     publications: [
-        {
-          'text':'Tawde SA, Kulkarni AV, Bala G. An estimate of glacier mass balance for the Chandra basin, western Himalaya, for the period 1984–2012. Annals of Glaciology. 2017;58(75pt2):99-109.',
-          'links':[
-            'https://doi.org/10.1017/aog.2017.18']
-        },
-        {
-          'text':'Tharammal, T., G. Bala, and D. Noone (2017), Impact of deep convection on the isotopic amount effect in tropical precipitation, J. Geophys. Res. Atmos., 122, 1505–1523.',
-          'links':[
-            'https://doi.org/10.1002/2016JD025555']
-        }
+      {
+        'text':'Tawde, S. A., Kulkarni, A. V., & Bala, G. (2017). An estimate of glacier mass balance for the Chandra basin, western Himalaya, for the period 1984–2012. Annals of Glaciology, 58(75pt2), 99–109. ',
+        'links':[
+          'https://doi.org/10.1017/aog.2017.18']
+      },
+      {
+        'text':'Tharammal, T., G. Bala, and D. Noone (2017), Impact of deep convection on the isotopic amount effect in tropical precipitation, J. Geophys. Res. Atmos., 122, 1505–1523, ',
+        'links':[
+          'https://doi.org/10.1002/2016JD025555']
+      }
     ]
   },
   {
     year: '2016',
     publications: [
-        {
-          'text':'Devaraju, N., Bala, G., Caldeira, K. et al. A model based investigation of the relative importance of CO2-fertilization, climate warming, nitrogen deposition and land use change on the global terrestrial carbon uptake in the historical period. Clim Dyn 47, 173–190 (2016).',
-          'links':[
-            'https://doi.org/10.1007/s00382-015-2830-8']
-        },
-	{
-          'text':'Rahul, P., P. Ghosh, S. K. Bhattacharya, and K. Yoshimura (2016), Controlling factors of rainwater and water vapor isotopes at Bangalore, India: Constraints from observations in 2013 Indian monsoon, J. Geophys. Res. Atmos., 121, 13,936–13,952.',
-          'links':[
-            'https://doi.org/10.1002/2016JD025352']
-        }
+      {
+        'text':'Rahul, P., Ghosh, P., Bhattacharya, S. K., & Yoshimura, K. (2016). Controlling factors of rainwater and water vapor isotopes at Bengaluru, India: Constraints from observations in 2013 Indian monsoon. Journal of Geophysical Research: Atmospheres, 121, 13,936–13,952. ',
+        'links':[
+          'https://doi.org/10.1002/2016JD025352']
+      },
+      {
+        'text':'Devaraju, N., Bala, G., Caldeira, K., & Nemani, R. (2016). A model based investigation of the relative importance of CO2-fertilization, climate warming, nitrogen deposition and land use change on the global terrestrial carbon uptake in the historical period. Climatic Dynamics, 47(1-2), 173-190. ',
+        'links':[
+          'https://doi.org/10.1007/s00382-015-2830-8']
+      }
     ]
   }
 ];
@@ -1701,190 +846,300 @@ export const conference = [
     year: '2024',
     publications: [
       {
-        text: 'Das Bhowmik, R., Tabbussum, R., and Mujumdar, P.: Understanding the association between global teleconnections and concurrent drought and heatwaves events over India, EGU General Assembly 2024, Vienna, Austria, 14–19 Apr 2024, EGU24-11345.',
-        links: ['https://doi.org/10.5194/egusphere-egu24-11345']
+        'text':'Shaw, B., Sharma, P., & Vishwakarma, B. D. (2024). Towards a novel water budget partitioning framework to better characterize the impact of climate and storage change on water fluxes. EGU General Assembly 2024, Vienna, Austria, 14–19 April 2024. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu24-958']
       },
       {
-        text: 'Sengupta, S. and Das Bhowmik, R.: Cryosphere, Causality, and Couplings of Ocean and Atmosphere: The Secrets of Himalayan Snow, EGU General Assembly 2024, Vienna, Austria, 14–19 Apr 2024, EGU24-1069.',
-        links: ['https://doi.org/10.5194/egusphere-egu24-1069']
+        'text':'Vishwakarma, B. D. (2024). GRACE for Earth system science: Novel insights into hydrology, sea level rise, and solid Earth uplift. EGU General Assembly 2024, Vienna, Austria, 14–19 April 2024. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu24-11422']
       },
-
+      {
+        'text':'Mandal, A., Bhardwaj, A., Azam, M. F., Vishwakarma, B. D., & Angchuk, T. (2024). Increased up-glacier thinning in four major glaciers of High Mountain Asia revealed by geodetic mass balance estimates. EGU General Assembly 2024, Vienna, Austria, 14–19 April 2024. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu24-920']
+      },
+      {
+        'text':'Yadav, V. K., & Vishwakarma, B. D. (2024). Terrestrial water storage reconstruction: A causal inference approach. EGU General Assembly 2024, Vienna, Austria, 14–19 April 2024. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu24-971']
+      },
+      {
+        'text':'Sukumaran, V., & Vishwakarma, B. D. (2024). Comparing altimetry-derived coastal sea level anomaly with tide gauge observations along the global coastline by accounting for shelf-width. EGU General Assembly 2024, Vienna, Austria, 14–19 April 2024. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu24-1007']
+      },
+      {
+        'text':'Kusuman, K., Pentakota, L., Kishore, N., Gaddam, N., Rishika, A., Mujumdar, P. P., & Bhowmik, R. D. (2024). A qualitative and quantitative evaluation of the WRF model simulations for high resolution urban rainfall forecasting. EGU General Assembly 2024, Vienna, Austria, 14–19 April 2024. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu24-14385']
+      },
+      {
+        'text':'Das Bhowmik, R., Tabbussum, R., & Mujumdar, P. (2024). Understanding the association between global teleconnections and concurrent drought and heatwaves events over India. EGU General Assembly 2024, Vienna, Austria, 14–19 April 2024. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu24-11345']
+      },
+      {
+        'text':'Sengupta, S., & Das Bhowmik, R. (2024). Cryosphere, causality, and couplings of ocean and atmosphere: The secrets of Himalayan snow. EGU General Assembly 2024, Vienna, Austria, 14–19 April 2024. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu24-1069']
+      },
+      {
+        'text':'Dutta, D., Srinivas, V. V., & Bala, G. (2024). Characteristics of compound flooding along the Indian coastline: Seasonal and interannual variability. Abstract presented at EGU General Assembly 2024, Vienna, Austria, 14–19 Apr 2024. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu24-8078']
+      },
+      {
+        'text':'Bhatt, J., & Srinivas, V. V. (2024). Estimating reliable Probable Maximum Precipitation at data-sparse locations. EGU General Assembly 2024, Vienna, Austria, 14–19 April 2024, EGU24-244. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu24-244']
+      }
     ]
   },
-{
+  {
     year: '2023',
     publications: [
       {
-        text: 'Harini, V., Wadhwa, A., and P. Mujumdar, P.: Impact of Spatio-Temporal Disaggregation of Rainfall on Hydrological Modelling, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-2705',
-        links: ['https://doi.org/10.5194/egusphere-egu23-2705']
+        'text':'Gaddam, N., Kishore, N., Wadhwa, A., Pentakota, L., & Mujumdar, P. (2023). High-resolution urban rainfall and flood forecasts using improved landuse datasets in a coupled hydromet model. In AGU Fall Meeting Abstracts (Vol. 2023, p. H23S-1833). ',
+        'links':[
+          'https://ui.adsabs.harvard.edu/abs/2023AGUFM.H23S1833G']
       },
       {
-        text: 'Bhargav Kumar, K. and P Mujumdar, P.: Towards Temporal Scaling Laws for the Risk Analysis of Rare Flood Events , EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-4837.',
-        links: ['https://doi.org/10.5194/egusphere-egu23-4837']
-      },
-	    {
-        text: 'Kishan Rastogi, N., Wadhwa, A., and P. Mujumdar, P.: Impact of Climate Change on Non-stationary IDF Curves for Urban Areas, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-2673.',
-        links: ['https://doi.org/10.5194/egusphere-egu23-2673']
+        'text':'Sengupta, S., & Das Bhowmik, R. D. (2023, December). Sea surface to snowy summits: Teleconnections as drivers of snow cover in Himalayan basins. In AGU Fall Meeting Abstracts (Vol. 2023, No. 1043, pp. C53B-1043). ',
+        'links':[
+          'https://ui.adsabs.harvard.edu/abs/2023AGUFM.C53B1043S']
       },
       {
-        text: 'Rishika, A., Reghunath, G., and P. Mujumdar, P.: Impact of Climate Change on Non-stationarity of Extreme Streamflows in Godavari River Basin, India , EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-2697.',
-        links: ['https://doi.org/10.5194/egusphere-egu23-2697']
+        'text':'Sai Vikas, K., & Das Bhowmik, R. D. (2023, December). Development of robust hierarchical river stage-discharge relationships relying on hydroclimate and morphological drivers. In AGU Fall Meeting Abstracts (Vol. 2023, No. 1043, pp. H43B-2083). ',
+        'links':[
+          ' https://ui.adsabs.harvard.edu/abs/2023AGUFM.H43B2083S']
       },
       {
-        text: 'K. Vijayan, A. and P. Mujumdar, P.: On detecting signals of anthropogenic climate change in basin-scale hydrologic variables , EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-2684',
-        links: ['https://doi.org/10.5194/egusphere-egu23-2684']
+        'text':'Das Bhowmik, R., Rasool, T., Sahoo, S., & Kumar, D. N. (2023, December). Modeling unprecedented extreme rainfall events using a novel stochastic rainfall generator. In AGU Fall Meeting Abstracts (Vol. 2023, No. 1043, pp. A21C-2262). ',
+        'links':[
+          'https://ui.adsabs.harvard.edu/abs/2023AGUFM.A21C2262D']
       },
       {
-        text: 'Gaddam, N., Wadhwa, A., Pentakota, L., Reghunath, G., and P Mujumdar, P.: Integration of the WRF Model With Fine-Scale Land Use Data to Simulate Extreme Rainfall Events, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-3183',
-        links: ['https://doi.org/10.5194/egusphere-egu23-3183']
-      },
-	    {
-        text: 'Reghunath, G. and Mujumdar, P. P.: An information-theoretic approach for evaluating catchment scale process relationships , EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-344',
-        links: ['https://doi.org/10.5194/egusphere-egu23-344']
+        'text':'Budamala, V., Singh, S., & Das Bhowmik, R. D. (2023, December). Improving the forecasting of warm season predictability with adaptive machine learning-based subseasonal-to-seasonal (S2S) ensemble prediction. In AGU Fall Meeting Abstracts (Vol. 2023, No. 1043, pp. A21G-2357). ',
+        'links':[
+          'https://ui.adsabs.harvard.edu/abs/2023AGUFM.A21G2357B']
       },
       {
-        text: 'Tripathi, V., Vishwakarma, B. D., and Horwath, M.: Data-Driven and Scaling Factor methods of GRACE leakage correction: Can they be reconciled?, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-12485',
-        links: ['https://doi.org/10.5194/egusphere-egu23-12485']
-      },
-	    {
-        text: 'Mandal, A., Vishwakarma, B. D., Angchuk, T., Azam, M. F., Garg, P. K., and Soheb, M.: Glacier mass balance and its climatic and non-climatic drivers in the Ladakh region during 2000-2021 from remote sensing data, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-6319',
-        links: ['https://doi.org/10.5194/egusphere-egu23-6319']
+        'text':'Posa, P. C. L., & Das Bhowmik, R. D. (2023, December). Spatio-temporal analysis of annual maximum rainfall under the influence of large-scale oscillations. In AGU Fall Meeting Abstracts (Vol. 2023, No. 1043, pp. A14D-04). ',
+        'links':[
+          'https://ui.adsabs.harvard.edu/abs/2023AGUFM.A14D..04P']
       },
       {
-        text: 'Vishwakarma, B. D., Ziegler, Y., Royston, S., and Bamber, J. L.: A data-driven framework for estimating GIA from GPS and GRACE data, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-11697',
-        links: ['https://doi.org/10.5194/egusphere-egu23-11697']
-      },
-	    {
-        text: 'Samuel, W., Vuruputur, V., and Chakrabarti, R.: Process-Based Hydrologic and Hydraulic Modelling for Floods in Brahmaputra, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-4426',
-        links: ['https://doi.org/10.5194/egusphere-egu23-4426 ']
+        'text':'Patil, A., & Das Bhowmik, R. D. (2023, December). Evaluate the Occurrence of Extreme Events in Two Indian Basins Using Rainfall-Runoff Model. In AGU Fall Meeting Abstracts (Vol. 2023, No. 1526, pp. H13G-1526).',
+        'links':[
+          '']
       },
       {
-        text: 'Budamala, V., Wadhwa, A., and Bhowmik, R. D.: Multi-Temporal Downscaling of Streamflow for Ungauged Stations/ Sub-Basins from Daily to Sub-Daily Interval Using Hybrid Framework – A Case Study on Flash Flood Watershed, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-1855',
-        links: ['https://doi.org/10.5194/egusphere-egu23-1855']
-      },
-	    {
-        text: 'Sengupta, S., & Bhowmik, R. D. D. (2023). Sea Surface to Snowy Summits: Teleconnections as Drivers of Snow Cover in Himalayan Basins.',
-        links: ['https://scholar.google.com/scholar?cluster=9831311899667816439&hl=en&oi=scholarr ']
+        'text':'Dutta, D., Srinivas, V. V., & Bala, G. (2023, December). Impact of ENSO and IOD on the interannual variability of compound sea level and rainfall extremes along the Indian coastline. In AGU Fall Meeting Abstracts (Vol. 2023, No. NH41D-0753). American Geophysical Union. ',
+        'links':[
+          'https://ui.adsabs.harvard.edu/abs/2023AGUFMNH41D0753D']
       },
       {
-        text: 'Bhowmik, R. D., Rasool, T., Sahoo, S., & Kumar, D. N. (2023). Modeling unprecedented extreme rainfall events using a novel stochastic rainfall generator.',
-        links: ['https://scholar.google.com/scholar?cluster=15815129327073839172&hl']
-      },
-	    {
-        text: 'Budamala, V., Singh, S., & Bhowmik, R. D. D. (2023). Improving the Forecasting of Warm Season Predictability with Adaptive Machine Learning based Subseasonal-to-Seasonal (S2S) Ensemble Prediction.',
-        links: ['https://scholar.google.com/scholar?cluster=1201745986209119256&hl ']
+        'text':'Panda, B., Chakrabarti, R., Misra, S., & Vuruputur, V. (2023, July 12). A Sr isotopic study of the interaction of river water, seawater, and groundwater in the Hooghly (Ganga) estuary [Poster presentation]. EGU General Assembly 2023, Lyon Congress Center. ',
+        'links':[
+          'https://conf.goldschmidt.info/goldschmidt/2023/meetingapp.cgi/Paper/14498']
       },
       {
-        text: 'Posa, P. C. L., & Bhowmik, R. D. D. (2023). Spatio–Temporal Analysis of Annual Maximum Rainfall under the influence of large-scale Oscillations.',
-        links: ['https://scholar.google.com/scholar?cluster=5707412447047393500&hl']
-      },
-	    {
-        text: 'Patil, A., & Bhowmik, R. D. D. (2023). Evaluate the Occurrence of Extreme Events in Two Indian Basins Using Rainfall-Runoff Model.',
-        links: ['https://scholar.google.com/scholar?cluster=612238185222283131&hl']
+        'text':'Harini, V., Wadhwa, A., & Mujumdar, P. (2023). Impact of spatio-temporal disaggregation of rainfall on hydrological modelling. In EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023, EGU23-2705. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-2705']
       },
       {
-        text: 'Chakraborty, A., Muddu, S., and Rao, L.: Assessment of the Long-term Temporal Resilience of the Indian Terrestrial Ecosystems: Insights into the Country-scale Drivers, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-257.',
-        links: ['https://doi.org/10.5194/egusphere-egu23-257']
-      },
-	    {
-        text: 'Chen, H., Wang, L., Chen, Y.-L., Xie, P., Chen, C.-R., and Liao, T.: Deep learning for uncertainty quantification of satellite retrievals of precipitation: Case studies in two complex terrain regions, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-1718',
-        links: ['https://doi.org/10.5194/egusphere-egu23-1718']
+        'text':'Bhargav Kumar, K., & Mujumdar, P. (2023). Towards temporal scaling laws for the risk analysis of rare flood events. In EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023, EGU23-4837. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-4837']
       },
       {
-        text: 'Tharammal, T., Bala, G., Nusbaumer, J., and Paul, A.: Effects of glacial conditions on the circulation and water vapor sources of Indian monsoon precipitation, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-8251',
-        links: ['https://doi.org/10.5194/egusphere-egu23-8251']
-      },
-    	{
-        text: 'Chandra, C. S., Vuruputur, V., and Muddu, S.: Characteristics of Large-Scale and Localized Droughts in the Gangetic Plains , EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-11077.',
-        links: ['https://doi.org/10.5194/egusphere-egu23-11077,']
+        'text':'Rastogi, N. K., Wadhwa, A., & Mujumdar, P. (2023). Impact of climate change on non-stationary IDF curves for urban areas. In EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023, EGU23-2673. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-2673']
       },
       {
-        text: 'Chakraborty, A., Muddu, S., and Rao, L.: Assessment of the Long-term Temporal Resilience of the Indian Terrestrial Ecosystems: Insights into the Country-scale Drivers, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-257.',
-        links: ['https://doi.org/10.5194/egusphere-egu23-257']
-      },
-	    {
-        text: 'Dutta, D., Srinivas, V. V., and Bala, G.: Trends in the Frequency and Intensity of Compound Coastal Flooding Events along the Indian coastline during 1980-2020, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-17187',
-        links: ['https://doi.org/10.5194/egusphere-egu23-17187']
+        'text':'Rishika, A., Reghunath, G., & Mujumdar, P. (2023). Impact of climate change on non-stationarity of extreme streamflows in Godavari River Basin, India. In EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023, EGU23-2697. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-2697']
       },
       {
-        text: 'Goel, A. and Srinivas, V. V.: Deriving Regional IDF Curves for Data-Sparse Areas in Climate Change Scenarios using Merged Satellite and Ground-based Precipitation and GCMs, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-304',
-        links: ['https://doi.org/10.5194/egusphere-egu23-304']
+        'text':'Vijayan, K. A., & Mujumdar, P. (2023). On detecting signals of anthropogenic climate change in basin-scale hydrologic variables. In EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023, EGU23-2684. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-2684']
       },
       {
-        text: 'Bhatt, J., Srinivas, V. V., Srinivas, V. V., and Srinivas, V. V.: Comparison of different variants of storm maximization method for Probable Maximum Precipitation estimation in changing climate, EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-453',
-        links: ['https://doi.org/10.5194/egusphere-egu23-453 ']
+        'text':'Gaddam, N., Wadhwa, A., Pentakota, L., Reghunath, G., & Mujumdar, P. (2023). Integration of the WRF model with fine-scale land use data to simulate extreme rainfall events. In EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023, EGU23-3183. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-3183']
       },
+      {
+        'text':'Reghunath, G., & Mujumdar, P. (2023). An information-theoretic approach for evaluating catchment scale process relationships. In EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023, EGU23-344. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-344']
+      },
+      {
+        'text':'Tripathi, V., Vishwakarma, B. D., & Horwath, M. (2023). Data-driven and scaling factor methods of GRACE leakage correction: Can they be reconciled? EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-344']
+      },
+      {
+        'text':'Mandal, A., Vishwakarma, B. D., Angchuk, T., Azam, M. F., Garg, P. K., & Soheb, M. (2023). Glacier mass balance and its climatic and non-climatic drivers in the Ladakh region during 2000-2021 from remote sensing data. EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-6319']
+      },
+      {
+        'text':'Vishwakarma, B. D., Ziegler, Y., Royston, S., & Bamber, J. L. (2023). A data-driven framework for estimating GIA from GPS and GRACE data. EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-11697']
+      },
+      {
+        'text':'Budamala, V., Wadhwa, A., & Bhowmik, R. D. (2023). Multi-temporal downscaling of streamflow for ungauged stations/sub-basins from daily to sub-daily interval using a hybrid framework – A case study on flash flood watershed. EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-1855']
+      },
+      {
+        'text':'Samuel, W., Vuruputur, V., & Chakrabarti, R. (2023). Process-based hydrologic and hydraulic modelling for floods in Brahmaputra. In EGU General Assembly 2023 (Vol. 2023, EGU23-4426). ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-4426']
+      },
+      {
+        'text':'Chakraborty, A., Muddu, S., & Rao, L. (2023, April 24–28). Assessment of the long-term temporal resilience of the Indian terrestrial ecosystems: Insights into the country-scale drivers [Presentation]. EGU General Assembly 2023, Vienna, Austria. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-257']
+      },
+      {
+        'text':'Chen, H., Wang, L., Chen, Y.-L., Xie, P., Chen, C.-R., & Liao, T. (2023). Deep learning for uncertainty quantification of satellite retrievals of precipitation: Case studies in two complex terrain regions. EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-1718. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-1718']
+      },
+      {
+        'text':'Tharammal, T., Bala, G., Nusbaumer, J., & Paul, A. (2023). Effects of glacial conditions on the circulation and water vapor sources of Indian monsoon precipitation. EGU General Assembly 2023, Vienna, Austria, 24–28 Apr 2023, EGU23-8251. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-8251']
+      },
+      {
+        'text':'Chandra, C. S., Vuruputur, V., & Muddu, S. (2023). Characteristics of Large-Scale and Localized Droughts in the Gangetic Plains. EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023, EGU23-11077. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-11077']
+      },
+      {
+        'text':'Dutta, D., Srinivas, V. V., & Bala, G. (2023). Trends in the frequency and intensity of compound coastal flooding events along the Indian coastline during 1980-2020. EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023, EGU23-17187. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-17187']
+      },
+      {
+        'text':'Goel, A., & Srinivas, V. V. (2023). Deriving regional IDF curves for data-sparse areas in climate change scenarios using merged satellite and ground-based precipitation and GCMs. EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023, EGU23-304. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-304']
+      },
+      {
+        'text':'Bhatt, J., Srinivas, V. V., Srinivas, V. V., & Srinivas, V. V. (2023). Comparison of different variants of storm maximization method for probable maximum precipitation estimation in changing climate. EGU General Assembly 2023, Vienna, Austria, 24–28 April 2023, EGU23-453. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu23-453']
+      }
     ]
   },
-{
+  {
     year: '2022',
     publications: [
       {
-        text: 'Santy, S., Mujumdar, P., and Bala, G.: Influence of climate change, land use land cover, population and industries on the pollution of Ganga River, EGUsphere [preprint].',
-        links: ['https://doi.org/10.5194/egusphere-2022-796']
+        'text':'Santy, S., Mujumdar, P., & Bala, G. (2022). Influence of climate change, land use land cover, population, and industries on the pollution of Ganga River. EGUsphere [Preprint]. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-2022-796']
       },
       {
-        text: 'Reghunath, G. and Mujumdar, P.: Role of spatial resolution in simulating hydrological processes using a physically-based hydrological model, EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-211',
-        links: ['https://doi.org/10.5194/egusphere-egu22-211']
-      },
-	    {
-        text: 'Santy, S., Mujumdar, P., and Bala, G.: Projection of the risk of nutrient pollution and eutrophication for mid-21st century under changing climate and land use land cover , EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-75',
-        links: ['https://doi.org/10.5194/egusphere-egu22-75']
+        'text':'Sengupta, S., & Das Bhowmik, R. D. (2022). Understanding the influence of snow cover in issuing streamflow forecasts for high-mountainous basins in the Himalayan region. In Proceedings of the 39th IAHR World Congress (pp. 2521–2517). ',
+        'links':[
+          'https://doi.org/10.3850/IAHR-39WC252171192022930']
       },
       {
-        text: 'Shairik Sengupta, Rajarshi Das Bhowmik. Understanding the Influence of Snow Cover in Issuing Streamflow Forecasts for High-Mountainous Basins in the Himalayan Region.',
-        links: ['https://scholar.google.com/citations?view_op=view_citation&hl=en&user=--d4eXkAAAAJ&sortby=pubdate&citation_for_view=--d4eXkAAAAJ:UebtZRa9Y70C  ']
+        'text':'Santy, S., Mujumdar, P., & Bala, G. (2022). Projection of the risk of nutrient pollution and eutrophication for mid-21st century under changing climate and land use land cover. In EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-75',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu22-75']
       },
       {
-        text: 'Thomas, T. M., Bala, G., and Srinivas, V. V.: Change in characteristics of Monsoon low pressure systems under a warming climate , EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-1006.',
-        links: ['https://doi.org/10.5194/egusphere-egu22-1006']
+        'text':'Reghunath, G., & Mujumdar, P. (2022). Role of spatial resolution in simulating hydrological processes using a physically-based hydrological model. In EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-211. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu22-211']
       },
+      {
+        'text':'Santy, S., Mujumdar, P., & Bala, G. (2022). Projection of the risk of nutrient pollution and eutrophication for mid-21st century under changing climate and land use land cover. EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-75. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu22-75']
+      },
+      {
+        'text':'Thomas, T. M., Bala, G., & Srinivas, V. V. (2022). Change in characteristics of Monsoon low pressure systems under a warming climate. EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-1006. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu22-1006']
+      },
+      {
+        'text':'Santy, S., Mujumdar, P., & Bala, G. (2022). Influence of climate change, land use land cover, population and industries on the pollution of Ganga River. EGUsphere [preprint]. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-2022-796']
+      }
     ]
   },
-{
+  {
     year: '2021',
     publications: [
       {
-        text: 'Reghunath, G. and Mujumdar, P.: A comparative assessment of HEC-HMS and VIC hydrological models for simulating hydrological processes in Cauvery River Basin, India, EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-14161.',
-        links: ['https://doi.org/10.5194/egusphere-egu21-14161']
+        'text':'Santy, S., Mujumdar, P., & Bala, G. (2021). Combined impact of climate change and land use on water quality in the mid-21st century: A modelling study for a highly industrialized stretch of Ganga River. In EGU General Assembly 2021, online, 19–30 April 2021, EGU21-795. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu21-795']
       },
       {
-        text: 'Santy, S., Mujumdar, P., and Bala, G.: Combined impact of Climate change and Land use on water quality in the mid-21st century: A modelling study for a highly industrialized stretch of Ganga River, EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-795.',
-        links: ['https://doi.org/10.5194/egusphere-egu21-795 ']
-      },
-	    {
-        text: 'Chakraborty, A., Muddu, S., and Rao, L.: Assessment of Impact of Hydroclimatic Disturbances on Terrestrial GPP Extremes of India Under Land Use and Climate Change, EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-4195.',
-        links: ['https://doi.org/10.5194/egusphere-egu21-4195']
+        'text':'Reghunath, G., & Mujumdar, P. (2021). A comparative assessment of HEC-HMS and VIC hydrological models for simulating hydrological processes in Cauvery River Basin, India. In EGU General Assembly 2021, online, 19–30 April 2021, EGU21-14161. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu21-14161']
       },
       {
-        text: 'ABHISHEK CHAKRABORTY, SEKHAR MUDDU AND LAKSHMINARAYANA RAO: Assessment of the Carbonate Weathering Carbon Sink Potential of Indian Ecosystems for the 21st Century.',
-        links: ['https://doi.org/10.7185/gold2021.5584']
+        'text':'Chakraborty, A., Muddu, S., & Rao, L. (2021, April 19–30). Assessment of impact of hydroclimatic disturbances on terrestrial GPP extremes of India under land use and climate change [Presentation]. EGU General Assembly 2021, online. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu21-4195']
       },
-	    {
-        text: 'Thomas, T. M., Bala, G., and Srinivas, V. V.: An investigation of the bias in the median track of Monsoon Low Pressure Systems over the Indian subcontinent in CESM1.2.2 simulations, EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-3879',
-        links: ['https://doi.org/10.5194/egusphere-egu21-3879']
+      {
+        'text':'Chakraborty, A., Muddu, S., & Rao, L. (2021). Assessment of the carbonate weathering carbon sink potential of Indian ecosystems for the 21st century. Abstract presented at Goldschmidt 2021. ',
+        'links':[
+          'https://doi.org/10.7185/gold2021.5584']
       },
+      {
+        'text':'Santy, S., Mujumdar, P., & Bala, G. (2021). Combined impact of climate change and land use on water quality in the mid-21st century: A modelling study for a highly industrialized stretch of Ganga River. EGU General Assembly 2021, online, 19–30 April 2021, EGU21-795. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu21-795']
+      },
+      {
+        'text':'Thomas, T. M., Bala, G., & Srinivas, V. V. (2021). An investigation of the bias in the median track of Monsoon Low Pressure Systems over the Indian subcontinent in CESM1.2.2 simulations. EGU General Assembly 2021, online, 19–30 April 2021, EGU21-3879. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu21-3879']
+      }
     ]
   },
 {
     year: '2020',
     publications: [
       {
-        text: 'Thomas, T. M., Bala, G., and Venkata Vemavarapu, S.: Statistics of Monsoon Low Pressure Systems in the Indian Subcontinent and Estimation of Related Extreme Rainfall Risk, EGU General Assembly 2020, Online, 4–8 May 2020, EGU2020-1837.',
-        links: [' https://doi.org/10.5194/egusphere-egu2020-1837']
+        'text':'Thomas, T. M., Bala, G., & Venkata Vemavarapu, S. (2020). Statistics of Monsoon Low Pressure Systems in the Indian Subcontinent and Estimation of Related Extreme Rainfall Risk. EGU General Assembly 2020, online, 4–8 May 2020, EGU2020-1837. ',
+        'links':[
+          ' https://doi.org/10.5194/egusphere-egu2020-1837']
       },
       {
-        text: 'Masanta, S. K. and Venkata Vemavarapu, S.: Evaluating Validity of Bouchet-Morton Complementary Relationship at Regional Scale through Terrestrial Evapotranspiration derived using Remote Sensing Platform and Land Surface Models , EGU General Assembly 2020, Online, 4–8 May 2020, EGU2020-910.',
-        links: ['https://doi.org/10.5194/egusphere-egu2020-910']
-      },
-	    {
-        text: 'Kezhkepurath Gangadhara, K. and Venkata Vemavarapu, S.: Probabilistic Flood Hazard Maps at Ungauged Locations Using Multivariate Extreme Values Approach, EGU General Assembly 2020, Online, 4–8 May 2020, EGU2020-732.',
-        links: ['https://doi.org/10.5194/egusphere-egu2020-732']
+        'text':'Masanta, S. K., & Venkata Vemavarapu, S. (2020). Evaluating validity of Bouchet-Morton complementary relationship at regional scale through terrestrial evapotranspiration derived using remote sensing platform and land surface models. EGU General Assembly 2020, Online, 4–8 May 2020, EGU2020-910. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu2020-910']
       },
       {
-        text: 'Nara, S. N. V., Muddu, S., and Ghosh, P.: Assessment of variation of baseflow contribution to stream flow in a hard-rock aquifer, EGU General Assembly 2020, Online, 4–8 May 2020, EGU2020-21691',
-        links: ['https://doi.org/10.5194/egusphere-egu2020-21691']
+        'text':'Kezhkepurath Gangadhara, K., & Venkata Vemavarapu, S. (2020). Probabilistic flood hazard maps at ungauged locations using multivariate extreme values approach. EGU General Assembly 2020, Online, 4–8 May 2020, EGU2020-732. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu2020-732']
       },
+      {
+        'text':'Nara, S. N. V., Muddu, S., & Ghosh, P. (2020). Assessment of variation of baseflow contribution to stream flow in a hard-rock aquifer. EGU General Assembly 2020, Online, 4–8 May 2020, EGU2020-21691. ',
+        'links':[
+          'https://doi.org/10.5194/egusphere-egu2020-21691']
+      }
     ]
   },
 ];
@@ -1894,12 +1149,14 @@ export const bookChapter = [
     year: '2024',
     publications: [
       {
-        text: 'Pavithra. N, Simranjeet Singh, Nadeem A. Khan, K.M. Inchana, Sreegowri G. Avadhani, Daljeet Singh Dhanjal, Praveen C Ramamurthy, Joginder Singh “Phytoremediation of Pharmaceutical Compounds from the Soil” Bioremediation of Emerging Contaminants from Soils. 2024, PP.2-16',
-        links: ['https://doi.org/10.1016/B978-0-443-13993-2.00017-7']
+        'text':'Pavithra, N., Simranjeet Singh, Khan, N. A., Inchana, K. M., Avadhani, S. G., Dhanjal, D. S., Ramamurthy, P. C., & Singh, J. (2024). Phytoremediation of pharmaceutical compounds in soil. In P. Kumar, A. L. Srivastav, V. Chaudhary, E. D. van Hullebusch, & R. Busquets (Eds.), Bioremediation of emerging contaminants from soils (pp. 359-386). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-443-13993-2.00017-7']
       },
       {
-        text: 'Simranjeet Singh, Ruby Angurana, Harry Kaur, Valdehl Katoch, Daljeet Singh Dhanjal, Lilliana Aguilar-Marcelino, Praveen C Ramamurthy and Joginder Singh “Nanoencapsulation of fertilizers: Delivery and applications” Nanofertilizer Delivery, Effects and Application Methods,2024, PP. 97-110.',
-        links: ['https://doi.org/10.1016/B978-0-443-13332-9.00011-3 ']
+        'text':'Simranjeet Singh, Angurana, R., Kaur, H., Katoch, V., Dhanjal, D. S., Aguilar-Marcelino, L., Ramamurthy, P. C., & Singh, J. (2024). Nanoencapsulation of fertilizers: Delivery and applications. In K. A. Abd-Elsalam (Ed.), Nanobiotechnology for plant protection: Nanofertilizer delivery, effects and application methods (pp. 97-110). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-443-13332-9.00011-3']
       }
     ]
   },
@@ -1907,44 +1164,64 @@ export const bookChapter = [
     year: '2023',
     publications: [
       {
-        text: 'Simranjeet Singh, Harry Kaur, Daljeet Singh Dhanjal, Ruby Angurana, Dhriti Kapoor, Vaidehi Katoch, Dhriti Sharma, Praveen C. Ramamurthy, Joginder Singh “Effect of Heavy Metals in Sewage Sludge” Microbial Technologies in Industrial Wastewater Treatment, 2023, PP.1-18, Springer, Singapore (ISBN 978-981-99-2435-6).',
-        links: ['https://doi.org/10.1007/978-981-99-2435-6_1']
+        'text':'Singh, S. et al. (2023). Effect of Heavy Metals in Sewage Sludge. In: Shah, M.P. (eds) Microbial Technologies in Industrial Wastewater Treatment. Springer, Singapore. ',
+        'links':[
+          'https://doi.org/10.1007/978-981-99-2435-6_1']
       },
       {
-        text: 'Simranjeet Singh, Monika Thakur, Daljeet Singh Dhanjal, Ruby Angurana, Dhriti Kapoor, Vaidehi Katoch, Tunisha Verma, Joginder Singh, Praveen C Ramamurthy “Biosensors as a principal Tool for Bioremediation Monitoring” Genomics Approach to Bioremediation: Principles, Tools, and Emerging Technologies 2023, PP. 379-395. John Wiley & Sons, Inc.',
-        links: ['https://doi.org/10.1002/9781119852131.ch20']
+        'text':'Singh, S., Kapoor, D., Bhardwaj, S., Sharma, D., Pujari, M., Ramamurthy, P. C., & Singh, J. (2023). Microbial valorization of agri-waste for single cell protein: Current status. In Microbial bioprocessing of agri-food wastes (1st ed., pp. 16). CRC Press. ',
+        'links':[
+          'https://doi.org/10.1201/9781003128977-4']
       },
       {
-        text: 'Shivika Datta, Simranjeet Singh, Praveen C Ramamurthy, Ruby Angurana, Daljeet Singh Dhanjal, Vaidehi Katoch, Ashwani Kumar, Dhriti Kapoor, Jaswinder Singh, Joginder Singh “Treatment approaches for bio-contaminants in organic wastes” Fate of Biological Contaminants During Recycling of Organic Wastes,2023, PP.123-141, Elsevier.Inc.',
-        links: ['https://doi.org/10.1016/B978-0-323-95998-8.00010-8']
+        'text':'Singh, S. et al. (2023). Effect of Heavy Metals in Sewage Sludge. In: Shah, M.P. (eds) Microbial Technologies in Industrial Wastewater Treatment. Springer, Singapore. ',
+        'links':[
+          'https://doi.org/10.1007/978-981-99-2435-6_1']
       },
       {
-        text: 'Nabila Sheehata, Simranjeet Singh, Praveen C Ramamurthy, Daijeet Singh Dhanjal, Nayonika Koul, Romina Romero, Joginder Singh “Removal pesticides from wastewater by Fenton systems: Enhanced degradation by chelating agents and solar irradiation” Current Developments in Biotechnology and Bioengineering 2023, PP.459-486 Elsevier.Inc',
-        links: ['Nabila Sheehata, Simranjeet Singh, Praveen C Ramamurthy, Daijeet Singh Dhanjal, Nayonika Koul, Romina Romero, Joginder Singh “Removal pesticides from wastewater by Fenton systems: Enhanced degradation by chelating agents and solar irradiation” Current Developments in Biotechnology and Bioengineering 2023, PP.459-486 Elsevier.Inc']
+        'text':'Singh, S., Kapoor, D., Bhardwaj, S., Sharma, D., Pujari, M., Ramamurthy, P. C., & Singh, J. (2023). Microbial valorization of agri-waste for single cell protein: Current status. In Microbial bioprocessing of agri-food wastes (1st ed., pp. 16). CRC Press. ',
+        'links':[
+          'https://doi.org/10.1201/9781003128977-4']
       },
       {
-        text: 'Intelli Kaur, Simranjeet Singh, Harry Kaur, Dhriti Kapoor, Daljeet Singh Dhanjal, Lilliana Aguilar-Marcelino, Vaishali Dhaka, Varsha Sagar, Praveen C Ramamurthy, Joginder Singh “Dietary intake of pesticide residues through vegetables” Current Developments in Biotechnology and Bioengineering 2023.',
-        links: ['https://doi.org/10.1016/B978-0-323-91900-5.00004-7']
+        'text':'Shehata, N., Simranjeet Singh, Ramamurthy, P. C., Dhanjal, D. S., Kaul, N., Romero, R., & Singh, J. (2023). Removal of pesticides from wastewater by Fenton systems: Enhanced degradation by chelating agents and solar irradiation. In J. Singh, A. Pandey, Simranjeet Singh, V. K. Garg, & P. Ramamurthy (Eds.), Current developments in biotechnology and bioengineering (pp. 459-486). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-91900-5.00006-0']
       },
       {
-        text: 'Ruby Angurana, Nabila Shehata, Vaidehi Katoch, Harry Kaur, Tanveer Kaur Raina, Simranjeet Singh, Praveen C Ramamurthy, Daljeet Singh Dhanjal, Joginder Singh “Depleted mineralization of pesticides by soil microbial diversity” Current Developments in Biotechnology and Bioengineering, Pesticides: Human Health, Environmental Impacts and Management, Elsevier.Inc, 2023, PP.251-276.',
-        links: ['https://doi.org/10.1016/B978-0-323-91900-5.00017-5']
+        'text':'Kaur, I., Simranjeet Singh, Kaur, H., Kapoor, D., Dhanjal, D. S., Aguilar-Marcelino, L., Dhaka, V., Sagar, V., Ramamurthy, P. C., & Singh, J. (2023). Dietary intake of pesticide residues through vegetables. In J. Singh, A. Pandey, Simranjeet Singh, V. K. Garg, & P. Ramamurthy (Eds.), Current developments in biotechnology and bioengineering (pp. 119-138). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-91900-5.00004-7']
       },
       {
-        text: 'Simranjeet Singh, Vinod Kumar Garg, Praveen C Ramamurthy, Joginder Singh, Ashok Pandey “Impact and prospects of pesticides on human and environmental health” Current Developments in Biotechnology and Bioengineering, Pesticides: Human Health, Environmental Impacts and Management 2023, Elsevier.Inc, PP.1-32.',
-        links: ['https://doi.org/ 10.1016/ B978-0-323-91900-5.00008-4']
+        'text':'Simranjeet Singh, Garg, V. K., Ramamurthy, P. C., Singh, J., & Pandey, A. (2023). Impact and prospects of pesticides on human and environmental health. In J. Singh, A. Pandey, Simranjeet Singh, V. K. Garg, & P. Ramamurthy (Eds.), Current developments in biotechnology and bioengineering (pp. 1-32). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-91900-5.00008-4']
       },
       {
-        text: 'Simranjeet Singh, Dhriti Kapoor, Praveen C Ramamurthy, Joginder Singh. “Microbial valorization of agri-waste for single cell protein: current status” Microbes in Agri-Forestry Biotechnology” 2023, PP. 16, CRC Press (Taylor & Francis Group)( ISBN9781003128977).',
-        links: ['https://www.taylorfrancis.com/chapters/edit/10.1201/9781003128977-4/microbial-valorization-agri-waste-single-cell-protein-current-status-simranjeet-singh-dhriti-kapoor-savita-bhardwaj-dhriti-sharma-mamta-pujari-praveen-ramamurthy-joginder-singh?context=ubx&refId=2dbe3 9f8-16d5-4745-8d52-cd7ad8895fd6']
+        'text':'Angurana, R., Shehata, N., Katoch, V., Kaur, H., Raina, T. K., Simranjeet Singh, Ramamurthy, P. C., Dhanjal, D. S., & Singh, J. (2023). Depleted mineralization of pesticides on soil microbial diversity. In J. Singh, A. Pandey, Simranjeet Singh, V. K. Garg, & P. Ramamurthy (Eds.), Current developments in biotechnology and bioengineering (pp. 251-276). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-91900-5.00017-5']
       },
       {
-        text: 'Shivika Datta, Simranjeet Singh, Praveen C Ramamurthy, Dhriti Kapoor, Vaishali Dhaka, Deepika Bhatia, Savita Bhardwaj, Parvarish Sharma, Joginder Singh. “Vermi-remediation of agrochemicals, PAHs and crude oil polluted land” Bio-Inspired Land Remediation, Environmental Contamination Remediation and Mangement.2023, PP. 287-315, Publisher. Springer.',
-        links: ['https://doi.org/10.1007/978-3-031-04931-6-12 ']
+        'text':'Singh, S., Thakur, M., Dhanjal, D.S., Angurana, R., Kapoor, D., Katoch, V., Verma, T., Singh, J. and Ramamurthy, P.C. (2023). Biosensors as a Principal Tool for Bioremediation Monitoring. In Genomics Approach to Bioremediation (eds V. Kumar, M. Bilal, L.F.R. Ferreira and H.M.N. Iqbal). ',
+        'links':[
+          'https://doi.org/10.1002/9781119852131.ch20']
       },
       {
-        text: 'Simranjeet Singh, Vijay Kumar, Shiva Datta, Satyender Singh, Daljeet Singh Dhanjal, Noyonika Kaul, Praveen C Ramamurthy, Joginder Singh “Marine Algae as Green Agriculture” Green Chemistry in Agriculture and Food Production,2023, PP.99-110, CRC Press Publisher.',
-        links: ['https://books.google.com/books?hl=en&lr=&id=FACoEAAAQBAJ&oi=fnd&pg=PA 99&dq=info:0XZ5DrUHD3AJ:scholar.google.com&ots=6mZSu62UJG&sig=sl-Hw2ozWb3o Hf0dORyGWMvuk']
+        'text':'Datta, S., Simranjeet Singh, Ramamurthy, P. C., Angurana, R., Dhanjal, D. S., Katoch, V., Kumar, A., Kapoor, D., Singh, J., & Singh, J. (2023). Treatment approaches for bio-contaminants in organic wastes. In K. Huang, S. A. Bhat, & G. Cui (Eds.), Fate of biological contaminants during recycling of organic wastes (pp. 123-141). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-95998-8.00010-8']
+      },
+      {
+        'text':'Singh, S., Kumar, V., Datta, S., Singh, S., Dhanjal, D. S., Kaul, N., Ramamurthy, P. C., & Singh, J. (2023). Marine algae as green agriculture. In Green chemistry in agriculture and food production (1st ed., pp. 12). CRC Press. ',
+        'links':[
+          'https://doi.org/10.1201/9780429289538-6']
+      },
+      {
+        'text':'Datta, S., Singh, S., Ramamurthy, P., Kapoor, D., Dhaka, V., Bhatia, D., Bhardwaj, S., Sharma, P., & Singh, J. (2023). Vermiremediation of agrochemicals, PAHs, and crude oil polluted land. In Bio-inspired land remediation: Environmental contamination remediation and management (pp. 287-315). Springer. ',
+        'links':[
+          'https://doi.org/10.1007/978-3-031-04931-6_12']
       }
     ]
   },
@@ -1952,72 +1229,89 @@ export const bookChapter = [
     year: '2022',
     publications: [
       {
-        text: 'Bhowmik, R.D., Roy, T. (2022). Challenges and Solution Pathways in Water Use Through the Lens of COVID-19. In: Shaw, R., Gurtoo, A. (eds) Global Pandemic and Human Security. Springer, Singapore.',
-        links: ['https://doi.org/10.1007/978-981-16-5074-1_11']
+        'text':'Farooq, S., Singh, S., Kumar, V., Dhanjal, D. S., Ramamurthy, P. C., & Singh, J. (2022). Arsenic-induced responses in plants. In P. K. Srivastava, R. Singh, P. Parihar, & S. M. Prasad (Eds.), Arsenic in plants: Uptake, consequences and remediation techniques (pp. 99-111). John Wiley & Sons Ltd. ',
+        'links':[
+          'https://doi.org/10.1002/9781119791461.ch5']
       },
       {
-        text: 'Sumaya Farooq, Simranjeet Singh, Vijay Kumar, Daljeet Singh Dhanjal, Praveen C Ramamurthy, Joginder Singh“Arsenic induced responses in plants: Impacts on morphological, anatomical and other quantitative and qualitative characters.”Arsenic in Plants: Uptake, Consequences and Remediation Techniques, 2022, PP.99-111, Publisher-John Wiley &Sons Ltd.',
-        links: ['https://doi.org/10.1002/9781119791461.ch5']
+        'text':'Kumar, S., Rani, V., Singh, S., Kapoor, D., Dhanjal, D. S., Thakur, A., Pujari, M., Ramamurthy, P. C., & Singh, J. (2022). Arsenic-induced responses in plants. In P. K. Srivastava, R. Singh, P. Parihar, & S. M. Prasad (Eds.), Arsenic in plants: Uptake, consequences and remediation techniques (pp. 112-128). John Wiley & Sons Ltd. ',
+        'links':[
+          'https://doi.org/10.1002/9781119791461.ch6']
       },
       {
-        text: 'Sanjay Kumar, Varsha Rani, Simranjeet Singh, Dhriti Kapoor, Daljeet Singh Dhanjal, Ankita Thakur, Mamta Pujari, Praveen C Ramamurthy, Joginder Singh“Arsenic induced responses in plants: Impacts on Biochemical Processes” Arsenic in Plants: Uptake, Consequences and Remediation Techniques.2022, PP.112-128, Publisher-John Wiley &Sons Ltd.',
-        links: ['https://doi.org/10.1002/9781119791461.ch6 ']
+        'text':'Singh, S., Kaur, H., Dhanjal, D. S., Ramamurthy, P. C., & Singh, J. (2022). Arsenic removal by membrane technologies and ion exchange methods from wastewater. In P. K. Srivastava, R. Singh, P. Parihar, & S. M. Prasad (Eds.), Arsenic in plants: Uptake, consequences and remediation techniques (pp. 330-344). John Wiley & Sons Ltd. ',
+        'links':[
+          'https://doi.org/10.1002/9781119791461.ch17']
       },
       {
-        text: 'Simranjeet Singh, Harry Kaur, Daljeet Singh Dhanjal, Praveen C. Ramamurthy Joginder Singh “Arsenic removal by membrane technologies and ion exchange methods from wastewater” Arsenic in Plants: Uptake, Consequences and Remediation Techniques”.2022, PP.330-344, Publisher-John Wiley & Sons Ltd. (ISBN 9781119791423).',
-        links: ['https://doi.org/10.1002/9781119791461.ch17']
+        'text':'Wani, A. B., Singh, S., Dhanjal, D. S., Wani, A. H., Ramamurthy, P. C., & Singh, J. (2022). Recent aspects and modification in advanced oxidation processes for pesticide management in wastewater. In M. H. Dehghani, R. R. Karri, & I. Anastopoulos (Eds.), Pesticides remediation technologies from water and wastewater (pp. 127-140). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-90893-1.00006-4']
       },
       {
-        text: 'Marya Khan, Ummey Aymen, Ashiq Hussain Mir, Anupam Tiwari, Sheo Mohan prasad, Joginder Singh, Praveen C Ramamurthy, Rachana Singh, Simranjeet Singh and Parul Parihar “Understanding Heavy Metals Stress in Plants Through Mineral Nutrients” Heavy Metals in Plants Physiological to Molecular approach, 2022, Pages 281-309.',
-        links: ['']
+        'text':'Ramalingam, S., et al. (2022). Plant secondary metabolites: A biosensing approach. In S. K. Nayak, B. Baliyarsingh, I. Mannazzu, A. Singh, & B. B. Mishra (Eds.), Advances in agricultural and industrial microbiology (pp. 249-268). Springer, Singapore. ',
+        'links':[
+          'https://doi.org/10.1007/978-981-16-8918-5_14']
       },
       {
-        text: 'Simranjeet Singh, Dhriti Kapoor, Vaishali Dhaka Savita Bhardwaj, Praveen C Ramamurthy, Joginder Singh “Integrated Technologies for Wastewater Treatment” Integrated Environmental Technologies for Wastewater Treatment and Sustainable Development 2022, PP. 433-457. Publisher- Elsevier.',
-        links: ['https://doi.org/10.1016/B978-0-323-91180-1.00017-X ']
+        'text':'Kaur, P., et al. (2022). Valorization of agri-food industry waste for the production of microbial pigments: An eco-friendly approach. In S. K. Nayak, B. Baliyarsingh, I. Mannazzu, A. Singh, & B. B. Mishra (Eds.), Advances in agricultural and industrial microbiology (pp. 137-167). Springer, Singapore. ',
+        'links':[
+          'https://doi.org/10.1007/978-981-16-8918-5_8']
       },
       {
-        text: 'Simranjeet Singh, Vijay Kumar, Dhirti Kapoor, Sonali Bhardwaj, Daljeet Singh Dhanjal, Akshay Pawar, Praveen C Ramamurthy, Joginder Singh “Fate and occurrence of micro- and nano-plastic pollution in industrial wastewater” Biodegradation and detoxification of micropollutants in industrial wastewater 2022, PP. 27-38. – Publisher- Elsevier.',
-        links: ['https://doi.org/10.1016/B978-0-323-88507-2-00008-7 ']
+        'text':'Singh, S., Kapoor, D., Dhaka, V., Bhardwaj, S., Ramamurthy, P. C., & Singh, J. (2022). Integrated technologies for wastewater treatment. In V. Kumar & M. Kumar (Eds.), Integrated environmental technologies for wastewater treatment and sustainable development (pp. 433-457). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-91180-1.00017-X']
       },
       {
-        text: 'Bhupender Koul, Simranjeet Singh,Siraj Yousuf Parray, Daljeet Singh Dhanjal, Praveen C Ramamurthy and Joginder Singh “Biochemical and molecular aspects of heavy metal stress tolerance in plants”  Phytoremediation technology for the removal of heavy metals and other contaminants from soil and water.2022, PP.205-219.Publisher Elsevier. (ISBN: 9780323885485).',
-        links: ['https://doi.org/10.1016/B978-0-323-85763-5.00003-9']
+        'text':'Bhowmik, R. D., & Roy, T. (2022). Challenges and solution pathways in water use through the lens of COVID-19. In R. Shaw & A. Gurtoo (Eds.), Global pandemic and human security (pp. 211-222). Springer, Singapore. ',
+        'links':[
+          'https://doi.org/10.1007/978-981-16-5074-1_11']
       },
       {
-        text: 'Simranjeet Singh, Vijay Kumar, Daljeet Singh Dhanjal, Parul Parihar, Praveen C Ramamurthy and Joginder Singh “Phytoremediation of heavy metals, metalloids, and radionuclides: Prospects and challenges” Phytoremediation technology for the removal of heavy metals and other contaminants from soil and water”. 2022, PP.253-276. Publisher Elsevier, (ISBN: 9780323885485).',
-        links: ['https://doi.org/10.1016/B978-0-323-85763-5.00024-6']
+        'text':'Koul, B., Singh, S., Parray, S. Y., Dhanjal, D. S., Ramamurthy, P. C., & Singh, J. (2022). Biochemical and molecular aspects of heavy metal stress tolerance in plants. In V. Kumar, M. P. Shah, & S. K. Shahi (Eds.), Phytoremediation technology for the removal of heavy metals and other contaminants from soil and water (pp. 205-219). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-85763-5.00003-9']
       },
       {
-        text: 'Shailja Sharma, Simranjeet Singh, Daljeet Singh Dhanjal, Akshay Kumar, Sadaf Jan, Praveen C Ramamurthy, Joginder Singh “Role of rhizobacteria from plant growth promoter to bio-remediator” Phytoremediation technology for the removal of heavy metals and other contaminants from soil and water”, 2022, PP.309-328, Publisher Elsevier. (ISBN: 9780323885485).',
-        links: ['https://doi.org/10.1016/B978-0-323-85763-5.00019-2']
+        'text':'Singh, S., Kumar, V., Dhanjal, D. S., Parihar, P., Ramamurthy, P. C., & Singh, J. (2022). Phytoremediation of heavy metals, metalloids, and radionuclides: Prospects and challenges. In V. Kumar, M. P. Shah, & S. K. Shahi (Eds.), Phytoremediation technology for the removal of heavy metals and other contaminants from soil and water (pp. 253-276). Elsevier.',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-85763-5.00024-6']
       },
       {
-        text: 'Simranjeet Singh, Vijay Kumar, Shweta Shekar, Dhriti Kapoor, Deepika Bhatia, Daljeet Singh Dhanjal, Praveen C. Ramamurthy, Joginder Singh “Phycoremediation of Wastewater 13” Ecophysiology and Biochemistry of Cyanobacteria,2022, pp269-289.Springer, Singapore.',
-        links: ['https://link.springer.com/chapter/10.1007%2F978-981-16-4873-1_13']
+        'text':'Sharma, S., Singh, S., Dhanjal, D. S., Kumar, A., Jan, S., Ramamurthy, P. C., & Singh, J. (2022). Role of rhizobacteria from plant growth promoter to bioremediator. In V. Kumar, M. P. Shah, & S. K. Shahi (Eds.), Phytoremediation technology for the removal of heavy metals and other contaminants from soil and water (pp. 309-328). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-85763-5.00019-2']
       },
       {
-        text: 'Simranjeet Singh, Daljeet Singh Dhanjal, Dhriti Kapoor, Praveen C. Ramamurthy, Joginder Singh “Role of microbes in methane emission from constructed wetlands” Microbiome Under Changing Climate,2022, PP.489-506. Publisher Woodhead.',
-        links: ['https://doi.org/10.1016/B978-0-323-90571-8.00022-5']
+        'text':'Jain, S., Sharma, A., & Mujumdar, P. P. (2022). Evolution of water management practices in India. In A. Mukherjee (Ed.), Riverine systems (pp. 325-349). Springer, Cham. ',
+        'links':[
+          'https://doi.org/10.1007/978-3-030-87067-6_18']
       },
       {
-        text: 'Simranjeet Singh, Vijay Kumar, Dhriti Kapoor, Daljeet Singh Dhanjal, Abdul Basit Wani, Savita Bhardwaj, Praveen C Ramamurthy, Joginder Singh. “Competence of Nanoparticles for Removal of Pesticides from Wastewater: An Overview” Pesticide’s remediation technologies from water and wastewater: Health effects and environmental remediation” 2022, PP.253-266, Elsevier.',
-        links: ['https://doi.org/10.1016/B978-0-323-90893-1.00012']
+        'text':'Singh, S., Kumar, V., Kapoor, D., Bhardwaj, S., Dhanjal, D. S., Pawar, A., Ramamurthy, P. C., & Singh, J. (2022). Fate and occurrence of micro- and nano-plastic pollution in industrial wastewater. In I. Haq, A. S. Kalamdhad, & M. P. Shah (Eds.), Biodegradation and detoxification of micropollutants in industrial wastewater (pp. 27-38). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-88507-2.00008-7']
       },
       {
-        text: 'Abdul Basit Wani, Simranjeet Singh, Daljeet Singh Dhanjal, Abdul haleem Wani, Praveen C Ramamurthy and Joginder Singh “Recent aspects and modification in advanced oxidation processes for pesticide management in wastewater” Pesticides remediation technologies from water and wastewater: Health effects and environmental remediation, 2022,PP.127-140, Publisher Elsevier.',
-        links: ['https://doi.org/10.1016/B978-0-323-90893-1.00006-4']
+        'text':'Singh, S., et al. (2021). Phycoremediation of wastewater. In R. P. Rastogi (Ed.), Ecophysiology and biochemistry of cyanobacteria (pp. 269-289). Springer, Singapore. ',
+        'links':[
+          'https://doi.org/10.1007/978-981-16-4873-1_13']
       },
       {
-        text: 'Saipriya Ramalingam, Simranjeet Singh, Praveen C Ramamurthy, Dalijeet Singh Dhanjal, Jayashankar Subramanian, Joginder Singh and Ashutosh Singh “Plant Secondary Metabolites: A Biosensing Approach” Advances in Agricultural and Industrial Microbiology, 2022, pp.249-268, Springer, Singapore, ISBN 978-981-16-8917-8.',
-        links: ['https://doi.org/10.1007/978-981-16-8918-5_14']
+        'text':'Singh, S., Dhanjal, D. S., Kapoor, D., Ramamurthy, P. C., & Singh, J. (2022). Role of microbes in methane emission from constructed wetlands. In A. Kumar, J. Singh, & L. F. R. Ferreira (Eds.), Microbiome under changing climate (pp. 489-506). Woodhead Publishing. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-90571-8.00022-5']
       },
       {
-        text: 'Prabhjot Kaur, Simranjeet Singh, Gargi Ghoshal, Praveen C Ramamurthy, Parul Parihar, Joginder Singh, and Ashutosh Singh “Valorization of Agri-Food Industry Waste for the Production of Microbial Pigments: An Eco-Friendly Approach” Advances in Agricultural and Industrial Microbiology, 2022, pp.137-167,Springer, Singapore,ISBN 978-981-16-8917-8.',
-        links: ['https://doi.org/10.1007/978-981-16-8918-5_8']
+        'text':'Singh, S., Ramamurthy, P. C., Kumar, V., Kapoor, D., Dhaka, V., & Singh, J. (2022). Microbes and agri-food waste as novel sources of biosorbents. In C. M. Hussain & R. K. Kadeppagari (Eds.), Biotechnology for zero waste: Emerging waste management techniques. Wiley & Sons. ',
+        'links':[
+          'https://doi.org/10.1002/9783527832064.ch12']
       },
       {
-        text: 'Simranjeet Singh, Praveen C Ramamurthy, Vijay Kumar, Dhriti Kapoor, Vaishali Dhaka and Joginder Singh. “Microbes and Agri-Food Waste as Novel Sources of Biosorbents” Biotec hnology for Zero Waste - Emerging Waste Management Techniques” 2022, PP.1-14, Publisher. Wiley & Sons (ISBN 978-3-527-34898-5).',
-        links: ['https://doi.org/10.1002/9783527832 064.ch12']
+        'text':'Singh, S., Kumar, V., Kapoor, D., Dhanjal, D. S., Wani, A. B., Bhardwaj, S., Ramamurthy, P. C., & Singh, J. (2022). Competence of nanoparticles for removal of pesticides from wastewater: An overview. In M. H. Dehghani, R. R. Karri, & I. Anastopoulos (Eds.), Pesticides remediation technologies from water and wastewater (pp. 253-266). Elsevier. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-90893-1.00012-X']
       }
     ]
   },
@@ -2026,19 +1320,20 @@ export const bookChapter = [
     year: '2021',
     publications: [
       {
-        text: 'Simranjeet Singh, Vijay Kumar, Shivika Datta, Praveen C. Ramamurthy, Joginder Singh. “Molecular mechanism and signaling pathways interplay between plant hormones during plant-microbe crosstalk”. Microbial Management of Plant Stresses: Current Trends, Application and Challenges, 2021, PP.93-108, Elsevier Inc.',
-        links: ['https://doi.org/10.1016/B978-0-323-85193-0.00004-8']
-      },
+        'text':'Singh, S., Kumar, V., Datta, S., Ramamurthy, P. C., & Singh, J. (2021). Molecular mechanism and signaling pathways interplay between plant hormones during plant-microbe crosstalk. In A. Kumar & S. Droby (Eds.), Microbial management of plant stresses (pp. 93-105). Woodhead Publishing. ',
+        'links':[
+          'https://doi.org/10.1016/B978-0-323-85193-0.00004-8']
+      }
     ]
   }
 ];
 
 export const books = [
     {
-      year: '2022',
+      year: '2023',
       publications: [
         {
-          text: 'Joginder Singh, Ashok Pandey, Simranjeet Singh, Vinod Kumar Garg, Praveen C Ramamurthy “Current Developments in Biotechnology and Bioengineering”Pesticides: Human health, Environmental Impacts and Management” Elsevier Science Publishing. 2022 (DocuSign Envelope ID: D5A5F787-F008-4C67-9327-E7D4080EE66B) (Contract ID-#333071) (Publishing Date: 14 March 2022). ',
+          text: 'Singh, J., Pandey, A., Singh, S., Garg, V. K., & Ramamurthy, P. (Eds.). (2023). Pesticides: Human health, environmental impacts and management. Elsevier. ISBN 978-0-323-91900-5. ',
           links: ['https://doi.org/10.1016/C2021-0-00300-X']
         }
       ]
@@ -2047,7 +1342,7 @@ export const books = [
       year: '2019',
       publications: [
         {
-          text: 'Mujumdar, P. & Tiwari, V. (2019). Water Futures of India: Status of Science and Technology (Edited Volume). INSA and IIScPress. ISBN: 978-81-939482-0-0',
+          text: 'Mujumdar, P., & Tiwari, V. (Eds.). (2019). Water futures of India: Status of science and technology. INSA and IIScPress, ISBN 978-81-939482-0-0',
           links: ['']
         }
       ]

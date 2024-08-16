@@ -64,10 +64,10 @@ export const configurations = {
             "link":"/about-us",
             "hasSubDropdown":false
           },
-          // {
-          //   "name":"Program",
-          //   "link":"/program"
-          // },
+          {
+            "name":"Courses",
+            "link":"/courses"
+          },
           {
             "name":"Infrastructure",
             "link":"/centres-and-facilities"

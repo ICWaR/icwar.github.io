@@ -21,6 +21,7 @@ import { OutreachComponent } from './views/outreach/outreach.component';
 import { StudentsSeminarComponent } from './views/students-seminar/students-seminar.component';
 import { MediaCoverageComponent } from './views/media-coverage/media-coverage.component';
 import { JoinIcwarComponent } from './views/join-icwar/join-icwar.component';
+import { CoursesComponent } from './views/courses/courses.component';
 
 
 const routes: Routes = [
@@ -57,6 +58,7 @@ const routes: Routes = [
   {path: 'students-seminar', component:StudentsSeminarComponent},
   {path: 'media-coverage', component:MediaCoverageComponent},
   {path: 'join-icwar', component:JoinIcwarComponent},
+  {path : 'courses', component:CoursesComponent},
   {path:'**',component:PageNotFoundComponent}
 
 ];

@@ -4,10 +4,19 @@ export const research_theme=
     imgSrc: "../../assets/images/Vignettes and Theme/research_theme.png"
   }
 
-
+export const research_slides=
+[
+  "../../assets/images/Slide/Research/Slide3.jpg",
+  "../../assets/images/Slide/Research/Slide5.jpg",
+  "../../assets/images/Slide/Research/Slide9.jpg",
+  "../../assets/images/Slide/Research/Slide12.jpg",
+  "../../assets/images/Slide/Research/Slide13.jpg",
+  "../../assets/images/Slide/Research/Slide16.jpg",
+  "../../assets/images/Slide/Research/Slide17.jpg"
+]
 export const research_vignettes=[
   {
-    'details': 'The Weather Research and Forecasting model is a mesoscale regional climate model that has been used for operational research. This model will be setup for the Bangalore city to create reliable rainfall forecasts of high temporal and spatial resolution. ',
+    'details': 'The Weather Research and Forecasting model is a mesoscale regional climate model that has been used for operational research. This model will be setup for the Bengaluru city to create reliable rainfall forecasts of high temporal and spatial resolution. ',
     imgSrc: "../../assets/images/Vignettes and Theme/res-vignette-8.png"
   },
   {
@@ -23,7 +32,7 @@ export const research_vignettes=[
     imgSrc: "../../assets/images/Vignettes and Theme/res-vignette-5.png"
   },
   {
-    'details': 'High intensity rainfall in Bangalore city under climate change for near future (2021–50) for RCP 8.5 Scenario with 10 year return period. The figure shows uncertainty in rainfall intensities obtained from Bayesian analysis. Results from various GCMs (shown on X-axis), Reliability Ensemble Average (REA) and from Historical data are shown. The climate change projections clearly indicate an increase in high intensity rainfall.',
+    'details': 'High intensity rainfall in Bengaluru city under climate change for near future (2021–50) for RCP 8.5 Scenario with 10 year return period. The figure shows uncertainty in rainfall intensities obtained from Bayesian analysis. Results from various GCMs (shown on X-axis), Reliability Ensemble Average (REA) and from Historical data are shown. The climate change projections clearly indicate an increase in high intensity rainfall.',
     imgSrc: "../../assets/images/Vignettes and Theme/res-vignette-4.png"
   },
   {
@@ -43,17 +52,17 @@ export const research_vignettes=[
 export const collaborations=[
   {
     'title': 'MoU with Center for Ecology and Hydrology (CEH), UK',
-    'details': 'Prof. Anurag Kumar, Director, Indian Institute of Science, Bangalore, India and Dr. Mark Bailey, Director, Centre for Ecology & Hydrology, UK Showing Signed MoU',
+    'details': 'Prof. Anurag Kumar, Director, Indian Institute of Science, Bengaluru, India and Dr. Mark Bailey, Director, Centre for Ecology & Hydrology, UK Showing Signed MoU',
     imgSrc: '../../assets/images/Vignettes and Theme/ceh_mou.jpg'
   },
   {
     'title': 'MoU with James Hutton Institute, Scotland',
-    'details': 'Dr. Bob Ferrier, Director, James Hutton Institute, Scotland and Mr. V. Rajarajan, Registrar, Indian Institute of Science, Bangalore showing signed MoU ',
+    'details': 'Dr. Bob Ferrier, Director, James Hutton Institute, Scotland and Mr. V. Rajarajan, Registrar, Indian Institute of Science, Bengaluru showing signed MoU ',
     imgSrc: '../../assets/images/Vignettes and Theme/mou_jhi.jpg'
   },
   {
     'title': 'MoA with alfa-TKG, Japan',
-    'details': 'Mr. Victor Chung, CEO, Jinpao, Thailand, Prof. P. P. Mujumdar, Chairman, ICWaR, Mr. V. Rajarajan, Registrar, Indian Institute Of Science, Bangalore, and Mr. T. Takagi, CEO, alfaTKG, Japan showing the signed MoA.',
+    'details': 'Mr. Victor Chung, CEO, Jinpao, Thailand, Prof. P. P. Mujumdar, Chairman, ICWaR, Mr. V. Rajarajan, Registrar, Indian Institute Of Science, Bengaluru, and Mr. T. Takagi, CEO, alfaTKG, Japan showing the signed MoA.',
     imgSrc: '../../assets/images/Vignettes and Theme/moa_tkg.jpg'
   },
   {
@@ -67,22 +76,22 @@ export const groups=[
   {
     groupName: 'Hydroclim',
     leader: 'Dr. Rajarshi Das Bhowmik',
-    text: 'Assistant Professor at ICWaR, IISc Bangalore',
+    text: 'Assistant Professor at ICWaR, IISc Bengaluru',
     imgSrc: 'https://rajarshidasbhowmik.com/wp-content/uploads/2022/06/rbhowmik-research1.png',
     websiteUrl: 'https://rajarshidasbhowmik.com/'
   },
   {
     groupName: 'Geodesy for Earth System Science (GESS)',
     leader: 'Dr. Bramha Dutt Vishwakarma',
-    text: 'Assistant Professor at ICWaR, IISc Bangalore',
+    text: 'Assistant Professor at ICWaR, IISc Bengaluru',
     imgSrc: 'https://ultra-pluto-7f6d1.netlify.app/images/SLR_illust_global_processes.png',
     websiteUrl: 'https://ultra-pluto-7f6d1.netlify.app/'
   },
   {
     groupName: 'Organic Nano electronics Group',
     leader: 'Prof. Praveen C Ramamurthy',
-    text: 'Chairman at ICWaR, IISc Bangalore',
-    imgSrc: 'https://materials.iisc.ac.in/~praveen/images/TemplateImage.png',
+    text: 'Chairman at ICWaR, IISc Bengaluru',
+    imgSrc: 'https://materials.iisc.ac.in/~praveen/assets/images/carousel_home/1.png',
     websiteUrl: 'https://materials.iisc.ac.in/~praveen/'
   }
 ]
@@ -131,12 +140,12 @@ export const research_projects=
         'Sponsor': 'MHRD'
       },
       {
-        'Title' : 'Impact Assessment of Climate and Land-use/ Land-cover Changes on Hydrology and Storm water drain Network of Bangalore Urban area',
+        'Title' : 'Impact Assessment of Climate and Land-use/ Land-cover Changes on Hydrology and Storm water drain Network of Bengaluru Urban area',
         'Investigators': 'Prof V V Srinivas (PI) Prof Govindasamy Bala (Co PI)',
         'Sponsor': 'DST'
       },
       {
-        'Title' : '	Funding for Post-doctoral Work at Indian Institute of Science in Bangalore Related to Soil water Monitoring and Modelling',
+        'Title' : '	Funding for Post-doctoral Work at Indian Institute of Science in Bengaluru Related to Soil water Monitoring and Modelling',
         'Investigators': 'Prof P P Mujumdar (PI) M Sekhar (Co PI) James Hutton Institute (JHI) Scotland (Co PI)',
         'Sponsor': 'CEH, UK'
       },
@@ -163,7 +172,7 @@ export const research_projects=
         'Sponsor': 'EMPRI'
       },
       {
-        'Title': 'Urban Flood Model for Bangalore (UFM)',
+        'Title': 'Urban Flood Model for Bengaluru (UFM)',
         'Investigators': 'Prof P P Mujumdar (PI) Dr. G S Srinivasa Reddy (KSNDMC) (Co PI)',
         'Sponsor': 'DST'
       },
@@ -212,7 +221,7 @@ export const research_projects=
         'IISc': 'Indian Institute of Science'
       },
       {
-        'INSPIR': 'Innovation in Science Pursuit for Inspired Research'
+        'INSPIRE': 'Innovation in Science Pursuit for Inspired Research'
       },
       {
         'ISRO': 'Indian Space Research Organisation'

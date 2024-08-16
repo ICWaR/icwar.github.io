@@ -1,7 +1,7 @@
 export const blogs=[
   {
     title : 'The Weather Research and Forecasting model',
-    details: 'The Weather Research and Forecasting model is a mesoscale regional climate model that has been used for operational research. This model will be setup for the Bangalore city to create reliable rainfall forecasts of high temporal and spatial resolution. ',
+    details: 'The Weather Research and Forecasting model is a mesoscale regional climate model that has been used for operational research. This model will be setup for the Bengaluru city to create reliable rainfall forecasts of high temporal and spatial resolution. ',
     imgSrc: "../../assets/images/Vignettes and Theme/res-vignette-8.png",
     author: 'xyz'
   },
@@ -24,8 +24,8 @@ export const blogs=[
     author: 'xyz'
   },
   {
-    title : 'High intensity rainfall in Bangalore city under climate change',
-    details: 'High intensity rainfall in Bangalore city under climate change for near future (2021–50) for RCP 8.5 Scenario with 10 year return period. The figure shows uncertainty in rainfall intensities obtained from Bayesian analysis. Results from various GCMs (shown on X-axis), Reliability Ensemble Average (REA) and from Historical data are shown. The climate change projections clearly indicate an increase in high intensity rainfall.',
+    title : 'High intensity rainfall in Bengaluru city under climate change',
+    details: 'High intensity rainfall in Bengaluru city under climate change for near future (2021–50) for RCP 8.5 Scenario with 10 year return period. The figure shows uncertainty in rainfall intensities obtained from Bayesian analysis. Results from various GCMs (shown on X-axis), Reliability Ensemble Average (REA) and from Historical data are shown. The climate change projections clearly indicate an increase in high intensity rainfall.',
     imgSrc: "../../assets/images/Vignettes and Theme/res-vignette-4.png",
     author: 'xyz'
   },

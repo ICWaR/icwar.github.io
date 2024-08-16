@@ -22,20 +22,13 @@ export const testimonials = [
     workedAs : 'PhD Student',
     duration : '',
     imgSrc : '../../assets/images/Research/TresaThomas.jpg'
-  },{
+  },
+  {
     name: 'Likhitha P',
     currentOrganization: '',
     testimonialText : 'Although I come from a hydrology background, working at ICWaR has helped me explore other disciplines like weather forecasting. Working under the guidance of renowned professors, attending seminars from people around the globe, and interacting with students from various disciplines are some of the best experiences in this center.',
     workedAs : 'Project Scientist I',
     duration : '',
     imgSrc : '../../assets/images/Project Staff/LikhithaP.jpg'
-  },{
-    name: 'Sai Vikas',
-    currentOrganization: 'ICWaR, IISc',
-    testimonialText : 'Choosing ICWaR was one of the best decisions I made for my career. Their comprehensive courses, experienced instructors, and hands-on approach transformed my understanding of water resources management. I gained practical skills that I could immediately apply in my professional life. The supportive learning environment fostered collaboration and networking opportunities, enriching my journey. Thanks to ICWaR, I am now equipped to tackle real-world challenges in the field with confidence.',
-    workedAs : 'PhD Student',
-    duration : '',
-    imgSrc : '../../assets/images/Research/saivikas.jpg'
   },
-
 ];

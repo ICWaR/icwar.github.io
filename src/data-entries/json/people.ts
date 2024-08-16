@@ -7,7 +7,7 @@ export const faculty = [
         department: "ICWaR  &  Professor, Department of Materials Engineering",
         phoneNo: "+91 080 2293 2627",
         email: "praveen@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/PRamamurthy.png",
+        imgSrc: "../../assets/images/Faculty/Prof.PraveenCR.png",
         website: "https://materials.iisc.ac.in/~praveen/",
         details: "PhD, University of Clemson, USA",
         researchInterest:"Electroactive polymers, Nanocomposite, Organic nanoelectronics, and sensors. Area of polymer electronics like Schott key diode, FET, OPVD, and sensors, with a current focus on the elucidation of the structure-property relationship of polymers to the performance of the devices and functionalization of nanocomposites."
@@ -22,7 +22,7 @@ export const faculty = [
         department: "ICWaR",
         phoneNo: "+91 80 2293 3224",
         email: "rajarshidb@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/RDB.jpg",
+        imgSrc: "../../assets/images/Faculty/Dr.RajarshiDB.jpeg",
         website: "https://rajarshidasbhowmik.com/",
         details: "PhD, North Carolina State University, Raleigh (USA)",
         researchInterest:"Hydro-climate modeling, extreme weather events and climate change Projections"
@@ -33,7 +33,7 @@ export const faculty = [
         department: "ICWaR",
         phoneNo: "+91 80 2293 2870",
         email: "bramha@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/BDV.jpg",
+        imgSrc: "../../assets/images/Faculty/Dr.BramhaDV.jpg",
         website: "https://ultra-pluto-7f6d1.netlify.app/",
         details: "PhD, University of Stuttgart, Germany",
         researchInterest:"Signal processing, Geodesy, time-series analysis, and hydrology."
@@ -48,7 +48,7 @@ export const faculty = [
         department: "Department of Civil Engineering",
         phoneNo: "+91 80 2293 2669",
         email: "pradeep@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/ppm.png",
+        imgSrc: "../../assets/images/Faculty/Prof.PradeepPMujumdar.jpg",
         website: "",
         details: "PhD, Indian Institute of Science, Bengaluru",
         researchInterest:"Hydrological uncertainty, climate change, non-stationarity, land use change, urban precipitation extremes"
@@ -59,7 +59,7 @@ export const faculty = [
         department: "Centre for Atmospheric & Oceanic Sciences",
         phoneNo: "+91 80 2293 3428",
         email: "gbala@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/gbala.jpg",
+        imgSrc: "../../assets/images/Faculty/Prof.GBala.jpeg",
         website: "http://dccc.iisc.ac.in/web/balag_home.html",
         details: "PhD, McGill University, Canada",
         researchInterest:"Modelling climate change, carbon and water cycles, solar geoengineering, and the global and regional monsoon systems"
@@ -70,7 +70,7 @@ export const faculty = [
         department: "Department of Civil Engineering",
         phoneNo: "+91 80 2293 2245",
         email: "muddu@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/sekharm.jpg",
+        imgSrc: "../../assets/images/Faculty/Prof.MSekhar.jpg",
         website: "http://civil.iisc.ernet.in/~muddu/",
         details: "PhD, Indian Institute of Science, Bengaluru",
         researchInterest:"Groundwater hydrology, agro-hydrology, satellite hydrology using numerical methods, geospatial & geophysical methods, optimization & inverse approaches."
@@ -81,7 +81,7 @@ export const faculty = [
         department: "Department of Civil Engineering",
         phoneNo: "+ 91 80 2293 2641",
         email: "vvs@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/VVS.jpg",
+        imgSrc: "../../assets/images/Faculty/Prof.VVSrinivas.jpg",
         website: "http://civil.iisc.ernet.in/~vvs/",
         details: "PhD, Indian Institute of Technology Madras, Chennai",
         researchInterest:"Surface water hydrology, climate change impact, land-use/cover change, watershed regionalization, hydrometeorological monitoring, extreme event analysis, statistical hydroclimate modeling, streamflow/flood forecasting, urban drainage, dam performance/breach analysis."
@@ -92,7 +92,7 @@ export const faculty = [
         department: "Centre for Earth Sciences",
         phoneNo: "+91 80 2293 2599",
         email: "pghosh@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/pgosh.jpg",
+        imgSrc: "../../assets/images/Faculty/Prof.PGhosh.jpg",
         website: "",
         details: "PhD, Devi Ahiliya Vishwa Vidhyalaya, Indore",
         researchInterest:"Paleo-atmosphere, stable isotopes, extinction events, carbon cycle, isotopic standards."
@@ -103,7 +103,7 @@ export const faculty = [
         department: "Centre for Earth Sciences",
         phoneNo: "+91 80 2293 3003",
         email: "ramananda@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/ramananda.jpg",
+        imgSrc: "../../assets/images/Faculty/Prof.RamanandaChakrabarti.jpg",
         website: "https://sites.google.com/site/ramanandachakrabarti/Home",
         details: "PhD, University of Rochester, USA",
         researchInterest:"Radiogenic and Non-Traditional Stable Isotopes, Proxy Development, Igneous, Sedimentary And Aqueous Geochemistry, Impact Cratering, and Cosmochemistry."
@@ -114,7 +114,7 @@ export const faculty = [
         department: "Centre for Sustainable Technologies",
         phoneNo: "080 2293 2051",
         email: "narayana@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/lakshminarayanarao.jpg",
+        imgSrc: "../../assets/images/Faculty/Dr.LakshminarayanaRao.jpg",
         website: "",
         details: "PhD, McGill University, Canada",
         researchInterest:"Plasma Technology, Plasma Gasification, Syngas Cleaning, and Enrichment."
@@ -125,7 +125,7 @@ export const faculty = [
         department: "Instrumentation And Applied Physics",
         phoneNo: "Tel: 080 2293  3196",
         email: "sanjiv@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/sanjeevs.jpg",
+        imgSrc: "../../assets/images/Faculty/Dr.SanjivSambandan.jpg",
         website: "",
         details: "PhD, University of Waterloo, Canada",
         researchInterest:"Semiconductor physics, flexible electronics, Device Physics, and Integrated Circuits."
@@ -140,7 +140,7 @@ export const faculty = [
         department: "ICWaR",
         phoneNo: "",
         email: "thejnat@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/ThejnaT.jpg",
+        imgSrc: "../../assets/images/Faculty/Dr.ThejnaT.jpg",
         website: "https://scholar.google.com/citations?user=Yp2pA8QAAAAJ&hl=en",
         details: "PhD, University of Bremen, Germany.",
         researchInterest:"Past and Future Climate Changes, Climate Modelling, and Isotope Hydrology"
@@ -151,7 +151,7 @@ export const faculty = [
         department: "ICWaR",
         phoneNo: "",
         email: "soumitab@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/SoumitaB.jpg",
+        imgSrc: "../../assets/images/Faculty/Dr.SoumitaB.jpg",
         website: "https://scholar.google.com/citations?user=exn8ctgAAAAJ&hl=en",
         details: "PhD, Indian Institute of Technology Kanpur, India",
         researchInterest:"Isotope Geochemistry, Critical zone biogeochemistry, Glacier-river-continent processes, Hydro-geochemical modelling."
@@ -168,7 +168,7 @@ export const formerFaculty =[
         department: "Centre for Atmospheric and Oceanic Sciences",
         phoneNo: "+91 80 2293 3073",
         email: "venu@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/venugopal.jpg",
+        imgSrc: "../../assets/images/Faculty/Prof.VenugopalV.jpg",
         website: "",
         details: "PhD, University of Minnesota, USA",
         researchInterest:"Stochastic Hydrology, Space-time Structure and Scale-invariance of Precipitation, Precipitation Downscaling, Retrieval and Validation of remotely sensed Precipitation, and Cloud-resolving Models."
@@ -179,7 +179,7 @@ export const formerFaculty =[
         department: "Department of Civil Engineering",
         phoneNo: "+91 80 2293 2666",
         email: "nagesh@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/DNageshKumar.jpg",
+        imgSrc: "../../assets/images/Faculty/Prof.DNageshKumar.jpg",
         website: "http://www.civil.iisc.ac.in/people/nagesh-kumar-d/",
         details: "PhD, Indian Institute of Science, Bengaluru",
         researchInterest:"Climate Hydrology, Optimization in Water Resource Systems, Multicriteria Decision Making (MCDM) in Water Resources, and Remote Sensing for Irrigation Management."
@@ -194,7 +194,7 @@ export const formerFaculty =[
         department: "Department of Civil Engineering",
         phoneNo: "",
         email: "",
-        imgSrc: "../../assets/images/Faculty/Mohan Kumar S.jpg",
+        imgSrc: "../../assets/images/Faculty/Prof.MSMohanKumar.jpg",
         website: "http://civil.iisc.ernet.in/~msmk/",
         details: "PhD, Indian Institute of Science, Bengaluru",
         researchInterest:"Water Resources and Environmental Engineering"
@@ -575,7 +575,7 @@ export const postDoctoralScholars = [
       {
         name: "Ashlin Ann Alexander" ,
         Designation: "Research Associate" ,
-        'Degree and Affiliation': "Ph.D. in Water Resources Engineering, Indian Institute of Science, Bangalore" ,
+        'Degree and Affiliation': "Ph.D. in Water Resources Engineering, Indian Institute of Science, Bengaluru" ,
         Project: "SERB-CRG, MHRD-STARS",
         email: "ashlina@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Ashlin_Ann_Alexander.png",
@@ -719,7 +719,7 @@ export const projectStaff = [
         imgSrc: "../../assets/images/Project Staff/ChandiPriya.jpg",
       },
       {
-        name: "Maya Raghunath Suryawanshi" ,
+        name: "Dr. Maya Raghunath Suryawanshi" ,
         Designation: "Project Associate II" ,
         'Degree and Affiliation': "Ph.D. in Physics" ,
         Project: "ISRO-IISc Project",
@@ -727,7 +727,7 @@ export const projectStaff = [
         imgSrc: "../../assets/images/Project Staff/MayaR.jpg",
       },
       {
-        name: "Nruthya K" ,
+        name: "Ms. Nruthya K" ,
         Designation: "Senior Project Associate" ,
         'Degree and Affiliation': "M.Tech in Water Resources Engineering, NITK Surathkal" ,
         Project: "National Supercomputing Mission",
@@ -741,6 +741,22 @@ export const projectStaff = [
         Project: "MHRD-STAR",
         email: "preethialle@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Preethi_Alle.jpg",
+      },
+      {
+        name: "Dr. Nagaraja O" ,
+        Designation: "Senior Project Associate" ,
+        'Degree and Affiliation': "Ph.D, Kuvempu University" ,
+        Project: "MOES Project (STARS)",
+        email: "nagarajao@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Nagaraja_O.jpg",
+      },
+      {
+        name: "Mr. Ramesh N" ,
+        Designation: "Project Associate-II" ,
+        'Degree and Affiliation': "MSc in Agricultural Economics, University of Agricultural Sciences Bengaluru" ,
+        Project: "To establish centres for Cauvery River basin management studies in the states of Karnataka & Tamil Nadu",
+        email: "rameshn@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Ramesh_N.jpg",
       },
     ],
   },
@@ -763,7 +779,7 @@ export const projectStaff = [
       {
         name: "Ananthula Rishika" ,
         Designation: "Project Associate" ,
-        'Degree and Affiliation': "M.Tech in Civil Engineering (Specialization: Water Resources and Environmental Engineering), IISc Bangalore (2023)" ,
+        'Degree and Affiliation': "M.Tech in Civil Engineering (Specialization: Water Resources and Environmental Engineering), IISc Bengaluru (2023)" ,
         Project: "National Supercomputing Mission",
         imgSrc: "../../assets/images/Project Staff/Ananthula_Rishika.png",
       },
@@ -791,7 +807,7 @@ export const projectStaff = [
       {
         name: "Chandan Kumar" ,
         Designation: "Project Associate" ,
-        'Degree and Affiliation': "M.Tech. in Civil Engineering (Major in Water Resources and Environmental Engineering), IISc Bangalore (2022)" ,
+        'Degree and Affiliation': "M.Tech. in Civil Engineering (Major in Water Resources and Environmental Engineering), IISc Bengaluru (2022)" ,
         Project: "SERB-SRG Project",
         imgSrc: "../../assets/images/Project Staff/chandan.jpg",
       },

@@ -1,30 +1,55 @@
 <div class="container-fluid">
 
-  <div class="row p-2 my-2" style="background-image: url(../../../assets/images/Research_Page_Background.jpg);">
-    <div class="col-md-8 col-12 order-1 order-md-2 align-items-center justify-content-center d-flex">
-      <video class="shadow m-2 img-fluid p-2 bg-light" style="max-height: 500px; max-width: 700px;" autoplay loop>
-        <source src="../../../assets/Website_Video.mp4">
-      </video>
+  <div class="row p-2 my-3" style="background-image: url('../../../assets/images/Research_Page_Background.jpg');">
+    <div class="col-md-6 col-12 order-1 order-md-2 offset-md-1 d-flex align-items-center justify-content-center">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button *ngFor="let slide of slides; let i = index"
+                  type="button"
+                  [attr.data-bs-target]="'#carouselExample'"
+                  [attr.data-bs-slide-to]="i"
+                  [class.active]="i === 0"
+                  [attr.aria-label]="'Slide ' + (i + 1)"
+                  [attr.aria-current]="i === 0 ? 'true' : null">
+          </button>
+        </div>
+        <div class="carousel-inner">
+          <div *ngFor="let slide of slides; let i = index" class="carousel-item" [class.active]="i === 0">
+            <img [src]="slide" class="d-block w-100 carousel-img-fit" [alt]="'Slide ' + (i + 1)" style="object-fit: cover;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-    <div class="col-md-3 col-12 order-2 order-md-1 m-3"  >
-      <div class="p-2 bg-light" style="background-image: url(../../../assets/images/Research_Page_Background2.jpg); background-repeat: no-repeat; background-size: cover;" >
+
+
+    <div class="col-md-3 col-12 order-2 order-md-1 m-3">
+      <div class="p-2 bg-light" style="background-image: url('../../../assets/images/Research_Page_Background2.jpg'); background-repeat: no-repeat; background-size: cover;">
         <div class="shadow px-4 py-2">
           <h1 class="my-3"><b>Research</b></h1>
           <div class="ps-md-5 mb-3 d-flex flex-column">
             <button class="btn" [class.selected]="!showProjects && !showVignettes && !showCollaborations && !showGroups" (click)="toggleSection('about')">About</button>
-              <button class="btn" [class.selected]="showProjects" (click)="toggleSection('projects')">Projects</button>
-              <!-- <button class="btn" [class.selected]="showVignettes" (click)="toggleSection('vignettes')">Vignettes</button> -->
-              <button class="btn" [class.selected]="showCollaborations" (click)="toggleSection('collaborations')">Collaborations</button>
-              <button class="btn" routerLink="/centres-and-facilities">Facilities & Labs</button>
-              <button class="btn" [class.selected]="showGroups" (click)="toggleSection('groups')">Groups</button>
+            <button class="btn" [class.selected]="showProjects" (click)="toggleSection('projects')">Projects</button>
+            <!-- <button class="btn" [class.selected]="showVignettes" (click)="toggleSection('vignettes')">Vignettes</button> -->
+            <button class="btn" [class.selected]="showCollaborations" (click)="toggleSection('collaborations')">Collaborations</button>
+            <button class="btn" routerLink="/centres-and-facilities">Facilities & Labs</button>
+            <button class="btn" [class.selected]="showGroups" (click)="toggleSection('groups')">Groups</button>
           </div>
         </div>
       </div>
     </div>
   </div>
+
   <!-- About Section -------->
-  <div *ngIf="showAboutSection" class="col-md-10 offset-md-1 align-middle align-items-center card p-md-5 mb-5">
-    <h1 class="align-self-start p-1"><b>About</b></h1>
+  <div *ngIf="showAboutSection" class="col-md-10 offset-md-1 align-middle align-items-center card p-md-4 mb-5">
+    <h2 class="align-self-start p-1"><b>About</b></h2>
     <p style="font-size: 18px; padding: 2%; text-align: justify;">
       The Interdisciplinary Centre for Water Research (ICWaR) at the Institute is set up with an aim to address water-related issues that have formidable scientific challenges and more importantly, considerable practical relevance.  A major objective of this centre is to develop tools and templates using state-of–the-art sensor-communication, satellite information- and nano- technologies to provide implementable solutions to the water problems faced by the society with respect to climate change, water demand, water quality, extremes of floods and droughts, and salinity intrusion in coastal aquifers. Within a short period of time, the centre has made high-impact research contributions in the area of water resources at regional and global levels.
     </p>

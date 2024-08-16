@@ -13,7 +13,7 @@ export class HomepageComponent {
 
   $=$;
   data =  homepageData;
-  slides=['../../../assets/images/Slide/slideshow1.jpg','../../../assets/images/Slide/slideshow2.jpg','../../../assets/images/Slide/slideshow5.jpg']
+  slides=['../../../assets/images/Slide/1.png','../../../assets/images/Slide/2.png','../../../assets/images/Slide/3.png','../../../assets/images/Slide/4.png','../../../assets/images/Slide/5.png']
   news=newsJson;
   seminars=seminars;
   constructor(

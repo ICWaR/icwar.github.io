@@ -397,7 +397,7 @@ export const postDoctoralScholars = [
       {
         name: "Dr. Gowri R" ,
         Designation: "Research Associate" ,
-        'Degree and Affiliation': "PhD, Department of Civil Engineering, IISc Bangalore (2022)" ,
+        'Degree and Affiliation': "PhD, Department of Civil Engineering, IISc Bengaluru (2022)" ,
         Project: "Advanced Research in Hydrology and Knowledge Dissemination",
         email: "gowrir@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/gowri-r.jpg",
@@ -615,7 +615,7 @@ export const projectStaff = [
       {
         name: "Chandan Kumar" ,
         Designation: "Project Associate" ,
-        'Degree and Affiliation': "M.Tech. in Civil Engineering (Major in Water Resources and Environmental Engineering), IISc Bangalore (2022)" ,
+        'Degree and Affiliation': "M.Tech. in Civil Engineering (Major in Water Resources and Environmental Engineering), IISc Bengaluru (2022)" ,
         Project: "SERB-SRG Project",
         imgSrc: "../../assets/images/Project Staff/chandan.jpg",
       },

@@ -1,20 +1,22 @@
-<div class="p-5 align-middle d-flex justify-content-center row w-100" style="min-height: 80vh;">
-  <h1 class="text-center">Contact Us</h1>
-  <hr>
+<div class="container-fluid text-center mt-3">
+  <h1><b>Contact Us</b></h1>
+</div>
+<hr>
+<div class="container-fluid p-5 align-middle d-flex justify-content-center row w-100" style="min-height: 60vh;">
   <div class="row justify-content-center">
-    <div class="col-md-4 col-sm-12 my-4 row justify-content-center" style="line-height: 2em;">
+    <div class="col-md-4 col-sm-12 row justify-content-center mb-4" style="line-height: 2em;">
       <div class="container col-12">
         <h2>Office</h2>
         <h6>Interdisciplinary Centre for Water Research (ICWaR),<br>
         Indian Institute of Science,<br>
-        Bengaluru, KA – 560012, India<br>
+        Bengaluru, Karnataka – 560012, INDIA<br>
         </h6>
-        <a class="fa fa-envelope" style="font-size: large;" href="mailto:office.icwar@iisc.ac.in"> office.icwar@iisc.ac.in</a>
-        <h5 class="fa fa-phone col-12"> 080 2293 2740</h5>
+        <a class="fa fa-envelope" style="font-size: large; text-decoration: none;" href="mailto:office.icwar@iisc.ac.in"> office.icwar@iisc.ac.in</a>
+        <a class="fa fa-phone col-12" style="text-decoration: none; color: black;" [href]="'callto:'+ 08022932740"> 080 2293 2740</a>
       </div>
     </div>
     <div class="col-md-1 d-md-block d-sm-none"></div>
-    <div class="col-md-3  col-sm-12 my-4">
+    <div class="col-md-3  col-sm-12">
       <form class="container p-3 shadow" style="border-radius: 25px;border: #659DBD solid 1px;" action={{configurations.spreeMailUrl}} method="POST">
         <label for="firstName">First Name</label>
         <input type="text" class="form-control" name="firstName" required>
@@ -23,8 +25,8 @@
         <label for="email">Email</label>
         <input type="email" class="form-control" name="email" required>
         <label for="message">Message</label>
-        <textarea class="form-control" name="message" rows="5" placeholder="Enter your message"></textarea>
-        <button type="submit" class="btn shadow-lg my-2" style="background-color: #659DBD;">Send</button>
+        <textarea class="form-control" name="message" rows="3" placeholder="Enter your message"></textarea>
+        <button type="submit" class="btn shadow-lg mt-3 offset-9" style="background-color: #659DBD;">Send</button>
       </form>
     </div>
   </div>
