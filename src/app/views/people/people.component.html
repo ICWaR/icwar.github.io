@@ -1,6 +1,6 @@
 <div class="container-fluid mt-3 px-5">
   <div class="row">
-      <h2 class="float-start ps-md-5">{{getTitleFromType(type)}} Directory</h2>
+      <h2 class="float-start ps-md-5"><b>{{getTitleFromType(type)}} Directory</b></h2>
   </div>
 </div>
 <hr>
@@ -49,7 +49,7 @@
       </ng-container>
     </ng-container>
   </div> -->
-  <div *ngIf="type =='faculty' || type =='formerFaculty'" class="px-md-5 pb-md-5 px-1 pb-1 row justify-content-center align-items-center col-12 col-md-9" style="max-height: 100vh; overflow-y: scroll;">
+  <div *ngIf="type =='faculty' || type =='formerFaculty'" class="px-md-5 pb-md-5 px-1 pb-1 row justify-content-center align-items-center col-12 col-md-9" >
     <ng-container *ngFor="let parent of designationNames;index as i">
       <ng-container *ngFor="let row of staffUnderDesignation[i];index as index" >
         <div class="card shadow m-1 p-0">
@@ -83,34 +83,47 @@
       </ng-container>
     </ng-container>
   </div>
+
   <!-- Non-Visitors -->
-  <div *ngIf="type!='faculty' && type!='formerFaculty' && dataType=='nested'" class="px-md-5 pb-md-5 px-1 pb-1 row justify-content-center col-md-9 col-12" style="max-height: 100vh;overflow-y: scroll;">
-    <ng-container *ngFor="let parent of designationNames;index as i">
-      <h4 class="text-center text-white p-1" style="background-color: rgb(6, 68, 68);"><b>{{parent}}</b></h4>
-      <ng-container *ngFor="let row of staffUnderDesignation[i]" >
-        <div class="card col-md-5 m-md-3 col-12 shadow border-dark-subtle ">
-          <section class="px-1">
-            <div class="d-flex card-header align-items-center">
-              <img class="card-img me-3 align-self-start" [src]="row.imgSrc" style="max-width: 150px; max-height: 150px;" />
-              <h3 class="m-0">{{row.name}}</h3>
-            </div>
-            <div class="col-12 card-text row">
-              <ng-container *ngFor="let key of getObjectKeys(row)">
-                <h6 *ngIf="key !== 'phoneNo' && key !== 'name' && key !== 'email' && key !== 'imgSrc'" class="col-12"><b>{{ key }}:</b> {{ row[key] }}</h6>
-              </ng-container>
-              <h6 class="col-12">{{row.details}}</h6>
-            </div>
-            <div class="card-footer mb-0 ">
-              <h5 *ngIf="row.phoneNo" class="col-12"><a class="fa fa-phone" [href]="'callto:'+row.phoneNo"> {{row.phoneNo }}</a></h5>
-              <h5 *ngIf="row.email" class="col-12" style="word-break: break-word;"><a class="fa fa-envelope" [href]="'mailto:'+row.email"> {{row.email}}</a></h5>
-            </div>
-          </section>
-        </div>
-      </ng-container>
+  <div *ngIf="type != 'faculty' && type != 'formerFaculty' && dataType == 'nested'" class="px-md-5 pb-md-5 px-1 pb-1 row justify-content-center col-md-9 col-12">
+    <!-- Tabs -->
+    <ul class="nav nav-tabs" id="staffTabs" role="tablist">
+      <li *ngFor="let parent of designationNames" class="nav-item" role="presentation">
+        <button class="nav-link" [class.active]="activeTab === parent" (click)="activeTab = parent" type="button" role="tab" aria-selected="activeTab === parent">{{ parent }}</button>
+      </li>
+    </ul>
+    <ng-container *ngFor="let parent of designationNames; index as i">
+      <div *ngIf="activeTab === parent" class="row">
+        <ng-container *ngFor="let row of staffUnderDesignation[i]">
+          <div class="card col-md-5 m-md-3 col-12 shadow border-dark-subtle mb-1">
+            <section class="px-1">
+              <div class="d-flex card-header align-items-center">
+                <img class="card-img me-3 align-self-start" [src]="row.imgSrc" style="max-width: 150px; max-height: 150px;" />
+                <h3 class="m-0">{{ row.name }}</h3>
+              </div>
+              <div class="col-12 card-text row">
+                <ng-container *ngFor="let key of getObjectKeys(row)">
+                  <h6 *ngIf="key !== 'phoneNo' && key !== 'name' && key !== 'email' && key !== 'imgSrc'" class="col-12"><b>{{ key }}:</b> {{ row[key] }}</h6>
+                </ng-container>
+                <h6 class="col-12">{{ row.details }}</h6>
+              </div>
+              <div class="card-footer mb-0">
+                <h5 *ngIf="row.phoneNo" class="col-12">
+                  <a class="fa fa-phone" [href]="'callto:' + row.phoneNo"> {{ row.phoneNo }}</a>
+                </h5>
+                <h5 *ngIf="row.email" class="col-12" style="word-break: break-word;">
+                  <a class="fa fa-envelope" [href]="'mailto:' + row.email"> {{ row.email }}</a>
+                </h5>
+              </div>
+            </section>
+          </div>
+        </ng-container>
+      </div>
     </ng-container>
   </div>
+
   <!-- Visitors -->
-  <div *ngIf="dataType!='nested'" class="px-md-1 pb-md-5 px-1 pb-1 row justify-content-center col-md-9 col-12" style="max-height: 100vh;overflow-y: scroll;">
+  <div *ngIf="dataType!='nested'" class="px-md-1 pb-md-5 px-1 pb-1 row justify-content-center col-md-9 col-12">
     <ng-container *ngFor="let row of staffUnderDesignation" >
       <div class="card col-md-5 m-md-3 col-12 shadow border-dark-subtle ">
         <section class="px-1">

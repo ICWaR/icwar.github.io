@@ -1,19 +1,4 @@
-
-export const publications = [
-  {
-      'name':'Prof. P. P. Mujumdar',
-      'websiteLink':'http://civil.iisc.ernet.in/~pradeep/',
-      'publicationsList':[
-        {
-          'text':'Pankaj Dey, Somil Swarnkar & Pradeep Mujumdar (2024) Dam operation affects the evolution and propagation of hydrological extremes, Hydrological Sciences Journal.',
-          'links':[
-            'https://doi.org/10.1080/02626667.2024.2311755']
-        }
-      ]
-    }
-  ];
-
-  export const journal = [
+export const journal = [
   {
     year: '2024',
     publications: [
