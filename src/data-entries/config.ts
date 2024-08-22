@@ -140,37 +140,45 @@ export const configurations = {
             "subDropdownItems":[
               {
                 "name":"Workshops",
-                "link":"/events/workshop-and-meetings/workshops"
+                "link":"/events/workshop-and-meetings"
               },
               {
                 "name":"Monsoon School",
                 "link":"/events/monsoon-school"
+              }
+            ]
+          },
+          {
+            "name":"Seminar Series",
+            "hasSubDropdown":true,
+            "link": "/seminars",
+            "dropdownStyle":constants['dropdown-style'],
+            "subDropdownItems":[
+              {
+                "name":"Guest Seminars",
+                "link":"/seminars/guest-seminars"
               },
               {
-                "name":"Seminars",
-                "link":"/events/workshop-and-meetings/seminars",
-              },
-              ]
-          },
-          {
-            "name":"Student Seminar Series",
-            "link":"/students-seminar"
-          },
-          {
-            'name':'Gallery',
-            'link':'/gallery'
-          },
-          {
-            "name":"Outreach",
-            "link":"/outreach"
+                "name":"Community Seminars",
+                "link":"/seminars/community-seminars"
+              }
+            ],
           },
           {
             "name":"Media Coverage",
             "link":"/media-coverage"
           },
           {
+            "name":"Outreach",
+            "link":"/outreach"
+          },
+          {
             "name":"Blogs",
             "link":"/students-blogs"
+          },
+          {
+            'name':'Gallery',
+            'link':'/gallery'
           },
           {
             "name":"Testimonials",
