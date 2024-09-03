@@ -1,5 +1,5 @@
 <!--  ---------NavBar-----------  -->
-<nav id="nav" class="navbar navbar-expand-lg px-2" style="padding-bottom: 0;max-width: 100vw; background-color: rgb(207, 241, 241)">
+<nav id="nav" class="navbar navbar-expand-lg px-2" style="padding-bottom: 0;max-width: 100vw;">
   <!-- <div [ngClass]="screenWidth<786?'d-inline-flex':'container-fluid'"> -->
     <button class="bg-primary-subtle navbar-toggler btn float-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="nav-menu-button "></span>
@@ -10,7 +10,7 @@
 
     <a class="d-none d-lg-block col-3" href="#"><img width="150px" src="../assets/images/logo-iisc.png"></a>
     <h2 class="d-none d-lg-block align-self-center col-6 text-body-emphasis" style="font-weight: 1000;text-shadow: 0px 0px black;">
-      Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science - Bengaluru, Karnataka
+      Interdisciplinary Centre for Water Research (ICWaR), <br> Indian Institute of Science - Bengaluru, Karnataka
     </h2>
     <a class="d-none d-lg-block col-3" href="#"><img width="150px" src="../assets/images/ICWaR_Logo_New.png"></a>
 
@@ -79,9 +79,9 @@
       <h5>Quick Contact</h5>
       <form class="form-inline" action={{configurations.spreeMailUrl}} method="POST">
         <label for="email">Email</label>
-        <input type="email" name="email" class="form-control text-white" required>
+        <input type="email" name="email" class="form-control" required>
         <label for="message">Message</label>
-        <textarea name="message" class="form-control text-white"  rows="3" placeholder="Enter your message" required></textarea>
+        <textarea name="message" class="form-control"  rows="3" placeholder="Enter your message" required></textarea>
         <button type="submit" class=" bg-dark-subtle btn shadow-lg my-2">Send</button>
       </form>
     </div>

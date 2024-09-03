@@ -4,8 +4,8 @@
       <h2><b>Seminars</b></h2>
     </div>
     <div class="col-md-6">
-      <div class="d-flex justify-content-end">
-        <button id="GuestSeminarsBtn" class="btn" (click)="updateData('GuestSeminars')" [class.selected]="selectedTab === 'GuestSeminars'">
+      <div class="d-flex flex-wrap justify-content-end">
+        <button id="GuestSeminarsBtn" class="btn me-2" (click)="updateData('GuestSeminars')" [class.selected]="selectedTab === 'GuestSeminars'">
           Guest Seminars ({{seminars.ICWaR_Guest_Seminar_Series.length}})
         </button>
         <button id="CommunitySeminarsBtn" class="btn me-2" (click)="updateData('CommunitySeminars')" [class.selected]="selectedTab === 'CommunitySeminars'">
@@ -18,20 +18,20 @@
 <hr>
 
 <!-- Guest Seminars Section -->
-<div id="GuestSeminars" class="p-5 row d-flex justify-content-center col-12 pt-0" *ngIf="selectedTab === 'GuestSeminars'">
+<div id="GuestSeminars" class="p-4 row d-flex justify-content-center col-12 pt-0" *ngIf="selectedTab === 'GuestSeminars'">
   <ng-container *ngFor="let item of seminars.ICWaR_Guest_Seminar_Series; index as index">
     <div class="card-bg shadow border border-1 mb-2 card col-12 col-md-10 border-dark p-3">
       <div class="card-text row">
         <div class="col-md-9 col-12 mb-2">
           <h4><b>{{item.DateTime}}</b></h4>
           <h3 class="text mb-3"><b>{{item.Title}}</b></h3>
-          <img *ngIf="item.imgSrc" class="mb-3 d-md-none" style="width: 80%;" [src]="item.imgSrc" />
+          <img *ngIf="item.imgSrc" class="mb-3 d-md-none float-end img-fluid" style="max-width: 125px;" [src]="item.imgSrc" />
           <h5><b>Speaker: </b>{{item.speakerName}}</h5>
           <h5><b>Platform: </b>{{item.Platform}} <a *ngIf="item.link" [href]="item.link" target="_blank">To Join/Watch</a></h5>
           <br>
         </div>
         <div class="col-md-3 col-12 d-none d-md-block">
-          <img *ngIf="item.imgSrc" class="my-2 img-fluid" style="float: right;" [src]="item.imgSrc" />
+          <img *ngIf="item.imgSrc" class="my-2 img-fluid" style="width:99%; float: right; max-width: 150px;" [src]="item.imgSrc" />
         </div>
         <div class="col-12">
           <div id="{{index}}" class="row py-2 col-12 collapse">
@@ -51,7 +51,7 @@
 </div>
 
 <!-- Community Seminars Section -->
-<div id="CommunitySeminars" class="p-5 row d-flex justify-content-center col-12 pt-0" *ngIf="selectedTab === 'CommunitySeminars'">
+<div id="CommunitySeminars" class="p-4 row d-flex justify-content-center col-12 pt-0" *ngIf="selectedTab === 'CommunitySeminars'">
   <ng-container *ngFor="let item of seminars.ICWaR_Community_Seminar_Series; index as index">
     <div class="card-bg shadow border border-1 mb-2 card col-12 col-md-10 border-dark p-3">
       <div class="card-text">

@@ -1,7 +1,7 @@
 .arrow {
   width: 80%;
   height: 50px;
-  background-color: #74aef0; /* Set the background color */
+  background-color: #0669a1; /* Set the background color */
   position: relative;
   display: inline-block;
 }
@@ -19,13 +19,16 @@
 
 .arrow::before {
   left: -25px;
-  border-right: 25px solid #3f7cee; /* Same color as the right arrow */
+  border-right: 25px solid #157fa8; /* Same color as the right arrow */
 }
 
 .arrow::after {
   right: -25px; /* Adjust the position to align with the main rectangle */
-  border-left: 25px solid  #3f7cee;  /* Same color as the right arrow */
+  border-left: 25px solid  #157fa8;  /* Same color as the right arrow */
 }
 h5 {
   text-align: center;
+}
+.btn {
+  color: white;
 }

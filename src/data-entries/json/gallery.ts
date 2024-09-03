@@ -130,10 +130,6 @@ export const gallery = {
 'Freshers Day': {
   '2022':[
     {
-      'imgSrc':'../../assets/images/Gallery/Freshers_Day/FD_2022/FD_2022_1.jpg',
-      'caption':""
-    },
-    {
       'imgSrc':'../../assets/images/Gallery/Freshers_Day/FD_2022/FD_2022_2.jpg',
       'caption':""
     },

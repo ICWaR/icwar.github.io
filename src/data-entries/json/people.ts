@@ -43,17 +43,6 @@ export const faculty = [
   {
     'Associate Faculty': [
       {
-        name: "Prof. P. P. Mujumdar",
-        Designation: "Professor",
-        department: "Department of Civil Engineering",
-        phoneNo: "080 2293 2669",
-        email: "pradeep@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/Prof.PradeepPMujumdar.jpg",
-        website: "",
-        details: "PhD, Indian Institute of Science, Bengaluru",
-        researchInterest:"Hydrological uncertainty, climate change, non-stationarity, land use change, urban precipitation extremes"
-      },
-      {
         name: "Prof. Govindasamy Bala",
         Designation: "Professor",
         department: "Centre for Atmospheric & Oceanic Sciences",
@@ -189,6 +178,17 @@ export const formerFaculty =[
   {
     'Retired Faculty': [
       {
+        name: "Prof. P. P. Mujumdar",
+        Designation: "Professor (Retd.)",
+        department: "Department of Civil Engineering",
+        phoneNo: "",
+        email: "",
+        imgSrc: "../../assets/images/Faculty/Prof.PradeepPMujumdar.jpg",
+        website: "",
+        details: "PhD, Indian Institute of Science, Bengaluru",
+        researchInterest:"Hydrological uncertainty, climate change, non-stationarity, land use change, urban precipitation extremes"
+      },
+      {
         name: "Prof. Mohan Kumar M. S.",
         Designation: "Professor (Retd.)",
         department: "Department of Civil Engineering",
@@ -209,7 +209,7 @@ export const formerFaculty =[
         website: "",
         details: "PhD, University of Mysore, India",
         researchInterest:"Surface and colloid chemistry, Mineral processing, Extractive metallurgy, Bio-processing and environmental control."
-      }
+      },
     ],
   }
 ];
@@ -243,13 +243,11 @@ export const researchStudents = [
         email: "cabhishek@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/Abhishek-Chakraborty.jpg",
       },
-
       {
         name: "Pavithra N" ,
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "M.tech: NIT, Surathkal, Environmental Engineering (2018)" ,
         'Name of Supervisors': "Prof. Praveen C Ramamurthy",
-        'Research Topic': "",
         email: "pavithran@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/Pavithra.jpg",
       },
@@ -258,7 +256,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "M.Tech: IIT Guwahati, Water Resources Engg. and Management (2019)" ,
         'Name of Supervisors': "Prof. V Venugopal and Prof. Jai Sukhatme",
-        'Research Topic': "",
         email: "saubhikdas@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/SoubhikDas.jpg",
       },
@@ -267,7 +264,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "M.Tech: NIT Rourkela, Water Resources Engg. (2019)" ,
         'Name of Supervisors': "Prof. M Sekhar and  Prof. V Venugopal",
-        'Research Topic': "",
         email: "saratc@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/Sarat.jpg",
       },
@@ -285,7 +281,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "M.Sc in Chemistry" ,
         'Name of Supervisors': "Prof. Praveen Ramamurthy and Prof. Prosenjit Ghosh",
-        'Research Topic': "",
         email: "vishakhac@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/vishakha.jpg",
       },
@@ -294,7 +289,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "M.Sc, Environmental Science, Jawaharlal Nehru University, New Delhi." ,
         'Name of Supervisors': "Dr. Rajarshi Das Bhowmik",
-        'Research Topic': "",
         email: "shairiks@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/shairik.jpg",
       },
@@ -303,7 +297,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "BTech: Civil Engineering from Bundelkhand Institute of Engineering & Technology, Jhansi" ,
         'Name of Supervisors': "Dr. Bramha Dutta Vishwakarma",
-        'Research Topic': "",
         email: "viveky@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/vivekkumar.jpg",
       },
@@ -312,7 +305,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "M.Tech in Water Resources Engineering, IIT Bhubaneswar" ,
         'Name of Supervisors': "Dr. Rajarshi Das Bhowmik",
-        'Research Topic': "",
         email: "saikona@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/saivikas.jpg",
       },
@@ -321,7 +313,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "Integrated Master of Science (Chemistry), National Institute of Technology, Rourkela" ,
         'Name of Supervisors': "Praveen Ramamurthy and Prof. Ramananda Chakrabarti",
-        'Research Topic': "",
         email: "vradhika@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/radhikavarshney.jpg",
       },
@@ -330,7 +321,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "M.Tech in Water Resources Engineering and Management, NITK, Surathkal (2021)" ,
         'Name of Supervisors': "Dr. Rajarshi Das Bhowmik",
-        'Research Topic': "",
         email: "poornimaposa@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/posapoornima.jpg",
       },
@@ -339,7 +329,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "MTech: NIT Calicut (Water Resources Engineering)" ,
         'Name of Supervisors': "Dr. Bramha Dutta Vishwakarma",
-        'Research Topic': "",
         email: "balaramshaw@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/balaram.jpg",
       },
@@ -348,7 +337,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "MTech (Civil Engineering), Indian Institute of Science, Bengaluru" ,
         'Name of Supervisors': "Dr. Rajarshi Das Bhowmik",
-        'Research Topic': "",
         email: "vemuriharini@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/Vemuri_Harini.jpg",
       },
@@ -357,7 +345,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D in Engineering" ,
         'Degree and Affiliation': "MTech in Remote Sensing and GIS with Water Resources Specialization, IIRS-ISRO, Dehradun" ,
         'Name of Supervisors': "Dr. Bramha Dutta Vishwakarma",
-        'Research Topic': "",
         email: "chethanv@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/Chetan_VA.jpg",
       },
@@ -366,7 +353,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "M. Engg.: University of Tsukuba, Watershed Conservation Engg. (2008)" ,
         'Name of Supervisors': "Prof. M Sekhar",
-        'Research Topic': "",
         email: "yujis@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/Yuji_Shigefuji.jpg",
       },
@@ -375,7 +361,6 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "M.Sc. in Geoinformatics, TERI School of Advanced Studies (2022)" ,
         'Name of Supervisors': "Dr. Bramha Dutta Vishwakarma",
-        'Research Topic': "",
         email: "svandana@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/Vandana_S.jpg",
       },
@@ -384,10 +369,49 @@ export const researchStudents = [
         'Degree Registered': "Ph.D (Engg.) in Water Research" ,
         'Degree and Affiliation': "M.Sc. Polymer Science and Engineering, Federal University of Technology Owerri Conservation Engg. (2008)" ,
         'Name of Supervisors': "Prof. Praveen Ramamurthy and Prof. Krishna Sanjeev",
-        'Research Topic': "",
         email: "enduranceo@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/Endurance_OE.jpg",
-      }
+      },
+      {
+        name: "Abhirup Pal" ,
+        'Degree Registered': "Ph.D. In Engineering" ,
+        'Degree and Affiliation': "M.Sc. In Statistics from Department Of Statistics, Bangalore University" ,
+        'Name of Supervisors': "Dr. Bramha Dutta Vishwakarma",
+        email: "abhiruppal@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/Abhirup.png",
+      },
+      {
+        name: "Dnyaneshwar Gawai" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "M. Tech. IIT Kharagpur and German Aerospace Centre (DLR) Germany" ,
+        'Name of Supervisors': "Dr. Bramha Dutta Vishwakarma",
+        email: "dnyaneshwarg@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/Dnyaneshwar_Gawai.jpg",
+      },
+      {
+        name: "Rahul Singh" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "MTech - Water Resource Engineering and Management (IIT Guwahati)" ,
+        'Name of Supervisors': "Dr. Rajarshi Das Bhowmik",
+        email: "rahulsingh1@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/RahulSingh.jpg",
+      },
+      {
+        name: "Vishnudatha V" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "MTech Environmental Engineering from IIT Hyderabad" ,
+        'Name of Supervisors': "Prof. Lakshminarayana Rao and Prof. M. Sekhar",
+        email: "vishnudathav@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/Vishnudatha.jpg",
+      },
+      {
+        name: "Preethi Alle" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "M.Tech in Water Resources Engineering, IIT Bhubaneswar (2021)" ,
+        'Name of Supervisors': "Dr. Rajarshi Das Bhowmik",
+        email: "preethialle@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/Preethi_Alle.jpg",
+      },
     ],
   },
 
@@ -735,14 +759,6 @@ export const projectStaff = [
         imgSrc: "../../assets/images/Project Staff/nruthya-k.jpg",
       },
       {
-        name: "Ms. Preethi Alle" ,
-        Designation: "Junior Research Fellow" ,
-        'Degree and Affiliation': "M.Tech in Water Resources Engineering, IIT Bhubaneswar (2021)" ,
-        Project: "MHRD-STAR",
-        email: "preethialle@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/Preethi_Alle.jpg",
-      },
-      {
         name: "Dr. Nagaraja O" ,
         Designation: "Senior Project Associate" ,
         'Degree and Affiliation': "Ph.D, Kuvempu University" ,
@@ -762,6 +778,13 @@ export const projectStaff = [
   },
   {
     Former: [
+      {
+        name: "Ms. Preethi Alle" ,
+        Designation: "Junior Research Fellow" ,
+        'Degree and Affiliation': "M.Tech in Water Resources Engineering, IIT Bhubaneswar (2021)" ,
+        Project: "MHRD-STAR",
+        imgSrc: "../../assets/images/Project Staff/Preethi_Alle.jpg",
+      },
       {
         name: "Likhitha P" ,
         Designation: "Senior Research Fellow" ,

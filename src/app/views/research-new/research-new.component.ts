@@ -52,7 +52,7 @@ export class ResearchNewComponent {
     this.showAboutSection = section === 'about';
     this.showGroups = section === 'groups';
 
-    this.scrollDown();
+    // this.scrollDown();
   }
 
   scrollFunction(): void {
@@ -68,10 +68,10 @@ export class ResearchNewComponent {
     });
   }
 
-  scrollDown(): void {
-    window.scrollTo({
-      top: 500,
-      behavior: 'smooth'
-    });
-  }
+  // scrollDown(): void {
+  //   window.scrollTo({
+  //     top: 200,
+  //     behavior: 'smooth'
+  //   });
+  // }
 }

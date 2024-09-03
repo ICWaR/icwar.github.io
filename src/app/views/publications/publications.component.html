@@ -4,11 +4,11 @@
       <h2><b>Publications</b></h2>
     </div>
     <div class="col-md-6">
-      <div class="d-flex justify-content-end">
+      <div class="d-flex flex-wrap justify-content-end">
         <button class="btn me-2" [class.selected]="activeTab === 'journal'" (click)="showTab('journal')">Journal</button>
         <button class="btn me-2" [class.selected]="activeTab === 'conference'" (click)="showTab('conference')">Conference</button>
         <button class="btn me-2" [class.selected]="activeTab === 'bookChapter'" (click)="showTab('bookChapter')">Book Chapter</button>
-        <button class="btn" [class.selected]="activeTab === 'book'" (click)="showTab('book')">Book</button>
+        <button class="btn me-2" [class.selected]="activeTab === 'book'" (click)="showTab('book')">Book</button>
       </div>
     </div>
   </div>
