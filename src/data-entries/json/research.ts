@@ -6,6 +6,7 @@ export const research_theme=
 
 export const research_slides=
 [
+  "../../assets/images/Slide/Research/Slide2.jpg",
   "../../assets/images/Slide/Research/Slide3.jpg",
   "../../assets/images/Slide/Research/Slide5.jpg",
   "../../assets/images/Slide/Research/Slide9.jpg",

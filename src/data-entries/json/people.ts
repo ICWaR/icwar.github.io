@@ -447,6 +447,19 @@ export const researchStudents = [
 
 export const visitors = [
       {
+        name: "Prof. Jonathan Bamber",
+        'Designation and University of Visitior': "Professor of Glaciology and Earth Observation, University of Bristol and Technical University Munich",
+        Duration: "12th August - 07th September, 2024",
+        website: "https://www.bristol.ac.uk/people/person/Jonathan-Bamber-5ae88269-7462-4eb3-a793-36833a74bfcd/",
+        imgSrc: "../../assets/images/Visitors/Prof.Jonathan_Bamber.JPG",
+      },
+      {
+        name: "Dr. Codrut-Andrei Diaconu",
+        'Designation and University of Visitior': "Doctoral Researcher, German Aerospace Center (DLR) Oberpfaffenhofen, Wessling - 82234, Bavaria, Germany",
+        Duration: "09th May - 09th June, 2024",
+        imgSrc: "../../assets/images/Visitors/Codrut-Andrei_Diaconu.jpeg",
+      },
+      {
         name: "Prof. Ashish Sharma",
         'Designation and University of Visitior': "Professor of Civil and Environmental Engineering at the University of New South Wales, Sydney, Australia",
         Duration: "07 - 08th April, 2024",

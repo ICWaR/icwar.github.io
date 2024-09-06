@@ -21,34 +21,6 @@
     </ol>
   </div>
   <!-- Faculty -->
-  <!-- <div *ngIf="type =='faculty' || type =='formerFaculty'" class="px-md-5 pb-md-5 px-1 pb-1 row justify-content-center align-items-center col-12 col-md-9" style="max-height: 100vh;overflow-y: scroll;">
-    <ng-container *ngFor="let parent of designationNames;index as i">
-      <ng-container *ngFor="let row of staffUnderDesignation[i];index as index" >
-        <div class="card shadow m-1 p-0">
-          <div class="card-body row">
-            <img class="col-12 col-md-3 img-fluid" [src]="row.imgSrc" style="border-radius: 100px" />
-            <div class="col-12 col-md-8 card-text row">
-              <h4 class="col-12" style="font-weight: bold; font-size: medium"><a *ngIf="row.website; else plainName" [href]="row.website" target="_blank" style="text-decoration: none; color: rgb(15, 77, 77);">{{row.name}}</a>
-                <ng-template #plainName>{{row.name}}</ng-template> ({{parent}})</h4>
-              <h6 class="col-12 font-weight-bold font-italic" style="font-size: small;text-decoration: underline;">{{row.department}}</h6>
-              <p class="col-12 d-none d-md-block" style="font-size: small;">{{row.details}}</p>
-              <section class="col-12 d-md-none" style="font-size: small;">
-              <span>{{row.details.substring(0,150)}}</span>
-              <span class="collapse" id={{index}} style=" margin-left: -4px; ">
-                {{row.details.substring(150)}}
-              </span>
-              <button class="col-md-2 btn-text-expand btn collapsed d-md-none col-sm-3 offset-10 m-1 align-self-end" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index"></button>
-            </section>
-            </div>
-          </div>
-          <div class="card-footer row justify-content-center">
-            <h5 *ngIf="row.phoneNo" class="col-md-6 col-12 text-md-center" style="font-size:medium"><a class="fa fa-phone" [href]="'callto:'+row.phoneNo"> {{row.phoneNo }}</a></h5>
-            <h5 *ngIf="row.email" class="col-md-6 col-12" style="font-size: medium;"><a class="fa fa-envelope" [href]="'mailto:'+row.email"> {{row.email}}</a></h5>
-          </div>
-        </div>
-      </ng-container>
-    </ng-container>
-  </div> -->
   <div *ngIf="type =='faculty' || type =='formerFaculty'" class="px-md-5 pb-md-5 px-1 pb-1 row justify-content-center align-items-center col-12 col-md-9" >
     <ng-container *ngFor="let parent of designationNames;index as i">
       <ng-container *ngFor="let row of staffUnderDesignation[i];index as index" >
@@ -72,10 +44,9 @@
                         [attr.aria-controls]="index">
                 </button>
               </section>
-
             </div>
           </div>
-          <div class="card-footer row justify-content-center">
+          <div class="card-footer row mx-2 justify-content-center">
             <h5 *ngIf="row.phoneNo" class="col-md-6 col-12 text-md-center" style="font-size:medium"><a class="fa fa-phone" [href]="'callto:'+row.phoneNo"> {{row.phoneNo }}</a></h5>
             <h5 *ngIf="row.email" class="col-md-6 col-12" style="font-size: medium;"><a class="fa fa-envelope" [href]="'mailto:'+row.email"> {{row.email}}</a></h5>
           </div>
