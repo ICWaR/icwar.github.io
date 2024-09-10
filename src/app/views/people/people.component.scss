@@ -64,3 +64,9 @@ div.d-flex{
     align-items: center;
   }
 }
+
+@media (max-width: 440px) {
+  .card-header {
+    flex-direction: column;
+  }
+}
