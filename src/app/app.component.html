@@ -1,11 +1,14 @@
 <!--  ---------NavBar-----------  -->
 <nav id="nav" class="navbar navbar-expand-lg px-2" style="padding-bottom: 0;max-width: 100vw;">
-  <!-- <div [ngClass]="screenWidth<786?'d-inline-flex':'container-fluid'"> -->
-    <button class="bg-primary-subtle navbar-toggler btn float-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="nav-menu-button "></span>
+
+  <div class="d-lg-none d-flex justify-content-between align-items-center w-100 mb-2">
+    <button class="bg-primary-subtle navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="nav-menu-button"></span>
     </button>
-    <a class="d-lg-none d-sm-grid mb-2" href="#"><img width="75px" src="assets/images/ICWaR_Logo_New_Plain.jpg" class="shadow border border-2 border-light " style="border-radius: 5px;"></a>
-  <!-- </div> -->
+    <h2 class="d-lg-none text-white text-center px-1 mb-0">Interdisciplinary Centre for Water Research</h2>
+    <a class="d-lg-none" href="#"><img width="75px" src="assets/images/ICWaR_Logo_New_Plain.jpg" class="shadow border border-2 border-light" style="border-radius: 5px;"></a>
+  </div>
+
   <div class="text-md-center ps-md-0 ps-2 row collapse navbar-collapse " id="navbarSupportedContent" [style]="configurations.navbar.style">
 
     <a class="d-none d-lg-block col-3" href="#"><img width="150px" src="../assets/images/logo-iisc.png"></a>

@@ -274,7 +274,7 @@ export const researchStudents = [
         'Name of Supervisors': "Prof. V.V. Srinivas, Prof. Govindasamy Bala",
         'Research Topic': "Impact of climate change on compound coastal flooding risk in India",
         email: "diljitdutta@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Research/Diljit.jpg",
+        imgSrc: "../../assets/images/Research/Diljit_Dutta.JPG",
       },
       {
         name: "Vishakha Chauhan" ,
