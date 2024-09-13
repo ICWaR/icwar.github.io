@@ -13,7 +13,7 @@ export const seminars =
       //   link: ['']
       // },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Jonathan_Bamber.JPG",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Jonathan_Bamber.webp",
         Title:"The emergence of satellite Geodesy as a game changing tool in climate science",
         speakerName:'Prof. Jonathan Bamber',
         SeminarTitle:'The emergence of satellite Geodesy as a game changing tool in climate science',
@@ -24,7 +24,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/ETHony8sVkNJmScOXEHEbBMBjP7TPUnOvEwoiiGVYTjaSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mOGZEL']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Mr.Ashish_Gupta.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Mr.Ashish_Gupta.webp",
         Title:"The ‘Idea’ of Sustainability of AgriFood Systems – Sustainable Food Systems Platform for Natural Farming (SuSPNF)",
         speakerName:'Mr. Ashish Gupta',
         SeminarTitle:'The ‘Idea’ of Sustainability of AgriFood Systems – Sustainable Food Systems Platform for Natural Farming (SuSPNF)',
@@ -35,7 +35,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/ESe6lqhvmFZJlSuSkyy_PDsBbE4JbpZQiY6YdKc1lKQ5rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CMc1sO&referrer=Outlook.Web&referrerScenario=email-linkwithembed']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Kanishka_Mallick.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Kanishka_Mallick.webp",
         Title:"Integrating Theory and Data Science with Thermal Remote Sensing for Advanced Modelling of Terrestrial Ecosystem Processes",
         speakerName:'Dr. Kanishka Mallick',
         SeminarTitle:'Integrating Theory and Data Science with Thermal Remote Sensing for Advanced Modelling of Terrestrial Ecosystem Processes',
@@ -46,7 +46,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EZDI_dFFFNZJkHxEjklz5mYBSxoCTM7qdQV0HJtzBdBJhw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ijqVto&referrer=Outlook.Web&referrerScenario=email-linkwithembed']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Venkataraman_Lakshmi.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Venkataraman_Lakshmi.webp",
         Title:"A study of hydrological extremes from space",
         speakerName:'Prof. Venkataraman Lakshmi',
         SeminarTitle:'A study of hydrological extremes from space',
@@ -57,7 +57,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EX3foUubQVhDgJwGok9PReEBHCMcmjZU6HMR2zcUmwlkyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=I6oz8m']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Brajesh_Dubey.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Brajesh_Dubey.webp",
         Title:"Circular Engineering Approaches in Environmental Management to Achieve UN-SDGs",
         speakerName:'Prof. Brajesh Kr. Dubey',
         SeminarTitle:'Circular Engineering Approaches in Environmental Management to Achieve UN-SDGs',
@@ -68,7 +68,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EaWJ3plCiphBrT-LVB5cS7cBGyEvc4MWA0lMV_PuiER0aQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zBG19S&referrer=Outlook.Web&referrerScenario=email-linkwithembed']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Solomon_Vimal.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Solomon_Vimal.webp",
         Title:"Curating Robert E. Horton’s Bibliography",
         speakerName:'Dr. Solomon Vimal',
         SeminarTitle:'Curating Robert E. Horton’s Bibliography',
@@ -79,7 +79,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EcFJiP9in8hFs5VRbfCqnWwByqh_uJUOPIqayzriOranIA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BjkQNu&referrer=Outlook.Web&referrerScenario=email-linkwithembed']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Ashish_Sharma.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Ashish_Sharma.webp",
         Title:"Can Spectrally Transformed CMIP6 Decadal Projections Improve Interannual Rainfall Forecasts?",
         speakerName:'Prof. Ashish Sharma',
         SeminarTitle:'Can Spectrally Transformed CMIP6 Decadal Projections Improve Interannual Rainfall Forecasts?',
@@ -90,7 +90,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/krishnakp_iisc_ac_in/EWyu1EYy3KBOnSkJqVsfzSoBVWOysiChaaV9iczGsmL9UA?e=iDvqq8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Brijesh_Yadav.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Brijesh_Yadav.webp",
         Title:"Management of soil-water pollution using in-situ remediation and advanced monitoring methods",
         speakerName:'Prof. Brijesh Kumar Yadav',
         SeminarTitle:'Management of soil-water pollution using in-situ remediation and advanced monitoring methods',
@@ -101,7 +101,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/rajarshidb_iisc_ac_in/Ecb0Mmb-NLJFqZTdSBDmnnMBECoPUZ-kgwMpebZkByvVXA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JYAE4b']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Rajagopalan_Balaji.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Rajagopalan_Balaji.webp",
         Title:"The Once and Future Variability of Colorado River Water Resources",
         speakerName:'Prof. Rajagopalan Balaji',
         SeminarTitle:'The Once and Future Variability of Colorado River Water Resources',
@@ -112,7 +112,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/krishnakp_iisc_ac_in/EY67XoUr-Y5NqzHV1ipO7J0Br1R5at8yz6e12f1_i1dy5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=y40E0Y']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Shruthi_Hegde.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Shruthi_Hegde.webp",
         Title:"Electrochemical Detection of Pollutants in Water and Air",
         speakerName:'Dr. Shruti Hegde',
         SeminarTitle:'Electrochemical Detection of Pollutants in Water and Air',
@@ -125,7 +125,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Teertha_Banerjee.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Teertha_Banerjee.webp",
         Title:"A micrometeorological perspective into wildland fire dynamics",
         speakerName:'Dr. Tirtha Banerjee',
         SeminarTitle:'A micrometeorological perspective into wildland fire dynamics',
@@ -138,7 +138,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Surendra_Adhikari.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Surendra_Adhikari.webp",
         Title:"Melting Ice, Rising Oceans: A Peek into the Future based on Current Knowledge",
         speakerName:'Dr. Surendra Adhikari',
         SeminarTitle:'Melting Ice, Rising Oceans: A Peek into the Future based on Current Knowledge',
@@ -151,7 +151,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/BNGoswami.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/BNGoswami.webp",
         Title:"Revisiting the Length of the Monsoon Rainy Season (LRS) over Northeast India (NEI)",
         speakerName:'Prof. B. N. Goswami',
         SeminarTitle:'Revisiting the Length of the Monsoon Rainy Season (LRS) over Northeast India (NEI)',
@@ -164,7 +164,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Lakshmivarahan.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Lakshmivarahan.webp",
         Title:"Dynamic Data Assimilation – overview",
         speakerName:'Prof. S. Lakshmivarahan',
         SeminarTitle:'Dynamic Data Assimilation – overview',
@@ -178,7 +178,7 @@ export const seminars =
       },
 
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.-Gilles-Boulet.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.-Gilles-Boulet.webp",
         Title:"High resolution remote sensing data in eco-agro-hydrology: opportunities in the context of the CNES/ISRO TRISHNA mission",
         speakerName:'Dr. Gilles Boulet',
         SeminarTitle:'High resolution remote sensing data in eco-agro-hydrology: opportunities in the context of the CNES/ISRO TRISHNA mission',
@@ -191,7 +191,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Jasmeet-Judge.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Jasmeet-Judge.webp",
         Title:"Microwave and VIR remote sensing for soil moisture and crop phenology using AI",
         speakerName:' Dr. Jasmeet Judge',
         SeminarTitle:'Microwave and VIR remote sensing for soil moisture and crop phenology using AI',
@@ -204,7 +204,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Murray-Peel-2017.jpeg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Murray-Peel-2017.webp",
         Title:"Recent results from investigating annual rainfall-runoff relationship changes during the Millennium Drought in south-eastern Australia",
         speakerName:'Dr. Murray Peel',
         SeminarTitle:'Recent results from investigating annual rainfall-runoff relationship changes during the Millennium Drought in south-eastern Australia',
@@ -217,7 +217,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/eleanor-blyth.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/eleanor-blyth.webp",
         Title:"How the land resonates with the atmosphere: a manifesto for complexity in land models",
         speakerName:'Dr. Eleanor Blyth',
         SeminarTitle:'How the land resonates with the atmosphere: a manifesto for complexity in land models',
@@ -230,7 +230,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/axel-kleidon.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/axel-kleidon.webp",
         Title:"Working at the limit: How thermodynamics shapes the Earth system",
         speakerName:'Dr. Axel Kleidon',
         SeminarTitle:'Working at the limit: How thermodynamics shapes the Earth system',
@@ -243,7 +243,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/yashavanth-kumar.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/yashavanth-kumar.webp",
         Title:"Food Safety Standard Authority India Rules and Regulations for Packaged Drinking water",
         speakerName:'Dr. Yashavanth Kumar GS',
         SeminarTitle:'Food Safety Standard Authority India Rules and Regulations for Packaged Drinking water',
@@ -256,7 +256,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/rao-govindaraju.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/rao-govindaraju.webp",
         Title:"Contending with Uncertainty in Hydrologic Experiments Across Scales",
         speakerName:'Dr. Rao S. Govindaraju',
         SeminarTitle:'Contending with Uncertainty in Hydrologic Experiments Across Scales',
@@ -269,7 +269,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/pallavi-eeswara.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/pallavi-eeswara.webp",
         Title:"Sharing your research for impact and engagement",
         speakerName:'Pallavi Eswara',
         SeminarTitle:'Sharing your research for impact and engagement',
@@ -282,7 +282,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Mijic_-Ana.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Mijic_-Ana.webp",
         Title:"Water Systems Integration Modelling Framework – A Tool to Inform Future Water Planning at a Systems Level",
         speakerName:'Dr. Ana Mijic',
         SeminarTitle:'Water Systems Integration Modelling Framework – A Tool to Inform Future Water Planning at a Systems Level',
@@ -295,7 +295,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/naresh-devinini.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/naresh-devinini.webp",
         Title:"Shaping the Future of India’s Food Water Energy Livelihood Nexus",
         speakerName:'Dr. Naresh Devineni',
         SeminarTitle:'Shaping the Future of India’s Food Water Energy Livelihood Nexus',
@@ -308,7 +308,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/tushar-sinha.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/tushar-sinha.webp",
         Title:"Effects of Urbanization and Extreme Climatic Events on Water Quantity and Quality",
         speakerName:'Dr. Tushar Sinha',
         SeminarTitle:'Effects of Urbanization and Extreme Climatic Events on Water Quantity and Quality',
@@ -321,7 +321,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Shashi_PP.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Shashi_PP.webp",
         Title:"VEDAS: A platform for web-based visualization and analysis of Satellite data",
         speakerName:'Dr. Shashikant A Sharma',
         SeminarTitle:'VEDAS: A platform for web-based visualization and analysis of Satellite data',
@@ -334,7 +334,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/ArpitaMondal.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/ArpitaMondal.webp",
         Title:"What (NOT) to do as an early career academic and researcher in India",
         speakerName:'Dr. Arpita Mondal',
         SeminarTitle:'What (NOT) to do as an early career academic and researcher in India',
@@ -347,7 +347,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/alexandre-anesio.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/alexandre-anesio.webp",
         Title:"How microbes melt glaciers and ice sheets?",
         speakerName:'Prof. Alexandre Anesio',
         SeminarTitle:'How microbes melt glaciers and ice sheets?',
@@ -360,7 +360,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dev_Niyogi.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dev_Niyogi.webp",
         Title:"Representing Cities in Weather and Climate Models: From Processes to Urban Digital Twins",
         speakerName:'Prof. Dev Niyogi',
         SeminarTitle:'Representing Cities in Weather and Climate Models: From Processes to Urban Digital Twins',
@@ -374,7 +374,7 @@ export const seminars =
       },
 
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/abhijit-mukherjee.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/abhijit-mukherjee.webp",
         Title:"Interaction of groundwater with surface water: the example of Ganges river",
         speakerName:'Prof. Abhijit Mukherjee',
         SeminarTitle:'Interaction of groundwater with surface water: the example of Ganges river',
@@ -387,7 +387,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/prof-aditi-mukherji.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/prof-aditi-mukherji.webp",
         Title:"Major findings from IPCC Water Chapter on Water Related Adaptations and their Effectiveness in reducing risks",
         speakerName:'Dr. Aditi Mukherji',
         SeminarTitle:'Major findings from IPCC Water Chapter on Water Related Adaptations and their Effectiveness in reducing risks',
@@ -400,7 +400,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/PaulBates.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/PaulBates.webp",
         Title:"Progress in developing continental and global scale flood inundation models",
         speakerName:'Prof. Paul D Bates',
         SeminarTitle:'Progress in developing continental and global scale flood inundation models',
@@ -413,7 +413,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/prof-sk-tandon.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/prof-sk-tandon.webp",
         Title:"The Anthropocene Concept: Disturbance(s) in the Terrestrial Hydrosphere",
         speakerName:'Prof. S.K. Tandon',
         SeminarTitle:'The Anthropocene Concept: Disturbance(s) in the Terrestrial Hydrosphere',
@@ -426,7 +426,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/kala-s.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/kala-s.webp",
         Title:"Are Cities Culprits or Victims? India’s Carbon Footprint Beyond 2020",
         speakerName:'Prof. Kala Seetharam Sridhar',
         SeminarTitle:'Are Cities Culprits or Victims? India’s Carbon Footprint Beyond 2020',
@@ -439,7 +439,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Lakshminarayana_Rao.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Lakshminarayana_Rao.webp",
         Title:"Wastewater Treatment and Recycling – Challenges and Opportunities",
         speakerName:'Dr. Lakshminarayana Rao',
         SeminarTitle:'Wastewater Treatment and Recycling – Challenges and Opportunities',
@@ -452,7 +452,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Krishnan_Raghavan.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Krishnan_Raghavan.webp",
         Title:"Global Climate Change and Impacts on Monsoon Hydrological Cycle",
         speakerName:'Prof.Krishnan Raghavan',
         SeminarTitle:'Global Climate Change and Impacts on Monsoon Hydrological Cycle',
@@ -465,7 +465,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Chandni_Singh.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Chandni_Singh.webp",
         Title:"Assessing the feasibility of climate change adaptation options in the water sector: Examples from rural and urban landscapes",
         speakerName:'Dr. Chandni Singh',
         SeminarTitle:'Assessing the feasibility of climate change adaptation options in the water sector: Examples from rural and urban landscapes',
@@ -478,7 +478,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Raghu_Murtugudde.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Raghu_Murtugudde.webp",
         Title:"Building an Early Warning System for Waterborne Diseases in India",
         speakerName:'Prof. Raghu Murtugudde',
         SeminarTitle:'Building an Early Warning System for Waterborne Diseases in India',
@@ -491,7 +491,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Dan_Obenour.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Dan_Obenour.webp",
         Title:"Long-term Data and Bayesian Inference Elucidate Controls on Surface Water Quality",
         speakerName:'Prof. Dan Obenour',
         SeminarTitle:'Long-term Data and Bayesian Inference Elucidate Controls on Surface Water Quality',
@@ -504,7 +504,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Albert_Ruhi.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Albert_Ruhi.webp",
         Title:"Hydroecology in a rapidly changing world",
         speakerName:'Dr. Albert Ruhi',
         SeminarTitle:'Hydroecology in a rapidly changing world',
@@ -517,7 +517,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Fabrice_Papa.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Fabrice_Papa.webp",
         Title:"The variability of water storage and fluxes over large tropical river basins from multi-satellite observations and their impacts on the land-ocean continuum",
         speakerName:'Dr. Fabrice Papa',
         SeminarTitle:'The variability of water storage and fluxes over large tropical river basins from multi-satellite observations and their impacts on the land-ocean continuum',
@@ -530,7 +530,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Jahnavi_Phalkey.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Jahnavi_Phalkey.webp",
         Title:"Beyond Science Communication at Science Gallery Bengaluru",
         speakerName:'Dr. Jahnavi Phalkey',
         SeminarTitle:'Beyond Science Communication at Science Gallery Bengaluru',
@@ -543,7 +543,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Atul_Kumar_Sahai.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Atul_Kumar_Sahai.webp",
         Title:"Skilful sub-seasonal meteorological forecasting for efficient hydrological modelling",
         speakerName:'Dr. Atul Kumar Sahai',
         SeminarTitle:'Skilful sub-seasonal meteorological forecasting for efficient hydrological modelling',
@@ -556,7 +556,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Aavudai_Anandhi.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Aavudai_Anandhi.webp",
         Title:"Review and Analysis of Food-Energy-Water Nexus Studies: Conceptual models",
         speakerName:'Dr. Aavudai Anandhi',
         SeminarTitle:'Review and Analysis of Food-Energy-Water Nexus Studies: Conceptual models',
@@ -569,7 +569,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Ramesh_Teegavarapu.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Ramesh_Teegavarapu.webp",
         Title:"Towards Robust Hydrologic Modeling and Design: Utility and Validity of Quantitative Precipitation Estimates",
         speakerName:'Prof. Ramesh Teegavarapu',
         SeminarTitle:'Towards Robust Hydrologic Modeling and Design: Utility and Validity of Quantitative Precipitation Estimates',
@@ -582,7 +582,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Wouter_Buytaert.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Wouter_Buytaert.webp",
         Title:"Citizen science and participatory monitoring of water resources",
         speakerName:'Prof. Wouter Buytaert',
         SeminarTitle:'Citizen science and participatory monitoring of water resources',
@@ -595,7 +595,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Utpal_Tatu.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Utpal_Tatu.webp",
         Title:"Water sanitation in the times of Covid-19 pandemic",
         speakerName:'Dr. Utpal Tatu',
         SeminarTitle:'Water sanitation in the times of Covid-19 pandemic',
@@ -608,7 +608,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Sharad_Kumar_Jain.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Sharad_Kumar_Jain.webp",
         Title:"Hydrology and Water Resources Management in India – from Ancient to Recent Times",
         speakerName:'Dr. Sharad Kumar Jain',
         SeminarTitle:'Hydrology and Water Resources Management in India – from Ancient to Recent Times',
@@ -621,7 +621,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.P.Somasekhar_Rao.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.P.Somasekhar_Rao.webp",
         Title:"Water Science – Interface with Policy and Governance",
         speakerName:'Dr. P. Somasekhar Rao',
         SeminarTitle:'Water Science – Interface with Policy and Governance',
@@ -634,7 +634,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Bhanu_Neupane.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Bhanu_Neupane.webp",
         Title:"Can new technologies help achieve water security?",
         speakerName:'Dr. Bhanu Neupane',
         SeminarTitle:'Can new technologies help achieve water security?',
@@ -647,7 +647,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Alan_Jenkins.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Alan_Jenkins.webp",
         Title:"Hydrological Outlooks: what can we do and what could we do?",
         speakerName:'Dr. Alan Jenkins',
         SeminarTitle:'Hydrological Outlooks: what can we do and what could we do?',
@@ -660,7 +660,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Anil_Kulkarni.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Anil_Kulkarni.webp",
         Title:"Recent Advances in Himalayan Glaciology",
         speakerName:'Dr Anil Kulkarni',
         SeminarTitle:'Recent Advances in Himalayan Glaciology',
@@ -670,7 +670,7 @@ export const seminars =
         Abstract:'Himalayan mountain range is one of the major Water Tower of Asia and stores a large concentration of snow and glaciers.  Water Towers generate more runoff due to high orographic precipitation and delay release due to storage as snow and Ice. Therefore, water is supplied during the hot and dry season, making many rivers like Indus, Ganga and Brahmaputra perennial.  Indus River considered more vulnerable under future climate change scenarios due to large contribution from snow/glacier melt, large population, high water stress and geopolitical conditions.  In addition, the livelihood of large Himalayan mountain communities also depends on the availability of water from snow and glacier melt. Therefore, periodic assessment of the state of the Himalayan cryosphere is important. In this lecture, I will give a current understanding of Himalayan cryosphere and future challenges. Recently numerous new techniques and models have been developed to estimate glacier volume, mass loss, potential glacier lake sites, assessment of flash flood from Glacier Lake Outburst Flood and effect of climate change of glacier distribution. I will discuss the significance of these contributions and its impact of water security and livelihood on mountain communities.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Laurent_Ruiz.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Laurent_Ruiz.webp",
         Title:"Critical Zone Science for Water Resource Management in Agricultural Landscapes",
         speakerName:'Dr. Laurent Ruiz',
         SeminarTitle:'Critical Zone Science for Water Resource Management in Agricultural Landscapes',
@@ -680,7 +680,7 @@ export const seminars =
         Abstract:'In the time of Anthropocene, global changes are questioning the capacity of the planet Earth to sustain the development of human societies in the long term. In the past two decades, this concern has fostered world wise efforts to develop integrated studies of the “Critical Zone” (CZ), the thin layer of the Earth surface, from the top of the canopy to the bottom of the aquifer, hosting the continental biosphere and providing basic human needs such as water, food, energy and ecosystem services. Critical Zone Observatories (CZO) have been set up in various climatic, geologic and human contexts with a wide range of variables being monitored on the long term. Their main challenge is to ensure the actual integration of the multiple scientific disciplines at stake, from geosciences and biological sciences to social sciences, working within a wide range of spatial and temporal scales. Using experiences from France and India, this seminar will illustrate how such integration can produce the knowledge required for effectively addressing environmental issues in agricultural landscapes.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/S.Vishwanath.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/S.Vishwanath.webp",
         Title:"The tyranny of small decisions- living with sub-optimality in the water and waster water sector: experience from the field",
         speakerName:'S. Vishwanath',
         SeminarTitle:'The tyranny of small decisions- living with sub-optimality in the water and waster water sector: experience from the field',
@@ -690,7 +690,7 @@ export const seminars =
         Abstract:'The management of water and wastewater is often seen as an institutional issue. Yet in the case of India there are many stakeholders at play apart from institutions and in fact, may crucially be using and in control of more waters and wastewaters than the government. In the quest for sustainable management of resources, optimality is put forward as a goal, whereas a series of sub optimality’s, often in conflict with the optimal, is likely the way forward. How is rainwater harvesting to work in non-optimal worlds? How is groundwater to be used and recharged? What happens to faecal sludge from pit toilets and septic tanks and wastewater in a city ecosystem? Can livelihoods also be included as part of the management of water as a resource? Do policies and standards need a fresh look in this context? Why are we subject to the tyranny of small decisions ?'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Murugesu_Sivalapalan.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Murugesu_Sivalapalan.webp",
         Title:"Mega-trends in the Growth of Hydrologic Understanding: From Newton to Darwin to Wegener",
         speakerName:'Prof. Murugesu Sivalapalan ',
         SeminarTitle:'Mega-trends in the Growth of Hydrologic Understanding: From Newton to Darwin to Wegener',
@@ -700,7 +700,7 @@ export const seminars =
         Abstract:'Hydrologic science has undergone transformative changes over the past 100 years, from early empirical approaches to rigorous approaches based on the fluid mechanics of water movement on and below the land surface. Challenged by limitations of traditional Newtonian approaches, and embracing a Darwinian, co-evolutionary Earth system science perspective, the pursuit of hydrologic science is now guided by altogether new questions and methodologies, with a particular focus on interactions and feedbacks between parts of the Earth system that co-evolve, giving rise to the adoption of comparative hydrology. In the emergent Anthropocene, this co-evolutionary view has expanded to involve feedbacks with human-social processes as well. Hydrologic science is now entering a globalization era with a focus on new phenomena that emerge from regional and global teleconnections of the expansion of the human footprint, calling for the adoption of novel Wegenerian approaches to understand the Earth system and the role of water in it. In this lecture, I will present key milestones in the transformation of hydrologic science from Engineering Hydrology to Earth System Science.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Axel_Kleidon.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Axel_Kleidon.webp",
         Title:"Understanding hydrologic cycling from a thermodynamic Earth system perspective",
         speakerName:'Dr. Axel Kleidon',
         SeminarTitle:'Understanding hydrologic cycling from a thermodynamic Earth system perspective',
@@ -710,7 +710,7 @@ export const seminars =
         Abstract:' The hydrologic cycle is an integral part of the whole Earth system, converting substantial amounts of energy. These conversions follow the laws of thermodynamics, which set the directions and impose fundamental limits, yet these also result in interactions and feedbacks that emphasise the need for an Earth system perspective.  In this talk, I provide the background for this thermodynamic description of the hydrologic cycle and use examples to show how thermodynamic limits in combination with a formulation of the dominant interactions can be used to describe the emergent behaviour.  I show how this approach can be used to provide simple, yet physically-based estimates of evaporation and how hydrologic cycling responds to global climate change.  I close with an outlook on potential future applications, highlighting the generality of the approach as energy, its conversions into other forms, and interactions are  at the very core of literally every Earth system process.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.JayKumar_PD.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.JayKumar_PD.webp",
         Title:"Karnataka GIS : A tool towards transparent governance",
         speakerName:'Dr. JayKumar PD',
         SeminarTitle:'Karnataka GIS : A tool towards transparent governance',
@@ -720,7 +720,7 @@ export const seminars =
         Abstract:'Karnataka Geographic Information System (K-GIS) is a flagship program of the state which is visualized as a geospatial technology platform that ensures availability of updated “GIS ready data” of specified standard.  It is a novel initiative by the Karnataka State Remote Sensing Applications Centre (KSRSAC) to map and integrate all department asset data and make it available for both government and public through a single gateway i.e., K-GIS Portal (https://kgis.ksrsac.in/kgis/). The datasets are organized and standardized such that they are readily available, easily-usable “integrated” GIS content for the entire state.  The major activities of K-GIS are mapping and geo-tagging of departmental and public assets, integration of MIS data and developing GIS based Decision Support System to address the spatial challenges of Government of Karnataka (GoK) departments.  Till date more than 18 lakhs asset related information was collected and organized in 350 spatial layers and the activity is growing.  By using these spatial data around 40-45 GIS based mobile applications (Ex: Moulya, Dishaank, Chunavana, Data Collector etc.,) and around 50-55 GIS based web applications (Ex: Agriculture Dept, Family Welfare Dept, Education Dept etc.,) were developed and rolled out for department and citizen usage. It has also tailored the departmental applications with GIS content for taking decisions, tracking project implementation, monitoring progress and policy definition.  Due to its implementation by GoK, all the government institute/infrastructure data and MIS information is available to the citizens, thus facilitating the Right to Information in a user-friendly manner. The maps are also available as a service to IT enthusiast and researcher to carryout research and development activities.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Dipankar_Saha.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Dipankar_Saha.webp",
         Title:"Artificial Recharge – An all-weather solution for Groundwater Crisis or Overrated Panacea?",
         speakerName:'Dr. Dipankar Saha',
         SeminarTitle:'Artificial Recharge – An all-weather solution for Groundwater Crisis or Overrated Panacea?',
@@ -730,7 +730,7 @@ export const seminars =
         Abstract:'Groundwater is the lifeline of drinking, irrigation and industrial water supply in India. With an extraction of ~ 250 km3 annually, India are the largest user of Groundwater in the world. Though a plethora of government documents and policy papers highlighting planned and coordinated extraction management of groundwater resources is available, in practice, it has been hardly followed. So is the case of artificial recharge, often referred as medicine of all groundwater woos but mostly being executed in a segmented and unplanned manner often divested with scientific understanding of the area. Groundwater extraction has never been planned in conjunction with its annual recharge. The reason is the lack of structured approach by the Government. We use more than 85% of our extracted groundwater for irrigation through ~ 22 million wells owned by farmers. In absence of any regulatory mechanism, coupled with sops offered by the State Govts, mainly in the form of energy subsidy, has initiated a reckless extraction, creating havoc. The latest estimates reveal that about 20% of the assessment units are either overexploited or are alarmingly close to it. Artificial recharge and rain water harvesting is considered as a panacea for groundwater depletion. The Centre and State Government Departments spend huge public money mainly through various schemes like MNGREGS. The recharge structures are hardly dovetailed with local aquifer understanding, thus lacking in two basic arenas, location and design, and resulting in sub-optimal benefits. The other important issue is the lack of source water, which is primarily monsoon runoff in India. In arid and semi-arid areas, dearth of source water is a major challenge. Inter-basin water transfer should also considered for recharging the depleted aquifer. Moreover, because of climate change, the monsoon pattern is changing. The traditional understanding of types of structures and their designs needs to be revisited to accommodate and withstand high intensity rainfall.There are areas where acute groundwater mining has rendered such a condition that even if all possible recharge measures are successfully implemented and working, the resource would continue to deplete. Such a situation warrants strict direct or indirect regulation of extraction. The NAQUIM outputs are enhancing our knowledge and understanding of the prolific as well as depleted aquifer systems. The time has come to think of mega recharge schemes in hydrogeologically suitable areas.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.RD_Deshpande.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.RD_Deshpande.webp",
         Title:"Frontiers of Hydrology Research – Role of Isotope Tracer Application",
         speakerName:'Dr. R D Deshpande',
         SeminarTitle:'Frontiers of Hydrology Research – Role of Isotope Tracer Application',
@@ -740,7 +740,7 @@ export const seminars =
         Abstract:'The contemporary hydrology is faced with great challenges of known problems and the greater of unknowns. Problems of water scarcity, anthropogenic pollution, geogenic contamination, dwindling surface flows, inequitable distribution and salinity ingression have turned cliché in hydrology community. The scientific processes underlying these hydrological problems are quite well understood and can be mitigated by appropriate field measures, treatment technologies, improved water use efficiency and policy interventions enforced with strong political will. While we grapple with these known water resource problems, there lies beyond a mind-boggling ignorance about certain aspects of functioning of hydrological systems, their natural course and response to perturbing stimuli. This ignorance about certain hydrological processes does not hinder the ongoing efforts of mitigating existing problems; therefore, it is presently on the back-burner. However, for a fundamental hydrology researcher, this ignorance defines the frontier of research. Filling these hydrological knowledge gaps will become essential in the coming decades to face the imminent scenario. This knowledge gap may seem only academic in nature at present but is bound to have societal implications. Some of the important questions in the above backdrop are: (1) What is the relative contribution of Western Disturbances and Indian Summer Monsoon in Himalayan precipitation, rivers and cryosphere? (2)  How are wetlands in Northeast India participating in monsoon rainfall? (3) How to identify signatures of static groundwater being circulated into the surface and atmospheric components of hydrology? (4) How much of submarine groundwater discharge can be tapped without damaging marine ecology? (5) Are there deep sources of self-recharging and self-replenishing groundwater (seawater distillate or otherwise) other than static water? (6) What is the contribution of recycled moisture in Indian precipitation? (7) How to perceive the effect of varying Himalayan riverine influx in the Bay of Bengal? (8) Can the Bay of Bengal surface water cool below threshold temperature for feeding moisture? These and many more questions define the frontier of basic research in hydrology which can be defined only by multitude of tools and expertise in conjunction with each other. Isotope application is one such tool which can play an important role in this basic research pursuit. Progress hitherto and the possibilities will be discussed in the seminar.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Veena_Srinivasan.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Veena_Srinivasan.webp",
         Title:"India’s Water Crisis: Bridging the Science-Policy-Practice Gap",
         speakerName:'Dr. Veena Srinivasan',
         SeminarTitle:'India’s Water Crisis: Bridging the Science-Policy-Practice Gap',
@@ -750,7 +750,7 @@ export const seminars =
         Abstract:'India is one of the most water-stressed countries in the world. However, despite an appreciable increase in funding for water research, high-quality science, that is usable by stakeholders remains elusive.There is an urgent need for “use-inspired” research on questions that actually matter to stakeholders, trans-disciplinary research, and empirical primary data on fundamental science questions. But what does such research entail? What do we understand, what questions still remain to be answered? Finally, how does science actually translate into policy and practice? What are the policy levers or game changers and how do we ensure that scientific research actually informs efforts to adopt them.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Purnima_Jalihal.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Purnima_Jalihal.webp",
         Title:"Desalination – Technical challenges and Road Ahead",
         speakerName:'Dr.Purnima Jalihal',
         SeminarTitle:'Desalination – Technical challenges and Road Ahead',
@@ -760,7 +760,7 @@ export const seminars =
         Abstract:'The current scenario where water stress dominates most of the regions in India warrants new technological solutions for fresh water generation.  Desalination has been on the horizon for some decades now due to large plants in the Gulf.  There are several types of desalination methods predominantly thermal and membrane based.  The technical challenges include proper methods for intake and discharge of seawater, optimization of thermodynamic parameters for thermal systems, chemicals and bye products for membrane methods and energy requirement optimization. The location, water quality and environmental impact and other parameters like availability of steam all need to be considered for appropriate selection of the desalination method.  Desalination of brackish water as well as seawater promises to be a good solution to the water crisis.  Desalination methods are energy intensive and towards lower carbon footprint, use of renewable energy forms need further exploration and development.  Cost and energy reduction for thermal technologies and safe disposal of by products for membrane methods is the need of the hour.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.GS_Srinivasa_Reddy.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.GS_Srinivasa_Reddy.webp",
         Title:"Drought Monitoring System in Karnataka",
         speakerName:'Dr. G S Srinivasa Reddy (KSNDMC)',
         SeminarTitle:'Drought Monitoring System in Karnataka',
@@ -770,7 +770,7 @@ export const seminars =
         Abstract:'Karnataka state is highly vulnerable to drought. In the last 13 out of 16 years (2002-2018), most parts of Karnataka has been subjected to severe drought. The successive drought condition has resulted in shortage of water for drinking, irrigation, etc. Also, groundwater levels are depleting and quality of water is getting deteriorated. Most important component in management of drought is related to weather system – its monitoring, forecasting and adopting. Karnataka State Natural Disaster Monitoring Centre (KSNDMC) has taken proactive measures and has built a robust mechanism with a multi-disciplinary approach to provide Science and Technology based solution to tackle drought in Karnataka. The state-of-the-art ICT tools are being used extensively at the level of data collection, converting data into information, identifying and mapping vulnerable areas, forecast-alert-advisory dissemination to the end-user. KSNDMC has designed and installed a dense network of Solar Powered & GPRS enabled Telemetric Rain Gauge (TRG) stations covering all the 6425 Grampanchayaths (~25 sq km each) and Telemetric Weather Station (TWS) at all the 747 Hoblis (~250 sq km each) and 173 micro-watersheds to collect data and information on factors triggering drought or flood. . The weather data thus collected at every 15 minutes through these weather monitoring stations, analyzed at near-real time, maps and reports are being generated and disseminated to the customized users through auto-mode. The necessary web-applications has been developed in-house. The customized alerts/early warnings, weather information, forecast and advisories are being disseminated through email, SMS, dynamic web-portal, social media, electronic and print media. The weather related information, forecast and advisories are disseminated directly to the farmers, through interactive help-desk “VARUNA MITRA” on 24 x 7 basis. It is helping the farmers to plan their agricultural activities, minimize the crop loss due to any weather aberration. The initiatives taken up by KSNDMC have been helping the stakeholders for planning and executing drought mitigation measures at micro-level, to adopt resilient agriculture practice and efficient water management techniques.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Bharadwaj_Amrutur.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Bharadwaj_Amrutur.webp",
         Title:"Challenges for City Scale Multi-Sensor Anlaytics",
         speakerName:'Prof. Bharadwaj Amrutur',
         SeminarTitle:'Challenges for City Scale Multi-Sensor Anlaytics',
@@ -780,7 +780,7 @@ export const seminars =
         Abstract:'Cities and Utilities have started deploying connected sensors as part of their smart cities effort. Examples include pollution sensors in Pune, water sensors by BWSSB, smart electricity meters, smart water meters etc. However there is still a large gap in terms of general understanding of how to do this deployment in the most cost effective manner, while extracting the maximum value out of the data. He discussed some of the technical gaps in sensor fabrication, sensor calibration, deployment optimization, data access and multi-sensor analytics and talked on some of his team’s ongoing work in the context of air quality sensors and pilot activities in Pune and Electronics City.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Sharachchandra_Lele.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Sharachchandra_Lele.webp",
         Title:"Reforming Water Governance: Philosophy, Hydrology and Institutional Analysis",
         speakerName:'Dr. Sharachchandra (Sharad) Lele',
         SeminarTitle:'Reforming Water Governance: Philosophy, Hydrology and Institutional Analysis',
@@ -790,7 +790,7 @@ export const seminars =
         Abstract:'Karnataka, like most of the peninsular states in India, is facing a serious water crisis. Basins have closed, groundwater is depleting, baseflows have dried up, and existing water is being inequitably distributed. Conventional responses tend to be supply side, lacking an integrated hydrological understanding, and top-down. A paradigm shift is required in multiple dimensions: the normative goals, the world view, the hydrological underpinnings and the institutional arrangements. He discussed the rationale and key elements of such a paradigm shift and make a case for using an interdisciplinary value-based framework for all efforts in reforming water governance.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Aditi_Bhaskar.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Aditi_Bhaskar.webp",
         Title:"Effects of Urban Development on Streamflow",
         speakerName:'Dr. Aditi Bhaskar',
         SeminarTitle:'Effects of Urban Development on Streamflow',

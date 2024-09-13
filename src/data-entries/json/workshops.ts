@@ -6,11 +6,11 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20231.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20232.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20233.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20234.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20235.jpg'
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20231.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20232.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20233.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20234.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20235.webp'
     ]
   },
   {
@@ -20,11 +20,11 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20231.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20232.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20233.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20234.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20235.jpg'
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20231.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20232.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20233.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20234.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20235.webp'
     ]
   },
   {
@@ -34,7 +34,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2023.jpg'
+      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2023.webp'
     ]
   },
   {
@@ -44,9 +44,9 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Engineering_H1.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H2.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H3.jpg'
+      '../../assets/images/Workshop and Meetings/Engineering_H1.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H2.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H3.webp'
     ]
   },
   {
@@ -56,9 +56,9 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Brainstorming-1.jpg',
-      '../../assets/images/Workshop and Meetings/Brainstorming-2.jpg',
-      '../../assets/images/Workshop and Meetings/Brainstorming-3.jpg'
+      '../../assets/images/Workshop and Meetings/Brainstorming-1.webp',
+      '../../assets/images/Workshop and Meetings/Brainstorming-2.webp',
+      '../../assets/images/Workshop and Meetings/Brainstorming-3.webp'
     ]
   },
   {
@@ -68,8 +68,8 @@ export const workshops=[
     link:[
       '../../assets/pdfs/ICWaR WebLinks/Hassan_Minutes_Report_06DEC2022.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/pic-collage-hoysalavillage.jpg',
-      '../../assets/images/Workshop and Meetings/IMG_0783-hoysala.jpg'
+      '../../assets/images/Workshop and Meetings/pic-collage-hoysalavillage.webp',
+      '../../assets/images/Workshop and Meetings/IMG_0783-hoysala.webp'
     ]
   },
   {
@@ -79,10 +79,10 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/9sept-2022.jpg',
-      '../../assets/images/Workshop and Meetings/9sept-2022,2.jpg',
-      '../../assets/images/Workshop and Meetings/9sept-2022,3.jpg',
-      '../../assets/images/Workshop and Meetings/9sept-2022,4.jpg'
+      '../../assets/images/Workshop and Meetings/9sept-2022.webp',
+      '../../assets/images/Workshop and Meetings/9sept-2022,2.webp',
+      '../../assets/images/Workshop and Meetings/9sept-2022,3.webp',
+      '../../assets/images/Workshop and Meetings/9sept-2022,4.webp'
     ]
   },
   {
@@ -92,8 +92,8 @@ export const workshops=[
     link:[
       '../../assets/pdfs/ICWaR WebLinks/ACM_UFM 21 Minutes_18MAR2021.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/AC-meeting-Agenda-2021.jpg',
-      '../../assets/images/Workshop and Meetings/ACM3-1024.jpg',
+      '../../assets/images/Workshop and Meetings/AC-meeting-Agenda-2021.webp',
+      '../../assets/images/Workshop and Meetings/ACM3-1024.webp',
     ]
   },
   {
@@ -103,12 +103,12 @@ export const workshops=[
     link:[
       '../../assets/pdfs/ICWaR WebLinks/ACM2020Mom-sec_20FEB2021.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UFM-1.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-2.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-3.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-4.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-5.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-6.jpg'
+      '../../assets/images/Workshop and Meetings/UFM-1.webp',
+      '../../assets/images/Workshop and Meetings/UFM-2.webp',
+      '../../assets/images/Workshop and Meetings/UFM-3.webp',
+      '../../assets/images/Workshop and Meetings/UFM-4.webp',
+      '../../assets/images/Workshop and Meetings/UFM-5.webp',
+      '../../assets/images/Workshop and Meetings/UFM-6.webp'
     ]
   },
   {
@@ -119,8 +119,8 @@ export const workshops=[
       '../../assets/pdfs/ICWaR WebLinks/Discussion-Meeting-Intro_01DEC2019.pdf',
       '../../assets/pdfs/ICWaR WebLinks/Workshop-report-Scale-Issues-in-Hydrology_final_01DEC2019.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Scale_issues.png',
-      '../../assets/images/Workshop and Meetings/Scale_issues2.png',
+      '../../assets/images/Workshop and Meetings/Scale_issues.webp',
+      '../../assets/images/Workshop and Meetings/Scale_issues2.webp',
     ]
   },
   {
@@ -130,7 +130,7 @@ export const workshops=[
     link:[
       'https://www.newton-bhabha-swr.org/upscape'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UPSCAPE.jpg'
+      '../../assets/images/Workshop and Meetings/UPSCAPE.webp'
     ]
   },
   {
@@ -140,7 +140,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/23-25Sept,2019.jpg'
+      '../../assets/images/Workshop and Meetings/23-25Sept,2019.webp'
     ]
   },
   {
@@ -150,7 +150,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2019.jpg'
+      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2019.webp'
     ]
   },
   {
@@ -160,7 +160,7 @@ export const workshops=[
     link:[
       '../../assets/pdfs/ICWaR WebLinks/Workshop-Concept-note_02AUG2019.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/2-3Aug-2019.jpg'
+      '../../assets/images/Workshop and Meetings/2-3Aug-2019.webp'
     ]
   },
   {
@@ -170,9 +170,9 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/NSM-Aug2019.1.jpg',
-      '../../assets/images/Workshop and Meetings/NSM-Aug2019.2.jpg',
-      '../../assets/images/Workshop and Meetings/NSM-Aug2019.3.jpg'
+      '../../assets/images/Workshop and Meetings/NSM-Aug2019.1.webp',
+      '../../assets/images/Workshop and Meetings/NSM-Aug2019.2.webp',
+      '../../assets/images/Workshop and Meetings/NSM-Aug2019.3.webp'
     ]
   },
   {
@@ -182,10 +182,10 @@ export const workshops=[
     link:[
       'https://sites.google.com/site/urbanfloodmodelBengaluru/consortium/iisc-Bengaluru'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UFMBC-1.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-2.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-3.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-4.jpg'
+      '../../assets/images/Workshop and Meetings/UFMBC-1.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-2.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-3.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-4.webp'
     ]
   },
   {
@@ -195,7 +195,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UPSCAPE_Meeting_Group_photo-MAR2019.jpg'
+      '../../assets/images/Workshop and Meetings/UPSCAPE_Meeting_Group_photo-MAR2019.webp'
     ]
   },
   {
@@ -205,9 +205,9 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.1.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.2.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.3.jpg'
+      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.1.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.2.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.3.webp'
     ]
   },
   {
@@ -217,7 +217,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/ATCHA-III.jpg'
+      '../../assets/images/Workshop and Meetings/ATCHA-III.webp'
     ]
   },
   {
@@ -227,7 +227,7 @@ export const workshops=[
     link:[
       'https://www.ceh.ac.uk/our-science/projects/india-uk-water-centre-iukwc'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/CHANSE-Sep2018.jpg'
+      '../../assets/images/Workshop and Meetings/CHANSE-Sep2018.webp'
     ]
   },
   {
@@ -238,7 +238,7 @@ export const workshops=[
       '../../assets/pdfs/ICWaR WebLinks/Summary_Report_International_Workshop_on_Urban_Floods_27JUNE2018.pdf',
       'https://sites.google.com/site/urbanfloodmodelBengaluru/home'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/workshop-on-urban-floods-28-06-2018.jpg'
+      '../../assets/images/Workshop and Meetings/workshop-on-urban-floods-28-06-2018.webp'
     ]
   },
   {
@@ -248,7 +248,7 @@ export const workshops=[
     link:[
       ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/HydrologicalOutlook-2018.jpg'
+      '../../assets/images/Workshop and Meetings/HydrologicalOutlook-2018.webp'
     ]
   },
   {
@@ -258,8 +258,8 @@ export const workshops=[
     link:[
       'http://ambhas.com/'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/cosmos.png',
-      '../../assets/images/Workshop and Meetings/cosmos1.png'
+      '../../assets/images/Workshop and Meetings/cosmos.webp',
+      '../../assets/images/Workshop and Meetings/cosmos1.webp'
     ]
   },
   {
@@ -269,7 +269,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Indo-UK_WQSP2016.jpg'
+      '../../assets/images/Workshop and Meetings/Indo-UK_WQSP2016.webp'
     ]
   },
   {
@@ -279,7 +279,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/if_workshop.jpg'
+      '../../assets/images/Workshop and Meetings/if_workshop.webp'
     ]
   },
   {
@@ -289,7 +289,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/WaterSecurity-2015.jpg'
+      '../../assets/images/Workshop and Meetings/WaterSecurity-2015.webp'
     ]
   },
 ]
