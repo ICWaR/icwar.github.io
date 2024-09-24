@@ -13,6 +13,17 @@ export const seminars =
       //   link: ['']
       // },
       {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Dr-Ing.NicoSneeuw.webp",
+        Title:"Hydrogeodesy: Quantification of the water cycle using geodetic satellites",
+        speakerName:'Prof. Dr-Ing. Nico Sneeuw',
+        SeminarTitle:'Hydrogeodesy: Quantification of the water cycle using geodetic satellites',
+        DateTime:'03 October 2024 (Thursday), 4:00pm',
+        Platform:'MS Teams',
+        AboutSpeaker:'Nico Sneeuw is the director and professor of Geodesy at the Institute of Geodesy, University of Stuttgart, Germany. He is also an Adjunct Professor at the University of Tehran, Iran. He studied Geodesy at the Faculty of Geodetic Engineering, Delft University of Technology, The Netherlands, and then a PhD at the Faculty of Civil and Surveying Engineering, Technical University Munich, Germany. He has also worked as an Assistant professor at the Department of Geomatics Engineering, University of Calgary, Canada. He has ~34 years of experience in theory of Satellite Geodesy, Spaceborne gravimetry, hydrogeodesy and Geodetic Earth system science. He is a world leading expert on using Geodetic methods for studying the water cycle. He has published ~ 150 papers and book chapters. He is chair of a working group within Grman Surveyors Organization, president of the interCommission Committee on Theory of International Association of Geodesy and IAG executive board member. He is also a member of editorial board for several reputed Geodesy journal, such as Journal of Geodesy and Surveys in Geophysics. He is currently a member of ESA’s Advisory Committee for Earth Observation.',
+        Abstract:'The relatively new field of hydrogeodesy deals with the quantification of all kind of processes in the hydrological cycle using geodetic satellites and geodetic methods. In this seminar talk I will identify which storages and fluxes within the global water cycle can be observed through geodetic means. Two concrete examples will elucidate the hydrogeodetic research at the Institute of Geodesy at the University of Stuttgart. In the first example the runoff-storage relation will be characterized at the scale of large catchments, which is then used, together with satellite gravimetry, to predict runoff from the large and partially unobserved boreal catchments into the Arctic Ocean. The second example shows how to remediate the decline of the global set of discharge stations within the database of the Global Runoff Data Center (GRDC). Both satellite altimetry and optical remote sensing will be used to augment GRDC discharge time series that are interrupted or discontinued.',
+        link: ['https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmRlZjc0MGItMTU4OC00NDM4LWE5MzEtNjQ1NWI2Y2U4ZmU3%40thread.v2/0?context=%7b%22Tid%22%3a%226f15cd97-f6a7-41e3-b2c5-ad4193976476%22%2c%22Oid%22%3a%225527ebad-eb1d-46c9-a997-e411d9b2c7e4%22%7d']
+      },
+      {
         imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Jonathan_Bamber.webp",
         Title:"The emergence of satellite Geodesy as a game changing tool in climate science",
         speakerName:'Prof. Jonathan Bamber',
