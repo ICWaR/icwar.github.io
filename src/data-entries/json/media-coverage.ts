@@ -28,8 +28,8 @@ export const media_coverage =[
     ]
   },
   {
-   Title:'ICWaR student Mr. Shairik Sengupta is assisting Bangalore slum dwellers to get clean water following the flood incidents.',
-   Details: "This is a crowd-funded initiative led by Mr. Sengupta where several ICWaR students participated.  Bangalore Mirror – Sept 13, 2022",
+   Title:'ICWaR student Mr. Shairik Sengupta is assisting Bengaluru slum dwellers to get clean water following the flood incidents.',
+   Details: "This is a crowd-funded initiative led by Mr. Sengupta where several ICWaR students participated.  Bengaluru Mirror – Sept 13, 2022",
    link:[
      '../../assets/pdfs/Media Coverage/bangaloremirror.indiatimes.com-Life streaming.pdf'
    ]
@@ -57,7 +57,7 @@ export const media_coverage =[
   },
   {
    Title:'Karnataka will see 10-25% increase in rainfall in coming years: scientists',
-   Details: "The Hindu, Bangalore Edition – August 15, 2021",
+   Details: "The Hindu, Bengaluru Edition – August 15, 2021",
    link:[
      '../../assets/pdfs/Media Coverage/thehindu.com-Karnataka will see 10-25 increase in rainfall in coming years scientists.pdf'
    ]

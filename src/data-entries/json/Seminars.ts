@@ -13,7 +13,51 @@ export const seminars =
       //   link: ['']
       // },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Venkataraman_Lakshmi.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Dr-Ing.NicoSneeuw.webp",
+        Title:"Hydrogeodesy: Quantification of the water cycle using geodetic satellites",
+        speakerName:'Prof. Dr-Ing. Nico Sneeuw',
+        SeminarTitle:'Hydrogeodesy: Quantification of the water cycle using geodetic satellites',
+        DateTime:'03 October 2024 (Thursday), 4:00pm',
+        Platform:'MS Teams',
+        AboutSpeaker:'Nico Sneeuw is the director and professor of Geodesy at the Institute of Geodesy, University of Stuttgart, Germany. He is also an Adjunct Professor at the University of Tehran, Iran. He studied Geodesy at the Faculty of Geodetic Engineering, Delft University of Technology, The Netherlands, and then a PhD at the Faculty of Civil and Surveying Engineering, Technical University Munich, Germany. He has also worked as an Assistant professor at the Department of Geomatics Engineering, University of Calgary, Canada. He has ~34 years of experience in theory of Satellite Geodesy, Spaceborne gravimetry, hydrogeodesy and Geodetic Earth system science. He is a world leading expert on using Geodetic methods for studying the water cycle. He has published ~ 150 papers and book chapters. He is chair of a working group within Grman Surveyors Organization, president of the interCommission Committee on Theory of International Association of Geodesy and IAG executive board member. He is also a member of editorial board for several reputed Geodesy journal, such as Journal of Geodesy and Surveys in Geophysics. He is currently a member of ESA’s Advisory Committee for Earth Observation.',
+        Abstract:'The relatively new field of hydrogeodesy deals with the quantification of all kind of processes in the hydrological cycle using geodetic satellites and geodetic methods. In this seminar talk I will identify which storages and fluxes within the global water cycle can be observed through geodetic means. Two concrete examples will elucidate the hydrogeodetic research at the Institute of Geodesy at the University of Stuttgart. In the first example the runoff-storage relation will be characterized at the scale of large catchments, which is then used, together with satellite gravimetry, to predict runoff from the large and partially unobserved boreal catchments into the Arctic Ocean. The second example shows how to remediate the decline of the global set of discharge stations within the database of the Global Runoff Data Center (GRDC). Both satellite altimetry and optical remote sensing will be used to augment GRDC discharge time series that are interrupted or discontinued.',
+        link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EdUQNg6AiMRJskvd-Jm2veUBVDqttHk2pHt_ovempryHxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=3Pa6Av']
+      },
+      {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Jonathan_Bamber.webp",
+        Title:"The emergence of satellite Geodesy as a game changing tool in climate science",
+        speakerName:'Prof. Jonathan Bamber',
+        SeminarTitle:'The emergence of satellite Geodesy as a game changing tool in climate science',
+        DateTime:'02 September 2024 (Monday), 04:00 pm',
+        Platform:'MS Teams',
+        AboutSpeaker:'Jonathan Bamber is a professor of glaciology and Earth Observation at, the University of Bristol and Technical University Munich, former Director of the Bristol Glaciology Centre and former president of the European Geosciences Union. He has a degree in physics and a PhD in geophysics. He has ~40 years of experience in the analysis of airborne & satellite data sets from the polar regions, specialising in combining these data with models of the Earth system. He is an expert on the ice sheets covering Antarctica and Greenland and their contribution to sea level. He has also worked extensively in the general field of geodesy, covering mapping of the surface topography of the Earth, sea level variations in time and space and measuring mass exchange between the land and oceans due to melting of land ice and the hydrological cycle and solid Earth deformation. He is currently a member of ESA’s most high level advisory body the Advisory Committee for Earth Observation and a member of the European Space Science Committee.',
+        Abstract:'Many consider the launch of GRACE as marking a landmark in satellite geodetic observations of critical  climate processes. In reality, satellite geodesy has been advancing our understanding of climate-critical processes since at least the launch of Seasat in 1978, a mission that infamously only lasted 100 days but which transformed our ability to observe ocean circulation, mesoscale eddies and began the record of radar altimeter measurements over the ice sheets. Another milestone was the launch of ERS-1 in 1991, heralding the start of routine observations of millimetric-level surface displacements via SAR interferometry (InSAR), and unprecedented accuracy elevation measurements of the oceans and ice sheets. Here, I consider how this trinity of technological advances—satellite gravimetry, radar and laser altimetry and InSAR– have revolutionised our understanding of mass movement at the surface of the Earth, focusing on recent insights we have made on data-driven solutions for Glacial Isostatic Adjustment, tackling the Terrestrial Water Storage budget Grand Challenge, global water stress trends, closing the Sea Level Budget at the basin scale and global ice mass trends. I will conclude by considering the future of satellite geodesy as a tool for climate science in the context of recent and planned missions such as NISAR, SWOT, Harmony and MAGIC.',
+        link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/ETHony8sVkNJmScOXEHEbBMBjP7TPUnOvEwoiiGVYTjaSQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mOGZEL']
+      },
+      {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Mr.Ashish_Gupta.webp",
+        Title:"The ‘Idea’ of Sustainability of AgriFood Systems – Sustainable Food Systems Platform for Natural Farming (SuSPNF)",
+        speakerName:'Mr. Ashish Gupta',
+        SeminarTitle:'The ‘Idea’ of Sustainability of AgriFood Systems – Sustainable Food Systems Platform for Natural Farming (SuSPNF)',
+        DateTime:'02 August 2024 (Friday), 04:00 pm',
+        Platform:'MS Teams',
+        AboutSpeaker:'Mr. Ashish Gupta is an AgriFood Systems expert, presently also the International Consultant for Dr YS Parmar University of Horticulture and Forestry mentoring the state-wide implementation of SuSPNF. He has also founded JaivikHaat a 16-year-old social enterprise based in Delhi which has connected over 3000 smallholder farmers to markets through various appropriate institutional mechanisms and networks. Previously he was also leading the Global Organic Academy at IFOAM-Organic International in Bonn, Germany undertaking capacity building for Organic Agriculture systems across 6 countries in Central Asia, Eastern Europe and Africa. Over the last 16 years, Mr. Ashish has also undertaken roles on the board of the Organic Farming Association of India (OFAI), IFOAM-Asia and PGS Organic Council. He is also a former member of the Organic Regulation Committee at FSSAI and the Participatory Guarantee System (PGS) with MoA&FW. Mr. Ashish is also the founding trustee of Gram Disha Trust ( www.gramdisha.org ) which undertakes collaborations with smallholder farmers and craftspersons in Rural Himachal Pradesh. Over the last 3 years, he has also represented as an expert committee member to develop curriculums for Natural Farming for public institutions in Gujarat and Himachal Pradesh for Natural Farming, additionally, also school curriculums for NCERT. Between 2000-2009 he was also an IT Professional and then switched to working with small farmers. More details about him are available at- https://www.linkedin.com/in/guptaji',
+        Abstract:'AgriFood Systems are at risk today, not just from the availability per capita, but also appropriate availability. There is a global and local narrative around the aspect of ‘Sustainability’, in simple terms, if the AgriFood System can withstand multiple crises and yet last for the subsequent generations ahead. On one hand, the problem appears to be plenty, with more food retail booming in India, at large, and on the other where health crises are proportionate levels are also increasing. From an Urban perspective it all looks fine whereas in the rural areas there still exist challenges of equity and fairness to be resolved. Climate change exists or it does not- depending on perspectives, however, to a small farmer it is a matter of life-continuity be it through daily wages, remunerative returns from agriculture or the choice of abandoning it for other avenues. All such challenges are being addressed through an appropriate understanding of Sustainability in Agriculture built upon the production system based on Natural Farming. Innovation is the key where no such precedence exists to bring participatory social change with the government intervention in Himachal Pradesh. There are 3 infrastructures being designed to address the systemic issues of Sustainability (ecological, economic and social)- these are Institutional, Digital and Physical. Innovations in each of these infrastructure paves a way for system wide changes through appropriate market access for smallholder Natural Farmers. It is the first time such a platform is being put to execution in India, the outcome of SuSPNF shall also provide a future pathway for other such innovations to address the aspect of Sustainability in AgriFood Systems in India.',
+        link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/ESe6lqhvmFZJlSuSkyy_PDsBbE4JbpZQiY6YdKc1lKQ5rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CMc1sO&referrer=Outlook.Web&referrerScenario=email-linkwithembed']
+      },
+      {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Kanishka_Mallick.webp",
+        Title:"Integrating Theory and Data Science with Thermal Remote Sensing for Advanced Modelling of Terrestrial Ecosystem Processes",
+        speakerName:'Dr. Kanishka Mallick',
+        SeminarTitle:'Integrating Theory and Data Science with Thermal Remote Sensing for Advanced Modelling of Terrestrial Ecosystem Processes',
+        DateTime:'24 July 2024 (Wednesday), 04:00 pm',
+        Platform:'MS Teams',
+        AboutSpeaker:'Kanishka Mallick is a Sr. Lead R&T Scientist at the Luxembourg Institute of Science and Technology, and he was recently promoted to Principal R&T Scientist. He was a postdoctoral fellow at the Jet Propulsion Laboratory, California Institute of Technology, from 2011 to 2013. Prior to that, he held a postdoctoral fellowship at Lancaster University from 2008 to 2011 on a NERC-funded programme and was a visiting scientist at Purdue University in 2010. He was awarded an International Mobility Fellowship by the Luxembourg National Research Fund from 2020 to 2023 to study ecosystem water cycle partitioning at the University of California, Berkeley.  His research interests include investigating the interactions of water, energy, and carbon fluxes in the terrestrial ecosystems by integrating thermal and multispectral remote sensing information in both physically based models and statistical models. He has co-authored around 50 publications in peer reviewed journals and has received over 5 million Euros in research funding from various organizations. His models and methods are used operationally for global evaporation mapping at NASA, JPL. He is the science PI of European ECOSTRESS Hub funded by European Space Agency (ESA) for generating continental scale evapotranspiration (ET), land surface temperature (LST), and water stress products. His model is also integrated in operational evaporation product development chain for the upcoming Indo-French TRISHNA mission. In collaborating with colleagues at CESBIO-France and INRAE-France, he is supporting the preparation of operational ET algorithm of the TRISHNA mission that will be launched in 2027.',
+        Abstract:'Terrestrial ecosystems cover approximately 148 million km², which is 29% of the Earth’s surface. Their functioning is continuously altered due to the effects of global warming. It is critical to understand both the interaction and responses of vegetation to environmental changes and how these interactions influence the fluxes of water, energy, and carbon from ecosystems to the atmosphere. Central to these understandings are two significant ecosystem processes: evaporation and photosynthetic productivity (gross primary productivity). Existing approaches for modeling these processes are largely dominated by semi-empirical equations, many of which are over 50 years old. These models rely on a host of parameters and exhibit significant uncertainty in understanding ecosystem responses to water stress. Additionally, the global measurements through the eddy covariance network are inadequate to cover the vast land areas of the globe. Therefore, there is an ongoing emphasis on advancing our understanding of these processes from first principles and developing operational readiness for observing these processes from space data. At the Luxembourg Institute of Science and Technology (LIST), we have been working on a new principle of analytical modeling that integrates thermal remote sensing data into surface energy balance theory and vegetation optical data into photosynthetic light use efficiency theory. This approach is able to retrieve evaporation and GPP without the need for complex parameterization and empirical calibration. The genuine advantage of this approach lies in its simplicity, efficiency, operational potential from remote sensing mission data, and the additional information it provides on the biophysical attributes of ecosystems across different aridity settings. In this talk, I will present this family of approaches, demonstrate how the results appear, compare them with other methods, and discuss their global implementation. This will provide an opportunity to share our latest results on remote sensing of evaporation, GPP, and the impacts of water stress on these processes.',
+        link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EZDI_dFFFNZJkHxEjklz5mYBSxoCTM7qdQV0HJtzBdBJhw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ijqVto&referrer=Outlook.Web&referrerScenario=email-linkwithembed']
+      },
+      {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Venkataraman_Lakshmi.webp",
         Title:"A study of hydrological extremes from space",
         speakerName:'Prof. Venkataraman Lakshmi',
         SeminarTitle:'A study of hydrological extremes from space',
@@ -24,7 +68,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EX3foUubQVhDgJwGok9PReEBHCMcmjZU6HMR2zcUmwlkyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=I6oz8m']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Brajesh_Dubey.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Brajesh_Dubey.webp",
         Title:"Circular Engineering Approaches in Environmental Management to Achieve UN-SDGs",
         speakerName:'Prof. Brajesh Kr. Dubey',
         SeminarTitle:'Circular Engineering Approaches in Environmental Management to Achieve UN-SDGs',
@@ -35,7 +79,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EaWJ3plCiphBrT-LVB5cS7cBGyEvc4MWA0lMV_PuiER0aQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zBG19S&referrer=Outlook.Web&referrerScenario=email-linkwithembed']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Solomon_Vimal.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Solomon_Vimal.webp",
         Title:"Curating Robert E. Horton’s Bibliography",
         speakerName:'Dr. Solomon Vimal',
         SeminarTitle:'Curating Robert E. Horton’s Bibliography',
@@ -46,7 +90,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EcFJiP9in8hFs5VRbfCqnWwByqh_uJUOPIqayzriOranIA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BjkQNu&referrer=Outlook.Web&referrerScenario=email-linkwithembed']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Ashish_Sharma.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Ashish_Sharma.webp",
         Title:"Can Spectrally Transformed CMIP6 Decadal Projections Improve Interannual Rainfall Forecasts?",
         speakerName:'Prof. Ashish Sharma',
         SeminarTitle:'Can Spectrally Transformed CMIP6 Decadal Projections Improve Interannual Rainfall Forecasts?',
@@ -57,7 +101,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/krishnakp_iisc_ac_in/EWyu1EYy3KBOnSkJqVsfzSoBVWOysiChaaV9iczGsmL9UA?e=iDvqq8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Brijesh_Yadav.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Brijesh_Yadav.webp",
         Title:"Management of soil-water pollution using in-situ remediation and advanced monitoring methods",
         speakerName:'Prof. Brijesh Kumar Yadav',
         SeminarTitle:'Management of soil-water pollution using in-situ remediation and advanced monitoring methods',
@@ -68,7 +112,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/rajarshidb_iisc_ac_in/Ecb0Mmb-NLJFqZTdSBDmnnMBECoPUZ-kgwMpebZkByvVXA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JYAE4b']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Rajagopalan_Balaji.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Rajagopalan_Balaji.webp",
         Title:"The Once and Future Variability of Colorado River Water Resources",
         speakerName:'Prof. Rajagopalan Balaji',
         SeminarTitle:'The Once and Future Variability of Colorado River Water Resources',
@@ -79,7 +123,7 @@ export const seminars =
         link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/krishnakp_iisc_ac_in/EY67XoUr-Y5NqzHV1ipO7J0Br1R5at8yz6e12f1_i1dy5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=y40E0Y']
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Shruthi_Hegde.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Shruthi_Hegde.webp",
         Title:"Electrochemical Detection of Pollutants in Water and Air",
         speakerName:'Dr. Shruti Hegde',
         SeminarTitle:'Electrochemical Detection of Pollutants in Water and Air',
@@ -92,7 +136,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Teertha_Banerjee.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Teertha_Banerjee.webp",
         Title:"A micrometeorological perspective into wildland fire dynamics",
         speakerName:'Dr. Tirtha Banerjee',
         SeminarTitle:'A micrometeorological perspective into wildland fire dynamics',
@@ -105,7 +149,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Surendra_Adhikari.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Surendra_Adhikari.webp",
         Title:"Melting Ice, Rising Oceans: A Peek into the Future based on Current Knowledge",
         speakerName:'Dr. Surendra Adhikari',
         SeminarTitle:'Melting Ice, Rising Oceans: A Peek into the Future based on Current Knowledge',
@@ -118,20 +162,20 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/BNGoswami.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/BNGoswami.webp",
         Title:"Revisiting the Length of the Monsoon Rainy Season (LRS) over Northeast India (NEI)",
         speakerName:'Prof. B. N. Goswami',
         SeminarTitle:'Revisiting the Length of the Monsoon Rainy Season (LRS) over Northeast India (NEI)',
         DateTime:'20 October 2023 (Friday), 10:00am',
         Platform:'MS Teams',
-        AboutSpeaker:'Prof. Goswami did his pre-university in 1966 and B.Sc. from Cotton College in 1969 and master’s in physics from Gauhati University in 1971. He did his Ph.D in Plasma Physics from PRL, Ahmedabad in 1976 and a two-year postdoc with Prof. Jule Charney, a.k.a the ‘Father of modern Meteorology’ at the MIT and a 3-year postdoc at the NASA/GSFC on monsoon modelling. He then joined IISc, Bangalore from 1985 to 2006, becoming Professor and Chair of the Centre for Atmospheric and Oceanic Science (CAOS). He then moved to the Indian Institute of Tropical Meteorology, Pune in 2006 and then lead the Indian Monsoon Mission Program to uplift Indian weather and climate prediction capability to be one of the best of the world. He has served on many National and International Committees and has been Visiting Research Faculty at the Princeton University and Maryland University. He has been Members of many National and International Committees and has several Awards to his name such as Shanti Swarup Bhatnagar Award, 1995, K.R. Ramanathan Prize by Indian National Science Academy, 2008, Fellow, The World Academy of Sciences, Fellow, Indian Academy of Sciences, Fellow, Indian National Science Academy, Fellow, National Academy of Sciences, India, Fellow, Indian Meteorological Society, National Award in Atmospheric Science and Technology, 2014 by the Ministry of Earth Sciences, K. R. Ramanathan Medal, Indian Geophysical Union, 2014, Life Time Achievement Award in Science and Technology by Government of Assam, 2018, SERB Distinguished Fellow Award, Department of Science and Technology, Govt. India, (2018-2023) and many more.',
+        AboutSpeaker:'Prof. Goswami did his pre-university in 1966 and B.Sc. from Cotton College in 1969 and master’s in physics from Gauhati University in 1971. He did his Ph.D in Plasma Physics from PRL, Ahmedabad in 1976 and a two-year postdoc with Prof. Jule Charney, a.k.a the ‘Father of modern Meteorology’ at the MIT and a 3-year postdoc at the NASA/GSFC on monsoon modelling. He then joined IISc, Bengaluru from 1985 to 2006, becoming Professor and Chair of the Centre for Atmospheric and Oceanic Science (CAOS). He then moved to the Indian Institute of Tropical Meteorology, Pune in 2006 and then lead the Indian Monsoon Mission Program to uplift Indian weather and climate prediction capability to be one of the best of the world. He has served on many National and International Committees and has been Visiting Research Faculty at the Princeton University and Maryland University. He has been Members of many National and International Committees and has several Awards to his name such as Shanti Swarup Bhatnagar Award, 1995, K.R. Ramanathan Prize by Indian National Science Academy, 2008, Fellow, The World Academy of Sciences, Fellow, Indian Academy of Sciences, Fellow, Indian National Science Academy, Fellow, National Academy of Sciences, India, Fellow, Indian Meteorological Society, National Award in Atmospheric Science and Technology, 2014 by the Ministry of Earth Sciences, K. R. Ramanathan Medal, Indian Geophysical Union, 2014, Life Time Achievement Award in Science and Technology by Government of Assam, 2018, SERB Distinguished Fellow Award, Department of Science and Technology, Govt. India, (2018-2023) and many more.',
         Abstract:'An iconic feature of the Indian Summer Monsoon Rainfall (ISMR), a longer than June-September rainy season over the Northeast India (NEI) while a much shorter one over the northwest India is expected to be altered by climate change but an objective definition of the length of the monsoon rainy season (LRS) over the NEI is lacking. While the May rainfall over the NEI is larger than June rainfall over central India (CI), the Onset of monsoon over NEI is considered to take place by June 5 by IMD. Here, defining the LRS objectively over NEI, we show that that climatological onset over NEI takes place around 18th May and withdrawal around 15th October making the length of the rainy season ~155 days. We further show that the El Niño and Southern Oscillation (ENSO) is a primary driver of LRS while rainfall during LRS is poorly correlated with the ENSO. We also provide compelling evidence to establish that May rainfall is ‘monsoon rainfall’ and not ‘pre-monsoon’ rainfall as assumed by the community so far. Inclusion of May rainfall over NEI in the seasonal rainfall of All India monsoon rainfall has important implications on variability and predictability of India monsoon rainfall. In contrast to a significant decreasing trend of LRS and LRS-rainfall during the historical period, the projected LRS under SSP5-8.5 scenario continues to decrease while the LRS-rainfall acquires a significant increasing trend over NEI. A significant increase in impact of hydrological disasters is expected over NEI in future due to increasing intensity and frequency of extreme rain-events within a shorter rainy-season.',
         link: [
           'https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EU4zR-C_rCZIrglv041hzO8BGpuFn3KsilZMDYOVUqjRpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=mzKaxm'
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Lakshmivarahan.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Lakshmivarahan.webp",
         Title:"Dynamic Data Assimilation – overview",
         speakerName:'Prof. S. Lakshmivarahan',
         SeminarTitle:'Dynamic Data Assimilation – overview',
@@ -145,7 +189,7 @@ export const seminars =
       },
 
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.-Gilles-Boulet.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.-Gilles-Boulet.webp",
         Title:"High resolution remote sensing data in eco-agro-hydrology: opportunities in the context of the CNES/ISRO TRISHNA mission",
         speakerName:'Dr. Gilles Boulet',
         SeminarTitle:'High resolution remote sensing data in eco-agro-hydrology: opportunities in the context of the CNES/ISRO TRISHNA mission',
@@ -158,7 +202,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Jasmeet-Judge.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Jasmeet-Judge.webp",
         Title:"Microwave and VIR remote sensing for soil moisture and crop phenology using AI",
         speakerName:' Dr. Jasmeet Judge',
         SeminarTitle:'Microwave and VIR remote sensing for soil moisture and crop phenology using AI',
@@ -171,7 +215,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Murray-Peel-2017.jpeg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Murray-Peel-2017.webp",
         Title:"Recent results from investigating annual rainfall-runoff relationship changes during the Millennium Drought in south-eastern Australia",
         speakerName:'Dr. Murray Peel',
         SeminarTitle:'Recent results from investigating annual rainfall-runoff relationship changes during the Millennium Drought in south-eastern Australia',
@@ -184,7 +228,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/eleanor-blyth.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/eleanor-blyth.webp",
         Title:"How the land resonates with the atmosphere: a manifesto for complexity in land models",
         speakerName:'Dr. Eleanor Blyth',
         SeminarTitle:'How the land resonates with the atmosphere: a manifesto for complexity in land models',
@@ -197,7 +241,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/axel-kleidon.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/axel-kleidon.webp",
         Title:"Working at the limit: How thermodynamics shapes the Earth system",
         speakerName:'Dr. Axel Kleidon',
         SeminarTitle:'Working at the limit: How thermodynamics shapes the Earth system',
@@ -210,20 +254,20 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/yashavanth-kumar.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/yashavanth-kumar.webp",
         Title:"Food Safety Standard Authority India Rules and Regulations for Packaged Drinking water",
         speakerName:'Dr. Yashavanth Kumar GS',
         SeminarTitle:'Food Safety Standard Authority India Rules and Regulations for Packaged Drinking water',
         DateTime:'28 February 2023 (Tuesday), 4:00pm',
         Platform:'MS Teams',
-        AboutSpeaker:'Dr. Yashavanth Kumar G S is the Chief Chemist at the Central Chemical Lab, Bangalore. He is a passionate communicator on the Food Safety and Standard act and Food Adulteration Concepts. He has published more than 13 Research articles in reputed peer-reviewed journals and presented research papers in various national/international conference proceedings. He was awarded the Rajiv Gandhi National Fellowship (2009-13) from University Grant Commission (UGC), New Delhi. He has a Ph.D in Chemistry (2014) from Kuvempu University, and has collaborations with IISc Bangalore. His research interests are Nanotechnology, Solar Cells and Food Chemistry.',
+        AboutSpeaker:'Dr. Yashavanth Kumar G S is the Chief Chemist at the Central Chemical Lab, Bengaluru. He is a passionate communicator on the Food Safety and Standard act and Food Adulteration Concepts. He has published more than 13 Research articles in reputed peer-reviewed journals and presented research papers in various national/international conference proceedings. He was awarded the Rajiv Gandhi National Fellowship (2009-13) from University Grant Commission (UGC), New Delhi. He has a Ph.D in Chemistry (2014) from Kuvempu University, and has collaborations with IISc Bengaluru. His research interests are Nanotechnology, Solar Cells and Food Chemistry.',
         Abstract:'Packaged drinking water is both a need and a necessity in a country like India where most of the freshwater resources have a high contamination levels. We all are aware of multiple brands providing packaged drinking water, but are they following some standards and what are they? In this talk the regulations on packaged drinking water by the Food Safety Standard Authority of India (FSSI) will be discussed. More specifically: What are FSSI rules and regulations, how it works.  Guidelines for packaged drinking water and what are the water quality parameters.  FSSAI amended certain conditions for packaged drinking water. What are they?',
         link: [
           'https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/Eez4rJXJtptBrZyYOLDs6xQBHpPcLghxPuZOWvLn0RJyMw'
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/rao-govindaraju.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/rao-govindaraju.webp",
         Title:"Contending with Uncertainty in Hydrologic Experiments Across Scales",
         speakerName:'Dr. Rao S. Govindaraju',
         SeminarTitle:'Contending with Uncertainty in Hydrologic Experiments Across Scales',
@@ -236,7 +280,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/pallavi-eeswara.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/pallavi-eeswara.webp",
         Title:"Sharing your research for impact and engagement",
         speakerName:'Pallavi Eswara',
         SeminarTitle:'Sharing your research for impact and engagement',
@@ -249,20 +293,20 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Mijic_-Ana.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Mijic_-Ana.webp",
         Title:"Water Systems Integration Modelling Framework – A Tool to Inform Future Water Planning at a Systems Level",
         speakerName:'Dr. Ana Mijic',
         SeminarTitle:'Water Systems Integration Modelling Framework – A Tool to Inform Future Water Planning at a Systems Level',
         DateTime:'30 November 2022 (Friday), 4:00pm',
         Platform:'MS Teams',
-        AboutSpeaker:'Dr Ana Mijic is a Reader in Water Systems Integration and Director of the Centre for Systems Engineering and Innovation (CSEI) at Imperial College London. She is leading the development of novel systems tools focused on quantifying the interaction between water systems and sustainable development. The work has aim to inform regulatory bodies and water industry if and how we can support economic growth whilst ensuring sustainable water use and flood and water quality management under future uncertainties. Through NERC Innovation Fellowship funding she worked with the UK Environment Agency to apply systems thinking and systemic approaches to develop principles of systems water management at a catchment scale. She has led the CHANSE project on systems water management and irrigation water use in India. Currently, Ana is a Systems Lead for the CAMELLIA impact programme, where her work is focused on the development of systems water management models and she is leading the VENTURA project, which is developing virtual decision rooms for water neutral urban planning. Ana is a member of the EWRE Hydrology group that was awarded the 2019 Imperial President’s Award for Excellence in Research for Outstanding Research Team and she is the recipient of 2022 Satish Dhawan Chair Professorship at IISc Bangalore.',
+        AboutSpeaker:'Dr Ana Mijic is a Reader in Water Systems Integration and Director of the Centre for Systems Engineering and Innovation (CSEI) at Imperial College London. She is leading the development of novel systems tools focused on quantifying the interaction between water systems and sustainable development. The work has aim to inform regulatory bodies and water industry if and how we can support economic growth whilst ensuring sustainable water use and flood and water quality management under future uncertainties. Through NERC Innovation Fellowship funding she worked with the UK Environment Agency to apply systems thinking and systemic approaches to develop principles of systems water management at a catchment scale. She has led the CHANSE project on systems water management and irrigation water use in India. Currently, Ana is a Systems Lead for the CAMELLIA impact programme, where her work is focused on the development of systems water management models and she is leading the VENTURA project, which is developing virtual decision rooms for water neutral urban planning. Ana is a member of the EWRE Hydrology group that was awarded the 2019 Imperial President’s Award for Excellence in Research for Outstanding Research Team and she is the recipient of 2022 Satish Dhawan Chair Professorship at IISc Bengaluru.',
         Abstract:'Integrated water management and planning has been a focus of research for many decades, but only recently we have started discussing the challenge from a systems perspective. The need for systems approach to water management is defined through integration between physical, environmental, and socio-economic components of the system, for which the evidence should be provided at adequate spatiotemporal resolutions. In this seminar, the novel Water Systems Integration Modelling (WSIMOD) Framework will be presented. The WISMOD allows for the representation of the water system’s demands and impacts of multiple sectors and actors’ decisions within a single tool, which is considered beneficial to increasing a shared understanding of system performance and for more collaborative and coherent decisions on integrated water resources, water quality and flood management. The WSIMOD is a self-contained software package that includes modelled representations of key physical and infrastructure elements of the water cycle (urban and rural), with each type of modelled element generically described as a component. Components are written in such a way that any component can interact with any other component. This enables a flexible representation of a water system that is needed to accommodate the wide variety of different built/natural infrastructure configurations and scales. The talk will showcase how the tool has been developed and successfully tested through a range of applications in the UK, including integrated analysis of urban water systems, catchment water management and urban water neutrality.',
         link: [
           'https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EUc4zNFJBg1MrjzDEowZyhcBj-M3ErT_B-0jgTSVpaON1Q?e=NroFzI'
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/naresh-devinini.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/naresh-devinini.webp",
         Title:"Shaping the Future of India’s Food Water Energy Livelihood Nexus",
         speakerName:'Dr. Naresh Devineni',
         SeminarTitle:'Shaping the Future of India’s Food Water Energy Livelihood Nexus',
@@ -275,7 +319,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/tushar-sinha.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/tushar-sinha.webp",
         Title:"Effects of Urbanization and Extreme Climatic Events on Water Quantity and Quality",
         speakerName:'Dr. Tushar Sinha',
         SeminarTitle:'Effects of Urbanization and Extreme Climatic Events on Water Quantity and Quality',
@@ -288,7 +332,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Shashi_PP.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Shashi_PP.webp",
         Title:"VEDAS: A platform for web-based visualization and analysis of Satellite data",
         speakerName:'Dr. Shashikant A Sharma',
         SeminarTitle:'VEDAS: A platform for web-based visualization and analysis of Satellite data',
@@ -301,20 +345,20 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/ArpitaMondal.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/ArpitaMondal.webp",
         Title:"What (NOT) to do as an early career academic and researcher in India",
         speakerName:'Dr. Arpita Mondal',
         SeminarTitle:'What (NOT) to do as an early career academic and researcher in India',
         DateTime:'29 July 2022 (Friday), 4:00pm',
         Platform:'MS Teams',
-        AboutSpeaker:'Dr. Arpita Mondal works as an Associate Professor in the Department of Civil Engineering and Interdisciplinary Program in Climate Studies at the Indian Institute of Technology (IIT) Bombay. Her research focuses on hydroclimatic extremes – how they can be characterized, what causes them, and how they are likely to evolve with climate change. Arpita serves as an Associate Editor of the AGU journal Earth’s Future and the Springer journal Regional Environmental Change. She received the Early Career Research Award from the Science and Education Research Board (SERB), and the INSPIRE Faculty Award. She also received the Asian University Alliance (AUA) Scholars’ Award. Arpita has been selected to feature in the book ‘She Is: 75 Indian Women in STEAM’ by the Office of the Principal Scientific Advisor to the Government of India and the Red Dot Foundation, honoring 75 Indian Women in the fields of Science, Technology, Engineering, Arts and Mathematics. She has been an invited speaker in the session on Women in STEM in the South Asia Leadership Summit of the British Council, India. Arpita completed her PhD in Civil Engineering at the Indian Institute of Science (IISc), Bangalore, MTech in Water Resources Engineering at the Indian Institute of Technology Bombay and Bachelors in Civil Engineering at Jadavpur University, Kolkata. As a PhD student, Arpita had received the Endeavour Research Fellowship of the Government of Australia, the Fulbright-Nehru Research Fellowship of the United-States India Education Forum, and the Berkner Travel Grant of the American Geophysical Union (AGU).',
+        AboutSpeaker:'Dr. Arpita Mondal works as an Associate Professor in the Department of Civil Engineering and Interdisciplinary Program in Climate Studies at the Indian Institute of Technology (IIT) Bombay. Her research focuses on hydroclimatic extremes – how they can be characterized, what causes them, and how they are likely to evolve with climate change. Arpita serves as an Associate Editor of the AGU journal Earth’s Future and the Springer journal Regional Environmental Change. She received the Early Career Research Award from the Science and Education Research Board (SERB), and the INSPIRE Faculty Award. She also received the Asian University Alliance (AUA) Scholars’ Award. Arpita has been selected to feature in the book ‘She Is: 75 Indian Women in STEAM’ by the Office of the Principal Scientific Advisor to the Government of India and the Red Dot Foundation, honoring 75 Indian Women in the fields of Science, Technology, Engineering, Arts and Mathematics. She has been an invited speaker in the session on Women in STEM in the South Asia Leadership Summit of the British Council, India. Arpita completed her PhD in Civil Engineering at the Indian Institute of Science (IISc), Bengaluru, MTech in Water Resources Engineering at the Indian Institute of Technology Bombay and Bachelors in Civil Engineering at Jadavpur University, Kolkata. As a PhD student, Arpita had received the Endeavour Research Fellowship of the Government of Australia, the Fulbright-Nehru Research Fellowship of the United-States India Education Forum, and the Berkner Travel Grant of the American Geophysical Union (AGU).',
         Abstract:'‘How to become a professor in an Indian Institute of Technology (IIT)?’ is a question which is asked by several in our country. There is an increasingly large number of awareness and mentoring programs conducted by organizations and academies in this country to address this query among the public in general, and graduate students in particular. Another equally important question to which answers must be sought is, ‘How to survive as an early career academic or researcher in today’s India?’. Many Indian academic or research institutions offer to young professionals what are termed as ‘permanent’ jobs; however, stagnation, dearth of progress and lack of navigation along multiple directions of growth (both one’s own individual growth and that of his/her employer) can prove fatal for one’s career and more importantly, personal well-being, if adequate, timely steps are not taken to make sure one is not only ‘surviving’ but also ‘thriving’, particularly compared to global benchmarks. In this seminar, I will talk about key responsibilities expected out of an early career academic in a leading engineering institute in India, highlight some opportunities and challenges towards a bright and successful academic/research career and also offer suggestions to avoid some mistakes (I think) I did. I will share some stories, and advice that I had been lucky to receive, and hopefully hear back from the audience about what drives them towards their own pursuit of excellence. Women graduate students and early career researchers are expected to particularly benefit from this talk, since I will also share some experiences and suggestions on overcoming gender-defined obstructions.',
         link: [
           'https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EeEdT09oKwVDnk_SJTQwpFgBklZXGPfipRYZN3yfv22h_w?e=PncKA6'
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/alexandre-anesio.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/alexandre-anesio.webp",
         Title:"How microbes melt glaciers and ice sheets?",
         speakerName:'Prof. Alexandre Anesio',
         SeminarTitle:'How microbes melt glaciers and ice sheets?',
@@ -327,7 +371,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dev_Niyogi.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dev_Niyogi.webp",
         Title:"Representing Cities in Weather and Climate Models: From Processes to Urban Digital Twins",
         speakerName:'Prof. Dev Niyogi',
         SeminarTitle:'Representing Cities in Weather and Climate Models: From Processes to Urban Digital Twins',
@@ -341,7 +385,7 @@ export const seminars =
       },
 
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/abhijit-mukherjee.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/abhijit-mukherjee.webp",
         Title:"Interaction of groundwater with surface water: the example of Ganges river",
         speakerName:'Prof. Abhijit Mukherjee',
         SeminarTitle:'Interaction of groundwater with surface water: the example of Ganges river',
@@ -354,7 +398,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/prof-aditi-mukherji.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/prof-aditi-mukherji.webp",
         Title:"Major findings from IPCC Water Chapter on Water Related Adaptations and their Effectiveness in reducing risks",
         speakerName:'Dr. Aditi Mukherji',
         SeminarTitle:'Major findings from IPCC Water Chapter on Water Related Adaptations and their Effectiveness in reducing risks',
@@ -367,7 +411,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/PaulBates.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/PaulBates.webp",
         Title:"Progress in developing continental and global scale flood inundation models",
         speakerName:'Prof. Paul D Bates',
         SeminarTitle:'Progress in developing continental and global scale flood inundation models',
@@ -380,7 +424,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/prof-sk-tandon.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/prof-sk-tandon.webp",
         Title:"The Anthropocene Concept: Disturbance(s) in the Terrestrial Hydrosphere",
         speakerName:'Prof. S.K. Tandon',
         SeminarTitle:'The Anthropocene Concept: Disturbance(s) in the Terrestrial Hydrosphere',
@@ -393,7 +437,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/kala-s.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/kala-s.webp",
         Title:"Are Cities Culprits or Victims? India’s Carbon Footprint Beyond 2020",
         speakerName:'Prof. Kala Seetharam Sridhar',
         SeminarTitle:'Are Cities Culprits or Victims? India’s Carbon Footprint Beyond 2020',
@@ -406,20 +450,20 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Lakshminarayana_Rao.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Lakshminarayana_Rao.webp",
         Title:"Wastewater Treatment and Recycling – Challenges and Opportunities",
         speakerName:'Dr. Lakshminarayana Rao',
         SeminarTitle:'Wastewater Treatment and Recycling – Challenges and Opportunities',
         DateTime:'30 November 2021 (Thursday), 4:00pm',
         Platform:'MS Teams',
-        AboutSpeaker:'Dr. Lakshminarayana Rao is a chemical engineer by training, has a PhD from McGill University, Montreal Canada and is currently working as a assistant professor at Centre for Sustainable Technologies, at IISc, Bangalore India. Prior to joining IISc, Dr. Rao has worked in Industry for 10 years. His research interests are in the field of cold plasma technology, and advanced oxidation for wastewater treatment and recycling. To date Dr. Rao has authored over 60 international journal articles and conference papers and has six granted US patents in the field of plasma technology and its application.',
+        AboutSpeaker:'Dr. Lakshminarayana Rao is a chemical engineer by training, has a PhD from McGill University, Montreal Canada and is currently working as a assistant professor at Centre for Sustainable Technologies, at IISc, Bengaluru India. Prior to joining IISc, Dr. Rao has worked in Industry for 10 years. His research interests are in the field of cold plasma technology, and advanced oxidation for wastewater treatment and recycling. To date Dr. Rao has authored over 60 international journal articles and conference papers and has six granted US patents in the field of plasma technology and its application.',
         Abstract:'Using freshwater for toilet flushing is a luxury humans cannot afford anymore. With increasing population, climate change and expanding pressures on water resources, much of the world faces a major water crisis. Globally, water shortages are estimated to affect more than 4 billion people annually.  India occupies only 2.4 % of the world’s total land area yet supports over 17.5 % of the global population. The total freshwater resource of the country is only 4% of the world’s total utilizable water resource, which is disproportionately low for the current population. In India, over 600 million people face high to extreme water scarcity, with water contamination estimated to impact as much as 70 % of the country’s utilizable water resource. Rural areas face the twin challenges of water scarcity and risk of groundwater contamination due to lack of water treatment options. In this presentation, I will discuss about the design and field implantation of decentralized wastewater treatment system for a rural community. The challenges and opportunities at operating such stand-alone system will be discussed. Also, in this task I will present how cities can become a perennial source of treated water for neighbouring villages. The challenges, opportunities and threats of a large scale (440 MLD) treated water recycling scheme will be discussed.',
         link: [
           'https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EYWXthLi_vFMg4sRhqkTi_kBWUS4pkXcBPiu18IEvRkppA?e=v3vChU'
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Krishnan_Raghavan.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Krishnan_Raghavan.webp",
         Title:"Global Climate Change and Impacts on Monsoon Hydrological Cycle",
         speakerName:'Prof.Krishnan Raghavan',
         SeminarTitle:'Global Climate Change and Impacts on Monsoon Hydrological Cycle',
@@ -432,20 +476,20 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Chandni_Singh.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Chandni_Singh.webp",
         Title:"Assessing the feasibility of climate change adaptation options in the water sector: Examples from rural and urban landscapes",
         speakerName:'Dr. Chandni Singh',
         SeminarTitle:'Assessing the feasibility of climate change adaptation options in the water sector: Examples from rural and urban landscapes',
         DateTime:'21 September 2021 (Tuesday), 4:00pm',
         Platform:'MS Teams',
-        AboutSpeaker:'Dr Chandni Singh is a Senior Researcher and faculty member at the Indian Institute for Human Settlements (IIHS), Bangalore. Her research examines the drivers of differential vulnerability to climate change and hazards; linkages between climate change adaptation, livelihoods, and development; how and why people adapt (or choose not to); and the outcomes of these decisions on wellbeing and aspirations. She currently co-leads projects on urban sustainability and green infrastructure (https://upagri.net/), long-term disaster recovery (https://recoverywithdignity.iihs.co.in/), and climate-resilient development. In the past, she has worked in international and national organisations on community-based watershed management, wetland restoration, livelihoods strengthening. She is a Lead Author on the IPCC Assessment Report 6 Working Group II (Impacts, Vulnerability, and Adaptation); Contributing Author on the IPCC’s Special Report on 1.5 C; and Lead Author on the Third Assessment Report on Climate Change and Cities (ARC3.3). She serves on the Editorial Boards of Regional Environmental Change, Climate and Development, Progress in Development Studies, and Urbanisation. Chandni holds a PhD in Rural Livelihoods from the University of Reading, UK and an MSc in Environmental Science from TERI University, New Delhi.',
+        AboutSpeaker:'Dr Chandni Singh is a Senior Researcher and faculty member at the Indian Institute for Human Settlements (IIHS), Bengaluru. Her research examines the drivers of differential vulnerability to climate change and hazards; linkages between climate change adaptation, livelihoods, and development; how and why people adapt (or choose not to); and the outcomes of these decisions on wellbeing and aspirations. She currently co-leads projects on urban sustainability and green infrastructure (https://upagri.net/), long-term disaster recovery (https://recoverywithdignity.iihs.co.in/), and climate-resilient development. In the past, she has worked in international and national organisations on community-based watershed management, wetland restoration, livelihoods strengthening. She is a Lead Author on the IPCC Assessment Report 6 Working Group II (Impacts, Vulnerability, and Adaptation); Contributing Author on the IPCC’s Special Report on 1.5 C; and Lead Author on the Third Assessment Report on Climate Change and Cities (ARC3.3). She serves on the Editorial Boards of Regional Environmental Change, Climate and Development, Progress in Development Studies, and Urbanisation. Chandni holds a PhD in Rural Livelihoods from the University of Reading, UK and an MSc in Environmental Science from TERI University, New Delhi.',
         Abstract:'Water availability mediates rural and urban development through its impacts on a range of sectors such as agriculture and industry. Climate change and associated risks attenuate this water availability. Given this, various adaptation options have been implemented in the water sector. These are interventions targeting demand management or supply augmentation; focussing on improving water use efficiency etc. However, which adaptation options are feasible in particular contexts and how should one prioritise interventions? To answer this question (and inform adaptation prioritisation), it is critical to assess the various adaptation options in the water sector and synthesise lessons on which options are feasible and under what conditions. This talk will outline how the multidimensional feasibility of adaptation options in the water sector can be assessed. It will then showcase how adaptation feasibility is regionally differentiated, two case studies are discussed: flood management in cities; and community-based watershed management in rural areas. The approach also links climate adaptation aims with other concurrent issues facing water managers – that of synergies and trade-offs with climate mitigation and sustainable development. Water has been called the “middle child of global climate policy” (https://www.nature.com/articles/s41558-021-01154-y), this talk will outline one way to think of addressing this and highlight how the water sector already has a suite of adaptation choices to draw on.',
         link: [
           'https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/EaSlg1sGDnlCsbN5oOiqUVQBXo71CeIf60VVE5mts4oucQ?e=P5Jpsy'
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Raghu_Murtugudde.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Raghu_Murtugudde.webp",
         Title:"Building an Early Warning System for Waterborne Diseases in India",
         speakerName:'Prof. Raghu Murtugudde',
         SeminarTitle:'Building an Early Warning System for Waterborne Diseases in India',
@@ -458,7 +502,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Dan_Obenour.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Dan_Obenour.webp",
         Title:"Long-term Data and Bayesian Inference Elucidate Controls on Surface Water Quality",
         speakerName:'Prof. Dan Obenour',
         SeminarTitle:'Long-term Data and Bayesian Inference Elucidate Controls on Surface Water Quality',
@@ -471,7 +515,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Albert_Ruhi.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Albert_Ruhi.webp",
         Title:"Hydroecology in a rapidly changing world",
         speakerName:'Dr. Albert Ruhi',
         SeminarTitle:'Hydroecology in a rapidly changing world',
@@ -484,20 +528,20 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Fabrice_Papa.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Fabrice_Papa.webp",
         Title:"The variability of water storage and fluxes over large tropical river basins from multi-satellite observations and their impacts on the land-ocean continuum",
         speakerName:'Dr. Fabrice Papa',
         SeminarTitle:'The variability of water storage and fluxes over large tropical river basins from multi-satellite observations and their impacts on the land-ocean continuum',
         DateTime:'21 May 2021 (Friday), 5:00pm',
         Platform:'MS Teams',
-        AboutSpeaker:'Dr Fabrice Papa is a research Director at the Institut de Recherche pour le Développement (IRD-LEGOS, France) and has focused his research on satellite remote sensing of the Earth and its application to study the global water cycle. His main interests are the use of multi-satellite observations to understand continental hydrology and its interactions with the ocean, climate variability and global changes, particularly in tropical regions. He is a member of the Science Team (ST) of the NASA-CNES satellite Surface Water and Ocean Topography (SWOT) and co-leads the SWOT Working Group on River Science. After receiving his PhD from the University of Toulouse, France in 2003, he was employed at the NASA-GISS laboratory at Columbia University, NY, USA until 2010, when he joined IRD. From 2012 to 2017, he was on deputation at the IRD-IISc Joint International Laboratory in Bangalore, India. He is currently on IRD deputation at the University of Brasilia in Brazil. https://publons.com/researcher/1742104/fabrice-papa/publications/',
+        AboutSpeaker:'Dr Fabrice Papa is a research Director at the Institut de Recherche pour le Développement (IRD-LEGOS, France) and has focused his research on satellite remote sensing of the Earth and its application to study the global water cycle. His main interests are the use of multi-satellite observations to understand continental hydrology and its interactions with the ocean, climate variability and global changes, particularly in tropical regions. He is a member of the Science Team (ST) of the NASA-CNES satellite Surface Water and Ocean Topography (SWOT) and co-leads the SWOT Working Group on River Science. After receiving his PhD from the University of Toulouse, France in 2003, he was employed at the NASA-GISS laboratory at Columbia University, NY, USA until 2010, when he joined IRD. From 2012 to 2017, he was on deputation at the IRD-IISc Joint International Laboratory in Bengaluru, India. He is currently on IRD deputation at the University of Brasilia in Brazil. https://publons.com/researcher/1742104/fabrice-papa/publications/',
         Abstract:'Terrestrial waters, despite being less than 1 % of the total amount of water on Earth’s ice-free land are essential for life and human environment. They play a primary role in the global water and carbon cycles, with significant impacts on climate variability. A better characterization of their  distribution and dynamic over the whole globe is therefore of highest priority, including for the management of water resources. However, despite their importance, basic questions are still opened such as: what are the spatio-temporal variations of the fluxes and storages of continental freshwater across scales and how do they interact with climate and the anthropogenic pressure? Those questions are specifically important for the Tropics which are now facing growing demands for freshwater availability. Firstly, using multi-satellite observation techniques, we will quantify the global variations of monthly surface water extent (at 25km spatial resolution) over ~25 years (1992-2015) and assess their recent changes both in terms of climate variability and anthropogenic pressure. For large river such as the Amazon, the Ganges-Brahmaputra (G-B) or the Congo, we further combined our surface water extent estimates with hundreds of radar altimeter-derived water level time-series and DEM data to derive the spatio-temporal variability of surface freshwater storage (SWS). Over the Amazon for instance, we show that the annual amplitude of SWS variations is of ~1200km3 and contributes to ~50% of the Gravity Recovery And Climate Experiment (GRACE)-derived total water storage variations (TWS). During the 2005 exceptional drought, we estimate that the SWS deficit over the entire Amazon basin in October was about 70% as compared to other years. While over G-B we found similar contributions  of mean annual variation in SWS to TWS as for the Amazon, over the Congo this contribution is smaller, around 20%. Over the Amazon, the SSW variations are then used to decompose the GRACE-derived TWS and to isolate the variations groundwater storage and show that it contribute to ~30% of GRACE-derived (TWS). Additionally, using radar altimetry observations, we quantify for these large rivers their long term discharge, providing an unprecedented sources of information on the dynamic of the fresh water fluxes to the ocean. We will illustrate the impacts of G-B and Irrawaddy rivers on the Bay of Bengal ocean dynamic. Finally, we will discuss the future of hydrology from space with the launch in 2022 of the Surface Water and Ocean Topography (SWOT, NASA-CNES) satellite, which in synergy with the current deployment of the COPERNICUS Sentinel program, will offer an unprecedented view of continental freshwater dynamics on Earth. Finally, we will discuss the future of hydrology from space with the launch in 2022 of the Surface Water and Ocean Topography (SWOT, NASA-CNES) satellite, which in synergy with the current deployment of the COPERNICUS Sentinel program, will offer an unprecedented view of continental freshwater dynamic on Earth.',
         link: [
           'https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/bramha_iisc_ac_in/Edra1LZlgMBBlGrYPJXlNQcBMmohYPPlw5mOTz1XKqD-Eg?e=oiFsfI'
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Jahnavi_Phalkey.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Jahnavi_Phalkey.webp",
         Title:"Beyond Science Communication at Science Gallery Bengaluru",
         speakerName:'Dr. Jahnavi Phalkey',
         SeminarTitle:'Beyond Science Communication at Science Gallery Bengaluru',
@@ -510,7 +554,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Atul_Kumar_Sahai.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Atul_Kumar_Sahai.webp",
         Title:"Skilful sub-seasonal meteorological forecasting for efficient hydrological modelling",
         speakerName:'Dr. Atul Kumar Sahai',
         SeminarTitle:'Skilful sub-seasonal meteorological forecasting for efficient hydrological modelling',
@@ -523,7 +567,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Aavudai_Anandhi.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Aavudai_Anandhi.webp",
         Title:"Review and Analysis of Food-Energy-Water Nexus Studies: Conceptual models",
         speakerName:'Dr. Aavudai Anandhi',
         SeminarTitle:'Review and Analysis of Food-Energy-Water Nexus Studies: Conceptual models',
@@ -536,7 +580,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Ramesh_Teegavarapu.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Ramesh_Teegavarapu.webp",
         Title:"Towards Robust Hydrologic Modeling and Design: Utility and Validity of Quantitative Precipitation Estimates",
         speakerName:'Prof. Ramesh Teegavarapu',
         SeminarTitle:'Towards Robust Hydrologic Modeling and Design: Utility and Validity of Quantitative Precipitation Estimates',
@@ -549,7 +593,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Wouter_Buytaert.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Wouter_Buytaert.webp",
         Title:"Citizen science and participatory monitoring of water resources",
         speakerName:'Prof. Wouter Buytaert',
         SeminarTitle:'Citizen science and participatory monitoring of water resources',
@@ -562,7 +606,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Utpal_Tatu.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Utpal_Tatu.webp",
         Title:"Water sanitation in the times of Covid-19 pandemic",
         speakerName:'Dr. Utpal Tatu',
         SeminarTitle:'Water sanitation in the times of Covid-19 pandemic',
@@ -575,7 +619,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Sharad_Kumar_Jain.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Sharad_Kumar_Jain.webp",
         Title:"Hydrology and Water Resources Management in India – from Ancient to Recent Times",
         speakerName:'Dr. Sharad Kumar Jain',
         SeminarTitle:'Hydrology and Water Resources Management in India – from Ancient to Recent Times',
@@ -588,7 +632,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.P.Somasekhar_Rao.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.P.Somasekhar_Rao.webp",
         Title:"Water Science – Interface with Policy and Governance",
         speakerName:'Dr. P. Somasekhar Rao',
         SeminarTitle:'Water Science – Interface with Policy and Governance',
@@ -601,7 +645,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Bhanu_Neupane.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Bhanu_Neupane.webp",
         Title:"Can new technologies help achieve water security?",
         speakerName:'Dr. Bhanu Neupane',
         SeminarTitle:'Can new technologies help achieve water security?',
@@ -614,7 +658,7 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Alan_Jenkins.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Alan_Jenkins.webp",
         Title:"Hydrological Outlooks: what can we do and what could we do?",
         speakerName:'Dr. Alan Jenkins',
         SeminarTitle:'Hydrological Outlooks: what can we do and what could we do?',
@@ -627,27 +671,27 @@ export const seminars =
         ]
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Anil_Kulkarni.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Anil_Kulkarni.webp",
         Title:"Recent Advances in Himalayan Glaciology",
         speakerName:'Dr Anil Kulkarni',
         SeminarTitle:'Recent Advances in Himalayan Glaciology',
         DateTime:'21 February 2020 (Friday), 4:00pm',
         Platform:'Lecture Hall, ICWaR',
-        AboutSpeaker:'Dr Kulkarni is currently working as a Distinguished Scientist at Divecha Centre for Climate Change, Indian Institute of Science, Bangalore. He is instrumental in developing numerous remote sensing-based methods and models to understand Himalayan Cryosphere. These are widely used to map seasonal snow cover, glacier cover and moraine-dammed lakes. Further, these also are used to estimate glacier mass balance, stream runoff and to understand the influence of climate change on the Himalayan cryosphere. During his initial investigations, Dr. Kulkarni developed a methodology to map Himalayan glaciers using remote sensing data. This methodology was used to prepare glacier inventory of Indian Himalaya, providing information about the distribution of Himalayan glaciers, not available previously to the scientific community.  Dr Kulkarni and his team have recently developed a model based on velocity, slope and flow law to estimate the distribution of ice-thickness. This is being used to estimate glacier stored water and mass loss for Himalayan glaciers.  In addition, he is working on modelling Glacier Lake Outburst Floods in Himalaya. He also organises two weeks of training programs on Glaciology. Due to his significant contribution in the field of glaciology, he received numerous awards such as National Geosciences award, Polar science and cryosphere and team leader award from ISRO.',
+        AboutSpeaker:'Dr Kulkarni is currently working as a Distinguished Scientist at Divecha Centre for Climate Change, Indian Institute of Science, Bengaluru. He is instrumental in developing numerous remote sensing-based methods and models to understand Himalayan Cryosphere. These are widely used to map seasonal snow cover, glacier cover and moraine-dammed lakes. Further, these also are used to estimate glacier mass balance, stream runoff and to understand the influence of climate change on the Himalayan cryosphere. During his initial investigations, Dr. Kulkarni developed a methodology to map Himalayan glaciers using remote sensing data. This methodology was used to prepare glacier inventory of Indian Himalaya, providing information about the distribution of Himalayan glaciers, not available previously to the scientific community.  Dr Kulkarni and his team have recently developed a model based on velocity, slope and flow law to estimate the distribution of ice-thickness. This is being used to estimate glacier stored water and mass loss for Himalayan glaciers.  In addition, he is working on modelling Glacier Lake Outburst Floods in Himalaya. He also organises two weeks of training programs on Glaciology. Due to his significant contribution in the field of glaciology, he received numerous awards such as National Geosciences award, Polar science and cryosphere and team leader award from ISRO.',
         Abstract:'Himalayan mountain range is one of the major Water Tower of Asia and stores a large concentration of snow and glaciers.  Water Towers generate more runoff due to high orographic precipitation and delay release due to storage as snow and Ice. Therefore, water is supplied during the hot and dry season, making many rivers like Indus, Ganga and Brahmaputra perennial.  Indus River considered more vulnerable under future climate change scenarios due to large contribution from snow/glacier melt, large population, high water stress and geopolitical conditions.  In addition, the livelihood of large Himalayan mountain communities also depends on the availability of water from snow and glacier melt. Therefore, periodic assessment of the state of the Himalayan cryosphere is important. In this lecture, I will give a current understanding of Himalayan cryosphere and future challenges. Recently numerous new techniques and models have been developed to estimate glacier volume, mass loss, potential glacier lake sites, assessment of flash flood from Glacier Lake Outburst Flood and effect of climate change of glacier distribution. I will discuss the significance of these contributions and its impact of water security and livelihood on mountain communities.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Laurent_Ruiz.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Laurent_Ruiz.webp",
         Title:"Critical Zone Science for Water Resource Management in Agricultural Landscapes",
         speakerName:'Dr. Laurent Ruiz',
         SeminarTitle:'Critical Zone Science for Water Resource Management in Agricultural Landscapes',
         DateTime:'28 January 2020 (Tuesday), 4:00pm',
         Platform:'Lecture Hall, ICWaR',
-        AboutSpeaker:'Laurent Ruiz research interest is to understand and model the interactions between climate, anthropogenic forcings, especially agriculture, and water resources at the landscape scale. He explores how pluridisciplinary approaches, spanning Hydrology, Agronomy, Geochemistry and Social Sciences can help conceiving better management of water and nutrient cycles in agro-ecosystems. His work relies primarily on long term observations carried out within Critical Zone Observatories in France (AgrHys https://www6.inrae.fr/ore_agrhys) and in India (BVET https://mtropics.obs-mip.fr/). He holds his PhD from Montpellier University (France) and is a researcher at INRA and IRD. He has been associated with the Indo-French Cell for Water Sciences at IISc Bangalore since 2002. He is the PI of the ATCHA project (http://www6.inrae.fr/atcha/) focused on the adaptation of Indian agriculture to climate change.',
+        AboutSpeaker:'Laurent Ruiz research interest is to understand and model the interactions between climate, anthropogenic forcings, especially agriculture, and water resources at the landscape scale. He explores how pluridisciplinary approaches, spanning Hydrology, Agronomy, Geochemistry and Social Sciences can help conceiving better management of water and nutrient cycles in agro-ecosystems. His work relies primarily on long term observations carried out within Critical Zone Observatories in France (AgrHys https://www6.inrae.fr/ore_agrhys) and in India (BVET https://mtropics.obs-mip.fr/). He holds his PhD from Montpellier University (France) and is a researcher at INRA and IRD. He has been associated with the Indo-French Cell for Water Sciences at IISc Bengaluru since 2002. He is the PI of the ATCHA project (http://www6.inrae.fr/atcha/) focused on the adaptation of Indian agriculture to climate change.',
         Abstract:'In the time of Anthropocene, global changes are questioning the capacity of the planet Earth to sustain the development of human societies in the long term. In the past two decades, this concern has fostered world wise efforts to develop integrated studies of the “Critical Zone” (CZ), the thin layer of the Earth surface, from the top of the canopy to the bottom of the aquifer, hosting the continental biosphere and providing basic human needs such as water, food, energy and ecosystem services. Critical Zone Observatories (CZO) have been set up in various climatic, geologic and human contexts with a wide range of variables being monitored on the long term. Their main challenge is to ensure the actual integration of the multiple scientific disciplines at stake, from geosciences and biological sciences to social sciences, working within a wide range of spatial and temporal scales. Using experiences from France and India, this seminar will illustrate how such integration can produce the knowledge required for effectively addressing environmental issues in agricultural landscapes.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/S.Vishwanath.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/S.Vishwanath.webp",
         Title:"The tyranny of small decisions- living with sub-optimality in the water and waster water sector: experience from the field",
         speakerName:'S. Vishwanath',
         SeminarTitle:'The tyranny of small decisions- living with sub-optimality in the water and waster water sector: experience from the field',
@@ -657,7 +701,7 @@ export const seminars =
         Abstract:'The management of water and wastewater is often seen as an institutional issue. Yet in the case of India there are many stakeholders at play apart from institutions and in fact, may crucially be using and in control of more waters and wastewaters than the government. In the quest for sustainable management of resources, optimality is put forward as a goal, whereas a series of sub optimality’s, often in conflict with the optimal, is likely the way forward. How is rainwater harvesting to work in non-optimal worlds? How is groundwater to be used and recharged? What happens to faecal sludge from pit toilets and septic tanks and wastewater in a city ecosystem? Can livelihoods also be included as part of the management of water as a resource? Do policies and standards need a fresh look in this context? Why are we subject to the tyranny of small decisions ?'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Murugesu_Sivalapalan.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Murugesu_Sivalapalan.webp",
         Title:"Mega-trends in the Growth of Hydrologic Understanding: From Newton to Darwin to Wegener",
         speakerName:'Prof. Murugesu Sivalapalan ',
         SeminarTitle:'Mega-trends in the Growth of Hydrologic Understanding: From Newton to Darwin to Wegener',
@@ -667,7 +711,7 @@ export const seminars =
         Abstract:'Hydrologic science has undergone transformative changes over the past 100 years, from early empirical approaches to rigorous approaches based on the fluid mechanics of water movement on and below the land surface. Challenged by limitations of traditional Newtonian approaches, and embracing a Darwinian, co-evolutionary Earth system science perspective, the pursuit of hydrologic science is now guided by altogether new questions and methodologies, with a particular focus on interactions and feedbacks between parts of the Earth system that co-evolve, giving rise to the adoption of comparative hydrology. In the emergent Anthropocene, this co-evolutionary view has expanded to involve feedbacks with human-social processes as well. Hydrologic science is now entering a globalization era with a focus on new phenomena that emerge from regional and global teleconnections of the expansion of the human footprint, calling for the adoption of novel Wegenerian approaches to understand the Earth system and the role of water in it. In this lecture, I will present key milestones in the transformation of hydrologic science from Engineering Hydrology to Earth System Science.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Axel_Kleidon.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Axel_Kleidon.webp",
         Title:"Understanding hydrologic cycling from a thermodynamic Earth system perspective",
         speakerName:'Dr. Axel Kleidon',
         SeminarTitle:'Understanding hydrologic cycling from a thermodynamic Earth system perspective',
@@ -677,7 +721,7 @@ export const seminars =
         Abstract:' The hydrologic cycle is an integral part of the whole Earth system, converting substantial amounts of energy. These conversions follow the laws of thermodynamics, which set the directions and impose fundamental limits, yet these also result in interactions and feedbacks that emphasise the need for an Earth system perspective.  In this talk, I provide the background for this thermodynamic description of the hydrologic cycle and use examples to show how thermodynamic limits in combination with a formulation of the dominant interactions can be used to describe the emergent behaviour.  I show how this approach can be used to provide simple, yet physically-based estimates of evaporation and how hydrologic cycling responds to global climate change.  I close with an outlook on potential future applications, highlighting the generality of the approach as energy, its conversions into other forms, and interactions are  at the very core of literally every Earth system process.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.JayKumar_PD.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.JayKumar_PD.webp",
         Title:"Karnataka GIS : A tool towards transparent governance",
         speakerName:'Dr. JayKumar PD',
         SeminarTitle:'Karnataka GIS : A tool towards transparent governance',
@@ -687,7 +731,7 @@ export const seminars =
         Abstract:'Karnataka Geographic Information System (K-GIS) is a flagship program of the state which is visualized as a geospatial technology platform that ensures availability of updated “GIS ready data” of specified standard.  It is a novel initiative by the Karnataka State Remote Sensing Applications Centre (KSRSAC) to map and integrate all department asset data and make it available for both government and public through a single gateway i.e., K-GIS Portal (https://kgis.ksrsac.in/kgis/). The datasets are organized and standardized such that they are readily available, easily-usable “integrated” GIS content for the entire state.  The major activities of K-GIS are mapping and geo-tagging of departmental and public assets, integration of MIS data and developing GIS based Decision Support System to address the spatial challenges of Government of Karnataka (GoK) departments.  Till date more than 18 lakhs asset related information was collected and organized in 350 spatial layers and the activity is growing.  By using these spatial data around 40-45 GIS based mobile applications (Ex: Moulya, Dishaank, Chunavana, Data Collector etc.,) and around 50-55 GIS based web applications (Ex: Agriculture Dept, Family Welfare Dept, Education Dept etc.,) were developed and rolled out for department and citizen usage. It has also tailored the departmental applications with GIS content for taking decisions, tracking project implementation, monitoring progress and policy definition.  Due to its implementation by GoK, all the government institute/infrastructure data and MIS information is available to the citizens, thus facilitating the Right to Information in a user-friendly manner. The maps are also available as a service to IT enthusiast and researcher to carryout research and development activities.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Dipankar_Saha.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Dipankar_Saha.webp",
         Title:"Artificial Recharge – An all-weather solution for Groundwater Crisis or Overrated Panacea?",
         speakerName:'Dr. Dipankar Saha',
         SeminarTitle:'Artificial Recharge – An all-weather solution for Groundwater Crisis or Overrated Panacea?',
@@ -697,7 +741,7 @@ export const seminars =
         Abstract:'Groundwater is the lifeline of drinking, irrigation and industrial water supply in India. With an extraction of ~ 250 km3 annually, India are the largest user of Groundwater in the world. Though a plethora of government documents and policy papers highlighting planned and coordinated extraction management of groundwater resources is available, in practice, it has been hardly followed. So is the case of artificial recharge, often referred as medicine of all groundwater woos but mostly being executed in a segmented and unplanned manner often divested with scientific understanding of the area. Groundwater extraction has never been planned in conjunction with its annual recharge. The reason is the lack of structured approach by the Government. We use more than 85% of our extracted groundwater for irrigation through ~ 22 million wells owned by farmers. In absence of any regulatory mechanism, coupled with sops offered by the State Govts, mainly in the form of energy subsidy, has initiated a reckless extraction, creating havoc. The latest estimates reveal that about 20% of the assessment units are either overexploited or are alarmingly close to it. Artificial recharge and rain water harvesting is considered as a panacea for groundwater depletion. The Centre and State Government Departments spend huge public money mainly through various schemes like MNGREGS. The recharge structures are hardly dovetailed with local aquifer understanding, thus lacking in two basic arenas, location and design, and resulting in sub-optimal benefits. The other important issue is the lack of source water, which is primarily monsoon runoff in India. In arid and semi-arid areas, dearth of source water is a major challenge. Inter-basin water transfer should also considered for recharging the depleted aquifer. Moreover, because of climate change, the monsoon pattern is changing. The traditional understanding of types of structures and their designs needs to be revisited to accommodate and withstand high intensity rainfall.There are areas where acute groundwater mining has rendered such a condition that even if all possible recharge measures are successfully implemented and working, the resource would continue to deplete. Such a situation warrants strict direct or indirect regulation of extraction. The NAQUIM outputs are enhancing our knowledge and understanding of the prolific as well as depleted aquifer systems. The time has come to think of mega recharge schemes in hydrogeologically suitable areas.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.RD_Deshpande.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.RD_Deshpande.webp",
         Title:"Frontiers of Hydrology Research – Role of Isotope Tracer Application",
         speakerName:'Dr. R D Deshpande',
         SeminarTitle:'Frontiers of Hydrology Research – Role of Isotope Tracer Application',
@@ -707,17 +751,17 @@ export const seminars =
         Abstract:'The contemporary hydrology is faced with great challenges of known problems and the greater of unknowns. Problems of water scarcity, anthropogenic pollution, geogenic contamination, dwindling surface flows, inequitable distribution and salinity ingression have turned cliché in hydrology community. The scientific processes underlying these hydrological problems are quite well understood and can be mitigated by appropriate field measures, treatment technologies, improved water use efficiency and policy interventions enforced with strong political will. While we grapple with these known water resource problems, there lies beyond a mind-boggling ignorance about certain aspects of functioning of hydrological systems, their natural course and response to perturbing stimuli. This ignorance about certain hydrological processes does not hinder the ongoing efforts of mitigating existing problems; therefore, it is presently on the back-burner. However, for a fundamental hydrology researcher, this ignorance defines the frontier of research. Filling these hydrological knowledge gaps will become essential in the coming decades to face the imminent scenario. This knowledge gap may seem only academic in nature at present but is bound to have societal implications. Some of the important questions in the above backdrop are: (1) What is the relative contribution of Western Disturbances and Indian Summer Monsoon in Himalayan precipitation, rivers and cryosphere? (2)  How are wetlands in Northeast India participating in monsoon rainfall? (3) How to identify signatures of static groundwater being circulated into the surface and atmospheric components of hydrology? (4) How much of submarine groundwater discharge can be tapped without damaging marine ecology? (5) Are there deep sources of self-recharging and self-replenishing groundwater (seawater distillate or otherwise) other than static water? (6) What is the contribution of recycled moisture in Indian precipitation? (7) How to perceive the effect of varying Himalayan riverine influx in the Bay of Bengal? (8) Can the Bay of Bengal surface water cool below threshold temperature for feeding moisture? These and many more questions define the frontier of basic research in hydrology which can be defined only by multitude of tools and expertise in conjunction with each other. Isotope application is one such tool which can play an important role in this basic research pursuit. Progress hitherto and the possibilities will be discussed in the seminar.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Veena_Srinivasan.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Veena_Srinivasan.webp",
         Title:"India’s Water Crisis: Bridging the Science-Policy-Practice Gap",
         speakerName:'Dr. Veena Srinivasan',
         SeminarTitle:'India’s Water Crisis: Bridging the Science-Policy-Practice Gap',
         DateTime:'26 June 2019 (Wednesday), 4:00pm',
         Platform:'Lecture Hall, ICWaR',
-        AboutSpeaker:'Dr. Veena’s research interests include inter-sectoral water allocation and conflict transformation, impacts of multiple stressors on water security, ground and surface water linkages, low-cost sensing and citizen science, and sustainable water management policy and practice. More recently, she has initiated work on Bangalore’s lakes with the goal of understanding how lakes can contribute to water security as well as creating a citizen’s dashboard, which synthesizes data from low-cost sensors and citizen scientists to help manage urban lakes better. Dr. Veena is in the leadership team of the Panta-Rhei initiative of the International Association of Hydrologic Sciences (IAHS). She was recently appointed to the Strategic Advisory Group of the task force for Monitoring SDG6 by UN-Water. Dr. Veena has served as a resource person for National Water Mission, and serves on the Steering Committee of the Water Conflicts Forum in India. Dr. Veena has won several awards for her research including the 2015 Jim Dooge Award for best paper in the Journal of Hydrology and Earth System Science from the European Geophysical Union, the 2012 Water Resources Research Editor’s Choice Award from the American Geophysical Union. She has received an Editor’s citation for excellence in reviewing for the Journal of Water Resources Research in the years 2016 and 2017. She is the current chair holder of the prestigious Prins Claus Chair in Netherlands from 2018-2020. She has also been invited to be an IUGG Union Lecturer in 2019. She has been a recipient of the Teresa Heinz Environmental Scholars Award, a Presidential Graduate Fellowship at Boston University as well as the government of India’s National Talent Search Scholarship. Veena received her PhD from Stanford University’s Emmet Interdisciplinary Program in Environment and Resources (E-IPER). Dr. Veena holds a Masters in Energy and Environmental Studies from Boston University, Massachusetts and a B-Tech in Engineering Physics from the Indian Institute of Technology, Bombay.',
+        AboutSpeaker:'Dr. Veena’s research interests include inter-sectoral water allocation and conflict transformation, impacts of multiple stressors on water security, ground and surface water linkages, low-cost sensing and citizen science, and sustainable water management policy and practice. More recently, she has initiated work on Bengaluru’s lakes with the goal of understanding how lakes can contribute to water security as well as creating a citizen’s dashboard, which synthesizes data from low-cost sensors and citizen scientists to help manage urban lakes better. Dr. Veena is in the leadership team of the Panta-Rhei initiative of the International Association of Hydrologic Sciences (IAHS). She was recently appointed to the Strategic Advisory Group of the task force for Monitoring SDG6 by UN-Water. Dr. Veena has served as a resource person for National Water Mission, and serves on the Steering Committee of the Water Conflicts Forum in India. Dr. Veena has won several awards for her research including the 2015 Jim Dooge Award for best paper in the Journal of Hydrology and Earth System Science from the European Geophysical Union, the 2012 Water Resources Research Editor’s Choice Award from the American Geophysical Union. She has received an Editor’s citation for excellence in reviewing for the Journal of Water Resources Research in the years 2016 and 2017. She is the current chair holder of the prestigious Prins Claus Chair in Netherlands from 2018-2020. She has also been invited to be an IUGG Union Lecturer in 2019. She has been a recipient of the Teresa Heinz Environmental Scholars Award, a Presidential Graduate Fellowship at Boston University as well as the government of India’s National Talent Search Scholarship. Veena received her PhD from Stanford University’s Emmet Interdisciplinary Program in Environment and Resources (E-IPER). Dr. Veena holds a Masters in Energy and Environmental Studies from Boston University, Massachusetts and a B-Tech in Engineering Physics from the Indian Institute of Technology, Bombay.',
         Abstract:'India is one of the most water-stressed countries in the world. However, despite an appreciable increase in funding for water research, high-quality science, that is usable by stakeholders remains elusive.There is an urgent need for “use-inspired” research on questions that actually matter to stakeholders, trans-disciplinary research, and empirical primary data on fundamental science questions. But what does such research entail? What do we understand, what questions still remain to be answered? Finally, how does science actually translate into policy and practice? What are the policy levers or game changers and how do we ensure that scientific research actually informs efforts to adopt them.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Purnima_Jalihal.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Purnima_Jalihal.webp",
         Title:"Desalination – Technical challenges and Road Ahead",
         speakerName:'Dr.Purnima Jalihal',
         SeminarTitle:'Desalination – Technical challenges and Road Ahead',
@@ -727,37 +771,37 @@ export const seminars =
         Abstract:'The current scenario where water stress dominates most of the regions in India warrants new technological solutions for fresh water generation.  Desalination has been on the horizon for some decades now due to large plants in the Gulf.  There are several types of desalination methods predominantly thermal and membrane based.  The technical challenges include proper methods for intake and discharge of seawater, optimization of thermodynamic parameters for thermal systems, chemicals and bye products for membrane methods and energy requirement optimization. The location, water quality and environmental impact and other parameters like availability of steam all need to be considered for appropriate selection of the desalination method.  Desalination of brackish water as well as seawater promises to be a good solution to the water crisis.  Desalination methods are energy intensive and towards lower carbon footprint, use of renewable energy forms need further exploration and development.  Cost and energy reduction for thermal technologies and safe disposal of by products for membrane methods is the need of the hour.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.GS_Srinivasa_Reddy.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.GS_Srinivasa_Reddy.webp",
         Title:"Drought Monitoring System in Karnataka",
         speakerName:'Dr. G S Srinivasa Reddy (KSNDMC)',
         SeminarTitle:'Drought Monitoring System in Karnataka',
         DateTime:'25 April 2019 (Thursday), 4:00pm',
         Platform:'Lecture Hall, ICWaR',
-        AboutSpeaker:'Dr. G S Srinivasa Reddy is currently serving as Director in Karnataka State Natural Disaster Monitoring Center (KSNDMC) since January 2015. He had his Masters and PhD degree from Department of Geology from Bangalore University. He has joined this organization during 1991 as a scientist and served as scientific officer in KSNDMC from 2008-2015. His area of specialization is Hydro-Geology, Geo Technology, Ground Water Hydrology, Surface Water Hydrology and Agro –Meteorology. He is serving as a member of Geological Society of India. He is also a member in state level Weather Watch Committee, state level Co-ordination Committee for Crop Insurance, state level Technical Committee on Sujala Watershed and Technical Committee on Climate Change Initiatives (EMPRI). He is a member of Karnataka State Disaster Management Authority, Technical committee of Karnataka State Ground Water Authority, general body of Karnataka Science and Technology Promotion Society (KSTePS),  Expert Committee for Cloud Seeding Operations in Karnataka and State Ground Water Co-ordination Committee (SGWCC). He is serving as member in Technical Committee for issue of crop advisories in Karnataka State, Technical Committee on Interstate Water Disputes and Technical Committee to implement National Cyclone Risk Mitigation project.',
+        AboutSpeaker:'Dr. G S Srinivasa Reddy is currently serving as Director in Karnataka State Natural Disaster Monitoring Center (KSNDMC) since January 2015. He had his Masters and PhD degree from Department of Geology from Bengaluru University. He has joined this organization during 1991 as a scientist and served as scientific officer in KSNDMC from 2008-2015. His area of specialization is Hydro-Geology, Geo Technology, Ground Water Hydrology, Surface Water Hydrology and Agro –Meteorology. He is serving as a member of Geological Society of India. He is also a member in state level Weather Watch Committee, state level Co-ordination Committee for Crop Insurance, state level Technical Committee on Sujala Watershed and Technical Committee on Climate Change Initiatives (EMPRI). He is a member of Karnataka State Disaster Management Authority, Technical committee of Karnataka State Ground Water Authority, general body of Karnataka Science and Technology Promotion Society (KSTePS),  Expert Committee for Cloud Seeding Operations in Karnataka and State Ground Water Co-ordination Committee (SGWCC). He is serving as member in Technical Committee for issue of crop advisories in Karnataka State, Technical Committee on Interstate Water Disputes and Technical Committee to implement National Cyclone Risk Mitigation project.',
         Abstract:'Karnataka state is highly vulnerable to drought. In the last 13 out of 16 years (2002-2018), most parts of Karnataka has been subjected to severe drought. The successive drought condition has resulted in shortage of water for drinking, irrigation, etc. Also, groundwater levels are depleting and quality of water is getting deteriorated. Most important component in management of drought is related to weather system – its monitoring, forecasting and adopting. Karnataka State Natural Disaster Monitoring Centre (KSNDMC) has taken proactive measures and has built a robust mechanism with a multi-disciplinary approach to provide Science and Technology based solution to tackle drought in Karnataka. The state-of-the-art ICT tools are being used extensively at the level of data collection, converting data into information, identifying and mapping vulnerable areas, forecast-alert-advisory dissemination to the end-user. KSNDMC has designed and installed a dense network of Solar Powered & GPRS enabled Telemetric Rain Gauge (TRG) stations covering all the 6425 Grampanchayaths (~25 sq km each) and Telemetric Weather Station (TWS) at all the 747 Hoblis (~250 sq km each) and 173 micro-watersheds to collect data and information on factors triggering drought or flood. . The weather data thus collected at every 15 minutes through these weather monitoring stations, analyzed at near-real time, maps and reports are being generated and disseminated to the customized users through auto-mode. The necessary web-applications has been developed in-house. The customized alerts/early warnings, weather information, forecast and advisories are being disseminated through email, SMS, dynamic web-portal, social media, electronic and print media. The weather related information, forecast and advisories are disseminated directly to the farmers, through interactive help-desk “VARUNA MITRA” on 24 x 7 basis. It is helping the farmers to plan their agricultural activities, minimize the crop loss due to any weather aberration. The initiatives taken up by KSNDMC have been helping the stakeholders for planning and executing drought mitigation measures at micro-level, to adopt resilient agriculture practice and efficient water management techniques.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Bharadwaj_Amrutur.png",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Bharadwaj_Amrutur.webp",
         Title:"Challenges for City Scale Multi-Sensor Anlaytics",
         speakerName:'Prof. Bharadwaj Amrutur',
         SeminarTitle:'Challenges for City Scale Multi-Sensor Anlaytics',
         DateTime:'29 March 2019 (Friday), 4:00pm',
         Platform:'Lecture Hall, ICWaR',
-        AboutSpeaker:'Dr. Bharadwaj Amrutur is a Professor in ECE Department and Chairs the Robert Bosch Centre for Cyber Physical Systems, IISc Bangalore. After completing his B.Tech in Computer Science and Engineering in 1990 from Indian Institute of Technology, Bombay, he did his M.S. in Electrical Engineering in 1994 from Stanford University, USA. Thereafter, he pursued his Ph.D. in Electrical Engineering in 1999 from Stanford University, Stanford, CA, USA.',
+        AboutSpeaker:'Dr. Bharadwaj Amrutur is a Professor in ECE Department and Chairs the Robert Bosch Centre for Cyber Physical Systems, IISc Bengaluru. After completing his B.Tech in Computer Science and Engineering in 1990 from Indian Institute of Technology, Bombay, he did his M.S. in Electrical Engineering in 1994 from Stanford University, USA. Thereafter, he pursued his Ph.D. in Electrical Engineering in 1999 from Stanford University, Stanford, CA, USA.',
         Abstract:'Cities and Utilities have started deploying connected sensors as part of their smart cities effort. Examples include pollution sensors in Pune, water sensors by BWSSB, smart electricity meters, smart water meters etc. However there is still a large gap in terms of general understanding of how to do this deployment in the most cost effective manner, while extracting the maximum value out of the data. He discussed some of the technical gaps in sensor fabrication, sensor calibration, deployment optimization, data access and multi-sensor analytics and talked on some of his team’s ongoing work in the context of air quality sensors and pilot activities in Pune and Electronics City.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Sharachchandra_Lele.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Sharachchandra_Lele.webp",
         Title:"Reforming Water Governance: Philosophy, Hydrology and Institutional Analysis",
         speakerName:'Dr. Sharachchandra (Sharad) Lele',
         SeminarTitle:'Reforming Water Governance: Philosophy, Hydrology and Institutional Analysis',
         DateTime:'20 February 2019 (Wednesday), 4:00pm',
         Platform:'Lecture Hall, ICWaR',
-        AboutSpeaker:'Sharachchandra (Sharad) Lele got a B.Tech. in Electrical Engineering in IIT Bombay (1984) but then decided that environmental studies were more exciting and socially relevant. So, he did an M.S. on the environmental impacts of large dams at the Indian Institute of Science, Bangalore (1987) and then a Ph.D. in Energy and Resources from the University of California, Berkeley (1993), focusing on forest use in the Western Ghats.',
+        AboutSpeaker:'Sharachchandra (Sharad) Lele got a B.Tech. in Electrical Engineering in IIT Bombay (1984) but then decided that environmental studies were more exciting and socially relevant. So, he did an M.S. on the environmental impacts of large dams at the Indian Institute of Science, Bengaluru (1987) and then a Ph.D. in Energy and Resources from the University of California, Berkeley (1993), focusing on forest use in the Western Ghats.',
         Abstract:'Karnataka, like most of the peninsular states in India, is facing a serious water crisis. Basins have closed, groundwater is depleting, baseflows have dried up, and existing water is being inequitably distributed. Conventional responses tend to be supply side, lacking an integrated hydrological understanding, and top-down. A paradigm shift is required in multiple dimensions: the normative goals, the world view, the hydrological underpinnings and the institutional arrangements. He discussed the rationale and key elements of such a paradigm shift and make a case for using an interdisciplinary value-based framework for all efforts in reforming water governance.'
       },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Aditi_Bhaskar.jpg",
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Aditi_Bhaskar.webp",
         Title:"Effects of Urban Development on Streamflow",
         speakerName:'Dr. Aditi Bhaskar',
         SeminarTitle:'Effects of Urban Development on Streamflow',

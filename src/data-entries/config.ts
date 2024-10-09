@@ -65,8 +65,8 @@ export const configurations = {
             "hasSubDropdown":false
           },
           {
-            "name":"Program",
-            "link":"/program"
+            "name":"Courses",
+            "link":"/courses"
           },
           {
             "name":"Infrastructure",
@@ -140,50 +140,70 @@ export const configurations = {
             "subDropdownItems":[
               {
                 "name":"Workshops",
-                "link":"/events/workshop-and-meetings/workshops"
+                "link":"/events/workshop-and-meetings"
               },
               {
                 "name":"Monsoon School",
                 "link":"/events/monsoon-school"
+              }
+            ]
+          },
+          {
+            "name":"Seminar Series",
+            "hasSubDropdown":true,
+            "link": "/seminars",
+            "dropdownStyle":constants['dropdown-style'],
+            "subDropdownItems":[
+              {
+                "name":"Guest Seminars",
+                "link":"/seminars/guest-seminars"
               },
               {
-                "name":"Seminars",
-                "link":"/events/workshop-and-meetings/seminars",
-              },
-              ]
+                "name":"Community Seminars",
+                "link":"/seminars/community-seminars"
+              }
+            ],
           },
           {
-            "name":"Student Seminar Series",
-            "link":"/students-seminar"
-          },
-          {
-            'name':'Gallery',
-            'link':'/gallery'
+            "name":"Media Coverage",
+            "link":"/media-coverage"
           },
           {
             "name":"Outreach",
             "link":"/outreach"
           },
           {
-            "name":"Media Coverage",
-            "link":"/media-coverage"
-          }
-        ],
-      },
-      {
-        "name":"Students Corner",
-        "hasDropdown":true,
-        "dropdownStyle":constants['dropdown-style'],
-        "dropdownItems":[
-          {
             "name":"Blogs",
             "link":"/students-blogs"
+          },
+          {
+            'name':'Gallery',
+            'link':'/gallery'
           },
           {
             "name":"Testimonials",
             "link":"/testimonials"
           }
         ],
+      },
+      // {
+      //   "name":"Students Corner",
+      //   "hasDropdown":true,
+      //   "dropdownStyle":constants['dropdown-style'],
+      //   "dropdownItems":[
+      //     {
+      //       "name":"Blogs",
+      //       "link":"/students-blogs"
+      //     },
+      //     {
+      //       "name":"Testimonials",
+      //       "link":"/testimonials"
+      //     }
+      //   ],
+      // }
+      {
+        "name":"Join ICWaR",
+        "link":"/join-icwar"
       }
     ]
   },

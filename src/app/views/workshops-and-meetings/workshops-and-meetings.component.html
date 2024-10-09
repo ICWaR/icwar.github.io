@@ -1,29 +1,15 @@
-<div class="container-fluid mt-5 px-5">
-  <div class="row">
-    <div class="col-md-6">
-      <h1>Events</h1>
-    </div>
-    <div class="col-md-6">
-      <div class="d-flex justify-content-end">
-        <button id="WorkshopsBtn" class="btn me-2" (click)="updateData('Workshops')" [class.selected]="selectedTab === 'Workshops'">Workshops ({{workshops.length}})</button>
-        <button id="SeminarsBtn" class="btn" (click)="updateData('Seminars')" [class.selected]="selectedTab === 'Seminars'">Seminars ({{seminars.ICWaR_Guest_Seminar_Series.length}})</button>
-      </div>
-    </div>
-  </div>
+<div class="container-fluid text-center mt-3">
+  <h2><b>Workshops & Meetings ({{workshops.length}})</b></h2>
 </div>
 <hr>
-
-<div class="d-flex justify-content-center">
-  <div *ngIf="selectedTab === 'Workshops'" id="Workshops" class="row p-5 col-md-10 pt-0">
+<div class="d-flex justify-content-center pt-3">
+  <div class="row p-5 col-md-10 pt-0">
     <div *ngFor="let item of workshops; index as index" class="row shadow border border-dark mb-2 card col-12 p-3">
       <div class="col-12">
         <h4>{{item.Date}}</h4>
       </div>
       <div class="col-md-10">
         <h5 class="text"><b>{{item.Title}}</b></h5>
-      </div>
-      <div class="col-12 d-flex">
-        <button class="m-1 p-1 btn btn-text-expand collapsed ms-auto" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index"></button>
       </div>
       <div id="{{index}}" class="row py-4 col-12 collapse">
         <div class="col-12">
@@ -35,39 +21,11 @@
           </ng-container>
         </div>
       </div>
-      <hr>
-    </div>
-  </div>
-
-  <div *ngIf="selectedTab === 'Seminars'" id="Seminars" class="row p-5 pt-0 col-md-10">
-    <div *ngFor="let item of seminars.ICWaR_Guest_Seminar_Series; index as index" class="row shadow border border-dark mb-2 card card-bg col-12 p-3">
-      <div class="card-text row">
-        <div class="col-md-9 col-12 mb-2">
-          <h4><b>{{item.DateTime}}</b></h4>
-          <h3 class="text mb-3"><b>{{item.Title}}</b></h3>
-          <img *ngIf="item.imgSrc" class="mb-3 d-md-none" style="width: 80%;" [src]="item.imgSrc" />
-          <h5><b>Speaker: </b>{{item.speakerName}}</h5>
-          <h5><b>Platform: </b>{{item.Platform}} <a *ngIf="item.link" [href]="item.link" target="_blank">To Join/Watch</a></h5>
-          <br>
-        </div>
-        <div class="col-md-3 col-12 d-none d-md-block">
-          <img *ngIf="item.imgSrc" class="my-2" style="float: right;" [src]="item.imgSrc" />
-        </div>
-        <div class="col-12">
-          <div id="{{index}}" class="row py-2 col-12 collapse">
-            <h5><b>Abstract:</b></h5>
-            <h6 class="text mb-3"><b></b>{{item.Abstract}}</h6>
-            <h5><b>About the Speaker:</b></h5>
-            <h6 class="text">{{item.AboutSpeaker}}</h6>
-          </div>
-          <div class="col-12 d-flex">
-            <button class="m-1 p-1 btn btn-text-expand collapsed ms-auto" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index"></button>
-          </div>
-        </div>
+      <div class="col-12 d-flex">
+        <button class="m-1 p-1 btn btn-text-expand collapsed ms-auto" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#'+index" aria-expanded="false" [attr.aria-controls]="index"></button>
       </div>
+      <hr>
     </div>
   </div>
 </div>
 <button class="scroll-to-top d-none d-md-block" (click)="scrollToTop()">↑</button>
-
-

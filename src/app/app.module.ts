@@ -14,7 +14,6 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { AboutUsComponent } from './views/about-us/about-us.component';
 import { ResearchComponent } from './views/research/research.component';
 import { CentresAndFacilitiesComponent } from './views/centres-and-facilities/centres-and-facilities.component';
-import { SeminarsAndPublicationsComponent } from './views/seminars-and-publications/seminars-and-publications.component';
 import { WorkshopsAndMeetingsComponent } from './views/workshops-and-meetings/workshops-and-meetings.component';
 // import { MonsoonSchoolComponent } from './views/monsoon-school/monsoon-school.component';
 import { GalleryComponent } from './views/gallery/gallery.component';
@@ -22,13 +21,14 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { PublicationsComponent } from './views/publications/publications.component';
 import { ResearchNewComponent } from './views/research-new/research-new.component';
 import { ActivitiesAndEventsComponent } from './views/activities-and-events/activities-and-events.component';
-import { ProgramsComponent } from './views/programs/programs.component';
 import { StudentsCornerComponent } from './views/students-corner/students-corner.component';
 import { TimelineComponent } from './views/timeline/timeline.component';
 import { TestimonialsComponent } from './views/testimonials/testimonials.component';
 import { OutreachComponent } from './views/outreach/outreach.component';
-import { StudentsSeminarComponent } from './views/students-seminar/students-seminar.component';
+import { SeminarsComponent } from './views/seminars/seminars.component';
 import { MediaCoverageComponent } from './views/media-coverage/media-coverage.component';
+import { JoinIcwarComponent } from './views/join-icwar/join-icwar.component';
+import { CoursesComponent } from './views/courses/courses.component';
 
 @NgModule({
   imports: [
@@ -46,20 +46,20 @@ import { MediaCoverageComponent } from './views/media-coverage/media-coverage.co
     AboutUsComponent,
     ResearchComponent,
     CentresAndFacilitiesComponent,
-    SeminarsAndPublicationsComponent,
     WorkshopsAndMeetingsComponent,
     // MonsoonSchoolComponent,
     GalleryComponent,
     PublicationsComponent,
     ResearchNewComponent,
     ActivitiesAndEventsComponent,
-    ProgramsComponent,
     StudentsCornerComponent,
     TimelineComponent,
     TestimonialsComponent,
     OutreachComponent,
-    StudentsSeminarComponent,
-    MediaCoverageComponent
+    SeminarsComponent,
+    MediaCoverageComponent,
+    JoinIcwarComponent,
+    CoursesComponent
   ],
   bootstrap: [AppComponent],
 })

@@ -1,4 +1,4 @@
-# Website of Interdisciplinary Centre for Water Research (ICWaR), IISc Bangalore
+# Website of Interdisciplinary Centre for Water Research (ICWaR), IISc Bengaluru
 
 This project uses:
  Angular CLI version 15.2.4.
@@ -16,7 +16,7 @@ This project uses:
 6.	Type the following commands in your local terminal open in Workspace folder:
     1. git clone https://github.com/architbubber/IISC-ICWaR.git	
 	  2. cd IISC-ICWaR     	
-	  3. git checkout archit	
+	  3. git checkout archit	    
 	  4. npm i	
 	  5. npm start	
 7.	Go to Browser and type https://localhost:4200/	*Note the address has Https and not Http

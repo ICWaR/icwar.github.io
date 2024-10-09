@@ -6,11 +6,11 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20231.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20232.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20233.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20234.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20235.jpg'
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20231.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20232.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20233.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20234.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20235.webp'
     ]
   },
   {
@@ -20,21 +20,21 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20231.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20232.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20233.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20234.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20235.jpg'
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20231.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20232.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20233.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20234.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20235.webp'
     ]
   },
   {
     Date: '07 AUG, 2023',
     Title:'Monsoon School on Urban Floods held during 07-12 August, 2023',
-    Details: 'Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bangalore organized a one-week workshop titled “Monsoon School on Urban Floods” during 07 – 12 August, 2023. The Monsoon School was funded by the research project titled, “National Supercomputing Mission”, sponsored by the Department of Science & Technology (DST), Government of India.',
+    Details: 'Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru organized a one-week workshop titled “Monsoon School on Urban Floods” during 07 – 12 August, 2023. The Monsoon School was funded by the research project titled, “National Supercomputing Mission”, sponsored by the Department of Science & Technology (DST), Government of India.',
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2023.jpg'
+      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2023.webp'
     ]
   },
   {
@@ -44,9 +44,9 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Engineering_H1.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H2.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H3.jpg'
+      '../../assets/images/Workshop and Meetings/Engineering_H1.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H2.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H3.webp'
     ]
   },
   {
@@ -56,9 +56,9 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Brainstorming-1.jpg',
-      '../../assets/images/Workshop and Meetings/Brainstorming-2.jpg',
-      '../../assets/images/Workshop and Meetings/Brainstorming-3.jpg'
+      '../../assets/images/Workshop and Meetings/Brainstorming-1.webp',
+      '../../assets/images/Workshop and Meetings/Brainstorming-2.webp',
+      '../../assets/images/Workshop and Meetings/Brainstorming-3.webp'
     ]
   },
   {
@@ -68,8 +68,8 @@ export const workshops=[
     link:[
       '../../assets/pdfs/ICWaR WebLinks/Hassan_Minutes_Report_06DEC2022.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/pic-collage-hoysalavillage.jpg',
-      '../../assets/images/Workshop and Meetings/IMG_0783-hoysala.jpg'
+      '../../assets/images/Workshop and Meetings/pic-collage-hoysalavillage.webp',
+      '../../assets/images/Workshop and Meetings/IMG_0783-hoysala.webp'
     ]
   },
   {
@@ -79,36 +79,36 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/9sept-2022.jpg',
-      '../../assets/images/Workshop and Meetings/9sept-2022,2.jpg',
-      '../../assets/images/Workshop and Meetings/9sept-2022,3.jpg',
-      '../../assets/images/Workshop and Meetings/9sept-2022,4.jpg'
+      '../../assets/images/Workshop and Meetings/9sept-2022.webp',
+      '../../assets/images/Workshop and Meetings/9sept-2022,2.webp',
+      '../../assets/images/Workshop and Meetings/9sept-2022,3.webp',
+      '../../assets/images/Workshop and Meetings/9sept-2022,4.webp'
     ]
   },
   {
     Date: '18 MAR, 2021',
     Title:'Third Advisory committee meeting of UFM project',
-    Details: 'The third annual Advisory Committee (AC) Meeting of the ongoing project, “Urban Flood Model for Bangalore” was held online on the 18th of March, 2021 from 10: 30 am -1:15 pm. The meeting was chaired by Shri S V Ranganath and was attended by the esteemed Advisory Committee of the project, senior academicians and officials from IISC, project stakeholder organizations and project partners.',
+    Details: 'The third annual Advisory Committee (AC) Meeting of the ongoing project, “Urban Flood Model for Bengaluru” was held online on the 18th of March, 2021 from 10: 30 am -1:15 pm. The meeting was chaired by Shri S V Ranganath and was attended by the esteemed Advisory Committee of the project, senior academicians and officials from IISC, project stakeholder organizations and project partners.',
     link:[
       '../../assets/pdfs/ICWaR WebLinks/ACM_UFM 21 Minutes_18MAR2021.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/AC-meeting-Agenda-2021.jpg',
-      '../../assets/images/Workshop and Meetings/ACM3-1024.jpg',
+      '../../assets/images/Workshop and Meetings/AC-meeting-Agenda-2021.webp',
+      '../../assets/images/Workshop and Meetings/ACM3-1024.webp',
     ]
   },
   {
     Date: '20 FEB, 2021',
     Title:'Second Advisory committee meeting of UFM project',
-    Details: 'The second advisory committee meeting was held on 20th February 2020 in Interdisciplinary centre for water Research (ICWaR), IISc Bangalore in continuation with the first advisory committee meeting to discuss the progress of the work and to show how UFM team has implemented the suggestions given in the first advisory committee meeting. The major recommendations from the meeting include to extend the scope of the project to address a nationwide problem, implementation of the project at the ground level like multiplicity of agencies, uncertainty in prediction of extreme events and a pilot scheme needs to be designed. Standard Operating Procedure to be prepared before the monsoon season of 2020. Involvement of stake holders must be more in number, use of robotics and artificial intelligence through new companies to map blockages and to convert images posted into data. Improvement of recharge and better use of rainwater. The meeting also suggested to study the inter-linkages between the storm water management system and the sewerage system and implement the low impact development components to reduce flooding.',
+    Details: 'The second advisory committee meeting was held on 20th February 2020 in Interdisciplinary centre for water Research (ICWaR), IISc Bengaluru in continuation with the first advisory committee meeting to discuss the progress of the work and to show how UFM team has implemented the suggestions given in the first advisory committee meeting. The major recommendations from the meeting include to extend the scope of the project to address a nationwide problem, implementation of the project at the ground level like multiplicity of agencies, uncertainty in prediction of extreme events and a pilot scheme needs to be designed. Standard Operating Procedure to be prepared before the monsoon season of 2020. Involvement of stake holders must be more in number, use of robotics and artificial intelligence through new companies to map blockages and to convert images posted into data. Improvement of recharge and better use of rainwater. The meeting also suggested to study the inter-linkages between the storm water management system and the sewerage system and implement the low impact development components to reduce flooding.',
     link:[
       '../../assets/pdfs/ICWaR WebLinks/ACM2020Mom-sec_20FEB2021.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UFM-1.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-2.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-3.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-4.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-5.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-6.jpg'
+      '../../assets/images/Workshop and Meetings/UFM-1.webp',
+      '../../assets/images/Workshop and Meetings/UFM-2.webp',
+      '../../assets/images/Workshop and Meetings/UFM-3.webp',
+      '../../assets/images/Workshop and Meetings/UFM-4.webp',
+      '../../assets/images/Workshop and Meetings/UFM-5.webp',
+      '../../assets/images/Workshop and Meetings/UFM-6.webp'
     ]
   },
   {
@@ -119,8 +119,8 @@ export const workshops=[
       '../../assets/pdfs/ICWaR WebLinks/Discussion-Meeting-Intro_01DEC2019.pdf',
       '../../assets/pdfs/ICWaR WebLinks/Workshop-report-Scale-Issues-in-Hydrology_final_01DEC2019.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Scale_issues.png',
-      '../../assets/images/Workshop and Meetings/Scale_issues2.png',
+      '../../assets/images/Workshop and Meetings/Scale_issues.webp',
+      '../../assets/images/Workshop and Meetings/Scale_issues2.webp',
     ]
   },
   {
@@ -130,7 +130,7 @@ export const workshops=[
     link:[
       'https://www.newton-bhabha-swr.org/upscape'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UPSCAPE.jpg'
+      '../../assets/images/Workshop and Meetings/UPSCAPE.webp'
     ]
   },
   {
@@ -140,17 +140,17 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/23-25Sept,2019.jpg'
+      '../../assets/images/Workshop and Meetings/23-25Sept,2019.webp'
     ]
   },
   {
     Date: '05 AUG, 2019',
     Title:'Monsoon School held during 5th-10th August, 2019',
-    Details: 'Interdisciplinary Center for Water Research (ICWaR), Indian Institute of Science (IISc), Bangalore organised a one-week Monsoon School on Urban Floods during 05 – 10 August, 2019. The School was sponsored by the Knowledge Societies Division of UNESCO, Paris and is partially supported by the research project entitled, “Urban Flood Model for Bangalore“, funded by Department of Science & Technology (DST), Government of India.',
+    Details: 'Interdisciplinary Center for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru organised a one-week Monsoon School on Urban Floods during 05 – 10 August, 2019. The School was sponsored by the Knowledge Societies Division of UNESCO, Paris and is partially supported by the research project entitled, “Urban Flood Model for Bengaluru“, funded by Department of Science & Technology (DST), Government of India.',
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2019.jpg'
+      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2019.webp'
     ]
   },
   {
@@ -160,7 +160,7 @@ export const workshops=[
     link:[
       '../../assets/pdfs/ICWaR WebLinks/Workshop-Concept-note_02AUG2019.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/2-3Aug-2019.jpg'
+      '../../assets/images/Workshop and Meetings/2-3Aug-2019.webp'
     ]
   },
   {
@@ -170,22 +170,22 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/NSM-Aug2019.1.jpg',
-      '../../assets/images/Workshop and Meetings/NSM-Aug2019.2.jpg',
-      '../../assets/images/Workshop and Meetings/NSM-Aug2019.3.jpg'
+      '../../assets/images/Workshop and Meetings/NSM-Aug2019.1.webp',
+      '../../assets/images/Workshop and Meetings/NSM-Aug2019.2.webp',
+      '../../assets/images/Workshop and Meetings/NSM-Aug2019.3.webp'
     ]
   },
   {
     Date: '23 APR, 2019',
-    Title:'Annual Progress Meet for the project “Urban Floods Model for Bangalore City”',
+    Title:'Annual Progress Meet for the project “Urban Floods Model for Bengaluru City”',
     Details: 'The Urban flood Model Team from IISc and KSNDMC visited the "School of Ancient Wisdom" on 23rd April, 2019. A progress meet was being held at the venue where the project partners from BBMP, BDA, Geokno, Spatika, CStep and KSCST were present.',
     link:[
-      'https://sites.google.com/site/urbanfloodmodelbangalore/consortium/iisc-bangalore'],
+      'https://sites.google.com/site/urbanfloodmodelBengaluru/consortium/iisc-Bengaluru'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UFMBC-1.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-2.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-3.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-4.jpg'
+      '../../assets/images/Workshop and Meetings/UFMBC-1.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-2.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-3.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-4.webp'
     ]
   },
   {
@@ -195,29 +195,29 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UPSCAPE_Meeting_Group_photo-MAR2019.jpg'
+      '../../assets/images/Workshop and Meetings/UPSCAPE_Meeting_Group_photo-MAR2019.webp'
     ]
   },
   {
     Date: '12 FEB, 2019',
-    Title:'Advisory Committee Meeting on “Urban Floods Model for Bangalore City”',
-    Details: 'The first Advisory Committee meeting on the project “Urban Flood Model for Bangalore City” was being held on 12th March, 2019, in ICWaR. The members of Advisory Committee for the project are: Sri SV Ranganath, Former Chief Secretary, GoK; Sri Manjunath Prasad, Commissioner, BBMP; Dr. RK Dave, Founder, RESPECT, Ex. Sr. Specialist (Policy and Plans), NDMA; Dr. Veena Srinivasan, Fellow convener-Centre for Environment and Development, ATREE; Prof. BS Murty, Professor, IIT Madras; Sri S Vishwanath, Water Conservation Expert, Founder and director, Biome Solutions.',
+    Title:'Advisory Committee Meeting on “Urban Floods Model for Bengaluru City”',
+    Details: 'The first Advisory Committee meeting on the project “Urban Flood Model for Bengaluru City” was being held on 12th March, 2019, in ICWaR. The members of Advisory Committee for the project are: Sri SV Ranganath, Former Chief Secretary, GoK; Sri Manjunath Prasad, Commissioner, BBMP; Dr. RK Dave, Founder, RESPECT, Ex. Sr. Specialist (Policy and Plans), NDMA; Dr. Veena Srinivasan, Fellow convener-Centre for Environment and Development, ATREE; Prof. BS Murty, Professor, IIT Madras; Sri S Vishwanath, Water Conservation Expert, Founder and director, Biome Solutions.',
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.1.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.2.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.3.jpg'
+      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.1.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.2.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.3.webp'
     ]
   },
   {
     Date: '26 NOV, 2018',
     Title:'Project Meet on Accompanying The adaptation of irrigated agriculture to climate CHAnge (ATCHA)',
-    Details: 'III ANR ATCHA project meeting was held in ICWaR on 26Nov-1Dec, 2018.The ATCHA project aims to accompany the adaptation of farming systems to climate change by combining an integrated biophysical model with a participatory approach in a network of experimental watersheds in the Karnataka state. The ATCHA project is based on (1) the strong partnership initiated with the International Joint Laboratory IFCWS (Indo-French Cell for Water Sciences, involving the Indian Institute of Science, Bangalore) which allowed to build an extensive database in the Berambadi experimental watershed (Critical Zone Observatory, ORE BVET) and (2) a specific Indo-French project (CEFIPRA AICHA, 2013-2016) in which an integrated model combining hydrology (AMBHAS), agronomy (STICS), economy (MoGire) and farmer decision (Namaste) models was developed.',
+    Details: 'III ANR ATCHA project meeting was held in ICWaR on 26Nov-1Dec, 2018.The ATCHA project aims to accompany the adaptation of farming systems to climate change by combining an integrated biophysical model with a participatory approach in a network of experimental watersheds in the Karnataka state. The ATCHA project is based on (1) the strong partnership initiated with the International Joint Laboratory IFCWS (Indo-French Cell for Water Sciences, involving the Indian Institute of Science, Bengaluru) which allowed to build an extensive database in the Berambadi experimental watershed (Critical Zone Observatory, ORE BVET) and (2) a specific Indo-French project (CEFIPRA AICHA, 2013-2016) in which an integrated model combining hydrology (AMBHAS), agronomy (STICS), economy (MoGire) and farmer decision (Namaste) models was developed.',
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/ATCHA-III.jpg'
+      '../../assets/images/Workshop and Meetings/ATCHA-III.webp'
     ]
   },
   {
@@ -227,18 +227,18 @@ export const workshops=[
     link:[
       'https://www.ceh.ac.uk/our-science/projects/india-uk-water-centre-iukwc'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/CHANSE-Sep2018.jpg'
+      '../../assets/images/Workshop and Meetings/CHANSE-Sep2018.webp'
     ]
   },
   {
     Date: '27 JUN, 2018',
     Title:'International Workshop on Urban Floods',
-    Details: 'International Workshop on Urban Floods conducted in ICWaR during June 27-29, 2018. Please find the link here to the “Urban Flood Model for Bangalore city”',
+    Details: 'International Workshop on Urban Floods conducted in ICWaR during June 27-29, 2018. Please find the link here to the “Urban Flood Model for Bengaluru city”',
     link:[
       '../../assets/pdfs/ICWaR WebLinks/Summary_Report_International_Workshop_on_Urban_Floods_27JUNE2018.pdf',
-      'https://sites.google.com/site/urbanfloodmodelbangalore/home'],
+      'https://sites.google.com/site/urbanfloodmodelBengaluru/home'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/workshop-on-urban-floods-28-06-2018.jpg'
+      '../../assets/images/Workshop and Meetings/workshop-on-urban-floods-28-06-2018.webp'
     ]
   },
   {
@@ -248,7 +248,7 @@ export const workshops=[
     link:[
       ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/HydrologicalOutlook-2018.jpg'
+      '../../assets/images/Workshop and Meetings/HydrologicalOutlook-2018.webp'
     ]
   },
   {
@@ -258,8 +258,8 @@ export const workshops=[
     link:[
       'http://ambhas.com/'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/cosmos.png',
-      '../../assets/images/Workshop and Meetings/cosmos1.png'
+      '../../assets/images/Workshop and Meetings/cosmos.webp',
+      '../../assets/images/Workshop and Meetings/cosmos1.webp'
     ]
   },
   {
@@ -269,7 +269,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Indo-UK_WQSP2016.jpg'
+      '../../assets/images/Workshop and Meetings/Indo-UK_WQSP2016.webp'
     ]
   },
   {
@@ -279,7 +279,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/if_workshop.jpg'
+      '../../assets/images/Workshop and Meetings/if_workshop.webp'
     ]
   },
   {
@@ -289,7 +289,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/WaterSecurity-2015.jpg'
+      '../../assets/images/Workshop and Meetings/WaterSecurity-2015.webp'
     ]
   },
 ]
