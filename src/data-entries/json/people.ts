@@ -657,6 +657,14 @@ export const postDoctoralScholars = [
         email: "suyoggupta@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.Suyog_Gupta.webp",
       },
+      {
+        name: "Dr. Daljeet Singh Dhanjal" ,
+        Designation: "Senior Project Associate" ,
+        'Degree and Affiliation': "Ph.D. Biotechnology, Lovely Professional University" ,
+        Project: "cCauvery: Cauvery River Basin Management and Studies",
+        email: "" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.DaljeetSD.webp",
+      }
     ],
   },
   {

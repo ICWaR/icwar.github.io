@@ -1,5 +1,17 @@
 export const workshops=[
   {
+    Date: '12 NOV, 2024',
+    Title:'Discussion meeting with alphaTKG',
+    Details: 'The meeting focused on discussing various work carried out at ICWaR',
+    // link:[
+    //   ''],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/alfaTKG_1_12112024.webp',
+      '../../assets/images/Workshop and Meetings/alfaTKG_2_12112024.webp',
+      '../../assets/images/Workshop and Meetings/alfaTKG_3_12112024.webp'
+    ]
+  },
+  {
     Date: '11 DEC, 2023',
     Title:'Training Program on Advanced Technologies for Water Resources Management held during 11-15 December, 2023  ',
     Details: 'A training program on Advanced Technologies for Water Resources Management, sponsored by the National Water Academy (NWA) was held at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru, between 11-15 December, 2023. A total of 24 participants are practicing Chief Engineers and Executive Engineers in the Central Water Commission (CWC).  ',
