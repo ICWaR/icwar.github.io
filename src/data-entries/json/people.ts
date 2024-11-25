@@ -662,7 +662,7 @@ export const postDoctoralScholars = [
         Designation: "Senior Project Associate" ,
         'Degree and Affiliation': "Ph.D. Biotechnology, Lovely Professional University" ,
         Project: "cCauvery: Cauvery River Basin Management and Studies",
-        email: "" ,
+        email: "daljeetd@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.DaljeetSD.webp",
       }
     ],

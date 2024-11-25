@@ -1,7 +1,7 @@
 export const workshops=[
   {
     Date: '12 NOV, 2024',
-    Title:'Discussion meeting with alphaTKG',
+    Title:'Discussion meeting with alphaTKG Director, Mr. Kumar Muniratnam; Finance Director, Mr. Yasushi Miyata; and Director & CTO, Mr. Periasamy Thanapandi',
     Details: 'The meeting focused on discussing various work carried out at ICWaR',
     // link:[
     //   ''],
