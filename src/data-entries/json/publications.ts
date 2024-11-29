@@ -3,6 +3,91 @@ export const journal = [
     year: '2024',
     publications: [
         {
+          'text':'Kavil, S. P., Riotte, J., Chakrabarti, R., Dapoigny, A., Vaury, V., Ruiz, L., & Cardinal, D. (2024). Deep regolith weathering controls δ30Si composition of groundwater under contrasting landuse in tropical watersheds. Chemical Geology, 670, 122370. ',
+          'links':[
+            'https://doi.org/10.1016/j.chemgeo.2024.122370']
+        },
+        {
+          'text':'Singh, S., Khan, N. A., Shehata, N., Singh, J., & Ramamurthy, P. C. (2024). Insight into biochar as sustainable biomass: Production methods, characteristics, and environmental remediation. Journal of Cleaner Production, 475, 143645. ',
+          'links':[
+            'https://doi.org/10.1016/j.jclepro.2024.143645']
+        },
+        {
+          'text':'Singh, S., Shekar, S., Behera, S. K., Shehata, N., Khan, N. A., Singh, J., & Ramamurthy, P. C. (2024). Synthesis, characterization, and application of thio-salicylaldehyde Schiff base complexes for Cr (VI) adsorption. iScience, 27(10), 110925. ',
+          'links':[
+            'https://doi.org/10.1016/j.isci.2024.110925']
+        },
+        {
+          'text':'Uppara, B., Singh, S., Avasthi, S., Vinod, P., Nagahanumaiah, & Ramamurthy, P. C. (2024). Optimization of laser patterning process for eco-friendly tin-halide perovskite solar module – with a nanosecond green laser. Thin Solid Films, 807, 140542. ',
+          'links':[
+            'https://doi.org/10.1016/j.tsf.2024.140542']
+        },
+        {
+          'text':'Khan, N. A., Majumder, A., Singh, S., et al. (2024). C/N ratio effect on oily wastewater treatment using column type SBR: Machine learning prediction and metagenomics study. Scientific Reports, 14, 22950',
+          'links':[
+            'https://doi.org/10.1038/s41598-024-72490-0']
+        },
+        {
+          'text':'Sharma, G., Dwibedi, V., Seth, C. S., Singh, S., Ramamurthy, P. C., Bhadrecha, P., & Singh, J. (2024). Direct and indirect technical guide for the early detection and management of fungal plant diseases. Current Research in Microbial Sciences, 7, 100276. ',
+          'links':[
+            'https://doi.org/10.1016/j.crmicr.2024.100276']
+        },
+        {
+          'text':'Singh, S., N., Pavithra, Behera, S. K., Varshney, R., Singh, J., & Ramamurthy, P. C. (2024). Electrochemical and density functional simulation studies of a cobalt(ii) imidazolate framework for the real-time sensing of atrazine. New Journal of Chemistry, 48(44), 18836–18847. ',
+          'links':[
+            ' https://doi.org/10.1039/D4NJ03760J']
+        },
+        {
+          'text':'Dhanurkar, T., Budamala, V., & Das Bhowmik, R. (2024). Understanding the association between global forest fire products and hydrometeorological variables. Science of The Total Environment, 945, 173911. ',
+          'links':[
+            'https://doi.org/10.1016/j.scitotenv.2024.173911']
+        },
+        {
+          'text':'Kaur, H., Singh, S., Kathott Prakash, S., et al. (2024). Identification and biophysical characterization of potential phytochemical inhibitors of carboxyl/choline esterase from Helicoverpa armigera for advancing integrated pest management strategies. Scientific Reports, 14, 21596. ',
+          'links':[
+            'https://doi.org/10.1038/s41598-024-69497-y']
+        },
+        {
+          'text':'Rasool, T., Sahoo, S., Das Bhowmik, R., & Kumar, D. N. (2024). Development of a stochastic rainfall generator to yield unprecedented rainfall events. Journal of Hydrology, 641, 131809.',
+          'links':[
+            'https://doi.org/10.1016/j.jhydrol.2024.131809']
+        },
+        {
+          'text':'Poonia, V., Jha, S., Srinivas, V. V., & Wang, L. (2024). Spatiotemporal characteristics and triggers of flash droughts across all the river basins in India. Journal of Hydrometeorology, 19(9), 1357–1369. ',
+          'links':[
+            'https://doi.org/10.1175/JHM-D-23-0080.1']
+        },
+        {
+          'text':'Kaur, H., Singh, S., Rode, S., et al. (2024). Fabrication and characterization of polyvinyl alcohol-chitosan composite nanofibers for carboxylesterase immobilization to enhance the stability of the enzyme. Scientific Reports, 14, 19615. ',
+          'links':[
+            'https://doi.org/10.1038/s41598-024-67913-x']
+        },
+        {
+          'text':'Singh, S., N., Pavithra, Uppara, B., Varshney, R., Shehata, N., Khan, N. A., Joji, J., Singh, J., & Ramamurthy, P. C. (2024). Facile synthesis of ZIF-67-incorporated electrospun PVA nanofibers composite for efficient Pb (II) adsorption from water: Docking and experimental studies. ACS ES&T Water, 4(10), 4497–4509. ',
+          'links':[
+            'https://doi.org/10.1021/acsestwater.4c00500']
+        },
+        {
+          'text':'Goswami, S., Ternikar, C. R., Kandala, R., Pillai, N. S., Yadav, V. K., Abhishek, Joseph, J., Ghosh, S., & Vishwakarma, B. D. (2024). Water budget-based evapotranspiration product captures natural and human-caused variability. Environmental Research Letters, 19(9), 094034. ',
+          'links':[
+            '. https://doi.org/10.1088/1748-9326/ad63bd']
+        },
+        {
+          'text':'Hailemariam, A., Singh, S., Olu, F. E., Dhanjal, D. S., Mani, D., Khan, N. A., Singh, J., & Ramamurthy, P. C. (2024). Advances in adsorption technologies for hexavalent chromium removal: Mechanisms, materials, and optimization strategies. Desalination and Water Treatment, 319, 100576. ',
+          'links':[
+            'https://doi.org/10.1016/j.dwt.2024.100576']
+        },
+        {
+          'text':'Parray, S. Y., Singh, S., Koul, B., Khan, N. A., Ramamurthy, P. C., & Singh, J. (2024). Economic valuation and characterization of heavy metal contamination in Dal Lake Srinagar, Kashmir, India. Heliyon, 10(14), e34108. ',
+          'links':[
+            'https://doi.org/10.1016/j.heliyon.2024.e34108']
+        },
+        {
+          'text':'Singh, S., N., P., & Kaur, H., et al. (2024). Enzyme-based sensor for the real-time detection of atrazine: Evidence from electrochemical and docking studies. Scientific Reports, 14, 17662. ',
+          'links':[
+            'https://doi.org/10.1038/s41598-024-65801-y']
+        },
+        {
           'text':'Das Bhowmik, R., Budamala, V., & Sankarasubramanian, A. (2024). Influence of long-term observed trends on the performance of seasonal hydroclimate forecasts. Advances in Water Resources, 188, 104707. ',
           'links':[
             'https://doi.org/10.1016/j.advwatres.2024.104707']
@@ -220,16 +305,6 @@ export const journal = [
       },
       {
         'text':'Thomas, T. M., Bala, G., & Vemavarapu, S. V. (2023). How do the characteristics of monsoon low pressure systems over India change under a warming climate? A modeling study using the NCAR CESM. Climate Dynamics, 61, 5017–5034. ',
-        'links':[
-          'https://doi.org/10.1007/s00382-023-06837-0']
-      },
-      {
-        'text':'Verma, K., Manisha, M., Santrupt, R. M., Anirudha, T. P., Goswami, S., Sekhar, M., Ramesh, N., Kumar, M. S. M., Chanakya, H. N., & Rao, L. (2023). Assessing groundwater recharge rates, water quality changes, and agricultural impacts of large-scale water recycling. Science of The Total Environment, 877, 162869. ',
-        'links':[
-          'https://doi.org/10.1016/j.scitotenv.2023.162869']
-      },
-      {
-        'text':'Thomas, T. M., Bala, G., & Vemavarapu, S. V. (2023). How do the characteristics of monsoon low pressure systems over India change under a warming climate? A modeling study using the NCAR CESM. Climatic Dynamics, 61, 5017–5034. ',
         'links':[
           'https://doi.org/10.1007/s00382-023-06837-0']
       },
@@ -1134,6 +1209,11 @@ export const bookChapter = [
     year: '2024',
     publications: [
       {
+        'text':'Husien, S., Mahmoud, A. E. D., Ashour, G., Singh, S., Aguilar-Marcelino, L., Ramamurthy, P. C., & Shehata, N. (2024). Sampling and processing of microplastics from water. In Microplastic Pollutants in Biotic Systems: Environmental Impact and Remediation Techniques (ACS Symposium Series, Vol. 1482, pp. 21–45). American Chemical Society. ',
+        'links':[
+          'https://doi.org/10.1021/bk-2024-1482.ch002']
+      },
+      {
         'text':'Pavithra, N., Simranjeet Singh, Khan, N. A., Inchana, K. M., Avadhani, S. G., Dhanjal, D. S., Ramamurthy, P. C., & Singh, J. (2024). Phytoremediation of pharmaceutical compounds in soil. In P. Kumar, A. L. Srivastav, V. Chaudhary, E. D. van Hullebusch, & R. Busquets (Eds.), Bioremediation of emerging contaminants from soils (pp. 359-386). Elsevier. ',
         'links':[
           'https://doi.org/10.1016/B978-0-443-13993-2.00017-7']
@@ -1159,14 +1239,9 @@ export const bookChapter = [
           'https://doi.org/10.1201/9781003128977-4']
       },
       {
-        'text':'Singh, S. et al. (2023). Effect of Heavy Metals in Sewage Sludge. In: Shah, M.P. (eds) Microbial Technologies in Industrial Wastewater Treatment. Springer, Singapore. ',
+        'text':'Anil, A. G., Singh, S., Joji, J., Singh, J., & Ramamurthy, P. C. (2023). Conducting polymer based sensor. In A. S. M. A. Haseeb (Ed.), Encyclopedia of Materials: Electronics (pp. 28–35). Academic Press. ',
         'links':[
-          'https://doi.org/10.1007/978-981-99-2435-6_1']
-      },
-      {
-        'text':'Singh, S., Kapoor, D., Bhardwaj, S., Sharma, D., Pujari, M., Ramamurthy, P. C., & Singh, J. (2023). Microbial valorization of agri-waste for single cell protein: Current status. In Microbial bioprocessing of agri-food wastes (1st ed., pp. 16). CRC Press. ',
-        'links':[
-          'https://doi.org/10.1201/9781003128977-4']
+          'https://doi.org/10.1016/B978-0-12-819728-8.00125-X']
       },
       {
         'text':'Shehata, N., Simranjeet Singh, Ramamurthy, P. C., Dhanjal, D. S., Kaul, N., Romero, R., & Singh, J. (2023). Removal of pesticides from wastewater by Fenton systems: Enhanced degradation by chelating agents and solar irradiation. In J. Singh, A. Pandey, Simranjeet Singh, V. K. Garg, & P. Ramamurthy (Eds.), Current developments in biotechnology and bioengineering (pp. 459-486). Elsevier. ',
