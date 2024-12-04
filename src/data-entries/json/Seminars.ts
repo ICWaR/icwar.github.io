@@ -13,6 +13,17 @@ export const seminars =
       //   link: ['']
       // },
       {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Ana_Mijic.webp",
+        Title:"Frontiers of Hydrological Research through Global Scientific Initiatives",
+        speakerName:'Prof. Ana Mijic',
+        SeminarTitle:'Frontiers of Hydrological Research through Global Scientific Initiatives',
+        DateTime:'09 December 2024 (Monday), 2:00 PM (IST)',
+        Platform:'MS Teams',
+        AboutSpeaker:'Prof. Ana Mijic is a Professor of Water Systems Integration in the Department of Civil and Environmental Engineering at Imperial College London. Her research is at the forefront of advancing systems approaches to water management. She works on developing the methods and tools to tackle the intricate complexity of water systems. The work is underpinned by the Water Systems Integration (WSI) concept defined as coordinating human water needs and protecting water from water-related impacts while minimising pollution and environmental degradation. Her research group has developed WSIMOD – Water Systems Integration Modelling Framework – open-source software to generate comprehensive evidence for key stakeholders such as government departments (e.g., Defra and Environment Agency), water companies, and regional and local planning authorities regarding the performance of water systems. This evidence is intended to inform strategies for integrated water management and planning at the systems level, which, in turn, supports collaborative decision-making. Ana is a member of the Imperial’s Hydrology group that was awarded the 2019 Imperial President’s Award for Excellence in Research for Outstanding Research Team and she is the recipient of 2022 Satish Dhawan Visiting Chair Professorship at IISc Bengaluru.',
+        Abstract:'Over the last 20 years, hydrological research has been significantly influenced by the International Association of Hydrological Sciences (IAHS) Scientific Decades. The first decade (2003–2012) focused on Predictions in Ungauged Basins (PUB), followed by Panta Rhei (2013–2022), which explored the interplay between hydrology and society. The current decade (2023–2032), known as HELPING (Hydrology Engaging Local People IN one Global world), emphasises community engagement and global collaboration. In this talk, Prof. Ana Mijic, a leader of one of the HELPING Themes, will outline the initiatives goals, highlight the structure of proposed Working Groups (WGs), and discuss opportunities for researchers—especially early career scientists—to contribute to HELPING. She will present insights from her Working Group on Water Systems Analysis for Integrated Planning and Management, using the latest advancements in WSIMOD—an integrated water planning model developed by her team—as an example of the motivation behind proposing the Working Group.',
+        link: ['https://teams.microsoft.com/l/meetup-join/19%3ameeting_NDE1Nzg0OGUtN2JjZi00NTE4LTljNjAtODdlNmE1ZDQ1YTJm%40thread.v2/0?context=%7b%22Tid%22%3a%226f15cd97-f6a7-41e3-b2c5-ad4193976476%22%2c%22Oid%22%3a%225527ebad-eb1d-46c9-a997-e411d9b2c7e4%22%7d']
+      },
+      {
         imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Mukesh_Kumar.webp",
         Title:"Unforeseen Responses of Places, Plants, and People to Environmental Change",
         speakerName:'Prof. Mukesh Kumar',

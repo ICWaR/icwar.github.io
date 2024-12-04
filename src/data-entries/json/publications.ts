@@ -138,11 +138,6 @@ export const journal = [
             'https://doi.org/10.1017/jog.2024.19']
         },
         {
-          'text':'Sharma, S., & Mujumdar, P. P. (2024). Baseflow significantly contributes to river floods in Peninsular India. Scientific Reports, 14, 1251. ',
-          'links':[
-            'https://doi.org/10.1038/s41598-024-51850-w']
-        },
-        {
           'text':'Singh, S., Khan, N. A., Ramadan, R., Shehata, N., Kapoor, D., Dhanjal, D. S., Sivaram, N., Singh, J., Barceló, D., & Ramamurthy, P. C. (2024). Environmental fate, toxicological impact, and advanced treatment approaches: Atrazine degradation and emphasis on circular economy strategy. Desalination and Water Treatment, 317, 100201. ',
           'links':[
             'https://doi.org/10.1016/j.dwt.2024.100201']
@@ -153,24 +148,9 @@ export const journal = [
             'https://doi.org/10.1016/j.dwt.2024.100198']
         },
         {
-          'text':'Goswami, R., Singh, S., Narasimhappa, P., Ramamurthy, P. C., Mishra, A., Mishra, P. K., Joshi, H. C., Pant, G., Singh, J., Kumar, G., Khan, N. A., & Yousefi, M. (2024). Nanocellulose: A comprehensive review investigating its potential as an innovative material for water remediation. International Journal of Biological Macromolecules, 254(Part 3), 127465. ',
-          'links':[
-            'https://doi.org/10.1016/j.ijbiomac.2023.127465']
-        },
-        {
-          'text':'Khan, N. A., Singh, S., Ramamurthy, P. C., & Aljundi, I. H. (2024). Exploring nutrient removal mechanisms in column-type SBR with simultaneous nitrification and denitrification. Journal of Environmental Management, 349, 119485. ',
-          'links':[
-            'https://doi.org/10.1016/j.jenvman.2023.119485']
-        },
-        {
           'text':'Pant, G., Singh, S., Choudhary, P. K., et al. (2024). Nanozymes: advance enzyme-mimicking theragnostic tool: A review. Clean Technologies and Environmental Policy. ',
           'links':[
             'https://doi.org/10.1007/s10098-023-02716-8']
-        },
-        {
-          'text':'Sharma, S., & Mujumdar, P. P. (2024). Baseflow significantly contributes to river floods in Peninsular India. Scientific Reports, 14, 1251.',
-          'links':[
-            'https://doi.org/10.1038/s41598-024-51850-w']
         },
         {
           'text':'Boopathy, B., Mukherjee, D., Nishanth, V., et al. (2024). Generation of species-specific high-strength plasma activated water at neutral pH and its antimicrobial characteristics. Plasma Chemistry and Plasma Processing, 44, 1003–1017.',
