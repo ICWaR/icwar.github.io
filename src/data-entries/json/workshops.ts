@@ -1,5 +1,17 @@
 export const workshops=[
   {
+    Date: '13 DEC, 2024',
+    Title:'Discussion meeting with Dartmouth Delegation',
+    Details: 'The discussion meeting aims to explore opportunities for collaborative research initiatives and to identify potential synergies between Dartmouth and ICWaR. Dartmouth Delegates include: David Kotz – Provost and Pat and John Rosenwald Professor, Computer Science; Geoffrey G. Parker – Interim Faculty Director of the Irving Institute at Dartmouth; Angelika Hofmann – Director of Research Programs at the Irving Institute at Dartmouth; Anant Sundaram – Clinical Professor of Finance; Amit Chakrabarti – Professor, Department of Computer Science; Andrila Hait - Research Programs, Irving institute.',
+    // link:[
+    //   ''],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/Dartmouth_1_13122024.webp',
+      '../../assets/images/Workshop and Meetings/Dartmouth_2_13122024.webp',
+      '../../assets/images/Workshop and Meetings/Dartmouth_3_13122024.webp'
+    ]
+  },
+  {
     Date: '12 NOV, 2024',
     Title:'Discussion meeting with alphaTKG Director, Mr. Kumar Muniratnam; Finance Director, Mr. Yasushi Miyata; and Director & CTO, Mr. Periasamy Thanapandi',
     Details: 'The meeting focused on discussing various work carried out at ICWaR',
