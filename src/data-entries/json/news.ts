@@ -1,6 +1,12 @@
 
 export const newsJson = [
 {
+  title:"Applications are invited for the post of Project Associate. Last date to apply: 31st December 2024",
+  date:"20/12/2024",
+  imgSrc:"../../../assets/images/new-Copy.gif",
+  redirectTo:'../../../assets/pdfs/Job Postings/Advertisement for position_IMM.pdf'
+},
+{
   title:"IISc flood model heads to Bengaluru's rescue",
   date:"20/05/2024",
   imgSrc:"../../../assets/images/News/IISc_flood_model_heads.webp",

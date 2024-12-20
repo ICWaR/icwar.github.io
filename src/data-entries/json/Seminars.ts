@@ -13,17 +13,6 @@ export const seminars =
       //   link: ['']
       // },
       {
-        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.BryanW_Brooks.webp",
-        Title:"Offline: Special Seminar on 'Environment, Pollution, and One Health'",
-        speakerName:'Prof. Bryan W. Brooks',
-        SeminarTitle:'Special Seminar on Environment, Pollution, and One Health',
-        DateTime:'17 December 2024 (Tuesday), 2:00 PM (IST)',
-        Platform:'Offline: ICWaR Lecture Hall',
-        AboutSpeaker:'Prof. Brooks is a Distinguished Professor of Environmental Science and Public Health and Director of the Environmental Health Science Program. As Editor-in-Chief of Environmental Science & Technology Letters, his research addresses urban water cycles and sustainable environmental quality. With expertise in aquatic toxicology, environmental chemistry, and public health, he leads interdisciplinary studies on human impacts on ecosystems. Prof. Brooks mentors future leaders in environment and health sciences, combining theory with practical problem-solving.',
-        Abstract:'We are currently observing unprecedented biodiversity losses and increases in non-communicable diseases, resulting from complex and interacting forcing factors, including global pollution. Global chemicals production continues to outpace implementation of technologies and environmental management systems aimed at mitigating the impacts of chemicals and waste and achieving sustainable remediation activities, especially in urban regions around the world. These realities are challenging conventional environmental assessment and management strategies. For example, common protection goals in environmental risk assessments include public health, biodiversity and ecosystem services, but our future ability to meet these goals will rely on systems-based approaches where we leverage the genetics and informatics of species to better understand and manage the risks of global pollution. We need to develop precision-based efforts that extend beyond traditional predictive tools. Advances in exposure science, exposomics, and comparative toxicology promise to accelerate development of precision approaches and associated interventions, including green and sustainable chemistry and engineering, to advance the science and improve the practice of environmental science and technology. Doing so further promises reciprocal benefits to the environment and public health, particularly by embracing One Health.',
-        link: ['']
-      },
-      {
         imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Ana_Mijic.webp",
         Title:"Frontiers of Hydrological Research through Global Scientific Initiatives",
         speakerName:'Prof. Ana Mijic',
