@@ -1,5 +1,42 @@
 export const workshops=[
   {
+    Date: '27 JAN, 2025',
+    Title:'Discussion meeting with Daniël van Horn',
+    Details: 'The interaction focused on Karnataka’s water challenges, including geographic and climatic impacts, as well as ICWaR’s international partnerships, particularly with France, and potential collaborations with the Dutch water sector.',
+    // link:[
+    //   ''],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/Meeting_270120251.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_270120252.webp'
+    ]
+  },
+  {
+    Date: '06 JAN, 2025',
+    Title:'Training Program on Advanced Technologies for Water Resources Management held during 06 - 10 January, 2025  ',
+    Details: 'Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru organised a one-week Mandatory Cadre Training Programme (MCTP) on “Advanced Technologies for Water Resources Management”, during 06 – 10 January, 2025. The MCTP was sponsored by the National Water Academy (NWA) to train STS Officers of CWES (Group-A) Batch – IV Level-2.The training programme comprised of lectures and tutorials by experts, covering advanced topics in Remote Sensing and GIS, Reservoir Operation, Irrigation Water Management and Canal Automation, Urban and Riverine Flood Assessment and Mitigation, Climate Change Impact, Internet of Things (IoT) – Introduction and Applications: Water quality and Emerging Contaminants. ',
+    link:[
+      '../../assets/pdfs/ICWaR WebLinks/Short Report_NWA_06JAN2025.pdf'],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/NWA_06012025.webp',
+      '../../assets/images/Workshop and Meetings/NWA_KSNDMC_06012025.webp',
+      '../../assets/images/Workshop and Meetings/NWA_Group_06012025.webp',
+      '../../assets/images/Workshop and Meetings/NWA_KSNDMC_Group_06012025.webp'
+    ]
+  },
+  {
+    Date: '16 DEC, 2024',
+    Title:'Visit of Professor Bryan Brooks to IISc and ICWaR',
+    Details: 'Professor Bryan Brooks, Editor-in-Chief of ES&T Letters, visited IISc Bangalore on December 16-17, 2024, for discussions on environmental research. A round table discussion with ICWaR faculty was held on December 16, focusing on ongoing research collaborations. On December 17, he delivered a lecture at the ICWaR conference hall in the afternoon.',
+    // link:[
+    //   ''],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/ACS-1_16122024.webp',
+      '../../assets/images/Workshop and Meetings/ACS-2_16122024.webp',
+      '../../assets/images/Workshop and Meetings/ACS-3_17122024.webp',
+      '../../assets/images/Workshop and Meetings/ACS-4_17122024.webp'
+    ]
+  },
+  {
     Date: '13 DEC, 2024',
     Title:'Discussion meeting with Dartmouth Delegation',
     Details: 'The discussion meeting aims to explore opportunities for collaborative research initiatives and to identify potential synergies between Dartmouth and ICWaR. Dartmouth Delegates include: David Kotz – Provost and Pat and John Rosenwald Professor, Computer Science; Geoffrey G. Parker – Interim Faculty Director of the Irving Institute at Dartmouth; Angelika Hofmann – Director of Research Programs at the Irving Institute at Dartmouth; Anant Sundaram – Clinical Professor of Finance; Amit Chakrabarti – Professor, Department of Computer Science; Andrila Hait - Research Programs, Irving institute.',

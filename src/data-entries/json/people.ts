@@ -812,6 +812,22 @@ export const projectStaff = [
         email: "rameshn@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Ramesh_N.webp",
       },
+      {
+        name: "Ms. Prajakta Bhimrao Mali" ,
+        Designation: "Project Associate-I" ,
+        'Degree and Affiliation': "M.Tech, Indian Institute of Remote Sensing" ,
+        Project: "To establish centres for Cauvery River basin management studies in the states of Karnataka & Tamil Nadu",
+        email: "prajaktam@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Prajakta_Mali.webp",
+      },
+      {
+        name: "Chethan D M" ,
+        Designation: "Project Associate-I" ,
+        'Degree and Affiliation': "M-Tech in Environmental Engineering, University of Visvesvaraya college of Engineering, Bengaluru University " ,
+        Project: "Investigation of metal transport in large river systems",
+        email: "chethandm@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Chethan_DM.webp",
+      },
     ],
   },
   {
