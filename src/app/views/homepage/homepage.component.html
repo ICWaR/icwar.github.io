@@ -33,15 +33,18 @@
       <img src="../../../assets/images/Faculty/Prof.PraveenCR.webp" class="img-thumbnail" alt="" style="height: 150px; width: 150px;">
       Chair's Message</h1>
     <div class="card-body">
-      <p class="card-text d-none d-md-block" style="font-size: medium; text-align: justify;">
-        {{data.chairmanMsg}}
+      <p class="card-text d-none d-md-block" style="font-size: medium; text-align: justify;"
+      [innerHTML]="data.chairmanMsg">
       </p>
-      <section class="col-12 d-md-none" style="font-size: small;">
-        <span >{{data.chairmanMsg.substring(0,150)}}</span>
-        <span class="collapse" id='ChairmanMsg' style=" margin-left: -4px; ">
-          {{data.chairmanMsg.substring(150)}}
+      <section class="col-12 d-md-none" style="font-size: small; text-align: justify;">
+        <div [innerHTML]="data.chairmanMsg | slice:0:191"></div>
+        <span class="collapse" id="ChairmanMsg">
+          <div [innerHTML]="data.chairmanMsg | slice:194"></div>
         </span>
-        <button class="col-md-2 btn-text-expand btn collapsed d-md-none col-sm-3 offset-10 m-1 align-self-end" type="button" data-bs-toggle="collapse" data-bs-target='#ChairmanMsg' aria-expanded="false" aria-controls="#ChairmanMsg"></button>
+        <button class="col-md-2 btn-text-expand btn collapsed d-md-none col-sm-3 offset-10 m-1 align-self-end"
+          type="button" data-bs-toggle="collapse" data-bs-target="#ChairmanMsg"
+          aria-expanded="false" aria-controls="ChairmanMsg">
+        </button>
       </section>
   </div>
   </div>
