@@ -1,6 +1,12 @@
 
 export const newsJson = [
 {
+  title:"IISc-developed zero bacteria technology to be used in apartments to improve  water quality in Sewage Treatment Plants",
+  date:"25/02/2025",
+  imgSrc:"../../../assets/images/News/bwssb.webp",
+  redirectTo:'https://www.deccanherald.com//india/karnataka/bengaluru/iisc-developed-zero-bacteria-technology-to-be-used-in-apartments-to-improve-water-quality-in-sewage-treatment-plants-3421662'
+},
+{
   title:"IISc flood model heads to Bengaluru's rescue",
   date:"20/05/2024",
   imgSrc:"../../../assets/images/News/IISc_flood_model_heads.webp",

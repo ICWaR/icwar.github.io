@@ -1,5 +1,79 @@
 export const gallery = {
   'Open Day':{
+    '2025':[
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_1.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_2.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_3.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_4.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_5.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_6.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_7.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_8.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_9.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_10.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_11.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_12.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_13.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_14.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_15.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_16.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_17.webp',
+        'caption':""
+      },
+      {
+        'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2025/OD_2025_18.webp',
+        'caption':""
+      }
+    ],
     '2024':[
       {
         'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2024/OD_2024_1.webp',
@@ -44,7 +118,7 @@ export const gallery = {
       {
         'imgSrc':'../../assets/images/Gallery/Open_Day/OD_2024/OD_2024_11.webp',
         'caption':""
-      },
+      }
     ],
     '2020':[
       {
