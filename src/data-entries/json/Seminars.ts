@@ -14,9 +14,9 @@ export const seminars =
       // },
       {
         imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Anand_Jayakaran.webp",
-        Title:"Damage Mechanics Modeling of Fracture Propagation Glaciers and Ice-shelves",
+        Title:"Green Stormwater Infrastructure: A Framework for Experiential Learning in Urban Ecosystems",
         speakerName:' Prof. Anand Jayakaran',
-        SeminarTitle:'Damage Mechanics Modeling of Fracture Propagation Glaciers and Ice-shelves',
+        SeminarTitle:'Green Stormwater Infrastructure: A Framework for Experiential Learning in Urban Ecosystems',
         DateTime:'21 March 2025 (Friday), 4:00 PM (IST)',
         Platform:'MS Teams',
         AboutSpeaker:'Anand Jayakaran is a professor and extension specialist with Washington State University Extension and an affiliate faculty member of the Department of Biological Systems Engineering and the School of the Environment. He has a PhD in Agricultural and Biological Engineering from Ohio State University. He leads the Green Stormwater Infrastructure Lab at WSU’s Puyallup Research and Extension Center. Anand provides extension and research strategies to manage water resources using GSI principles and improve current engineering designs through applied research. His academic interests include green stormwater infrastructure, University Extension, and watershed hydrology. He serves his peers as an associate editor for two technical journals and as the co-vice Chair of Puget Sound Partnership’s Science Panel.',
