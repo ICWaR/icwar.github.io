@@ -1,9 +1,9 @@
 export const facilities = [
   {
     deviceName: "Water Quality Monitoring Lab",
-    description: "Measures light absorption accurately. <a href='https://example.com/form3' target='_blank'>Usage Form</a>",
-    imgSrc: "assets/images/spectrophotometer.jpg"
-  }
+    description: "<p>Performs trace-level analysis of elements, supporting:<br> 1. Basic Parameters: pH, turbidity, dissolved oxygen (DO), electrical conductivity (EC), total dissolved solids (TDS), temperature, salinity, etc.<br> 2. Bacteriological Analysis: Total coliforms and E. coli. <br> 3. Heavy Metals Analysis. <br> 4. Anions & Cations (Nitrate, fluoride).</p> <a href='https://example.com/form3' target='_blank'>Usage Form</a>",
+    imgSrc: "assets/images/Centres and Facilities/ICPMS.webp"
+  },
   {
     deviceName: "Soil Temperature Monitoring System (STMS)",
     description: "The value of soil moisture measurement in many research, industrial and agricultural fields are necessary for managing water resources effectively. However, collecting data from the field is time-consuming and can be expensive. To automate data collection and data logging, a system was developed using the proven Watermark solid state, electric resistance type sensor and cellular network and internet database real-time monitoring. Now, the STMS can wirelessly download data from soil moisture and temperature sensors directly into your computer from any part of the world.",
