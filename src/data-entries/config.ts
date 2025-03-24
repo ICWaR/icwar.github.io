@@ -69,10 +69,6 @@ export const configurations = {
             "link":"/courses"
           },
           {
-            "name":"Infrastructure",
-            "link":"/centres-and-facilities"
-          },
-          {
             'name':'Admissions',
             'link':'/redirect',
             'redirect':'https://iisc.ac.in/admissions/',
@@ -122,6 +118,10 @@ export const configurations = {
       {
         "name":"Research",
         "link":"/research"
+      },
+      {
+        "name":"Facilities",
+        "link":"/centres-and-facilities"
       },
       {
         "name":"Publications",

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { facilities } from 'src/data-entries/json/facilities';
 
 @Component({
   selector: 'app-centres-and-facilities',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./centres-and-facilities.component.scss']
 })
 export class CentresAndFacilitiesComponent {
-
+  facilitiesList = facilities;
 }
