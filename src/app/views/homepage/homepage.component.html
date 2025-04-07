@@ -25,7 +25,22 @@
   </button>
 </div>
 </div>
-
+<div class="overflow-hidden bg-light py-1">
+  <div
+    class="d-inline-block text-nowrap animate-marquee text-danger fw-semibold"
+    (mouseover)="paused = true"
+    (mouseleave)="paused = false"
+    [ngStyle]="{ animationPlayState: paused ? 'paused' : 'running' }"
+  >
+    <a
+      [routerLink]="['/centres-and-facilities']"
+      class="text-danger text-decoration-none d-inline-flex align-items-center" (click)="scrollToTop()"
+    >
+      Water Quality Analysis Services are now available for online booking.
+      <img src="assets/images/Book_N.gif" alt="Book Now" width="100" class="ms-2 rounded">
+    </a>
+  </div>
+</div>
   <!-- Chair's message -->
 <section class=" py-2 container-fluid">
   <div class=" m-2 card  m-md-5 shadow">
