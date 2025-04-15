@@ -14,7 +14,7 @@
 //                                                                                                                             //
 /*******************************************************************************************************************************/
 var constants = {
-  'font-size':'1.5rem !important',
+  'font-size':'1.35rem !important',
   "font-family":'Sabon-next-lt',
   "dropdown-color":"#d4ac92",
   "dropdown-style":{

@@ -1,11 +1,11 @@
 {
   "name": "ICWaR",
   "version": "(beta)1.0.0",
-  "description": "WebApp for ICWaR IISC",
+  "description": "WebApp for ICWaR IISc",
   "author": "Archit Bubber",
-  "homepage": "http://www.icwar.iisc.ac.in",
+  "homepage": "http://icwar.iisc.ac.in",
   "copyright": "ICWaR",
-  "license": "IISC",
+  "license": "IISc",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4200 --ssl true",

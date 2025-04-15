@@ -14,15 +14,18 @@
         aria-expanded="false"
         [attr.aria-controls]="'collapse' + i"
       >
-      <h5>
-        {{ facility.deviceName }}
-        <img *ngIf="facility.deviceName.trim().toLowerCase() === 'water quality monitoring lab'"
-     src="../../../assets/images/Book_N.gif"
-     alt="Book Now"
-     width="125"
-     class="rounded "
-     style="margin-left: 50px;" />
-      </h5>
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">
+          {{ facility.deviceName }}
+        </h5>
+        <img
+          *ngIf="facility.deviceName.trim().toLowerCase() === 'water quality monitoring lab'"
+          src="../../../assets/images/Book_N.gif"
+          alt="Book Now"
+          width="125"
+          class="rounded ms-md-3"
+        />
+      </div>
       </button>
     </h2>
     <div
