@@ -321,6 +321,7 @@ export const researchStudents = [
         'Degree Registered': "Ph.D in Engineering" ,
         'Degree and Affiliation': "MTech in Remote Sensing and GIS with Water Resources Specialization, IIRS-ISRO, Dehradun" ,
         'Name of Supervisors': "Dr. Bramha Dutta Vishwakarma",
+        'Research Topic': "Understanding the impact of tidal aliasing errors on GRACE gravity field recovery",
         email: "chethanv@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/Chetan_VA.webp",
       },
