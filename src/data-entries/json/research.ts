@@ -92,7 +92,7 @@ export const groups=[
     groupName: 'Organic Nano electronics Group',
     leader: 'Prof. Praveen C Ramamurthy',
     text: 'Chairman at ICWaR, IISc Bengaluru',
-    imgSrc: 'https://materials.iisc.ac.in/~praveen/assets/images/carousel_home/1.png',
+    imgSrc: '../../assets/images/Research Groups/OneGroup.webp',
     websiteUrl: 'https://materials.iisc.ac.in/~praveen/'
   }
 ]

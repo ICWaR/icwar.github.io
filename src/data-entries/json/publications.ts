@@ -1,7 +1,92 @@
 export const journal = [
   {
+    year: '2025',
+    publications: [
+        {
+          'text':'Masbou, J., Grail, C., Payraudeau, S., Ruiz, L., Sekhar, M., Riotte, J., & Imfeld, G. (2025). Dissipation of the insecticide profenofos in tropical agricultural soils (Berambadi catchment, South India): Insight from compound-specific isotope analysis (CSIA). Journal of Hazardous Materials, 488, 137428.',
+          'links':[
+            'https://doi.org/10.1016/j.jhazmat.2025.137428']
+        },
+        {
+          'text':'Budamala, V., Roy, T., & Bhowmik, R. D. (2025). A robust skill verification of hindcast decadal experiments on streamflow regimes using CMIP6 data. Journal of Hydrology, 650, 132525.',
+          'links':[
+            'https://doi.org/10.1016/j.jhydrol.2024.132525']
+        },
+        {
+          'text':'Das, K., Ganguly, S., Majumder, P., Chakrabarti, R., & Mukherjee, A. (2025). Interaction of shallow and deep groundwater with a tropical ocean: Insights from radiogenic (87Sr/86Sr) and stable isotope cycling and fluxes. Journal of Hydrology, 650, 132479.',
+          'links':[
+            ' https://doi.org/10.1016/j.jhydrol.2024.132479']
+        },
+        {
+          'text':'Gomez, C., Amelin, J., Coulouma, G., et al. (2025). Reuse of bottom sediment from reservoirs to cropland is a promising agroecological practice that must be rationalized. Scientific Reports, 15, 7523.',
+          'links':[
+            'https://doi.org/10.1038/s41598-025-92206-2']
+        },
+        {
+          'text':'Sharma, P., Singh, S., Ramamurthy, P. C., Singh, J., & Biswas, J. K. (2025). Regenerative resource recovery from wastewater: State-of-the-art bio-based soft technology. Current Opinion in Environmental Science & Health, 43, 100587.',
+          'links':[
+            'https://doi.org/10.1016/j.coesh.2024.100587']
+        },
+        {
+          'text':'Kumar, K. B., Das Bhowmik, R. D., & Mujumdar, P. P. (2025). Revising flood return periods by accounting for the co-occurrence between floods and their potential drivers. International Journal of Climatology, 45, e8783.',
+          'links':[
+            'https://doi.org/10.1002/joc.8783']
+        },
+        {
+          'text':'Tabbussum, R., Bhowmik, R. D., & Mujumdar, P. (2025). Association of climate variability modes with concurrent droughts and heatwaves in India. Journal of Hydrology X, 26, 100196.',
+          'links':[
+            'https://doi.org/10.1016/j.hydroa.2024.100196']
+        },
+        {
+          'text':'Punith, N., Avaneesh, A. V., Prasad, B., Ravikrishna, R. V., & Rao, L. (2025). Unveiling the impact of operating current on active species generation in pin-to-water plasma activated water system. Plasma Processes and Polymers, 22, 2400190.',
+          'links':[
+            'https://doi.org/10.1002/ppap.202400190']
+        },
+    ]
+  },
+  {
     year: '2024',
     publications: [
+        {
+          'text':'Pullyottum Kavil, S., Riotte, J., Chakrabarti, R., Dapoigny, A., Vaury, V., Ruiz, L., & Cardinal, D. (2024). Deep regolith weathering controls δ30Si composition of groundwater under contrasting land use in tropical watersheds. Chemical Geology, 670, 122370.',
+          'links':[
+            'https://doi.org/10.1016/j.chemgeo.2024.122370']
+        },
+        {
+          'text':'Assefa, H., Singh, S., Shehata, N., et al. (2024). Green synthesis and characterization of CuO/PANI nanocomposite for efficient Pb(II) adsorption from contaminated water. Scientific Reports, 14, 30972.',
+          'links':[
+            'https://doi.org/10.1038/s41598-024-81970-2']
+        },
+        {
+          'text':'Nadeem, I., Nakicenovic, N., Yaqub, A., et al. (2024). Permafrost thawing and estimates of vulnerable carbon in the Northern high latitude. Earth Systems and Environment.',
+          'links':[
+            'https://doi.org/10.1007/s41748-024-00491-0']
+        },
+        {
+          'text':'Goel, A., & Srinivas, V. V. (2025). A fuzzy framework for risk analysis of dam-break flood in climate change scenarios. International Journal of Disaster Risk Reduction, 119, 105322.',
+          'links':[
+            'https://doi.org/10.1016/j.ijdrr.2025.105322']
+        },
+        {
+          'text':'Singh, S., Sivaram, N., Nath, B., et al. (2024). Metal–organic frameworks for wastewater treatment, renewable energy, and circular economy contributions. npj Clean Water, 7, 124.',
+          'links':[
+            'https://doi.org/10.1038/s41545-024-00408-4']
+        },
+        {
+          'text':'Singh, S., Sivaram, N., Dhanjal, D. S., et al. (2024). Navigating the complexity of emerging contaminants: Sources, impacts, and remediation strategies. Journal of the Indian Institute of Science, 104(2), 519–553.',
+          'links':[
+            'https://doi.org/10.1007/s41745-024-00446-4']
+        },
+         {
+          'text':'Goswami, S., Ternikar, C., Kandala, R., Pillai, N., Yadav, V., Abhishek, Joseph, J., Ghosh, S., & Vishwakarma, B. (2024). Water budget-based evapotranspiration product captures natural and human-caused variability. Environmental Research Letters, 19.',
+          'links':[
+            'https://doi.org/10.1088/1748-9326/ad63bd']
+        },
+        {
+          'text':'Poonia, V., Jha, S., Srinivas, V. V., & Wang, L. (2024). Spatiotemporal characteristics and triggers of flash droughts across all the river basins in India. Journal of Hydrometeorology, 25(9), 1357–1369.',
+          'links':[
+            'https://doi.org/10.1175/JHM-D-23-0080.1']
+        },
         {
           'text':'Kavil, S. P., Riotte, J., Chakrabarti, R., Dapoigny, A., Vaury, V., Ruiz, L., & Cardinal, D. (2024). Deep regolith weathering controls δ30Si composition of groundwater under contrasting landuse in tropical watersheds. Chemical Geology, 670, 122370. ',
           'links':[
@@ -882,9 +967,39 @@ export const journal = [
 ];
 
 export const conference = [
+   {
+    year: '2025',
+    publications: [
+        {
+          'text':'Bhatt, J., & Srinivas, V. V. (2025, April 27–May 2). Revising probable maximum precipitation (PMP) estimates under changing climate [Conference abstract]. EGU General Assembly 2025, Vienna, Austria.',
+          'links':[
+            'https://doi.org/10.5194/egusphere-egu25-4786']
+        },
+        {
+          'text':'Singh, M., Bala, G., & Seshadri, A. K. (2025, April 27–May 2). Biases in model simulations of Indian Summer Monsoon low-pressure systems [Conference abstract]. EGU General Assembly 2025, Vienna, Austria.',
+          'links':[
+            'https://doi.org/10.5194/egusphere-egu25-5990']
+        },
+        {
+          'text':'Goswami, S., Ternikar, C., Kandala, R., Pillai, N., Yadav, V. K., Abhishek, A., Joseph, J., Ghosh, S., & Vishwakarma, B. D. (2025, April 27–May 2). A Kalman filter approach for reducing uncertainty in Global Evapotranspiration: Advancing global water budget closure [Conference abstract]. EGU General Assembly 2025, Vienna, Austria.',
+          'links':[
+            'https://doi.org/10.5194/egusphere-egu25-1051']
+        }
+    ]
+  },
   {
     year: '2024',
     publications: [
+      {
+        'text':'Ternikar, C., Goswami, S., Kandala, R., et al. (2024, December 11). Challenges in validating large-scale ET estimates: A comparative study of six global products [Preprint]. ESS Open Archive.',
+        'links':[
+          'https://doi.org/10.22541/essoar.173393976.69532665/v1']
+      },
+      {
+        'text':'Sengupta, S., & Das Bhowmik, R. (2024, December). A Himalayan challenge for machine learning: Snow cover in Baspa Basin [Conference abstract]. AGU Fall Meeting Abstracts, 2024. C41D-0193.',
+        'links':[
+          'https://ui.adsabs.harvard.edu/abs/2024AGUFMC41D.0193S']
+      },
       {
         'text':'Shaw, B., Sharma, P., & Vishwakarma, B. D. (2024). Towards a novel water budget partitioning framework to better characterize the impact of climate and storage change on water fluxes. EGU General Assembly 2024, Vienna, Austria, 14–19 April 2024. ',
         'links':[
@@ -1185,6 +1300,16 @@ export const conference = [
 ];
 
 export const bookChapter = [
+   {
+    year: '2025',
+    publications: [
+        {
+          'text':'Vishwakarma, B. D., Steffen, H., Riva, R. E. M., & Steffen, R. (2025). A brief history of GIA research and recent advances via remote sensing. In Remote Sensing for Geophysicists (1st ed, pp. 13–). CRC Press. ISBN 9781003485278.',
+          'links':[
+            'https://doi.org/10.1201/9781003485278']
+        },
+    ]
+  },
   {
     year: '2024',
     publications: [
