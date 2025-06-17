@@ -1,6 +1,12 @@
 
 export const newsJson = [
 {
+  title:"How Bengaluru can get rain-ready?",
+  date:"14/06/2025",
+  imgSrc:"../../../assets/images/News/HOW-BENGALURU-CAN-GET-RAIN-READY.webp",
+  redirectTo:'../../../assets/pdfs/Media Coverage/HOW-BENGALURU-CAN-GET-RAIN-READY.pdf'
+},
+{
   title:"IISc-developed zero bacteria technology to be used in apartments to improve  water quality in Sewage Treatment Plants",
   date:"25/02/2025",
   imgSrc:"../../../assets/images/News/bwssb.webp",

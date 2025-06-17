@@ -1,9 +1,16 @@
 export const media_coverage =[
   {
+    Title:'How Bengaluru can get rain-ready?',
+    Details: "Times Community – June 14, 2025",
+    link:[
+      '../../assets/pdfs/Media Coverage/HOW-BENGALURU-CAN-GET-RAIN-READY.pdf'
+    ]
+  },
+  {
     Title:'IISc-developed zero bacteria technology to be used in apartments to improve water quality in Sewage Treatment Plants',
     Details: "Deccan Herald – February 25, 2025",
     link:[
-      '../../assets/pdfs/Media Coverage//deccanherald.com-IISc-developed zero bacteria technology to be used in apartments to improve water quality in Sewage T.pdf'
+      '../../assets/pdfs/Media Coverage/deccanherald.com-IISc-developed zero bacteria technology to be used in apartments to improve water quality in Sewage T.pdf'
     ]
   },
   {
