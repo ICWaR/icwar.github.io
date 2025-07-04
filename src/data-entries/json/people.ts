@@ -330,6 +330,7 @@ export const researchStudents = [
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "M. Engg.: University of Tsukuba, Watershed Conservation Engg. (2008)" ,
         'Name of Supervisors': "Prof. M Sekhar",
+        'Research Topic': "Hybrid model for the coupled water and carbon fluxes integrating the process-based and data-driven approaches",
         email: "yujis@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/Yuji_Shigefuji.webp",
       },
@@ -821,14 +822,6 @@ export const projectStaff = [
   {
     Current: [
       {
-        name: "Ms. P. N. Chandi Priya" ,
-        Designation: " Junior Research Fellow" ,
-        'Degree and Affiliation': "MS by Research in Civil Engineering, IIIT Hyderabad (2022)" ,
-        Project: "INSPIRE Project",
-        email: "chandip@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/ChandiPriya.webp",
-      },
-      {
         name: "Ms. Nruthya K" ,
         Designation: "Senior Project Associate" ,
         'Degree and Affiliation': "M.Tech in Water Resources Engineering, NITK Surathkal" ,
@@ -843,19 +836,25 @@ export const projectStaff = [
         Project: "To establish centres for Cauvery River basin management studies in the states of Karnataka & Tamil Nadu",
         email: "rameshn@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Ramesh_N.webp",
+      }
+    ],
+  },
+  {
+    Former: [
+      {
+        name: "Ms. P. N. Chandi Priya" ,
+        Designation: " Junior Research Fellow" ,
+        'Degree and Affiliation': "MS by Research in Civil Engineering, IIIT Hyderabad (2022)" ,
+        Project: "INSPIRE Project",
+        imgSrc: "../../assets/images/Project Staff/ChandiPriya.webp",
       },
       {
         name: "Ms. Prajakta Bhimrao Mali" ,
         Designation: "Project Associate-I" ,
         'Degree and Affiliation': "M.Tech, Indian Institute of Remote Sensing" ,
         Project: "To establish centres for Cauvery River basin management studies in the states of Karnataka & Tamil Nadu",
-        email: "prajaktam@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Prajakta_Mali.webp",
-      }
-    ],
-  },
-  {
-    Former: [
+      },
       {
         name: "Chethan D M" ,
         Designation: "Project Associate-I" ,
