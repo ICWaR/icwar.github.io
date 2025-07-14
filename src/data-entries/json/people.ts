@@ -830,6 +830,14 @@ export const projectStaff = [
         imgSrc: "../../assets/images/Project Staff/nruthya-k.webp",
       },
       {
+        name: "Mr. Suhail Ahmad" ,
+        Designation: "Senior Research Fellow" ,
+        'Degree and Affiliation': "PhD in Remote Sensing & GIS, University of Jammu/Indian Institute of Remote Sensing (IIRS, ISRO) (2025)" ,
+        Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
+        email: "suhailahmad1@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Dr.SuhailAhmad.webp",
+      },
+      {
         name: "Mr. Ramesh N" ,
         Designation: "Project Associate-II" ,
         'Degree and Affiliation': "MSc in Agricultural Economics, University of Agricultural Sciences Bengaluru" ,
