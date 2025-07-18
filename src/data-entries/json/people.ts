@@ -98,6 +98,17 @@ export const faculty = [
         researchInterest:"Radiogenic and Non-Traditional Stable Isotopes, Proxy Development, Igneous, Sedimentary And Aqueous Geochemistry, Impact Cratering, and Cosmochemistry."
       },
       {
+        name: "Prof. Utpal S. Tatu",
+        Designation: "Professor",
+        department: "Department of Biochemistry",
+        phoneNo: "",
+        email: "tatu@iisc.ac.in",
+        imgSrc: "../../assets/images/Faculty/Prof.UtpalSTatu.webp",
+        website: "https://biochem.iisc.ac.in/utpal-s-tatu.php",
+        details: "PhD, Indian Institute of Science, Bengaluru",
+        researchInterest:"One Health, neglected and emerging infectious diseases, protozoan parasites (Giardia lamblia, Plasmodium falciparum), fungal pathogens (Cryptococcus neoformans), environmental and waterborne pathogen transmission, pathogen adaptation in ecological niches, molecular mechanisms of survival, stress response pathways, and heat shock proteins (Hsp90)."
+      },
+      {
         name: "Dr. Lakshminarayana Rao",
         Designation: "Assistant Professor",
         department: "Centre for Sustainable Technologies",
@@ -118,25 +129,36 @@ export const faculty = [
         website: "https://iiscprofiles.irins.org/profile/66401",
         details: "PhD, University of Waterloo, Canada",
         researchInterest:"Semiconductor physics, flexible electronics, Device Physics, and Integrated Circuits."
-      }
+      },
+      {
+        name: "Prof. Mohan Kumar M. S.",
+        Designation: "Honorary Consultant",
+        department: "ICWaR",
+        phoneNo: "",
+        email: "",
+        imgSrc: "../../assets/images/Faculty/Prof.MSMohanKumar.webp",
+        website: "http://civil.iisc.ernet.in/~msmk/",
+        details: "PhD, Indian Institute of Science, Bengaluru",
+        researchInterest:"Water Resources and Environmental Engineering"
+      },
     ]
   },
   {
-    'DST Inspire Faculty': [
+    'DST INSPIRE Faculty': [
       {
         name: "Dr. Thejna Tharammal",
-        Designation: "DST Insprire Faculty",
+        Designation: "DST INSPIRE Faculty",
         department: "ICWaR",
         phoneNo: "",
         email: "thejnat@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Dr.ThejnaT.webp",
         website: "https://scholar.google.com/citations?user=Yp2pA8QAAAAJ&hl=en",
-        details: "PhD, University of Bremen, Germany.",
+        details: "PhD, University of Bremen, Germany",
         researchInterest:"Past and Future Climate Changes, Climate Modelling, and Isotope Hydrology"
       },
       {
         name: "Dr. Soumita Boral ",
-        Designation: "DST Inspire Faculty",
+        Designation: "DST INSPIRE Faculty",
         department: "ICWaR",
         phoneNo: "",
         email: "soumitab@iisc.ac.in",
@@ -144,6 +166,28 @@ export const faculty = [
         website: "https://scholar.google.com/citations?user=exn8ctgAAAAJ&hl=en",
         details: "PhD, Indian Institute of Technology Kanpur, India",
         researchInterest:"Isotope Geochemistry, Critical zone biogeochemistry, Glacier-river-continent processes, Hydro-geochemical modelling."
+      },
+      {
+        name: "Dr. Maya Raghunath Suryawanshi",
+        Designation: "DST INSPIRE Faculty",
+        department: "ICWaR",
+        phoneNo: "",
+        email: "mayas@iisc.ac.in",
+        imgSrc: "../../assets/images/Faculty/Dr.MayaRSuryawanshi.webp",
+        website: "",
+        details: " PhD, Space Applications Centre, ISRO and Gujarat University, Ahmedabad, India",
+        researchInterest:"Remote Sensing, Altimetry, GRACE, Hydrology, Polar ice sheet"
+      },
+      {
+        name: "Dr. Soumi Dutta",
+        Designation: "DST INSPIRE Faculty",
+        department: "ICWaR",
+        phoneNo: "",
+        email: "soumidutta@iisc.ac.in",
+        imgSrc: "../../assets/images/Faculty/Dr.SoumiDutta.webp",
+        website: "https://sites.google.com/view/soumi-dutta/home",
+        details: " PhD, Indian Institute of Technology (IIT) Kharagpur, India",
+        researchInterest:"Membrane separation, Adsorption, Selective Metal Recovery, Nanotechnology, Bio-based materials, Polymeric Hydrogel, Magnetic adsorbent, Water/wastewater treatment, Desalination, Emerging Pollutants (Micro/nano-plastic, heavy metals, Arsenic, Uranium, PFAS), Photocatalysis, Microplastic Degradation, Interpenetrating Polymer Networks (IPNs), Water softening hydrogel, Wastewater Treatment Plant: Anaerobic Digestion, Activated Sludge Process (ASP), Sequencing Batch Reactor (SBR), Field-scale sustainable water remediation, Environmental pollution control"
       }
     ]
   }
@@ -187,17 +231,6 @@ export const formerFaculty =[
         website: "",
         details: "PhD, Indian Institute of Science, Bengaluru",
         researchInterest:"Hydrological uncertainty, climate change, non-stationarity, land use change, urban precipitation extremes"
-      },
-      {
-        name: "Prof. Mohan Kumar M. S.",
-        Designation: "Professor (Retd.)",
-        department: "Department of Civil Engineering",
-        phoneNo: "",
-        email: "",
-        imgSrc: "../../assets/images/Faculty/Prof.MSMohanKumar.webp",
-        website: "http://civil.iisc.ernet.in/~msmk/",
-        details: "PhD, Indian Institute of Science, Bengaluru",
-        researchInterest:"Water Resources and Environmental Engineering"
       },
       {
         name: "Prof. Subramanian S",
@@ -633,14 +666,6 @@ export const postDoctoralScholars = [
         imgSrc: "../../assets/images/Post Doc/RetinderK.webp",
       },
       {
-        name: "Dr. Maya Raghunath Suryawanshi" ,
-        Designation: "Senior Project Associate" ,
-        'Degree and Affiliation': "PhD in Physics" ,
-        Project: "ISRO-IISc Project",
-        email: "mayas@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Post Doc/MayaR.webp",
-      },
-      {
         name: "Dr. Ashlin Ann Alexander" ,
         Designation: "Research Associate" ,
         'Degree and Affiliation': "PhD in Water Resources Engineering, Indian Institute of Science, Bengaluru (2024)" ,
@@ -693,6 +718,11 @@ export const postDoctoralScholars = [
   {
     Former: [
        {
+        name: "Dr. Maya Raghunath Suryawanshi" ,
+        Designation: "Senior Project Associate" ,
+        imgSrc: "../../assets/images/Post Doc/MayaR.webp",
+      },
+      {
         name: "Dr. Arindan Mandal" ,
         Designation: "Research Associate III" ,
         imgSrc: "../../assets/images/Post Doc/ArindanMandal.webp",
