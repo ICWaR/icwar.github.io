@@ -13,6 +13,17 @@ export const seminars =
       //   link: ['']
       // },
       {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Biswa_Bhattacharya.webp",
+        Title:"AI and Machine Learning for Improving Water Management",
+        speakerName:'Prof. Biswa Bhattacharya',
+        SeminarTitle:'AI and Machine Learning for Improving Water Management',
+        DateTime:'30 July 2025 (Wednesday), 4:00 PM (IST)',
+        Platform:'MS Teams',
+        AboutSpeaker:'Biswa Bhattacharya has a PhD degree in Hydroinformatics from Delft University of Technology and IHE Delft Institute for Water Education. Prior to that he studied Civil Engineering from Indian Institute of Engineering Science and Technology, India. Currently, he is the head of the Hydroinformatics department of IHE Delft. His research focuses on AI and machine learning to improve decision making in various water domains. He has worked on a large number of research projects on the use of AI and machine learning with hydrology and flood risk as the primary application area. One of his key research interests is to work on data scarce regions, where he has developed methodologies for making value for imperfect data, leading to using Bayesian decision making framework in decision making under uncertainty.',
+        Abstract:'Sustainable water management is one of the important priorities set out in the Sustainable Development Goals (SDGs) of the United Nations, which calls for efficient use of natural resources. Efficient water management, particularly under the threat of climate change, requires an increased attention and nowadays depends a lot upon models. The tremendous advances in AI and Machine Learning are increasingly contributing to the better management of the water resources. In the near future, it is likely that management of many of the water systems will be aided by machine learning. The seminar presents research on the use of machine learning in various aspects of the water domain during the last 25 years. The presentation covers four ways of learning: clustering, classification, regression and control. In each of the learning tasks a number of research applications will be presented.',
+        link: ['https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTg4YmVhNzYtYTAwMC00ZDU3LTkwYWMtNTI4NGZjOTY4MWNm%40thread.v2/0?context=%7b%22Tid%22%3a%226f15cd97-f6a7-41e3-b2c5-ad4193976476%22%2c%22Oid%22%3a%225eb65a02-7e69-4daf-980e-c28116786b92%22%7d']
+      },
+      {
         imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Sankar_Arumugam.webp",
         Title:"Flood Prediction in Ungauged & Urban Basins: What do we gain from watershed models?",
         speakerName:'Prof. Sankar Arumugam',

@@ -34,7 +34,7 @@ export const faculty = [
         phoneNo: "080 2293 2870",
         email: "bramha@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Dr.BramhaDV.webp",
-        website: "https://ultra-pluto-7f6d1.netlify.app/",
+        website: "https://gessiisc.github.io/group/",
         details: "PhD, University of Stuttgart, Germany",
         researchInterest:"Signal processing, Geodesy, time-series analysis, and hydrology."
       }
@@ -187,7 +187,7 @@ export const faculty = [
         imgSrc: "../../assets/images/Faculty/Dr.SoumiDutta.webp",
         website: "https://sites.google.com/view/soumi-dutta/home",
         details: " PhD, Indian Institute of Technology (IIT) Kharagpur, India",
-        researchInterest:"Membrane separation, Adsorption, Selective Metal Recovery, Nanotechnology, Bio-based materials, Polymeric Hydrogel, Magnetic adsorbent, Water/wastewater treatment, Desalination, Emerging Pollutants (Micro/nano-plastic, heavy metals, Arsenic, Uranium, PFAS), Photocatalysis, Microplastic Degradation, Interpenetrating Polymer Networks (IPNs), Water softening hydrogel, Wastewater Treatment Plant: Anaerobic Digestion, Activated Sludge Process (ASP), Sequencing Batch Reactor (SBR), Field-scale sustainable water remediation, Environmental pollution control"
+        researchInterest:"Water and wastewater treatment, membrane separation, self-cleaning and antifouling membranes, desalination, adsorption, selective metal recovery, nanomaterials, bio-based and antimicrobial materials, hydrogels, emerging pollutants (micro/nanoplastics, heavy metals, arsenic, uranium, PFAS), photocatalysis, microplastic degradation, constructed wetlands, sewage treatment, field-scale sustainable water remediation"
       }
     ]
   }
@@ -947,7 +947,7 @@ export const projectStaff = [
         Designation: "Project Associate I" ,
         'Degree and Affiliation': "M.Sc. in Geoinformatics, TERI School of Advanced Studies (2022)" ,
         Project: "Mapping Terrestrial Water Resources from Space (MATRA)",
-        imgSrc: "../../assets/images/Project Staff/vandana.webp",
+        imgSrc: "../../assets/images/Project Staff/Vandana_S.webp",
       },
       {
         name: "Chandan Kumar" ,
