@@ -321,7 +321,7 @@ export const researchStudents = [
         name: "Radhika Varshney" ,
         'Degree Registered': "Ph.D" ,
         'Degree and Affiliation': "Integrated Master of Science (Chemistry), National Institute of Technology, Rourkela" ,
-        'Name of Supervisors': "Praveen Ramamurthy and Prof. Ramananda Chakrabarti",
+        'Name of Supervisors': "Prof. Praveen Ramamurthy and Prof. Ramananda Chakrabarti",
         email: "vradhika@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/radhikavarshney.webp",
       },
@@ -423,9 +423,40 @@ export const researchStudents = [
         email: "preethialle@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/Preethi_Alle.webp",
       },
+      {
+        name: "Divya Dhakar" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "M.Sc in Chemistry, Central University of Kerala (2024)" ,
+        'Name of Supervisors': "Prof. Praveen C. Ramamurthy",
+        email: "divyadhakar@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/DivyaDhakar.webp",
+      },
+      {
+        name: "Dhrutikam Jena" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "M.Sc. in Applied Geology, NIT Rourkela" ,
+        'Name of Supervisors': "Prof. Ramananda Chakrabarti",
+        email: "dhrutikamj@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/DhrutikamJena.webp",
+      },
+      {
+        name: "Alok Kumar" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "MSc. Environmental Science (2024), Jawaharlal Nehru University, New Delhi" ,
+        'Name of Supervisors': "Dr. Bramha Dutta Vishwakarma",
+        email: "alokk@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/AlokKumar.webp",
+      },
+      {
+        name: "Safal Jung Thapa" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "MSc. Public Health Epidemiology - Kathmandu University, Nepal" ,
+        'Name of Supervisors': "Prof. Praveen C. Ramamurthy",
+        email: "safalthapa@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/SafalJT.webp",
+      },
     ],
   },
-
   {
     Former: [
       {
@@ -641,14 +672,6 @@ export const postDoctoralScholars = [
         email: "simranjeets@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Simranjeet_Singh.webp",
       },
-      // {
-      //   name: "Dr. Tabasum Rasool" ,
-      //   Designation: "Research Associate" ,
-      //   'Degree and Affiliation': "Ph.D. (NIT, Srinagar)" ,
-      //   Project: "Development and application of a stochastic rainfall generator (SRG) to account for unprecedented rainfall events",
-      //   email: "tabasumr@iisc.ac.in" ,
-      //   imgSrc: "../../assets/images/Post Doc/tabasumrasool.webp",
-      // },
       {
         name: "Dr. Venkatesh Budamala" ,
         Designation: "Research Associate III" ,
