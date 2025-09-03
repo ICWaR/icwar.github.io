@@ -897,6 +897,14 @@ export const projectStaff = [
         Project: "To establish centres for Cauvery River basin management studies in the states of Karnataka & Tamil Nadu",
         email: "rameshn@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Ramesh_N.webp",
+      },
+      {
+        name: "Ms. Darshana Gautam" ,
+        Designation: "Project Associate-I" ,
+        'Degree and Affiliation': "M.Sc (Atmospheric Sciences) from Savitribai Phule Pune University (SPPU) and Indian Institute of Tropical Meteorology (IITM) Pune" ,
+        Project: " A Proxy and Modelling approach to Understanding Indian Summer Monsoon Precipitation Variability and Abrubt Shifts",
+        email: "darshanag@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/DarshanaG.webp",
       }
     ],
   },
