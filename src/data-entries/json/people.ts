@@ -198,7 +198,7 @@ export const faculty = [
         imgSrc: "../../assets/images/Faculty/Dr.AnkitaBhatt.webp",
         website: "https://scholar.google.co.in/citations?user=uAop_D4AAAAJ&hl=en",
         details: "PhD, Indian Institute of Technology Roorkee, India",
-        researchInterest:"Elaborate - Microalgal biotechnology, Biorefinery, Water and wastewater treatment, Environmental microbiology, Emerging pollutants, Life cycle assessment, Microbial risk assessment, Techno-economic analysis, Circular economy, Resource recovery"
+        researchInterest:"Microalgal biotechnology, Biorefinery, Water and wastewater treatment, Environmental microbiology, Emerging pollutants, Life cycle assessment, Microbial risk assessment, Techno-economic analysis, Circular economy, Resource recovery"
       }
     ]
   }
