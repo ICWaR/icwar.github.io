@@ -10,8 +10,8 @@
     "ng": "ng",
     "start": "ng serve --port 4200 --ssl true",
     "liveOnIntraNet": "ng serve --host 0.0.0.0",
-    "build": "ng build --configuration production && cp docs/index.html docs/404.html && cp CNAME docs/.",
-    "watch": "ng build --watch --configuration development",
+    "build": "ng build --configuration production --output-path docs && node -e \"require('fs').copyFileSync('docs/index.html','docs/404.html')\"",
+    "watch": "ng build --watch --configuration development --output-path docs",
     "test": "ng test"
   },
   "private": true,

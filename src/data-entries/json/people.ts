@@ -186,8 +186,19 @@ export const faculty = [
         email: "soumidutta@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Dr.SoumiDutta.webp",
         website: "https://sites.google.com/view/soumi-dutta/home",
-        details: " PhD, Indian Institute of Technology (IIT) Kharagpur, India",
+        details: " PhD, Indian Institute of Technology Kharagpur, India",
         researchInterest:"Water and wastewater treatment, membrane separation, self-cleaning and antifouling membranes, desalination, adsorption, selective metal recovery, nanomaterials, bio-based and antimicrobial materials, hydrogels, emerging pollutants (micro/nanoplastics, heavy metals, arsenic, uranium, PFAS), photocatalysis, microplastic degradation, constructed wetlands, sewage treatment, field-scale sustainable water remediation"
+      },
+      {
+        name: "Dr. Ankita Bhatt",
+        Designation: "DST INSPIRE Faculty",
+        department: "ICWaR",
+        phoneNo: "",
+        email: "",
+        imgSrc: "../../assets/images/Faculty/Dr.AnkitaBhatt.webp",
+        website: "https://scholar.google.co.in/citations?user=uAop_D4AAAAJ&hl=en",
+        details: "PhD, Indian Institute of Technology Roorkee, India",
+        researchInterest:"Elaborate - Microalgal biotechnology, Biorefinery, Water and wastewater treatment, Environmental microbiology, Emerging pollutants, Life cycle assessment, Microbial risk assessment, Techno-economic analysis, Circular economy, Resource recovery"
       }
     ]
   }
