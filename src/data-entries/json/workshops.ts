@@ -1,4 +1,14 @@
 export const workshops=[
+   {
+    Date: '06 SEPT, 2025',
+    Title:'Visit from Agriculture Department, Government of Maharashtra',
+    Details: 'On 6th September, ICWaR welcomed senior officials from the Government of Maharashtra’s Agriculture Department — Shri Vikas Rastogi, IAS, Principal Secretary, and Shri Parimal Singh, IAS, Project Director, PoCRA Plus. The discussions centered on ICWaR’s work in climate resilience, sustainable agriculture, and water management, and explored potential collaborations with the state’s flagship programs. The visit also highlighted ICWaR’s role in advancing interdisciplinary research for public good.',
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/Meeting_06092025_1.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_06092025_2.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_06092025_3.webp'
+    ]
+  },
   {
     Date: '27 JAN, 2025',
     Title:'Discussion meeting with Daniël van Horn',
