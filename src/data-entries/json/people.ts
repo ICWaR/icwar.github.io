@@ -25,7 +25,7 @@ export const faculty = [
         imgSrc: "../../assets/images/Faculty/Dr.RajarshiDB.webp",
         website: "https://rajarshidasbhowmik.com/",
         details: "PhD, North Carolina State University, Raleigh (USA)",
-        researchInterest:"Hydro-climate modeling, extreme weather events and climate change Projections"
+        researchInterest:"Hydro-climate modeling, extreme weather events and climate change Projections."
       },
       {
         name: "Dr. Bramha Dutt Vishwakarma",
@@ -51,7 +51,7 @@ export const faculty = [
         imgSrc: "../../assets/images/Faculty/Prof.GBala.webp",
         website: "http://dccc.iisc.ac.in/web/balag_home.html",
         details: "PhD, McGill University, Canada",
-        researchInterest:"Modelling climate change, carbon and water cycles, solar geoengineering, and the global and regional monsoon systems"
+        researchInterest:"Modelling climate change, carbon and water cycles, solar geoengineering, and the global and regional monsoon systems."
       },
       {
         name: "Prof. Sekhar M.",
@@ -135,11 +135,11 @@ export const faculty = [
         Designation: "Honorary Consultant",
         department: "ICWaR",
         phoneNo: "",
-        email: "",
+        email: "msmk@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Prof.MSMohanKumar.webp",
         website: "http://civil.iisc.ernet.in/~msmk/",
         details: "PhD, Indian Institute of Science, Bengaluru",
-        researchInterest:"Water Resources and Environmental Engineering"
+        researchInterest:"Water Resources and Environmental Engineering."
       },
     ]
   },
@@ -154,7 +154,7 @@ export const faculty = [
         imgSrc: "../../assets/images/Faculty/Dr.ThejnaT.webp",
         website: "https://scholar.google.com/citations?user=Yp2pA8QAAAAJ&hl=en",
         details: "PhD, University of Bremen, Germany",
-        researchInterest:"Past and Future Climate Changes, Climate Modelling, and Isotope Hydrology"
+        researchInterest:"Past and Future Climate Changes, Climate Modelling, and Isotope Hydrology."
       },
       {
         name: "Dr. Soumita Boral ",
@@ -176,7 +176,7 @@ export const faculty = [
         imgSrc: "../../assets/images/Faculty/Dr.MayaRSuryawanshi.webp",
         website: "",
         details: " PhD, Space Applications Centre, ISRO and Gujarat University, Ahmedabad, India",
-        researchInterest:"Remote Sensing, Altimetry, GRACE, Hydrology, Polar ice sheet"
+        researchInterest:"Remote Sensing, Altimetry, GRACE, Hydrology, Polar ice sheet."
       },
       {
         name: "Dr. Soumi Dutta",
@@ -187,7 +187,7 @@ export const faculty = [
         imgSrc: "../../assets/images/Faculty/Dr.SoumiDutta.webp",
         website: "https://sites.google.com/view/soumi-dutta/home",
         details: " PhD, Indian Institute of Technology Kharagpur, India",
-        researchInterest:"Water and wastewater treatment, membrane separation, self-cleaning and antifouling membranes, desalination, adsorption, selective metal recovery, nanomaterials, bio-based and antimicrobial materials, hydrogels, emerging pollutants (micro/nanoplastics, heavy metals, arsenic, uranium, PFAS), photocatalysis, microplastic degradation, constructed wetlands, sewage treatment, field-scale sustainable water remediation"
+        researchInterest:"Water and wastewater treatment, membrane separation, self-cleaning and antifouling membranes, desalination, adsorption, selective metal recovery, nanomaterials, bio-based and antimicrobial materials, hydrogels, emerging pollutants (micro/nanoplastics, heavy metals, arsenic, uranium, PFAS), photocatalysis, microplastic degradation, constructed wetlands, sewage treatment, field-scale sustainable water remediation."
       },
       {
         name: "Dr. Ankita Bhatt",
@@ -198,7 +198,18 @@ export const faculty = [
         imgSrc: "../../assets/images/Faculty/Dr.AnkitaBhatt.webp",
         website: "https://scholar.google.co.in/citations?user=uAop_D4AAAAJ&hl=en",
         details: "PhD, Indian Institute of Technology Roorkee, India",
-        researchInterest:"Microalgal biotechnology, Biorefinery, Water and wastewater treatment, Environmental microbiology, Emerging pollutants, Life cycle assessment, Microbial risk assessment, Techno-economic analysis, Circular economy, Resource recovery"
+        researchInterest:"Microalgal biotechnology, Biorefinery, Water and wastewater treatment, Environmental microbiology, Emerging pollutants, Life cycle assessment, Microbial risk assessment, Techno-economic analysis, Circular economy, Resource recovery."
+      },
+      {
+        name: "Dr. Manikanta Velpuri",
+        Designation: "DST INSPIRE Faculty",
+        department: "ICWaR",
+        phoneNo: "",
+        email: "",
+        imgSrc: "../../assets/images/Faculty/Dr.ManikantaV.webp",
+        website: "https://scholar.google.co.in/citations?user=uAop_D4AAAAJ&hl=en",
+        details: "PhD, National Institute of Technology Warangal, India",
+        researchInterest:"Hydrological Modelling, Prediction in Ungauged Basins, Ensemble Streamflow Forecasting, Floods, Compound Events, Spatio-temporal Disaggregation, Multi-Model Ensembling, Reservoir Optimization."
       }
     ]
   }
@@ -241,7 +252,7 @@ export const formerFaculty =[
         imgSrc: "../../assets/images/Faculty/Prof.PradeepPMujumdar.webp",
         website: "",
         details: "PhD, Indian Institute of Science, Bengaluru",
-        researchInterest:"Hydrological uncertainty, climate change, non-stationarity, land use change, urban precipitation extremes"
+        researchInterest:"Hydrological uncertainty, climate change, non-stationarity, land use change, urban precipitation extremes."
       },
       {
         name: "Prof. Subramanian S",
