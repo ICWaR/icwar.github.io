@@ -207,7 +207,7 @@ export const faculty = [
         phoneNo: "",
         email: "",
         imgSrc: "../../assets/images/Faculty/Dr.ManikantaV.webp",
-        website: "https://scholar.google.co.in/citations?user=uAop_D4AAAAJ&hl=en",
+        website: "https://scholar.google.com/citations?user=3sPIz-AAAAAJ&hl=en&oi=ao",
         details: "PhD, National Institute of Technology Warangal, India",
         researchInterest:"Hydrological Modelling, Prediction in Ungauged Basins, Ensemble Streamflow Forecasting, Floods, Compound Events, Spatio-temporal Disaggregation, Multi-Model Ensembling, Reservoir Optimization."
       }
