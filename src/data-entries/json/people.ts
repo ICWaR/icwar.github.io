@@ -695,14 +695,6 @@ export const postDoctoralScholars = [
         imgSrc: "../../assets/images/Post Doc/Simranjeet_Singh.webp",
       },
       {
-        name: "Dr. Venkatesh Budamala" ,
-        Designation: "Research Associate III" ,
-        'Degree and Affiliation': "PhD in Applied Hydroclimatology and Data Science, Vellore Institute of Technology, Vellore (2022)" ,
-        Project: "LODESTAR - LOw-cost Disaster & Emergency Services for communiTies At Risk (A DST-NWO Funded Project)",
-        email: "bvenkatesh@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Post Doc/VenkateshB.webp",
-      },
-      {
         name: "Dr. Retinder Kour" ,
         Designation: "Research Associate III" ,
         'Degree and Affiliation': "PhD in Remote Sensing, Birla Institute of Technology Mesra, Ranchi (2018)" ,
@@ -757,12 +749,25 @@ export const postDoctoralScholars = [
         Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
         email: "daljeetd@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.DaljeetSD.webp",
+      },
+      {
+        name: "Dr. Suhail Ahmad" ,
+        Designation: "Senior Research Fellow" ,
+        'Degree and Affiliation': "PhD in Remote Sensing & GIS, University of Jammu/Indian Institute of Remote Sensing (IIRS, ISRO) (2025)" ,
+        Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
+        email: "suhailahmad1@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Dr.SuhailAhmad.webp",
       }
     ],
   },
   {
     Former: [
-       {
+      {
+        name: "Dr. Venkatesh Budamala" ,
+        Designation: "Research Associate III" ,
+        imgSrc: "../../assets/images/Post Doc/VenkateshB.webp",
+      },
+      {
         name: "Dr. Maya Raghunath Suryawanshi" ,
         Designation: "Senior Project Associate" ,
         imgSrc: "../../assets/images/Post Doc/MayaR.webp",
@@ -903,14 +908,6 @@ export const projectStaff = [
         Project: "National Supercomputing Mission",
         email: "nruthyak@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/nruthya-k.webp",
-      },
-      {
-        name: "Mr. Suhail Ahmad" ,
-        Designation: "Senior Research Fellow" ,
-        'Degree and Affiliation': "PhD in Remote Sensing & GIS, University of Jammu/Indian Institute of Remote Sensing (IIRS, ISRO) (2025)" ,
-        Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
-        email: "suhailahmad1@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/Dr.SuhailAhmad.webp",
       },
       {
         name: "Mr. Ramesh N" ,
