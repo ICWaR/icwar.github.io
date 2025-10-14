@@ -194,7 +194,7 @@ export const faculty = [
         Designation: "DST INSPIRE Faculty",
         department: "ICWaR",
         phoneNo: "",
-        email: "",
+        email: "ankitabhatt@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Dr.AnkitaBhatt.webp",
         website: "https://scholar.google.co.in/citations?user=uAop_D4AAAAJ&hl=en",
         details: "PhD, Indian Institute of Technology Roorkee, India",
@@ -210,6 +210,17 @@ export const faculty = [
         website: "https://scholar.google.com/citations?user=3sPIz-AAAAAJ&hl=en&oi=ao",
         details: "PhD, National Institute of Technology Warangal, India",
         researchInterest:"Hydrological Modelling, Prediction in Ungauged Basins, Ensemble Streamflow Forecasting, Floods, Compound Events, Spatio-temporal Disaggregation, Multi-Model Ensembling, Reservoir Optimization."
+      },
+      {
+        name: "Dr. Jisha Joseph",
+        Designation: "DST INSPIRE Faculty",
+        department: "ICWaR",
+        phoneNo: "",
+        email: "",
+        imgSrc: "../../assets/images/Faculty/Dr.JishaJoseph.webp",
+        website: "",
+        details: "PhD from Indian Institute of Technology, Bombay",
+        researchInterest:"Ecohydrological modelling and model development, human-water interface in hydrology, irrigation, groundwater abstraction, sustainable agriculture, climate impact attribution, uncertainty assessment in hydroclimatic simulation"
       }
     ]
   }
@@ -756,7 +767,15 @@ export const postDoctoralScholars = [
         'Degree and Affiliation': "PhD in Remote Sensing & GIS, University of Jammu/Indian Institute of Remote Sensing (IIRS, ISRO) (2025)" ,
         Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
         email: "suhailahmad1@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/Dr.SuhailAhmad.webp",
+        imgSrc: "../../assets/images/Post Doc/Dr.SuhailAhmad.webp",
+      },
+      {
+        name: "Dr. Rajani Pandey" ,
+        Designation: "Research Associate" ,
+        'Degree and Affiliation': "PhD in Water Resources Engineering, Indian Institute of Science, Bengaluru (2025)" ,
+        Project: "LODESTAR",
+        email: "rajanipandey@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.RajaniPandey.webp",
       }
     ],
   },

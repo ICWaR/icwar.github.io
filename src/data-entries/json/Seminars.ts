@@ -1,7 +1,7 @@
 export const seminars =
   {
     ICWaR_Guest_Seminar_Series: [
-      // {
+       // {
       //   imgSrc: "../../../assets/images/Guest Seminar Series/",
       //   Title:"",
       //   speakerName:'',
@@ -12,6 +12,17 @@ export const seminars =
       //   Abstract:'',
       //   link: ['']
       // },
+      {
+        imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Nandita_Basu.webp",
+        Title:"From Earth and Environmental systems to Sustainable Solutions: An editorial perspective",
+        speakerName:'Dr. Nandita Basu',
+        SeminarTitle:'From Earth and Environmental systems to Sustainable Solutions: An editorial perspective',
+        DateTime:'15 October 2025 (Wednesday), 4:30 PM (IST)',
+        Platform:'MS Teams',
+        AboutSpeaker:'She joined Communications Earth & Environment as a Consulting Editor in March 2025. Before joining Springer Nature, she had accumulated nearly a decade of experience in academic research and teaching. She earned her MSc in Chemistry with a specialization in Physical Chemistry and completed her PhD in Physics at the University of Freiburg, Germany, where her research was focused on the Polymer Physics of nano-sized polymer crystals under various environmental conditions. She advanced her expertise through postdoctoral research at the interface of soft matter and nanotechnology at Trinity College, Dublin and the Indian Institute of Technology, Kharagpur. She has also briefly served as a Scientific Officer at the Indian Institute of Technology, Bombay. In addition to her research, She was an Educator focusing on interdisciplinary courses in Physical Chemistry, Chemical Engineering and Material Science. She is also an Associate Editor for Communications Sustainability. She is currently based in the Pune office of Springer Nature.',
+        Abstract:'The presentation titled ‘From Earth and Environmental systems to Sustainable Solutions: An editorial perspective’ will introduce Communications Earth & Environment and Communications Sustainability, two selective, open-access journals from the leading scientific publisher, Nature Portfolio. The session will provide insights into how scientific research is evaluated and published, from editorial decision-making and peer review to the key criteria that make a study successful. Drawing from the editor’s experience, the talk will highlight what editors look for in a submission, how to strengthen a manuscript, and how authors can effectively communicate the value of their research. The session will conclude with an interactive discussion to exchange ideas on emerging research themes, sustainability challenges, and opportunities for collaboration within the Nature Portfolio community.',
+        link: ['https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGRiZWNkZTctYjMyOC00NzVmLWFmYmItMWM1YWNmMmU2Yjhh%40thread.v2/0?context=%7b%22Tid%22%3a%226f15cd97-f6a7-41e3-b2c5-ad4193976476%22%2c%22Oid%22%3a%225eb65a02-7e69-4daf-980e-c28116786b92%22%7d']
+      },
       {
         imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Alakananda_Karthick.webp",
         Title:"Publishing with Scientific Reports and Editorial Insights",
