@@ -61,7 +61,7 @@ export const faculty = [
         email: "muddu@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Prof.MSekhar.webp",
         website: "http://civil.iisc.ernet.in/~muddu/",
-        details: "PhD, Indian Institute of Science, Bengaluru",
+        details: "PhD, Indian Institute of Science Bengaluru, India",
         researchInterest:"Groundwater hydrology, agro-hydrology, satellite hydrology using numerical methods, geospatial & geophysical methods, optimization & inverse approaches."
       },
       {
@@ -72,7 +72,7 @@ export const faculty = [
         email: "vvs@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Prof.VVSrinivas.webp",
         website: "http://civil.iisc.ernet.in/~vvs/",
-        details: "PhD, Indian Institute of Technology Madras, Chennai",
+        details: "PhD, Indian Institute of Technology Madras, India",
         researchInterest:"Surface water hydrology, climate change impact, land-use/cover change, watershed regionalization, hydrometeorological monitoring, extreme event analysis, statistical hydroclimate modeling, streamflow/flood forecasting, urban drainage, dam performance/breach analysis."
       },
       {
@@ -83,7 +83,7 @@ export const faculty = [
         email: "pghosh@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Prof.PGhosh.webp",
         website: "https://iiscprofiles.irins.org/profile/54858",
-        details: "PhD, Devi Ahiliya Vishwa Vidhyalaya, Indore",
+        details: "PhD, Devi Ahiliya Vishwa Vidhyalaya, Indore, India",
         researchInterest:"Paleo-atmosphere, stable isotopes, extinction events, carbon cycle, isotopic standards."
       },
       {
@@ -105,12 +105,12 @@ export const faculty = [
         email: "tatu@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Prof.UtpalSTatu.webp",
         website: "https://biochem.iisc.ac.in/utpal-s-tatu.php",
-        details: "PhD, Indian Institute of Science, Bengaluru",
+        details: "PhD, Indian Institute of Science Bengaluru, India",
         researchInterest:"One Health, neglected and emerging infectious diseases, protozoan parasites (Giardia lamblia, Plasmodium falciparum), fungal pathogens (Cryptococcus neoformans), environmental and waterborne pathogen transmission, pathogen adaptation in ecological niches, molecular mechanisms of survival, stress response pathways, and heat shock proteins (Hsp90)."
       },
       {
         name: "Dr. Lakshminarayana Rao",
-        Designation: "Assistant Professor",
+        Designation: "Associate Professor",
         department: "Centre for Sustainable Technologies",
         phoneNo: "080 2293 2051",
         email: "narayana@iisc.ac.in",
@@ -128,7 +128,7 @@ export const faculty = [
         imgSrc: "../../assets/images/Faculty/Dr.SanjivSambandan.webp",
         website: "https://iiscprofiles.irins.org/profile/66401",
         details: "PhD, University of Waterloo, Canada",
-        researchInterest:"Semiconductor physics, flexible electronics, Device Physics, and Integrated Circuits."
+        researchInterest:"Electrcoagulation & Electro-oxidation."
       },
       {
         name: "Prof. Mohan Kumar M. S.",
@@ -138,7 +138,7 @@ export const faculty = [
         email: "msmk@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Prof.MSMohanKumar.webp",
         website: "http://civil.iisc.ernet.in/~msmk/",
-        details: "PhD, Indian Institute of Science, Bengaluru",
+        details: "PhD, Indian Institute of Science Bengaluru, India",
         researchInterest:"Water Resources and Environmental Engineering."
       },
     ]
@@ -174,7 +174,7 @@ export const faculty = [
         phoneNo: "",
         email: "mayas@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Dr.MayaRSuryawanshi.webp",
-        website: "",
+        website: "https://scholar.google.com/citations?user=JQZywoIAAAAJ&hl=en",
         details: " PhD, Space Applications Centre, ISRO and Gujarat University, Ahmedabad, India",
         researchInterest:"Remote Sensing, Altimetry, GRACE, Hydrology, Polar ice sheet."
       },
@@ -218,8 +218,8 @@ export const faculty = [
         phoneNo: "",
         email: "",
         imgSrc: "../../assets/images/Faculty/Dr.JishaJoseph.webp",
-        website: "",
-        details: "PhD from Indian Institute of Technology, Bombay",
+        website: "https://scholar.google.com/citations?user=Y4xfqfsAAAAJ&hl=en",
+        details: "PhD, Indian Institute of Technology Bombay, India",
         researchInterest:"Ecohydrological modelling and model development, human-water interface in hydrology, irrigation, groundwater abstraction, sustainable agriculture, climate impact attribution, uncertainty assessment in hydroclimatic simulation"
       }
     ]
