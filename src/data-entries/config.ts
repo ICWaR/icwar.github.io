@@ -65,10 +65,6 @@ export const configurations = {
             "hasSubDropdown":false
           },
           {
-            "name":"Courses",
-            "link":"/courses"
-          },
-          {
             'name':'Admissions',
             'link':'/redirect',
             'redirect':'https://iisc.ac.in/admissions/',
@@ -120,12 +116,12 @@ export const configurations = {
         ],
       },
       {
-        "name":"Research",
-        "link":"/research"
+        "name":"Courses",
+        "link":"/courses"
       },
       {
-        "name":"Facilities",
-        "link":"/centres-and-facilities"
+        "name":"Research",
+        "link":"/research"
       },
       {
         "name":"Publications",
