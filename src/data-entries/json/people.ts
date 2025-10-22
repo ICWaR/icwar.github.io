@@ -109,6 +109,17 @@ export const faculty = [
         researchInterest:"One Health, neglected and emerging infectious diseases, protozoan parasites (Giardia lamblia, Plasmodium falciparum), fungal pathogens (Cryptococcus neoformans), environmental and waterborne pathogen transmission, pathogen adaptation in ecological niches, molecular mechanisms of survival, stress response pathways, and heat shock proteins (Hsp90)."
       },
       {
+        name: "Dr. Sanjiv Sambandan",
+        Designation: "Professor",
+        department: "Instrumentation And Applied Physics",
+        phoneNo: "080 2293  3196",
+        email: "sanjiv@iisc.ac.in",
+        imgSrc: "../../assets/images/Faculty/Dr.SanjivSambandan.webp",
+        website: "https://iiscprofiles.irins.org/profile/66401",
+        details: "PhD, University of Waterloo, Canada",
+        researchInterest:"Electrcoagulation & Electro-oxidation."
+      },
+      {
         name: "Dr. Lakshminarayana Rao",
         Designation: "Associate Professor",
         department: "Centre for Sustainable Technologies",
@@ -118,17 +129,6 @@ export const faculty = [
         website: "https://iiscprofiles.irins.org/profile/147452",
         details: "PhD, McGill University, Canada",
         researchInterest:"Plasma Technology, Plasma Gasification, Syngas Cleaning, and Enrichment."
-      },
-      {
-        name: "Dr. Sanjeev Sambandan",
-        Designation: "Associate Professor",
-        department: "Instrumentation And Applied Physics",
-        phoneNo: "080 2293  3196",
-        email: "sanjiv@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/Dr.SanjivSambandan.webp",
-        website: "https://iiscprofiles.irins.org/profile/66401",
-        details: "PhD, University of Waterloo, Canada",
-        researchInterest:"Electrcoagulation & Electro-oxidation."
       },
       {
         name: "Prof. Mohan Kumar M. S.",
@@ -220,7 +220,7 @@ export const faculty = [
         imgSrc: "../../assets/images/Faculty/Dr.JishaJoseph.webp",
         website: "https://scholar.google.com/citations?user=Y4xfqfsAAAAJ&hl=en",
         details: "PhD, Indian Institute of Technology Bombay, India",
-        researchInterest:"Ecohydrological modelling and model development, human-water interface in hydrology, irrigation, groundwater abstraction, sustainable agriculture, climate impact attribution, uncertainty assessment in hydroclimatic simulation"
+        researchInterest:"Ecohydrological modelling and model development, human-water interface in hydrology, irrigation, groundwater abstraction, sustainable agriculture, climate impact attribution, uncertainty assessment in hydroclimatic simulation."
       }
     ]
   }

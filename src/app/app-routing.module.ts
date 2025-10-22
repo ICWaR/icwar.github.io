@@ -20,6 +20,7 @@ import { SeminarsComponent } from './views/seminars/seminars.component';
 import { MediaCoverageComponent } from './views/media-coverage/media-coverage.component';
 import { JoinIcwarComponent } from './views/join-icwar/join-icwar.component';
 import { CoursesComponent } from './views/courses/courses.component';
+import { NewslettersComponent } from './views/newsletters/newsletters.component';
 
 
 const routes: Routes = [
@@ -54,6 +55,7 @@ const routes: Routes = [
   {path: 'media-coverage', component:MediaCoverageComponent},
   {path: 'join-icwar', component:JoinIcwarComponent},
   {path : 'courses', component:CoursesComponent},
+  {path : 'newsletters', component:NewslettersComponent},
   {path:'**',component:PageNotFoundComponent}
 
 ];

@@ -75,25 +75,25 @@ export const collaborations=[
 
 export const groups=[
   {
+    groupName: 'Organic Nano electronics Group',
+    leader: 'Prof. Praveen C Ramamurthy',
+    text: 'Chairman at ICWaR, IISc Bengaluru',
+    imgSrc: '../../assets/images/Research Groups/OneGroup.webp',
+    websiteUrl: 'https://materials.iisc.ac.in/~praveen/'
+  },
+  {
     groupName: 'Hydroclim',
     leader: 'Dr. Rajarshi Das Bhowmik',
     text: 'Assistant Professor at ICWaR, IISc Bengaluru',
-    imgSrc: 'https://rajarshidasbhowmik.com/wp-content/uploads/2022/06/rbhowmik-research1.png',
+    imgSrc: '../../assets/images/Research Groups/Hydroclim.webp',
     websiteUrl: 'https://rajarshidasbhowmik.com/'
   },
   {
     groupName: 'Geodesy for Earth System Science (GESS)',
     leader: 'Dr. Bramha Dutt Vishwakarma',
     text: 'Assistant Professor at ICWaR, IISc Bengaluru',
-    imgSrc: 'https://ultra-pluto-7f6d1.netlify.app/images/SLR_illust_global_processes.png',
-    websiteUrl: 'https://ultra-pluto-7f6d1.netlify.app/'
-  },
-  {
-    groupName: 'Organic Nano electronics Group',
-    leader: 'Prof. Praveen C Ramamurthy',
-    text: 'Chairman at ICWaR, IISc Bengaluru',
-    imgSrc: '../../assets/images/Research Groups/OneGroup.webp',
-    websiteUrl: 'https://materials.iisc.ac.in/~praveen/'
+    imgSrc: '../../assets/images/Research Groups/GESS.webp',
+    websiteUrl: 'https://gessiisc.github.io/group/'
   }
 ]
 

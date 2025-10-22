@@ -74,6 +74,10 @@ export const configurations = {
             'redirect':'https://iisc.ac.in/admissions/',
           },
           {
+            "name":"Newsletter",
+            "link":"/newsletters"
+          },
+          {
             'name':"Contact Us",
             'link':'/contact-us'
           }

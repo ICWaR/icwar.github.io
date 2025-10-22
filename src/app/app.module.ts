@@ -29,6 +29,7 @@ import { SeminarsComponent } from './views/seminars/seminars.component';
 import { MediaCoverageComponent } from './views/media-coverage/media-coverage.component';
 import { JoinIcwarComponent } from './views/join-icwar/join-icwar.component';
 import { CoursesComponent } from './views/courses/courses.component';
+import { NewslettersComponent } from './views/newsletters/newsletters.component';
 
 @NgModule({
   imports: [
@@ -59,7 +60,8 @@ import { CoursesComponent } from './views/courses/courses.component';
     SeminarsComponent,
     MediaCoverageComponent,
     JoinIcwarComponent,
-    CoursesComponent
+    CoursesComponent,
+    NewslettersComponent
   ],
   bootstrap: [AppComponent],
 })
