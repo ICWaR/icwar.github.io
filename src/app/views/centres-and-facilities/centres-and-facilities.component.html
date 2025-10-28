@@ -80,8 +80,11 @@
                     <div *ngIf="sub.imgSrc" class="col-md-4 col-sm-12">
                       <img class="col-12 img-thumbnail" [src]="sub.imgSrc" [alt]="sub.title" />
                       <div class="text-center">   <!-- Charges -->
-                        <p *ngIf="sub.charges" class="mt-2">
-                          <strong>Charges:</strong> {{ sub.charges }}
+                        <p *ngIf="sub.chargesIn" class="mt-2">
+                          <strong>Charges (Internal):</strong> {{ sub.chargesIn }}
+                        </p>
+                        <p *ngIf="sub.chargesEx" class="mt-2">
+                          <strong>Charges (External):</strong> {{ sub.chargesEx }}
                         </p>
 
                         <p *ngIf="sub.formLink">
