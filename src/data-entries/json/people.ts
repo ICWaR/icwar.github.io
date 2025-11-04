@@ -205,7 +205,7 @@ export const faculty = [
         Designation: "DST INSPIRE Faculty",
         department: "ICWaR",
         phoneNo: "",
-        email: "",
+        email: "manikantav@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Dr.ManikantaV.webp",
         website: "https://scholar.google.com/citations?user=3sPIz-AAAAAJ&hl=en&oi=ao",
         details: "PhD, National Institute of Technology Warangal, India",

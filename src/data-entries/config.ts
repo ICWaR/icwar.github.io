@@ -124,6 +124,10 @@ export const configurations = {
         "link":"/research"
       },
       {
+        "name":"Facilities",
+        "link":"/centres-and-facilities"
+      },
+      {
         "name":"Publications",
         "link":"/publications"
       },

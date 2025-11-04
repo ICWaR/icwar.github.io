@@ -81,10 +81,10 @@
                       <img class="col-12 img-thumbnail" [src]="sub.imgSrc" [alt]="sub.title" />
                       <div class="text-center">   <!-- Charges -->
                         <p *ngIf="sub.chargesIn" class="mt-2">
-                          <strong>Charges (Internal):</strong> {{ sub.chargesIn }}
+                          <strong>Internal (Charges):</strong> {{ sub.chargesIn }}
                         </p>
                         <p *ngIf="sub.chargesEx" class="mt-2">
-                          <strong>Charges (External):</strong> {{ sub.chargesEx }}
+                          <strong>External (Email): </strong> <a href="mailto:icpmsfacility.icwar@auto.iisc.ac.in">icpmsfacility.icwar@auto.iisc.ac.in</a>
                         </p>
 
                         <p *ngIf="sub.formLink">
