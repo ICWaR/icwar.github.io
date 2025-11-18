@@ -101,7 +101,7 @@
         <div class="card-text row">
           <img class="img-fluid col-2" [src]="seminar.imgSrc" width="10px">
           <p class="col-10">
-            <a [href]="seminar.link" target="_blank"><b>{{ seminar.Title }}</b></a>
+            <a [href]="seminar.link" target="_blank"><b><span [innerHTML]= "seminar.Title"></span></b></a>
             <br>
             {{ seminar.DateTime }}
           </p>
