@@ -6,17 +6,16 @@
   color: rgb(50, 48, 48);
 }
 
-button.btn.btn-text-expand.collapsed:before
-{
-    content:'..Read more' ;
-    display: block;
-    width: 100px;
+button.btn.btn-text-expand.collapsed:before {
+  content: '..Read more';
+  display: block;
+  width: 100px;
 }
-button.btn.btn-text-expand:before
-{
-    content:'Read less' ;
-    display: block;
-    width: 100px;
+
+button.btn.btn-text-expand:before {
+  content: 'Read less';
+  display: block;
+  width: 100px;
 }
 
 div.card-body > .row{

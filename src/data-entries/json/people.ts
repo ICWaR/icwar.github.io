@@ -216,7 +216,7 @@ export const faculty = [
         Designation: "DST INSPIRE Faculty",
         department: "ICWaR",
         phoneNo: "",
-        email: "",
+        email: "jishajoseph@iisc.ac.in",
         imgSrc: "../../assets/images/Faculty/Dr.JishaJoseph.webp",
         website: "https://scholar.google.com/citations?user=Y4xfqfsAAAAJ&hl=en",
         details: "PhD, Indian Institute of Technology Bombay, India",
