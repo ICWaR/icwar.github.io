@@ -1,5 +1,16 @@
 export const workshops=[
-   {
+  {
+    Date: '27 NOV, 2025',
+    Title:'Discussion Meeting with Prof. Apparao M. Rao',
+    Details: 'Prof. Apparao M. Rao, Founding Director of the Clemson Nanomaterials Institute and a globally acclaimed figure in nanomaterials research, is renowned for his pioneering work in Raman spectroscopy, carbon nanomaterials, energy harvesting systems, and advanced electrochemical technologies. As a Robert A. Bowen Endowed Professor at Clemson University, he has made influential contributions that have shaped modern materials science and earned him Fellowships in APS, AAAS, MRS, and NAI. During his recent visit to ICWaR, IISc Bengaluru, Prof. Rao had an insightful interaction with the Chair of ICWaR and the students of our department. The discussion focused on emerging trends in nanomaterials, energy storage, and sustainable technologies, offering students a unique opportunity to learn directly from a world-leading scientist. He patiently listened to their research ideas, provided thoughtful suggestions for improvement, and encouraged them to pursue innovative, problem-driven investigations. The Chair of ICWaR engaged him in a meaningful exchange on potential collaborations, interdisciplinary opportunities, and future directions for strengthening research activities within the department. Prof. Rao also reviewed ongoing student projects, appreciating the quality of their work and motivating them to aim for higher scientific impact. His visit inspired the students and faculty alike, leaving a lasting impression and opening pathways for future academic and research partnerships.',
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/Meeting_27112025_1.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_27112025_2.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_27112025_3.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_27112025_4.webp'
+    ]
+  },
+  {
     Date: '06 SEPT, 2025',
     Title:'Visit from Agriculture Department, Government of Maharashtra',
     Details: 'On 6th September, ICWaR welcomed senior officials from the Government of Maharashtra’s Agriculture Department — Shri Vikas Rastogi, IAS, Principal Secretary, and Shri Parimal Singh, IAS, Project Director, PoCRA Plus. The discussions centered on ICWaR’s work in climate resilience, sustainable agriculture, and water management, and explored potential collaborations with the state’s flagship programs. The visit also highlighted ICWaR’s role in advancing interdisciplinary research for public good.',

@@ -27,7 +27,7 @@
           <h3 class="text mb-3"><b><span [innerHTML]="item.Title"></span></b></h3>
           <img *ngIf="item.imgSrc" class="mb-3 d-md-none float-end img-fluid" style="max-width: 125px;" [src]="item.imgSrc" />
           <h5><b>Speaker: </b>{{item.speakerName}}</h5>
-          <h5><b>Platform: </b>{{item.Platform}} <a *ngIf="item.link" [href]="item.link" target="_blank">To Join/Watch</a></h5>
+          <h5><b>Platform: </b>{{item.Platform}} (<a *ngIf="item.link" [href]="item.link" target="_blank">To Join / Watch</a>)</h5>
           <br>
         </div>
         <div class="col-md-3 col-12 d-none d-md-block">
