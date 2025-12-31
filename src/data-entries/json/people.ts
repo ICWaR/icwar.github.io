@@ -109,7 +109,7 @@ export const faculty = [
         researchInterest:"One Health, neglected and emerging infectious diseases, protozoan parasites (Giardia lamblia, Plasmodium falciparum), fungal pathogens (Cryptococcus neoformans), environmental and waterborne pathogen transmission, pathogen adaptation in ecological niches, molecular mechanisms of survival, stress response pathways, and heat shock proteins (Hsp90)."
       },
       {
-        name: "Dr. Sanjiv Sambandan",
+        name: "Prof. Sanjiv Sambandan",
         Designation: "Professor",
         department: "Instrumentation And Applied Physics",
         phoneNo: "080 2293  3196",
@@ -707,7 +707,7 @@ export const postDoctoralScholars = [
       },
       {
         name: "Dr. Retinder Kour" ,
-        Designation: "Research Associate III" ,
+        Designation: "Research Associate" ,
         'Degree and Affiliation': "PhD in Remote Sensing, Birla Institute of Technology Mesra, Ranchi (2018)" ,
         Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
         email: "retinderkour@iisc.ac.in" ,
@@ -739,7 +739,7 @@ export const postDoctoralScholars = [
       },
       {
         name: "Dr. Dagani Koteswara Rao" ,
-        Designation: "IoE Post-Doctoral Fellow" ,
+        Designation: "Research Associate" ,
         'Degree and Affiliation': "PhD in Hydraulics & Water Resources from IIT Hyderabad" ,
         Project: "Assessing the self-sufficiency and sustainability of water and food resources for consumption and production",
         email: "daganikotes1@iisc.ac.in" ,
@@ -930,7 +930,7 @@ export const projectStaff = [
       },
       {
         name: "Mr. Ramesh N" ,
-        Designation: "Project Associate-II" ,
+        Designation: "Project Associate" ,
         'Degree and Affiliation': "MSc in Agricultural Economics, University of Agricultural Sciences Bengaluru" ,
         Project: "To establish centres for Cauvery River basin management studies in the states of Karnataka & Tamil Nadu",
         email: "rameshn@iisc.ac.in" ,
@@ -938,7 +938,7 @@ export const projectStaff = [
       },
       {
         name: "Ms. Darshana Gautam" ,
-        Designation: "Project Associate-I" ,
+        Designation: "Project Associate" ,
         'Degree and Affiliation': "M.Sc (Atmospheric Sciences) from Savitribai Phule Pune University (SPPU) and Indian Institute of Tropical Meteorology (IITM) Pune" ,
         Project: " A Proxy and Modelling approach to Understanding Indian Summer Monsoon Precipitation Variability and Abrubt Shifts",
         email: "darshanag@iisc.ac.in" ,
