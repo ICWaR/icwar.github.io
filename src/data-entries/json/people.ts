@@ -120,7 +120,7 @@ export const faculty = [
         researchInterest:"Electrcoagulation & Electro-oxidation."
       },
       {
-        name: "Dr. Lakshminarayana Rao",
+        name: "Prof. Lakshminarayana Rao",
         Designation: "Associate Professor",
         department: "Centre for Sustainable Technologies",
         phoneNo: "080 2293 2051",
@@ -488,6 +488,38 @@ export const researchStudents = [
         email: "safalthapa@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/SafalJT.webp",
       },
+      {
+        name: "Madhura P K" ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "M.Sc in Chemistry, Mangalore University (2021)" ,
+        'Name of Supervisors': "Prof. Praveen C. Ramamurthy",
+        email: "madhurap@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/MadhuraPK.webp",
+      },
+      {
+        name: "Anamika Das" ,
+        'Degree Registered': "Ph.D. (Engg)" ,
+        'Degree and Affiliation': "BS-MS, IISER Berhampur, Geological Sciences, 2025" ,
+        'Name of Supervisors': "Prof. Sambuddha Misra and Dr. Rajarshi Das Bhowmik",
+        email: "anamikadas@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/AnamikaDas.webp",
+      },
+      {
+        name: "Anzeera Beegum TM " ,
+        'Degree Registered': "Ph.D" ,
+        'Degree and Affiliation': "MSc Chemistry, University of Delhi,2025" ,
+        'Name of Supervisors': "Prof. Prosenjit Ghosh",
+        email: "anzeeratm@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/AnzeeraBeegumTM.webp",
+      },
+      {
+        name: "Purva Sharma" ,
+        'Degree Registered': "Ph.D. (Engg)" ,
+        'Degree and Affiliation': "M.Sc. Environmental Sciences, Central University of Himachal Pradesh, 2023" ,
+        'Name of Supervisors': "Prof. Lakshminarayana Rao and Prof. Sambuddha Misra",
+        email: "purvasharma@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/PurvaSharma.webp",
+      }
     ],
   },
   {
@@ -776,6 +808,22 @@ export const postDoctoralScholars = [
         Project: "LODESTAR",
         email: "rajanipandey@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.RajaniPandey.webp",
+      },
+      {
+        name: "Dr. Janki Rangatia" ,
+        Designation: "DBT-BioCARe fellow" ,
+        'Degree and Affiliation': "PhD, Ludwig Maximilian University, Munich" ,
+        Project: "Heavy Metal Bioremediation",
+        email: "" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.JankiRangatia.webp",
+      },
+      {
+        name: "Dr. Sumanta Sahu" ,
+        Designation: "ANRF Fellow" ,
+        'Degree and Affiliation': "PhD in Chemistry" ,
+        Project: "COF-Based Materials and Membranes for Energy and Environmental Applications.",
+        email: "" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.SumantaSahu.webp",
       }
     ],
   },
