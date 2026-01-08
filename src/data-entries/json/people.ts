@@ -519,6 +519,14 @@ export const researchStudents = [
         'Name of Supervisors': "Prof. Lakshminarayana Rao and Prof. Sambuddha Misra",
         email: "purvasharma@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/PurvaSharma.webp",
+      },
+      {
+        name: "Rahul Kumar" ,
+        'Degree Registered': "Ph.D." ,
+        'Degree and Affiliation': "M.Sc. (Geology), Patna University, 2024" ,
+        'Name of Supervisors': "Prof. Praveen C. Ramamurthy",
+        email: "rahul5@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/RahulKumar.webp",
       }
     ],
   },
@@ -811,7 +819,7 @@ export const postDoctoralScholars = [
       },
       {
         name: "Dr. Janki Rangatia" ,
-        Designation: "DBT-BioCARe fellow" ,
+        Designation: "DBT-BioCARe Fellow" ,
         'Degree and Affiliation': "PhD, Ludwig Maximilian University, Munich" ,
         Project: "Heavy Metal Bioremediation",
         email: "" ,

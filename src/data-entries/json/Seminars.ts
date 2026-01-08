@@ -18,10 +18,10 @@ export const seminars =
         speakerName:'Dr. Chandrakant Singh',
         SeminarTitle:'Tipping points in the rainforest ecosystems',
         DateTime:'08 January 2026 (Thursday), 4:00 PM (IST)',
-        Platform:'MS Teams',
+        Platform:'MS Teams / YouTube',
         AboutSpeaker:'Dr. Chandrakant Singh is a postdoctoral researcher at the Chalmers University of Technology (Sweden), where he assesses the deforestation–carbon footprint of global food production and consumption. He holds a PhD in Sustainability Science from the Stockholm Resilience Centre, Stockholm University (Sweden), and at the time, had been a visiting researcher at TU Delft (the Netherlands) and the International Institute for Applied Systems Analysis (IIASA, Austria). Dr. Singh’s expertise lies in remote sensing applications for land-use monitoring, ecohydrological feedbacks, deforestation footprints, and big data analysis.',
         Abstract:'Tropical rainforests and their (hydro-)climate are deeply intertwined, jointly sustaining the stability of the Earth system. Yet, these ecosystems are increasingly threatened by deforestation and climate-induced stresses that may push them toward ecological tipping points - abrupt and potentially irreversible shifts with profound implications for climate, biodiversity and human livelihoods. Understanding how rainforests respond to changes in water availability is crucial for assessing their resilience to climate perturbations and anticipating future tipping risk. In this seminar, Dr. Chandrakant will (i) briefly introduce global tipping elements, (ii) synthesise key insights from previous forest tipping assessments, and (iii) present their findings that demonstrate how remote sensing observations can help evaluate the resilience of rainforest ecosystems under hydroclimatic stresses. Here, he will discuss how subsoil ecohydrological processes influence the drought coping strategies of forest ecosystems, and how incorporating these mechanisms improves projections of rainforest tipping risks under future climate change scenarios.',
-        link: ['https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzJkMzIzNDQtZWM2ZC00MDhmLTg0MWUtYWFiM2RlYWQxOTNh%40thread.v2/0?context=%7b%22Tid%22%3a%226f15cd97-f6a7-41e3-b2c5-ad4193976476%22%2c%22Oid%22%3a%225eb65a02-7e69-4daf-980e-c28116786b92%22%7d']
+        link: ['https://youtu.be/cmpcPP1eWMs']
       },
       {
         imgSrc: "../../../assets/images/Guest Seminar Series/Prof.Virender_K_Sharma.webp",
