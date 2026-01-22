@@ -535,6 +535,14 @@ export const researchStudents = [
         'Name of Supervisors': "Dr. Bramha Dutt Vishwakarma",
         email: "prajaktas@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/PrajaktaAS.webp",
+      },
+      {
+        name: "Mrinal Goswami" ,
+        'Degree Registered': "Ph.D (Engg.)" ,
+        'Degree and Affiliation': "MSc. Environmental Science, Jawaharlal Nehru University, New Delhi (2025)" ,
+        'Name of Supervisors': "Dr. Bramha Dutt Vishwakarma",
+        email: "mrinalg@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/dummy.webp",
       }
     ],
   },
@@ -746,14 +754,6 @@ export const postDoctoralScholars = [
   {
     Current: [
       {
-        name: "Dr. Simranjeet Singh" ,
-        Designation: "DBT Fellow" ,
-        'Degree and Affiliation': "PhD in Biotechnology" ,
-        Project: "Detection and remediation of environmental contaminants",
-        email: "simranjeets@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Post Doc/Simranjeet_Singh.webp",
-      },
-      {
         name: "Dr. Retinder Kour" ,
         Designation: "Research Associate" ,
         'Degree and Affiliation': "PhD in Remote Sensing, Birla Institute of Technology Mesra, Ranchi (2018)" ,
@@ -845,6 +845,11 @@ export const postDoctoralScholars = [
   },
   {
     Former: [
+      {
+        name: "Dr. Simranjeet Singh" ,
+        Designation: "DBT Fellow" ,
+        imgSrc: "../../assets/images/Post Doc/Simranjeet_Singh.webp",
+      },
       {
         name: "Dr. Venkatesh Budamala" ,
         Designation: "Research Associate III" ,
