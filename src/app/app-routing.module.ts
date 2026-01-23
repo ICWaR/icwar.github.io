@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { PageNotFoundComponent } from './views/page-not-found/page-not-found.component';
 import { ContactUsComponent } from './views/contact-us/contact-us.component';
@@ -21,6 +21,7 @@ import { MediaCoverageComponent } from './views/media-coverage/media-coverage.co
 import { JoinIcwarComponent } from './views/join-icwar/join-icwar.component';
 import { CoursesComponent } from './views/courses/courses.component';
 import { NewslettersComponent } from './views/newsletters/newsletters.component';
+import { PeopleDirectoryComponent } from './views/people-directory/people-directory.component';
 
 
 const routes: Routes = [
@@ -56,6 +57,7 @@ const routes: Routes = [
   {path: 'join-icwar', component:JoinIcwarComponent},
   {path : 'courses', component:CoursesComponent},
   {path : 'newsletters', component:NewslettersComponent},
+  {path : 'people-directory', component:PeopleDirectoryComponent},
   {path:'**',component:PageNotFoundComponent}
 
 ];

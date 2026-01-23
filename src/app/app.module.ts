@@ -30,6 +30,7 @@ import { MediaCoverageComponent } from './views/media-coverage/media-coverage.co
 import { JoinIcwarComponent } from './views/join-icwar/join-icwar.component';
 import { CoursesComponent } from './views/courses/courses.component';
 import { NewslettersComponent } from './views/newsletters/newsletters.component';
+import { PeopleDirectoryComponent } from './views/people-directory/people-directory.component';
 
 @NgModule({
   imports: [
@@ -61,7 +62,8 @@ import { NewslettersComponent } from './views/newsletters/newsletters.component'
     MediaCoverageComponent,
     JoinIcwarComponent,
     CoursesComponent,
-    NewslettersComponent
+    NewslettersComponent,
+    PeopleDirectoryComponent
   ],
   bootstrap: [AppComponent],
 })
