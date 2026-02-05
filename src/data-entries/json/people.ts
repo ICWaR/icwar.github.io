@@ -523,7 +523,7 @@ export const researchStudents = [
       {
         name: "Rahul Kumar" ,
         'Degree Registered': "PhD (Engg.)" ,
-        'Degree and Affiliation': "M.Sc, Geology, Patna University (2024)" ,
+        'Degree and Affiliation': "M.Sc, Geology | Patna University, Bihar (2024)" ,
         'Name of Supervisors': "Prof. Praveen C Ramamurthy",
         email: "rahul5@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/RahulKumar.webp",
@@ -830,7 +830,7 @@ export const postDoctoralScholars = [
         Designation: "DBT-BioCARe Fellow" ,
         'Degree and Affiliation': "PhD | Ludwig Maximilian University, Munich" ,
         Project: "Heavy Metal Bioremediation",
-        email: "" ,
+        email: "jankir@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.JankiRangatia.webp",
       },
       {

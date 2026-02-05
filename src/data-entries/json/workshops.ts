@@ -1,5 +1,14 @@
 export const workshops=[
   {
+    Date: '28 JAN, 2026',
+    Title:'Interaction Meeting with University of Nepal Delegation',
+    Details: 'An interaction was held between the ICWaR team and the University of Nepal delegation comprising Dr. Surya Raj Acharya (Registrar), Lal Krishna K C (BoT Member & Executive Committee Chairperson), and Dr. Karan Singh Thagunna (Academic Director, SAST). The discussion briefly covered possible collaboration through exchange programs, joint research, academic support, and the concept of an EECS Program Centre, along with a few institutional queries regarding its functioning.',
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/NepalDelegation_27012026_1.webp',
+      '../../assets/images/Workshop and Meetings/NepalDelegation_27012026_2.webp'
+    ]
+  },
+  {
     Date: '27 NOV, 2025',
     Title:'Discussion Meeting with Prof. Apparao M. Rao',
     Details: 'Prof. Apparao M. Rao, Founding Director of the Clemson Nanomaterials Institute and a globally acclaimed figure in nanomaterials research, is renowned for his pioneering work in Raman spectroscopy, carbon nanomaterials, energy harvesting systems, and advanced electrochemical technologies. As a Robert A. Bowen Endowed Professor at Clemson University, he has made influential contributions that have shaped modern materials science and earned him Fellowships in APS, AAAS, MRS, and NAI. During his recent visit to ICWaR, IISc Bengaluru, Prof. Rao had an insightful interaction with the Chair of ICWaR and the students of our department. The discussion focused on emerging trends in nanomaterials, energy storage, and sustainable technologies, offering students a unique opportunity to learn directly from a world-leading scientist. He patiently listened to their research ideas, provided thoughtful suggestions for improvement, and encouraged them to pursue innovative, problem-driven investigations. The Chair of ICWaR engaged him in a meaningful exchange on potential collaborations, interdisciplinary opportunities, and future directions for strengthening research activities within the department. Prof. Rao also reviewed ongoing student projects, appreciating the quality of their work and motivating them to aim for higher scientific impact. His visit inspired the students and faculty alike, leaving a lasting impression and opening pathways for future academic and research partnerships.',
