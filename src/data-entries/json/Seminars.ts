@@ -21,7 +21,7 @@ export const seminars =
         Platform:'MS Teams',
         AboutSpeaker:'David Schenkel is Head of Product at REOR20, a Swiss startup training AI systems in computational fluid dynamics to improve flood forecasting and risk modeling. REOR20 is a European Space Agency Business Incubator alumni founded in 2019. David holds an MSc in Geography and Remote Sensing from the Remote Sensing Laboratories at University of Zurich. He has worked as a senior Product Manager at Swiss Re prior to joining REOR20.',
         Abstract:'REOR20 demonstrates how modern AI technologies and high-precision geospatial data can be combined to develop next-generation flood models. Their system, DeepWater, is trained to replace slow, computationally intensive numerical flood models with a much faster and more scalable AI model. This approach is further enhanced through the integration of weather and remote sensing data, enabling the simulation of complex flooding scenarios almost in real time. These innovations not only extend early warning times but also significantly improve risk assessments for communities and emergency services—a crucial step toward efficient prevention and rapid response during extreme weather events.',
-        link: ['https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/krishnakp_iisc_ac_in/IQC3-6HyYfipSZOvSVatBvUOASZnZLNTraAm1Rjkc4DdzY4?e=FG2iTq']
+        link: ['https://youtu.be/ot49q4LBNDY']
       },
       {
         imgSrc: "../../../assets/images/Guest Seminar Series/Dr.Chandrakant_Singh.webp",
