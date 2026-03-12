@@ -1141,15 +1141,6 @@ export const officeStaff = [
         imgSrc: "../../assets/images/Office Staff/Darshan_D.webp",
       },
     ],
-  },
-  // {
-  //   Former: [
-  //     {
-  //       name: "Abhinand B",
-  //       Designation: "Administrative Assistant",
-  //       imgSrc: "../../assets/images/Office Staff/abhinand.webp",
-  //     }
-  //   ],
-  // }
+  }
 ];
 
