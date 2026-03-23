@@ -1,6 +1,12 @@
 
 export const newsJson = [
 {
+  title:"Advertisement for the post of Research Associate (RA) in the NISAR project",
+  date:"23/03/2026",
+  imgSrc:"../../../assets/images/new-Copy.gif",
+  redirectTo:'../../../assets/pdfs/Job Postings/Advertisement for RA_NISAR.pdf'
+},
+{
   title:"Applications open for Post Doctoral Fellowship at IISc",
   date:"12/07/2025",
   imgSrc:"../../../assets/images/new-Copy.gif",
