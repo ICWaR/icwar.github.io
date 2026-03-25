@@ -1,4 +1,14 @@
 export const workshops=[
+   {
+    Date: '16 MAR, 2026',
+    Title:'Discussion Meeting of Cauvery, IISc Bengaluru Team and Advanced Centre for Integrated Water Resources Management (ACIWRM)',
+    Details: 'To view details,',
+    link:[
+      '../../assets/pdfs/ICWaR WebLinks/ACIWRM_16032026.pdf'],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/ACIWRM_16032026.webp',
+    ]
+  },
   {
     Date: '28 JAN, 2026',
     Title:'Interaction Meeting with University of Nepal Delegation',

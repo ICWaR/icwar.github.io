@@ -1,7 +1,7 @@
 
 export const newsJson = [
 {
-  title:"Advertisement for the post of Research Associate (RA) in the NISAR project",
+  title:"Advertisement for the post of Research Associate (RA) in the NISAR project. Last date to Apply: 7th April 2026",
   date:"23/03/2026",
   imgSrc:"../../../assets/images/new-Copy.gif",
   redirectTo:'../../../assets/pdfs/Job Postings/Advertisement for RA_NISAR.pdf'

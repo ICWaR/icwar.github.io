@@ -157,17 +157,6 @@ export const faculty = [
         researchInterest:"Past and Future Climate Changes, Climate Modelling, and Isotope Hydrology."
       },
       {
-        name: "Dr. Soumita Boral ",
-        Designation: "DST INSPIRE Faculty",
-        department: "ICWaR",
-        phoneNo: "",
-        email: "soumitab@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/Dr.SoumitaB.webp",
-        website: "https://scholar.google.com/citations?user=exn8ctgAAAAJ&hl=en",
-        details: "PhD, Indian Institute of Technology Kanpur, India",
-        researchInterest:"Isotope Geochemistry, Critical zone biogeochemistry, Glacier-river-continent processes, Hydro-geochemical modelling."
-      },
-      {
         name: "Dr. Maya Raghunath Suryawanshi",
         Designation: "DST INSPIRE Faculty",
         department: "ICWaR",
@@ -188,17 +177,6 @@ export const faculty = [
         website: "https://sites.google.com/view/soumi-dutta/home",
         details: " PhD, Indian Institute of Technology Kharagpur, India",
         researchInterest:"Water and wastewater treatment, membrane separation, self-cleaning and antifouling membranes, desalination, adsorption, selective metal recovery, nanomaterials, bio-based and antimicrobial materials, hydrogels, emerging pollutants (micro/nanoplastics, heavy metals, arsenic, uranium, PFAS), photocatalysis, microplastic degradation, constructed wetlands, sewage treatment, field-scale sustainable water remediation."
-      },
-      {
-        name: "Dr. Ankita Bhatt",
-        Designation: "DST INSPIRE Faculty",
-        department: "ICWaR",
-        phoneNo: "",
-        email: "ankitabhatt@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/Dr.AnkitaBhatt.webp",
-        website: "https://scholar.google.co.in/citations?user=uAop_D4AAAAJ&hl=en",
-        details: "PhD, Indian Institute of Technology Roorkee, India",
-        researchInterest:"Microalgal biotechnology, Biorefinery, Water and wastewater treatment, Environmental microbiology, Emerging pollutants, Life cycle assessment, Microbial risk assessment, Techno-economic analysis, Circular economy, Resource recovery."
       },
       {
         name: "Dr. Manikanta Velpuri",
