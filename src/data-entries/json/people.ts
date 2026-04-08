@@ -805,14 +805,6 @@ export const postDoctoralScholars = [
         imgSrc: "../../assets/images/Post Doc/Dr.SuhailAhmad.webp",
       },
       {
-        name: "Dr. Rajani Pandey" ,
-        Designation: "Research Associate" ,
-        'Degree and Affiliation': "PhD, Water Resources Engineering | Indian Institute of Science, Bengaluru (2025)" ,
-        Project: "LODESTAR",
-        email: "rajanipandey@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Post Doc/Dr.RajaniPandey.webp",
-      },
-      {
         name: "Dr. Janki Rangatia" ,
         Designation: "DBT-BioCARe Fellow" ,
         'Degree and Affiliation': "PhD | Ludwig Maximilian University, Munich" ,
@@ -830,16 +822,29 @@ export const postDoctoralScholars = [
       },
       {
         name: "Dr. Poulomee Coomar" ,
-        Designation: "Institute PDF" ,
+        Designation: "Institute Post-Doctoral Fellow" ,
         'Degree and Affiliation': "PhD, Hydrogeology | IIT Kharagpur (2025)" ,
         Project: "Chemical weathering trends using Sr isotopic systematics",
         email: "poulomeec@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.PoulomeeCoomar.webp",
+      },
+      {
+        name: "Dr. Nikita Kush Durgi" ,
+        Designation: "Institute Post-Doctoral Fellow" ,
+        'Degree and Affiliation': "PhD, Chemistry" ,
+        Project: "Synthesis of Organic Fluorophores for Sensing Applications",
+        email: "nikitak@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.NikitaKushDurgi.webp",
       }
     ],
   },
   {
     Former: [
+      {
+        name: "Dr. Rajani Pandey" ,
+        Designation: "Research Associate" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.RajaniPandey.webp",
+      },
       {
         name: "Dr. Simranjeet Singh" ,
         Designation: "DBT Fellow" ,
@@ -988,7 +993,7 @@ export const projectStaff = [
         name: "Ms. Nruthya K" ,
         Designation: "Senior Project Associate" ,
         'Degree and Affiliation': "M.Tech, Water Resources Engineering | NITK, Surathkal" ,
-        Project: "National Supercomputing Mission",
+        Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
         email: "nruthyak@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/nruthya-k.webp",
       },
@@ -996,7 +1001,7 @@ export const projectStaff = [
         name: "Mr. Ramesh N" ,
         Designation: "Project Associate" ,
         'Degree and Affiliation': "M.Sc, Agricultural Economics | University of Agricultural Sciences, Bengaluru" ,
-        Project: "To establish centres for Cauvery River basin management studies in the states of Karnataka & Tamil Nadu",
+        Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
         email: "rameshn@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Ramesh_N.webp",
       },
@@ -1004,9 +1009,17 @@ export const projectStaff = [
         name: "Ms. Darshana Gautam" ,
         Designation: "Project Associate" ,
         'Degree and Affiliation': "M.Sc, Atmospheric Sciences | Savitribai Phule Pune University (SPPU) and Indian Institute of Tropical Meteorology (IITM), Pune" ,
-        Project: " A Proxy and Modelling approach to Understanding Indian Summer Monsoon Precipitation Variability and Abrubt Shifts",
+        Project: "A Proxy and Modelling approach to Understanding Indian Summer Monsoon Precipitation Variability and Abrubt Shifts",
         email: "darshanag@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/DarshanaG.webp",
+      },
+      {
+        name: "Mr. Kritagya Kumar Singh Tomar" ,
+        Designation: "Program Assistant" ,
+        'Degree and Affiliation': " M.A. in Geography (Specialization in Hydrology) | University of Mumbai" ,
+        Project: "IGLOO-IHR: Investigating Glacier-Lake Interactions through Modelling and Observations to Assess Potential GLOF Areas in the Indian Himalayan Region",
+        email: "kritagyat@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Kritagya_Tomar.webp",
       }
     ],
   },
