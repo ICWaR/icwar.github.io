@@ -835,6 +835,14 @@ export const postDoctoralScholars = [
         Project: "Synthesis of Organic Fluorophores for Sensing Applications",
         email: "nikitak@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.NikitaKushDurgi.webp",
+      },
+      {
+        name: "Ms. Nruthya K" ,
+        Designation: "Senior Project Associate" ,
+        'Degree and Affiliation': "PhD | Indian Institute of Science, Bengaluru" ,
+        Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
+        email: "nruthyak@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.NruthyaK.webp",
       }
     ],
   },
@@ -989,14 +997,6 @@ export const postDoctoralScholars = [
 export const projectStaff = [
   {
     Current: [
-      {
-        name: "Ms. Nruthya K" ,
-        Designation: "Senior Project Associate" ,
-        'Degree and Affiliation': "M.Tech, Water Resources Engineering | NITK, Surathkal" ,
-        Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
-        email: "nruthyak@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/nruthya-k.webp",
-      },
       {
         name: "Mr. Ramesh N" ,
         Designation: "Project Associate" ,
