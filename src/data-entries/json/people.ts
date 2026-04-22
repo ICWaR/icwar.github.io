@@ -583,6 +583,13 @@ export const researchStudents = [
 
 export const visitors = [
       {
+        name: "Prof. Sankar Arumugam",
+        'Designation and University of Visitior': "Professor in the Department of Civil, Construction, and Environmental Engineering at NCSU",
+        Duration: "13 April - 30 June, 2026",
+        website: "https://ccee.ncsu.edu/people/sarumug/",
+        imgSrc: "../../assets/images/Visitors/Prof.Sankar_Arumugam.webp",
+      },
+      {
         name: "Prof. Venkatraman Lakshmi",
         'Designation and University of Visitior': "Professor of Engineering in the Department of Civil and Environmental Engineering, University of Virginia",
         Duration: "30 May - 17 June, 2025",
