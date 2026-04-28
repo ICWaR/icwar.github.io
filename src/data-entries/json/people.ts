@@ -485,7 +485,7 @@ export const researchStudents = [
       {
         name: "Anzeera Beegum TM " ,
         'Degree Registered': "PhD" ,
-        'Degree and Affiliation': "MSc, Chemistry | University of Delhi (2025)" ,
+        'Degree and Affiliation': "M.Sc, Chemistry | University of Delhi (2025)" ,
         'Name of Supervisors': "Prof. Prosenjit Ghosh",
         email: "anzeeratm@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/AnzeeraBeegumTM.webp",
@@ -525,7 +525,7 @@ export const researchStudents = [
       {
         name: "Amiya Kumar Sur" ,
         'Degree Registered': "Joint PhD Degree" ,
-        'Degree and Affiliation': "MSc, Advanced Computer Science (Data Science) | University of Leeds" ,
+        'Degree and Affiliation': "M.Sc, Advanced Computer Science (Data Science) | University of Leeds" ,
         'Name of Supervisors': "Dr. Bramha Dutt Vishwakarma",
         'Research Topic': "Physics-Informed AI for Emulating Land Surface Models (CLM) to Improve Representation of Hydrological Processes and Water Resource Predictions",
         email: "amiyakumars@iisc.ac.in" ,
@@ -758,7 +758,7 @@ export const postDoctoralScholars = [
       {
         name: "Dr. Ashlin Ann Alexander" ,
         Designation: "Research Associate" ,
-        'Degree and Affiliation': "PhD, Water Resources Engineering | Indian Institute of Science, Bengaluru (2024)" ,
+        'Degree and Affiliation': "PhD, Water Resources Engineering | IISc Bengaluru (2024)" ,
         Project: "SERB-CRG, MHRD-STARS",
         email: "ashlina@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Ashlin_Ann_Alexander.webp",
@@ -790,7 +790,7 @@ export const postDoctoralScholars = [
       {
         name: "Dr. Suyog Gupta" ,
         Designation: "Research Associate" ,
-        'Degree and Affiliation': "PhD, Environmental Science & Engineering | Indian Institute of Technology Dhanbad (2023)" ,
+        'Degree and Affiliation': "PhD, Environmental Science & Engineering | IIT Dhanbad (2023)" ,
         Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
         email: "suyoggupta@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.Suyog_Gupta.webp",
@@ -844,12 +844,19 @@ export const postDoctoralScholars = [
         imgSrc: "../../assets/images/Post Doc/Dr.NikitaKushDurgi.webp",
       },
       {
-        name: "Ms. Nruthya K" ,
+        name: "Dr. Nruthya K" ,
         Designation: "Senior Project Associate" ,
-        'Degree and Affiliation': "PhD | Indian Institute of Science, Bengaluru" ,
+        'Degree and Affiliation': "PhD | IISc Bengaluru" ,
         Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
         email: "nruthyak@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.NruthyaK.webp",
+      },
+      {
+        name: "Dr. Reshma Radhakrishnan" ,
+        Designation: "Institute Post-Doctoral Fellow" ,
+        'Degree and Affiliation': "PhD,  Hydraulics and Water Resources Engineering | IIT Madras (2026)" ,
+        email: "rreshma@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.Reshma_R.webp",
       }
     ],
   },
@@ -1021,9 +1028,17 @@ export const projectStaff = [
         imgSrc: "../../assets/images/Project Staff/DarshanaG.webp",
       },
       {
+        name: "Ms. Lipika Dutta" ,
+        Designation: "Project Associate" ,
+        'Degree and Affiliation': "M.Sc, Geography | Presidency University, Kolkata; PG Diploma, Remote Sensing & GIS | Indian Institute of Remote Sensing (IIRS), ISRO" ,
+        Project: "IGLOO-IHR: Investigating Glacier-Lake Interactions through Modelling and Observations to Assess Potential GLOF Areas in the Indian Himalayan Region",
+        email: "lipikad@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Lipika_Dutta.webp",
+      },
+      {
         name: "Mr. Kritagya Kumar Singh Tomar" ,
         Designation: "Program Assistant" ,
-        'Degree and Affiliation': " M.A. in Geography (Specialization in Hydrology) | University of Mumbai" ,
+        'Degree and Affiliation': "M.A, Geography (Specialization in Hydrology) | University of Mumbai" ,
         Project: "IGLOO-IHR: Investigating Glacier-Lake Interactions through Modelling and Observations to Assess Potential GLOF Areas in the Indian Himalayan Region",
         email: "kritagyat@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Kritagya_Tomar.webp",
@@ -1035,7 +1050,7 @@ export const projectStaff = [
       {
         name: "Ms. P. N. Chandi Priya" ,
         Designation: " Junior Research Fellow" ,
-        'Degree and Affiliation': "MS (by Research), Civil Engineering | IIIT Hyderabad (2022)" ,
+        'Degree and Affiliation': "MS (Research), Civil Engineering | IIIT Hyderabad (2022)" ,
         Project: "INSPIRE Project",
         imgSrc: "../../assets/images/Project Staff/ChandiPriya.webp",
       },
@@ -1091,7 +1106,7 @@ export const projectStaff = [
       {
         name: "Ms. Anu S Patil" ,
         Designation: "Project Associate II" ,
-        'Degree and Affiliation': "M.Tech (by Research), Water Resources and Ocean Engineering | NIT Surathkal (2019)" ,
+        'Degree and Affiliation': "M.Tech (Research), Water Resources and Ocean Engineering | NIT Surathkal (2019)" ,
         Project: "SERB-CRG Project",
         imgSrc: "../../assets/images/Project Staff/Anu-S-Patil.webp",
       },
