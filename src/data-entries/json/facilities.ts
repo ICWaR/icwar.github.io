@@ -1,60 +1,58 @@
-export const facilities = [
+export interface LabCard {
+  title: string;
+  description: string;
+  imgSrc: string;
+}
+
+export interface EquipmentTableItem {
+  name: string;
+  pdfLink: string;
+  bookingIISc: string;
+  istemLink: string;
+}
+export const nonIiscBookingLink = "https://forms.cloud.microsoft/r/01Ws2T1sS6";
+
+export const labCards: LabCard[] = [
   {
-    deviceName: "Water Quality Monitoring Lab ",
-    description: "<p>Water quality is a critical factor influencing both environmental and human health. Contaminated water can lead to severe health hazards, disrupt ecosystems, and impact agricultural productivity. To address these concerns, the <b>Water Quality Monitoring Lab</b> at <b>ICWaR</b> provides comprehensive analytical services that assess water quality across four key categories: <ul><b><li> Basic Parameters</li><li>Bacteriological Analysis</li><li> Heavy Metals Analysis</li><li>Anions & Cations.</li></ul></b><p>Monitoring these parameters safeguards public health and supports environmental management by identifying pollution sources and trends over time. Effective water quality monitoring is vital for maintaining safe drinking water standards, protecting aquatic ecosystems, and ensuring that water resources are sustainable for future generations. By providing accurate data on water quality, the ICWaR lab contributes significantly to public health initiatives and environmental policies to preserve water resources.</p>",
-    subFacilities: [
-      {
-        title: "1. Basic Parameters Analysis Services",
-        content: "<p><b>Basic Parameters</b> include essential physicochemical properties such as pH, turbidity, dissolved oxygen, and total dissolved solids, which serve as primary indicators of water quality. This laboratory offers complete water quality assessment services, focusing on fundamental physicochemical parameters defining water health and usability. These critical parameters include <b>pH, turbidity, dissolved oxygen (DO), salinity, electrical conductivity (EC), and total dissolved solids (TDS)</b>. Monitoring these indicators is essential for evaluating water quality, ensuring regulatory compliance, and supporting environmental conservation efforts. We employ state-of-the-art ion-based measurement techniques to deliver precise and reliable data. Our specialised instruments include:<p><p><b>Eutech pH 150</b> for accurate pH, temperature, EC, and TDS analysis, ensuring optimal water chemistry evaluation.</p><p><b>Eutech TN-1000</b> is used for turbidity measurement and is essential for assessing water clarity and the impact of suspended particles.</p><p><b>The DO+ instrument</b> for high-sensitivity dissolved oxygen analysis is crucial for determining biological oxygen demand and aquatic life sustainability.<p><p><b>Salt 6 Meter</b> for precise salinity measurements, supporting water usability and ecosystem balance assessments.</p><p><b>HM Aquapro Water Tester</b> for comprehensive TDS evaluation, aiding in water purity and contamination analysis.</p><p>Our laboratory is committed to <b>delivering high-precision, data-driven insights</b> that support water quality monitoring, pollution assessment, and sustainable resource management. Our testing services provide reliable information for informed decision-making for industrial, environmental, agricultural, or research purposes.</p>",
-        imgSrc: "../../../assets/images/Centres and Facilities/BasicParameters_Detector.webp",
-        formLink:"https://forms.office.com/r/PUcmHrimwz",
-        chargesIn:"₹500 (INR) per sample",
-        chargesEx:"₹700 (INR) + 18% GST per sample"
-      },
-      {
-        title: "2. Bacteriological Analysis Services",
-        content: "<p>Our laboratory provides comprehensive bacteriological analysis to assess microbial contamination in water, ensuring its safety for consumption, sanitation, and environmental health. This analysis focuses on detecting coliform bacteria and Escherichia coli (E. Coli), key indicators of waterborne pathogens and potential faecal contamination. Monitoring these microorganisms is essential for public health protection and regulatory compliance. To ensure rapid, accurate, and reliable detection, we employ the ReadyCult technique, a one-step, ready-to-use method designed for efficient microbiological assessment. This advanced technique utilises a pre-prepared snap-pack medium that, when mixed with a water sample and incubated, produces a distinct colour change to indicate the presence of total coliforms and E. coli. The ReadyCult method offers several advantages, including:</p><ul><li> Rapid detection – Delivers results within 24 hours, enabling timely decision-making.</li><li> High sensitivity and specificity – Ensure accurate identification of microbial contaminants.</li><li>Convenient and standardised – Minimizes the risk of cross-contamination and enhances reproducibility.</li></ul><p>Our bacteriological testing services are ideal for drinking water facilities, wastewater treatment plants, environmental monitoring programs, and industrial applications, helping ensure compliance with national and international water quality standards.</p>",
-        imgSrc: "../../../assets/images/Centres and Facilities/BacteriologicalAnalysis_Detector.webp",
-        formLink:"https://forms.office.com/r/Y5sgy1qNdn",
-        chargesIn:"₹300 (INR) per sample",
-        chargesEx:"₹500 (INR) + 18% GST per sample"
-      },
-      {
-        title: "3. Heavy Metals Analysis Services",
-        content: "<p>Our laboratory offers high-precision heavy metal analysis using the Agilent 7800 ICP-MS (Inductively Coupled Plasma Mass Spectrometry). This advanced analytical technique enables detecting and quantifying trace and ultra-trace levels of heavy metals in water, soil, industrial effluents, and environmental samples. Heavy metal contamination poses significant risks to human health and ecosystems, making accurate monitoring essential for compliance with regulatory standards.</p><p><b>The Agilent 7800 ICP-MS is a high-performance instrument designed for superior sensitivity, accuracy, and efficiency, featuring:</b></p><ul><li> ISIS 3: High-Productivity Option – Enhances sample throughput and reduces analysis time.</li><li> ORS4 Collision/Reaction Cell – Uses helium (He) mode for efficient interference removal, ensuring accurate quantification of elements in complex matrices.</li><li> ODS (Orthogonal Detector System) – Provides a 10-order dynamic range, allowing simultaneous measurement of major and trace elements in a single run.</li></ul><p><b>Key Advantages of ICP-MS Analysis</b></p><ul><p>✔ Simplified Workflow – Pre-set methods and auto-optimization for easy method setup and consistent performance.</p><p>✔ Enhanced Matrix Tolerance – HMI technology enables direct analysis of samples with up to 3% dissolved solids, minimising manual or auto-dilution.</p><p>✔ Reliable Results in Complex Matrices – The ORS4 cell effectively removes polyatomic interferences for unmatched accuracy.</p><p>✔ High Productivity & Faster Turnaround – The ISIS 3 system and automated method optimisation reduce sample processing time.</p></ul><p>Heavy metal analysis services are ideal for drinking water quality assessment, industrial effluent monitoring, environmental impact studies, and regulatory compliance testing. Whether you require routine screening or specialised trace metal analysis, this laboratory ensures high-quality, reliable, and cost-effective results.</p>",
-        imgSrc: "../../../assets/images/Centres and Facilities/ICPMS.webp",
-        formLink:"https://forms.office.com/r/xvxB8hCtgu",
-        chargesIn:"₹500 (INR) per Element / ₹2500 (INR) for 11 Elements",
-        chargesEx:"₹800 (INR) + 18% GST per Element / ₹3000 (INR) + 18% GST for 11 Elements"
-      },
-      {
-        title: "4. Anions & Cations Analysis Services",
-        content: "<p>Laboratory offers comprehensive anion and cation analysis to assess water quality and suitability for drinking, irrigation, and industrial applications. Essential ions such as nitrates (NO₃⁻), sulfates (SO₄²⁻), chlorides (Cl⁻), calcium (Ca²⁺), and magnesium (Mg²⁺) play a crucial role in determining water chemistry, affecting corrosivity, scaling potential, and overall usability. Accurate quantification of these ions ensures regulatory compliance, environmental monitoring, and industrial process optimisation.</p><p><b>Advanced Technology: Orion VersaStar Pro – Thermo Scientific</b></p><p>We utilize the Orion VersaStar Pro from Thermo Scientific, a high-precision instrument designed for accurate and reliable ion analysis. This cutting-edge equipment provides:</p><ul><li> Multi-Parameter Capability – Simultaneous measurement of key anions and cations in a single system.</li><li> High-Sensitivity Electrodes – Ensures precise detection of ion concentrations, even at trace levels.</li><li> Automated Calibration & Smart Sensor Recognition – Simplifies the workflow and enhances measurement consistency.</li></ul><p><b>Key Advantages of Anion & Cation Analysis</b></p><ul><p>✔ Accurate Water Quality Assessment – Determines ion balance for optimal water usability.</p><p>✔ Reliable Monitoring of Contaminants – Detects excess levels of nitrates, sulfates, and chlorides, which can impact human health and infrastructure.</p><p>✔ Industrial & Agricultural Suitability Testing – Ensures proper irrigation water balance and prevention of scaling/corrosion in industrial systems.</p><p>✔ Efficient & High-Throughput Analysis – The Orion VersaStar Pro allows rapid multi-ion analysis with minimal sample preparation.</p></ul><p>Anion and cation testing services cater to municipal water treatment plants, industrial water users, agricultural sectors, and environmental research organisations. Whether you need routine water quality screening or in-depth ion profiling, this laboratory ensures precise, reliable, and cost-effective results.</p>",
-        imgSrc: "../../../assets/images/Centres and Facilities/AnionsCations_Detector.webp",
-        formLink:"https://forms.office.com/r/satbWgkycf",
-        chargesIn:"₹500 (INR) for each Nitrate and Fluoride",
-        chargesEx:"₹800 (INR) + 18% GST for each Nitrate and Fluoride"
-      }
-    ]
+    title: "Water Quality Monitoring Lab",
+    description: "To protect human health and environmental ecosystems, the ICWaR Water Quality Monitoring Lab offers comprehensive analytical services. We assess water safety across four key categories: Basic Parameters, Bacteriological Analysis, Heavy Metals Analysis, and Anions & Cations; providing accurate data to support pollution tracking, safe drinking water standards, and sustainable environmental policies.",
+    imgSrc: "../../../assets/images/Centres and Facilities/ICP-MS_ICWaR.webp"
   },
   {
-    deviceName: "Soil Temperature Monitoring System (STMS)",
-    description: "The value of soil moisture measurement in many research, industrial and agricultural fields are necessary for managing water resources effectively. However, collecting data from the field is time-consuming and can be expensive. To automate data collection and data logging, a system was developed using the proven Watermark solid state, electric resistance type sensor and cellular network and internet database real-time monitoring. Now, the STMS can wirelessly download data from soil moisture and temperature sensors directly into your computer from any part of the world.",
-    imgSrc: "../../../assets/images/Centres and Facilities/STMS.webp"
-  },
-  {
-    deviceName: "Soil Moisture and Temperature Monitoring system (SMTMS)",
-    description: "The value of soil moisture and temperature measurement in many research, industrial and agricultural are necessary for managing water resources effectively. However, collecting data from the field is time-consuming and can be expensive. To automate data collection and data logging, a system was developed using the proven Watermark solid state, electric resistance type sensor and cellular network and internet database real-time monitoring. Now, the SMTMS can wirelessly view, analyse and download data from soil moisture and temperature sensors directly into your computer from any part of the world.",
-    imgSrc: "../../../assets/images/Centres and Facilities/SMTMS.webp"
-  },
-  {
-    deviceName: "HPC Clusters",
-    description: "ICWaR has deployed a computer cluster to improve performance and availability over that of a single computer, while typically being much more cost-effective than single computers of comparable speed or availability. This is used by students for the efficient results.",
-    imgSrc: "../../../assets/images/Centres and Facilities/Cluster1.webp"
-  },
-  {
-    deviceName: "Differential Global Positioning System / Differential Global Navigation Satellite System (DGPS / DGNSS)",
+    title: "Differential Global Positioning System (DGPS / DGNSS)",
     description: "ICWaR has an advanced model of a DGPS/DGNSS device, the Leica GS18, which comes with two receivers. This device is used for high-precision (mm/cm level accuracy) position mapping or surveying of various geographical areas. Applications include accurately determining GPS positions for sampling points, mapping glacier boundaries, measuring glacier surface ice velocities, and establishing ground control points (GCPs), among others.",
     imgSrc: "../../../assets/images/Centres and Facilities/DGPS_ICWaR.webp"
   },
+  {
+    title: "HPC Clusters",
+    description: "ICWaR has deployed a computer cluster to improve performance and availability over that of a single computer, while typically being much more cost-effective than single computers of comparable speed. This is used by students for efficient results.",
+    imgSrc: "../../../assets/images/Centres and Facilities/HPC Clusters_ICWaR.webp"
+  }
+];
+
+export const equipmentTable: EquipmentTableItem[] = [
+  {
+    name: "Basic Parameters Analysis (pH, EC, TDS, DO, Turbidity, etc.)",
+    pdfLink: "../../../assets/pdfs/Facilities/Basic Parameters Analysis Services_ICWaR.pdf",
+    bookingIISc: "https://forms.office.com/r/PUcmHrimwz",
+    istemLink: ""
+  },
+  {
+    name: "Bacteriological Analysis (Total Coliforms, E. coli, etc.)",
+    pdfLink: "../../../assets/pdfs/Facilities/Bacteriological Analysis Services_ICWaR.pdf",
+    bookingIISc: "https://forms.office.com/r/Y5sgy1qNdn",
+    istemLink: ""
+  },
+  {
+    name: "Inductively Coupled Plasma Mass Spectrometry (ICP-MS) - Heavy Metals Analysis",
+    pdfLink: "../../../assets/pdfs/Facilities/Heavy Metals Analysis Services_ICWaR.pdf",
+    bookingIISc: "https://forms.office.com/r/xvxB8hCtgu",
+    istemLink: "https://www.istem.gov.in/equipment-info/48412/Inductively-Coupled-Plasma-Mass-Spectrometry"
+  },
+  {
+    name: "Ion Chromatography (IC) - Anions & Cations Analysis",
+    pdfLink: "../../../assets/pdfs/Facilities/Anions & Cations Analysis Services_ICWaR.pdf",
+    bookingIISc: "https://forms.office.com/r/satbWgkycf",
+    istemLink: "https://www.istem.gov.in/equipment-info/61638/Ion-Chromatography"
+  }
 ];

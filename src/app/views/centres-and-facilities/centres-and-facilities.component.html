@@ -3,104 +3,78 @@
 </div>
 <hr />
 
-<div class="accordion container-fluid px-md-5 mb-5" id="facilitiesAccordion" style="text-align: justify;">
-  <div class="accordion-item mb-3" *ngFor="let facility of facilitiesList; let i = index">
-    <h2 class="accordion-header" [id]="'heading' + i">
-      <button
-        class="accordion-button collapsed"
-        type="button"
-        data-bs-toggle="collapse"
-        [attr.data-bs-target]="'#collapse' + i"
-        aria-expanded="false"
-        [attr.aria-controls]="'collapse' + i"
-      >
-      <div class="d-flex justify-content-between align-items-center">
-        <h5 class="mb-0">
-          {{ facility.deviceName }}
-        </h5>
+<div class="container-fluid px-md-5 mb-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let card of labCards">
+      <div class="card h-100 shadow-sm border-0 p-1">
         <img
-          *ngIf="facility.deviceName.trim().toLowerCase() === 'water quality monitoring lab'"
-          src="../../../assets/images/Book_N.gif"
-          alt="Book Now"
-          width="125"
-          class="rounded ms-md-3"
+          [src]="card.imgSrc"
+          class="card-img-top p-1 rounded"
+          [alt]="card.title"
+          style="object-fit: cover; "
         />
-      </div>
-      </button>
-    </h2>
-    <div
-      [id]="'collapse' + i"
-      class="accordion-collapse collapse"
-      [attr.aria-labelledby]="'heading' + i"
-      data-bs-parent="#facilitiesAccordion"
-    >
-      <div class="accordion-body row justify-content-center px-md-5">
-        <!-- Description Section (Before Sub-Accordion) -->
-        <div class="mb-2 bg-light">
-          <p [innerHTML]="facility.description"></p>
-        </div>
-
-        <!-- Image Section (If GIF/Image Exists) -->
-        <div *ngIf="facility.imgSrc" class="col-md-4 col-sm-12 m-2">
-          <img class="col-12 img-thumbnail mb-3" [src]="facility.imgSrc" [alt]="facility.deviceName" />
-        </div>
-
-
-        <!-- Spacer -->
-        <span *ngIf="facility.imgSrc" class="d-none d-md-inline" style="width: 3px"></span>
-
-        <!-- Sub-Facilities Accordion -->
-        <div class="col-md-12">
-          <ng-container *ngIf="facility.subFacilities && facility.subFacilities.length > 0">
-            <div class="accordion" [id]="'subFacilitiesAccordion' + i">
-              <div class="accordion-item mb-1" *ngFor="let sub of facility.subFacilities; let j = index">
-                <h2 class="accordion-header" [id]="'subHeading' + i + j">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    [attr.data-bs-target]="'#subCollapse' + i + j"
-                    aria-expanded="false"
-                    [attr.aria-controls]="'subCollapse' + i + j"
-                  >
-                    {{ sub.title }}
-                  </button>
-                </h2>
-                <div
-                  [id]="'subCollapse' + i + j"
-                  class="accordion-collapse collapse"
-                  [attr.aria-labelledby]="'subHeading' + i + j"
-                  [attr.data-bs-parent]="'#subFacilitiesAccordion' + i"
-                >
-                  <div class="accordion-body row">
-                    <!-- Text (col-8) and Image (col-4) in Sub-Accordion -->
-                    <div class="col-md-8 col-sm-12">
-                      <p [innerHTML]="sub.content"></p>
-                    </div>
-                    <div *ngIf="sub.imgSrc" class="col-md-4 col-sm-12">
-                      <img class="col-12 img-thumbnail" [src]="sub.imgSrc" [alt]="sub.title" />
-                      <div class="text-center">   <!-- Charges -->
-                        <p *ngIf="sub.chargesIn" class="mt-2">
-                          <strong>Internal (Charges):</strong> {{ sub.chargesIn }}
-                        </p>
-                        <p *ngIf="sub.chargesEx" class="mt-2">
-                          <strong>External (Email): </strong> <a href="mailto:icpmsfacility.icwar@auto.iisc.ac.in">icpmsfacility.icwar@auto.iisc.ac.in</a>
-                        </p>
-
-                        <p *ngIf="sub.formLink">
-                          <a [href]="sub.formLink" target="_blank">
-                            <img src="../../../assets/images/Book_N.gif" alt="Book Now" style="height: 100px;" />
-                          </a>
-                        </p></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </ng-container>
-        </div>
+        <h5 class="card-title mb-2 p-1">
+            <b>{{ card.title }}</b>
+          </h5>
+          <p class="card-text p-1" [innerHTML]="card.description" style="text-align: justify;"></p>
       </div>
     </div>
   </div>
 </div>
 
+<div class="container-fluid px-md-5 mb-5">
+  <h3 class="text-center mb-4"><b>Equipment & Services Booking</b>
+  <img src="../../../assets/images/Book_F.gif" alt="New" class="ms-2" style="height: 50px;"></h3>
+
+  <div class="table-responsive shadow-sm">
+    <table class="table table-bordered table-hover text-center align-middle bg-white m-0">
+      <thead class="table-light">
+        <tr>
+          <th rowspan="2" class="align-middle w-50">Equipment Name / Service Description <br>
+            <small class="text-muted">(Click on the name to view details)</small>
+
+          <th colspan="2" class="align-middle">Booking Link</th>
+          <th rowspan="2" class="align-middle">I-STEM Portal</th>
+        </tr>
+        <tr>
+          <th class="fw-semibold">IISc User</th>
+          <th class="fw-semibold">Non-IISc User</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let item of equipmentTable; let i = index">
+
+          <td class="text-start px-4">
+            <a [href]="item.pdfLink" target="_blank" class="fw-bold text-decoration-none" style="color: #043b8d;">
+              {{ item.name }}
+              <i class="bi bi-file-earmark-pdf text-danger ms-1" title="View PDF"></i>
+            </a>
+          </td>
+
+          <td>
+            <a *ngIf="item.bookingIISc" [href]="item.bookingIISc" target="_blank" class="btn btn-sm btn-primary px-3">
+              Book Here
+            </a>
+            <span *ngIf="!item.bookingIISc" class="text-muted">-</span>
+          </td>
+
+          <td *ngIf="i === 0" [attr.rowspan]="equipmentTable.length" class="bg-light">
+            <a [href]="nonIiscBookingLink" target="_blank" class="btn btn-sm btn-info px-3">
+              Book Here <br>
+              <small class="text-muted">(All Services)</small>
+            </a>
+          </td>
+
+          <td>
+            <a *ngIf="item.istemLink" [href]="item.istemLink" target="_blank" class="btn btn-sm btn-success text-white px-3">
+              I-STEM Link
+            </a>
+            <span *ngIf="!item.istemLink" class="text-muted">-</span>
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

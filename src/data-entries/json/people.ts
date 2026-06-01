@@ -367,7 +367,7 @@ export const researchStudents = [
         'Name of Supervisors': "Dr. Bramha Dutt Vishwakarma",
         'Research Topic': "Understanding the impact of tidal aliasing errors on GRACE gravity field recovery",
         email: "chethanv@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Research/Chetan_VA.webp",
+        imgSrc: "../../assets/images/Research/ChethanVA.webp",
       },
       {
         name: "Yuji Shigefuji" ,
@@ -805,7 +805,7 @@ export const postDoctoralScholars = [
       },
       {
         name: "Dr. Suhail Ahmad" ,
-        Designation: "Senior Research Fellow" ,
+        Designation: "Senior Project Associate" ,
         'Degree and Affiliation': "PhD, Remote Sensing & GIS | University of Jammu/Indian Institute of Remote Sensing (IIRS, ISRO) (2025)" ,
         Project: "cCauvery: Condition Assessment and Management Planning (CAMP) for the Cauvery River Basin",
         email: "suhailahmad1@iisc.ac.in" ,
@@ -857,6 +857,14 @@ export const postDoctoralScholars = [
         'Degree and Affiliation': "PhD,  Hydraulics and Water Resources Engineering | IIT Madras (2026)" ,
         email: "rreshma@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.Reshma_R.webp",
+      },
+      {
+        name: "Dr. Manmit Kumar Singh" ,
+        Designation: "Research Associate" ,
+        'Degree and Affiliation': "PhD, Civil Engineering | IIT Guwahati" ,
+        Project: "Evaluating NISAR’s Glacier related products in the Western Himalaya (NISAR-UP)",
+        email: "manmitk@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.ManmitKumarSingh.webp",
       }
     ],
   },

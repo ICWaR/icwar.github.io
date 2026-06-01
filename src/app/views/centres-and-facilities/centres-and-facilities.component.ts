@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { facilities } from 'src/data-entries/json/facilities';
+import { labCards, equipmentTable, nonIiscBookingLink } from 'src/data-entries/json/facilities';
 
 @Component({
   selector: 'app-centres-and-facilities',
@@ -7,5 +7,7 @@ import { facilities } from 'src/data-entries/json/facilities';
   styleUrls: ['./centres-and-facilities.component.scss']
 })
 export class CentresAndFacilitiesComponent {
-  facilitiesList = facilities;
+  labCards = labCards;
+  equipmentTable = equipmentTable;
+  nonIiscBookingLink = nonIiscBookingLink;
 }
