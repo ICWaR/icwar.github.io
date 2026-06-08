@@ -1,6 +1,12 @@
 
 export const newsJson = [
 {
+  title:"Applications open for GRACE Hackweek 2026: Online School. Last date to apply: August 15, 2026",
+  date:"08/06/2026",
+  imgSrc:"../../../assets/images/GRACE.jpeg",
+  redirectTo:'/events/GRACE-Hackweek'
+},
+{
   title:"Applications open for Post Doctoral Fellowship at IISc",
   date:"12/07/2025",
   imgSrc:"../../../assets/images/new-Copy.gif",

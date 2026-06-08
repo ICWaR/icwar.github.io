@@ -146,6 +146,10 @@ export const configurations = {
                 "name":"Workshops",
                 "link":"/events/workshop-and-meetings"
               },
+               {
+                "name":"GRACE Hackweek",
+                "link":"/events/GRACE-Hackweek"
+              },
               {
                 "name":"Monsoon School",
                 "link":"/events/monsoon-school"

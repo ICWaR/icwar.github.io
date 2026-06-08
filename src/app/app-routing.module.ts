@@ -22,6 +22,7 @@ import { JoinIcwarComponent } from './views/join-icwar/join-icwar.component';
 import { CoursesComponent } from './views/courses/courses.component';
 import { NewslettersComponent } from './views/newsletters/newsletters.component';
 import { PeopleDirectoryComponent } from './views/people-directory/people-directory.component';
+import { GRACEHackweekComponent } from './views/grace-hackweek/grace-hackweek.component';
 
 
 const routes: Routes = [
@@ -40,6 +41,7 @@ const routes: Routes = [
   {path:'publications',component: PublicationsComponent},
   {path: 'events',children:[
     {path:'workshop-and-meetings',component: WorkshopsAndMeetingsComponent},
+    {path:'GRACE-Hackweek',component: GRACEHackweekComponent},
     {path:'monsoon-school',component: ActivitiesAndEventsComponent},
     ]
   },

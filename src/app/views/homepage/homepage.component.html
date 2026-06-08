@@ -7,6 +7,7 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
   </div>
   <div class="carousel-inner ">
     <ng-container *ngFor="let row of slides;index as index">
@@ -34,10 +35,20 @@
   >
     <a
       [routerLink]="['/centres-and-facilities']"
-      class="text-danger text-decoration-none d-inline-flex align-items-center" (click)="scrollToTop()"
+      class="text-danger text-decoration-none d-inline-flex align-items-center"
+      (click)="scrollToTop()"
     >
       Water Quality Analysis Services are now available for online booking.
       <img src="assets/images/Book_N.gif" alt="Book Now" width="100" class="ms-2 rounded">
+    </a>
+
+    <span class="mx-4 text-secondary">|</span>
+
+    <a
+      [routerLink]="['/events/GRACE-Hackweek']"
+      class="text-danger text-decoration-none"
+    >
+      GRACE Hackweek 2026: Online School registration deadline is 15 August 2026.
     </a>
   </div>
 </div>

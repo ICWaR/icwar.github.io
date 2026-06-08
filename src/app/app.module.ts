@@ -31,6 +31,7 @@ import { JoinIcwarComponent } from './views/join-icwar/join-icwar.component';
 import { CoursesComponent } from './views/courses/courses.component';
 import { NewslettersComponent } from './views/newsletters/newsletters.component';
 import { PeopleDirectoryComponent } from './views/people-directory/people-directory.component';
+import { GRACEHackweekComponent } from './views/grace-hackweek/grace-hackweek.component';
 
 @NgModule({
   imports: [
@@ -63,7 +64,8 @@ import { PeopleDirectoryComponent } from './views/people-directory/people-direct
     JoinIcwarComponent,
     CoursesComponent,
     NewslettersComponent,
-    PeopleDirectoryComponent
+    PeopleDirectoryComponent,
+    GRACEHackweekComponent
   ],
   bootstrap: [AppComponent],
 })
