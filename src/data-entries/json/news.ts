@@ -9,13 +9,13 @@ export const newsJson = [
 {
   title:"ILR dreams of a Pyrrhic victory",
   date:"12/06/2026",
-  imgSrc:"../../../assets/images/GRACE.jpeg",
+  imgSrc:"../../../assets/images/News/ILR-dreams.avif",
   redirectTo:'https://www.deccanherald.com/opinion/ilr-dreams-of-a-pyrrhic-victory-4036086'
 },
 {
   title:"Can Digital Twins Prevent Floods in India’s Megacities?",
   date:"10/06/2026",
-  imgSrc:"../../../assets/images/GRACE.jpeg",
+  imgSrc:"../../../assets/images/News/Digital-Twins-cover.webp",
   redirectTo:'https://www.climateaction.live/can-digital-twins-prevent-floods-in-indias-megacities/'
 },
 {

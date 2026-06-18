@@ -1,5 +1,19 @@
 export const media_coverage =[
   {
+    Title:'ILR dreams of a Pyrrhic victory',
+    Details: "Deccan Herald – June 12, 2026",
+    link:[
+      '../../assets/pdfs/Media Coverage/deccanherald.com-ILR dreams of a Pyrrhic victory.pdf'
+    ]
+  },
+  {
+    Title:'Can Digital Twins Prevent Floods in India’s Megacities?',
+    Details: "Climate Action Live – June 10, 2026",
+    link:[
+      '../../assets/pdfs/Media Coverage/climateaction.live-Can Digital Twins Prevent Floods in Indias Megacities.pdf'
+    ]
+  },
+  {
     Title:'How Bengaluru can get rain-ready?',
     Details: "Times Community – June 14, 2025",
     link:[
