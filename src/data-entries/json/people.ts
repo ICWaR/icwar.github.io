@@ -865,6 +865,14 @@ export const postDoctoralScholars = [
         Project: "Evaluating NISAR’s Glacier related products in the Western Himalaya (NISAR-UP)",
         email: "manmitk@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.ManmitKumarSingh.webp",
+      },
+      {
+        name: "Dr. Bindu M" ,
+        Designation: "DST WISE Post-Doctoral Fellow" ,
+        'Degree and Affiliation': "PhD | NIT Calicut " ,
+        Project: "Polymer nanocomposites for energy and environmental applications",
+        email: "bindum@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.BinduM.webp",
       }
     ],
   },
