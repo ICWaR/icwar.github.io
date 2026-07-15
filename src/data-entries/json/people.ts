@@ -871,7 +871,7 @@ export const postDoctoralScholars = [
         Designation: "DST WISE Post-Doctoral Fellow" ,
         'Degree and Affiliation': "PhD | NIT Calicut " ,
         Project: "Polymer nanocomposites for energy and environmental applications",
-        email: "bindum@iisc.ac.in" ,
+        email: "bindu2@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.BinduM.webp",
       }
     ],

@@ -1,5 +1,32 @@
 export const workshops=[
-   {
+  {
+    Date: '08 JULY, 2026',
+    Title:'Indo-Taiwan Delegation Visit and Interactive Session on Urban Water Sustainability',
+    Details: `The Interdisciplinary Centre for Water Research (ICWaR) hosted an interactive session with a distinguished joint delegation to discuss critical challenges and innovations in urban water management. The visiting team included Dr. Farhat Naz (Associate Professor, IIT Jodhpur), her collaborators from the National Pingtung University of Science and Technology (NPUST), Taiwan, Prof. Herlin Chien and Prof. Ting, as well as a representative from the Taiwan Consulate in New Delhi. Led by Prof. Praveen (Chair, ICWaR), Prof. Prosenjit Ghosh, Dr. Rajarshi Das Bhowmik, and joined by several postdoctoral scholars, the meeting facilitated a deep dive into Bengaluru's water issues, urban development dynamics, water technologies, sustainability, and climate change resilience. This knowledge exchange was organized as part of the bilateral ICSSR and NSTC funded project titled, "Designing Water Sustainability in Urban Contexts from a Socio Hydrological Systems Approach: A Study of Bangalore, India and Kaohsiung, Taiwan."`,
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/Indo-Taiwan_Delegation_08072026_1.webp',
+      '../../assets/images/Workshop and Meetings/Indo-Taiwan_Delegation_08072026_2.webp',
+    ]
+  },
+  {
+    Date: '03 JULY, 2026',
+    Title:'THENSA Delegation Visit and Interactive Session on Innovation and Enterprise',
+    Details: 'The Centre hosted a distinguished delegation from the Technological Higher Education Network South Africa (THENSA) to explore purposeful partnerships and the translation of academic research into tangible societal solutions. The delegation included Prof Marshall Sheldon alongside Deputy Vice Chancellors responsible for Research, Innovation, Partnerships, and Engagement, namely Prof Fulufhelo Netswera (University of Venda), Prof Fulufhelo Ṋemavhola (Durban University of Technology), and Dr Simphiwe Maurice Nelana (Vaal University of Technology), as well as Directors of Technology Transfer Offices. The visit focused on the vital ecosystem required to nurture ideas, highlighting the importance of advanced infrastructure, strong postgraduate pipelines, enabling policies, and industry partnerships. Discussions underscored a shared vision for globally connected yet locally rooted universities, emphasizing the core principle that research must ignite innovation, innovation must enable enterprise, and enterprise must ultimately contribute to society.',
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/THENSA_03072026_1.webp',
+      '../../assets/images/Workshop and Meetings/THENSA_03072026_2.webp',
+    ]
+  },
+  {
+    Date: '13 MAY, 2026',
+    Title:'Peer-to-Peer Exchange Workshops on River Basin Management (RBM) ~ Advancing India–EU Strategic Cooperation on River Basin Management: India–EU Water Initiative',
+    Details: 'Under the India–EU Water Initiative, the Peer-to-Peer Exchange Workshops on River Basin Management (RBM) were held to advance India–EU strategic cooperation by sharing progress, key findings, and challenges from basin assessment studies while drawing on mutual experiences. The sessions presented practical approaches and lessons learned from the Tapi and Ramganga RBM Plans, as well as studies in the Cauvery and Periyar basins, to successfully explore the institutional arrangements, coordination mechanisms, and financing approaches required for effective implementation. This collaborative effort was guided by key officials including Shri Zaigam Khan (Joint Secretary, MoJS) and Advisor Shri Rajeev Ranjan Mishra (Former Director General, NMCG, MoJS), alongside a distinguished team of EU and regional experts featuring Dr. Paul Campling (VITO Belgium), Prof. Christian Bert Wolfgang Kazner (Bochum University of Applied Sciences, Germany), Dr. Andreas de Jong (Consortium Dorsch Impact GmbH–BORDA e.V.–KPMG Assurance and Consulting Services LLP, Spain), and Dr. Girija Bharat (Mugamma Consultants, India). Essential insights were also shared by the PI and Co-PIs of cCauvery (IISc, NITT) and cPariyar (IITPKD, NITC), with the successful execution of the event supported by the GIZ India team, comprising Project Manager Dr. Vikrant Tyagi and dedicated advisers Ms. Chhavi Sharda, Mr. Mohit Gupta, Ms. Usha Das Dewani, and Mr. Suvajit Dey.',
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/RBM_GIZ_13052026_1.webp',
+      '../../assets/images/Workshop and Meetings/RBM_GIZ_13052026_2.webp',
+    ]
+  },
+  {
     Date: '16 MAR, 2026',
     Title:'Discussion Meeting of Cauvery, IISc Bengaluru Team and Advanced Centre for Integrated Water Resources Management (ACIWRM)',
     Details: 'To view details,',
