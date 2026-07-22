@@ -1,6 +1,12 @@
 
 export const newsJson = [
 {
+  title:"Now Hiring: Two Research Associates (Postdocs). Last date to apply: August 05, 2026",
+  date:"22/07/2026",
+  imgSrc:"../../../assets/images/new-Copy.gif",
+  redirectTo:'../../../assets/pdfs/Job Postings/Advertisement for RA position_072026.pdf'
+},
+{
   title:"Applications open for GRACE Hackweek 2026: Online School. Last date to apply: August 15, 2026",
   date:"08/06/2026",
   imgSrc:"../../../assets/images/GRACE.jpeg",
