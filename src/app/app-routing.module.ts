@@ -23,7 +23,7 @@ import { CoursesComponent } from './views/courses/courses.component';
 import { NewslettersComponent } from './views/newsletters/newsletters.component';
 import { PeopleDirectoryComponent } from './views/people-directory/people-directory.component';
 import { GRACEHackweekComponent } from './views/grace-hackweek/grace-hackweek.component';
-
+import { WellnessComponent } from './views/wellness/wellness.component';
 
 const routes: Routes = [
   {path: '', component: HomepageComponent},
@@ -60,6 +60,7 @@ const routes: Routes = [
   {path : 'courses', component:CoursesComponent},
   {path : 'newsletters', component:NewslettersComponent},
   {path : 'people-directory', component:PeopleDirectoryComponent},
+  {path : 'wellness', component:WellnessComponent},
   {path:'**',component:PageNotFoundComponent}
 
 ];

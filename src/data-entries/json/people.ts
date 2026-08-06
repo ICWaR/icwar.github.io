@@ -530,7 +530,47 @@ export const researchStudents = [
         'Research Topic': "Physics-Informed AI for Emulating Land Surface Models (CLM) to Improve Representation of Hydrological Processes and Water Resource Predictions",
         email: "amiyakumars@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/AmiyaKumarSur.webp",
-      }
+      },
+      {
+        name: "Katroth Prem Singh" ,
+        'Degree Registered': "PhD (Engg.)" ,
+        'Degree and Affiliation': "M.Tech, Water Resources and Environment Engineering | IISc, Bengaluru (2026)" ,
+        'Name of Supervisors': "Dr. Rajarshi Das Bhowmik",
+        email: "premsinghk@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/KatrothPremSingh.webp",
+      },
+      {
+        name: "S. Hanumantharaju Kumarudu Babji" ,
+        'Degree Registered': "PhD (Engg.)" ,
+        'Degree and Affiliation': "M.Tech, Land and Water Resources Engineering | Indian Institute of Technology Kharagpur (2026)" ,
+        'Name of Supervisors': "Dr. Rajarshi Das Bhowmik",
+        email: "hanumanthar2@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/SHanumantharajuKumaruduBabji.webp",
+      },
+      {
+        name: "Nahida Begum M H" ,
+        'Degree Registered': "PhD (Engg.)" ,
+        'Degree and Affiliation': "BS-MS, Earth and Environmental Sciences | IISER Bhopal (2026)" ,
+        'Name of Supervisors': "Dr. Rajarshi Das Bhowmik",
+        email: "nahidabegum1@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/NahidaBegumMH.webp",
+      },
+      {
+        name: "Sumaya Irshad" ,
+        'Degree Registered': "PhD (Engg.)" ,
+        'Degree and Affiliation': "M.Sc, Environmental Science | Jamia Millia Islamia, New Delhi (2025)" ,
+        'Name of Supervisors': "TBD",
+        email: "sumayairshad@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/SumayaIrshad.webp",
+      },
+      {
+        name: "Gaurav Jaiswal" ,
+        'Degree Registered': "PhD (Engg.)" ,
+        'Degree and Affiliation': "M.Sc, Environmental Sciences (Environmental Technology) | Banaras Hindu University (BHU), Varanasi (2024)" ,
+        'Name of Supervisors': "TBD",
+        email: "gauravjaisw1@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Research/GauravJaiswal.webp",
+      },
     ],
   },
   {
@@ -1036,14 +1076,6 @@ export const projectStaff = [
         imgSrc: "../../assets/images/Project Staff/Ramesh_N.webp",
       },
       {
-        name: "Ms. Darshana Gautam" ,
-        Designation: "Project Associate" ,
-        'Degree and Affiliation': "M.Sc, Atmospheric Sciences | Savitribai Phule Pune University (SPPU) and Indian Institute of Tropical Meteorology (IITM), Pune" ,
-        Project: "A Proxy and Modelling approach to Understanding Indian Summer Monsoon Precipitation Variability and Abrubt Shifts",
-        email: "darshanag@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/DarshanaG.webp",
-      },
-      {
         name: "Ms. Lipika Dutta" ,
         Designation: "Project Associate" ,
         'Degree and Affiliation': "M.Sc, Geography | Presidency University, Kolkata; PG Diploma, Remote Sensing & GIS | Indian Institute of Remote Sensing (IIRS), ISRO" ,
@@ -1063,6 +1095,13 @@ export const projectStaff = [
   },
   {
     Former: [
+      {
+        name: "Ms. Darshana Gautam" ,
+        Designation: "Project Associate" ,
+        'Degree and Affiliation': "M.Sc, Atmospheric Sciences | Savitribai Phule Pune University (SPPU) and Indian Institute of Tropical Meteorology (IITM), Pune" ,
+        Project: "A Proxy and Modelling approach to Understanding Indian Summer Monsoon Precipitation Variability and Abrubt Shifts",
+        imgSrc: "../../assets/images/Project Staff/DarshanaG.webp",
+      },
       {
         name: "Ms. P. N. Chandi Priya" ,
         Designation: " Junior Research Fellow" ,
@@ -1140,7 +1179,6 @@ export const projectStaff = [
         Project: "SERB-SRG Project",
         imgSrc: "../../assets/images/Project Staff/chandan.webp",
       },
-
       {
         name: "Amin Shakya" ,
         Designation: "Senior Project Associate" ,

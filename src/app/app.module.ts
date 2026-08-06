@@ -32,6 +32,7 @@ import { CoursesComponent } from './views/courses/courses.component';
 import { NewslettersComponent } from './views/newsletters/newsletters.component';
 import { PeopleDirectoryComponent } from './views/people-directory/people-directory.component';
 import { GRACEHackweekComponent } from './views/grace-hackweek/grace-hackweek.component';
+import { WellnessComponent } from './views/wellness/wellness.component';
 
 @NgModule({
   imports: [
@@ -65,7 +66,8 @@ import { GRACEHackweekComponent } from './views/grace-hackweek/grace-hackweek.co
     CoursesComponent,
     NewslettersComponent,
     PeopleDirectoryComponent,
-    GRACEHackweekComponent
+    GRACEHackweekComponent,
+    WellnessComponent
   ],
   bootstrap: [AppComponent],
 })
