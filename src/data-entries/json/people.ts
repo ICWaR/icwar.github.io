@@ -337,14 +337,6 @@ export const researchStudents = [
         imgSrc: "../../assets/images/Research/radhikavarshney.webp",
       },
       {
-        name: "Posa Poornima Chandra Lekha" ,
-        'Degree Registered': "PhD" ,
-        'Degree and Affiliation': "M.Tech, Water Resources Engineering and Management | NITK, Surathkal (2021)" ,
-        'Name of Supervisors': "Dr. Rajarshi Das Bhowmik",
-        email: "poornimaposa@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Research/posapoornima.webp",
-      },
-      {
         name: "Balaram Shaw" ,
         'Degree Registered': "PhD" ,
         'Degree and Affiliation': "M.Tech, Water Resources Engineering | NIT Calicut" ,
@@ -559,7 +551,7 @@ export const researchStudents = [
         name: "Sumaya Irshad" ,
         'Degree Registered': "PhD (Engg.)" ,
         'Degree and Affiliation': "M.Sc, Environmental Science | Jamia Millia Islamia, New Delhi (2025)" ,
-        'Name of Supervisors': "TBD",
+        'Name of Supervisors': "Prof. Praveen C Ramamurthy and Prof. Lakshminarayana Rao",
         email: "sumayairshad@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/SumayaIrshad.webp",
       },
@@ -567,7 +559,7 @@ export const researchStudents = [
         name: "Gaurav Jaiswal" ,
         'Degree Registered': "PhD (Engg.)" ,
         'Degree and Affiliation': "M.Sc, Environmental Sciences (Environmental Technology) | Banaras Hindu University (BHU), Varanasi (2024)" ,
-        'Name of Supervisors': "TBD",
+        'Name of Supervisors': "Prof. Lakshminarayana Rao and Prof. Praveen C Ramamurthy",
         email: "gauravjaisw1@iisc.ac.in" ,
         imgSrc: "../../assets/images/Research/GauravJaiswal.webp",
       },
@@ -575,6 +567,12 @@ export const researchStudents = [
   },
   {
     Former: [
+      {
+        name: "Posa Poornima Chandra Lekha" ,
+        'Degree Registered': "PhD" ,
+        'Degree and Affiliation': "M.Tech, Water Resources Engineering and Management | NITK, Surathkal (2021)" ,
+        imgSrc: "../../assets/images/Research/posapoornima.webp",
+      },
       {
         name: "Biswajit Panda" ,
         'Degree Registered': "PhD" ,
