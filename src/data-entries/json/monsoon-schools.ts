@@ -1,5 +1,104 @@
 export const monsoonPageData=
     {
+    '2026':{
+      title: "Indo-French Monsoon School on Remote-Sensing for Critical Zone Science, 15-17 October 2026",
+      details: `
+            <p>
+              The Indo-French Cell for Water Science is celebrating its
+              <strong>25th anniversary</strong> this year. Understanding and monitoring
+              the mechanisms leading to the large spatio-temporal variability of the
+              water cycle and its impact on the carbon pools and fluxes has always been
+              at the core of the research deployed by the IFCWS, and this research has
+              benefited from the ever-increasing source of distributed data through
+              <strong>Remote Sensing</strong>.
+            </p>
+
+            <p>
+              Recently launched Earth Observation satellite missions, such as
+              <strong>SWOT</strong> or <strong>NISAR</strong>, as well as missions
+              scheduled for launch in the next few years, like <strong>TRISHNA</strong>,
+              offer unprecedented opportunities to monitor key variables of the critical
+              zone science such as: Vegetation cover, Soil type, Soil moisture, Streamflow, Evapotranspiration. These missions provide a high revisit capacity and freely available data, opening up new possibilities for monitoring and understanding critical zone processes.
+            </p>
+
+            <p>
+              In order to provide scientists and members of the New Space a vision and
+              training on pathways to imagine future downstream services to a wide range
+              of users, we have built together a
+              <strong>Monsoon School in Remote-Sensing for Critical Zone Science</strong>
+              with a two-part programme.
+            </p>
+
+            <p>
+              The programme consists of:
+            </p>
+
+            <ol>
+              <li>
+                <strong>A one-day workshop</strong> which gathers specialists involved
+                in the design of the satellite missions. The workshop will present an
+                overview of the state of the art of the current knowledge of the
+                missions, their outline, benefits and expected precision.
+              </li>
+
+              <li>
+                <strong>A two-day training session</strong> focusing on mastering the
+                retrieval methods of the relevant variables of Critical Zone Science
+                mentioned above, as well as the assimilation of current and future
+                remote sensing products and variables into a distributed modelling
+                platform that runs from plot scale to region.
+              </li>
+            </ol>
+
+            <p>
+              <strong>There is no registration fee.</strong>
+            </p>
+
+            <p>
+              Outstation participants may be considered for
+              <strong>limited accommodation on campus</strong>, on request.
+            </p>
+
+            <p>
+              <strong>To apply</strong>, send detailed bio-data including
+              <strong>date of birth, academic background and work experience</strong>
+              via e-mail to
+              <strong>indo.french.monsoon.school@gmail.com</strong>.
+            </p>
+
+            <p>
+              Please indicate in the e-mail:
+            </p>
+
+            <ol type="i">
+              <li>
+                The title of the <strong>Hands On</strong> you are interested in
+                (please check the feasibility due to parallel sessions).
+              </li>
+              <li>
+                How the training fits and/or will be useful in your
+                <strong>curriculum, academic project or research project</strong>.
+              </li>
+            </ol>
+
+            <p>
+              <strong>Attendees are expected to bring their own laptop.</strong>
+            </p>
+            <p class="mt-4">
+              <a
+                href="../../assets/pdfs/Job Postings/Program_Indo-French Monsoon School.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-success">
+                <i class="bi bi-file-earmark-pdf"></i>
+                View Program PDF
+              </a>
+            </p>
+          `,
+      imgsArray:[
+        '../../assets/images/Monsoon School/ProgramSchedule2026.webp',
+      ]
+    },
     '2023':{
       title: "Monsoon School on Urban Floods – 2023",
       details:"Interdisciplinary Center for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru organised a one-week workshop titled “Monsoon School on Urban Floods” during 07 – 12 August, 2023. The Monsoon School was funded by the research project titled, “National Supercomputing Mission”, sponsored by Department of Science & Technology (DST), Government of India. The Monsoon School comprised of lectures and tutorials by experts, covering topics of urban meteorology, urban hydrology, radar and remote sensing analysis of rain events, monsoon and extreme precipitation dynamics, urban groundwater, engineering practices and post-flood responses. Group discussions were arranged to bring out the relevance of the state-of-the-art tools and methodologies for managing urban floods in Indian cities in a rapid assessment scenario. The Monsoon School target participants included practicing engineers and young researchers working with government or private bodies and educational institutes. Venue for the Lectures and Tutorials: Lecture Hall, Interdisciplinary Center for Water Research (ICWaR) Overview of the event: The event consisted of 39 participants from India and neighbouring countries like Sri Lanka, Nepal and Bhutan. Prof. Dev Niyogi from University of Texas, Austin and Dr. Bhanu Neupane from UNESCO, Paris joined the workshop as resource persons. Indian speakers, Prof. Arindam Chakraborty, Dr. Akshara Kaginalkar, Prof. D. Nagesh Kumar, Prof. M. Sekhar, Prof. P. P. Mujumdar, Prof. V. V. Srinivas, Dr. Rajarshi Das Bhowmik, Dr. Shubha Avinash and Dr. Sanskriti Mujumdar delivered lectures on different topics related to urban floods. The participants of the workshop came from different backgrounds. Young faculty members, research scholars from different educational institutes not limited to various NITs and IITs ; Scientists/ Researchers/Project associates from Centre for Development of Advanced Computing (CDAC) , Bihar Mausham Seva Kendra (BMSK), Bihar State Disaster Management Authority (BSDMA), Govt. of Nepal, Govt. of Srilanka and practitioners from NGO’s and private organizations joined the Monsoon School. The participants were further divided to 7 versatile groups that helped to develop a very dynamic learning process to address issues related to floods for 7 different cities in India with history of recent floods through the workshop. Each day of the Monsoon School was divided into two sessions. In the morning sessions, lectures were conducted and in the afternoon sessions: tutorials, short assignments on the topics covered were given, group discussions were arranged etc. A visit to Karnataka State Natural Disaster Monitoring Centre (KSNDMC) was organized on 10th August, 2023 in the afternoon session of the workshop. All the participants visited KSNDMC where the officials described the functioning of disaster and specifically the flood early warning systems, telemetric rain gauges and other weather monitoring instruments to the participants.",

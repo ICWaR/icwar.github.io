@@ -1,10 +1,10 @@
 
 export const newsJson = [
 {
-  title:"Applications open for GRACE Hackweek 2026: Online School. Last date to apply: August 15, 2026",
-  date:"08/06/2026",
-  imgSrc:"../../../assets/images/GRACE.jpeg",
-  redirectTo:'/events/GRACE-Hackweek'
+  title:"Indo-French Monsoon School on Remote-Sensing for Critical Zone Science. 15-17 October 2026. Apply Now!",
+  date:"24/08/2026",
+  imgSrc:"../../../assets/images/Monsoon School/ProgramSchedule2026.webp",
+  redirectTo:'/events/monsoon-school'
 },
 {
   title:"ILR dreams of a Pyrrhic victory",

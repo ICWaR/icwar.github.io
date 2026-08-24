@@ -3,38 +3,83 @@
     <div class="col-md-6">
       <h2><b>Monsoon Schools</b></h2>
     </div>
+
     <div class="col-md-6">
       <div class="d-flex justify-content-end">
-        <button class="btn" [class.selected]="selectedYear === year" *ngFor="let year of years" (click)="selectYear(year)">
+        <button
+          class="btn"
+          [class.selected]="selectedYear === year"
+          *ngFor="let year of years"
+          (click)="selectYear(year)">
           {{ year }}
         </button>
       </div>
     </div>
   </div>
 </div>
+
 <hr>
+
 <div *ngIf="eventData" class="container-fluid px-5">
   <div class="row justify-content-center">
     <div class="col-md-11">
-      <h2 class="text-center m-3" style="text-decoration: underline;">{{ eventData?.title }}</h2>
-      <p class="text my-5" style="text-align: justify;">{{ eventData?.details }}</p>
+
+      <h2 class="text-center m-3" style="text-decoration: underline;">
+        {{ eventData.title }}
+      </h2>
+      <div
+        class="text my-5"
+        style="text-align: justify;"
+        [innerHTML]="eventData.details">
+      </div>
       <div class="row">
-        <div class="col-md-6 col-12 mb-2">
-          <img [src]="eventData?.imgsArray[0]" alt="" class="w-100 h-100">
+        <div
+          class="col-md-6 col-12 mb-2"
+          *ngIf="eventData.imgsArray?.[0]">
+
+          <img
+            [src]="eventData.imgsArray[0]"
+            alt=""
+            class="w-100 h-100">
         </div>
-        <div class="col-md-6 col-12">
+
+        <div
+          class="col-md-6 col-12"
+          *ngIf="eventData.imgsArray?.[1] || eventData.imgsArray?.[2]">
+
           <div class="row">
-            <div class="col-12 mb-2">
-              <img [src]="eventData?.imgsArray[1]" alt="" class="w-100 h-100">
+
+            <div
+              class="col-12 mb-2"
+              *ngIf="eventData.imgsArray?.[1]">
+
+              <img
+                [src]="eventData.imgsArray[1]"
+                alt=""
+                class="w-100 h-100">
             </div>
-            <div class="col-12 mb-2">
-              <img [src]="eventData?.imgsArray[2]" alt="" class="w-100 h-100">
+
+            <div
+              class="col-12 mb-2"
+              *ngIf="eventData.imgsArray?.[2]">
+
+              <img
+                [src]="eventData.imgsArray[2]"
+                alt=""
+                class="w-100 h-100">
             </div>
+
           </div>
         </div>
+
       </div>
+
     </div>
   </div>
 </div>
 
-<button class="scroll-to-top d-none d-md-block"  (click)="scrollToTop()">↑</button>
+<button
+  class="scroll-to-top d-none d-md-block"
+  (click)="scrollToTop()">
+  ↑
+</button>
