@@ -1,5 +1,5 @@
 import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
-import { research_projects, research_vignettes, collaborations, groups } from 'src/data-entries/json/research';
+import { research_projects, research_vignettes, collaborations, groups, research_slides } from 'src/data-entries/json/research';
 
 interface Vignette {
   details: string;
@@ -12,6 +12,7 @@ interface Vignette {
   styleUrls: ['./research-new.component.scss']
 })
 export class ResearchNewComponent {
+  slides = research_slides;
   research_projects: any = research_projects;
   abbreviations: any[] = [];
   activeTab: 'ongoing' | 'completed' = 'ongoing';
@@ -51,7 +52,7 @@ export class ResearchNewComponent {
     this.showAboutSection = section === 'about';
     this.showGroups = section === 'groups';
 
-    this.scrollDown();
+    // this.scrollDown();
   }
 
   scrollFunction(): void {
@@ -67,10 +68,10 @@ export class ResearchNewComponent {
     });
   }
 
-  scrollDown(): void {
-    window.scrollTo({
-      top: 500,
-      behavior: 'smooth'
-    });
-  }
+  // scrollDown(): void {
+  //   window.scrollTo({
+  //     top: 200,
+  //     behavior: 'smooth'
+  //   });
+  // }
 }

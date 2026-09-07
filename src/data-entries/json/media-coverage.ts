@@ -1,5 +1,33 @@
 export const media_coverage =[
   {
+    Title:'ILR dreams of a Pyrrhic victory',
+    Details: "Deccan Herald – June 12, 2026",
+    link:[
+      '../../assets/pdfs/Media Coverage/deccanherald.com-ILR dreams of a Pyrrhic victory.pdf'
+    ]
+  },
+  {
+    Title:'Can Digital Twins Prevent Floods in India’s Megacities?',
+    Details: "Climate Action Live – June 10, 2026",
+    link:[
+      '../../assets/pdfs/Media Coverage/climateaction.live-Can Digital Twins Prevent Floods in Indias Megacities.pdf'
+    ]
+  },
+  {
+    Title:'How Bengaluru can get rain-ready?',
+    Details: "Times Community – June 14, 2025",
+    link:[
+      '../../assets/pdfs/Media Coverage/HOW-BENGALURU-CAN-GET-RAIN-READY.pdf'
+    ]
+  },
+  {
+    Title:'IISc-developed zero bacteria technology to be used in apartments to improve water quality in Sewage Treatment Plants',
+    Details: "Deccan Herald – February 25, 2025",
+    link:[
+      '../../assets/pdfs/Media Coverage/deccanherald.com-IISc-developed zero bacteria technology to be used in apartments to improve water quality in Sewage T.pdf'
+    ]
+  },
+  {
     Title:'IISc flood model heads to Bengaluru s rescue',
     Details: "Deccan Herald – May 20, 2024",
     link:[
@@ -22,49 +50,49 @@ export const media_coverage =[
   },
   {
     Title:'Bengaluru to get flood prediction system soon',
-    Details: "Deccan Herald – Sept 16, 2022",
+    Details: "Deccan Herald – September 16, 2022",
     link:[
       '../../assets/pdfs/Media Coverage/deccanherald.com-Bengaluru to get flood prediction system soon.pdf'
     ]
   },
   {
-   Title:'ICWaR student Mr. Shairik Sengupta is assisting Bangalore slum dwellers to get clean water following the flood incidents.',
-   Details: "This is a crowd-funded initiative led by Mr. Sengupta where several ICWaR students participated.  Bangalore Mirror – Sept 13, 2022",
+   Title:'ICWaR student Mr. Shairik Sengupta is assisting Bengaluru slum dwellers to get clean water following the flood incidents.',
+   Details: "This is a crowd-funded initiative led by Mr. Sengupta where several ICWaR students participated.  Bengaluru Mirror – Sept 13, 2022",
    link:[
      '../../assets/pdfs/Media Coverage/bangaloremirror.indiatimes.com-Life streaming.pdf'
    ]
   },
   {
    Title:'Reducing global warming: Could reflecting sunlight back into space work?',
-   Details: "Deccan Herald – Oct 01 2021",
+   Details: "Deccan Herald – October 01, 2021",
    link:[
      '../../assets/pdfs/Media Coverage/deccanherald.com-Reducing global warming Could reflecting sunlight back into space work.pdf'
    ]
   },
   {
    Title:'Public information session organized by Krishna AchutaRao, IIT-D',
-   Details: "Sep 2, 2021 Full Video",
+   Details: "September 2, 2021 Full Video",
    link:[
      'https://youtu.be/Gek_q6VRP_A'
    ]
   },
   {
    Title:'‘Extreme weather to be more common, Delhi-NCR must invest in waterbodies’',
-   Details: "Times of India, Delhi edition – Aug 22, 2021",
+   Details: "Times of India, Delhi edition – August 22, 2021",
    link:[
      '../../assets/pdfs/Media Coverage/timesofindia.indiatimes.com-Extreme weather to be more common Delhi-NCR must invest in waterbodies.pdf'
    ]
   },
   {
    Title:'Karnataka will see 10-25% increase in rainfall in coming years: scientists',
-   Details: "The Hindu, Bangalore Edition – August 15, 2021",
+   Details: "The Hindu, Bengaluru Edition – August 15, 2021",
    link:[
      '../../assets/pdfs/Media Coverage/thehindu.com-Karnataka will see 10-25 increase in rainfall in coming years scientists.pdf'
    ]
   },
   {
    Title:'Climate report unlikely to lead to extra efforts',
-   Details: "Hindustan Times – Aug 10, 2021",
+   Details: "Hindustan Times – August 10, 2021",
    link:[
      '../../assets/pdfs/Media Coverage/hindustantimes.com-Climate report unlikely to lead to extra efforts.pdf'
    ]
@@ -85,14 +113,14 @@ export const media_coverage =[
   },
   {
     Title:'Contamination in Water Distribution Systems',
-    Details: "Rajya Sabha TV – Jul 3, 2021",
+    Details: "Rajya Sabha TV – July 3, 2021",
     link:[
       'https://www.youtube.com/watch?v=i81Lt-HCEQI&t=607s'
    ]
   },
   {
     Title:'Indian Cities Prepare for Floods with Predictive Technology',
-    Details: "15 June 2021- This was featured on EoS by American Geophysical Union",
+    Details: "June 15, 2021- This was featured on EoS by American Geophysical Union",
     link:[
       '../../assets/pdfs/Media Coverage/eos.org-Indian Cities Prepare for Floods with Predictive Technology.pdf'
    ]
@@ -173,7 +201,7 @@ export const media_coverage =[
   },
   {
     Title:'Extreme rainfall not because of global factors: study.',
-    Details: "24 February, 2016",
+    Details: "February 24, 2016",
     link:[
       '../../assets/pdfs/Media Coverage/livemint.com-Extreme rainfall not because of global factors study.pdf'
    ]
