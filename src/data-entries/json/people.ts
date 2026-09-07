@@ -1088,6 +1088,14 @@ export const projectStaff = [
         Project: "IGLOO-IHR: Investigating Glacier-Lake Interactions through Modelling and Observations to Assess Potential GLOF Areas in the Indian Himalayan Region",
         email: "kritagyat@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Kritagya_Tomar.webp",
+      },
+      {
+        name: "Ms. Anjana Jayakumar" ,
+        Designation: "Project Associate" ,
+        'Degree and Affiliation': "B.Sc-M.Sc (Integrated), Climate Change Adaptation | College of Climate Change and Environmental Science (CCC&ES), Kerala Agricultural University (KAU), Thrissur, Kerala" ,
+        Project: "A Proxy and Modelling approach to Understanding Indian Summer Monsoon Precipitation Variability and Abrubt Shifts",
+        email: "anjanaj@iisc.ac.in" ,
+        imgSrc: "../../assets/images/Project Staff/Anjana_Jayakumar.webp",
       }
     ],
   },
