@@ -25,7 +25,7 @@ export class AppComponent {
 
     $('body').css(configurations['global-settings']);
 
-    $(atob('Zm9vdGVy')).children().last().append(atob('PHN0eWxlPmh0bWwsYm9keXtkaXNwbGF5OmJsb2NrfTwvc3R5bGU+PHNwYW4gc3R5bGU9ImZsb2F0OnJpZ2h0OyI+RGVzaWduZWQgYnkgQXJjaGl0IFIgQnViYmVyLjwvc3Bhbj4='))
+    $(atob('Zm9vdGVy')).children().last().append(atob('PHN0eWxlPmh0bWwsYm9keXtkaXNwbGF5OmJsb2NrfTwvc3R5bGU+PHNwYW4gc3R5bGU9ImZsb2F0OnJpZ2h0OyI+RW5naW5lZXJlZCBieSBBcmNoaXQgQnViYmVyPC9zcGFuPg=='))
 
     $('.nav-menu-button').addClass('navbar-toggler-icon')
 

@@ -12,24 +12,16 @@ import 'jquery';
 export class PeopleComponent {
   $=$;
   staffUnderDesignation:any;
+  designationNames: string[]=[];
   type : string = '';
   dataType: string ='';
+  activeTab: string = 'Current';
   getObjectKeys(obj: any): string[] {
     return Object.keys(obj);
   }
-  constructor(private route: ActivatedRoute,private router: Router){
-
-  }
-
-  designationNames: string[]=[];
-
+  constructor(private route: ActivatedRoute,private router: Router){}
 
   ngOnInit(): void {
-    // var dist = (<any>$(window)).width() -(<any>$('#search-bar')).offset().left;
-    // (<any>$('#search-bar')).css('margin-left',dist+'px');
-    // $.getScript('//cdn.jsdelivr.net/isotope/1.5.25/jquery.isotope.min.js',function(){
-
-    // this.type = <string>this.route.snapshot.queryParamMap.get('type');
     this.type = <string>this.router.url.split('/').pop();
 
     let filterBy = this.route.snapshot.queryParamMap.get('filterBy');
@@ -70,10 +62,12 @@ export class PeopleComponent {
       $(element).addClass('font-highlight');
     else
       $(element).removeClass('font-highlight');
+  });
 
- });
+  if (this.designationNames.length > 0 && !this.designationNames.includes(this.activeTab)) {
+  this.activeTab = this.designationNames[0];
   }
-
+}
 
   processNestedDataForRendering(filterBy:any,peopleData:any){
     this.staffUnderDesignation = [];
@@ -88,11 +82,15 @@ export class PeopleComponent {
         this.staffUnderDesignation.push(c[0]);
       }
     }
+    if (this.designationNames.length > 0 && !this.designationNames.includes(this.activeTab)) {
+      this.activeTab = this.designationNames[0];
+    }
   }
 
   processRequestedDataForRendering(designationName:string,data:any){
     this.designationNames.push(designationName);
     this.staffUnderDesignation = data;
+    this.activeTab = designationName;
   }
 
   getKeysFromJson(data:any){

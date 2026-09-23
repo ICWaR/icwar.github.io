@@ -1,22 +1,21 @@
 .carousel-inner{
-  max-height: 60vh
+  max-height: 65vh
 }
 .bg-light{
   background-color: rgb(50, 48, 48);
   color: rgb(50, 48, 48);
 }
 
-button.btn.btn-text-expand.collapsed:before
-{
-    content:'..Read more' ;
-    display: block;
-    width: 100px;
+button.btn.btn-text-expand.collapsed:before {
+  content: '..Read more';
+  display: block;
+  width: 100px;
 }
-button.btn.btn-text-expand:before
-{
-    content:'Read less' ;
-    display: block;
-    width: 100px;
+
+button.btn.btn-text-expand:before {
+  content: 'Read less';
+  display: block;
+  width: 100px;
 }
 
 div.card-body > .row{
@@ -62,4 +61,17 @@ div.card-body > .row{
 a {
   text-decoration: none;
   color: black;
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+  font-size: clamp(1rem, 1vw + 0.6rem, 1.5rem);
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
