@@ -1,0 +1,28 @@
+<div class="container-fluid text-center mt-3">
+  <h2><b>Courses Offered</b></h2>
+</div>
+<hr>
+<div class="container py-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+    <div class="col" *ngFor="let course of courses">
+      <div class="card h-100 shadow-sm border-0 rounded-4">
+        <div class="card-body">
+         <h5 class="card-title fw-semibold">
+            <a [href]="course.link" target="_blank" rel="noopener" class="text-decoration-none">
+              {{ course.code }} – {{ course.name }}
+            </a>
+          </h5>
+          <p class="mb-1"><strong>Credits:</strong> {{ course.credits }}</p>
+          <p class="mb-1"><strong>Semester:</strong> {{ course.semester }}</p>
+          <p class="mb-2"><strong>Instructor:</strong> {{ course.instructor }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="mt-5 px-md-3">
+    For further details, connect to
+    <a href="https://indianinstituteofscience.sharepoint.com/sites/ICWaR.IISc/SitePages/Home.aspx" target="_blank">
+      Intra-IISc ICWaR Page
+    </a>
+  </p>
+</div>

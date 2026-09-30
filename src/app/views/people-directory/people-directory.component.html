@@ -1,0 +1,136 @@
+<div class="container my-4">
+
+  <h2 class="mb-4 text-center"><b>ICWaR People Directory – Current</b></h2>
+<hr>
+  <!-- Faculty -->
+  <section class="mb-5">
+    <h4>Faculty ({{ faculty.length }})</h4>
+    <div class="table-responsive mt-2">
+      <table class="table table-bordered table-sm table-striped">
+        <thead class="table-light">
+          <tr>
+            <th>Sr. No</th>
+            <th>Name</th>
+            <th>Designation</th>
+            <th>Department</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let f of faculty; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ f.name }}</td>
+            <td>{{ f.designation }}</td>
+            <td>{{ f.department }}</td>
+            <td>
+              <a *ngIf="f.email" [href]="'mailto:' + f.email">{{ f.email }}</a>
+              <span *ngIf="!f.email">-</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Research Students -->
+  <section class="mb-5">
+    <h4>Research Students ({{ researchStudents.length }})</h4>
+    <div class="table-responsive mt-2">
+      <table class="table table-bordered table-sm table-striped">
+        <thead class="table-light">
+          <tr>
+            <th>Sr. No</th>
+            <th>Name</th>
+            <th>Degree Registered</th>
+            <th>Degree and Affiliation</th>
+            <th>Email</th>
+            <th>Supervisor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let s of researchStudents; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ s.name }}</td>
+            <td>{{ s.degree }}</td>
+            <td>{{ s.affiliation }}</td>
+            <td>
+              <a *ngIf="s.email" [href]="'mailto:' + s.email">{{ s.email }}</a>
+              <span *ngIf="!s.email">-</span>
+            </td>
+            <td>{{ s.supervisor }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Post Doctoral Scholars -->
+  <section class="mb-5">
+    <h4>Post Doctoral Scholars ({{ postDoctoralScholars.length }})</h4>
+    <div class="table-responsive mt-2">
+      <table class="table table-bordered table-sm table-striped">
+        <thead class="table-light">
+          <tr>
+            <th>Sr. No</th>
+            <th>Name</th>
+            <th>Designation</th>
+            <th>Degree and Affiliation</th>
+            <th>Email</th>
+            <th>Project</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let p of postDoctoralScholars; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ p.name }}</td>
+            <td>{{ p.designation }}</td>
+            <td>{{ p.affiliation }}</td>
+            <td>
+              <a *ngIf="p.email" [href]="'mailto:' + p.email">{{ p.email }}</a>
+              <span *ngIf="!p.email">-</span>
+            </td>
+            <td>{{ p.project }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Project Staff -->
+  <section class="mb-5">
+    <h4>Project Staff ({{ projectStaff.length }})</h4>
+    <div class="table-responsive mt-2">
+      <table class="table table-bordered table-sm table-striped table-hover align-middle">
+        <thead class="table-light">
+          <tr>
+            <th>Sr. No</th>
+            <th>Name</th>
+            <th>Designation</th>
+            <th>Degree and Affiliation</th>
+            <th>Email</th>
+            <th>Project</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let p of projectStaff; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ p.name || '-' }}</td>
+            <td>{{ p.designation || '-' }}</td>
+            <td>{{ p.affiliation || '-' }}</td>
+            <td>
+              <a *ngIf="p.email" [href]="'mailto:' + p.email">{{ p.email }}</a>
+              <span *ngIf="!p.email">-</span>
+            </td>
+            <td>{{ p.project || '-' }}</td>
+          </tr>
+          <tr *ngIf="projectStaff.length === 0">
+            <td colspan="6" class="text-center text-muted">
+              No Project Staff records available
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</div>

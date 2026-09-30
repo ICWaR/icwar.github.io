@@ -21,8 +21,9 @@ hr{
 div.d-flex{
   max-width: 100%;
 }
-.fa-phone,.fa-envelope{
+.fa-phone,.fa-envelope, .fa-globe, .fa-email{
   color: #0949ca;
+  text-decoration: none;
 }
 
 .facultySideNavHighlight {
@@ -61,5 +62,11 @@ div.d-flex{
   .card-header {
     flex-direction: row;
     align-items: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .card-header {
+    flex-direction: column;
   }
 }

@@ -25,7 +25,7 @@
         </div>
         <div class="card-footer text-muted d-flex justify-content-between">
           <p><b style="margin-right: auto">Worked as: </b>{{ testimonial.workedAs }}</p>
-          <span>({{ testimonial.duration }})</span>
+          <span *ngIf="testimonial.duration" >({{ testimonial.duration }})</span>
         </div>
       </div>
     </div>

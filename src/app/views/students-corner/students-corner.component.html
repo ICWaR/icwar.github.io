@@ -22,7 +22,7 @@
                     <b>{{ blog.title }}</b>
                   </h5>
                   <div class="card-footer text-muted">
-                    <h5 class="float-end">-by {{ blog.author }}</h5>
+                    <h5 *ngIf="blog.author" class="float-end">-by {{ blog.author }}</h5>
                   </div>
                 </div>
               </div>
@@ -36,18 +36,18 @@
     <div class="carousel-controls-container">
       <button class="carousel-control-prev" type="button" (click)="prevSlide()"></button>
       <div class="carousel-indicators">
-        <button type="button" *ngFor="let slice of generateBlogSlices(3); let i = index" 
-              data-bs-target="#carouselExampleControls" 
-              [attr.data-bs-slide-to]="i" 
-              [class.active]="i === currentSlideIndex" 
+        <button type="button" *ngFor="let slice of generateBlogSlices(3); let i = index"
+              data-bs-target="#carouselExampleControls"
+              [attr.data-bs-slide-to]="i"
+              [class.active]="i === currentSlideIndex"
               (click)="slideTo(i)"
               [attr.aria-current]="i === currentSlideIndex ? 'true' : 'false'"
               [attr.aria-label]="'Slide ' + (i + 1)">
         </button>
       </div>
       <button class="carousel-control-next" type="button" (click)="nextSlide()"></button>
-    </div> 
-  
+    </div>
+
   </div>
 
   <!-- Modal -->

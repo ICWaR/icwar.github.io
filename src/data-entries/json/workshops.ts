@@ -1,16 +1,144 @@
 export const workshops=[
   {
+    Date: '08 JULY, 2026',
+    Title:'Indo-Taiwan Delegation Visit and Interactive Session on Urban Water Sustainability',
+    Details: `The Interdisciplinary Centre for Water Research (ICWaR) hosted an interactive session with a distinguished joint delegation to discuss critical challenges and innovations in urban water management. The visiting team included Dr. Farhat Naz (Associate Professor, IIT Jodhpur), her collaborators from the National Pingtung University of Science and Technology (NPUST), Taiwan, Prof. Herlin Chien and Prof. Ting, as well as a representative from the Taiwan Consulate in New Delhi. Led by Prof. Praveen (Chair, ICWaR), Prof. Prosenjit Ghosh, Dr. Rajarshi Das Bhowmik, and joined by several postdoctoral scholars, the meeting facilitated a deep dive into Bengaluru's water issues, urban development dynamics, water technologies, sustainability, and climate change resilience. This knowledge exchange was organized as part of the bilateral ICSSR and NSTC funded project titled, "Designing Water Sustainability in Urban Contexts from a Socio Hydrological Systems Approach: A Study of Bangalore, India and Kaohsiung, Taiwan."`,
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/Indo-Taiwan_Delegation_08072026_1.webp',
+      '../../assets/images/Workshop and Meetings/Indo-Taiwan_Delegation_08072026_2.webp',
+    ]
+  },
+  {
+    Date: '03 JULY, 2026',
+    Title:'THENSA Delegation Visit and Interactive Session on Innovation and Enterprise',
+    Details: 'The Centre hosted a distinguished delegation from the Technological Higher Education Network South Africa (THENSA) to explore purposeful partnerships and the translation of academic research into tangible societal solutions. The delegation included Prof Marshall Sheldon alongside Deputy Vice Chancellors responsible for Research, Innovation, Partnerships, and Engagement, namely Prof Fulufhelo Netswera (University of Venda), Prof Fulufhelo Ṋemavhola (Durban University of Technology), and Dr Simphiwe Maurice Nelana (Vaal University of Technology), as well as Directors of Technology Transfer Offices. The visit focused on the vital ecosystem required to nurture ideas, highlighting the importance of advanced infrastructure, strong postgraduate pipelines, enabling policies, and industry partnerships. Discussions underscored a shared vision for globally connected yet locally rooted universities, emphasizing the core principle that research must ignite innovation, innovation must enable enterprise, and enterprise must ultimately contribute to society.',
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/THENSA_03072026_1.webp',
+      '../../assets/images/Workshop and Meetings/THENSA_03072026_2.webp',
+    ]
+  },
+  {
+    Date: '13 MAY, 2026',
+    Title:'Peer-to-Peer Exchange Workshops on River Basin Management (RBM) ~ Advancing India–EU Strategic Cooperation on River Basin Management: India–EU Water Initiative',
+    Details: 'Under the India–EU Water Initiative, the Peer-to-Peer Exchange Workshops on River Basin Management (RBM) were held to advance India–EU strategic cooperation by sharing progress, key findings, and challenges from basin assessment studies while drawing on mutual experiences. The sessions presented practical approaches and lessons learned from the Tapi and Ramganga RBM Plans, as well as studies in the Cauvery and Periyar basins, to successfully explore the institutional arrangements, coordination mechanisms, and financing approaches required for effective implementation. This collaborative effort was guided by key officials including Shri Zaigam Khan (Joint Secretary, MoJS) and Advisor Shri Rajeev Ranjan Mishra (Former Director General, NMCG, MoJS), alongside a distinguished team of EU and regional experts featuring Dr. Paul Campling (VITO Belgium), Prof. Christian Bert Wolfgang Kazner (Bochum University of Applied Sciences, Germany), Dr. Andreas de Jong (Consortium Dorsch Impact GmbH–BORDA e.V.–KPMG Assurance and Consulting Services LLP, Spain), and Dr. Girija Bharat (Mugamma Consultants, India). Essential insights were also shared by the PI and Co-PIs of cCauvery (IISc, NITT) and cPariyar (IITPKD, NITC), with the successful execution of the event supported by the GIZ India team, comprising Project Manager Dr. Vikrant Tyagi and dedicated advisers Ms. Chhavi Sharda, Mr. Mohit Gupta, Ms. Usha Das Dewani, and Mr. Suvajit Dey.',
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/RBM_GIZ_13052026_1.webp',
+      '../../assets/images/Workshop and Meetings/RBM_GIZ_13052026_2.webp',
+    ]
+  },
+  {
+    Date: '16 MAR, 2026',
+    Title:'Discussion Meeting of Cauvery, IISc Bengaluru Team and Advanced Centre for Integrated Water Resources Management (ACIWRM)',
+    Details: 'To view details,',
+    link:[
+      '../../assets/pdfs/ICWaR WebLinks/ACIWRM_16032026.pdf'],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/ACIWRM_16032026.webp',
+    ]
+  },
+  {
+    Date: '28 JAN, 2026',
+    Title:'Interaction Meeting with University of Nepal Delegation',
+    Details: 'An interaction was held between the ICWaR team and the University of Nepal delegation comprising Dr. Surya Raj Acharya (Registrar), Lal Krishna K C (BoT Member & Executive Committee Chairperson), and Dr. Karan Singh Thagunna (Academic Director, SAST). The discussion briefly covered possible collaboration through exchange programs, joint research, academic support, and the concept of an EECS Program Centre, along with a few institutional queries regarding its functioning.',
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/NepalDelegation_27012026_1.webp',
+      '../../assets/images/Workshop and Meetings/NepalDelegation_27012026_2.webp'
+    ]
+  },
+  {
+    Date: '27 NOV, 2025',
+    Title:'Discussion Meeting with Prof. Apparao M. Rao',
+    Details: 'Prof. Apparao M. Rao, Founding Director of the Clemson Nanomaterials Institute and a globally acclaimed figure in nanomaterials research, is renowned for his pioneering work in Raman spectroscopy, carbon nanomaterials, energy harvesting systems, and advanced electrochemical technologies. As a Robert A. Bowen Endowed Professor at Clemson University, he has made influential contributions that have shaped modern materials science and earned him Fellowships in APS, AAAS, MRS, and NAI. During his recent visit to ICWaR, IISc Bengaluru, Prof. Rao had an insightful interaction with the Chair of ICWaR and the students of our department. The discussion focused on emerging trends in nanomaterials, energy storage, and sustainable technologies, offering students a unique opportunity to learn directly from a world-leading scientist. He patiently listened to their research ideas, provided thoughtful suggestions for improvement, and encouraged them to pursue innovative, problem-driven investigations. The Chair of ICWaR engaged him in a meaningful exchange on potential collaborations, interdisciplinary opportunities, and future directions for strengthening research activities within the department. Prof. Rao also reviewed ongoing student projects, appreciating the quality of their work and motivating them to aim for higher scientific impact. His visit inspired the students and faculty alike, leaving a lasting impression and opening pathways for future academic and research partnerships.',
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/Meeting_27112025_1.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_27112025_2.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_27112025_3.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_27112025_4.webp'
+    ]
+  },
+  {
+    Date: '06 SEPT, 2025',
+    Title:'Visit from Agriculture Department, Government of Maharashtra',
+    Details: 'On 6th September, ICWaR welcomed senior officials from the Government of Maharashtra’s Agriculture Department — Shri Vikas Rastogi, IAS, Principal Secretary, and Shri Parimal Singh, IAS, Project Director, PoCRA Plus. The discussions centered on ICWaR’s work in climate resilience, sustainable agriculture, and water management, and explored potential collaborations with the state’s flagship programs. The visit also highlighted ICWaR’s role in advancing interdisciplinary research for public good.',
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/Meeting_06092025_1.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_06092025_2.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_06092025_3.webp'
+    ]
+  },
+  {
+    Date: '27 JAN, 2025',
+    Title:'Discussion meeting with Daniël van Horn',
+    Details: 'The interaction focused on Karnataka’s water challenges, including geographic and climatic impacts, as well as ICWaR’s international partnerships, particularly with France, and potential collaborations with the Dutch water sector.',
+    // link:[
+    //   ''],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/Meeting_270120251.webp',
+      '../../assets/images/Workshop and Meetings/Meeting_270120252.webp'
+    ]
+  },
+  {
+    Date: '06 JAN, 2025',
+    Title:'Training Program on Advanced Technologies for Water Resources Management held during 06 - 10 January, 2025  ',
+    Details: 'Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru organised a one-week Mandatory Cadre Training Programme (MCTP) on “Advanced Technologies for Water Resources Management”, during 06 – 10 January, 2025. The MCTP was sponsored by the National Water Academy (NWA) to train STS Officers of CWES (Group-A) Batch – IV Level-2.The training programme comprised of lectures and tutorials by experts, covering advanced topics in Remote Sensing and GIS, Reservoir Operation, Irrigation Water Management and Canal Automation, Urban and Riverine Flood Assessment and Mitigation, Climate Change Impact, Internet of Things (IoT) – Introduction and Applications: Water quality and Emerging Contaminants. ',
+    link:[
+      '../../assets/pdfs/ICWaR WebLinks/Short Report_NWA_06JAN2025.pdf'],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/NWA_06012025.webp',
+      '../../assets/images/Workshop and Meetings/NWA_KSNDMC_06012025.webp',
+      '../../assets/images/Workshop and Meetings/NWA_Group_06012025.webp',
+      '../../assets/images/Workshop and Meetings/NWA_KSNDMC_Group_06012025.webp'
+    ]
+  },
+  {
+    Date: '16 DEC, 2024',
+    Title:'Visit of Professor Bryan Brooks to IISc and ICWaR',
+    Details: 'Professor Bryan Brooks, Editor-in-Chief of ES&T Letters, visited IISc Bangalore on December 16-17, 2024, for discussions on environmental research. A round table discussion with ICWaR faculty was held on December 16, focusing on ongoing research collaborations. On December 17, he delivered a lecture at the ICWaR conference hall in the afternoon.',
+    // link:[
+    //   ''],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/ACS-1_16122024.webp',
+      '../../assets/images/Workshop and Meetings/ACS-2_16122024.webp',
+      '../../assets/images/Workshop and Meetings/ACS-3_17122024.webp',
+      '../../assets/images/Workshop and Meetings/ACS-4_17122024.webp'
+    ]
+  },
+  {
+    Date: '13 DEC, 2024',
+    Title:'Discussion meeting with Dartmouth Delegation',
+    Details: 'The discussion meeting aims to explore opportunities for collaborative research initiatives and to identify potential synergies between Dartmouth and ICWaR. Dartmouth Delegates include: David Kotz – Provost and Pat and John Rosenwald Professor, Computer Science; Geoffrey G. Parker – Interim Faculty Director of the Irving Institute at Dartmouth; Angelika Hofmann – Director of Research Programs at the Irving Institute at Dartmouth; Anant Sundaram – Clinical Professor of Finance; Amit Chakrabarti – Professor, Department of Computer Science; Andrila Hait - Research Programs, Irving institute.',
+    // link:[
+    //   ''],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/Dartmouth_1_13122024.webp',
+      '../../assets/images/Workshop and Meetings/Dartmouth_2_13122024.webp',
+      '../../assets/images/Workshop and Meetings/Dartmouth_3_13122024.webp'
+    ]
+  },
+  {
+    Date: '12 NOV, 2024',
+    Title:'Discussion meeting with alphaTKG Director, Mr. Kumar Muniratnam; Finance Director, Mr. Yasushi Miyata; and Director & CTO, Mr. Periasamy Thanapandi',
+    Details: 'The meeting focused on discussing various work carried out at ICWaR',
+    // link:[
+    //   ''],
+    imgsArray:[
+      '../../assets/images/Workshop and Meetings/alfaTKG_1_12112024.webp',
+      '../../assets/images/Workshop and Meetings/alfaTKG_2_12112024.webp',
+      '../../assets/images/Workshop and Meetings/alfaTKG_3_12112024.webp'
+    ]
+  },
+  {
     Date: '11 DEC, 2023',
     Title:'Training Program on Advanced Technologies for Water Resources Management held during 11-15 December, 2023  ',
     Details: 'A training program on Advanced Technologies for Water Resources Management, sponsored by the National Water Academy (NWA) was held at the Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru, between 11-15 December, 2023. A total of 24 participants are practicing Chief Engineers and Executive Engineers in the Central Water Commission (CWC).  ',
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20231.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20232.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20233.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20234.jpg',
-      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20235.jpg'
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20231.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20232.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20233.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20234.webp',
+      '../../assets/images/Workshop and Meetings/NWA_WRM_DEC20235.webp'
     ]
   },
   {
@@ -20,21 +148,21 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20231.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20232.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20233.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20234.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20235.jpg'
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20231.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20232.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20233.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20234.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H_OCT20235.webp'
     ]
   },
   {
     Date: '07 AUG, 2023',
     Title:'Monsoon School on Urban Floods held during 07-12 August, 2023',
-    Details: 'Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bangalore organized a one-week workshop titled “Monsoon School on Urban Floods” during 07 – 12 August, 2023. The Monsoon School was funded by the research project titled, “National Supercomputing Mission”, sponsored by the Department of Science & Technology (DST), Government of India.',
+    Details: 'Interdisciplinary Centre for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru organized a one-week workshop titled “Monsoon School on Urban Floods” during 07 – 12 August, 2023. The Monsoon School was funded by the research project titled, “National Supercomputing Mission”, sponsored by the Department of Science & Technology (DST), Government of India.',
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2023.jpg'
+      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2023.webp'
     ]
   },
   {
@@ -44,9 +172,9 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Engineering_H1.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H2.jpg',
-      '../../assets/images/Workshop and Meetings/Engineering_H3.jpg'
+      '../../assets/images/Workshop and Meetings/Engineering_H1.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H2.webp',
+      '../../assets/images/Workshop and Meetings/Engineering_H3.webp'
     ]
   },
   {
@@ -56,9 +184,9 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Brainstorming-1.jpg',
-      '../../assets/images/Workshop and Meetings/Brainstorming-2.jpg',
-      '../../assets/images/Workshop and Meetings/Brainstorming-3.jpg'
+      '../../assets/images/Workshop and Meetings/Brainstorming-1.webp',
+      '../../assets/images/Workshop and Meetings/Brainstorming-2.webp',
+      '../../assets/images/Workshop and Meetings/Brainstorming-3.webp'
     ]
   },
   {
@@ -68,8 +196,8 @@ export const workshops=[
     link:[
       '../../assets/pdfs/ICWaR WebLinks/Hassan_Minutes_Report_06DEC2022.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/pic-collage-hoysalavillage.jpg',
-      '../../assets/images/Workshop and Meetings/IMG_0783-hoysala.jpg'
+      '../../assets/images/Workshop and Meetings/pic-collage-hoysalavillage.webp',
+      '../../assets/images/Workshop and Meetings/IMG_0783-hoysala.webp'
     ]
   },
   {
@@ -79,36 +207,36 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/9sept-2022.jpg',
-      '../../assets/images/Workshop and Meetings/9sept-2022,2.jpg',
-      '../../assets/images/Workshop and Meetings/9sept-2022,3.jpg',
-      '../../assets/images/Workshop and Meetings/9sept-2022,4.jpg'
+      '../../assets/images/Workshop and Meetings/9sept-2022.webp',
+      '../../assets/images/Workshop and Meetings/9sept-2022,2.webp',
+      '../../assets/images/Workshop and Meetings/9sept-2022,3.webp',
+      '../../assets/images/Workshop and Meetings/9sept-2022,4.webp'
     ]
   },
   {
     Date: '18 MAR, 2021',
     Title:'Third Advisory committee meeting of UFM project',
-    Details: 'The third annual Advisory Committee (AC) Meeting of the ongoing project, “Urban Flood Model for Bangalore” was held online on the 18th of March, 2021 from 10: 30 am -1:15 pm. The meeting was chaired by Shri S V Ranganath and was attended by the esteemed Advisory Committee of the project, senior academicians and officials from IISC, project stakeholder organizations and project partners.',
+    Details: 'The third annual Advisory Committee (AC) Meeting of the ongoing project, “Urban Flood Model for Bengaluru” was held online on the 18th of March, 2021 from 10: 30 am -1:15 pm. The meeting was chaired by Shri S V Ranganath and was attended by the esteemed Advisory Committee of the project, senior academicians and officials from IISC, project stakeholder organizations and project partners.',
     link:[
       '../../assets/pdfs/ICWaR WebLinks/ACM_UFM 21 Minutes_18MAR2021.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/AC-meeting-Agenda-2021.jpg',
-      '../../assets/images/Workshop and Meetings/ACM3-1024.jpg',
+      '../../assets/images/Workshop and Meetings/AC-meeting-Agenda-2021.webp',
+      '../../assets/images/Workshop and Meetings/ACM3-1024.webp',
     ]
   },
   {
     Date: '20 FEB, 2021',
     Title:'Second Advisory committee meeting of UFM project',
-    Details: 'The second advisory committee meeting was held on 20th February 2020 in Interdisciplinary centre for water Research (ICWaR), IISc Bangalore in continuation with the first advisory committee meeting to discuss the progress of the work and to show how UFM team has implemented the suggestions given in the first advisory committee meeting. The major recommendations from the meeting include to extend the scope of the project to address a nationwide problem, implementation of the project at the ground level like multiplicity of agencies, uncertainty in prediction of extreme events and a pilot scheme needs to be designed. Standard Operating Procedure to be prepared before the monsoon season of 2020. Involvement of stake holders must be more in number, use of robotics and artificial intelligence through new companies to map blockages and to convert images posted into data. Improvement of recharge and better use of rainwater. The meeting also suggested to study the inter-linkages between the storm water management system and the sewerage system and implement the low impact development components to reduce flooding.',
+    Details: 'The second advisory committee meeting was held on 20th February 2020 in Interdisciplinary centre for water Research (ICWaR), IISc Bengaluru in continuation with the first advisory committee meeting to discuss the progress of the work and to show how UFM team has implemented the suggestions given in the first advisory committee meeting. The major recommendations from the meeting include to extend the scope of the project to address a nationwide problem, implementation of the project at the ground level like multiplicity of agencies, uncertainty in prediction of extreme events and a pilot scheme needs to be designed. Standard Operating Procedure to be prepared before the monsoon season of 2020. Involvement of stake holders must be more in number, use of robotics and artificial intelligence through new companies to map blockages and to convert images posted into data. Improvement of recharge and better use of rainwater. The meeting also suggested to study the inter-linkages between the storm water management system and the sewerage system and implement the low impact development components to reduce flooding.',
     link:[
       '../../assets/pdfs/ICWaR WebLinks/ACM2020Mom-sec_20FEB2021.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UFM-1.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-2.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-3.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-4.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-5.jpg',
-      '../../assets/images/Workshop and Meetings/UFM-6.jpg'
+      '../../assets/images/Workshop and Meetings/UFM-1.webp',
+      '../../assets/images/Workshop and Meetings/UFM-2.webp',
+      '../../assets/images/Workshop and Meetings/UFM-3.webp',
+      '../../assets/images/Workshop and Meetings/UFM-4.webp',
+      '../../assets/images/Workshop and Meetings/UFM-5.webp',
+      '../../assets/images/Workshop and Meetings/UFM-6.webp'
     ]
   },
   {
@@ -119,8 +247,8 @@ export const workshops=[
       '../../assets/pdfs/ICWaR WebLinks/Discussion-Meeting-Intro_01DEC2019.pdf',
       '../../assets/pdfs/ICWaR WebLinks/Workshop-report-Scale-Issues-in-Hydrology_final_01DEC2019.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Scale_issues.png',
-      '../../assets/images/Workshop and Meetings/Scale_issues2.png',
+      '../../assets/images/Workshop and Meetings/Scale_issues.webp',
+      '../../assets/images/Workshop and Meetings/Scale_issues2.webp',
     ]
   },
   {
@@ -130,7 +258,7 @@ export const workshops=[
     link:[
       'https://www.newton-bhabha-swr.org/upscape'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UPSCAPE.jpg'
+      '../../assets/images/Workshop and Meetings/UPSCAPE.webp'
     ]
   },
   {
@@ -140,17 +268,17 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/23-25Sept,2019.jpg'
+      '../../assets/images/Workshop and Meetings/23-25Sept,2019.webp'
     ]
   },
   {
     Date: '05 AUG, 2019',
     Title:'Monsoon School held during 5th-10th August, 2019',
-    Details: 'Interdisciplinary Center for Water Research (ICWaR), Indian Institute of Science (IISc), Bangalore organised a one-week Monsoon School on Urban Floods during 05 – 10 August, 2019. The School was sponsored by the Knowledge Societies Division of UNESCO, Paris and is partially supported by the research project entitled, “Urban Flood Model for Bangalore“, funded by Department of Science & Technology (DST), Government of India.',
+    Details: 'Interdisciplinary Center for Water Research (ICWaR), Indian Institute of Science (IISc), Bengaluru organised a one-week Monsoon School on Urban Floods during 05 – 10 August, 2019. The School was sponsored by the Knowledge Societies Division of UNESCO, Paris and is partially supported by the research project entitled, “Urban Flood Model for Bengaluru“, funded by Department of Science & Technology (DST), Government of India.',
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2019.jpg'
+      '../../assets/images/Workshop and Meetings/Monsoon-School_Group_photo-2019.webp'
     ]
   },
   {
@@ -160,7 +288,7 @@ export const workshops=[
     link:[
       '../../assets/pdfs/ICWaR WebLinks/Workshop-Concept-note_02AUG2019.pdf'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/2-3Aug-2019.jpg'
+      '../../assets/images/Workshop and Meetings/2-3Aug-2019.webp'
     ]
   },
   {
@@ -170,22 +298,22 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/NSM-Aug2019.1.jpg',
-      '../../assets/images/Workshop and Meetings/NSM-Aug2019.2.jpg',
-      '../../assets/images/Workshop and Meetings/NSM-Aug2019.3.jpg'
+      '../../assets/images/Workshop and Meetings/NSM-Aug2019.1.webp',
+      '../../assets/images/Workshop and Meetings/NSM-Aug2019.2.webp',
+      '../../assets/images/Workshop and Meetings/NSM-Aug2019.3.webp'
     ]
   },
   {
     Date: '23 APR, 2019',
-    Title:'Annual Progress Meet for the project “Urban Floods Model for Bangalore City”',
+    Title:'Annual Progress Meet for the project “Urban Floods Model for Bengaluru City”',
     Details: 'The Urban flood Model Team from IISc and KSNDMC visited the "School of Ancient Wisdom" on 23rd April, 2019. A progress meet was being held at the venue where the project partners from BBMP, BDA, Geokno, Spatika, CStep and KSCST were present.',
     link:[
-      'https://sites.google.com/site/urbanfloodmodelbangalore/consortium/iisc-bangalore'],
+      'https://sites.google.com/site/urbanfloodmodelBengaluru/consortium/iisc-Bengaluru'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UFMBC-1.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-2.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-3.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-4.jpg'
+      '../../assets/images/Workshop and Meetings/UFMBC-1.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-2.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-3.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-4.webp'
     ]
   },
   {
@@ -195,29 +323,29 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UPSCAPE_Meeting_Group_photo-MAR2019.jpg'
+      '../../assets/images/Workshop and Meetings/UPSCAPE_Meeting_Group_photo-MAR2019.webp'
     ]
   },
   {
     Date: '12 FEB, 2019',
-    Title:'Advisory Committee Meeting on “Urban Floods Model for Bangalore City”',
-    Details: 'The first Advisory Committee meeting on the project “Urban Flood Model for Bangalore City” was being held on 12th March, 2019, in ICWaR. The members of Advisory Committee for the project are: Sri SV Ranganath, Former Chief Secretary, GoK; Sri Manjunath Prasad, Commissioner, BBMP; Dr. RK Dave, Founder, RESPECT, Ex. Sr. Specialist (Policy and Plans), NDMA; Dr. Veena Srinivasan, Fellow convener-Centre for Environment and Development, ATREE; Prof. BS Murty, Professor, IIT Madras; Sri S Vishwanath, Water Conservation Expert, Founder and director, Biome Solutions.',
+    Title:'Advisory Committee Meeting on “Urban Floods Model for Bengaluru City”',
+    Details: 'The first Advisory Committee meeting on the project “Urban Flood Model for Bengaluru City” was being held on 12th March, 2019, in ICWaR. The members of Advisory Committee for the project are: Sri SV Ranganath, Former Chief Secretary, GoK; Sri Manjunath Prasad, Commissioner, BBMP; Dr. RK Dave, Founder, RESPECT, Ex. Sr. Specialist (Policy and Plans), NDMA; Dr. Veena Srinivasan, Fellow convener-Centre for Environment and Development, ATREE; Prof. BS Murty, Professor, IIT Madras; Sri S Vishwanath, Water Conservation Expert, Founder and director, Biome Solutions.',
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.1.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.2.jpg',
-      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.3.jpg'
+      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.1.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.2.webp',
+      '../../assets/images/Workshop and Meetings/UFMBC-12Feb2019.3.webp'
     ]
   },
   {
     Date: '26 NOV, 2018',
     Title:'Project Meet on Accompanying The adaptation of irrigated agriculture to climate CHAnge (ATCHA)',
-    Details: 'III ANR ATCHA project meeting was held in ICWaR on 26Nov-1Dec, 2018.The ATCHA project aims to accompany the adaptation of farming systems to climate change by combining an integrated biophysical model with a participatory approach in a network of experimental watersheds in the Karnataka state. The ATCHA project is based on (1) the strong partnership initiated with the International Joint Laboratory IFCWS (Indo-French Cell for Water Sciences, involving the Indian Institute of Science, Bangalore) which allowed to build an extensive database in the Berambadi experimental watershed (Critical Zone Observatory, ORE BVET) and (2) a specific Indo-French project (CEFIPRA AICHA, 2013-2016) in which an integrated model combining hydrology (AMBHAS), agronomy (STICS), economy (MoGire) and farmer decision (Namaste) models was developed.',
+    Details: 'III ANR ATCHA project meeting was held in ICWaR on 26Nov-1Dec, 2018.The ATCHA project aims to accompany the adaptation of farming systems to climate change by combining an integrated biophysical model with a participatory approach in a network of experimental watersheds in the Karnataka state. The ATCHA project is based on (1) the strong partnership initiated with the International Joint Laboratory IFCWS (Indo-French Cell for Water Sciences, involving the Indian Institute of Science, Bengaluru) which allowed to build an extensive database in the Berambadi experimental watershed (Critical Zone Observatory, ORE BVET) and (2) a specific Indo-French project (CEFIPRA AICHA, 2013-2016) in which an integrated model combining hydrology (AMBHAS), agronomy (STICS), economy (MoGire) and farmer decision (Namaste) models was developed.',
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/ATCHA-III.jpg'
+      '../../assets/images/Workshop and Meetings/ATCHA-III.webp'
     ]
   },
   {
@@ -227,18 +355,18 @@ export const workshops=[
     link:[
       'https://www.ceh.ac.uk/our-science/projects/india-uk-water-centre-iukwc'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/CHANSE-Sep2018.jpg'
+      '../../assets/images/Workshop and Meetings/CHANSE-Sep2018.webp'
     ]
   },
   {
     Date: '27 JUN, 2018',
     Title:'International Workshop on Urban Floods',
-    Details: 'International Workshop on Urban Floods conducted in ICWaR during June 27-29, 2018. Please find the link here to the “Urban Flood Model for Bangalore city”',
+    Details: 'International Workshop on Urban Floods conducted in ICWaR during June 27-29, 2018. Please find the link here to the “Urban Flood Model for Bengaluru city”',
     link:[
       '../../assets/pdfs/ICWaR WebLinks/Summary_Report_International_Workshop_on_Urban_Floods_27JUNE2018.pdf',
-      'https://sites.google.com/site/urbanfloodmodelbangalore/home'],
+      'https://sites.google.com/site/urbanfloodmodelBengaluru/home'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/workshop-on-urban-floods-28-06-2018.jpg'
+      '../../assets/images/Workshop and Meetings/workshop-on-urban-floods-28-06-2018.webp'
     ]
   },
   {
@@ -248,7 +376,7 @@ export const workshops=[
     link:[
       ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/HydrologicalOutlook-2018.jpg'
+      '../../assets/images/Workshop and Meetings/HydrologicalOutlook-2018.webp'
     ]
   },
   {
@@ -258,8 +386,8 @@ export const workshops=[
     link:[
       'http://ambhas.com/'],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/cosmos.png',
-      '../../assets/images/Workshop and Meetings/cosmos1.png'
+      '../../assets/images/Workshop and Meetings/cosmos.webp',
+      '../../assets/images/Workshop and Meetings/cosmos1.webp'
     ]
   },
   {
@@ -269,7 +397,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/Indo-UK_WQSP2016.jpg'
+      '../../assets/images/Workshop and Meetings/Indo-UK_WQSP2016.webp'
     ]
   },
   {
@@ -279,7 +407,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/if_workshop.jpg'
+      '../../assets/images/Workshop and Meetings/if_workshop.webp'
     ]
   },
   {
@@ -289,7 +417,7 @@ export const workshops=[
     // link:[
     //   ''],
     imgsArray:[
-      '../../assets/images/Workshop and Meetings/WaterSecurity-2015.jpg'
+      '../../assets/images/Workshop and Meetings/WaterSecurity-2015.webp'
     ]
   },
 ]
