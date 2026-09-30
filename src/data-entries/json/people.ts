@@ -1082,14 +1082,6 @@ export const projectStaff = [
         imgSrc: "../../assets/images/Project Staff/Lipika_Dutta.webp",
       },
       {
-        name: "Mr. Kritagya Kumar Singh Tomar" ,
-        Designation: "Program Assistant" ,
-        'Degree and Affiliation': "M.A, Geography (Specialization in Hydrology) | University of Mumbai" ,
-        Project: "IGLOO-IHR: Investigating Glacier-Lake Interactions through Modelling and Observations to Assess Potential GLOF Areas in the Indian Himalayan Region",
-        email: "kritagyat@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/Kritagya_Tomar.webp",
-      },
-      {
         name: "Ms. Anjana Jayakumar" ,
         Designation: "Project Associate" ,
         'Degree and Affiliation': "B.Sc-M.Sc (Integrated), Climate Change Adaptation | College of Climate Change and Environmental Science (CCC&ES), Kerala Agricultural University (KAU), Thrissur, Kerala" ,
@@ -1101,6 +1093,13 @@ export const projectStaff = [
   },
   {
     Former: [
+      {
+        name: "Mr. Kritagya Kumar Singh Tomar" ,
+        Designation: "Program Assistant" ,
+        'Degree and Affiliation': "M.A, Geography (Specialization in Hydrology) | University of Mumbai" ,
+        Project: "IGLOO-IHR: Investigating Glacier-Lake Interactions through Modelling and Observations to Assess Potential GLOF Areas in the Indian Himalayan Region",
+        imgSrc: "../../assets/images/Project Staff/Kritagya_Tomar.webp",
+      },
       {
         name: "Ms. Darshana Gautam" ,
         Designation: "Project Associate" ,
