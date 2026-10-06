@@ -17,8 +17,8 @@ export const faculty = [
   {
     'Core Faculty': [
       {
-        name: "Dr. Rajarshi Das Bhowmik",
-        Designation: "Assistant Professor",
+        name: "Prof. Rajarshi Das Bhowmik",
+        Designation: "Associate Professor",
         department: "ICWaR",
         phoneNo: "080 2293 3224",
         email: "rajarshidb@iisc.ac.in",
@@ -177,17 +177,6 @@ export const faculty = [
         website: "https://sites.google.com/view/soumi-dutta/home",
         details: " PhD, Indian Institute of Technology Kharagpur, India",
         researchInterest:"Water and wastewater treatment, membrane separation, self-cleaning and antifouling membranes, desalination, adsorption, selective metal recovery, nanomaterials, bio-based and antimicrobial materials, hydrogels, emerging pollutants (micro/nanoplastics, heavy metals, arsenic, uranium, PFAS), photocatalysis, microplastic degradation, constructed wetlands, sewage treatment, field-scale sustainable water remediation."
-      },
-      {
-        name: "Dr. Manikanta Velpuri",
-        Designation: "DST INSPIRE Faculty",
-        department: "ICWaR",
-        phoneNo: "",
-        email: "manikantav@iisc.ac.in",
-        imgSrc: "../../assets/images/Faculty/Dr.ManikantaV.webp",
-        website: "https://scholar.google.com/citations?user=3sPIz-AAAAAJ&hl=en&oi=ao",
-        details: "PhD, National Institute of Technology Warangal, India",
-        researchInterest:"Hydrological Modelling, Prediction in Ungauged Basins, Ensemble Streamflow Forecasting, Floods, Compound Events, Spatio-temporal Disaggregation, Multi-Model Ensembling, Reservoir Optimization."
       },
       {
         name: "Dr. Jisha Joseph",
@@ -621,6 +610,13 @@ export const researchStudents = [
 
 export const visitors = [
       {
+        name: "Prof. Kirsten Ngaire Nicholson",
+        'Designation and University of Visitior': "Professor Emeritus, School of Earth, Atmosphere and Sustainability, Ball State University, Muncie, Indiana, USA",
+        Duration: "02 October - 11 November, 2026",
+        website: "https://ccee.ncsu.edu/people/sarumug/",
+        imgSrc: "../../assets/images/Visitors/Prof.Kirsten_Ngaire_Nicholson.webp",
+      },
+      {
         name: "Prof. Sankar Arumugam",
         'Designation and University of Visitior': "Professor in the Department of Civil, Construction, and Environmental Engineering at NCSU",
         Duration: "13 April - 30 June, 2026",
@@ -911,7 +907,15 @@ export const postDoctoralScholars = [
         Project: "Polymer nanocomposites for energy and environmental applications",
         email: "bindu2@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.BinduM.webp",
-      }
+      },
+      {
+        name: "Dr. Ishita Bhatnagar" ,
+        Designation: "National Post-Doctoral Fellow (ANRF)" ,
+        'Degree and Affiliation': "PhD, Water Resources (Groundwater Modeling) | IIT Delhi" ,
+        Project: "Effectiveness of Managed Aquifer Recharge for Climate Adaptation under Changing Wet-Dry Spell Dynamics",
+        email: "" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.Ishita_Bhatnagar.webp",
+      },
     ],
   },
   {
@@ -1088,6 +1092,14 @@ export const projectStaff = [
         Project: "A Proxy and Modelling approach to Understanding Indian Summer Monsoon Precipitation Variability and Abrubt Shifts",
         email: "anjanaj@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Anjana_Jayakumar.webp",
+      },
+      {
+        name: "Mr. Amitoj Raj" ,
+        Designation: "Project Associate" ,
+        'Degree and Affiliation': "M.Tech, Land and Water Resources Engineering | IIT Kharagpur" ,
+        Project: "Reconstream - Systematic Reconstruction of Long-Term Streamflow Records in Indian Rivers",
+        email: "" ,
+        imgSrc: "../../assets/images/Project Staff/Amitoj_Raj.webp",
       }
     ],
   },
