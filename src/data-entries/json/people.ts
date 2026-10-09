@@ -612,7 +612,7 @@ export const visitors = [
       {
         name: "Prof. Kirsten Ngaire Nicholson",
         'Designation and University of Visitior': "Professor Emeritus, School of Earth, Atmosphere and Sustainability, Ball State University, Muncie, Indiana, USA",
-        Duration: "02 October - 11 November, 2026",
+        Duration: "02 October - 16 November, 2026",
         website: "",
         imgSrc: "../../assets/images/Visitors/Prof.Kirsten_Ngaire_Nicholson.webp",
       },
