@@ -14,7 +14,7 @@
 //                                                                                                                             //
 /*******************************************************************************************************************************/
 var constants = {
-  'font-size':'1.5rem !important',
+  'font-size':'1.35rem !important',
   "font-family":'Sabon-next-lt',
   "dropdown-color":"#d4ac92",
   "dropdown-style":{
@@ -65,17 +65,13 @@ export const configurations = {
             "hasSubDropdown":false
           },
           {
-            "name":"Program",
-            "link":"/program"
-          },
-          {
-            "name":"Infrastructure",
-            "link":"/centres-and-facilities"
-          },
-          {
             'name':'Admissions',
             'link':'/redirect',
             'redirect':'https://iisc.ac.in/admissions/',
+          },
+          {
+            "name":"Newsletter",
+            "link":"/newsletters"
           },
           {
             'name':"Contact Us",
@@ -120,8 +116,16 @@ export const configurations = {
         ],
       },
       {
+        "name":"Courses",
+        "link":"/courses"
+      },
+      {
         "name":"Research",
         "link":"/research"
+      },
+      {
+        "name":"Facilities",
+        "link":"/centres-and-facilities"
       },
       {
         "name":"Publications",
@@ -140,50 +144,74 @@ export const configurations = {
             "subDropdownItems":[
               {
                 "name":"Workshops",
-                "link":"/events/workshop-and-meetings/workshops"
+                "link":"/events/workshop-and-meetings"
+              },
+               {
+                "name":"GRACE Hackweek",
+                "link":"/events/GRACE-Hackweek"
               },
               {
                 "name":"Monsoon School",
                 "link":"/events/monsoon-school"
+              }
+            ]
+          },
+          {
+            "name":"Seminar Series",
+            "hasSubDropdown":true,
+            "link": "/seminars",
+            "dropdownStyle":constants['dropdown-style'],
+            "subDropdownItems":[
+              {
+                "name":"Guest Seminars",
+                "link":"/seminars/guest-seminars"
               },
               {
-                "name":"Seminars",
-                "link":"/events/workshop-and-meetings/seminars",
-              },
-              ]
+                "name":"Community Seminars",
+                "link":"/seminars/community-seminars"
+              }
+            ],
           },
           {
-            "name":"Student Seminar Series",
-            "link":"/students-seminar"
-          },
-          {
-            'name':'Gallery',
-            'link':'/gallery'
+            "name":"Media Coverage",
+            "link":"/media-coverage"
           },
           {
             "name":"Outreach",
             "link":"/outreach"
           },
           {
-            "name":"Media Coverage",
-            "link":"/media-coverage"
-          }
-        ],
-      },
-      {
-        "name":"Students Corner",
-        "hasDropdown":true,
-        "dropdownStyle":constants['dropdown-style'],
-        "dropdownItems":[
-          {
             "name":"Blogs",
             "link":"/students-blogs"
+          },
+          {
+            'name':'Gallery',
+            'link':'/gallery'
           },
           {
             "name":"Testimonials",
             "link":"/testimonials"
           }
         ],
+      },
+      // {
+      //   "name":"Students Corner",
+      //   "hasDropdown":true,
+      //   "dropdownStyle":constants['dropdown-style'],
+      //   "dropdownItems":[
+      //     {
+      //       "name":"Blogs",
+      //       "link":"/students-blogs"
+      //     },
+      //     {
+      //       "name":"Testimonials",
+      //       "link":"/testimonials"
+      //     }
+      //   ],
+      // }
+      {
+        "name":"Join ICWaR",
+        "link":"/join-icwar"
       }
     ]
   },
