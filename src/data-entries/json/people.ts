@@ -284,15 +284,6 @@ export const researchStudents = [
         imgSrc: "../../assets/images/Research/Diljit_Dutta.webp",
       },
       {
-        name: "Vishakha Chauhan" ,
-        'Degree Registered': "PhD" ,
-        'Degree and Affiliation': "M.Sc, Chemistry" ,
-        'Name of Supervisors': "Prof. Praveen C Ramamurthy and Prof. Prosenjit Ghosh",
-        'Research Topic': "Development of Novel Organic Chelators for Selective Detection and Remediation of Emerging Contaminants in Water",
-        email: "vishakhac@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Research/vishakha.webp",
-      },
-      {
         name: "Shairik Sengupta" ,
         'Degree Registered': "PhD" ,
         'Degree and Affiliation': "M.Sc, Environmental Science | Jawaharlal Nehru University, New Delhi" ,
@@ -556,6 +547,12 @@ export const researchStudents = [
   },
   {
     Former: [
+      {
+        name: "Vishakha Chauhan" ,
+        'Degree Registered': "PhD" ,
+        'Degree and Affiliation': "M.Sc, Chemistry" ,
+        imgSrc: "../../assets/images/Research/vishakha.webp",
+      },
       {
         name: "Posa Poornima Chandra Lekha" ,
         'Degree Registered': "PhD" ,
@@ -916,6 +913,14 @@ export const postDoctoralScholars = [
         email: "" ,
         imgSrc: "../../assets/images/Post Doc/Dr.Ishita_Bhatnagar.webp",
       },
+      {
+        name: "Dr. Debankana Bhattacharjee" ,
+        Designation: "Research Associate" ,
+        'Degree and Affiliation': "PhD, Water Resources Engineering (Climate Extremes) | IIT Delhi (2026)" ,
+        Project: "UNLOCKING: Unlocking Local Knowledge Production for Global Water Reanalysis (Schmidt Sciences)",
+        email: "" ,
+        imgSrc: "../../assets/images/Post Doc/Dr.Debankana_Bhattacharjee.webp",
+      },
     ],
   },
   {
@@ -1078,14 +1083,6 @@ export const projectStaff = [
         imgSrc: "../../assets/images/Project Staff/Ramesh_N.webp",
       },
       {
-        name: "Ms. Lipika Dutta" ,
-        Designation: "Project Associate" ,
-        'Degree and Affiliation': "M.Sc, Geography | Presidency University, Kolkata; PG Diploma, Remote Sensing & GIS | Indian Institute of Remote Sensing (IIRS), ISRO" ,
-        Project: "IGLOO-IHR: Investigating Glacier-Lake Interactions through Modelling and Observations to Assess Potential GLOF Areas in the Indian Himalayan Region",
-        email: "lipikad@iisc.ac.in" ,
-        imgSrc: "../../assets/images/Project Staff/Lipika_Dutta.webp",
-      },
-      {
         name: "Ms. Anjana Jayakumar" ,
         Designation: "Project Associate" ,
         'Degree and Affiliation': "B.Sc-M.Sc (Integrated), Climate Change Adaptation | College of Climate Change and Environmental Science (CCC&ES), Kerala Agricultural University (KAU), Thrissur, Kerala" ,
@@ -1098,7 +1095,7 @@ export const projectStaff = [
         Designation: "Project Associate" ,
         'Degree and Affiliation': "M.Tech, Land and Water Resources Engineering | IIT Kharagpur" ,
         Project: "Reconstream - Systematic Reconstruction of Long-Term Streamflow Records in Indian Rivers",
-        email: "" ,
+        email: "amitojraj@iisc.ac.in" ,
         imgSrc: "../../assets/images/Project Staff/Amitoj_Raj.webp",
       }
     ],
@@ -1111,6 +1108,13 @@ export const projectStaff = [
         'Degree and Affiliation': "M.A, Geography (Specialization in Hydrology) | University of Mumbai" ,
         Project: "IGLOO-IHR: Investigating Glacier-Lake Interactions through Modelling and Observations to Assess Potential GLOF Areas in the Indian Himalayan Region",
         imgSrc: "../../assets/images/Project Staff/Kritagya_Tomar.webp",
+      },
+      {
+        name: "Ms. Lipika Dutta" ,
+        Designation: "Project Associate" ,
+        'Degree and Affiliation': "M.Sc, Geography | Presidency University, Kolkata; PG Diploma, Remote Sensing & GIS | Indian Institute of Remote Sensing (IIRS), ISRO" ,
+        Project: "IGLOO-IHR: Investigating Glacier-Lake Interactions through Modelling and Observations to Assess Potential GLOF Areas in the Indian Himalayan Region",
+        imgSrc: "../../assets/images/Project Staff/Lipika_Dutta.webp",
       },
       {
         name: "Ms. Darshana Gautam" ,
