@@ -1,0 +1,553 @@
+
+/* =====================================
+   PROFILE PAGE
+===================================== */
+
+:host {
+  display: block;
+  font-family: inherit;
+  color: #344054;
+}
+
+.profile-page {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+
+/* =====================================
+   PROFILE HERO
+===================================== */
+
+.profile-hero {
+  position: relative;
+  padding: 55px 0;
+  background: linear-gradient(
+    120deg,
+    #ffffff 0%,
+    #f1f6fb 100%
+  );
+  border-bottom: 1px solid #e4eaf1;
+}
+
+.profile-image-wrapper {
+  display: inline-block;
+  padding: 6px;
+  background: #ffffff;
+  border: 1px solid #dce5ef;
+  border-radius: 16px;
+  box-shadow: 0 8px 28px rgba(20, 55, 90, 0.10);
+}
+
+.profile-image {
+  display: block;
+  width: 205px;
+  height: 225px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 11px;
+  background-color: #eaf0f6;
+}
+
+.profile-label {
+  display: inline-block;
+  color: #245b85;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+}
+
+.profile-name {
+  color: #173b5c;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 750;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.profile-designation {
+  color: #416b8d;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.profile-affiliation {
+  color: #626f7d;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 22px;
+}
+
+.profile-contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.profile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 17px;
+  border: 1px solid #cbd9e7;
+  border-radius: 6px;
+  color: #245b85;
+  background: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.profile-link:hover {
+  background: #174a75;
+  color: #ffffff;
+  border-color: #174a75;
+  transform: translateY(-2px);
+}
+
+
+/* =====================================
+   MAIN CONTENT
+===================================== */
+
+.profile-content {
+  padding-top: 35px;
+}
+
+.profile-card {
+  background: #ffffff;
+  padding: 27px;
+  margin-bottom: 24px;
+  border: 1px solid #e6ebf1;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(31, 55, 78, 0.035);
+  transition: box-shadow 0.25s ease;
+}
+
+.profile-card:hover {
+  box-shadow: 0 7px 24px rgba(31, 55, 78, 0.07);
+}
+
+
+/* =====================================
+   SECTION HEADINGS
+===================================== */
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 17px;
+  margin-bottom: 21px;
+  border-bottom: 1px solid #edf0f4;
+}
+
+.section-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  color: #245b85;
+  background: #eaf2f9;
+  border-radius: 9px;
+  font-size: 1.15rem;
+}
+
+.section-heading h3 {
+  color: #173b5c;
+  font-size: 1.22rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.profile-card > p {
+  color: #596675;
+  font-size: 0.96rem;
+  line-height: 1.9;
+  margin-bottom: 16px;
+}
+
+.profile-card > p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =====================================
+   TECHNICAL EXPERTISE
+===================================== */
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.expertise-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.expertise-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 43px;
+  height: 43px;
+  color: #245b85;
+  background: #edf4fa;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.expertise-item h4 {
+  color: #294b68;
+  font-size: 0.98rem;
+  font-weight: 700;
+  margin: 2px 0 8px;
+}
+
+.expertise-item p {
+  color: #6a7684;
+  font-size: 0.87rem;
+  line-height: 1.75;
+  margin-bottom: 0;
+}
+
+
+/* =====================================
+   RESPONSIBILITIES
+===================================== */
+
+.responsibility-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.responsibility-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.responsibility-item > i {
+  color: #2c7b62;
+  font-size: 1.05rem;
+  margin-top: 3px;
+}
+
+.responsibility-item h4 {
+  color: #294b68;
+  font-size: 0.98rem;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.responsibility-item p {
+  color: #6a7684;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+
+/* =====================================
+   SIDEBAR
+===================================== */
+
+.sidebar-card {
+  padding: 23px;
+}
+
+.sidebar-card .section-heading h3 {
+  font-size: 1.08rem;
+}
+
+.affiliation-details h4 {
+  color: #294b68;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 9px;
+}
+
+.affiliation-details > p {
+  color: #6a7684;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.detail-divider {
+  height: 1px;
+  background: #edf0f4;
+  margin: 17px 0;
+}
+
+.detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #687686;
+  font-size: 0.88rem;
+  line-height: 1.7;
+  margin-bottom: 13px;
+}
+
+.detail-item:last-child {
+  margin-bottom: 0;
+}
+
+.detail-item i {
+  color: #245b85;
+  font-size: 1rem;
+  margin-top: 3px;
+}
+
+.detail-item a {
+  color: #245b85;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.detail-item a:hover {
+  text-decoration: underline;
+}
+
+
+/* =====================================
+   EDUCATION
+===================================== */
+
+.education-item {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding-bottom: 23px;
+}
+
+.education-item:last-child {
+  padding-bottom: 0;
+}
+
+.education-marker {
+  display: block;
+  flex-shrink: 0;
+  width: 11px;
+  height: 11px;
+  background: #245b85;
+  border: 3px solid #e4eef7;
+  border-radius: 50%;
+  margin-top: 5px;
+  box-sizing: content-box;
+}
+
+.education-item h4 {
+  color: #294b68;
+  font-size: 0.93rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.education-item p {
+  color: #77818d;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+
+/* =====================================
+   QUALIFICATIONS
+===================================== */
+
+.qualification-badge {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 12px 13px;
+  margin-bottom: 12px;
+  color: #285d49;
+  background: #eef7f2;
+  border: 1px solid #d8ecdf;
+  border-radius: 7px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.qualification-badge:last-child {
+  margin-bottom: 0;
+}
+
+.qualification-badge i {
+  color: #368361;
+  font-size: 1rem;
+}
+
+
+/* =====================================
+   CONTACT CARD
+===================================== */
+
+.contact-card {
+  padding: 28px 24px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(
+    145deg,
+    #174a75,
+    #245f8d
+  );
+  border-radius: 12px;
+  box-shadow: 0 8px 22px rgba(23, 74, 117, 0.12);
+}
+
+.contact-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 16px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 12px;
+  font-size: 1.3rem;
+}
+
+.contact-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.contact-card p {
+  color: #e1eaf2;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 11px 21px;
+  color: #174a75;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  transition: all 0.25s ease;
+}
+
+.contact-button:hover {
+  color: #ffffff;
+  background: transparent;
+}
+
+
+/* =====================================
+   RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width: 991.98px) {
+
+  .profile-hero {
+    padding: 40px 0;
+  }
+
+  .profile-image {
+    width: 175px;
+    height: 195px;
+  }
+
+  .profile-card {
+    padding: 23px;
+  }
+
+  .sidebar-card {
+    padding: 21px;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+
+  .profile-hero {
+    padding: 32px 0;
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 155px;
+    height: 175px;
+  }
+
+  .profile-name {
+    font-size: 2rem;
+  }
+
+  .profile-designation {
+    font-size: 1.08rem;
+  }
+
+  .profile-affiliation {
+    font-size: 0.92rem;
+  }
+
+  .profile-contact-links {
+    justify-content: center;
+  }
+
+  .profile-content {
+    padding-top: 22px;
+  }
+
+  .profile-card {
+    padding: 21px;
+    margin-bottom: 18px;
+  }
+
+  .section-heading h3 {
+    font-size: 1.1rem;
+  }
+
+  .expertise-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .profile-name {
+    font-size: 1.7rem;
+  }
+
+  .profile-card {
+    padding: 17px;
+  }
+
+  .section-heading {
+    gap: 9px;
+  }
+
+  .section-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+
+}
+

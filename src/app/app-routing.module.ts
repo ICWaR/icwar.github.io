@@ -24,6 +24,7 @@ import { NewslettersComponent } from './views/newsletters/newsletters.component'
 import { PeopleDirectoryComponent } from './views/people-directory/people-directory.component';
 import { GRACEHackweekComponent } from './views/grace-hackweek/grace-hackweek.component';
 import { WellnessComponent } from './views/wellness/wellness.component';
+import { KrishnakpComponent } from './views/krishnakp/krishnakp.component';
 
 const routes: Routes = [
   {path: '', component: HomepageComponent},
@@ -61,6 +62,7 @@ const routes: Routes = [
   {path : 'newsletters', component:NewslettersComponent},
   {path : 'people-directory', component:PeopleDirectoryComponent},
   {path : 'wellness', component:WellnessComponent},
+  {path : 'krishnakp', component:KrishnakpComponent},
   {path:'**',component:PageNotFoundComponent}
 
 ];
