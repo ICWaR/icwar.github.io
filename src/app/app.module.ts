@@ -34,6 +34,7 @@ import { PeopleDirectoryComponent } from './views/people-directory/people-direct
 import { GRACEHackweekComponent } from './views/grace-hackweek/grace-hackweek.component';
 import { WellnessComponent } from './views/wellness/wellness.component';
 import { KrishnakpComponent } from './views/krishnakp/krishnakp.component';
+import { OshByAllComponent } from './views/osh-by-all/osh-by-all.component';
 
 @NgModule({
   imports: [
@@ -69,7 +70,8 @@ import { KrishnakpComponent } from './views/krishnakp/krishnakp.component';
     PeopleDirectoryComponent,
     GRACEHackweekComponent,
     WellnessComponent,
-    KrishnakpComponent
+    KrishnakpComponent,
+    OshByAllComponent
   ],
   bootstrap: [AppComponent],
 })

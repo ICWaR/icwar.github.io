@@ -1,0 +1,353 @@
+:host {
+  display: block;
+}
+
+.osh {
+  --osh-green: #206b49;
+  --osh-blue: #244a79;
+  --osh-ink: #183b38;
+  --osh-muted: #5d6d6c;
+
+  color: #243b39;
+  line-height: 1.65;
+}
+
+.osh section[id],
+.osh header[id] {
+  scroll-margin-top: 88px;
+}
+
+.osh h1,
+.osh h2,
+.osh h3,
+.osh h4 {
+  color: var(--osh-ink);
+  font-weight: 750;
+  line-height: 1.2;
+}
+
+.osh h2 {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  margin-bottom: 1rem;
+}
+
+.osh p {
+  max-width: 78ch;
+}
+
+.osh a {
+  text-underline-offset: 3px;
+}
+
+/* Announcement and navigation */
+.osh-alert {
+  background: #e9f5ed;
+  color: #245b40;
+  font-size: 0.94rem;
+}
+
+.osh-alert a {
+  color: inherit;
+}
+
+.osh .navbar {
+  z-index: 1020;
+}
+
+.osh .navbar-brand img {
+  object-fit: contain;
+}
+
+.osh .nav-link {
+  color: #294745;
+  font-weight: 600;
+}
+
+.osh .nav-link:hover,
+.osh .nav-link:focus {
+  color: var(--osh-green);
+}
+
+/* Buttons */
+.osh .btn-osh,
+.osh .btn-osh-outline {
+  border-radius: 0.65rem;
+  font-weight: 650;
+  padding: 0.7rem 1rem;
+  transition:
+    background-color 0.18s ease,
+    color 0.18s ease,
+    transform 0.18s ease;
+}
+
+.osh .btn-osh {
+  background: var(--osh-green);
+  border: 1px solid var(--osh-green);
+  color: #fff;
+}
+
+.osh .btn-osh:hover,
+.osh .btn-osh:focus {
+  background: #165337;
+  border-color: #165337;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.osh .btn-osh-outline {
+  background: transparent;
+  border: 1px solid var(--osh-green);
+  color: var(--osh-green);
+}
+
+.osh .btn-osh-outline:hover,
+.osh .btn-osh-outline:focus {
+  background: var(--osh-green);
+  color: #fff;
+}
+
+.osh .btn.disabled {
+  pointer-events: none;
+  opacity: 0.55;
+}
+
+/* Hero */
+.osh .hero {
+  background: linear-gradient(
+    130deg,
+    #f0f8f2 0%,
+    #edf5fc 100%
+  );
+}
+
+.osh .hero h1 {
+  color: #173e38;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.06;
+  font-size: clamp(2.7rem, 5vw, 4.5rem);
+}
+
+.osh .hero .lead {
+  max-width: 660px;
+}
+
+.osh .hero-img {
+  display: block;
+  width: 100%;
+  max-height: 610px;
+  object-fit: cover;
+}
+
+/* Sections */
+.osh .section-kicker {
+  color: var(--osh-green);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.55rem;
+  text-transform: uppercase;
+}
+
+.osh .tint {
+  background: #f4f7f6;
+}
+
+/* Health dimensions */
+.osh .dimension-card {
+  border-top: 4px solid;
+  box-shadow: 0 5px 20px rgba(22, 54, 47, 0.035);
+}
+
+.osh .dimension-card h3 {
+  font-weight: 750;
+}
+
+.osh .momentum {
+  background: linear-gradient(
+    120deg,
+    #e8f4eb,
+    #edf4fc
+  );
+  border: 1px solid #dce9e2;
+}
+
+.osh .momentum h3 {
+  margin-bottom: 0.65rem;
+}
+
+/* Strategic pillars and outcomes */
+.osh .pillar-card,
+.osh .info-panel,
+.osh .schedule-card,
+.osh .format-card,
+.osh .step-card,
+.osh .committee-card {
+  box-shadow: 0 5px 20px rgba(22, 54, 47, 0.035);
+}
+
+.osh .pillar-card {
+  border-left: 3px solid var(--osh-green) !important;
+}
+
+.osh .pillar-card h3 {
+  margin-bottom: 0.55rem;
+}
+
+.osh .info-panel h3 {
+  color: var(--osh-blue);
+}
+
+.osh .info-panel ul,
+.osh .schedule-card ul {
+  padding-left: 1.15rem;
+}
+
+.osh .info-panel li + li,
+.osh .schedule-card li + li {
+  margin-top: 0.4rem;
+}
+
+.osh .blocks li {
+  background: #fff;
+  border: 1px solid #dce6e0;
+  border-radius: 0.6rem;
+  color: var(--osh-green);
+  font-size: 0.92rem;
+  font-weight: 700;
+  min-width: 125px;
+  padding: 0.8rem 1rem;
+}
+
+/* Programme */
+.osh .schedule-card {
+  border-left: 4px solid;
+}
+
+.osh .schedule-card time {
+  color: var(--osh-blue);
+}
+
+.osh .schedule-card .small {
+  line-height: 1.5;
+}
+
+/* Brochure */
+.osh .brochure-viewer {
+  box-shadow: 0 6px 24px rgba(22, 54, 47, 0.07);
+}
+
+.osh .pdf {
+  display: block;
+  width: 100%;
+  height: 660px;
+  border: 0;
+  border-radius: 0.35rem;
+}
+
+/* Startup competition */
+.osh .comp {
+  background: linear-gradient(
+    180deg,
+    #f7faf8,
+    #eef5f1
+  );
+}
+
+.osh .deadline-card {
+  background: #fff;
+  border: 1px solid #dbe6df;
+  border-top: 4px solid var(--osh-green);
+}
+
+.osh .deadline-card strong {
+  color: var(--osh-blue);
+  line-height: 1.25;
+  margin: 0.25rem 0;
+}
+
+.osh .deadline-count {
+  color: #9b6410;
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
+.osh .category-card {
+  border-top: 4px solid;
+}
+
+.osh .category-card h4 {
+  margin-bottom: 0.5rem;
+}
+
+.osh .format-card h4 {
+  color: var(--osh-blue);
+}
+
+.osh .step-card {
+  border-top: 3px solid #c9ddd1 !important;
+}
+
+/* Committee and partners */
+.osh .committee-card strong {
+  color: #21433f;
+  line-height: 1.35;
+}
+
+.osh .partner-logos img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Contact and footer */
+.osh .contact-card {
+  box-shadow: 0 8px 26px rgba(22, 54, 47, 0.06);
+}
+
+.osh .contact-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 1rem;
+  background: #e8f4ec;
+  color: var(--osh-green);
+  font-size: 1.7rem;
+}
+
+.osh footer {
+  line-height: 1.5;
+}
+
+/* Responsive layout */
+@media (max-width: 767.98px) {
+  .osh .hero {
+    padding-top: 2.5rem !important;
+  }
+
+  .osh .hero-img {
+    max-height: 480px;
+  }
+
+  .osh .pdf {
+    height: 74vh;
+  }
+
+  .osh .blocks li {
+    min-width: 42%;
+  }
+
+  .osh .navbar-collapse {
+    padding: 0.75rem 0 1rem;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .osh .btn-osh,
+  .osh .btn-osh-outline {
+    transition: none;
+  }
+}
