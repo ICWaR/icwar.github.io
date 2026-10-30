@@ -1,8 +1,10 @@
 :host {
   display: block;
+  width: 100%;
 }
 
 .osh {
+  width: 100%;
   --osh-green: #206b49;
   --osh-blue: #244a79;
   --osh-ink: #183b38;
@@ -113,11 +115,7 @@
 
 /* Hero */
 .osh .hero {
-  background: linear-gradient(
-    130deg,
-    #f0f8f2 0%,
-    #edf5fc 100%
-  );
+  background: linear-gradient(130deg, #f0f8f2 0%, #edf5fc 100%);
 }
 
 .osh .hero h1 {
@@ -164,11 +162,7 @@
 }
 
 .osh .momentum {
-  background: linear-gradient(
-    120deg,
-    #e8f4eb,
-    #edf4fc
-  );
+  background: linear-gradient(120deg, #e8f4eb, #edf4fc);
   border: 1px solid #dce9e2;
 }
 
@@ -232,26 +226,55 @@
   line-height: 1.5;
 }
 
-/* Brochure */
-.osh .brochure-viewer {
+/* Conference brochures */
+.osh .brochure-card {
+  display: flex;
+  flex-direction: column;
   box-shadow: 0 6px 24px rgba(22, 54, 47, 0.07);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
 }
 
-.osh .pdf {
+.osh .brochure-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(22, 54, 47, 0.11);
+}
+
+.osh .brochure-heading .badge {
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  padding: 0.5rem 0.8rem;
+}
+
+.osh .brochure-description {
+  min-height: 3.4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.osh .brochure-preview {
   display: block;
   width: 100%;
-  height: 660px;
+  max-width: 100%;
+  min-width: 0;
+  height: 610px;
+  overflow: hidden;
+  border: 1px solid #e1e8e4;
+  border-radius: 0.65rem;
+  background: #f8faf9;
+}
+
+.osh .brochure-frame {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
   border: 0;
-  border-radius: 0.35rem;
+  background: #fff;
 }
 
 /* Startup competition */
 .osh .comp {
-  background: linear-gradient(
-    180deg,
-    #f7faf8,
-    #eef5f1
-  );
+  background: linear-gradient(180deg, #f7faf8, #eef5f1);
 }
 
 .osh .deadline-card {
@@ -317,11 +340,34 @@
   font-size: 1.7rem;
 }
 
-.osh footer {
+.osh .osh-footer {
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-align: center;
   line-height: 1.5;
 }
 
+.osh .osh-footer .footer-content {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.osh .osh-footer p {
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Responsive layout */
+@media (max-width: 991.98px) {
+  .osh .brochure-preview {
+    height: 560px;
+  }
+}
+
 @media (max-width: 767.98px) {
   .osh .hero {
     padding-top: 2.5rem !important;
@@ -331,8 +377,12 @@
     max-height: 480px;
   }
 
-  .osh .pdf {
-    height: 74vh;
+  .osh .brochure-preview {
+    height: 480px;
+  }
+
+  .osh .brochure-description {
+    min-height: 0;
   }
 
   .osh .blocks li {
@@ -347,7 +397,12 @@
 /* Accessibility */
 @media (prefers-reduced-motion: reduce) {
   .osh .btn-osh,
-  .osh .btn-osh-outline {
+  .osh .btn-osh-outline,
+  .osh .brochure-card {
     transition: none;
+  }
+
+  .osh .brochure-card:hover {
+    transform: none;
   }
 }

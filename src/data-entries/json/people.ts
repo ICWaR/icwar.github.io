@@ -910,7 +910,7 @@ export const postDoctoralScholars = [
         Designation: "National Post-Doctoral Fellow (ANRF)" ,
         'Degree and Affiliation': "PhD, Water Resources (Groundwater Modeling) | IIT Delhi" ,
         Project: "Effectiveness of Managed Aquifer Recharge for Climate Adaptation under Changing Wet-Dry Spell Dynamics",
-        email: "" ,
+        email: "ishitab1@iisc.ac.in" ,
         imgSrc: "../../assets/images/Post Doc/Dr.Ishita_Bhatnagar.webp",
       },
       {

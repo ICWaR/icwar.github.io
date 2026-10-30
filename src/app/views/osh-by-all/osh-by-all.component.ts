@@ -4,11 +4,41 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 export const OSH_CONFIG = {
   registerUrl: 'https://receipts.iisc.ac.in/form/v1/conferences/IISc-conf-one-sustainable-health-2026/registration',
   submitUrl: 'https://forms.gle/Eki7qajfQHaXnNM3A',
-  brochurePdf: '/assets/assets/brochures/OSH_by_all_2026_Brochure_IISc.pdf',
+  brochures: [
+    {
+      id: 'bts',
+      label: 'With BTS 2026',
+      title: 'One Sustainable Health by all 2026',
+      subtitle: '17-19 November 2026 | BIEC and IISc, Bengaluru',
+      description: 'Includes the 17 November programme at Bengaluru Tech Summit 2026 (BIEC), followed by the IISc programme on 18-19 November.',
+      pdf: '/assets/assets/brochures/OSH-2026-Brochure_1.pdf',
+      downloadName: 'OSH-2026-Brochure_1.pdf'
+    },
+    {
+      id: 'iisc',
+      label: 'IISc Only',
+      title: 'One Sustainable Health by all 2026',
+      subtitle: '18-19 November 2026 | IISc, Bengaluru',
+      description: 'For participants attending the IISc programme on 18-19 November 2026. This version covers the IISc programme only.',
+      pdf: '/assets/assets/brochures/OSH-2026-Brochure_2.pdf',
+      downloadName: 'OSH-2026-Brochure_2.pdf'
+    }
+  ],
   submitDeadline: '2026-11-04T23:55:00+05:30',
   registrationDeadline: '2026-11-13T17:00:00+05:30',
   eventEnd: '2026-11-19T17:30:00+05:30'
 } as const;
+
+type BrochureView = {
+  id: string;
+  label: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  pdf: string;
+  downloadName: string;
+  safeUrl: SafeResourceUrl;
+};
 
 @Component({
   selector: 'app-osh-by-all',
@@ -17,20 +47,22 @@ export const OSH_CONFIG = {
 })
 export class OshByAllComponent implements OnInit, AfterViewInit, OnDestroy {
   readonly cfg = OSH_CONFIG;
-  readonly brochureUrl: SafeResourceUrl;
+  readonly brochures: BrochureView[];
+
   menuOpen = false;
   banner = '';
   countdown = '';
   submissionClosed = false;
   registrationClosed = false;
   eventEnded = false;
+
   private timerId: ReturnType<typeof setInterval> | null = null;
 
   readonly nav = [
     { id: 'about', label: 'About OSH' },
     { id: 'pillars', label: 'Focus areas' },
     { id: 'program', label: 'Programme' },
-    { id: 'brochure', label: 'Brochure' },
+    { id: 'brochure', label: 'Brochures' },
     { id: 'students', label: 'Startup ideas' },
     { id: 'team', label: 'Committee' },
     { id: 'contact', label: 'Contact' }
@@ -69,26 +101,41 @@ export class OshByAllComponent implements OnInit, AfterViewInit, OnDestroy {
     'Bengaluru as a long-term OSH innovation hub'
   ];
 
-  readonly blocks = ['One Vision', 'One Connect', 'One Collaboration', 'One Impact', 'One Future'];
+  readonly blocks = [
+    'One Vision',
+    'One Connect',
+    'One Collaboration',
+    'One Impact',
+    'One Future'
+  ];
 
   readonly days = [
     {
-      date: 'Tuesday, 17 November 2026', iso: '2026-11-17', color: '#7a3b94',
-      event: 'Bengaluru Tech Summit 2026', time: '9:30 AM to 5:30 PM',
+      date: 'Tuesday, 17 November 2026',
+      iso: '2026-11-17',
+      color: '#7a3b94',
+      event: 'Bengaluru Tech Summit 2026',
+      time: '10:00 AM to 6:00 PM',
       venue: 'Bengaluru International Exhibition Centre (BIEC), Bengaluru',
       details: ['OSH by all 2026 launch and announcement.']
     },
     {
-      date: 'Wednesday, 18 November 2026', iso: '2026-11-18', color: '#2e9b3f',
-      event: 'OSH by all Bengaluru 2026', time: '9:30 AM to 5:30 PM',
+      date: 'Wednesday, 18 November 2026',
+      iso: '2026-11-18',
+      color: '#2e9b3f',
+      event: 'OSH by all Bengaluru 2026',
+      time: '9:30 AM to 5:30 PM',
       venue: 'Indian Institute of Science (IISc), Bengaluru',
       details: ['Inauguration and keynote sessions.', 'Exhibition showcase.']
     },
     {
-      date: 'Thursday, 19 November 2026', iso: '2026-11-19', color: '#1b6fb5',
-      event: 'OSH by all Bengaluru 2026', time: '9:30 AM to 5:30 PM',
+      date: 'Thursday, 19 November 2026',
+      iso: '2026-11-19',
+      color: '#1b6fb5',
+      event: 'OSH by all Bengaluru 2026',
+      time: '9:30 AM to 5:30 PM',
       venue: 'Indian Institute of Science (IISc), Bengaluru',
-      details: ['Panel discussions and talks.']
+      details: ['Keynote sessions, panel discussions and talks.']
     }
   ];
 
@@ -100,15 +147,37 @@ export class OshByAllComponent implements OnInit, AfterViewInit, OnDestroy {
   ];
 
   readonly formats = [
-    { title: 'Poster presentation', format: 'Bring a printed poster on the morning of the presentation.', presenters: 'The full team, up to 4 members.', awards: 'Top 3 posters.' },
-    { title: 'Oral presentation', format: 'PowerPoint presentation: 3 minutes, followed by 2 minutes of questions and answers.', presenters: 'One team member only.', awards: 'Top 3 presentations.' }
+    {
+      title: 'Poster presentation',
+      format: 'Bring a printed poster on the morning of the presentation.',
+      presenters: 'The full team, up to 4 members.',
+      awards: 'Top 3 posters.'
+    },
+    {
+      title: 'Oral presentation',
+      format: 'PowerPoint presentation: 3 minutes, followed by 2 minutes of questions and answers.',
+      presenters: 'One team member only.',
+      awards: 'Top 3 presentations.'
+    }
   ];
 
   readonly steps = [
-    { title: '1. Register', description: 'Every team member registers individually. Pitching teams must register before applying.' },
-    { title: '2. Apply', description: 'After all members register, one member submits a single application for the team. Idea submission is free.' },
-    { title: '3. Selection', description: 'Entries are evaluated and assigned to oral or poster presentations. Selected teams are notified by email.' },
-    { title: '4. Present', description: 'Present the selected idea in the format assigned by the organisers.' }
+    {
+      title: '1. Register',
+      description: 'Every team member registers individually. Pitching teams must register before applying.'
+    },
+    {
+      title: '2. Apply',
+      description: 'After all members register, one member submits a single application for the team. Idea submission is free.'
+    },
+    {
+      title: '3. Selection',
+      description: 'Entries are evaluated and assigned to oral or poster presentations. Selected teams are notified by email.'
+    },
+    {
+      title: '4. Present',
+      description: 'Present the selected idea in the format assigned by the organisers.'
+    }
   ];
 
   readonly committee = [
@@ -123,7 +192,10 @@ export class OshByAllComponent implements OnInit, AfterViewInit, OnDestroy {
   ];
 
   constructor(private readonly sanitizer: DomSanitizer) {
-    this.brochureUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`${OSH_CONFIG.brochurePdf}#view=FitH`);
+    this.brochures = OSH_CONFIG.brochures.map((brochure) => ({
+      ...brochure,
+      safeUrl: this.sanitizer.bypassSecurityTrustResourceUrl(`${brochure.pdf}#view=FitH`)
+    }));
   }
 
   ngOnInit(): void {
@@ -133,15 +205,20 @@ export class OshByAllComponent implements OnInit, AfterViewInit, OnDestroy {
 
   ngAfterViewInit(): void {
     const id = window.location.hash.slice(1);
-    if (id) window.setTimeout(() => this.go(id), 250);
+    if (id) {
+      window.setTimeout(() => this.go(id), 250);
+    }
   }
 
   ngOnDestroy(): void {
-    if (this.timerId !== null) clearInterval(this.timerId);
+    if (this.timerId !== null) {
+      clearInterval(this.timerId);
+    }
   }
 
   private updateClock(now = new Date()): void {
     const remaining = new Date(OSH_CONFIG.submitDeadline).getTime() - now.getTime();
+
     this.eventEnded = now.getTime() >= new Date(OSH_CONFIG.eventEnd).getTime();
     this.submissionClosed = remaining <= 0;
     this.registrationClosed = now.getTime() >= new Date(OSH_CONFIG.registrationDeadline).getTime();
@@ -163,6 +240,7 @@ export class OshByAllComponent implements OnInit, AfterViewInit, OnDestroy {
     const days = Math.floor(remaining / 86400000);
     const hours = Math.floor((remaining % 86400000) / 3600000);
     const minutes = Math.floor((remaining % 3600000) / 60000);
+
     this.countdown = `${days}d ${hours}h ${minutes}m`;
     this.banner = `Startup idea submissions close on 4 November 2026 at 11:55 PM IST (${this.countdown} remaining). Conference registration closes on 13 November at 5:00 PM IST.`;
   }
@@ -170,6 +248,9 @@ export class OshByAllComponent implements OnInit, AfterViewInit, OnDestroy {
   go(id: string, event?: Event): void {
     event?.preventDefault();
     this.menuOpen = false;
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.getElementById(id)?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
   }
 }

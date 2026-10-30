@@ -77,7 +77,7 @@
         <div class="col-lg-7">
 
           <span class="badge rounded-pill bg-white border mb-3 fs-6 fw-semibold text-success">
-            18-19 November 2026 | IISc, Bengaluru, India
+            17-19 November 2026 | Bengaluru, India
           </span>
 
           <h1 class="display-4 mb-3">
@@ -113,7 +113,7 @@
             <a class="btn btn-osh-outline btn-lg"
                href="#brochure"
                (click)="go('brochure', $event)">
-              View brochure
+              View brochures
             </a>
 
           </div>
@@ -360,71 +360,74 @@
     </div>
   </section>
 
-  <!-- BROCHURE -->
+  <!-- CONFERENCE BROCHURES -->
   <section id="brochure" class="py-5 tint">
 
     <div class="container">
+      <p class="section-kicker">Event information</p>
+      <div class="text-center mb-4">
 
-      <div class="row align-items-center g-4">
+        <h2>Conference Brochures</h2>
+        <p class="text-secondary mx-auto">
+          Two brochure versions are available. Choose the version that matches
+          the programme you plan to attend.
+        </p>
+      </div>
 
-        <div class="col-lg-5">
+      <div class="row g-4 align-items-stretch">
 
-          <p class="section-kicker">Event information</p>
+        <div class="col-lg-6" *ngFor="let brochure of brochures">
 
-          <h2>Conference brochure</h2>
+          <article class="brochure-card h-100 bg-white border rounded-4 p-3 p-md-4">
 
-          <p class="text-secondary">
-            Read the draft brochure for the OSH vision, event overview,
-            strategic pillars, organising committee and startup idea
-            competition details.
-          </p>
+            <div class="brochure-heading text-center mb-3">
+              <span class="badge rounded-pill mb-2"
+                    [ngClass]="brochure.id === 'bts' ? 'bg-primary' : 'bg-success'">
+                {{ brochure.label }}
+              </span>
 
-          <div class="d-flex flex-wrap gap-2">
-
-            <a class="btn btn-osh"
-               [href]="cfg.brochurePdf"
-               target="_blank"
-               rel="noopener">
-              Open brochure
-            </a>
-
-            <a class="btn btn-osh-outline"
-               [href]="cfg.brochurePdf"
-               download>
-              Download PDF
-            </a>
-
-          </div>
-        </div>
-
-        <div class="col-lg-7">
-
-          <div class="brochure-viewer bg-white border rounded-3 p-2">
-
-            <iframe class="pdf d-none d-md-block"
-                    [src]="brochureUrl"
-                    title="One Sustainable Health by all 2026 draft brochure">
-            </iframe>
-
-            <div class="d-md-none text-center p-4">
-
-              <p class="mb-3">
-                Open the three-page draft brochure on your device.
-              </p>
-
-              <a class="btn btn-osh"
-                 [href]="cfg.brochurePdf"
-                 target="_blank"
-                 rel="noopener">
-                View brochure PDF
-              </a>
-
+              <h3 class="h5 mb-1">{{ brochure.title }}</h3>
+              <p class="ps-4 small text-secondary mb-0">{{ brochure.subtitle }}</p>
             </div>
 
-          </div>
+            <p class="brochure-description small text-secondary text-center mb-3">
+              {{ brochure.description }}
+            </p>
+
+            <!-- Full-width PDF viewer within each brochure card -->
+            <div class="row g-0 mb-3">
+              <div class="col-12">
+                <div class="brochure-preview w-100">
+                  <iframe class="brochure-frame"
+                          [src]="brochure.safeUrl"
+                          [title]="brochure.title"
+                          loading="lazy">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center flex-wrap gap-2">
+              <a class="btn btn-osh"
+                 [href]="brochure.pdf"
+                 target="_blank"
+                 rel="noopener">
+                View Brochure
+              </a>
+
+              <a class="btn btn-osh-outline"
+                 [href]="brochure.pdf"
+                 [attr.download]="brochure.downloadName">
+                Download PDF
+              </a>
+            </div>
+
+          </article>
+
         </div>
 
       </div>
+
     </div>
   </section>
 
@@ -624,7 +627,7 @@
 
       <p class="mt-3 mb-0 text-secondary">
         Hosted at the Indian Institute of Science (IISc),
-        C. V. Raman Avenue, Bengaluru 560012, India.
+        C. V. Raman Avenue, Bengaluru - 560 012, India.
       </p>
 
     </div>
@@ -698,10 +701,10 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer class="py-4 border-top bg-white text-center text-secondary small">
+  <!-- FULL-WIDTH CENTRED FOOTER -->
+  <footer class="osh-footer w-100 py-4 border-top bg-white text-center text-secondary small">
 
-    <div class="container">
+    <div class="footer-content w-100 px-3">
 
       <p class="mb-1">
         <strong class="text-body">One Sustainable Health by all 2026</strong>
