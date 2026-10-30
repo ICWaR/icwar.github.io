@@ -1,0 +1,724 @@
+<div class="osh" id="top">
+
+  <!-- ANNOUNCEMENT -->
+  <div class="osh-alert text-center px-3 py-2"
+       role="status"
+       *ngIf="banner">
+    <span>{{ banner }}</span>
+    <a class="ms-2 fw-semibold"
+       href="#students"
+       (click)="go('students', $event)">
+      Details
+    </a>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white border-bottom"
+       aria-label="Main navigation">
+
+    <div class="container">
+
+      <a class="navbar-brand"
+         href="#top"
+         (click)="go('top', $event)"
+         aria-label="One Sustainable Health by all 2026">
+        <img src="/assets/assets/img/logo.png"
+             alt="One Sustainable Health by all 2026"
+             width="109"
+             height="48">
+      </a>
+
+      <button class="navbar-toggler"
+              type="button"
+              aria-label="Toggle navigation"
+              [attr.aria-expanded]="menuOpen"
+              (click)="menuOpen = !menuOpen">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse"
+           [class.show]="menuOpen">
+
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+
+          <li class="nav-item" *ngFor="let item of nav">
+            <a class="nav-link"
+               [href]="'#' + item.id"
+               (click)="go(item.id, $event)">
+              {{ item.label }}
+            </a>
+          </li>
+
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-osh"
+               [class.disabled]="registrationClosed"
+               [attr.aria-disabled]="registrationClosed"
+               [attr.tabindex]="registrationClosed ? -1 : null"
+               [href]="registrationClosed ? null : cfg.registerUrl"
+               target="_blank"
+               rel="noopener">
+              {{ registrationClosed ? 'Registration closed' : 'Register' }}
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero py-5">
+
+    <div class="container py-lg-4">
+
+      <div class="row align-items-center g-5">
+
+        <div class="col-lg-7">
+
+          <span class="badge rounded-pill bg-white border mb-3 fs-6 fw-semibold text-success">
+            17-19 November 2026 | Bengaluru, India
+          </span>
+
+          <h1 class="display-4 mb-3">
+            One Planet.<br>
+            One Health.<br>
+            One Future.
+          </h1>
+
+          <p class="lead text-secondary">
+            One Sustainable Health by all brings science, technology,
+            policy, industry and communities together to advance
+            integrated health through innovation, AI, data and collaboration.
+          </p>
+
+          <div class="d-flex flex-wrap gap-2">
+
+            <a class="btn btn-osh btn-lg"
+               [class.disabled]="registrationClosed"
+               [attr.aria-disabled]="registrationClosed"
+               [attr.tabindex]="registrationClosed ? -1 : null"
+               [href]="registrationClosed ? null : cfg.registerUrl"
+               target="_blank"
+               rel="noopener">
+              {{ registrationClosed ? 'Registration closed' : 'Register to attend' }}
+            </a>
+
+            <a class="btn btn-osh-outline btn-lg"
+               href="#students"
+               (click)="go('students', $event)">
+              Startup idea competition
+            </a>
+
+            <a class="btn btn-osh-outline btn-lg"
+               href="#brochure"
+               (click)="go('brochure', $event)">
+              View brochures
+            </a>
+
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <img class="img-fluid rounded-4 shadow-sm hero-img"
+               src="/assets/assets/img/hero.jpg"
+               alt="One Sustainable Health theme illustration"
+               width="800"
+               height="1129"
+               fetchpriority="high">
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT ONE SUSTAINABLE HEALTH -->
+  <section id="about" class="py-5">
+
+    <div class="container">
+
+      <div class="row align-items-center g-5">
+
+        <div class="col-lg-7">
+
+          <p class="section-kicker">The OSH vision</p>
+
+          <h2>Why One Sustainable Health?</h2>
+
+          <p class="lead text-secondary">
+            Health challenges are interconnected and require solutions
+            beyond traditional healthcare. OSH brings human, animal,
+            plant and environmental health together through science,
+            technology, policy and innovation to help create resilient
+            ecosystems for future generations.
+          </p>
+
+          <ul class="ticks mb-0">
+            <li>
+              Responding to climate change, antimicrobial resistance
+              (AMR) and emerging health threats.
+            </li>
+            <li>
+              Using AI, digital innovation and data-driven approaches.
+            </li>
+            <li>
+              Connecting science, policy, industry and communities.
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="col-lg-5">
+          <img class="img-fluid rounded-4"
+               src="/assets/assets/img/globe.jpg"
+               alt="Illustration representing connected human, animal, plant and environmental health"
+               width="500"
+               height="572"
+               loading="lazy">
+        </div>
+
+      </div>
+
+      <!-- FOUR HEALTH DIMENSIONS -->
+      <div class="row g-3 mt-4">
+
+        <div class="col-sm-6 col-lg-3"
+             *ngFor="let dimension of dimensions">
+
+          <article class="dimension-card h-100 p-4 rounded-3 bg-white border"
+                   [style.border-top-color]="dimension.color">
+
+            <h3 class="h5"
+                [style.color]="dimension.color">
+              {{ dimension.title }}
+            </h3>
+
+            <p class="mb-0 text-secondary">
+              {{ dimension.description }}
+            </p>
+
+          </article>
+        </div>
+
+      </div>
+
+      <!-- GLOBAL MOMENTUM -->
+      <div class="momentum rounded-4 p-4 p-lg-5 mt-4">
+
+        <h3 class="h4">Building global momentum</h3>
+
+        <p class="mb-0">
+          OSH by all Bengaluru 2026 builds on the OSH Summit 2025
+          and the One Health Summit France 2026, celebrates the
+          Indo-French Year of Innovation, and strengthens partnerships
+          between South Asia and Europe.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- STRATEGIC PILLARS -->
+  <section id="pillars" class="py-5 tint">
+
+    <div class="container">
+
+      <p class="section-kicker">Focus areas</p>
+
+      <h2>Four strategic pillars</h2>
+
+      <div class="row g-3 mt-2">
+
+        <div class="col-md-6" *ngFor="let pillar of pillars">
+
+          <article class="pillar-card h-100 p-4 rounded-3 bg-white border">
+
+            <h3 class="h5">{{ pillar.title }}</h3>
+
+            <p class="mb-0 text-secondary">
+              {{ pillar.description }}
+            </p>
+
+          </article>
+
+        </div>
+      </div>
+
+      <p class="mt-4 mb-0">
+        <strong>Also featured:</strong>
+        AI and digital health, One Health data platforms, climate,
+        water and soil, innovative financing, the One Health Village
+        showcase, networking and international project collaborations.
+      </p>
+
+      <!-- AUDIENCE AND OUTCOMES -->
+      <div class="row g-4 mt-3">
+
+        <div class="col-lg-6">
+
+          <div class="info-panel h-100 p-4 rounded-3 bg-white border">
+
+            <h3 class="h5">Who will be there</h3>
+
+            <ul class="mb-0">
+              <li *ngFor="let audience of audiences">
+                {{ audience }}
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="info-panel h-100 p-4 rounded-3 bg-white border">
+
+            <h3 class="h5">Expected outcomes</h3>
+
+            <ul class="mb-0">
+              <li *ngFor="let outcome of outcomes">
+                {{ outcome }}
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FIVE BLOCKS -->
+      <div class="mt-4">
+
+        <h3 class="h5">Five blocks of OSH</h3>
+
+        <ol class="blocks list-unstyled d-flex flex-wrap gap-2 p-0 mb-0">
+
+          <li class="flex-fill text-center"
+              *ngFor="let block of blocks">
+            {{ block }}
+          </li>
+
+        </ol>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROGRAMME AND VENUES -->
+  <section id="program" class="py-5">
+
+    <div class="container">
+
+      <p class="section-kicker">Dates and venues</p>
+
+      <h2>Programme</h2>
+
+      <p class="lead text-secondary">
+        The programme begins at BIEC on 17 November and continues
+        at the Indian Institute of Science on 18-19 November 2026.
+      </p>
+
+      <div class="row g-3">
+
+        <div class="col-lg-4" *ngFor="let day of days">
+
+          <article class="schedule-card h-100 rounded-3 border bg-white p-4"
+                   [style.border-left-color]="day.color">
+
+            <time class="h4 d-block"
+                  [attr.datetime]="day.iso">
+              {{ day.date }}
+            </time>
+
+            <p class="fw-semibold mb-1">
+              {{ day.event }}
+            </p>
+
+            <p class="small text-secondary mb-3">
+              <strong>{{ day.time }}</strong><br>
+              {{ day.venue }}
+            </p>
+
+            <ul class="mb-0">
+              <li *ngFor="let item of day.details">
+                {{ item }}
+              </li>
+            </ul>
+
+          </article>
+
+        </div>
+      </div>
+
+      <p class="small text-secondary mt-3 mb-0">
+        The session-wise scientific programme will be added separately
+        when available.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- CONFERENCE BROCHURES -->
+  <section id="brochure" class="py-5 tint">
+
+    <div class="container">
+      <p class="section-kicker">Event information</p>
+      <div class="text-center mb-4">
+
+        <h2>Conference Brochures</h2>
+        <p class="text-secondary mx-auto">
+          Two brochure versions are available. Choose the version that matches
+          the programme you plan to attend.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+
+        <div class="col-lg-6" *ngFor="let brochure of brochures">
+
+          <article class="brochure-card h-100 bg-white border rounded-4 p-3 p-md-4">
+
+            <div class="brochure-heading text-center mb-3">
+              <span class="badge rounded-pill mb-2"
+                    [ngClass]="brochure.id === 'bts' ? 'bg-primary' : 'bg-success'">
+                {{ brochure.label }}
+              </span>
+
+              <h3 class="h5 mb-1">{{ brochure.title }}</h3>
+              <p class="ps-4 small text-secondary mb-0">{{ brochure.subtitle }}</p>
+            </div>
+
+            <p class="brochure-description small text-secondary text-center mb-3">
+              {{ brochure.description }}
+            </p>
+
+            <!-- Full-width PDF viewer within each brochure card -->
+            <div class="row g-0 mb-3">
+              <div class="col-12">
+                <div class="brochure-preview w-100">
+                  <iframe class="brochure-frame"
+                          [src]="brochure.safeUrl"
+                          [title]="brochure.title"
+                          loading="lazy">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center flex-wrap gap-2">
+              <a class="btn btn-osh"
+                 [href]="brochure.pdf"
+                 target="_blank"
+                 rel="noopener">
+                View Brochure
+              </a>
+
+              <a class="btn btn-osh-outline"
+                 [href]="brochure.pdf"
+                 [attr.download]="brochure.downloadName">
+                Download PDF
+              </a>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- STARTUP IDEA COMPETITION -->
+  <section id="students" class="py-5 comp">
+
+    <div class="container">
+
+      <p class="section-kicker">For students and young researchers</p>
+
+      <h2>Startup idea competition</h2>
+
+      <p class="lead text-secondary">
+        Undergraduate and graduate students, PhD scholars and young
+        researchers up to 35 years of age may submit an idea. Attendance
+        is open to all registered participants; presenting an idea is optional.
+      </p>
+
+      <!-- KEY DATES -->
+      <div class="row g-3 my-3">
+
+        <div class="col-6 col-lg-3"
+             *ngFor="let deadline of deadlines">
+
+          <div class="deadline-card h-100 rounded-3 p-3">
+
+            <small class="d-block text-secondary">
+              {{ deadline.label }}
+            </small>
+
+            <strong class="d-block fs-5">
+              {{ deadline.date }}
+            </strong>
+
+            <span class="small text-secondary">
+              {{ deadline.note }}
+            </span>
+
+            <span *ngIf="deadline.id === 'submit' && !submissionClosed"
+                  class="deadline-count d-block mt-2">
+              {{ countdown }} left
+            </span>
+
+            <span *ngIf="deadline.id === 'submit' && submissionClosed"
+                  class="deadline-count d-block mt-2">
+              Submissions closed
+            </span>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- COMPETITION CATEGORIES -->
+      <h3 class="h5 mt-4">Choose one category</h3>
+
+      <div class="row g-3">
+
+        <div class="col-sm-6 col-lg-3"
+             *ngFor="let dimension of dimensions">
+
+          <article class="category-card h-100 p-3 rounded-3 bg-white border"
+                   [style.border-top-color]="dimension.color">
+
+            <h4 class="h6 mb-0">
+              {{ dimension.title }}
+            </h4>
+
+          </article>
+        </div>
+
+      </div>
+
+      <!-- PRESENTATION FORMATS -->
+      <h3 class="h5 mt-4">Presentation formats</h3>
+
+      <div class="row g-3">
+
+        <div class="col-md-6" *ngFor="let format of formats">
+
+          <article class="format-card h-100 p-4 rounded-3 bg-white border">
+
+            <h4 class="h5">{{ format.title }}</h4>
+
+            <p>{{ format.format }}</p>
+
+            <p class="mb-1">
+              <strong>Presenters:</strong>
+              {{ format.presenters }}
+            </p>
+
+            <p class="mb-0">
+              <strong>Awards:</strong>
+              {{ format.awards }}
+            </p>
+
+          </article>
+        </div>
+
+      </div>
+
+      <!-- PARTICIPATION STEPS -->
+      <h3 class="h5 mt-4">How to participate</h3>
+
+      <ol class="steps list-unstyled row g-3 p-0">
+
+        <li class="col-sm-6 col-lg-3" *ngFor="let step of steps">
+
+          <div class="step-card h-100 rounded-3 bg-white border p-3">
+
+            <strong class="d-block mb-1">
+              {{ step.title }}
+            </strong>
+
+            <span class="small text-secondary">
+              {{ step.description }}
+            </span>
+
+          </div>
+
+        </li>
+      </ol>
+
+      <div class="alert alert-warning mb-3" role="note">
+        Idea submission is free. Conference registration carries a fee.
+        Every team member must register individually, and teams may be
+        disqualified if an unregistered member participates. Certificates
+        will be given to participants and award winners.
+      </div>
+
+      <div class="d-flex flex-wrap gap-2">
+
+        <a class="btn btn-osh"
+           [class.disabled]="registrationClosed"
+           [attr.aria-disabled]="registrationClosed"
+           [attr.tabindex]="registrationClosed ? -1 : null"
+           [href]="registrationClosed ? null : cfg.registerUrl"
+           target="_blank"
+           rel="noopener">
+          {{ registrationClosed ? 'Registration closed' : 'Register for the conference' }}
+        </a>
+
+        <a class="btn btn-osh-outline"
+           [class.disabled]="submissionClosed"
+           [attr.aria-disabled]="submissionClosed"
+           [attr.tabindex]="submissionClosed ? -1 : null"
+           [href]="submissionClosed ? null : cfg.submitUrl"
+           target="_blank"
+           rel="noopener">
+          {{ submissionClosed ? 'Idea submissions closed' : 'Submit a startup idea' }}
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ORGANISING COMMITTEE -->
+  <section id="team" class="py-5">
+
+    <div class="container">
+
+      <p class="section-kicker">People and collaboration</p>
+
+      <h2>Organising committee</h2>
+
+      <div class="row g-3 mt-2">
+
+        <div class="col-sm-6 col-lg-3"
+             *ngFor="let person of committee">
+
+          <article class="committee-card h-100 rounded-3 border p-3">
+
+            <strong class="d-block">
+              {{ person.name }}
+            </strong>
+
+            <span class="small text-secondary">
+              {{ person.affiliation }}
+            </span>
+
+          </article>
+        </div>
+
+      </div>
+
+      <div class="partner-logos bg-white border rounded-3 p-3 mt-4">
+
+        <img class="img-fluid"
+             src="/assets/assets/img/partners.png"
+             alt="Institutional and event partner logos"
+             width="1114"
+             height="159"
+             loading="lazy">
+
+      </div>
+
+      <p class="mt-3 mb-0 text-secondary">
+        Hosted at the Indian Institute of Science (IISc),
+        C. V. Raman Avenue, Bengaluru - 560 012, India.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5 tint">
+
+    <div class="container">
+
+      <div class="row align-items-center g-5">
+
+        <div class="col-lg-7">
+
+          <p class="section-kicker">Get in touch</p>
+
+          <h2>Contact</h2>
+
+          <p class="lead text-secondary">
+            For registration assistance, programme information,
+            startup idea submissions or partnership enquiries,
+            contact the ICWaR organising team.
+          </p>
+
+          <p class="mb-3">
+            <strong class="d-block">Email</strong>
+            <a href="mailto:office.icwar@iisc.ac.in">
+              office.icwar@iisc.ac.in
+            </a>
+          </p>
+
+          <p class="mb-3">
+            <strong class="d-block">Phone</strong>
+            <a href="tel:+918022932740">080 2293 2740</a>
+          </p>
+
+          <p class="mb-4">
+            <strong class="d-block">Organiser</strong>
+            Interdisciplinary Centre for Water Research (ICWaR),
+            Indian Institute of Science, Bengaluru
+          </p>
+
+          <a class="btn btn-osh btn-lg"
+             href="mailto:office.icwar@iisc.ac.in?subject=OSH%20by%20all%202026%20enquiry">
+            Email the organising team
+          </a>
+
+        </div>
+
+        <div class="col-lg-5">
+
+          <div class="contact-card h-100 rounded-4 border bg-white p-4 p-md-5">
+
+            <span class="contact-mark" aria-hidden="true">✉</span>
+
+            <h3 class="h4 mt-3">
+              One Planet. One Health. One Future.
+            </h3>
+
+            <p class="text-secondary mb-0">
+              Join researchers, policymakers, healthcare and veterinary
+              professionals, environmental experts, technology leaders,
+              startups, students and international partners to advance
+              One Sustainable Health.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FULL-WIDTH CENTRED FOOTER -->
+  <footer class="osh-footer w-100 py-4 border-top bg-white text-center text-secondary small">
+
+    <div class="footer-content w-100 px-3">
+
+      <p class="mb-1">
+        <strong class="text-body">One Sustainable Health by all 2026</strong>
+        | One Planet. One Health. One Future.
+      </p>
+
+      <p class="mb-0">
+        ICWaR, Indian Institute of Science, Bengaluru |
+        <a href="mailto:office.icwar@iisc.ac.in">
+          office.icwar@iisc.ac.in
+        </a>
+      </p>
+
+    </div>
+  </footer>
+
+</div>

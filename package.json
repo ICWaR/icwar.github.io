@@ -1,17 +1,17 @@
 {
   "name": "ICWaR",
   "version": "(beta)1.0.0",
-  "description": "WebApp for ICWaR IISC",
+  "description": "WebApp for ICWaR IISc",
   "author": "Archit Bubber",
-  "homepage": "http://www.icwar.iisc.ac.in",
+  "homepage": "http://icwar.iisc.ac.in",
   "copyright": "ICWaR",
-  "license": "IISC",
+  "license": "IISc",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4200 --ssl true",
     "liveOnIntraNet": "ng serve --host 0.0.0.0",
-    "build": "ng build --configuration production && cp docs/index.html docs/404.html && cp CNAME docs/.",
-    "watch": "ng build --watch --configuration development",
+    "build": "ng build --configuration production --output-path docs && node -e \"require('fs').copyFileSync('docs/index.html','docs/404.html')\"",
+    "watch": "ng build --watch --configuration development --output-path docs",
     "test": "ng test"
   },
   "private": true,

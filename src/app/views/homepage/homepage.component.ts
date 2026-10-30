@@ -10,10 +10,10 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./homepage.component.scss']
 })
 export class HomepageComponent {
-
+  paused = false;
   $=$;
   data =  homepageData;
-  slides=['../../../assets/images/Slide/slideshow1.jpg','../../../assets/images/Slide/slideshow2.jpg','../../../assets/images/Slide/slideshow5.jpg']
+  slides=['../../../assets/images/Slide/8.jpg','../../../assets/images/Slide/1.webp','../../../assets/images/Slide/2.webp','../../../assets/images/Slide/3.webp','../../../assets/images/Slide/4.webp','../../../assets/images/Slide/5.webp','../../../assets/images/Slide/6.webp','../../../assets/images/Slide/7.webp']
   news=newsJson;
   seminars=seminars;
   constructor(
@@ -56,6 +56,9 @@ export class HomepageComponent {
     }
     // Otherwise, return the substring up to the last space
     return title.substring(0, lastSpaceIndex);
+  }
+  scrollToTop(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
 }
