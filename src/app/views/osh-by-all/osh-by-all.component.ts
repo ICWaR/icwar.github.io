@@ -24,7 +24,7 @@ export const OSH_CONFIG = {
       downloadName: 'OSH-2026-Brochure_2.pdf'
     }
   ],
-  submitDeadline: '2026-11-04T23:55:00+05:30',
+  submitDeadline: '2026-11-12T23:55:00+05:30',
   registrationDeadline: '2026-11-13T17:00:00+05:30',
   eventEnd: '2026-11-19T17:30:00+05:30'
 } as const;
@@ -140,7 +140,7 @@ export class OshByAllComponent implements OnInit, AfterViewInit, OnDestroy {
   ];
 
   readonly deadlines = [
-    { id: 'submit', label: 'Submit a startup idea', date: '4 November 2026', note: '11:55 PM IST | Free' },
+    { id: 'submit', label: 'Submit a startup idea', date: '12 November 2026', note: '11:55 PM IST | Free' },
     { id: 'register', label: 'Register to attend', date: '13 November 2026', note: '5:00 PM IST | Fee applies' },
     { id: 'poster', label: 'Poster presentations', date: '18 November 2026', note: 'Morning | Printed poster' },
     { id: 'oral', label: 'Oral presentations', date: '19 November 2026', note: '3-minute talk + 2-minute Q&A' }
@@ -242,7 +242,7 @@ export class OshByAllComponent implements OnInit, AfterViewInit, OnDestroy {
     const minutes = Math.floor((remaining % 3600000) / 60000);
 
     this.countdown = `${days}d ${hours}h ${minutes}m`;
-    this.banner = `Startup idea submissions close on 4 November 2026 at 11:55 PM IST (${this.countdown} remaining). Conference registration closes on 13 November at 5:00 PM IST.`;
+    this.banner = `Startup idea submissions close on 12 November 2026 at 11:55 PM IST (${this.countdown} remaining). Conference registration closes on 13 November at 5:00 PM IST.`;
   }
 
   go(id: string, event?: Event): void {
